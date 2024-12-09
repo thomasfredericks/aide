@@ -53,3 +53,6 @@
 * [touchdesigner > tutoriel > reception](/touchdesigner/tutoriel/reception.md)
 * [unity > osc > extosc](/unity/osc/extosc/README.md)
 * [unity > osc > oscjackvs](/unity/osc/oscjackvs/README.md)
+* [vcv_rack > baleines](/vcv_rack/baleines/README.md)
+* [vcv_rack > bulles](/vcv_rack/bulles/README.md)
+* [vcv_rack > tape_warble](/vcv_rack/tape_warble/README.md)
