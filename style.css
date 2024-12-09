@@ -1102,7 +1102,11 @@ figure {
   margin: auto;
   max-width: 800px;
   background-color: #222;
-  background: linear-gradient(to bottom, #fff, #222);
+  background: linear-gradient(to bottom, 
+  #fff 0%,      /* White at the start */
+  #fff 25%,      /* White at the start */
+  #222 100%     /* Dark gray at the end */
+);
 }
 
 
