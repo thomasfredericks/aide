@@ -109,13 +109,18 @@ body {
 
 img {
   max-width: 100%;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease; /* Smooth transition effect */
 }
 
-img:hover {
+img:not(.lightbox-image) {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+img:not(.lightbox-image):hover {
   filter: grayscale(0%);
 }
+
+
 
 a[disabled] {
   cursor: not-allowed;
@@ -506,7 +511,7 @@ body.sticky .sidebar-toggle {
 }
 
 body.close .sidebar {
-  transform: translateX(-300px);
+  transform: translateX(-400px);
 }
 
 body.close .sidebar-toggle {
@@ -548,7 +553,7 @@ body.close .content {
   }
 
   .sidebar {
-    left: -300px;
+    left: -400px;
     transition: transform .25s ease-out;
   }
 
@@ -572,7 +577,7 @@ body.close .content {
   }
 
   body.close .sidebar {
-    transform: translateX(300px);
+    transform: translateX(400px);
   }
 
   body.close .sidebar-toggle {
@@ -583,7 +588,7 @@ body.close .content {
   }
 
   body.close .content {
-    transform: translateX(300px);
+    transform: translateX(400px);
   }
 
   body.close .app-nav,
