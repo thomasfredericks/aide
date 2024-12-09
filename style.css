@@ -1,12 +1,12 @@
 :root {
-  --theme-color: #006d70; /* Default pink color */
+  --theme-color: #000; /* Default pink color */
   --theme-color-hover: #00b7bc;
   --theme-background: #ffffff;
   --theme-text: #34495e;
   --theme-border: rgba(0, 0, 0, 0.07);
   --theme-highlight: #006d70; /* Pink */
   --theme-highlight-text: #ffffff;
-  --theme-link: #006d70; /* Pink */
+  --theme-link: #ff0000; /* Pink */
   --theme-link-hover: #00b7bc; /* Pink hover */
   --theme-bold-text: #2c3e50; /* Default bold text color */
   --code-background: #f8f8f8; /* Light mode code block background */
@@ -292,6 +292,7 @@ main.hidden {
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #ff0000;
 }
 
 .sidebar > h1 a {
