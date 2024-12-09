@@ -109,6 +109,12 @@ body {
 
 img {
   max-width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; /* Smooth transition effect */
+}
+
+img:hover {
+  filter: grayscale(0%);
 }
 
 a[disabled] {
