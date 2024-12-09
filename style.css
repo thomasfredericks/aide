@@ -26,6 +26,13 @@
   box-sizing: border-box;
 }
 
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body:not(.ready) {
   overflow: hidden;
 }
@@ -279,9 +286,12 @@ main.hidden {
 
 .sidebar > h1 {
   margin: 0 auto 1rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 300;
   text-align: center;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .sidebar > h1 a {
@@ -1094,4 +1104,10 @@ figcaption {
   padding: 3px;
   text-align: center;
 
+}
+
+.pagination-item-title {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
