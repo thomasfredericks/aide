@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="AIDE*TOF">
+    <title>AIDE*TOF</title>
+
+   
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
+    <!-- Custom Styles -->
+
+
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script>
+        window.$docsify = {
+            name: 'AIDE*TOF',
+            repo: '',
+            relativePath: true,
+            unhashtagLinkExtensions: ['.pdf', '.html', '.docx', '.pd', '.maxpat'],  // Override file types here
+            auto2top: true,
+            // sidebarDisplayLevel: 1, // set sidebar display level
+            loadSidebar: true,    // Enable sidebar loading
+
+            copyCode: {
+                buttonText: '📄',
+                errorText: '⚠️',
+                successText: '✅ ',
+            },
+            pagination: {
+                previousText: 'Précédent',
+                nextText: 'Prochain',
+                crossChapter: false,
+                crossChapterText: true,
+            },
+            plugins: [
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
+                            const images = document.querySelectorAll('img');
+                            const lightbox = new module.default();
+                            lightbox.initialize(images);
+                        }).catch(err => console.error('Failed to load Lightbox plugin', err));
+                    });
+                }
+            ]
+        };
+    </script>
+
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+    <script src="https://unpkg.com/@h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
+
+    <!-- Import Mermaid -->
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({ startOnLoad: true });
+        window.mermaid = mermaid;
+    </script>
+    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="https://gllmar.github.io/docsify-alert/docsify-alerts.js"></script>
+    <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.js"></script>
+    <script src="https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js"></script>
+</body>
+
+</html>
