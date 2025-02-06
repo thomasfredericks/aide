@@ -31,3 +31,16 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ## Ajouter la bibliothèque M5Atom
 
 ![Installer la bibliothèque M5Atom avec toutes les dépendances](ajouter_m5atom2.SVG)
+
+## Choisir la bonne plateforme
+
+![Configurer pour la bonne plateforme](configurer_plateforme.png)
+
+## Identifier le port
+
+![Identifier le bon port (le numéro de COM risque d'être différent)](trouver_port.svg)
+
+## Choisir le port
+
+![Configurer pour le bon port (le numéro de COM risque d'être différent)](configurer_port.png)
+
