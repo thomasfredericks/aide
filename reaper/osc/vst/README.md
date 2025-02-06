@@ -1,11 +1,13 @@
 
-# OSC MIDI dans Reaper
+# Contrôle de VST dans Reaper par OSC
 
 ## Préalable(s)
 
-- [OSC dans Reaper](/reaper/osc.md)
+- [OSC dans Reaper](/reaper/osc/)
+- [Virtual Keyboard](/reaper/midi/vkb/)
+- [Assigner un MIDI CC à un paramètre d'un VST](/reaper/midi/cc/vst)
 
-## Virtual MIDI Keyboard
+### Contrôler le Virtual Keyboard (VKB) par OSC
 
 ```mermaid
 graph LR
@@ -17,13 +19,6 @@ graph LR
     LINK --> VST
     end
 ```
-### Ouvrir et configurer le Virtual MIDI Keyboard
-
-![](virtual-midi-keyboard_view.png)
-
-![](virtual-midi-keyboard_configure.png)
-
-![](virtual-midi-keyboard_activate.png)
 
 #### Message OSC pour envoyer un MIDI Note au Virtual MIDI Keyboard
 
@@ -36,17 +31,6 @@ graph LR
 
 #### Message OSC pour envoyer un MIDI CC au Virtual MIDI Keyboard
 
-```
-/vkb_midi/@/cc/# i
-```
-* `@` : canal 0-15 (int)
-* `#` : numéro du CC 0-127 (int)
-* `i` : valeur 0-127 (int)
-
-
-
-#### Lier les MIDI CC
-
 ```mermaid
 graph LR
     OSC[OSC UDP] --> Control
@@ -58,4 +42,11 @@ graph LR
 ```
 
 
-![](midi_cc_link.png)
+```
+/vkb_midi/@/cc/# i
+```
+* `@` : canal 0-15 (int)
+* `#` : numéro du CC 0-127 (int)
+* `i` : valeur 0-127 (int)
+
+
