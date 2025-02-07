@@ -4,7 +4,11 @@
 
 - [Protocole Open Sound Control (OSC)](/osc/README.md)
 
-## Code TouchDesigner 
+## Code TouchDesigner pour envoyer 1 donnée
+
+![](oscout_1valeur.png)
+
+## Code TouchDesigner pour envoyer 3 données
 
 ![](oscout_3valeurs.png)
 
