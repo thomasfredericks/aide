@@ -1,10 +1,10 @@
 
-# Contrôle de VST dans Reaper par OSC
+# Contrôle d'un effet ou instrument par OSC avec le Virtual Keyboard (VKB)
 
 ## Préalable(s)
 
 - [OSC dans Reaper](/reaper/osc/)
-- [Virtual Keyboard](/reaper/midi/vkb/)
+- [Virtual Keyboard (VKB)](/reaper/midi/vkb/)
 - [Assigner un MIDI CC à un paramètre d'un VST](/reaper/midi/cc/vst)
 
 ### Contrôler le Virtual Keyboard (VKB) par OSC
