@@ -14,6 +14,7 @@ process_directory() {
         output_content+=("${indent}- [$foldername](/$dir/README.md)")
     else
         output_content+=("${indent}- *$foldername*")
+        #output_content+=("${indent}- [$foldername](/_null.md)")
     fi
 
     # Loop through markdown files excluding README.md

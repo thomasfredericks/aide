@@ -6,9 +6,9 @@
     - [attendre](/arduino/millis/attendre.md)
     - [intervalle](/arduino/millis/intervalle.md)
   - [random](/arduino/random/README.md)
-- *bande_pixels*
-  - [bande_del_atom](/bande_pixels/bande_del_atom.md)
-  - [bande_del_osc](/bande_pixels/bande_del_osc.md)
+- [bande_pixels](/bande_pixels/README.md)
+  - *tutoriels*
+    - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/README.md)
 - *m5stack*
   - *atom*
     - [bouton](/m5stack/atom/bouton/README.md)
@@ -21,14 +21,14 @@
     - [installation](/m5stack/atom/installation/README.md)
     - [pixel](/m5stack/atom/pixel/README.md)
   - [grove](/m5stack/grove/README.md)
-  - *unit*
-    - [angle](/m5stack/unit/angle.md)
-    - [pbhub](/m5stack/unit/pbhub.md)
+  - *units*
+    - [angle](/m5stack/units/angle.md)
+    - [pbhub](/m5stack/units/pbhub.md)
     - *396*
-      - [bouton-arcade](/m5stack/unit/396/bouton-arcade/README.md)
-      - [photoresistance](/m5stack/unit/396/photoresistance/README.md)
-    - [encoder](/m5stack/unit/encoder/README.md)
-    - [tof](/m5stack/unit/tof/README.md)
+      - [bouton-arcade](/m5stack/units/396/bouton-arcade/README.md)
+      - [photoresistance](/m5stack/units/396/photoresistance/README.md)
+    - [encoder](/m5stack/units/encoder/README.md)
+    - [tof](/m5stack/units/tof/README.md)
 - *max*
   - *osc*
     - [udp](/max/osc/udp/README.md)
@@ -47,11 +47,13 @@
       - [fx](/reaper/midi/cc/fx/README.md)
     - [vkb](/reaper/midi/vkb/README.md)
   - [osc](/reaper/osc/README.md)
-    - *plugdata*
+    - [plugdata](/reaper/osc/plugdata/README.md)
     - [vkb](/reaper/osc/vkb/README.md)
 - [rpi](/rpi/README.md)
 - *touchdesigner*
-  - [chops](/touchdesigner/chops/README.md)
+  - *chops*
+    - [null](/touchdesigner/chops/null/README.md)
+    - [trail](/touchdesigner/chops/trail/README.md)
   - [feedback](/touchdesigner/feedback/README.md)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/README.md)
@@ -81,6 +83,7 @@
     - [extosc](/unity/osc/extosc/README.md)
     - [oscjackvs](/unity/osc/oscjackvs/README.md)
 - *vcv_rack*
-  - [baleines](/vcv_rack/baleines/README.md)
-  - [bulles](/vcv_rack/bulles/README.md)
-  - [tape_warble](/vcv_rack/tape_warble/README.md)
+  - *patchs*
+    - [baleines](/vcv_rack/patchs/baleines/README.md)
+    - [bulles](/vcv_rack/patchs/bulles/README.md)
+    - [tape_warble](/vcv_rack/patchs/tape_warble/README.md)

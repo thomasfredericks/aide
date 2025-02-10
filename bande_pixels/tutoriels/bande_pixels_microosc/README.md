@@ -2,7 +2,7 @@
 
 ## Préalables
 
-* Alimentation d'une bande de DEL (30 pixels) avec la broche *Data Input(DI)* branchée à la broche 4 de l'Arduino; voir la section [Bande de DEL](/bande_pixels/bande_pixels.md).
+* Alimentation d'une bande de DEL (30 pixels) avec la broche *Data Input(DI)* branchée à la broche 4 de l'Arduino; voir la section [Bande de pixels](/bande_pixels/README.md).
 * Installation de la bibliothèque de contrôle de DEL : Adafruit NeoPixel.
 * Installation de la bibliothèque de communication : MicroOsc.
 

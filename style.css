@@ -303,7 +303,7 @@ main.hidden {
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: #ff0000;
+  color: var(--theme-link);
 }
 
 .sidebar > h1 a {
@@ -343,7 +343,10 @@ main.hidden {
 .sidebar ul li a {
   border-bottom: none;
   display: block;
-  color: var(--sidebar-text);
+}
+
+.sidebar a {
+  color: var(--theme-link);
 }
 
 .sidebar ul li ul {
@@ -750,7 +753,6 @@ body {
 }
 
 .sidebar ul li a {
-  color: var(--sidebar-text);
   font-size: 14px;
   font-weight: 400;
   overflow: hidden;
