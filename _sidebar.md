@@ -11,6 +11,9 @@
 - [bande_pixels](/bande_pixels/README.md)
   - *tutoriels*
     - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/README.md)
+- *github*
+  - *projects*
+    - [priorites](/github/projects/priorites/README.md)
 - *m5stack*
   - *atom*
     - [bouton](/m5stack/atom/bouton/README.md)
