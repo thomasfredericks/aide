@@ -9,6 +9,7 @@
 
 ## Les complémentaires
 
+* Synthèse et code : Cardinal
 * Synthèse de sons de base : Wavetable https://socalabs.com/synths/wavetable/
 * Deelay | Free Versatile Delay Plugin - https://sixthsample.com/deelay/
 * Valhalla Super Massive - Valhalla DSP - https://valhalladsp.com/shop/reverb/valhalla-supermassive/
