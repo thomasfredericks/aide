@@ -6,6 +6,8 @@
     - [attendre](/arduino/millis/attendre.md)
     - [intervalle](/arduino/millis/intervalle.md)
   - [random](/arduino/random/README.md)
+- *audio*
+  - [plugins](/audio/plugins/README.md)
 - [bande_pixels](/bande_pixels/README.md)
   - *tutoriels*
     - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/README.md)
@@ -44,7 +46,7 @@
 - *reaper*
   - *midi*
     - *cc*
-      - [fx](/reaper/midi/cc/fx/README.md)
+      - [plugin](/reaper/midi/cc/plugin/README.md)
     - [vkb](/reaper/midi/vkb/README.md)
   - [osc](/reaper/osc/README.md)
     - [plugdata](/reaper/osc/plugdata/README.md)
