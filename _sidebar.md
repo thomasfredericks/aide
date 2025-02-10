@@ -38,9 +38,9 @@
   - *osc*
     - [udp](/max/osc/udp/README.md)
 - *microosc*
-  - [envoi](/microosc/envoi.md)
-  - [envoi-valeur-changee](/microosc/envoi-valeur-changee.md)
-  - [reception](/microosc/reception.md)
+  - [envoi](/microosc/envoi/README.md)
+    - [valeur_changee](/microosc/envoi/valeur_changee/README.md)
+  - [reception](/microosc/reception/README.md)
 - [osc](/osc/README.md)
 - *pd*
   - *osc*
