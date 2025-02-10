@@ -1,12 +1,9 @@
 # OSC UDP : Unity
 
 
-## Avant tout : Activez «Run in Background» dans Unity
+## Préalables
 
-Pour que Unity puisse continuer à rouler son code quand sa fenêtre n'est pas en avant plan, cochez la case «Run in Background» dans «Project Settings→Player→Resolution and Presentation→Run in Background» :
-
-![Désactivation de «Run in Background» dans les «Project Settings»](../run_in_background.png)
-
+* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/README.md)
 
 ## Installation de extOSC
 
