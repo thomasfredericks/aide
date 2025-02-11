@@ -1,68 +1,68 @@
 - *arduino*
-  - [code](/arduino/code/README.md)
+  - [code](/arduino/code/)
   - *ide*
     - [installation](/arduino/ide/installation.md)
   - *millis*
     - [attendre](/arduino/millis/attendre.md)
     - [intervalle](/arduino/millis/intervalle.md)
-  - [random](/arduino/random/README.md)
+  - [random](/arduino/random/)
 - *audio*
-  - [plugins](/audio/plugins/README.md)
-- [bande_pixels](/bande_pixels/README.md)
+  - [plugins](/audio/plugins/)
+- [bande_pixels](/bande_pixels/)
   - *tutoriels*
-    - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/README.md)
+    - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/)
 - *github*
   - *projects*
-    - [priorites](/github/projects/priorites/README.md)
+    - [priorites](/github/projects/priorites/)
 - *m5stack*
   - *atom*
-    - [bouton](/m5stack/atom/bouton/README.md)
-    - [broches](/m5stack/atom/broches/README.md)
+    - [bouton](/m5stack/atom/bouton/)
+    - [broches](/m5stack/atom/broches/)
     - *code*
-      - [base](/m5stack/atom/code/base/README.md)
+      - [base](/m5stack/atom/code/base/)
       - *microosc*
-        - [slip](/m5stack/atom/code/microosc/slip/README.md)
-      - [minimal](/m5stack/atom/code/minimal/README.md)
-    - [installation](/m5stack/atom/installation/README.md)
-    - [pixel](/m5stack/atom/pixel/README.md)
-  - [grove](/m5stack/grove/README.md)
+        - [slip](/m5stack/atom/code/microosc/slip/)
+      - [minimal](/m5stack/atom/code/minimal/)
+    - [installation](/m5stack/atom/installation/)
+    - [pixel](/m5stack/atom/pixel/)
+  - [grove](/m5stack/grove/)
   - *units*
     - [angle](/m5stack/units/angle.md)
     - [pbhub](/m5stack/units/pbhub.md)
     - *396*
-      - [bouton-arcade](/m5stack/units/396/bouton-arcade/README.md)
-      - [photoresistance](/m5stack/units/396/photoresistance/README.md)
-    - [encoder](/m5stack/units/encoder/README.md)
-    - [tof](/m5stack/units/tof/README.md)
+      - [bouton-arcade](/m5stack/units/396/bouton-arcade/)
+      - [photoresistance](/m5stack/units/396/photoresistance/)
+    - [encoder](/m5stack/units/encoder/)
+    - [tof](/m5stack/units/tof/)
 - *max*
   - *osc*
-    - [udp](/max/osc/udp/README.md)
+    - [udp](/max/osc/udp/)
 - *microosc*
-  - [envoi](/microosc/envoi/README.md)
-    - [valeur_changee](/microosc/envoi/valeur_changee/README.md)
-  - [reception](/microosc/reception/README.md)
-- [osc](/osc/README.md)
+  - [envoi](/microosc/envoi/)
+    - [valeur_changee](/microosc/envoi/valeur_changee/)
+  - [reception](/microosc/reception/)
+- [osc](/osc/)
 - *pd*
   - *osc*
-    - [relais](/pd/osc/relais/README.md)
-    - [udp](/pd/osc/udp/README.md)
+    - [relais](/pd/osc/relais/)
+    - [udp](/pd/osc/udp/)
 - *reaper*
   - *midi*
     - *cc*
-      - [plugin](/reaper/midi/cc/plugin/README.md)
-    - [vkb](/reaper/midi/vkb/README.md)
-  - [osc](/reaper/osc/README.md)
-    - [plugdata](/reaper/osc/plugdata/README.md)
-    - [vkb](/reaper/osc/vkb/README.md)
-- [rpi](/rpi/README.md)
+      - [plugin](/reaper/midi/cc/plugin/)
+    - [vkb](/reaper/midi/vkb/)
+  - [osc](/reaper/osc/)
+    - [plugdata](/reaper/osc/plugdata/)
+    - [vkb](/reaper/osc/vkb/)
+- [rpi](/rpi/)
 - *touchdesigner*
   - *chops*
-    - [null](/touchdesigner/chops/null/README.md)
-    - [trail](/touchdesigner/chops/trail/README.md)
-  - [feedback](/touchdesigner/feedback/README.md)
+    - [null](/touchdesigner/chops/null/)
+    - [trail](/touchdesigner/chops/trail/)
+  - [feedback](/touchdesigner/feedback/)
   - *osc*
-    - [envoi](/touchdesigner/osc/envoi/README.md)
-    - [reception](/touchdesigner/osc/reception/README.md)
+    - [envoi](/touchdesigner/osc/envoi/)
+    - [reception](/touchdesigner/osc/reception/)
 - *tutoriels*
   - [angle_filtrer](/tutoriels/angle_filtrer.md)
   - [angle_seuil](/tutoriels/angle_seuil.md)
@@ -78,17 +78,17 @@
   - [lampe-torche-correlation](/tutoriels/lampe-torche-correlation.md)
   - [lampe-torche-etat](/tutoriels/lampe-torche-etat.md)
   - [pbhub_key-motion-angle-light](/tutoriels/pbhub_key-motion-angle-light.md)
-  - [matrice-cables](/tutoriels/matrice-cables/README.md)
+  - [matrice-cables](/tutoriels/matrice-cables/)
   - *pong-1D_nano*
     - [pong_1d_nano](/tutoriels/pong-1D_nano/pong_1d_nano.md)
-  - [reaper_osc_play-stop-vu](/tutoriels/reaper_osc_play-stop-vu/README.md)
+  - [reaper_osc_play-stop-vu](/tutoriels/reaper_osc_play-stop-vu/)
 - *unity*
-  - [execution_arriere-plan](/unity/execution_arriere-plan/README.md)
+  - [execution_arriere-plan](/unity/execution_arriere-plan/)
   - *osc*
-    - [extosc](/unity/osc/extosc/README.md)
-    - [oscjackvs](/unity/osc/oscjackvs/README.md)
+    - [extosc](/unity/osc/extosc/)
+    - [oscjackvs](/unity/osc/oscjackvs/)
 - *vcv_rack*
   - *patchs*
-    - [baleines](/vcv_rack/patchs/baleines/README.md)
-    - [bulles](/vcv_rack/patchs/bulles/README.md)
-    - [tape_warble](/vcv_rack/patchs/tape_warble/README.md)
+    - [baleines](/vcv_rack/patchs/baleines/)
+    - [bulles](/vcv_rack/patchs/bulles/)
+    - [tape_warble](/vcv_rack/patchs/tape_warble/)

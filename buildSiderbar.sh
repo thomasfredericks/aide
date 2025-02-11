@@ -11,7 +11,7 @@ process_directory() {
 
     # Check if README.md exists
     if [[ -f "$dir/README.md" ]]; then
-        output_content+=("${indent}- [$foldername](/$dir/README.md)")
+        output_content+=("${indent}- [$foldername](/$dir/)")
     else
         output_content+=("${indent}- *$foldername*")
         #output_content+=("${indent}- [$foldername](/_null.md)")

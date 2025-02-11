@@ -108,7 +108,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 img:not(.lightbox-image) {
@@ -290,7 +290,7 @@ main.hidden {
   bottom: 0;
   left: 0;
   transition: transform .25s ease-out;
-  width: 400px;
+  width: 200px;
   z-index: 20;
   background-color: var(--sidebar-background);
 }
