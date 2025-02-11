@@ -87,6 +87,7 @@
   - *osc*
     - [extosc](/unity/osc/extosc/)
     - [oscjackvs](/unity/osc/oscjackvs/)
+  - [spout](/unity/spout/)
 - *vcv_rack*
   - *patchs*
     - [baleines](/vcv_rack/patchs/baleines/)
