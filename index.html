@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <meta name="description" content="AIDE*TOF">
-    <title>AIDE*TOF</title>
-
-   
+    <meta name="description" content="AIDE*TOF : Centre d'aide par Thomas O Fredericks">
     
+
 
     <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
     <!-- Custom Styles -->
@@ -54,6 +52,18 @@
                             const lightbox = new module.default();
                             lightbox.initialize(images);
                         }).catch(err => console.error('Failed to load Lightbox plugin', err));
+                        let siteName = window.$docsify.name;  // Use the defined name
+                        let currentTitle = document.title.trim(); 
+
+                        // Ensure the site name is not duplicated
+                        if (!currentTitle.startsWith(siteName)) {
+                            if ( !currentTitle ) {
+                                document.title = siteName;
+                            } else {
+                                document.title = siteName + ' - ' + currentTitle;
+                            }
+                            
+                        }
                     });
                 }
             ]
