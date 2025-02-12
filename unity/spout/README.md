@@ -35,7 +35,10 @@ Voici l'information à inscrire dans les paramètres du gestionnaire de paquets 
 ![](./configurer_camera_et_spout_sender.svg)
 
 > [!WARNING] 
-> La caméra ne va plus effectuer de rendu dans la Game Window. Remettre le paramètre «Target Texture» à None pour réactiver le rendu dans la Game Window (tout en désactivant le rendu dans Spout).
+> La caméra ne va plus effectuer de rendu dans la Game Window.
+
+> [!NOTE] 
+> Ajouter une deuxième caméra pour afficher le rendu dans la Game Window.
 
 ## Ajouter et configurer un *TOP Syphon Spout In* dans TouchDesigner
 
