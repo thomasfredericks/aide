@@ -15,6 +15,8 @@
   --sidebar-background: #ffffff; /* Light mode sidebar background */
   --sidebar-text: #505d6b; /* Light mode sidebar text color */
   --sidebar-active-text: var(--theme-color); /* Light mode sidebar active text color */
+  --sidebar-width: 200px;
+  --sidebar-slide: -200px;
 }
 
 * {
@@ -290,7 +292,7 @@ main.hidden {
   bottom: 0;
   left: 0;
   transition: transform .25s ease-out;
-  width: 200px;
+  width: var(--sidebar-width);
   z-index: 20;
   background-color: var(--sidebar-background);
 }
@@ -371,13 +373,14 @@ main.hidden {
 }
 
 .sidebar-toggle {
-  background-color: transparent;
-  background-color: hsla(0, 0%, 100%, .8);
+ /* background-color: transparent;
+  background-color: hsla(0, 0%, 100%, .8);*/
+ background-color: rgba(255,255, 255, 255);
   border: 0;
   outline: none;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
+  /*position: fixed;*/
+  top: 6px;
   left: 0;
   text-align: center;
   transition: opacity .3s;
@@ -385,11 +388,11 @@ main.hidden {
   z-index: 30;
   cursor: pointer;
 }
-
+/*
 .sidebar-toggle:hover .sidebar-toggle-button {
   opacity: .4;
 }
-
+*/
 .sidebar-toggle span {
   background-color: var(--theme-highlight);
   display: block;
@@ -401,6 +404,7 @@ main.hidden {
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
   position: fixed;
+  padding: 0 0 0px 10px;
 }
 
 .content {
@@ -514,13 +518,13 @@ body.sticky .sidebar-toggle {
 }
 
 body.close .sidebar {
-  transform: translateX(-400px);
+  transform: translateX(var(--sidebar-slide));
 }
-
+/*
 body.close .sidebar-toggle {
   width: auto;
 }
-
+*/
 body.close .content {
   left: 0;
 }
@@ -538,7 +542,7 @@ body.close .content {
   .github-corner,
   .sidebar,
   .sidebar-toggle {
-    position: fixed;
+    position: none;
   }
 
   .app-nav {
@@ -556,7 +560,7 @@ body.close .content {
   }
 
   .sidebar {
-    left: -400px;
+    left: var(--sidebar-slide);
     transition: transform .25s ease-out;
   }
 
@@ -574,24 +578,24 @@ body.close .content {
   }
 
   .sidebar-toggle {
-    background-color: transparent;
+    background-color: rgba(255,255, 255, 255);
     width: auto;
     padding: 30px 30px 10px 10px;
   }
 
   body.close .sidebar {
-    transform: translateX(400px);
+    transform: translateX(var(--sidebar-width));
   }
-
+/*
   body.close .sidebar-toggle {
     background-color: hsla(0, 0%, 100%, .8);
     transition: background-color 1s;
     width: 284px;
     padding: 10px;
   }
-
+*/
   body.close .content {
-    transform: translateX(400px);
+    transform: translateX(var(--sidebar-width));
   }
 
   body.close .app-nav,
