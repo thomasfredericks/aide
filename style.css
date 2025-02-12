@@ -109,8 +109,11 @@ body {
   background-color: var(--theme-background);
 }
 
-img {
+.content img {
   max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img:not(.lightbox-image) {
@@ -152,6 +155,8 @@ li input[type=checkbox] {
   text-align: right;
   z-index: 10;
 }
+
+
 
 .app-nav.no-badge {
   margin-right: 25px;
@@ -298,7 +303,7 @@ main.hidden {
 }
 
 .sidebar > h1 {
-  margin: 0 auto 1rem;
+  margin: 30px auto 1rem;
   font-size: 3rem;
   font-weight: 300;
   text-align: center;
@@ -572,6 +577,7 @@ body.close .content {
     transition: transform .25s ease;
   }
 
+ 
   .app-nav,
   .github-corner {
     transition: transform .25s ease-out;
