@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Couleurs de connecteurs Grove](/m5stack/grove/README.md)
+- [Couleurs de connecteurs Grove](/m5stack/grove/)
 
 ## Introduction
 

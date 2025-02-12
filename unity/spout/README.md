@@ -2,7 +2,7 @@
 
 ## Préalables
 
-* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/README.md)
+* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/)
 
 ## Ajouter le régistre de Keijiro qui a créé KlakSpout dans Unity
 

@@ -3,7 +3,7 @@
 
 ## Préalables
 
-* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/README.md)
+* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/)
 
 ## Installation de extOSC
 
