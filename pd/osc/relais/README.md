@@ -19,7 +19,7 @@ Pour recevoir et envoyer de  l'OSC SLIP, il est nécessaire d'ajouter l'object *
 
 ## Patcher Pure Data pour le relais des messages OSC SLIP ⇄ UDP 
 
-[![Capture d'écran du patcher «osc_slip.pd» (l'opacité du code optionnel a été réduite)](./osc_slip_pd_relay.svg)
+![Capture d'écran du patcher «osc_slip.pd» (l'opacité du code optionnel a été réduite)](./osc_slip_pd_relay.svg)
 
 Télécharger le patcher ici : [osc_relay.pd](./osc_relay.pd)
 

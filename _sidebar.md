@@ -44,6 +44,7 @@
 - [osc](/osc/)
 - *pd*
   - *osc*
+    - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
     - [udp](/pd/osc/udp/)
 - *reaper*
