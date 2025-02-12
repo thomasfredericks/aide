@@ -40,6 +40,7 @@ Voici l'information à inscrire dans les paramètres du gestionnaire de paquets 
 > [!NOTE] 
 > Ajouter une deuxième caméra pour afficher le rendu dans la Game Window.
 
-## Ajouter et configurer un *TOP Syphon Spout In* dans TouchDesigner
+## Configurer votre logiciel pour recevoir le flux Spout
 
-![](./configurer_spout_dans_td.png)
+* [Suivre ces instructions pour recevoir le flux Spout dans TouchDesigner](/touchdesigner/spout/)
+* [Suivre ces instructions pour recevoir le flux Spout dans OBS](/obs/spout/)

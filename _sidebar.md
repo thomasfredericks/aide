@@ -41,6 +41,8 @@
   - [envoi](/microosc/envoi/)
     - [valeur_changee](/microosc/envoi/valeur_changee/)
   - [reception](/microosc/reception/)
+- *obs*
+  - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
   - *osc*
@@ -64,6 +66,7 @@
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
+  - [spout](/touchdesigner/spout/)
 - *tutoriels*
   - [angle_filtrer](/tutoriels/angle_filtrer.md)
   - [angle_seuil](/tutoriels/angle_seuil.md)
