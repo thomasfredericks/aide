@@ -10,7 +10,7 @@
 
 ## Optionnellement, lier un ou des paramètre à des MIDI CC  
 
-* [Lier un MIDI CC à un paramètre d'un effet ou d'un instrument](/reaper/midi/cc/fx/)
+* [Lier un MIDI CC à un paramètre d'un effet ou d'un instrument](/reaper/midi/cc/plugin/)
 
 ## Convertir les messages OSC en MIDI (CC et notes) dans plugdata
 
