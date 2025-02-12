@@ -11,6 +11,8 @@
 - [bande_pixels](/bande_pixels/)
   - *tutoriels*
     - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/)
+    - *pong-1D_nano*
+      - [pong_1d_nano](/bande_pixels/tutoriels/pong-1D_nano/pong_1d_nano.md)
 - *github*
   - *projects*
     - [priorites](/github/projects/priorites/)
@@ -26,6 +28,19 @@
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
   - [grove](/m5stack/grove/)
+  - *tutoriels*
+    - [angle-button-monitor](/m5stack/tutoriels/angle-button-monitor.md)
+    - [angle-button-oscbridge](/m5stack/tutoriels/angle-button-oscbridge.md)
+    - [angle-monitor](/m5stack/tutoriels/angle-monitor.md)
+    - [blink](/m5stack/tutoriels/blink.md)
+    - [blink_demarrage](/m5stack/tutoriels/blink_demarrage.md)
+    - [clignoter-sans-bloquer](/m5stack/tutoriels/clignoter-sans-bloquer.md)
+    - [etat-bouton](/m5stack/tutoriels/etat-bouton.md)
+    - [lampe-clignotement](/m5stack/tutoriels/lampe-clignotement.md)
+    - [lampe-torche-correlation](/m5stack/tutoriels/lampe-torche-correlation.md)
+    - [lampe-torche-etat](/m5stack/tutoriels/lampe-torche-etat.md)
+    - [pbhub_key-motion-angle-light](/m5stack/tutoriels/pbhub_key-motion-angle-light.md)
+    - [matrice-cables](/m5stack/tutoriels/matrice-cables/)
   - *units*
     - [angle](/m5stack/units/angle.md)
     - [pbhub](/m5stack/units/pbhub.md)
@@ -56,36 +71,23 @@
     - [vkb](/reaper/midi/vkb/)
   - [osc](/reaper/osc/)
     - [plugdata](/reaper/osc/plugdata/)
+    - *tutoriels*
+      - [reaper_osc_play-stop-vu](/reaper/osc/tutoriels/reaper_osc_play-stop-vu/)
     - [vkb](/reaper/osc/vkb/)
 - [rpi](/rpi/)
 - *touchdesigner*
   - *chops*
     - [null](/touchdesigner/chops/null/)
     - [trail](/touchdesigner/chops/trail/)
-  - [feedback](/touchdesigner/feedback/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
   - [spout](/touchdesigner/spout/)
-- *tutoriels*
-  - [angle_filtrer](/tutoriels/angle_filtrer.md)
-  - [angle_seuil](/tutoriels/angle_seuil.md)
-  - [angle-button-monitor](/tutoriels/angle-button-monitor.md)
-  - [angle-button-oscbridge](/tutoriels/angle-button-oscbridge.md)
-  - [angle-monitor](/tutoriels/angle-monitor.md)
-  - [atom_lite](/tutoriels/atom_lite.md)
-  - [blink](/tutoriels/blink.md)
-  - [blink_demarrage](/tutoriels/blink_demarrage.md)
-  - [clignoter-sans-bloquer](/tutoriels/clignoter-sans-bloquer.md)
-  - [etat-bouton](/tutoriels/etat-bouton.md)
-  - [lampe-clignotement](/tutoriels/lampe-clignotement.md)
-  - [lampe-torche-correlation](/tutoriels/lampe-torche-correlation.md)
-  - [lampe-torche-etat](/tutoriels/lampe-torche-etat.md)
-  - [pbhub_key-motion-angle-light](/tutoriels/pbhub_key-motion-angle-light.md)
-  - [matrice-cables](/tutoriels/matrice-cables/)
-  - *pong-1D_nano*
-    - [pong_1d_nano](/tutoriels/pong-1D_nano/pong_1d_nano.md)
-  - [reaper_osc_play-stop-vu](/tutoriels/reaper_osc_play-stop-vu/)
+  - *tops*
+    - [feedback](/touchdesigner/tops/feedback/)
+  - *tutoriels*
+    - [angle_filtrer](/touchdesigner/tutoriels/angle_filtrer.md)
+    - [angle_seuil](/touchdesigner/tutoriels/angle_seuil.md)
 - *unity*
   - [colliders](/unity/colliders/)
   - [execution_arriere-plan](/unity/execution_arriere-plan/)
