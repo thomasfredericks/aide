@@ -52,18 +52,27 @@
                             const lightbox = new module.default();
                             lightbox.initialize(images);
                         }).catch(err => console.error('Failed to load Lightbox plugin', err));
-                        let siteName = window.$docsify.name;  // Use the defined name
-                        let currentTitle = document.title.trim(); 
 
-                        // Ensure the site name is not duplicated
-                        if (!currentTitle.startsWith(siteName)) {
-                            if ( !currentTitle ) {
-                                document.title = siteName;
-                            } else {
-                                document.title = siteName + ' - ' + currentTitle;
+                        // Site Name
+                        let siteName = window.$docsify.name;  // Use the defined name
+                        
+                        // Try to get the first <h1> from the rendered page content
+                        let firstH1 = (document.querySelector('.markdown-section h1'));
+                        
+                        
+                        if ( firstH1 ) {
+                            firstH1 = firstH1.innerText.trim();
+                            // Set document title
+                            document.title = firstH1 + ' @ ' + siteName;
+                        } else {
+                            let currentTitle = document.title.trim();  // Remove unnecessary spaces
+
+                            // Ensure the site name is not duplicated
+                            if (!currentTitle.startsWith(siteName)) {
+                                document.title = currentTitle + ' @ ' + siteName;
                             }
-                            
                         }
+                        
                     });
                 }
             ]
