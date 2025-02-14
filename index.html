@@ -47,7 +47,7 @@
             plugins: [
                 function (hook, vm) {
                     hook.doneEach(() => {
-                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
+                        import('./libs/docsify-lightbox.js').then(module => {
                             const images = document.querySelectorAll('img');
                             const lightbox = new module.default();
                             lightbox.initialize(images);
@@ -80,25 +80,22 @@
     </script>
 
     <!-- Required -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="./libs/docsify.min.js"></script>
 
 
-    <script src="https://unpkg.com/@h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
+    
 
     <!-- Import Mermaid -->
-    <script type="module">
-        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-        mermaid.initialize({ startOnLoad: true });
-        window.mermaid = mermaid;
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-    <script src="https://gllmar.github.io/docsify-alert/docsify-alerts.js"></script>
-    <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.js"></script>
-    <script src="https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js"></script>
+
+    <script src="./libs/mermaid.min.js"></script>
+    <script src="./libs/docsify-sidebar-collapse.min.js"></script>
+    <script src="./libs/docsify-mermaid.js"></script>
+    <script src="./libs/docsify-copy-code.min.js"></script>
+    <script src="./libs/docsify-alerts.js"></script>
+    <script src="./libs/docsify-unhashtaglink.js"></script>
+    <script src="./libs/prism-c.js"></script>
+    <script src="./libs/prism-cpp.js"></script>
+    <script src="./libs/docsify-img-caption.js"></script>
 </body>
 
 </html>

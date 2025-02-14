@@ -1,0 +1,12 @@
+https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js
+https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js
+https://unpkg.com/@h-hg/docsify-image-caption/dist/docsify-image-caption.min.js
+https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js
+https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js
+https://unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js
+https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js
+https://gllmar.github.io/docsify-alert/docsify-alerts.js
+https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js
+https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js
+https:/cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.js
+https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js

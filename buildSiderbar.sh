@@ -2,12 +2,21 @@
 
 output_file="_sidebar.md"
 output_content=() # Array to store output lines
+# List of top-level folders to ignore
+IGNORED_FOLDERS=("node_modules" "libs" "assets" ".git")
 
 # Recursive function to process directories
 process_directory() {
     local dir="${1%/}" # Remove trailing slash if present
     local indent="$2"
     local foldername="$(basename "$dir")"
+
+    for ignored in "${IGNORED_FOLDERS[@]}"; do
+        if [[ "$foldername" == "$ignored" ]]; then
+            echo "Skipping ignored folder: $foldername"
+            return 0 # Folder is in the ignore list
+        fi
+    done
 
     # Check if README.md exists
     if [[ -f "$dir/README.md" ]]; then
