@@ -11,8 +11,7 @@
 - [bande_pixels](/bande_pixels/)
   - *tutoriels*
     - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/)
-    - *pong-1D_nano*
-      - [pong_1d_nano](/bande_pixels/tutoriels/pong-1D_nano/pong_1d_nano.md)
+    - [pong-1D_nano](/bande_pixels/tutoriels/pong-1D_nano/)
 - *electro*
   - [resistance](/electro/resistance/)
 - [github](/github/)
