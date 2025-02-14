@@ -15,7 +15,7 @@
       - [pong_1d_nano](/bande_pixels/tutoriels/pong-1D_nano/pong_1d_nano.md)
 - *electro*
   - [resistance](/electro/resistance/)
-- *github*
+- [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
 - *m5stack*
@@ -42,6 +42,7 @@
     - [lampe-torche-correlation](/m5stack/tutoriels/lampe-torche-correlation.md)
     - [lampe-torche-etat](/m5stack/tutoriels/lampe-torche-etat.md)
     - [pbhub_key-motion-angle-light](/m5stack/tutoriels/pbhub_key-motion-angle-light.md)
+    - [capacitance](/m5stack/tutoriels/capacitance/)
     - [matrice-cables](/m5stack/tutoriels/matrice-cables/)
   - *units*
     - [angle](/m5stack/units/angle.md)
