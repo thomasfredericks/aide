@@ -62,10 +62,18 @@
   - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
+  - [copier-coller](/pd/copier-coller/)
   - *osc*
     - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
     - [udp](/pd/osc/udp/)
+  - *traitement*
+    - *delai*
+      - [activation](/pd/traitement/delai/activation/)
+    - *duree*
+      - [activite](/pd/traitement/duree/activite/)
+    - *filtre*
+      - [glissement](/pd/traitement/filtre/glissement/)
 - *reaper*
   - *midi*
     - *cc*
