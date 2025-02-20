@@ -1,10 +1,14 @@
 # Mesure de capacitance avec un ESP32
 
-![Concept pour la mesure de capacitance](./capicitance_user_foil_concept.png)
+
 
 ## Circuit
 
-![Photo du circuit](./circuit_photo.jpg)
+![Schéma pour la mesure de la capacitance](./schematic.svg)
+
+![Première photo du circuit](./circuit_photo.jpg)
+
+![Deuxième photo du circuit](./photo_circuit.png)
 
 ## Code
 

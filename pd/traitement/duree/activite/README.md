@@ -1,6 +1,6 @@
 # Mesurer la durée
 
-## Mesurer la durée d'activité avec *duree_actif.pd*
+## Patch pour mesurer la durée d'activité
 
 Télécharger ici : [duree_actif.pd](./duree_actif.pd)
 

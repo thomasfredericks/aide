@@ -1,6 +1,6 @@
 # Retarder une activation
 
-## Mesurer la durée d'activité avec *delai_activation.pd*
+## Patch pour retarder une activation
 
 Télécharger ici : [delai_activation.pd](./delai_activation.pd)
 
