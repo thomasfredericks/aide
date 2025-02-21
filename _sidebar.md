@@ -110,3 +110,5 @@
     - [baleines](/vcv_rack/patchs/baleines/)
     - [bulles](/vcv_rack/patchs/bulles/)
     - [tape_warble](/vcv_rack/patchs/tape_warble/)
+- *windows*
+  - [clavier](/windows/clavier/)
