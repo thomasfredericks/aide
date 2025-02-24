@@ -110,7 +110,7 @@ body {
 }
 
 .content img {
-  max-width: 75%;
+  max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -842,7 +842,7 @@ body {
   font-size: 1rem;
 }
 
-.markdown-section figure,
+
 .markdown-section p {
   margin: 1.2em 0;
 }
@@ -1120,14 +1120,19 @@ figure {
   border: none;
   flex-flow: column;
   padding: 2px;
-  margin: auto;
-  max-width: 800px;
+  margin: 0 auto;
+  min-width: 50%;
   background-color: #222;
   background: linear-gradient(to bottom, 
   #fff 0%,      /* White at the start */
   #fff 25%,      /* White at the start */
   #222 100%     /* Dark gray at the end */
 );
+}
+figure::before {
+  content: "";
+  display: block;
+  text-align: center;
 }
 
 

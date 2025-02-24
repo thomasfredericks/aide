@@ -75,6 +75,9 @@
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
 - *reaper*
+  - *compression*
+    - [limiteur](/reaper/compression/limiteur/)
+    - [sidechain](/reaper/compression/sidechain/)
   - *midi*
     - *cc*
       - [plugin](/reaper/midi/cc/plugin/)
