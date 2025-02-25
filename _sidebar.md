@@ -7,6 +7,8 @@
     - [intervalle](/arduino/millis/intervalle.md)
   - [random](/arduino/random/)
 - *audio*
+  - *haut-parleurs*
+    - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
 - [bande_pixels](/bande_pixels/)
   - *tutoriels*
