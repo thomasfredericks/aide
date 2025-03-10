@@ -17,6 +17,10 @@
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
+- *kinect*
+  - [v1](/kinect/v1/)
+- *lidar*
+  - [slamtec](/lidar/slamtec/)
 - *m5stack*
   - *atom*
     - [bouton](/m5stack/atom/bouton/)
