@@ -10,7 +10,7 @@
 #include <esp_mac.h>
 
 // L'IP du microcontrolleur doit avoir les mêmes trois premiers nombres que l'IP de destination 
-IPAddress myLocalIp(10, 1, 2, 101);
+IPAddress myLocalIp(192, 168, 1, 101);
 ```
 
 ### Dans *setup()*
