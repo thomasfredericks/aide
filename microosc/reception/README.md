@@ -2,53 +2,69 @@
 
 ## Préalable(s)
 
-- [Protocole Open Sound Control (OSC)](/osc/)
+- [Installation de MicroOsc](/microosc/)
+- [Initialisation de MicroOsc](/microosc/initialisation/)
 
-## Bibliothèque *MicroOsc*
+## Définition d'une fonction pour la réception des messages OSC
 
-Télécharger la bibliothèque MicroOsc dans le gestionnaire de bibliothèques d'Arduino.
-
-## Initialisation
-
-### Pour l'OSC SLIP
-
-S'assurer que *MicroOsc* est inclu et instancié dans l'espace global; ici l'instance est nommée `monOsc` :
+Pour recevoir des messages OSC, vous devez d'abord créer une fonction dans laquelle vous vérifierez l'adresse du message et récupérerez les arguments du message :
 ```cpp
-#include <MicroOscSlip.h>
-// Le 128 entre < > below est le nombre d'octets réservés à la réception de messages.
-MicroOscSlip<128> monOsc(&Serial);
-```
-
-Vérifier que Serial est bien démarré dans `setup()` :
-```cpp
-Serial.begin(115200);
-```
-
-## Utiliser une fonction personnalisée pour traiter la réception des messages OSC
-
-### 1) Dans _loop()_, demander à MicroOsc de traiter l'OSC avec la fonction personnalisée 
-
-Dans _loop()_ nous indiquons à MicroOsc d'appeler la fonction _maReceptionMessageOsc()_ (que nous allons créer à l'étape prochaine) lorsqu'un message OSC est reçu :
-```cpp
-monOsc.onOscMessageReceived(maReceptionMessageOsc);
-```
-
-### 2) Créer une fonction dans _l'espace global_
-
-```cpp
-void maReceptionMessageOsc(MicroOscMessage& oscMessage) {
-  // TRAITER LES DONNÉES REÇUES ICI
+// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
+void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
+   // VÉRIFICATION DE L'ADRESSE DU MESSAGE ET EXTRACTION DES ARGUMENTS
 }
 ```
-#### Exemples de traitement des données reçues
 
-Mettre le code suivant dans _maReceptionMessageOsc()_ pour traiter l'adresse "/adresse" et récupérer 1 argument _int_:
+## Déclenchement de la réception des messages OSC
+
+Dans `loop()`, vous devez déclencher la réception des messages :
 ```cpp
-    if (oscMessage.checkOscAddress("/adresse")) {
-        int argument = oscMessage.nextAsInt();
-        // FAIRE QQCH AVEC argument ICI
-    } 
+myOsc.onOscMessageReceived(myOscMessageParser);
 ```
+
+## Traiter messages OSC reçus
+
+Traiter les messages OSC reçus dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` crée précédemment avec les méthodes suivantes.
+
+
+## Vérification de l'adresse
+
+```cpp
+/**
+* Retourne true si l'adresse correspond exactement.
+*/
+bool checkOscAddress(const char* address);
+```
+
+Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
+```cpp
+if (receivedOscMessage.checkOscAddress("/pot")) {
+  // ...
+}
+```
+
+
+## Récupération des arguments d'un MicroOscMessage
+
+MicroOsc retournera une référence à un `MicroOscMessage` lorsqu'il recevra un message OSC.
+**Les fonctions suivantes sont des membres de `MicroOscMessage`.**
+
+### Obtenir l'argument suivant sous forme d'**int** 32 bits
+
+```cpp
+/**
+* Retourne l'argument suivant sous forme d'un int 32 bits.
+* Ne vérifie pas les limites du buffer.
+*/
+int32_t nextAsInt();
+```
+
+Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
+```cpp
+int32_t intArgument = receivedOscMessage.nextAsInt();
+```
+
+### Exemple pour récupérer trois arguments
 
 Mettre le code suivant dans _maReceptionMessageOsc()_ pour traiter l'adresse "/adresse" et récupérer 3 arguments _int_:
 ```cpp

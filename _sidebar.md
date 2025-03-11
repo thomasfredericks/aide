@@ -6,6 +6,7 @@
     - [attendre](/arduino/millis/attendre.md)
     - [intervalle](/arduino/millis/intervalle.md)
   - [random](/arduino/random/)
+  - [udp](/arduino/udp/)
 - *audio*
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
@@ -34,6 +35,7 @@
       - [minimal](/m5stack/atom/code/minimal/)
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
+    - [poe](/m5stack/atom/poe/)
   - [grove](/m5stack/grove/)
   - *tutoriels*
     - [angle-button-monitor](/m5stack/tutoriels/angle-button-monitor.md)
@@ -60,9 +62,10 @@
 - *max*
   - *osc*
     - [udp](/max/osc/udp/)
-- *microosc*
+- [microosc](/microosc/)
   - [envoi](/microosc/envoi/)
     - [valeur_changee](/microosc/envoi/valeur_changee/)
+  - [initialisation](/microosc/initialisation/)
   - [reception](/microosc/reception/)
 - *obs*
   - [spout](/obs/spout/)
