@@ -5,7 +5,35 @@
 - [Installation de MicroOsc](/microosc/)
 - [Initialisation de MicroOsc](/microosc/initialisation/)
 
-## Définition d'une fonction pour la réception des messages OSC
+## Extrait de code 
+
+```cpp
+// ...OMISSION DU CODE POUR INITALISER UNE INSTANCE DE MICROOSC NOMMÉE myOsc...
+// ...OMISSION DU CODE NON RELIÉ...
+
+// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
+void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
+   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
+    if (receivedOscMessage.checkOscAddress("/pot")) {
+        //  EXTRACTION DES ARGUMENTS
+        int32_t intArgument = receivedOscMessage.nextAsInt();
+        // ...OMISSION DU CODE QUI UTILISE L'ARGUMENT EXTRAIT...
+    }
+}
+
+void setup() {
+    // ...OMISSION DU CODE NON RELIÉ...
+}
+
+void loop() {
+    myOsc.onOscMessageReceived(myOscMessageParser);
+    // ...OMISSION DU CODE NON RELIÉ...
+}
+```
+
+### Explications
+
+#### Définition d'une fonction pour la réception des messages OSC
 
 Pour recevoir des messages OSC, vous devez d'abord créer une fonction dans l'espace *global* dans laquelle traiter les messages OSC reçus :
 ```cpp
@@ -16,30 +44,20 @@ void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
 }
 ```
 
-## Déclenchement de la réception des messages OSC
+#### Déclenchement de la réception des messages OSC
 
 Dans `loop()`, vous devez déclencher la réception des messages :
 ```cpp
 myOsc.onOscMessageReceived(myOscMessageParser);
 ```
 
-## Traiter messages OSC reçus
+#### Traiter messages OSC reçus
 
-Traiter les messages OSC reçus dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` créée précédemment avec les méthodes qui plus bas et qui se retrouvent dans l'extrait suivant :
-```cpp
-// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
-void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
-   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
-    if (receivedOscMessage.checkOscAddress("/pot")) {
-        //  EXTRACTION DES ARGUMENTS
-        int32_t intArgument = receivedOscMessage.nextAsInt();
-    }
-}
-```
+Dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` il est possible de valider l'adresse du message et de récupérer les arguments du message. MicroOsc retourne une référence à un `MicroOscMessage` lorsqu'il reçoit un message OSC.
 
-## Vérification de l'adresse
+##### Validation de l'adresse
 
-Valider si l'adresse OSC d'un message OSC correspond à la valeur désirée avec  `bool checkOscAddress(const char* address)`.
+Valider si l'adresse OSC d'un message OSC correspond à la valeur désirée avec `bool checkOscAddress(const char* address)`.
 
 Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
 ```cpp
@@ -48,47 +66,21 @@ if (receivedOscMessage.checkOscAddress("/pot")) {
 }
 ```
 
-## Récupération des arguments d'un MicroOscMessage
+##### Récupération des arguments d'un MicroOscMessage
 
-MicroOsc retournera une référence à un `MicroOscMessage` lorsqu'il recevra un message OSC.
-**Les fonctions suivantes sont des membres de `MicroOscMessage`.**
+Un argument de type entier (*int32*) peut être récupéré avec `int32_t nextAsInt()`.
 
-### Obtenir l'argument suivant sous forme d'**int** 32 bits
-
+Exemple de récupération d'un entier d'un `MicroOscMessage` nommé `receivedOscMessage` :
 ```cpp
-/**
-* Retourne l'argument suivant sous forme d'un int 32 bits.
-* Ne vérifie pas les limites du buffer.
-*/
-int32_t nextAsInt();
+    int premierArgument = receivedOscMessage.nextAsInt();
 ```
 
-Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
+Exemple de récupération de trois entiers d'un `MicroOscMessage` nommé `receivedOscMessage` :
 ```cpp
-int32_t intArgument = receivedOscMessage.nextAsInt();
+    int premierArgument = receivedOscMessage.nextAsInt();
+    int deuxiemerArgument = receivedOscMessage.nextAsInt();
+    int troisiemerArgument = receivedOscMessage.nextAsInt();
 ```
 
-### Exemple pour récupérer trois arguments
-
-Mettre le code suivant dans _maReceptionMessageOsc()_ pour traiter l'adresse "/adresse" et récupérer 3 arguments _int_:
-```cpp
-    if (oscMessage.checkOscAddress("/adresse")) {
-        int premierArgument = oscMessage.nextAsInt();
-        int deuxiemerArgument = oscMessage.nextAsInt();
-        int troisiemerArgument = oscMessage.nextAsInt();
-        // FAIRE QQCH AVEC les arguments ICI
-    } 
-``` 
-
-Mettre le code suivant dans _maReceptionMessageOsc()_ pour traiter l'adresse "/adresse" et l'adresse "/autre":
-```cpp
-    if (oscMessage.checkOscAddress("/adresse")) {
-        int argument = oscMessage.nextAsInt();
-        // FAIRE QQCH AVEC argument ICI
-    }  else if (oscMessage.checkOscAddress("/autre")) {
-        int argument = oscMessage.nextAsInt();
-        // FAIRE QQCH AVEC argument ICI
-    }   
-```
 
 
