@@ -7,11 +7,12 @@
 
 ## Définition d'une fonction pour la réception des messages OSC
 
-Pour recevoir des messages OSC, vous devez d'abord créer une fonction dans laquelle vous vérifierez l'adresse du message et récupérerez les arguments du message :
+Pour recevoir des messages OSC, vous devez d'abord créer une fonction dans l'espace *global* dans laquelle traiter les messages OSC reçus :
 ```cpp
 // FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
 void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
-   // VÉRIFICATION DE L'ADRESSE DU MESSAGE ET EXTRACTION DES ARGUMENTS
+   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
+   // EXTRACTION DES ARGUMENTS
 }
 ```
 
@@ -24,17 +25,21 @@ myOsc.onOscMessageReceived(myOscMessageParser);
 
 ## Traiter messages OSC reçus
 
-Traiter les messages OSC reçus dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` crée précédemment avec les méthodes suivantes.
-
+Traiter les messages OSC reçus dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` créée précédemment avec les méthodes qui plus bas et qui se retrouvent dans l'extrait suivant :
+```cpp
+// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
+void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
+   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
+    if (receivedOscMessage.checkOscAddress("/pot")) {
+        //  EXTRACTION DES ARGUMENTS
+        int32_t intArgument = receivedOscMessage.nextAsInt();
+    }
+}
+```
 
 ## Vérification de l'adresse
 
-```cpp
-/**
-* Retourne true si l'adresse correspond exactement.
-*/
-bool checkOscAddress(const char* address);
-```
+Valider si l'adresse OSC d'un message OSC correspond à la valeur désirée avec  `bool checkOscAddress(const char* address)`.
 
 Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
 ```cpp
@@ -42,7 +47,6 @@ if (receivedOscMessage.checkOscAddress("/pot")) {
   // ...
 }
 ```
-
 
 ## Récupération des arguments d'un MicroOscMessage
 
