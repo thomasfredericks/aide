@@ -825,12 +825,12 @@ body {
 }
 
 .markdown-section h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 40px 0 .6rem;
 }
 
 .markdown-section h4 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .markdown-section h5 {
@@ -838,7 +838,6 @@ body {
 }
 
 .markdown-section h6 {
-  color: #777;
   font-size: 1rem;
 }
 
@@ -1102,12 +1101,23 @@ h1::after {
   left: auto;
 }
 
-h2::after, h3::after, h4::after, h5::after, h6::after {
+h2::after {
   content: "";
   display: block;
   width: 100%;
   height: 1px;
   background-color: black; /* Change color as needed */
+  position: absolute;
+  bottom: -10px; /* Adjust position as needed */
+  left: 0;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(175, 175, 175); /* Change color as needed */
   position: absolute;
   bottom: -10px; /* Adjust position as needed */
   left: 0;
