@@ -68,6 +68,7 @@
   - [initialisation](/microosc/initialisation/)
   - [reception](/microosc/reception/)
 - *obs*
+  - [navigateur](/obs/navigateur/)
   - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
