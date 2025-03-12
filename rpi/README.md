@@ -10,8 +10,7 @@ Le système d'exploitation choisi pour le Raspberry Pi est le [Raspberry Pi OS](
 
 ### 32 bits vs 64 bits
 
- **La distribution 32 bits est a favoriser** ; au temps d'écrire (janvier 2023), l'accélération matérielle du décodage caméra n'était pas encore active sur la mouture 64 bit.
-
+ **La distribution 64 bits est a favoriser**!
 
 ### Installer Raspberry Pi OS sur une carte micro SD
 
