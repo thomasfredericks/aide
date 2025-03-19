@@ -42,3 +42,57 @@ L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_
 > Les modifications effectuées au components dans «principal.toe» ne seront pas sauvegardées!
 
 Chaque fois que vous vouler mettre à jour les component alpha et beta dans principal vous devez refaire l'exportation du *.toe* en *.tox*!
+
+## Script pour la mise à jour (sauvegarde) automatique des COMP externes
+
+Le script suivant va être déclencher chaque fois que le patch principal est sauvegardé. Il trouve tous les *COMP* qui sont externes (i.e. dans des fichiers .tox) et les sauvegarde.
+
+### Ajouter un DAT Execute et le configurer
+
+![](./add_dat_execute.svg)
+
+### Coller le code suivant
+
+```python
+# me - this DAT
+# 
+# frame - the current frame
+# state - True if the timeline is paused
+# 
+# Make sure the corresponding toggle is enabled in the Execute DAT.
+
+def onStart():
+	return
+
+def onCreate():
+	return
+
+def onExit():
+	return
+
+def onFrameStart(frame):
+	return
+
+def onFrameEnd(frame):
+	return
+
+def onPlayStateChange(state):
+	return
+
+def onDeviceChange():
+	return
+
+def onProjectPreSave():
+	# Loop through all components in the project
+	for comp in root.findChildren(type=COMP):
+		if comp.par.externaltox and comp.par.externaltox.eval():
+			tox_path = comp.par.externaltox.eval()
+			comp.save(tox_path)  # Save the component to its external .tox file
+			print(f"Saved: {comp.name} -> {tox_path}")
+	return
+
+def onProjectPostSave():
+	return
+
+	
+```
