@@ -11,11 +11,13 @@ Tous les fichiers ( *principal.toe*, *alpha.toe*, *beta.toe* , *alpha.tox*, *bet
 L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](./toe_dans_toe_par_tox.zip)
 
 
+## Ouvrir *alpha.toe* et accéder à sa configuration
+
+![Configuration du projet d'alpha.toe](./alpha_zoom_out.svg)
 
 
 ## Exporter le contenu de *alpha.toe* en tant que *.tox*
 
-![Capture d'écran d'alpha.toe](./alpha_toe.png)
 
 ![Exportation d'alpha.toe en tant que .tox](./alpha_toe_to_tox.png)
 
