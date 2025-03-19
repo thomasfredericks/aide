@@ -1,4 +1,4 @@
-# Bonnes pratiques *git* pour Touch Designer
+# Bonnes pratiques *git* pour TouchDesigner
 
 ## .gitignore
 
