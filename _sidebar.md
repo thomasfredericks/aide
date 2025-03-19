@@ -105,6 +105,7 @@
   - *chops*
     - [null](/touchdesigner/chops/null/)
     - [trail](/touchdesigner/chops/trail/)
+  - [enchasser](/touchdesigner/enchasser/)
   - [git](/touchdesigner/git/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
