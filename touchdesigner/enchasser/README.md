@@ -39,6 +39,6 @@ L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](./to
 ## Mises à jour
 
 > [!WARNING] 
-> Les modifications que vous effectuer au components dans principal.toe ne seront pas sauvegardées!
+> Les modifications effectuées au components dans «principal.toe» ne seront pas sauvegardées!
 
 Chaque fois que vous vouler mettre à jour les component alpha et beta dans principal vous devez refaire l'exportation du *.toe* en *.tox*!
