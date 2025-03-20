@@ -72,14 +72,15 @@
   - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
-  - [copier-coller](/pd/copier-coller/)
   - *osc*
     - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
     - [udp](/pd/osc/udp/)
+  - *plugdata*
+    - [copier-coller](/pd/plugdata/copier-coller/)
   - *traitement*
     - *delai*
-      - [activation](/pd/traitement/delai/activation/)
+      - [retarder](/pd/traitement/delai/retarder/)
     - *duree*
       - [activite](/pd/traitement/duree/activite/)
     - *filtre*
@@ -104,6 +105,8 @@
   - *chops*
     - [null](/touchdesigner/chops/null/)
     - [trail](/touchdesigner/chops/trail/)
+  - [enchasser](/touchdesigner/enchasser/)
+  - [git](/touchdesigner/git/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
