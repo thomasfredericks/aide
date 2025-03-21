@@ -1,9 +1,11 @@
 # Initialisation de MicroOsc
 
 
-## Préalable(s)
+## Installation
 
-- [Installation de MicroOsc](/microosc/)
+### Arduino IDE
+
+- Télécharger la bibliothèque MicroOsc dans le gestionnaire de bibliothèques d'Arduino.
 
 ## OSC SLIP ou UDP
 

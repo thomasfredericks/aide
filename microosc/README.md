@@ -6,11 +6,7 @@ MicroOsc peut envoyer et recevoir des messages OSC via Serial (SLIP) ou via UDP 
 
 Code source et documentation officielle : [MicroOsc](https://github.com/thomasfredericks/MicroOsc)
 
-## Installation
 
-### Arduino IDE
-
-- Télécharger la bibliothèque MicroOsc dans le gestionnaire de bibliothèques d'Arduino.
 
 ## Fonctionnalités prises en charge
 MicroOsc prend actuellement en charge :

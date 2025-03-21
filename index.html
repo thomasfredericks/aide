@@ -30,7 +30,7 @@
             relativePath: true,
             unhashtagLinkExtensions: ['.pdf', '.html', '.docx', '.pd', '.maxpat', '.vcv', '.zip'],  // Override file types here
             auto2top: true,
-            // sidebarDisplayLevel: 1, // set sidebar display level
+            sidebarDisplayLevel: 0, // set sidebar display level
             loadSidebar: true,    // Enable sidebar loading
 
             copyCode: {
@@ -72,6 +72,10 @@
                                 document.title = currentTitle + ' @ ' + siteName;
                             }
                         }
+
+                        document.querySelector('.sidebar-nav').addEventListener('click', function(event) {
+                            event.stopPropagation();
+                        });
                         
                     });
                 }

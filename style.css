@@ -521,19 +521,21 @@ body.sticky .sidebar-toggle {
 .markdown-section ul.task-list > li {
   list-style-type: none;
 }
-
+/*
 body.close .sidebar {
   transform: translateX(var(--sidebar-slide));
 }
+*/
 /*
 body.close .sidebar-toggle {
   width: auto;
 }
 */
+/*
 body.close .content {
   left: 0;
 }
-
+*/
 @media print {
   .app-nav,
   .github-corner,
@@ -592,6 +594,7 @@ body.close .content {
   body.close .sidebar {
     transform: translateX(var(--sidebar-width));
   }
+  
 /*
   body.close .sidebar-toggle {
     background-color: hsla(0, 0%, 100%, .8);
