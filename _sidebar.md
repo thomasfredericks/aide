@@ -85,6 +85,7 @@
       - [activite](/pd/traitement/duree/activite/)
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
+  - [websocket](/pd/websocket/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
