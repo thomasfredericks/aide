@@ -23,7 +23,7 @@ L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_
 
 ## Dans *principal.toe* ajouter un *container* et y charger *alpha.tox*
 
-![Ajouter d'un container](./container_add.png)
+![Ajout d'un container](./container_add.png)
 
 ![Charger alpha.tox dans le container](./container_configure_alpha.png)
 
@@ -34,7 +34,7 @@ L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_
 
 ## Intégrer les deux patchs
 
-![Capture d'écran de prinicapl.toe qui enchâsse les deux .toe](./alpha_et_beta_dans_principal.png)
+![Capture d'écran de principal.toe qui enchâsse les deux .toe](./alpha_et_beta_dans_principal.png)
 
 ## Mises à jour
 

@@ -30,12 +30,19 @@ Les modèles WS281X fonctionnant en 12 V comportent parfois une quatrième broch
 Dans cet exemple, nous utilisons une bande de LED WS281X fonctionnant avec une tension d’alimentation de 12 V.
 
 ![Couper un segment de bande de LED](./Diapositive1.SVG)  
+
 ![Attention : connectez-vous du côté DI (*Data Input*) et non DO !](./bande_del_sens.svg) 
+
 ![Enlever soigneusement le revêtement sur la partie cuivrée coupée](./Diapositive2.SVG)  
+
 ![Connexion sans soudure du côté multi-câble](./bande-del_connecteur_cote-cable.png)  
+
 ![Connexion sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.png)  
+
 ![Schéma du montage à effectuer](./bande-del_atom_schema.png)  
+
 ![Photo du montage effectué](./bande-del_atom_photo.png)  
+
 ![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
 
 

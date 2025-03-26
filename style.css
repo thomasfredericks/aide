@@ -1128,8 +1128,8 @@ h3::after {
 
 
 figure {
-  display: inline-block;  /* Makes the figure respect the width of its content */
-  text-align: center;     /* Optional: Centers the text in the figcaption */
+  display: block;  
+  text-align: center;     
   border: none;
   flex-flow: column;
   padding: 2px;
@@ -1155,7 +1155,7 @@ figcaption {
   width: 100%;             /* Makes figcaption take up the full width of its parent (figure) */
   background-color: #222;
   color: #fff;
-  font: italic smaller sans-serif;
+  font: italic  sans-serif;
   padding: 3px;
   text-align: center;
 

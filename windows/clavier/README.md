@@ -1,6 +1,6 @@
 # Configurer son clavier dans Windows
 
-## Configurer pour un clavier en anglais
+## Configurer pour un clavier dont les touches sont en anglais
 
 ![](./configuration_clavier_anglais001.png)
 
@@ -16,6 +16,8 @@
 
 
 ### Tableau des combinaisons pour les signes en français
+
+Les signes en français peuvent être produits à l'aide de combinaisons de touches.   
 
 | Lettre(s) accentuée(s) | Accent         | Description                                  | Exemple      |
 |------------------------|----------------|----------------------------------------------|--------------|
