@@ -16,30 +16,56 @@ Le système d'exploitation choisi pour le Raspberry Pi est le [Raspberry Pi OS](
 
 #### Utiliser Raspberry Pi Imager
 
-Le logiciel [Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet d'installer facilement Raspberry Pi OS :
+Le logiciel [Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet d'installer facilement Raspberry Pi OS.
+
+![](./imager_4.png)
+
+Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d'une séquence. Cela permet d'avoir plusieurs Raspberry Pi facilement reconnaissables.
+
+![](./imager_3.png)
+
+![](./imager_2.png)
+
+![](./imager_1.png)
+
+![](./imager_0.png)
+
+
+
+
+
+Documentation additionnelle :
 * [Vidéo survolant Raspberry Pi Imager ](https://www.youtube.com/watch?v=ntaXWS8Lk34).
 * [Documentation officielle pour bien démarrer](https://www.raspberrypi.com/documentation/computers/getting-started.html).
+* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access).
+* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server).
+* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc).
 
 
 ### Raspi-config 
 
-Une fois que le système sur le Raspberry Pi s'est initialisé, lancer un terminal et exécuter la commande suivante
-
-Via [raspi-config](https://www.raspberrypi.com/documentation/computers/configuration.html#the-raspi-config-tool)
-
+Une fois que le système sur le Raspberry Pi s'est initialisé, lancer un terminal (ou une connexion SSH) et exécuter la commande suivante :
 ```
 sudo raspi-config
 ```
+#### Démarrage automatique de l'interface graphique du bureau
 
-#### Hostname
+![](./system-option_boot0.png)
 
-Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d'une séquence. Cela permet d'avoir plusieurs Raspberry Pi facilement reconnaissables.
+![](./system-option_boot1.png)
 
-#### Interface option
+#### Démarrage du VNC
 
-* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access).
-* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server).
-* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc).
+![](./interface-vnc0.png)
+
+![](./interface-vnc1.png)
+
+![](./interface-vnc2.png)
+
+#### Documentation additionnelle
+Via [raspi-config](https://www.raspberrypi.com/documentation/computers/configuration.html#the-raspi-config-tool)
+
+
 
 ### Partage de fichier réseau
 
