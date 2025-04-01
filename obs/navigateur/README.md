@@ -1,4 +1,4 @@
-# Ajout d'une source navigateur
+# Navigateur dans OBS
 
 ![](./obs_ajout_source_navigateur.png)
 

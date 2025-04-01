@@ -12,9 +12,11 @@
     - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
 - [bande_pixels](/bande_pixels/)
-  - *tutoriels*
-    - [bande_pixels_microosc](/bande_pixels/tutoriels/bande_pixels_microosc/)
-    - [pong-1D_nano](/bande_pixels/tutoriels/pong-1D_nano/)
+  - [fastled](/bande_pixels/fastled/)
+    - *exemples*
+      - [animations_m5atom](/bande_pixels/fastled/exemples/animations_m5atom/)
+      - [microosc](/bande_pixels/fastled/exemples/microosc/)
+      - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - *electro*
   - [resistance](/electro/resistance/)
 - [github](/github/)
@@ -36,21 +38,21 @@
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
     - [poe](/m5stack/atom/poe/)
+  - *exemples*
+    - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
+    - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
+    - [angle-monitor](/m5stack/exemples/angle-monitor.md)
+    - [blink](/m5stack/exemples/blink.md)
+    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
+    - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
+    - [etat-bouton](/m5stack/exemples/etat-bouton.md)
+    - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
+    - [lampe-torche-correlation](/m5stack/exemples/lampe-torche-correlation.md)
+    - [lampe-torche-etat](/m5stack/exemples/lampe-torche-etat.md)
+    - [pbhub_key-motion-angle-light](/m5stack/exemples/pbhub_key-motion-angle-light.md)
+    - [capacitance](/m5stack/exemples/capacitance/)
+    - [matrice-cables](/m5stack/exemples/matrice-cables/)
   - [grove](/m5stack/grove/)
-  - *tutoriels*
-    - [angle-button-monitor](/m5stack/tutoriels/angle-button-monitor.md)
-    - [angle-button-oscbridge](/m5stack/tutoriels/angle-button-oscbridge.md)
-    - [angle-monitor](/m5stack/tutoriels/angle-monitor.md)
-    - [blink](/m5stack/tutoriels/blink.md)
-    - [blink_demarrage](/m5stack/tutoriels/blink_demarrage.md)
-    - [clignoter-sans-bloquer](/m5stack/tutoriels/clignoter-sans-bloquer.md)
-    - [etat-bouton](/m5stack/tutoriels/etat-bouton.md)
-    - [lampe-clignotement](/m5stack/tutoriels/lampe-clignotement.md)
-    - [lampe-torche-correlation](/m5stack/tutoriels/lampe-torche-correlation.md)
-    - [lampe-torche-etat](/m5stack/tutoriels/lampe-torche-etat.md)
-    - [pbhub_key-motion-angle-light](/m5stack/tutoriels/pbhub_key-motion-angle-light.md)
-    - [capacitance](/m5stack/tutoriels/capacitance/)
-    - [matrice-cables](/m5stack/tutoriels/matrice-cables/)
   - *units*
     - [angle](/m5stack/units/angle.md)
     - [pbhub](/m5stack/units/pbhub.md)
@@ -95,9 +97,9 @@
       - [plugin](/reaper/midi/cc/plugin/)
     - [vkb](/reaper/midi/vkb/)
   - [osc](/reaper/osc/)
+    - *exemples*
+      - [reaper_osc_play-stop-vu](/reaper/osc/exemples/reaper_osc_play-stop-vu/)
     - [plugdata](/reaper/osc/plugdata/)
-    - *tutoriels*
-      - [reaper_osc_play-stop-vu](/reaper/osc/tutoriels/reaper_osc_play-stop-vu/)
     - [vkb](/reaper/osc/vkb/)
 - [rpi](/rpi/)
 - *threejs*
@@ -107,6 +109,9 @@
     - [null](/touchdesigner/chops/null/)
     - [trail](/touchdesigner/chops/trail/)
   - [enchasser](/touchdesigner/enchasser/)
+  - *exemples*
+    - [angle_filtrer](/touchdesigner/exemples/angle_filtrer.md)
+    - [angle_seuil](/touchdesigner/exemples/angle_seuil.md)
   - [git](/touchdesigner/git/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
@@ -114,9 +119,6 @@
   - [spout](/touchdesigner/spout/)
   - *tops*
     - [feedback](/touchdesigner/tops/feedback/)
-  - *tutoriels*
-    - [angle_filtrer](/touchdesigner/tutoriels/angle_filtrer.md)
-    - [angle_seuil](/touchdesigner/tutoriels/angle_seuil.md)
 - *unity*
   - [colliders](/unity/colliders/)
   - [execution_arriere-plan](/unity/execution_arriere-plan/)
