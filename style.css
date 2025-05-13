@@ -1053,11 +1053,12 @@ figure {
   padding: 2px;
   margin: 0 auto;
   min-width: 50%;
-  background-color: #222;
+  background-color: #000;
   background: linear-gradient(to bottom, 
-  #fff 0%,      /* White at the start */
-  #fff 25%,      /* White at the start */
-  #222 100%     /* Dark gray at the end */
+  #fff0 0%,      /* White at the start */
+  #fff0 25%,      /* White at the start */
+  #000f 75%,      /* White at the start */
+  #000f 100%     /* Dark gray at the end */
 );
 }
 figure::before {
@@ -1071,7 +1072,7 @@ figure::before {
 figcaption {
   display: block;         /* Ensures figcaption behaves as a block-level element */
   width: 100%;             /* Makes figcaption take up the full width of its parent (figure) */
-  background-color: #222;
+  background-color: #000;
   color: #fff;
   font: italic  sans-serif;
   padding: 3px;
