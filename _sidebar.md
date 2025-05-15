@@ -109,11 +109,11 @@
   - *chops*
     - [null](/touchdesigner/chops/null/)
     - [trail](/touchdesigner/chops/trail/)
-  - [enchasser](/touchdesigner/enchasser/)
   - *exemples*
     - [angle_filtrer](/touchdesigner/exemples/angle_filtrer.md)
     - [angle_seuil](/touchdesigner/exemples/angle_seuil.md)
   - [git](/touchdesigner/git/)
+  - [modularisation](/touchdesigner/modularisation/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
