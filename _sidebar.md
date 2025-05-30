@@ -23,6 +23,7 @@
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
+- [ia](/ia/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*
