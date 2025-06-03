@@ -5,6 +5,7 @@
 * IA spécifique bien délimitée : une solution plus durable
 * Grand modèle de language (GLM) : Chat GPT, Claude, Grok, etc
 * IA générale (AGI) : hypothétique - n'existe pas
+* Le terme « IA » sans qualitatif est un buzzword marketing qui embrouille le public.
 
 | **Critère** | **IA spécifique bien délimitée** | **Grand modèle de language (GLM)** | **IA générale (AGI)** |
 |-------------|----------------------------------|-------------------------------|------------------------|
@@ -19,7 +20,65 @@
 | **État actuel** | Déjà largement déployée | En usage courant (LLM, assistants IA) | Hypothétique, pas encore réalisée |
 
 
+
+> [!NOTE]
+> Contrairement à ce que l’on pourrait croire, les technologies IA ne sont pas récentes. Elles sont en développement depuis près de 75 ans, avec des racines remontant aux premiers modèles symboliques des années 1950.
+
+> [!WARNING]
+> Contrairement à la confusion véhiculée par le marking techno-solutionniste, un grand modèle de langage (GML) ne peut pas évoluer en intelligence artificielle générale (IAG). Ce sont deux technologies fondamentalement distinctes par leur architecture que par leur fonctionnement. 
+
+## Questions critiques
+
+- **Allons-nous enseigner à nos étudiants des outils ou des techniques qui risquent de disparaître dans trois ans ?**  
+  La rapidité des cycles d’innovation et d’obsolescence impose une réflexion sur **ce qu’il faut réellement transmettre** : des compétences techniques de court terme, ou des capacités critiques, créatives, adaptatives ?
+
+- **La personne qui utilise ou « prompte » une IA doit avoir une solide expertise du métier.**  
+  Même si l’outil accomplit certaines tâches à sa place, **tout doit être vérifié, validé, corrigé**. Sans cette compétence métier, l’IA devient un générateur d’erreurs crédibles mais dangereuses.
+
+- **La vision de la Silicon Valley sur l’IA est-elle fondée ?**  
+  On nous promet que l’IA guérira le cancer, mettra fin à la faim dans le monde, etc. — mais **il n’y a actuellement aucune preuve scientifique concrète** que ces affirmations soient réalisables.
+
+- **Comment peut-on vouloir reproduire l’intelligence humaine alors même que la science ne s’entend pas sur ce qu’est l’intelligence humaine ?**  
+  Il n’existe **aucun consensus scientifique clair** sur la nature de l’intelligence, de la conscience, ou de l’intention.
+
+- **Les promoteurs de l’IA en éducation sont les mêmes qui ont introduit les téléphones intelligents et les réseaux sociaux.**  
+  Or, nous avons vu **les impacts négatifs de ces technologies sur les jeunes** — isolement, détresse mentale, distraction permanente. Et maintenant, on nous dit : *« Cette fois-ci, ce sera différent ? »*
+
+- **L’IA est un outil puissant, mais pas une transformation systémique en soi.**  
+  L’exagération actuelle autour de l’IA rappelle les discours précédents sur le **bitcoin**, la **blockchain**, ou la **réalité virtuelle**. Il faut rester critique : **toute technologie n’est pas une panacée**.
+
+-  **Événement révélateur sur le droit d'auteur**
+    Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **l’IA et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des IA sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
+
+### Quel futur nous propose-t-on vraiment ?
+
+- **Un futur d’extractivisme numérique** :  
+  - Disparition de la vie privée  
+  - Surveillance accrue  
+  - Précarité des emplois  
+  - Productivité accrue sans gain salarial
+
+- **Ou un futur où les étudiants seront remplacés par une AGI ?**  
+  Dans ce cas, pourquoi former les jeunes si le discours est qu’ils seront remplacés ?
+
+- **Le sentiment d’inévitabilité est une construction narrative.**  
+  Silicon Valley cultive l’idée que « le futur est déjà écrit ». Mais **l’histoire des empires technologiques montre que tous peuvent s’effondrer** : IBM, les États-Unis, Yahoo, Nokia… Et bien d’autres.
+
+### Nous vivons présentement l'âge d'or de l'IA, sur le point de se terminer
+
+- **Le coût d’utilisation des grands modèles de langage (GML) est aujourd’hui artificiellement bas.**  
+  Leur accès est **fortement subventionné** par le capital-risque, ce qui donne l’illusion qu’ils sont peu coûteux, voire gratuits. Mais ces subventions sont en train de s’évaporer...
+- Nous constatons le développement de  **Sycophant AI** : des IA conçues pour dire ce que l'utilisateur veut entendre, sans esprit critique.
+- Le **marketing** est au cœur du discours sur l’IA et prochainement de ses produits :  
+  - **Kate Rouch**, ancienne de Meta, est aujourd’hui la première directrice du marketing d’OpenAI.
+- Les erreurs et manipulations abondent :  
+  - L’IA **Grok**, développée par xAI (Elon Musk), a été accusée de **diffuser de fausses informations**, comme la théorie du « génocide blanc » en Afrique du Sud.
+
+
 ## Perfomances d'un GLM 
+
+Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit.  On y projette  des intentions ou des capacités qu’il n’a pas.
+
 
 ### Capacité d'un GLM pour jouer à un jeu
 
