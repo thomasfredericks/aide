@@ -74,6 +74,7 @@
   - **Kate Rouch**, ancienne de Meta, est aujourd’hui la première directrice du marketing d’OpenAI.
 - Les erreurs abondent :
   - CamoGPT, une IA développée par l’armée américaine, a récemment été utilisée pour supprimer automatiquement des contenus jugés non conformes à de nouvelles directives politiques. Cette opération a mené à des erreurs notables, comme la suppression d’archives historiques liées au bombardier Enola Gay, simplement à cause de son nom contenant le mot "Gay". L’IA a également écarté d’autres documents importants liés à des figures militaires historiques, révélant les limites graves de ces systèmes lorsqu’ils manquent de compréhension contextuelle. Ces incidents soulignent l’importance d’une supervision humaine dans les usages sensibles de l’IA.
+  - [Therapy Chatbot Tells Recovering Addict to Have a Little Meth as a Treat](https://futurism.com/therapy-chatbot-addict-meth)
 - Les manipulations abondent :  
   - L’IA **Grok**, développée par xAI (Elon Musk), a été accusée de **diffuser de fausses informations**, comme la théorie du « génocide blanc » en Afrique du Sud.
 
