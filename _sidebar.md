@@ -17,6 +17,7 @@
       - [animations_m5atom](/bande_pixels/fastled/exemples/animations_m5atom/)
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
+- [bytebeat](/bytebeat/)
 - *electro*
   - [resistance](/electro/resistance/)
 - [gamestream](/gamestream/)
