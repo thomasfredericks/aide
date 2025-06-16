@@ -21,6 +21,7 @@
 - *electro*
   - [resistance](/electro/resistance/)
 - [gamestream](/gamestream/)
+- [git](/git/)
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
