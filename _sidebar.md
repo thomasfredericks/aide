@@ -56,7 +56,6 @@
     - [pbhub_key-motion-angle-light](/m5stack/exemples/pbhub_key-motion-angle-light.md)
     - [capacitance](/m5stack/exemples/capacitance/)
     - [matrice-cables](/m5stack/exemples/matrice-cables/)
-  - [grove](/m5stack/grove/)
   - *units*
     - [angle](/m5stack/units/angle.md)
     - [pbhub](/m5stack/units/pbhub.md)

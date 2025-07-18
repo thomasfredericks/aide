@@ -1056,8 +1056,8 @@ figure {
   background-color: #000;
   background: linear-gradient(to bottom, 
   #fff0 0%,      /* White at the start */
-  #fff0 25%,      /* White at the start */
-  #000f 75%,      /* White at the start */
+  #fff0 50%,      /* White at the start */
+  #000f 95%,      /* White at the start */
   #000f 100%     /* Dark gray at the end */
 );
 }
