@@ -4,14 +4,36 @@
 
 ## Broches et leurs fonctions
 
-Le tableau suivant présente les numéros des broches et leurs fonctions.
+Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
-| **ESP32-PICO-D4** | **27** | **39** | **12** | **21** | **25** | **26** | **32** |  **5V** | **GND** |
-|------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-| Intégrés          | Pixel     | Bouton |   IR       |         |         |         |         |         |         |
-| I2C              |         |         |         | SCL(1)     | SDA(1)    | SDA(2)        |   SCL(2)      |         |         |
-| _Analog_             |         |         |         | ADC     | DAC     |   DAC      |  ADC       |         |         |
-| Câble HY2.0-4P Grove    |         |         |         |      |      |    Jaune     |   Blanc      |   Rouge      |   Noir      |
+Composants embarqués :
+
+| **ESP32-PICO-D4**      | **Composant** | 
+|------------------------|--------------|
+| **27**                 | Pixel        |
+| **39**                 | Bouton       |
+| **12**                 | IR           |
+
+Connecteur HY2.0-4P Grove et son câble :
+
+| **ESP32-PICO-D4**      | **I2C**      | **_Analog_** | **Câble HY2.0-4P Grove** |
+|------------------------|--------------|--------------|---------------------------|
+| **26**                 | SDA(2)       | DAC          | Jaune                     |
+| **32**                 | SCL(2)       | ADC          | Blanc                     |
+| **5V**                 |              |              | Rouge                     |
+| **GND**                |              |              | Noir                      |
+
+Broche sous le module :
+
+| **ESP32-PICO-D4** | **I2C**    | **_Analog_** |
+|------------------|------------|--------------|
+| **21**           | SCL(1)     | ADC          |
+| **25**           | SDA(1)     | DAC          |
+| **19**           |            |              |
+| **22**           |            |              |
+| **23**           |            |              |
+| **33**           |            | ADC          |
+
 
 ### Couleurs des connecteurs Grove
 
