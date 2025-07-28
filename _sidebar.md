@@ -91,6 +91,8 @@
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
   - [websocket](/pd/websocket/)
+- *pensee*
+  - [deux_systemes](/pensee/deux_systemes/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)

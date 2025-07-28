@@ -1,20 +1,31 @@
 :root {
-  --theme-color: #000; /* Default pink color */
+  --theme-color: #000;
+  /* Default pink color */
   --theme-color-hover: #00b7bc;
   --theme-background: #ffffff;
   --theme-text: #34495e;
   --theme-border: rgba(0, 0, 0, 0.07);
-  --theme-highlight: #006d70; /* Pink */
+  --theme-highlight: #006d70;
+  /* Pink */
   --theme-highlight-text: #ffffff;
-  --theme-link: #ff0000; /* Pink */
-  --theme-link-hover: #00b7bc; /* Pink hover */
-  --theme-bold-text: #2c3e50; /* Default bold text color */
-  --code-background: #f8f8f8; /* Light mode code block background */
-  --code-text: #525252; /* Light mode code text color */
-  --code-syntax: #e96900; /* Light mode syntax highlight color */
-  --sidebar-background: #ffffff; /* Light mode sidebar background */
-  --sidebar-text: #505d6b; /* Light mode sidebar text color */
-  --sidebar-active-text: var(--theme-color); /* Light mode sidebar active text color */
+  --theme-link: #ff0000;
+  /* Pink */
+  --theme-link-hover: #00b7bc;
+  /* Pink hover */
+  --theme-bold-text: #2c3e50;
+  /* Default bold text color */
+  --code-background: #f8f8f8;
+  /* Light mode code block background */
+  --code-text: #525252;
+  /* Light mode code text color */
+  --code-syntax: #e96900;
+  /* Light mode syntax highlight color */
+  --sidebar-background: #ffffff;
+  /* Light mode sidebar background */
+  --sidebar-text: #505d6b;
+  /* Light mode sidebar text color */
+  --sidebar-active-text: var(--theme-color);
+  /* Light mode sidebar active text color */
   --sidebar-width: 200px;
   --sidebar-slide: -200px;
 }
@@ -40,7 +51,7 @@ body:not(.ready) {
 }
 
 body:not(.ready) .app-nav,
-body:not(.ready) > nav,
+body:not(.ready)>nav,
 body:not(.ready) [data-cloak] {
   display: none;
 }
@@ -119,6 +130,7 @@ body {
 img:not(.lightbox-image) {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
+  padding : 10px;
 }
 
 img:not(.lightbox-image):hover {
@@ -166,7 +178,7 @@ li input[type=checkbox] {
   margin: 0;
 }
 
-.app-nav > a {
+.app-nav>a {
   margin: 0 1rem;
   padding: 5px 0;
 }
@@ -258,8 +270,10 @@ li input[type=checkbox] {
 .github-corner svg {
   color: var(--theme-highlight-text);
   fill: var(--theme-highlight);
-  height: 40px; /* Reduced by 50% */
-  width: 40px; /* Reduced by 50% */
+  height: 40px;
+  /* Reduced by 50% */
+  width: 40px;
+  /* Reduced by 50% */
 }
 
 main {
@@ -302,7 +316,7 @@ main.hidden {
   background-color: var(--sidebar-background);
 }
 
-.sidebar > h1 {
+.sidebar>h1 {
   margin: 30px auto 1rem;
   font-size: 3rem;
   font-weight: 300;
@@ -313,12 +327,12 @@ main.hidden {
   color: var(--theme-link);
 }
 
-.sidebar > h1 a {
+.sidebar>h1 a {
   color: inherit;
   text-decoration: none;
 }
 
-.sidebar > h1 .app-nav {
+.sidebar>h1 .app-nav {
   display: block;
   position: static;
 }
@@ -337,7 +351,7 @@ main.hidden {
   padding: 0;
 }
 
-.sidebar li > p {
+.sidebar li>p {
   font-weight: 700;
   margin: 0;
 }
@@ -378,9 +392,9 @@ main.hidden {
 }
 
 .sidebar-toggle {
- /* background-color: transparent;
+  /* background-color: transparent;
   background-color: hsla(0, 0%, 100%, .8);*/
- background-color: transparent;
+  background-color: transparent;
   border: 0;
   outline: none;
   padding: 10px;
@@ -393,6 +407,7 @@ main.hidden {
   z-index: 30;
   cursor: pointer;
 }
+
 /*
 .sidebar-toggle:hover .sidebar-toggle-button {
   opacity: .4;
@@ -429,12 +444,12 @@ body.sticky .sidebar-toggle {
   position: relative;
 }
 
-.markdown-section > * {
+.markdown-section>* {
   box-sizing: border-box;
   font-size: inherit;
 }
 
-.markdown-section > :first-child {
+.markdown-section> :first-child {
   margin-top: 0 !important;
 }
 
@@ -518,9 +533,10 @@ body.sticky .sidebar-toggle {
   padding: 1rem;
 }
 
-.markdown-section ul.task-list > li {
+.markdown-section ul.task-list>li {
   list-style-type: none;
 }
+
 /*
 body.close .sidebar {
   transform: translateX(var(--sidebar-slide));
@@ -540,6 +556,7 @@ body.close .content {
 
 
 @keyframes octocat-wave {
+
   0%,
   to {
     transform: rotate(0);
@@ -633,7 +650,7 @@ section.cover ul {
   padding: 0;
 }
 
-section.cover .cover-main > p:last-child a {
+section.cover .cover-main>p:last-child a {
   border-radius: 2rem;
   border: 1px solid var(--theme-highlight);
   box-sizing: border-box;
@@ -647,26 +664,26 @@ section.cover .cover-main > p:last-child a {
   transition: all .15s ease;
 }
 
-section.cover .cover-main > p:last-child a:last-child {
+section.cover .cover-main>p:last-child a:last-child {
   background-color: var(--theme-highlight);
   color: var(--theme-highlight-text);
 }
 
-section.cover .cover-main > p:last-child a:last-child:hover {
+section.cover .cover-main>p:last-child a:last-child:hover {
   color: inherit;
   opacity: .8;
 }
 
-section.cover .cover-main > p:last-child a:hover {
+section.cover .cover-main>p:last-child a:hover {
   color: inherit;
 }
 
-section.cover blockquote > p > a {
+section.cover blockquote>p>a {
   border-bottom: 2px solid var(--theme-highlight);
   transition: color .3s;
 }
 
-section.cover blockquote > p > a:hover {
+section.cover blockquote>p>a:hover {
   color: var(--theme-highlight);
 }
 
@@ -700,7 +717,7 @@ body {
   padding: 0;
 }
 
-.sidebar ul li.active > a {
+.sidebar ul li.active>a {
   border-right: 2px solid;
   color: var(--sidebar-active-text);
   font-weight: 800;
@@ -818,13 +835,13 @@ body {
 }
 
 .markdown-section output,
-.markdown-section pre > code {
+.markdown-section pre>code {
   border-radius: 2px;
   display: block;
 }
 
 .markdown-section output:after,
-.markdown-section pre > code {
+.markdown-section pre>code {
   -moz-osx-font-smoothing: initial;
   -webkit-font-smoothing: initial;
 }
@@ -837,7 +854,7 @@ body {
   white-space: pre-wrap;
 }
 
-.markdown-section > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
+.markdown-section> :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
   font-size: .8rem;
 }
 
@@ -848,7 +865,7 @@ body {
   word-wrap: normal;
 }
 
-.markdown-section pre > code {
+.markdown-section pre>code {
   color: var(--code-text);
   font-size: .8rem;
   padding: 2.2em 5px;
@@ -864,11 +881,11 @@ body {
   border: 1px dotted #ccc;
 }
 
-.markdown-section output > :first-child {
+.markdown-section output> :first-child {
   margin-top: 0;
 }
 
-.markdown-section output > :last-child {
+.markdown-section output> :last-child {
   margin-bottom: 0;
 }
 
@@ -998,17 +1015,43 @@ code .token {
   left: auto;
 }
 
-.sidebar-nav li{position:relative;margin:0;cursor:pointer}
-
-.sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before{content:'';display:block;position:absolute;top:11px;left:-12px;height:6px;width:6px;border-right:1px solid #505d6b;border-bottom:1px solid #505d6b;transform:rotate(-45deg);transition:transform .1s}
-
-.sidebar-nav ul:not(.app-sub-sidebar)>li.open::before{transform:rotate(45deg)}
-
-.sidebar-nav ul:not(.app-sub-sidebar)>li.collapse::before{transform:rotate(-45deg)}
-
-h1, h2, h3, h4, h5, h6 {
+.sidebar-nav li {
   position: relative;
-  margin-bottom: 20px; /* Adjust spacing as needed */
+  margin: 0;
+  cursor: pointer
+}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: -12px;
+  height: 6px;
+  width: 6px;
+  border-right: 1px solid #505d6b;
+  border-bottom: 1px solid #505d6b;
+  transform: rotate(-45deg);
+  transition: transform .1s
+}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li.open::before {
+  transform: rotate(45deg)
+}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li.collapse::before {
+  transform: rotate(-45deg)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-bottom: 20px;
+  /* Adjust spacing as needed */
 }
 
 h1::after {
@@ -1016,9 +1059,11 @@ h1::after {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: black; /* Change color as needed */
+  background-color: black;
+  /* Change color as needed */
   position: absolute;
-  bottom: -10px; /* Adjust position as needed */
+  bottom: -10px;
+  /* Adjust position as needed */
   left: auto;
 }
 
@@ -1027,9 +1072,11 @@ h2::after {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: black; /* Change color as needed */
+  background-color: black;
+  /* Change color as needed */
   position: absolute;
-  bottom: -10px; /* Adjust position as needed */
+  bottom: -10px;
+  /* Adjust position as needed */
   left: 0;
 }
 
@@ -1038,29 +1085,36 @@ h3::after {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: rgb(175, 175, 175); /* Change color as needed */
+  background-color: rgb(175, 175, 175);
+  /* Change color as needed */
   position: absolute;
-  bottom: -10px; /* Adjust position as needed */
+  bottom: -10px;
+  /* Adjust position as needed */
   left: 0;
 }
 
 
 figure {
-  display: block;  
-  text-align: center;     
-  border: none;
+  display: block;
+  text-align: center;
+  /*border: none*/
+  border: 1px solid black;
   flex-flow: column;
-  padding: 2px;
+  /*padding: 2px;*/
+  padding: 0px;
   margin: 0 auto;
   min-width: 50%;
-  background-color: #000;
+  background-color: #fff;
+  /* 
   background: linear-gradient(to bottom, 
-  #fff0 0%,      /* White at the start */
-  #fff0 50%,      /* White at the start */
-  #000f 95%,      /* White at the start */
-  #000f 100%     /* Dark gray at the end */
-);
+  #fff0 0%,     
+  #fff0 50%,     
+  #000f 95%,      
+  #000f 100%     
+  );
+*/
 }
+
 figure::before {
   content: "";
   display: block;
@@ -1070,11 +1124,13 @@ figure::before {
 
 
 figcaption {
-  display: block;         /* Ensures figcaption behaves as a block-level element */
-  width: 100%;             /* Makes figcaption take up the full width of its parent (figure) */
+  display: block;
+  /* Ensures figcaption behaves as a block-level element */
+  width: 100%;
+  /* Makes figcaption take up the full width of its parent (figure) */
   background-color: #000;
   color: #fff;
-  font: italic  sans-serif;
+  font: italic sans-serif;
   padding: 3px;
   text-align: center;
 
@@ -1089,8 +1145,10 @@ figcaption {
 
 @media screen and (max-width: 768px) {
   .markdown-section h1 {
-    font-size: 2rem; /* Ajuste selon ton besoin */
+    font-size: 2rem;
+    /* Ajuste selon ton besoin */
   }
+
   .github-corner,
   .sidebar,
   .sidebar-toggle {
@@ -1124,14 +1182,14 @@ figcaption {
     transition: transform .25s ease;
   }
 
- 
+
   .app-nav,
   .github-corner {
     transition: transform .25s ease-out;
   }
 
   .sidebar-toggle {
-    background-color: rgba(255,255, 255, 255);
+    background-color: rgba(255, 255, 255, 255);
     width: auto;
     padding: 30px 30px 10px 10px;
   }
@@ -1139,7 +1197,7 @@ figcaption {
   body.close .sidebar {
     transform: translateX(var(--sidebar-width));
   }
-  
+
 
   body.close .content {
     transform: translateX(var(--sidebar-width));
@@ -1162,7 +1220,7 @@ figcaption {
     filter: none;
     transition: none;
   }
-  
+
   img:not(.lightbox-image):hover {
     filter: none;
     transition: none;
@@ -1171,21 +1229,23 @@ figcaption {
   figcaption {
     font-size: 0.7rem;
   }
-  
+
 }
 
 @media print {
+
   .app-nav,
   .github-corner,
   .sidebar,
   .sidebar-toggle {
     display: none;
   }
+
   img:not(.lightbox-image) {
     filter: none;
     transition: none;
   }
-  
+
   img:not(.lightbox-image):hover {
     filter: none;
     transition: none;
