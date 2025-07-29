@@ -132,15 +132,17 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 
 ![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
 
-## Comment avoir un avantage compétif en tant que futur diplômé
+
+
+
+
+## Le monde devient plus idiot
 
 La majeure partie de cette section est tirée de [AI Is Making You Dumber - YouTube](https://www.youtube.com/watch?v=G-cdVurdoeA).
 
-### Le monde devient plus idiot
-
 ![Declin de la performance de tests sur le raisonnement et la solution de problèmes](./decline_reasoning_problem_solving.png)
 
-#### Témoignages d'étudiants
+### Témoignages d'étudiants
 
 - « J’ai l’impression de trop dépendre de l’IA, et que ça m’a enlevé ma créativité. »
 - « Je suis devenu plus paresseux. L’IA rend la lecture plus facile, mais elle fait lentement perdre à mon cerveau la capacité de penser de manière critique ou de comprendre chaque mot. »
@@ -148,7 +150,7 @@ La majeure partie de cette section est tirée de [AI Is Making You Dumber - YouT
 
 L'IA est comme une dépendance, qui graduellement réduit notre capacité intelectuelle lorsqu'utilisé dans un contexte académique.
 
-#### Recherches corporatives
+### Recherches corporatives
 
 - « Microsoft Research a découvert que plus les gens avaient confiance en l’IA, moins ils faisaient preuve de pensée critique lorsqu’ils l’utilisaient. »
 - « Une étude menée par Anthropic, qui développe le programme d’IA Claude, a révélé que les étudiants l’utilisaient pour déléguer les tâches de réflexion difficile. L’étude ajoute qu’il existe des inquiétudes légitimes : les systèmes d’IA pourraient devenir une béquille pour les étudiants, freinant le développement des compétences fondamentales nécessaires à une pensée de plus haut niveau. »
@@ -158,7 +160,7 @@ C’est comme si les fabricants de cigarettes découvraient qu’elles provoquen
 « Non non, le cancer est une fonctionnalité. Le cancer arrive, et il va falloir s’adapter. »
 Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
 
-#### NE PAS UTILISER D'IA PENDANT SA FORMATION
+## Comment avoir un avantage compétif en tant que futur diplômé
 
 - 💡 **Le piège de l’IA** : 
   - Utiliser ChatGPT ou toute autre IA pour remplacer ta propre réflexion affaiblit réellement la machine neurologique entre tes deux oreilles.
