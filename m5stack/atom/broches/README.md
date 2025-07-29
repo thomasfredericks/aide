@@ -25,14 +25,14 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
 ### Broches sous le module
 
-| **ESP32-PICO-D4** | **I2C**  | **Analogique** |
-|------------------|----------|------------------|
-| **21**           | SCL(1)   | ADC              |
-| **25**           | SDA(1)   | DAC              |
-| **22**           |          |                  |
-| **19**           |          |                  |
-| **23**           |          |                  |
-| **33**           |          | ADC              |
+| **ESP32-PICO-D4** | **I2C**  | **Analogique** | **Serial 2** |
+|------------------|----------|------------------|------------------|
+| **21**           | SCL(1)   | ADC              |                  |
+| **25**           | SDA(1)   | DAC              |                  |
+| **22**           |          |                  |                  |
+| **19**           |          |                  |                  |
+| **23**           |          |                  | Serial 2 TX  |
+| **33**           |          | ADC              |  Serial 2 RX |
 
 ### Couleurs des connecteurs Grove
 
@@ -47,19 +47,6 @@ Dans le système M5Stack, la couleur du connecteur HY2.0-4P Grove indique normal
 
 Voici des définitions (`#define`) des broches pouvant être utilisées dans le code.
 
-**En français :**
-```cpp
-#define BROCHE_BOUTON 39
-#define BROCHE_PIXEL 27
-#define BROCHE_SDA 26
-#define BROCHE_SCL 32
-#define BROCHE_ADC 32
-#define BROCHE_DAC 26
-#define BROCHE_CABLE_BLANC 32
-#define BROCHE_CABLE_JAUNE 26
-```
-
-**En anglais :**
 ```cpp
 #define BUTTON_PIN 39
 #define PIXEL_PIN 27
@@ -69,4 +56,7 @@ Voici des définitions (`#define`) des broches pouvant être utilisées dans le 
 #define DAC_PIN 26
 #define WHITE_CABLE_PIN 32
 #define YELLOW_CABLE_PIN 26
+#define SERIAL2_TX_PIN 23
+#define SERIAL2_RX_PIN  33
+
 ```
