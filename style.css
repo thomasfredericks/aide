@@ -1098,7 +1098,7 @@ figure {
   display: block;
   text-align: center;
   /*border: none*/
-  border: 1px solid black;
+  border: 1px solid #999;
   flex-flow: column;
   /*padding: 2px;*/
   padding: 0px;

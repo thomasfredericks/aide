@@ -31,15 +31,14 @@ Le terme « IA » sans qualitatif est un buzzword marketing qui embrouille le pu
 
 ## Questions critiques
 
-### Sur l'apprentissage
+
+### Sur l'enseignement
+
+- **Utiliser ChatGPT pendant l'apprentissage pourrait nuire aux capacités de pensée critique**
+  Une équipe de neurologues et spécialistes en IA du Media Lab du MIT a mené une étude sur l’impact des grands modèles de langage (LLM), comme ChatGPT, sur le cerveau des utilisateurs lors de tâches d’écriture, un groupe utilisant ChatGPT, un autre utilisant Google Search, et un dernier sans aucun outil. Les résultats montrent que le groupe sans assitance présentait la plus forte activité cérébrale et engagement mental, le groupe Google était intermédiaire, et le groupe ChatGPT avait la connectivité cérébrale la plus faible. Après plusieurs mois, ceux qui avaient utilisé ChatGPT précédemment ont montré une activité cérébrale plus faible et une mémoire moins performante. Ils ressentaient moins de sentiment de propriété sur leurs essais et avaient plus de difficultés à s’en souvenir ou à les citer. [Using ChatGPT to write essays may be eroding critical thinking skills](https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html)
 
 - **La personne qui utilise ou « prompte » une IA doit avoir une solide expertise du métier.**  
   Même si l’outil accomplit certaines tâches à sa place, **tout doit être vérifié, validé, corrigé**. Sans cette compétence métier, l’IA devient un générateur d’erreurs crédibles mais dangereuses.
-
-- **Utiliser ChatGPT pour rédiger des essais pourrait nuire aux capacités de pensée critique**
-  Une équipe de neurologues et spécialistes en IA du Media Lab du MIT a mené une étude sur l’impact des grands modèles de langage (LLM), comme ChatGPT, sur le cerveau des utilisateurs lors de tâches d’écriture, un groupe utilisant ChatGPT, un autre utilisant Google Search, et un dernier sans aucun outil. Les résultats montrent que le groupe sans assitance présentait la plus forte activité cérébrale et engagement mental, le groupe Google était intermédiaire, et le groupe ChatGPT avait la connectivité cérébrale la plus faible. Après plusieurs mois, ceux qui avaient utilisé ChatGPT précédemment ont montré une activité cérébrale plus faible et une mémoire moins performante. Ils ressentaient moins de sentiment de propriété sur leurs essais et avaient plus de difficultés à s’en souvenir ou à les citer. [Using ChatGPT to write essays may be eroding critical thinking skills](https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html)
-
-### Sur l'enseignement
 
 - **Allons-nous enseigner à nos étudiants des outils ou des techniques voués à disparaître dans trois ans ?**  
   La rapidité des cycles d’innovation et d’obsolescence impose une réflexion de fond sur **ce qu’il est réellement pertinent de transmettre** : des compétences techniques à court terme, ou des capacités critiques, créatives et adaptatives qui résisteront au temps ?
@@ -132,4 +131,65 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 #### Limites d'un GLM à extrapoler
 
 ![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
+
+## Comment avoir un avantage compétif en tant que futur diplômé
+
+La majeure partie de cette section est tirée de [AI Is Making You Dumber - YouTube](https://www.youtube.com/watch?v=G-cdVurdoeA).
+
+### Le monde devient plus idiot
+
+![Declin de la performance de tests sur le raisonnement et la solution de problèmes](./decline_reasoning_problem_solving.png)
+
+#### Témoignages d'étudiants
+
+- « J’ai l’impression de trop dépendre de l’IA, et que ça m’a enlevé ma créativité. »
+- « Je suis devenu plus paresseux. L’IA rend la lecture plus facile, mais elle fait lentement perdre à mon cerveau la capacité de penser de manière critique ou de comprendre chaque mot. »
+- « C’est utile, mais j’ai peur qu’un jour, on préfère lire uniquement des résumés générés par l’IA plutôt que les nôtres, et qu’on devienne très dépendants de l’IA. »
+
+L'IA est comme une dépendance, qui graduellement réduit notre capacité intelectuelle lorsqu'utilisé dans un contexte académique.
+
+#### Recherches corporatives
+
+- « Microsoft Research a découvert que plus les gens avaient confiance en l’IA, moins ils faisaient preuve de pensée critique lorsqu’ils l’utilisaient. »
+- « Une étude menée par Anthropic, qui développe le programme d’IA Claude, a révélé que les étudiants l’utilisaient pour déléguer les tâches de réflexion difficile. L’étude ajoute qu’il existe des inquiétudes légitimes : les systèmes d’IA pourraient devenir une béquille pour les étudiants, freinant le développement des compétences fondamentales nécessaires à une pensée de plus haut niveau. »
+
+Les entreprises qui développent l’IA — ce produit qu’elles affirment pouvoir révolutionner positivement la société humaine — nous disent aussi que leur produit est littéralement en train de nous rendre plus bêtes.
+C’est comme si les fabricants de cigarettes découvraient qu’elles provoquent le cancer, mais disaient ensuite :
+« Non non, le cancer est une fonctionnalité. Le cancer arrive, et il va falloir s’adapter. »
+Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
+
+#### NE PAS UTILISER D'IA PENDANT SA FORMATION
+
+- 💡 **Le piège de l’IA** : 
+  - Utiliser ChatGPT ou toute autre IA pour remplacer ta propre réflexion affaiblit réellement la machine neurologique entre tes deux oreilles.
+  - Elle devient plus faible et moins performante.
+
+- 🧠 **L'avantage du cerveau humain** : 
+  - Les étudiants qui ont écrit leurs dissertations avec leur cerveau humain unique et magnifique ont obtenu de meilleurs résultats.
+  - Et surtout, ils n’ont pas régressé intellectuellement par la suite, même en utilisant l’IA plus tard.
+
+- 🚫 **Ne laisse pas l’IA penser à ta place** : 
+  - Refuser de laisser l’IA penser à ta place te rend non seulement plus intelligent, mais aussi plus résistant aux effets d’affaiblissement cognitif liés à l’IA.
+
+- ✊ **Bonne nouvelle** :  
+  - C’est encourageant.
+  -  **Même si l’IA semble écrasante, nous pouvons riposter en insistant pour utiliser notre esprit humain.**
+
+- 🎓 **Un conseil simple aux étudiants** 
+  - Tu veux dépasser tous les autres qui utilisent l’IA pour faire leurs devoirs ? 
+  - Alors n’utilise pas l’IA pour faire les tiens.
+
+- 📝 **Oui, ce sera dur...**
+  - Tu devras écrire toi-même.
+  - Tu te sentiras peut-être bête.
+  - Tu galéreras avec des problèmes.
+  - Ce sera long et agaçant.
+
+- 🧠 **...Mais tu seras plus intelligent**
+  - Tu deviendras plus intelligent.
+  - Et donc plus capable que ceux qui t’entourent — pour le reste de ta vie.
+
+- 🏋️ **Comme aller à la salle de sport**
+  - C’est pénible sur le moment,
+  - mais tu t’en porteras mieux toute ta vie.
 
