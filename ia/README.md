@@ -162,6 +162,8 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
 
 ## Comment avoir un avantage compétif en tant que futur diplômé
 
+
+
 - 💡 **Le piège de l’IA** : 
   - Utiliser ChatGPT ou toute autre IA pour remplacer ta propre réflexion affaiblit réellement la machine neurologique entre tes deux oreilles.
   - Elle devient plus faible et moins performante.
@@ -195,3 +197,4 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
   - C’est pénible sur le moment,
   - mais tu t’en porteras mieux toute ta vie.
 
+![Apprendre à réfléchir se pratique comme le sport](./6pack_de_tete.png)
