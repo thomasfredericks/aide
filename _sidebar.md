@@ -18,6 +18,8 @@
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
+- *education*
+  - [manifeste](/education/manifeste/)
 - *electro*
   - [resistance](/electro/resistance/)
 - [gamestream](/gamestream/)
