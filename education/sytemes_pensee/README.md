@@ -6,13 +6,13 @@ Dans «Thinking, Fast and Slow» de Daniel Kahneman. l'auteur décrit nos deux s
 - Le processus de pensée rapide : le système 1,
 - Le processus de pensée lent : le système 2
 
-## Le système 1
+## Le système 1 : la pensée automatique
 
 Le système 1, lui, fonctionne automatiquement et rapidement, en arrière-plan, sans que l’on en ait conscience. Il trie les informations sensorielles pour ne garder que l’essentiel et s’appuie sur la mémoire à long terme pour répondre vite et efficacement. Il donne des réponses immédiates, souvent sans vérification, parce que le système 2 est paresseux et n’intervient que si nécessaire.
 
 Le système 1 traite beaucoup d'information en parralèle.
 
-## Le système 2
+## Le système 2 : le raisonnement
 
 Le système 2 correspond à la pensée consciente, lente et méthodique, celle que l’on associe à la réflexion volontaire. Il demande de l’effort et peut vérifier les erreurs, suivre des étapes logiques, et réfléchir à sa propre pensée. Par exemple, il peut calculer 13 x 17 en plusieurs étapes, même si ce n’est pas très motivant.
 

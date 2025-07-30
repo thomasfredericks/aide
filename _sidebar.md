@@ -20,6 +20,7 @@
 - [bytebeat](/bytebeat/)
 - *education*
   - [manifeste](/education/manifeste/)
+  - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
   - [resistance](/electro/resistance/)
 - [gamestream](/gamestream/)
@@ -93,8 +94,6 @@
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
   - [websocket](/pd/websocket/)
-- *pensee*
-  - [deux_systemes](/pensee/deux_systemes/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
