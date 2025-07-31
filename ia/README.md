@@ -197,4 +197,4 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
   - C’est pénible sur le moment,
   - mais tu t’en porteras mieux toute ta vie.
 
-![Apprendre à réfléchir se pratique comme le sport](./6pack_de_tete.png)
+![](./mental_metal.png)
