@@ -1,5 +1,6 @@
 (function () {
-  const alertTypes = {
+  // Configuration for supported alert types. Exposed for extensibility via window.$docsify.alertsConfig
+  const alertTypes = (window.$docsify && window.$docsify.alertsConfig && window.$docsify.alertsConfig.types) || {
     'NOTE': {
       class: 'note',
       icon: '<svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>'
@@ -26,15 +27,25 @@
     .alert {
       border-radius: 4px;
       margin: 1em 0;
-      padding: 1em;
+      padding: 0.75em 1em; /* slightly tighter for single-line */
       border-left: 4px solid;
       display: flex;
-      align-items: center;
+      align-items: flex-start; /* Align icon with first line */
       color: var(--alert-text-color, black); /* Use CSS variable for text color */
+      line-height: 1.4;
     }
     .alert svg {
       margin-right: 0.5em;
+      flex-shrink: 0; /* Prevent icon from shrinking */
+      width: 16px; /* Ensure a fixed width */
+      height: 16px; /* Ensure a fixed height */
+      margin-top: 2px; /* nudge icon to align with text cap height */
     }
+    .alert .alert-content { flex: 1; }
+    /* Remove excessive paragraph margins inside alerts */
+    .alert .alert-content > p { margin: 0.3em 0; }
+    .alert .alert-content > p:first-child { margin-top: 0; }
+    .alert .alert-content > p:last-child { margin-bottom: 0; }
     .alert.note {
       background-color: #e7f3fe;
       border-color: #2196f3;
@@ -57,33 +68,188 @@
     }
   `;
 
-  function createAlertBox(type, content) {
-    const alertType = alertTypes[type.toUpperCase()];
-    if (!alertType) return content;
-
-    return `<div class="alert ${alertType.class}">
-              ${alertType.icon}
-              <div>${content}</div>
-            </div>`;
+  function escapeHTML(str) {
+    return str.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] || c));
   }
 
+  function createAlertBox(type, content) {
+    const alertType = alertTypes[type.toUpperCase()];
+    if (!alertType) return content; // Fallback: just return original content if unknown type
+    return `<div class="alert ${alertType.class}" role="note" aria-label="${type.toUpperCase()}">${alertType.icon}<div class="alert-content">${content}</div></div>`;
+  }
+
+  // Line-based parser (legacy 'pre' mode) to avoid greedy regex swallowing following headings and to support single-line alerts.
+  // In 'dom' mode we defer transformation until after markdown rendering to preserve markdown (images, links, code, etc.).
   function parseAlerts(content) {
-    return content.replace(/> \[!(\w+)\]\s*\n\s*>\s*(.*?)(\n|$)/g, (match, p1, p2, p3) => {
-      return createAlertBox(p1, p2) + (p3 === '\n' ? '\n' : '');
-    });
+    const lines = content.split(/\r?\n/);
+    const out = [];
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const m = line.match(/^>\s*\[!(\w+)\]\s*(.*)$/);
+      if (!m) { out.push(line); continue; }
+      const type = m[1];
+      if (!alertTypes[type.toUpperCase()]) { // Not a supported type; treat as normal line
+        out.push(line);
+        continue;
+      }
+      const collected = [];
+      const firstRemainder = m[2];
+      if (firstRemainder) collected.push(firstRemainder.trim());
+      let j = i + 1;
+      while (j < lines.length) {
+        const ln = lines[j];
+        if (/^>\s*\[!(\w+)\]/.test(ln)) break; // next alert starts
+        if (/^>\s?.*/.test(ln)) {
+          // Quoted continuation line (can be just ">" or "> text")
+            const cleaned = ln.replace(/^>\s?/, '');
+            collected.push(cleaned);
+            j++;
+            continue;
+        }
+        // Non blockquote line ends this alert block
+        break;
+      }
+      i = j - 1; // advance
+      // Escape user content & preserve line breaks as <br>
+      const inner = collected.map(escapeHTML).join('<br>');
+      out.push(createAlertBox(type, inner));
+      out.push(''); // ensure blank line after alert so next heading is parsed correctly
+    }
+    return out.join('\n');
   }
 
   function injectStyles(css) {
+    if (document.getElementById('docsify-alerts-styles')) return; // avoid duplicates
     const style = document.createElement('style');
+    style.id = 'docsify-alerts-styles';
     style.type = 'text/css';
     style.appendChild(document.createTextNode(css));
     document.head.appendChild(style);
   }
 
+  function transformBlockquotesDOM() {
+    const root = document.querySelector('.markdown-section') || document.body;
+    if (!root) return;
+    const blocks = root.querySelectorAll('blockquote');
+    blocks.forEach(bq => {
+      if (bq.dataset.alertProcessed) return;
+      const firstP = bq.querySelector('p');
+      if (!firstP) return;
+      const html = firstP.innerHTML.trim();
+      const markerRegex = /\[!(\w+)\]/g;
+      let m; const markers = [];
+      while ((m = markerRegex.exec(html)) !== null) {
+        markers.push({ type: m[1].toUpperCase(), index: m.index, len: m[0].length });
+      }
+      if (!markers.length) return; // no alert markers
+      // If only one marker at start proceed with original logic (allows multi-element content).
+      const onlySingleAtStart = markers.length === 1 && markers[0].index === 0;
+      if (onlySingleAtStart) {
+        const type = markers[0].type;
+        const alertType = alertTypes[type];
+        if (!alertType) return;
+        const remainder = html.slice(markers[0].len).trimStart();
+        const contentNodes = [];
+        if (remainder) {
+          firstP.innerHTML = remainder;
+          contentNodes.push(firstP);
+        } else {
+          firstP.remove();
+        }
+        Array.from(bq.children).forEach(child => { if (child !== firstP) contentNodes.push(child); });
+        const contentHTML = contentNodes.map(n => n.outerHTML).join('');
+        const wrapper = document.createElement('div');
+        wrapper.className = `alert ${alertType.class}`;
+        wrapper.setAttribute('role', 'note');
+        wrapper.setAttribute('aria-label', type);
+        wrapper.innerHTML = `${alertType.icon}<div class="alert-content">${contentHTML}</div>`;
+        bq.dataset.alertProcessed = '1';
+        bq.replaceWith(wrapper);
+        return;
+      }
+      // Multiple markers in one paragraph: split into sequence of alerts.
+      const fragment = document.createDocumentFragment();
+      for (let i = 0; i < markers.length; i++) {
+        const cur = markers[i];
+        const next = markers[i + 1];
+        const type = cur.type;
+        const alertType = alertTypes[type];
+        if (!alertType) continue; // skip unknown
+        const startContent = cur.index + cur.len;
+        const endContent = next ? next.index : html.length;
+        let segment = html.slice(startContent, endContent).trim();
+        if (!segment) segment = '';
+        const wrapper = document.createElement('div');
+        wrapper.className = `alert ${alertType.class}`;
+        wrapper.setAttribute('role', 'note');
+        wrapper.setAttribute('aria-label', type);
+        wrapper.innerHTML = `${alertType.icon}<div class="alert-content">${segment}</div>`;
+        fragment.appendChild(wrapper);
+      }
+      bq.dataset.alertProcessed = '1';
+      bq.replaceWith(fragment);
+    });
+  }
+
   window.$docsify = window.$docsify || {};
+  const alertsConfig = window.$docsify.alertsConfig || {};
+  const mode = alertsConfig.mode || 'dom'; // 'dom' (default) or 'pre'
+  const lineBreakStrategy = alertsConfig.lineBreakStrategy || 'preserve'; // 'preserve' adds <br>-style breaks for each original line in DOM mode
+
+  function preserveLineBreaksForDOM(content) {
+    if (lineBreakStrategy !== 'preserve') return content;
+    const lines = content.split(/\r?\n/);
+    const out = [];
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const m = line.match(/^>\s*\[!(\w+)\]\s*$/) || line.match(/^>\s*\[!(\w+)\]\s+.*$/);
+      if (!m) { out.push(line); continue; }
+      // Gather following continuation lines of this alert block (without consuming next alert start)
+      out.push(line); // push marker line as-is
+      let j = i + 1;
+      const continuationIdxs = [];
+      while (j < lines.length) {
+        const ln = lines[j];
+        if (/^>\s*\[!(\w+)\]/.test(ln)) break; // next alert
+        if (/^>\s?.*/.test(ln)) {
+          continuationIdxs.push(j);
+          j++;
+          continue;
+        }
+        break;
+      }
+      // Append two trailing spaces to force markdown line break for each continuation line except last
+      for (let k = 0; k < continuationIdxs.length; k++) {
+        const idx = continuationIdxs[k];
+        let ln = lines[idx];
+        if (k < continuationIdxs.length - 1) {
+          if (!/  $/.test(ln)) ln += '  ';
+        }
+        out.push(ln);
+      }
+      i = j - 1;
+    }
+    return out.join('\n');
+  }
+
   window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook) {
     hook.beforeEach(function (content) {
-      return parseAlerts(content);
+      if (mode === 'pre') {
+        return parseAlerts(content);
+      }
+      // DOM mode: optionally mark line breaks so markdown keeps them as <br>
+      return preserveLineBreaksForDOM(content);
+    });
+
+    hook.afterEach(function (html, next) {
+      // In DOM mode we keep html unchanged here; actual transformation in doneEach to work on live DOM
+      next(html);
+    });
+
+    hook.doneEach(function() {
+      if (mode === 'dom') {
+        transformBlockquotesDOM();
+      }
     });
 
     hook.init(function() {

@@ -40,7 +40,8 @@
       var images = contentEl.querySelectorAll('img[alt]');
       images.forEach(function(img) {
         var altText = img.getAttribute('alt');
-        if (altText) {
+        // Skip caption if alt text is empty, only whitespace, or just a single space
+        if (altText && altText.trim() !== '') {
           if (config.wrapInFigure) {
             // Create a figure and figcaption for semantic markup
             var figure = document.createElement('figure');
@@ -69,6 +70,9 @@
             // Apply image alignment
             applyImageAlignment(img, config.imageAlign);
           }
+        } else {
+          // Even if there's no caption, apply image alignment
+          applyImageAlignment(img, config.imageAlign);
         }
       });
     });
