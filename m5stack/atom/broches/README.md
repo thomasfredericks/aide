@@ -25,14 +25,14 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
 ### Broches sous le module
 
-| **ESP32-PICO-D4** | **I2C**  | **Analogique** | **Serial 2** |
-|------------------|----------|------------------|------------------|
-| **21**           | SCL(1)   | ADC              |                  |
-| **25**           | SDA(1)   | DAC              |                  |
-| **22**           |          |                  |                  |
-| **19**           |          |                  |                  |
-| **23**           |          |                  | Serial 2 TX  |
-| **33**           |          | ADC              |  Serial 2 RX |
+| **ESP32-PICO-D4** | **I2C**  | **Analogique** | 
+|------------------|----------|------------------|
+| **21**           | SCL(1)   |                  |
+| **25**           | SDA(1)   | DAC              |
+| **22**           |          |                  |
+| **19**           |          |                  |
+| **23**           |          |                  |
+| **33**           |          | ADC              |
 
 ### Couleurs des connecteurs Grove
 
@@ -56,7 +56,4 @@ Voici des définitions (`#define`) des broches pouvant être utilisées dans le 
 #define DAC_PIN 26
 #define WHITE_CABLE_PIN 32
 #define YELLOW_CABLE_PIN 26
-#define SERIAL2_TX_PIN 23
-#define SERIAL2_RX_PIN  33
-
 ```
