@@ -34,6 +34,8 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 | **23**           |          |                  |
 | **33**           |          | ADC              |
 
+
+
 ### Couleurs des connecteurs Grove
 
 Dans le système M5Stack, la couleur du connecteur HY2.0-4P Grove indique normalement le type de communication :
@@ -47,13 +49,22 @@ Dans le système M5Stack, la couleur du connecteur HY2.0-4P Grove indique normal
 
 Voici des définitions (`#define`) des broches pouvant être utilisées dans le code.
 
+
 ```cpp
-#define BUTTON_PIN 39
-#define PIXEL_PIN 27
-#define SDA_PIN 26
-#define SCL_PIN 32
-#define ADC_PIN 32
-#define DAC_PIN 26
-#define WHITE_CABLE_PIN 32
-#define YELLOW_CABLE_PIN 26
+// ATOM LITE PINS
+#define ATOM_BUTTON_PIN 39
+#define ATOM_PIXEL_PIN 27
+#define ATOM_IR_PIN 12
+
+#define ATOM_GROVE_SDA_PIN 26
+#define ATOM_GROVE_SCL_PIN 32
+#define ATOM_GROVE_ADC_PIN 32
+#define ATOM_GROVE_DAC_PIN 26
+#define ATOM_GROVE_WHITE_CABLE_PIN 32
+#define ATOM_GROVE YELLOW_CABLE_PIN 26
+
+#define ATOM_BOTTOM_SCL 21
+#define ATOM_BOTTOM_SDA 25
+#define ATOM_BOTTOM_DAC 25
+#define ATOM_BOTTOM_ADC 33
 ```
