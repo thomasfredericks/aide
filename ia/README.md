@@ -28,7 +28,7 @@ Voici trois qualités d'IA :
 > Contrairement à ce que l’on pourrait croire, les technologies IA ne sont pas récentes. Elles sont en développement depuis près de 75 ans, avec des racines remontant aux premiers modèles symboliques des années 1950.
 
 > [!WARNING]
-> Contrairement à la confusion véhiculée par le marking techno-solutionniste, un grand modèle de langage (GML) ne peut pas évoluer en intelligence artificielle générale (IAG). Ce sont deux technologies fondamentalement distinctes par leur architecture que par leur fonctionnement. 
+> Contrairement à la confusion véhiculée par le marking techno-solutionniste, un IA générative (GenAI/LLM) ne peut pas évoluer en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes par leur architecture que par leur fonctionnement. 
 
 ## Questions critiques
 
