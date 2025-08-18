@@ -2,33 +2,52 @@
 
 ## Types d'IA
 
-Le terme « IA » sans qualitatif est un buzzword marketing qui embrouille le public. Ainsi, le terme « IA » devrait toujours être suivi d'un qualificatif pour bien le cerner. 
+Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. Ainsi, le terme « IA » devrait toujours être suivi d’un qualificatif pour préciser son type, car ces technologies sont très différentes.
 
-Voici trois qualités d'IA :
-* IA générative (GenAI/LLM) : Chat GPT, Claude, Grok, etc
-* IA générale (AGI) : **hypothétique - n'existe pas**
-* IA spécifique bien délimitée : plus limitée mais aussi plus durable - n'intéresse pas les grosses compagnies parce qu'elle n'est pas hégémonique
+Voici les types d’IA que l’on retrouve dans le discours public ambiant :
 
+- **IA générative (GenAI/LLM)** : ChatGPT, Claude, Grok, etc.
+- **IA générale (AGI)** : **hypothétique – n’existe pas**
 
-| **Critère** | **IA générative (GenAI/LLM)** | **IA générale (AGI)** | **IA spécifique bien délimitée** |
-|-------------|-------------------------------|------------------------|----------------------------------|
-| **Domaine d'application** | Large éventail de tâches dans plusieurs domaines | Tous domaines, avec adaptation contextuelle comme un humain | Restreint, bien défini |
-| **Contrôle et gouvernance** | ❌ Moins contrôlable, comportements complexes et parfois imprévus | 🤔 Autonome, nécessiterait des formes avancées de régulation et d’éthique | Fortement encadrée par des règles explicites |
-| **Fiabilité et sécurité** | ❌ Risques de biais, d’erreurs ou de dérives | ❌❌ Risques amplifiés : imprévisibilité, potentiel d’action autonome | Prévisible et testable |
-| **Transparence** | 🤔 Plus opaque, explicabilité partielle | 🤔 Potentiellement difficile à comprendre voire ininterprétable | Explicable, logique traçable |
-| **Pertinence en contexte éducatif/public** | 🤔 Utile mais nécessite un encadrement | ❌ Hypothétique et potentiellement risquée sans garanties strictes | Idéale pour soutenir des objectifs ciblés |
-| **Impact environnemental, énergétique et extractif** | ⛽️ Élevé : modèles massifs, infrastructure lourde | 🌎💥 Très élevé (hypothétique) : besoin d’énormes ressources pour l'entraînement, l’autonomie et la simulation générale | Faible à modéré |
-| **Durabilité** | ❌ Moins durable, dépendance aux géants du cloud | ❌❌ Inconnue, mais probablement insoutenable dans sa forme actuelle | Soutenable et adaptable localement |
-| **Coûts** | 💰💰💰 Très élevés : en données, calcul, maintenance | 💰💰💰💰💰💰 Extrêmement élevés (hypothétiques), en R&D, énergie, gouvernance | Faibles à modérés |
-| **État actuel** | En usage courant (LLM, assistants IA) | Hypothétique, pas encore réalisée | Déjà largement déployée |
+---
 
+### Comparatif
 
+| **Critère**                                          | **IA générative (GenAI/LLM)**                                    | **IA générale (AGI)**                                                                                                   |
+| ---------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Domaine d'application**                            | Large éventail de tâches dans plusieurs domaines                 | Tous domaines, avec adaptation contextuelle comme un humain                                                             |
+| **Contrôle et gouvernance**                          | ❌ Moins contrôlable, comportements complexes et parfois imprévus | 🤔 Autonome, nécessiterait des formes avancées de régulation et d’éthique                                               |
+| **Fiabilité et sécurité**                            | ❌ Risques de biais, d’erreurs ou de dérives                      | ❌❌ Risques amplifiés : imprévisibilité, potentiel d’action autonome                                                     |
+| **Transparence**                                     | 🤔 Plus opaque, explicabilité partielle                          | 🤔 Potentiellement difficile à comprendre, voire ininterprétable                                                        |
+| **Pertinence en contexte éducatif/public**           | 🤔 Utile, mais nécessite un encadrement                           | ❌ Hypothétique et potentiellement risquée sans garanties strictes                                                       |
+| **Impact environnemental, énergétique et extractif** | ⛽️ Élevé : modèles massifs, infrastructure lourde                | 🌎💥 Très élevé (hypothétique) : besoin d’énormes ressources pour l'entraînement, l’autonomie et la simulation générale |
+| **Durabilité**                                       | ❌ Moins durable, dépendance aux géants du cloud                  | ❌❌ Inconnue, mais probablement insoutenable dans sa forme actuelle                                                      |
+| **Coûts**                                            | 💰💰💰 Très élevés : en données, calcul, maintenance             | 💰💰💰💰💰💰 Extrêmement élevés (hypothétiques), en R&D, énergie, gouvernance                                          |
+| **État actuel**                                      | En usage courant (LLM, assistants IA)                            | Hypothétique, pas encore réalisée                                                                                       |
+
+---
+
+Il existe aussi un autre type d’IA, **l’IA spécifique bien délimitée**, qui est plus restreinte, mais aussi plus durable. Cela n’intéresse généralement pas les grandes entreprises, car elle n’est pas hégémonique.
+
+| **Critère**                                          | **IA spécifique bien délimitée**             |
+| ---------------------------------------------------- | -------------------------------------------- |
+| **Domaine d'application**                            | Restreint, bien défini                       |
+| **Contrôle et gouvernance**                          | Fortement encadrée par des règles explicites |
+| **Fiabilité et sécurité**                            | Prévisible et testable                       |
+| **Transparence**                                     | Explicable, logique traçable                 |
+| **Pertinence en contexte éducatif/public**           | Idéale pour soutenir des objectifs ciblés    |
+| **Impact environnemental, énergétique et extractif** | Faible à modéré                              |
+| **Durabilité**                                       | Soutenable et adaptable localement           |
+| **Coûts**                                            | Faibles à modérés                            |
+| **État actuel**                                      | Déjà largement déployée                      |
+
+---
 
 > [!NOTE]
-> Contrairement à ce que l’on pourrait croire, les technologies IA ne sont pas récentes. Elles sont en développement depuis près de 75 ans, avec des racines remontant aux premiers modèles symboliques des années 1950.
+> Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis près de 75 ans, avec des racines remontant aux premiers modèles symboliques des années 1950.
 
 > [!WARNING]
-> Contrairement à la confusion véhiculée par le marking techno-solutionniste, un IA générative (GenAI/LLM) ne peut pas évoluer en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes par leur architecture que par leur fonctionnement. 
+> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GenAI/LLM) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
 
 ## Questions critiques
 
@@ -98,6 +117,8 @@ Voici trois qualités d'IA :
 - **Atteinte du plafond du développement des GenAI**
   Le développement de l’IA générative a progressé à un rythme effréné, mais il pourrait exister une limite mathématique infranchissable — un plafond — qui marquerait la fin de son évolution fulgurante.
   Beaucoup misent sur l’idée de rendre l’IA générative toujours plus intelligente — mais que se passe-t-il si les données nécessaires à son développement n’existent tout simplement plus ? [AI Has a Fatal Flaw—And Nobody Can Fix It - YouTube](https://www.youtube.com/watch?v=_IOh0S_L3C4)
+- Le 15 août 2025, Sam Altman (PDG d’OpenAI) a reconnu que nous traversons actuellement une bulle autour de l’IA — un engouement exagéré, mais fondé sur un noyau de réalité — tout en affirmant qu’il compte bien en tirer parti, notamment en investissant des **billions** de dollars dans de nouveaux centres de données pour rester aux commandes après l’éclatement.  
+[Lire l’article original (The Register, 15 août 2025)](https://www.theregister.com/2025/08/15/boy_riding_bubble_realizes_what/)
 
 
 ### Perfomances d'un GenAI 

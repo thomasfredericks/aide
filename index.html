@@ -7,7 +7,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="description" content="AIDE*TOF : Centre d'aide par Thomas O Fredericks">
-    
+
 
 
     <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
@@ -44,6 +44,13 @@
                 crossChapter: false,
                 crossChapterText: true,
             },
+            alertStyles: `
+            .alert svg { 
+                width: 32px; 
+                height : 32px;
+            }
+            `
+            ,
             plugins: [
                 function (hook, vm) {
                     hook.doneEach(() => {
@@ -55,12 +62,12 @@
 
                         // Site Name
                         let siteName = window.$docsify.name;  // Use the defined name
-                        
+
                         // Try to get the first <h1> from the rendered page content
                         let firstH1 = (document.querySelector('.markdown-section h1'));
-                        
-                        
-                        if ( firstH1 ) {
+
+
+                        if (firstH1) {
                             firstH1 = firstH1.innerText.trim();
                             // Set document title
                             document.title = firstH1 + ' @ ' + siteName;
@@ -73,10 +80,10 @@
                             }
                         }
 
-                        document.querySelector('.sidebar-nav').addEventListener('click', function(event) {
+                        document.querySelector('.sidebar-nav').addEventListener('click', function (event) {
                             event.stopPropagation();
                         });
-                        
+
                     });
                 }
             ]
@@ -87,7 +94,7 @@
     <script src="./libs/docsify.min.js"></script>
 
 
-    
+
 
     <!-- Import Mermaid -->
 
