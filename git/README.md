@@ -13,7 +13,9 @@ Dans **Visual Studio Code** ou un autre éditeur, créer un projet.
 
 ## Initialiser Git
 
-Ouvrir un terminal dans le dossier du projet, puis exécuter les commandes suivantes.
+Ouvrir un terminal dans le dossier du projet, et y exécuter les commandes qui suivent.
+
+![Cliquer sur le petit icône de terminal de PlatformIO pour ouvrir son terminal](./vscode_terminal.svg)
 
 Initialiser un nouveau dépôt Git local dans le dossier courant. Cela crée un dossier caché `.git` qui contient l’historique de version :
 ```bash
