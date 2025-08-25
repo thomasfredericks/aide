@@ -94,6 +94,9 @@
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
   - [websocket](/pd/websocket/)
+- *platformio*
+  - [installation](/platformio/installation/)
+  - [nouveau_projet](/platformio/nouveau_projet/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)

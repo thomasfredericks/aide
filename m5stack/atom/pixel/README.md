@@ -1,41 +1,42 @@
 # Pixel du M5Stack Atom Lite
 
-## Librairies
+## Librairie
 
-Le contrôle du pixel du M5Stack Atom Lite nécessite les librairies suivantes :
-- M5Atom
+Le contrôle du pixel du M5Stack Atom Lite nécessite la librairie suivante :
 - FastLED 
 
-À noter que FastLED est dans inclu dans M5Atom.
+### PlatformIO
+```
+lib_deps =
+    FastLED
+```
 
 ## À ajouter dans l'espace *global* (au début du code)
 
 Ajouter une varialbe de type CRGB pour le pixel :
 ```cpp
-CRGB pixel;
+CRGB pixelAtom;
 ```
 
 ## Configuration dans *setup()*
 
 À ajouter dans *setup* :
 ```cpp
-  // Ajouter le pixel (il y en a un seul) du M5Atom à la librairie FastLED :
-  FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1);
+  // Initialiser FastLED pour contrôler le pixel RGB du M5Atom
+  FastLED.addLeds<WS2812, 27, GRB>(&pixelAtom, 1); 
 ```
 
 ## Changer la couleur du pixel dans *setup()* ou *loop()*
 
 Pour changer la couleur du pixel:
 
-1) On assigne une nouvelle valeur CRGB à la variable :
+1) On assigne une nouvelle valeur de couleur de type CRGB (couleur rouge, vert, bleu [RGB Color Codes Chart 🎨](https://www.rapidtables.com/web/color/RGB_Color.html)) à la variable :
 ```cpp
-  // Changer la couleur du premier pixel pour le blanc :
-  pixel = CRGB(255,255,255);
+  pixelAtom = CRGB(255,255,255); // BLANC
 ```
 
-2) Après, il faut indiquer de mettre à jour la couleur affichée selon la valeur de la variable pixel :
+2) Après, il faut mettre à jour le pixel
 ```cpp
-    // Mettre à jour le pixel :
     FastLED.show();
 ```
 
