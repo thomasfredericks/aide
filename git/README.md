@@ -1,7 +1,3 @@
-
-
-
-
 # Git — Ajout d'un projet à un dépôt
 
 Voici les étapes pour ajouter un projet local à un dépôt comme [Codeberg.org](https://codeberg.org/) ou [GitHub.com](https://github.com/).
@@ -62,6 +58,9 @@ L’option `-u` indique à Git de suivre cette branche par défaut — il sera e
 git push -u origin main
 ```
 
-
+Si la commande ne fonctionne pas (parce que le dépôt distant a un README.md par exemple) exécuter cette commande et ensuite refaire le `push` ci-haut:
+```bash
+git pull origin main --allow-unrelated-histories -m "Merge remote main into local"
+```
 
 Une fois ces étapes complétées, le projet est versionné localement *et* synchronisé avec le dépôt distant.

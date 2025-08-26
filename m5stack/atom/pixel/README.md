@@ -1,8 +1,8 @@
 # Pixel du M5Stack Atom Lite
 
-## Librairie
+## bibliothèque
 
-Le contrôle du pixel du M5Stack Atom Lite nécessite la librairie suivante :
+Le contrôle du pixel du M5Stack Atom Lite nécessite la bibliothèque suivante :
 - FastLED 
 
 ### PlatformIO
@@ -13,7 +13,12 @@ lib_deps =
 
 ## À ajouter dans l'espace *global* (au début du code)
 
-Ajouter une varialbe de type CRGB pour le pixel :
+Ajouter la bibliothèque FastLED:
+```cpp
+#include <FastLED.h>
+```
+
+Ajouter une variable de type CRGB pour le pixel :
 ```cpp
 CRGB pixelAtom;
 ```
