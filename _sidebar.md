@@ -18,7 +18,6 @@
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
-- *coverage*
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -27,11 +26,14 @@
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
-  - [configuration_globale](/git/configuration_globale/)
+  - [configuration_identite](/git/configuration_identite/)
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
 - [ia](/ia/)
+- *interactivite*
+  - [analyse](/interactivite/analyse/)
+  - [experience](/interactivite/experience/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*
@@ -52,8 +54,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink](/m5stack/exemples/blink.md)
     - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
+    - [blink](/m5stack/exemples/blink.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -73,6 +75,7 @@
 - *max*
   - *osc*
     - [udp](/max/osc/udp/)
+- [mediagraphie](/mediagraphie/)
 - [microosc](/microosc/)
   - [envoi](/microosc/envoi/)
     - [valeur_changee](/microosc/envoi/valeur_changee/)
@@ -100,6 +103,8 @@
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
+- *production*
+  - [etapes](/production/etapes/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)

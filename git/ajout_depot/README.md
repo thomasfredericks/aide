@@ -17,25 +17,18 @@ Initialiser un nouveau dépôt Git local dans le dossier courant. Cela crée un 
 ```bash
 git init
 ```
----
 
 Créer et basculer sur une nouvelle branche nommée `main` :
 ```bash
 git checkout -b main
 ```
----
 
 Ajouter tous les fichiers du projet à l’index Git (préparer les fichiers pour le commit) :
 ```bash
 git add .
 ```
----
 
-Créer un commit avec les fichiers ajoutés et y associer un message décrivant ce commit (`"first commit"` ici) :
-```bash
-git commit -m "first commit"
-```
----
+
 
 ## Créer un dépôt distant
 
@@ -52,23 +45,33 @@ Dans le terminal, connecter le dépôt local au dépôt distant `origin` en remp
 git remote add origin https://github.com/mon-nom/projet.git
 ```
 
+Récupérer les informations du dépôt distant :
+```bash
+git fetch origin
+```
+
+Créer une révision (*commit*) avec les fichiers du projet et y associer un message décrivant la révision :
+```bash
+git commit -m "Initialisation"
+```
+
 Envoyer la branche `main` (et ses commits) vers le dépôt distant.
 L’option `-u` indique à Git de suivre cette branche par défaut — il sera ensuite possible d’utiliser simplement `git push` sans arguments :
 ```bash
 git push -u origin main
 ```
 
-Si la commande ne fonctionne pas (parce que le dépôt distant a un README.md par exemple) exécuter cette commande et ensuite refaire le `push` ci-haut:
+Si la commande précédente ne fonctionne pas (parce que le dépôt distant contient un README.md par exemple) exécuter cette commande et ensuite refaire le `push` précédent :
 ```bash
-git pull origin main --allow-unrelated-histories -m "Merge remote main into local"
+git merge origin/main --allow-unrelated-histories -m "Fusion"
 ```
 
 Une fois ces étapes complétées, le projet est versionné localement *et* synchronisé avec le dépôt distant.
 
 ## Visual Studio Source Control
 
-Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l'ordinateur. Dans l'image suivante on constate que Git n'est pas configuré:
+Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l'ordinateur. Dans l'image suivante, on constate que Git n'est pas configuré :
 
 ![](./erreur_source_control.png)
 
-Pour régler le problème, il suffit de configurer Git globallement : [Git — Configuration globale](../configuration_globale/)
+Pour régler le problème, il suffit de configurer l'identité de l'utilisateur Git : [Configuration de l'identité Git](../configuration_identite/)
