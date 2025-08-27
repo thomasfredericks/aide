@@ -34,6 +34,7 @@
 - *interactivite*
   - [analyse](/interactivite/analyse/)
   - [experience](/interactivite/experience/)
+  - [histoire](/interactivite/histoire/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*
