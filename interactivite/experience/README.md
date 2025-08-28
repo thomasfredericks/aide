@@ -8,6 +8,8 @@
 
 Source : *p45 de L’art du Game Design de Jesse Schell, 2020.​*
 
+- L'interaction transforme des lignes de code en art.
+
 ## Qualités d’une bonne expérience interactive
 
 ### **Clarté**  
