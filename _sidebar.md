@@ -18,6 +18,7 @@
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
+- *coverage*
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -55,8 +56,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [blink](/m5stack/exemples/blink.md)
+    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -101,6 +102,7 @@
     - *filtre*
       - [glissement](/pd/traitement/filtre/glissement/)
   - [websocket](/pd/websocket/)
+- [pecha_kucha](/pecha_kucha/)
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
