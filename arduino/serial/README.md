@@ -7,9 +7,9 @@ Toutes les cartes Arduino possèdent au moins un port série (également appelé
 
 ## `Serial.begin()`
 
-Définit le débit en bits par seconde (baud) pour la transmission de données série. 
+Définit le débit en bits par seconde (baud) pour la transmission de données série. À utiliser dans `setup()`.
 
-Utilisez la fonction suivante pour initialiser et configurer la communication série :
+Utiliser la fonction suivante **dans setup()** pour initialiser et configurer la communication série :
 ```cpp
 Serial.begin(baud)
 ```
