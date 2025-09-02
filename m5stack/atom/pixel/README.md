@@ -5,7 +5,7 @@
 Le contrôle du pixel du M5Stack Atom Lite nécessite la bibliothèque suivante :
 - FastLED 
 
-### PlatformIO
+### PlatformIO **platformio.ini**
 ```
 lib_deps =
     FastLED
