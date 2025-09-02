@@ -88,12 +88,14 @@
   - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
+  - [introduction](/pd/introduction/)
   - *osc*
     - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
     - [udp](/pd/osc/udp/)
   - *plugdata*
     - [copier-coller](/pd/plugdata/copier-coller/)
+  - [serial](/pd/serial/)
   - *traitement*
     - *delai*
       - [retarder](/pd/traitement/delai/retarder/)
