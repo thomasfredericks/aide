@@ -6,6 +6,7 @@
     - [attendre](/arduino/millis/attendre.md)
     - [intervalle](/arduino/millis/intervalle.md)
   - [random](/arduino/random/)
+  - [serial](/arduino/serial/)
   - [udp](/arduino/udp/)
 - *audio*
   - *haut-parleurs*
@@ -18,7 +19,6 @@
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
-- *coverage*
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -56,8 +56,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink](/m5stack/exemples/blink.md)
     - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
+    - [blink](/m5stack/exemples/blink.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -88,12 +88,14 @@
   - [spout](/obs/spout/)
 - [osc](/osc/)
 - *pd*
+  - [introduction](/pd/introduction/)
   - *osc*
     - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
     - [udp](/pd/osc/udp/)
   - *plugdata*
     - [copier-coller](/pd/plugdata/copier-coller/)
+  - [serial](/pd/serial/)
   - *traitement*
     - *delai*
       - [retarder](/pd/traitement/delai/retarder/)
