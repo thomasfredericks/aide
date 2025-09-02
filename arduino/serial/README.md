@@ -3,6 +3,8 @@
 Utilisé pour la communication entre la carte Arduino et un ordinateur ou d’autres périphériques.
 Toutes les cartes Arduino possèdent au moins un port série (également appelé UART ou USART), et certaines en ont plusieurs.
 
+![](./code_morse.jpg)
+
 ## `Serial.begin()`
 
 Définit le débit en bits par seconde (baud) pour la transmission de données série. 

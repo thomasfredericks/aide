@@ -16,12 +16,16 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
 ### Connecteur HY2.0-4P Grove et son câble
 
+![](./grove_connector.jpg)
+
 | **ESP32-PICO-D4** | **I2C**  | **Analogique** | **Câble HY2.0-4P Grove** |
 |------------------|----------|------------------|---------------------------|
 | **26**           | SDA(2)   | DAC              | Jaune                     |
 | **32**           | SCL(2)   | ADC              | Blanc                     |
 | **5V**           |          |                  | Rouge                     |
 | **GND**          |          |                  | Noir                      |
+
+
 
 ### Broches sous le module
 
