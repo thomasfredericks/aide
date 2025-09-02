@@ -45,6 +45,12 @@ Dans le terminal, connecter le dépôt local au dépôt distant `origin` en remp
 git remote add origin https://github.com/mon-nom/projet.git
 ```
 
+**SEULEMENT SI** par accident la mauvaise adresse URL HTTPS a été ajoutée, la mauvaise adresse peut être enlevée avec la commande suivante (ne pas oublier de remettre la bonne adresse avec la commande `git remote add origin ...` précédente) :
+```bash
+git remote remove origin
+```
+
+
 Récupérer les informations du dépôt distant :
 ```bash
 git fetch origin
@@ -61,7 +67,7 @@ L’option `-u` indique à Git de suivre cette branche par défaut — il sera e
 git push -u origin main
 ```
 
-Si la commande précédente ne fonctionne pas (parce que le dépôt distant contient un README.md par exemple) exécuter cette commande et ensuite refaire le `push` précédent :
+**SEULEMENT SI** la commande précédente ne fonctionne pas (parce que le dépôt distant contient un README.md par exemple) exécuter cette commande et ensuite refaire le `push` précédent :
 ```bash
 git merge origin/main --allow-unrelated-histories -m "Fusion"
 ```
