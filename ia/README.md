@@ -1,5 +1,9 @@
 # Intelligence artificielle
 
+## Guides
+
+- [L’utilisation pédagogique, éthique et légale de l’intelligence artificielle générative GUIDE DESTINÉ AU PERSONNEL ENSEIGNANT 2024-2025 du Gouvernement du Québec](https://cdn-contenu.quebec.ca/cdn-contenu/education/Numerique/Guide-utilisation-pedagogique-ethique-legale-IA-personnel-enseignant.pdf)
+
 ## Types d'IA
 
 Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. Ainsi, le terme « IA » devrait toujours être suivi d’un qualificatif pour préciser son type, car ces technologies sont très différentes.
@@ -155,9 +159,6 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 ![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
 
 
-
-
-
 ## Le monde devient plus idiot
 
 La majeure partie de cette section est tirée de [AI Is Making You Dumber - YouTube](https://www.youtube.com/watch?v=G-cdVurdoeA).
@@ -207,6 +208,5 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
 - 🏆 **...Mais tu seras meilleur que tous les autres**
   - Tu deviendras plus résistant intellectuellement et auras développé de meilleures facultés cognitives.
   - Tu seras donc plus capable que ceux qui t’entourent — pour le reste de ta vie.
-
 
 ![](./mental_de_meta3l.png)
