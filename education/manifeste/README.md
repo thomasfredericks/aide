@@ -4,7 +4,13 @@
 
 L’éducation ne sert pas qu’à décrocher un emploi. Elle vise à créer une société libre, juste et solidaire.
 
-L'éducation doit libérer, plutôt que pousser à se conformer. Elle ne devrait pas former à la soumission, mais à l’émancipation. 
+L'éducation doit libérer, et donner de l’agentivité aux élèves. Elle  doit former à l’émancipation. 
+
+Qualités à développer chez les étudiants :
+* **Agentivité** : réfléchir et identifier ses intérêts
+* **Vivre ensemble** : Les étudiants doivent apprendre à interagir avec d’autres êtres
+* **Communiquer** : Écouter et parler
+
 
 ## Apprendre à réfléchir
 
