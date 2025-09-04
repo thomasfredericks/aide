@@ -24,6 +24,7 @@
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
   - [resistance](/electro/resistance/)
+- [galerie](/galerie/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
