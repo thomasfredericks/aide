@@ -1,4 +1,16 @@
 
+
+
+## Installations
+
+### Corporalité
+
+- [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation)
+
+### Du réel au virtuel
+
+- [This aquarium allows kids to see the fish they drew inside it!! - GIF - Imgur](https://imgur.com/gallery/this-aquarium-allows-kids-to-see-fish-they-drew-inside-LYRvyGj)
+
 ## Jeux vidéos expérimentaux
 
 ### Encore jouables
@@ -7,6 +19,7 @@
 - [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) (2010, Flash) Un jeu où tu dois sauver le monde d’un remède contre le cancer qui tourne mal. Tu n’as droit qu’à une seule partie et tes choix sont définitifs.
 - [TRY. DIE. REPEAT. - Game Jolt](https://gamejolt.net/?token=ruNSqzR8XX77ZGHfYUZSXVkrtHPV5P) Un puzzle-platformer où tes cadavres servent littéralement de plateformes pour progresser.
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie.
+- [Toribash](https://toribash.com/) 
 
 ### Difficilement jouables 
 
@@ -24,3 +37,11 @@ Un clone de Space Invaders où chaque ennemi correspond à un fichier de ton ord
 ### Difficilement jouables 
 
 - [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) Un “serious game” où tirer sur des terroristes tue toujours des civils et engendre encore plus de terroristes, rendant la violence sans fin.
+
+
+## Sites Web
+
+### Collections
+
+- [Pointer Pointer](https://pointerpointer.com/)
+- [JUST SCREAM!](https://justscream.baby/)

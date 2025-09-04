@@ -34,6 +34,7 @@
     - [priorites](/github/projects/priorites/)
 - [ia](/ia/)
 - *interactivite*
+  - [actions_emergentes](/interactivite/actions_emergentes/)
   - [analyse](/interactivite/analyse/)
   - [experience](/interactivite/experience/)
   - [histoire](/interactivite/histoire/)
