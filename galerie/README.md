@@ -5,7 +5,7 @@
 - ENJEUX_SOCIAUX : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
 - COLLECTIF : expérience qui s'effectue à plus de 2 interacteurs.
 - CORPORALITÉ : expérience qui concerne le corps physique.
-- EXPÉRIMENTAL : expérience qui questionne la forme.
+- EXPÉRIMENTAL : une approche qui déconstruit la forme pour mieux la réinventer.
 - CONSÉQUENCES : expérience qui entraîne des conséquences réelles.
 
 - [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs.**JEU_DE_SOCIÉTÉ ENJEUX_SOCIAUX**
