@@ -1,8 +1,8 @@
-# Galerie d'expériences
+# Galerie d'expériences multimédia
 
 ## Mots-clés
-- **JEU-DE-SOCIÉTÉ** : jeu où les joueurs sont responsables du maintien des règles.
-- **JEU-INTERACTIF** : jeu où un système automatisé est responsable du maintien des règles.
+- **JEU-DE-PLATEAU** : jeu (avec des conditions de victoire et d'échec) où les joueurs sont responsables du maintien des règles.
+- **JEU-INTERACTIF** : jeu (avec des conditions de victoire et d'échec) où un système automatisé est responsable du maintien des règles.
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
 - **COLLECTIF** : expérience qui s'effectue à plus de 2 interacteurs.
 - **CORPORALITÉ** : expérience qui concerne le corps physique.
@@ -14,9 +14,9 @@
 - **WEB** : expérience sur le Web.
 
 ## Les expériences
-- [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs.**JEU-DE-SOCIÉTÉ ENJEUX-SOCIAUX**
-- [Mai '68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **JEU-DE-SOCIÉTÉ ENJEUX-SOCIAUX**
-- [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **JEU-DE-SOCIÉTÉ ENJEUX-SOCIAUX**
+- [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs.**JEU-DE-PLATEAU ENJEUX-SOCIAUX**
+- [Mai '68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **JEU-DE-PLATEAU ENJEUX-SOCIAUX**
+- [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **JEU-DE-PLATEAU ENJEUX-SOCIAUX**
 - [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation) **JEU-INTERACTIF CORPORALITÉ CONSÉQUENCES**
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **JEU-INTERACTIF CORPORALITÉ MALIN COLLECTIF JOUABLE**
 - [Play You Only Live Once, a free online game on Kongregate](https://www.kongregate.com/games/raitendo/you-only-live-once) (2009, jeu Flash sur Kongregate) Un jeu de plateforme parodique où, si le joueur meurt, il devient à jamais impossible de gagner sur cet ordinateur/navigateur, même après avoir relancé. **JEU-INTERACTIF JOUABLE EXPÉRIMENTAL**
@@ -34,3 +34,5 @@
 - [This aquarium allows kids to see the fish they drew inside it!! - GIF - Imgur](https://imgur.com/gallery/this-aquarium-allows-kids-to-see-fish-they-drew-inside-LYRvyGj)  **NUMÉRISATION COLLECTE COLLECTIF**
 - [Pointer Pointer](https://pointerpointer.com/)  **COLLECTE WEB**
 - [JUST SCREAM!](https://justscream.baby/) **COLLECTE WEB**
+- [Mimics by Navel](https://navel.itch.io/mimics), [Mimics for iOS and Android](http://www.mimicsgame.com/) Mimics est un jeu, en ligne et en local, qui consiste à imiter des expressions faciales extrêmes et à regarder les autres en faire autant. Les joueurs imitent des visages dessinés, puis leurs coéquipiers doivent deviner quelle expression a été reproduite. Le jeu peut se jouer ensemble au même endroit ou en ligne avec des amis ou des inconnus. **JEU-INTERACTIF COLLECTIF JOUABLE EXPÉRIMENTAL**
+- [The Marriage](https://kyrie.pe/the_marriage/) **JEU-INTERACTIF JOUABLE EXPÉRIMENTAL RELATIONS**

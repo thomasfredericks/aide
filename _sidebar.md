@@ -25,7 +25,7 @@
 - *electro*
   - [resistance](/electro/resistance/)
 - *galerie*
-  - [experiences](/galerie/experiences/)
+  - [experiences_mutlimedia](/galerie/experiences_mutlimedia/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
