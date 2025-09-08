@@ -23,6 +23,9 @@ Ajouter une variable de type CRGB pour le pixel :
 CRGB pixelAtom;
 ```
 
+![](./code_creer_crgb.drawio.png)
+
+
 ## Configuration dans *setup()*
 
 À ajouter dans *setup* :
@@ -39,6 +42,8 @@ Pour changer la couleur du pixel:
 ```cpp
   pixelAtom = CRGB(255,255,255); // BLANC
 ```
+
+![](./code_crgb.drawio.png)
 
 2) Après, il faut mettre à jour le pixel
 ```cpp

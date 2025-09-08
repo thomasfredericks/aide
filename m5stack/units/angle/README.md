@@ -42,3 +42,47 @@ Donc *si* le **M5Stack Angle** est connecté au connecteur Grove du contrôleur 
 ```cpp
 int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 ```
+
+![](./code_angle.png)
+
+## Exemple(s)
+
+### Allumer un pixel en rouge selon la rotation
+
+
+
+#### Rappel de la règle de 3
+
+![La règle de 3](./regle_de_3.png)
+
+![La règle de 3 appliquée au canal rouge et à la mesure d'angle](./regle_de_3_rouge_angle.png)
+
+
+#### Rappel sur comment changer une couleur
+
+```cpp
+pixelAtom = CRGB( 255 , 255 , 255 ); // pixelAtom a été déclaré dans l'espace global
+FastLED.show();
+```
+![](./code_crgb.drawio.png)
+
+#### Sans variable intermédiaire
+
+```cpp
+int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
+pixelAtom = CRGB( maLectureAngle * 255 / 4095 , 0 , 0 ); // pixelAtom a été déclaré dans l'espace global
+FastLED.show();
+```
+
+![Schéma sans variable intermédiaire](./code_crgb_exercice.drawio.png)
+
+#### Avec variable intermédiaire
+
+```cpp
+int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
+int rouge = maLectureAngle * 255 / 4095; // règle de 3 
+pixelAtom = CRGB( rouge , 0 , 0 ); // pixelAtom a été défini dans l'espace global
+FastLED.show();
+```
+
+![Schéma avec variable intermédiaire](./code_crgb_exercice2.drawio.png)

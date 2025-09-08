@@ -70,12 +70,12 @@
     - [capacitance](/m5stack/exemples/capacitance/)
     - [matrice-cables](/m5stack/exemples/matrice-cables/)
   - *units*
-    - [angle](/m5stack/units/angle.md)
-    - [pbhub](/m5stack/units/pbhub.md)
     - *396*
       - [bouton-arcade](/m5stack/units/396/bouton-arcade/)
       - [photoresistance](/m5stack/units/396/photoresistance/)
+    - [angle](/m5stack/units/angle/)
     - [encoder](/m5stack/units/encoder/)
+    - [pbhub](/m5stack/units/pbhub/)
     - [tof](/m5stack/units/tof/)
 - *max*
   - *osc*

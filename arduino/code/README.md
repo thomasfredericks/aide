@@ -1,5 +1,9 @@
 # Le code Arduino
 
+## Créer une variable
+
+![](./code_creation_variable.drawio.png)
+
 ## Variables les plus communes pour l'ESP32
 
 | Type | Taille | Étendue | Commentaire  | 
