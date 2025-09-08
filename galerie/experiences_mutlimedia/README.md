@@ -6,7 +6,7 @@ Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des 
 
 Un **jeu de table** est un jeu dans lequel les joueurs sont responsables du maintien des règles.
 
-Un **jeu interactif** est jeu où un système automatisé est responsable du maintien des règles.
+Un **jeu interactif** est un jeu dans lequel un système automatisé est responsable du maintien des règles.
 
 ## Mots-clés
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
