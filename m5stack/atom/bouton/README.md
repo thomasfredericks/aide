@@ -1,69 +1,32 @@
 # Bouton du M5Stack Atom Lite
 
-## Documentation de l'API du bouton du M5Stack Atom Lite
+## Introduction
 
-La documentation complète de l'API du bouton du M5Stack Atom Lite se trouve ici : [https://docs.m5stack.com/en/api/atom/button](https://docs.m5stack.com/en/api/atom/button)
+Le bouton est relié à la broche `39` de l'ESP32 du Atom Lite.
 
-## Code à intégrer dans *setup()*
+## Code à intégrer
 
-Le bouton du M5Stack Atom Lite ne nécessite aucune configuration à ajouter dans *setup()*.
+### Dans l'espace global
 
-## Code à intégrer dans la boucle de mise à jour de *loop()*
-
-Utiliser l'une des variantes suivantes selon vos besoins. 
-
-
-### Valider si le bouton est **présentement** relâché
+Bien que cela ne soit pas absolument nécessaire, c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
-if ( M5.Btn.isReleased() ) {
-
-}
+#define MA_BROCHE_BOUTON 39
 ```
 
-`M5.Btn.isReleased()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
+### Dans *setup()*
 
-| Non | Oui | 
-|---------|---------|
-| `0`    |  `1`  | 
-| `false`    | `true ` |
-
-###   Valider si le bouton est **présentement** appuyé
+S'assurer que la broche reliée au bouton est en mode entrée :
 ```cpp
-if ( M5.Btn.isPressed() ) {
-
-}
-```
-`M5.Btn.isPressed()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
-
-| Non | Oui | 
-|---------|---------|
-| `0`    |  `1`  | 
-| `false`    | `true ` |
-
-###  Valider si le bouton **a été** appuyé depuis le dernier *M5.update()*
-```cpp
-if ( M5.Btn.wasPressed() ) {
-
-}
+pinMode( MA_BROCHE_BOUTON , INPUT );
 ```
 
-` M5.Btn.wasPressed()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
+### Dans *loop()*
 
-| Non | Oui | 
-|---------|---------|
-| `0`    |  `1`  | 
-| `false`    | `true ` |
 
-###  Valider si le bouton **a été** relâché depuis le dernier *M5.update()*
+Pour effectuer une lecture, nous utilisons la fonction [digitalRead()](https://docs.arduino.cc/learn/programming/reference/) :
 ```cpp
-if ( M5.Btn.wasReleased() ) {
-
-}
+int maLectureBouton = digitalRead( MA_BROCHE_BOUTON );
 ```
-`M5.Btn.wasReleased()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
 
-| Non | Oui | 
-|---------|---------|
-| `0`    |  `1`  | 
-| `false`    | `true ` |
+![](./digitalRead.drawio.png)
 

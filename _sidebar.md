@@ -46,6 +46,7 @@
 - *m5stack*
   - *atom*
     - [bouton](/m5stack/atom/bouton/)
+      - [m5lib](/m5stack/atom/bouton/m5lib/)
     - [broches](/m5stack/atom/broches/)
     - *code*
       - [base](/m5stack/atom/code/base/)
@@ -95,6 +96,7 @@
   - *osc*
     - [midi](/pd/osc/midi/)
     - [relais](/pd/osc/relais/)
+    - [slip](/pd/osc/slip/)
     - [udp](/pd/osc/udp/)
   - *plugdata*
     - [copier-coller](/pd/plugdata/copier-coller/)

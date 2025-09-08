@@ -1,0 +1,17 @@
+#N canvas 647 236 540 318 12;
+#X obj 49 206 comport;
+#X msg 48 51 devices;
+#X msg 103 95 baud 115200;
+#X msg 121 143 open 4;
+#X text 108 51 Lister les ports dans la fenêtre Pd;
+#X text 193 92 Choisir le bon débit;
+#X text 174 142 Ouvrir le bon port;
+#X obj 49 253 print;
+#X text 91 253 Les données reçues sont imprimées dans la fenêtre Pd;
+#X msg 139 174 close;
+#X text 189 175 Libérer le port;
+#X connect 0 0 7 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 9 0 0 0;

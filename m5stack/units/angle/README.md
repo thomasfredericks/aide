@@ -33,7 +33,7 @@ Le **M5Stack Angle** ne nécessite aucun code dans *setup()*.
 
 
 
-Pour effectuer une lecture, nous utilisons la fonction [analogRead()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) :
+Pour effectuer une lecture, nous utilisons la fonction [analogRead()](https://docs.arduino.cc/learn/programming/reference/) :
 ```cpp
 int analogRead(int pin);
 ```

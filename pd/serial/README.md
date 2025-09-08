@@ -9,3 +9,9 @@ Pour recevoir et envoyer sur le port série, il est nécessaire d'ajouter l'obje
 ![Installer comport](./pd_installation_comport.svg)
 
 ![Installation de comport réussie (parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_comport_reussie.svg)
+
+## Exemple d'utilisation 
+
+![](./exemple_comport.png)
+
+Télécharger l'exemple ici : [exemple_comport.pd](./exemple_comport.pd)
