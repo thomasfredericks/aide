@@ -1,12 +1,12 @@
 # Galerie d'expériences multimédia
 
-Une ****expérience multimédia** est une œuvre qui intègre différents types de médias et propose un cheminement ou une progression à suivre. Cette progression peut être très courte, peut être seulement deux étapes, mais elle nécessite toutefois un stimulus.
+Une **expérience multimédia** est une œuvre qui intègre différents types de médias et propose une progression à suivre. Cette progression peut être très courte, possiblement seulement deux étapes, mais elle nécessite toutefois un déclencheur externe.
 
 Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des conditions de victoire et d'échec. 
 
-**Jeux de plateau** : jeu (avec des conditions de victoire et d'échec) où les joueurs sont responsables du maintien des règles.
+**Jeux de plateau** : jeu où les joueurs sont responsables du maintien des règles.
 
-**Jeux interactifs** : jeu (avec des conditions de victoire et d'échec) où un système automatisé est responsable du maintien des règles.
+**Jeux interactifs** : jeu où un système automatisé est responsable du maintien des règles.
 
 ## Mots-clés
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
@@ -16,21 +16,23 @@ Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des 
 - **CONSÉQUENCES** : expérience qui entraîne des conséquences réelles.
 - **COLLECTE** : expérience qui collectionne des données.
 - **NUMÉRISATION** : expérience qui transfert un élément du réel au virtuel.
+- **MATÉRIALISATION** : expérience qui transfert un élément du virtuel au réel.
 - **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
 - **WEB** : expérience sur le Web.
 
 ## Jeux de plateau
 
-- [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs.**ENJEUX-SOCIAUX**
+- [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs. **ENJEUX-SOCIAUX**
 - [Mai '68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **ENJEUX-SOCIAUX**
 - [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **ENJEUX-SOCIAUX**
+- [Slay the Spire: The Board Game | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game) Une adaptation extrêmement fidèle du jeu vidéo [Slay the Spire](https://www.megacrit.com/games/) **MATÉRIALISATION**
 
 ## Jeux interactifs
 
 - [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation) **CORPORALITÉ CONSÉQUENCES**
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **CORPORALITÉ MALIN COLLECTIF JOUABLE**
 - [Play You Only Live Once, a free online game on Kongregate](https://www.kongregate.com/games/raitendo/you-only-live-once) (2009, jeu Flash sur Kongregate) Un jeu de plateforme parodique où, si le joueur meurt, il devient à jamais impossible de gagner sur cet ordinateur/navigateur, même après avoir relancé. **JOUABLE EXPÉRIMENTAL**
-- [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) (2010, Flash) Un jeu où le joueur doit sauver le monde d’un remède contre le cancer qui tourne mal. Il n’a droit qu’à une seule partie et ses choix sont définitifs. **JOUABLE EXPÉRIMENTAL CONSÉQUENCES**
+- [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) (2010, Flash) Un jeu dans lequel le joueur doit sauver le monde d’un remède contre le cancer qui tourne mal. Il n’a droit qu’à une seule partie et ses choix sont définitifs. **JOUABLE EXPÉRIMENTAL CONSÉQUENCES**
 - [TRY. DIE. REPEAT. - Game Jolt](https://gamejolt.net/?token=ruNSqzR8XX77ZGHfYUZSXVkrtHPV5P) Un puzzle-platformer où les cadavres du joueur servent littéralement de plateformes pour progresser. **JOUABLE EXPÉRIMENTAL**
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
 - [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
