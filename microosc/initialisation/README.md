@@ -27,7 +27,7 @@ Ajouter la ligne suivante à `lib_deps` dans `platformio.ini` :
 #include <MicroOscSlip.h>
 // Le nombre 128 entre les < > ci-dessous est le nombre maximal d'octets réservés pour les messages entrants.
 // Les messages sortants sont écrits directement sur la sortie et ne nécessitent pas de réservation d'octets supplémentaires.
-MicroOscSlip<128> myOsc(&Serial);
+MicroOscSlip<128> monOsc(&Serial);
 ```
 
 ![](./microosc_initialisation.drawio.png)
