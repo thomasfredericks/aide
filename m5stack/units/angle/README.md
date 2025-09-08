@@ -43,7 +43,7 @@ Donc *si* le **M5Stack Angle** est connecté au connecteur Grove du contrôleur 
 int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 ```
 
-![](./code_angle.png)
+![](./code_angle.drawio.png)
 
 ## Exemple(s)
 
@@ -53,9 +53,9 @@ int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 
 #### Rappel de la règle de 3
 
-![La règle de 3](./regle_de_3.png)
+![La règle de 3](./regle_de_3.drawio.png)
 
-![La règle de 3 appliquée au canal rouge et à la mesure d'angle](./regle_de_3_rouge_angle.png)
+![La règle de 3 appliquée au canal rouge et à la mesure d'angle](./regle_de_3_rouge_angle.drawio.png)
 
 
 #### Rappel sur comment changer une couleur

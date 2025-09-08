@@ -5,14 +5,23 @@
 
 ### Arduino IDE
 
-- Télécharger la bibliothèque MicroOsc dans le gestionnaire de bibliothèques d'Arduino.
+Télécharger la bibliothèque `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
+
+### PlatformIO
+
+Ajouter la ligne suivante à `lib_deps` dans `platformio.ini` :
+```
+    https://github.com/thomasfredericks/MicroOsc.git
+```
 
 ## OSC SLIP ou UDP
 
-Il existe actuellement deux protocoles de transport pris en charge : Serial (avec SLIP) et UDP (Ethernet ou WiFi). Les deux versions sont identiques, sauf pour leur initialisation.
+`MicroOsc` prend actuellement en charge deux protocoles de transport : Serial (avec SLIP) et UDP (Ethernet ou WiFi). Les deux versions utilisent un API identique, sauf pour leur initialisation.
 
 
-## OSC SLIP
+## Initialisation d'OSC SLIP
+
+### Espace global
 
 ```cpp
 #include <MicroOscSlip.h>
@@ -21,12 +30,19 @@ Il existe actuellement deux protocoles de transport pris en charge : Serial (ave
 MicroOscSlip<128> myOsc(&Serial);
 ```
 
+![](./microosc_initialisation.drawio.png)
+
+### Dans `setup()`
+
 Dans `setup()`, n'oubliez pas de démarrer la communication série :
 ```cpp
   Serial.begin(115200);
 ```
 
-## OSC UDP
+> [!WARNING] 
+> Il ne faut plus utiliser les envois ASCII `Serial.print()` ou `Serial.println()` quand on utilise **OSC SLIP** parce que les messages **ASCII** vont corrompre le flux de données **OSC SLIP** 
+
+## Initialisation d'OSC UDP
 
 Initialisez d'abord l'Ethernet ou le WiFi selon votre matériel:
 - Atom POE : [Initialisation de l'Ethernet pour un Atom POE](/m5stack/atom/poe/)
