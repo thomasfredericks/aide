@@ -4,7 +4,7 @@ Une **expérience multimédia** est une œuvre qui intègre différents types de
 
 Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des conditions de victoire et d'échec. 
 
-Un **Jeu de table** est un jeu dans lequel les joueurs sont responsables du maintien des règles.
+Un **jeu de table** est un jeu dans lequel les joueurs sont responsables du maintien des règles.
 
 Un **jeu interactif** est jeu où un système automatisé est responsable du maintien des règles.
 
