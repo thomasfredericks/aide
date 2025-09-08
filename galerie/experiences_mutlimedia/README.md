@@ -4,9 +4,9 @@ Une **expérience multimédia** est une œuvre qui intègre différents types de
 
 Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des conditions de victoire et d'échec. 
 
-**Jeux de plateau** : jeu où les joueurs sont responsables du maintien des règles.
+Un **Jeu de table** est un jeu dans lequel les joueurs sont responsables du maintien des règles.
 
-**Jeux interactifs** : jeu où un système automatisé est responsable du maintien des règles.
+Un **jeu interactif** eat jeu où un système automatisé est responsable du maintien des règles.
 
 ## Mots-clés
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
@@ -20,14 +20,14 @@ Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des 
 - **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
 - **WEB** : expérience sur le Web.
 
-## Jeux de plateau
+## Expériences de type jeu de table
 
 - [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs. **ENJEUX-SOCIAUX**
 - [Mai '68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **ENJEUX-SOCIAUX**
 - [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **ENJEUX-SOCIAUX**
 - [Slay the Spire: The Board Game | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game) Une adaptation extrêmement fidèle du jeu vidéo [Slay the Spire](https://www.megacrit.com/games/) **MATÉRIALISATION**
 
-## Jeux interactifs
+## Expériences de type jeu interactif
 
 - [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation) **CORPORALITÉ CONSÉQUENCES**
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **CORPORALITÉ MALIN COLLECTIF JOUABLE**
