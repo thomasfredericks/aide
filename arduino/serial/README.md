@@ -26,6 +26,9 @@ monitor_speed = 115200
 Pour ouvrir le moniteur série :
 ![](vscode_platformio_serial_monitor.png)
 
+Pour fermer le moniteur série :
+![](vscode_platformio_serial_monitor_fermer.png)
+
 ## `Serial.print()`
 
 Imprime des données sur le port série sous forme de texte ASCII lisible par un humain.

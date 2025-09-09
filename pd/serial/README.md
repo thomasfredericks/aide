@@ -4,7 +4,7 @@
 
 Pour recevoir et envoyer sur le port série, il est nécessaire d'ajouter l'object **comport** à Pure Data.
 
-![Ouvrir le menu d'installation des objets supplémentaires](./pd_installer_objets_supplementaires.svg)
+![Ouvrir le menu d'installation des objets supplémentaires](./installer_objets_supplementaires.png)
 
 ![Installer comport](./pd_installation_comport.svg)
 
