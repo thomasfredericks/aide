@@ -9,7 +9,7 @@
 
 Utiliser `void sendInt(const char *address, int32_t i)` pour envoyer un entier. 
 
-![](./microosc_sendint.drawio.png)
+![](microosc_sendInt.drawio.png)
 
 Par exemple, pour envoyer la valeur de `maVariable` à l'adresse "/adresse" :
 ```cpp
