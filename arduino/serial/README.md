@@ -16,6 +16,15 @@ Serial.begin(baud)
 La fonction accepte les paramètres suivants :
 - **baud** : le débit de communication en bits par seconde (baud). Type de données : `long`. Le débit utilisé dans les exemples de ce site est de `115200`.
 
+### Moniteur série dans Visual Studio Code + PlatformIO 
+
+Configurer le débit de la communication sérielle dans `platformio.ini` :
+```
+monitor_speed = 115200
+```
+
+Pour ouvrir le moniteur série :
+![](vscode_platformio_serial_monitor.png)
 
 ## `Serial.print()`
 
