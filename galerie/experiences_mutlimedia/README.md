@@ -46,6 +46,8 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Baba Is You](https://hempuli.com/baba/) Baba Is You est un jeu de réflexion dans lequel les règles à suivre sont représentées sous forme d’objets physiques dans le monde du jeu. En manipulant ces règles, vous pouvez modifier le fonctionnement du jeu, détourner l’usage des éléments présents dans les niveaux et provoquer des interactions surprenantes ! **EXPÉRIMENTAL MALIN JOUABLE**
 - [Mimics by Navel](https://navel.itch.io/mimics), [Mimics for iOS and Android](http://www.mimicsgame.com/) Mimics est un jeu, en ligne et en local, qui consiste à imiter des expressions faciales extrêmes et à regarder les autres en faire autant. Les joueurs imitent des visages dessinés, puis leurs coéquipiers doivent deviner quelle expression a été reproduite. Le jeu peut se jouer ensemble au même endroit ou en ligne avec des amis ou des inconnus. **COLLECTIF JOUABLE EXPÉRIMENTAL**
 - [The Marriage](https://kyrie.pe/the_marriage/) **JOUABLE EXPÉRIMENTAL RELATIONS**
+- [WHACK-A--HOLE: Shout! Smack! Fight back!](https://catodot.github.io/d/) **JOUABLE ENJEUX-SOCIAUX**
+- [Loser Lane](https://marieflanagan.com/loserlanepark/) **JOUABLE ENJEUX-SOCIAUX**
 
 ## Expériences multimédias qui ne sont pas des jeux
 
