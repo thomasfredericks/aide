@@ -34,9 +34,19 @@
   - *projects*
     - [priorites](/github/projects/priorites/)
 - [ia](/ia/)
-- *interactivite*
+- [interactivite](/interactivite/)
   - [actions_emergentes](/interactivite/actions_emergentes/)
   - [analyse](/interactivite/analyse/)
+  - *ateliers*
+    - [alphabet_objets](/interactivite/ateliers/alphabet_objets/)
+    - [compter_collectivement](/interactivite/ateliers/compter_collectivement/)
+    - [defi_conception](/interactivite/ateliers/defi_conception/)
+    - [distortion_temporelle](/interactivite/ateliers/distortion_temporelle/)
+    - [echange_regle](/interactivite/ateliers/echange_regle/)
+    - [effondrement_contrainte](/interactivite/ateliers/effondrement_contrainte/)
+    - [jeu_1minute](/interactivite/ateliers/jeu_1minute/)
+    - [negociation_silencieuse](/interactivite/ateliers/negociation_silencieuse/)
+    - [regle_brisee](/interactivite/ateliers/regle_brisee/)
   - [experience](/interactivite/experience/)
   - [histoire](/interactivite/histoire/)
 - *kinect*
