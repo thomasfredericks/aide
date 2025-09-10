@@ -48,9 +48,20 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [The Marriage](https://kyrie.pe/the_marriage/) **JOUABLE EXPÉRIMENTAL RELATIONS**
 - [WHACK-A--HOLE: Shout! Smack! Fight back!](https://catodot.github.io/d/) **JOUABLE ENJEUX-SOCIAUX**
 - [Loser Lane](https://marieflanagan.com/loserlanepark/) **JOUABLE ENJEUX-SOCIAUX**
+- [Hazy Days - An air pollution breathing sim by Mike Ren](https://mikeyren.itch.io/hazydays) **JOUABLE ENJEUX-SOCIAUX**
+- [Spaceteam — A Game of Cooperative Shouting for Phones and Tablets](https://spaceteam.ca/) **JOUABLE COLLECTIF**
+- [PICO PARK ポータル](https://picoparkgame.com/) **JOUABLE COLLECTIF**
+    - [PICO PARK 2](https://picoparkgame.com/pp2/)
+    - [TecoGamePad on the App Store](https://apps.apple.com/us/app/tecogamepad/id1080510485)
+    - [TecoGamePad - Apps on Google Play](https://play.google.com/store/apps/details?id=toybox.app.teco_game_pad)
+    - [PICO PARK:Classic Edition on Steam](https://store.steampowered.com/app/461040/PICO_PARKClassic_Edition/) (Version gratuite)
 
 ## Expériences multimédias qui ne sont pas des jeux
 
 - [Pointer Pointer](https://pointerpointer.com/)  **COLLECTE WEB**
 - [JUST SCREAM!](https://justscream.baby/) **COLLECTE WEB**
 - [This aquarium allows kids to see the fish they drew inside it!! - GIF - Imgur](https://imgur.com/gallery/this-aquarium-allows-kids-to-see-fish-they-drew-inside-LYRvyGj)  **NUMÉRISATION COLLECTE COLLECTIF**
+
+## Dispositifs intéressants
+
+- [UCLA Game Lab » UCLA Game Lab Arcade Backpack](https://games.ucla.edu/game/ucla-game-lab-arcade-backpack)
