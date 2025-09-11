@@ -55,8 +55,8 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
     - [TecoGamePad on the App Store](https://apps.apple.com/us/app/tecogamepad/id1080510485)
     - [TecoGamePad - Apps on Google Play](https://play.google.com/store/apps/details?id=toybox.app.teco_game_pad)
     - [PICO PARK:Classic Edition on Steam](https://store.steampowered.com/app/461040/PICO_PARKClassic_Edition/) (Version gratuite)
-- [Keep Talking and Nobody Explodes - Defuse a bomb with your friends.](https://keeptalkinggame.com/)
-- [ONE BUTTON REAL TIME TWENTY-SIX PLAYER PARTY GOLFING by Brendan Keogh](https://brkeogh.itch.io/one-button-real-time-twenty-six-player-party-golfing)
+- [Keep Talking and Nobody Explodes - Defuse a bomb with your friends.](https://keeptalkinggame.com/) **JOUABLE COLLECTIF EXPÉRIMENTAL**
+- [ONE BUTTON REAL TIME TWENTY-SIX PLAYER PARTY GOLFING by Brendan Keogh](https://brkeogh.itch.io/one-button-real-time-twenty-six-player-party-golfing) **JOUABLE COLLECTIF**
 - 
 
 ## Expériences multimédias qui ne sont pas des jeux
