@@ -11,10 +11,10 @@ Définit le débit en bits par seconde (baud) pour la transmission de données s
 
 Utiliser la fonction suivante **dans setup()** pour initialiser et configurer la communication série :
 ```cpp
-Serial.begin(baud)
+void Serial.begin(int baud)
 ```
 La fonction accepte les paramètres suivants :
-- **baud** : le débit de communication en bits par seconde (baud). Type de données : `long`. Le débit utilisé dans les exemples de ce site est de `115200`.
+- **int baud** : le débit de communication en bits par seconde (type de données : `long`). Le débit utilisé dans les exemples de ce site est de `115200`.
 
 ### Moniteur série dans Visual Studio Code + PlatformIO 
 
