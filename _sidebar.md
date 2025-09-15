@@ -131,15 +131,16 @@
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
     - [sidechain](/reaper/compression/sidechain/)
-  - *midi*
-    - *cc*
-      - [plugin](/reaper/midi/cc/plugin/)
-    - [vkb](/reaper/midi/vkb/)
-  - [osc](/reaper/osc/)
+  - *osc*
+    - [activation](/reaper/osc/activation/)
+    - [default_pattern](/reaper/osc/default_pattern/)
     - *exemples*
+      - [plugdata](/reaper/osc/exemples/plugdata/)
       - [reaper_osc_play-stop-vu](/reaper/osc/exemples/reaper_osc_play-stop-vu/)
-    - [plugdata](/reaper/osc/plugdata/)
-    - [vkb](/reaper/osc/vkb/)
+  - *plugin*
+    - [midi](/reaper/plugin/midi/)
+    - [osc](/reaper/plugin/osc/)
+  - [virtual_midi_keyboard](/reaper/virtual_midi_keyboard/)
 - [rpi](/rpi/)
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)
