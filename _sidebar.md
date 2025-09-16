@@ -88,6 +88,7 @@
       - [photoresistance](/m5stack/units/396/photoresistance/)
     - [angle](/m5stack/units/angle/)
     - [encoder](/m5stack/units/encoder/)
+    - [light](/m5stack/units/light/)
     - [pbhub](/m5stack/units/pbhub/)
     - [tof](/m5stack/units/tof/)
 - *max*
