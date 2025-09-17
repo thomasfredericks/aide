@@ -24,8 +24,6 @@
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
   - [resistance](/electro/resistance/)
-- *galerie*
-  - [experiences_mutlimedia](/galerie/experiences_mutlimedia/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
@@ -33,6 +31,10 @@
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
+- *graphique*
+  - *ateliers*
+    - [logo](/graphique/ateliers/logo/)
+    - [typoobjekto](/graphique/ateliers/typoobjekto/)
 - [ia](/ia/)
 - *interactivite*
   - [actions_emergentes](/interactivite/actions_emergentes/)
@@ -44,13 +46,12 @@
     - [echange_regle](/interactivite/ateliers/echange_regle/)
     - [effondrement_contrainte](/interactivite/ateliers/effondrement_contrainte/)
     - [jeu_1minute](/interactivite/ateliers/jeu_1minute/)
-    - [logo_collectif](/interactivite/ateliers/logo_collectif/)
     - [negociation_silencieuse](/interactivite/ateliers/negociation_silencieuse/)
     - [regle_brisee](/interactivite/ateliers/regle_brisee/)
-    - [typographie_objets](/interactivite/ateliers/typographie_objets/)
   - [design](/interactivite/design/)
   - [ecoute](/interactivite/ecoute/)
   - [experience](/interactivite/experience/)
+  - [galerie](/interactivite/galerie/)
   - [histoire](/interactivite/histoire/)
   - [public_cible](/interactivite/public_cible/)
 - *kinect*

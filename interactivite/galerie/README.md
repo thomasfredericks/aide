@@ -1,4 +1,4 @@
-# Galerie d'expériences multimédia
+# Interactivité : galerie
 
 Une **expérience multimédia** est une œuvre qui intègre différents types de médias et propose une progression à suivre. Cette progression peut être très courte, possiblement seulement deux étapes, mais elle nécessite toutefois un déclencheur externe.
 
