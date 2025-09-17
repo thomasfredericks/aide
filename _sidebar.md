@@ -19,7 +19,6 @@
       - [microosc](/bande_pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
-- *coverage*
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -50,8 +49,10 @@
     - [regle_brisee](/interactivite/ateliers/regle_brisee/)
     - [typographie_objets](/interactivite/ateliers/typographie_objets/)
   - [design](/interactivite/design/)
+  - [ecoute](/interactivite/ecoute/)
   - [experience](/interactivite/experience/)
   - [histoire](/interactivite/histoire/)
+  - [public_cible](/interactivite/public_cible/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*
