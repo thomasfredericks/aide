@@ -1,4 +1,4 @@
-# Organisation silencieuse (miniatelier)
+# Organisation silencieuse
 
 - Les joueurs doivent accomplir une tâche collective simple (s’aligner par date de naissance, taille, pointure).  
 - Règle : **interdiction de parler**.  

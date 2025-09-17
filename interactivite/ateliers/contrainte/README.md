@@ -1,4 +1,4 @@
-# Effondrement par contrainte (miniatelier)
+# Effondrement par contrainte
 
 - Choisir une activité quotidienne (marcher, discuter, dessiner).  
 - Ajouter une **contrainte** (ex. « sans les mains », « parler uniquement en questions », « se déplacer à reculons »).  

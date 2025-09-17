@@ -52,7 +52,7 @@
   - [experience](/interactivite/experience/)
   - [galerie](/interactivite/galerie/)
   - [histoire](/interactivite/histoire/)
-  - [public_cible](/interactivite/public_cible/)
+  - [public](/interactivite/public/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*

@@ -1,4 +1,4 @@
-# Jeu en une minute (miniatelier)
+# Jeu en une minute
 
 - En binômes, donner à l’autre un objet aléatoire (stylo, pièce, feuille).  
 - Chaque personne invente en **1 minute** un jeu avec cet objet (doit avoir un but ou une condition de fin).  
