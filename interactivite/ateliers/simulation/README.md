@@ -1,17 +1,14 @@
 # Simulation 
 
-Temps total : 60–75 minutes.
-
 **Consigne :** 
-- Concevoir une expérience interactive basée sur des règles, jouable dans cette salle avec un minimum de matériel (papier, marqueurs, ruban adhésif, chaises, corps).  
+- Concevoir une expérience interactive basée sur des règles, jouable en classe (ou dans un studio) avec un minimum de matériel (papier, marqueurs, ruban adhésif, chaises, corps).  
 - Concevoir des **systèmes interactifs** qui ressemblent à des interfaces mais :  
     - **Sans automatisation** (toute la logique gérée par les participants).  
-    - **Sans explication verbale ou écrite des règles** (les règles émergent par l’interaction).  
+    - **Sans explication verbale ou écrite des règles** (les règles émergent par l’interaction). Les nombres sont permis.  
     - Utiliser **papier, signes et simulacres d’interfaces** pour représenter le système.  
 
-
 **Contraintes :**  
-- Aucun écran requis.   
+- Aucun écran.   
 - Aucune communication verbale entre l'équipe de conception et les joueurs.
 - Aucune communication écrite (les nombres sont permis).
 - Les interfaces et les automatisations sont simulées par l'équipe de conception.
@@ -24,27 +21,19 @@ Temps total : 60–75 minutes.
 
 ## Étapes
 
-### Échauffement (10 min) 
-Jouer avec une interface silencieuse : 
-- Placer un simple « bouton » en papier sur une table. Quand quelqu’un l’appuie, réaliser une action (frapper dans les mains, donner une carte, se déplacer).  
-- Ajouter progressivement d’autres « boutons/signes » avec des réponses différentes.  
-- Faire remarquer que les règles se comprennent **sans explication**, seulement par essai et observation.  
-
-
 ### Remue-méninges (15 min)
-- Chaque équipe esquisse 2–3 concepts. 
+- Esquisser 2–3 concepts. 
 - Définir l’objectif de l’expérience : Vouloir qu’elle soit tendue ? Ludique ? Injuste ? Stratégique ? Chaotique ? Méditative ? 
-- Ne pas expliquer les règles ni à l’oral ni à l’écrit.  
-- Permettre aux autres de découvrir les règles uniquement par l’**expérimentation**.    
-
+   
 ### Règles et système (20 min)
 Choisir une idée et définir :  
-- **But :** Que cherchent à accomplir les joueurs ?  
-- **Règles :** Que peuvent-ils ou ne peuvent-ils pas faire ?  
-- **Mécaniques :** Comment les joueurs interagissent-ils ? Quelles ressources sont utilisées (jetons, temps, espace, attention) ? 
+- **Règles :** Que peuvent faire les joueurs ?  
+- **Système :** Comment les joueurs interagissent-ils ? Quelles ressources sont utilisées (jetons, temps, espace, attention) ? 
+- **Expérience :** Que cherchent à accomplir les joueurs ? Qu'elle expérience est-ce qu'on veut qu'ils vivent?
 - **Condition de victoire / de fin :** Quand le jeu se termine-t-il ? 
--  Concevoir un **système interactif** avec papier, symboles et objets simples.  
+- Concevoir un **système interactif** avec papier, symboles et objets simples.  
 - Imaginer un **faux dispositif** (panneau de contrôle, application fictive, rituel). 
+- Permettre aux joueurs de découvrir les règles uniquement par l’**expérimentation**. 
 
 ### Maquette (20–30 min)
 - Tester une version jouable avec des accessoires (papier, ruban adhésif, chaises, pièces, dés, etc.).  
