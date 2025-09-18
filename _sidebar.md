@@ -12,17 +12,18 @@
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
-- [bande_pixels](/bande_pixels/)
-  - [fastled](/bande_pixels/fastled/)
-    - *exemples*
-      - [animations_m5atom](/bande_pixels/fastled/exemples/animations_m5atom/)
-      - [microosc](/bande_pixels/fastled/exemples/microosc/)
-      - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
+  - *del*
+    - [ruban](/electro/del/ruban/)
+      - [fastled](/electro/del/ruban/fastled/)
+        - *exemples*
+          - [animations_m5atom](/electro/del/ruban/fastled/exemples/animations_m5atom/)
+          - [microosc](/electro/del/ruban/fastled/exemples/microosc/)
+          - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
 - [gamestream](/gamestream/)
 - [git](/git/)
