@@ -12,7 +12,7 @@ CRGB mesPixels[NOMBRE_PIXELS];
 ```
 
 ### Dans `setup()`
-Ajoutez les pixels à FastLED. La broche 26 correspond à celle du M5Stack Atom pour envoyer les données à la bande de pixels :
+Ajoutez les pixels à FastLED. La broche 26 correspond à celle du M5Stack Atom pour envoyer les données à la ruban DEL :
 ```cpp
 FastLED.addLeds<WS2812, 26, RGB>(mesPixels, NOMBRE_PIXELS);
 ```
