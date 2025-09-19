@@ -12,20 +12,19 @@
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
-- [bande_pixels](/bande_pixels/)
-  - [fastled](/bande_pixels/fastled/)
-    - *exemples*
-      - [animations_m5atom](/bande_pixels/fastled/exemples/animations_m5atom/)
-      - [microosc](/bande_pixels/fastled/exemples/microosc/)
-      - [pong-1D_nano](/bande_pixels/fastled/exemples/pong-1D_nano/)
 - [bytebeat](/bytebeat/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
+  - *del*
+    - [ruban](/electro/del/ruban/)
+      - [fastled](/electro/del/ruban/fastled/)
+        - *exemples*
+          - [animations_m5atom](/electro/del/ruban/fastled/exemples/animations_m5atom/)
+          - [microosc](/electro/del/ruban/fastled/exemples/microosc/)
+          - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
-- *galerie*
-  - [experiences_mutlimedia](/galerie/experiences_mutlimedia/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
@@ -33,24 +32,28 @@
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
+- *graphique*
+  - *ateliers*
+    - [logo](/graphique/ateliers/logo/)
+    - [typoobjekto](/graphique/ateliers/typoobjekto/)
 - [ia](/ia/)
 - *interactivite*
-  - [actions_emergentes](/interactivite/actions_emergentes/)
   - [analyse](/interactivite/analyse/)
   - *ateliers*
-    - [compter_collectivement](/interactivite/ateliers/compter_collectivement/)
-    - [defi_conception](/interactivite/ateliers/defi_conception/)
-    - [distortion_temporelle](/interactivite/ateliers/distortion_temporelle/)
-    - [echange_regle](/interactivite/ateliers/echange_regle/)
-    - [effondrement_contrainte](/interactivite/ateliers/effondrement_contrainte/)
-    - [jeu_1minute](/interactivite/ateliers/jeu_1minute/)
-    - [logo_collectif](/interactivite/ateliers/logo_collectif/)
-    - [negociation_silencieuse](/interactivite/ateliers/negociation_silencieuse/)
-    - [regle_brisee](/interactivite/ateliers/regle_brisee/)
-    - [typographie_objets](/interactivite/ateliers/typographie_objets/)
+    - [affordance](/interactivite/ateliers/affordance/)
+    - [compter](/interactivite/ateliers/compter/)
+    - [contrainte](/interactivite/ateliers/contrainte/)
+    - [modification](/interactivite/ateliers/modification/)
+    - [organisation](/interactivite/ateliers/organisation/)
+    - [simulation](/interactivite/ateliers/simulation/)
+    - [suppression](/interactivite/ateliers/suppression/)
   - [design](/interactivite/design/)
+  - [ecoute](/interactivite/ecoute/)
+  - [emergence](/interactivite/emergence/)
   - [experience](/interactivite/experience/)
+  - [galerie](/interactivite/galerie/)
   - [histoire](/interactivite/histoire/)
+  - [public](/interactivite/public/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*

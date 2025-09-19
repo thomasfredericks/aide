@@ -1,4 +1,4 @@
-# Échange de règles (miniatelier)
+# Modification d'une règle
 
 - Choisir un jeu connu (pierre-feuille-ciseaux).  
 - Modifier exactement **une règle** (par exemple, ajouter une « bombe » qui bat la pierre et la feuille, mais perd contre les ciseaux).  
