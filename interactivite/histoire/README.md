@@ -2,15 +2,46 @@
 
 ## Ada Lovelace
 
-Ada Lovelace a écrit le premier programme informatique en 1842.
+# Ada Lovelace
 
 ![](./ada.png)
 
-## Hilma af Klint (1915)
+**Augusta Ada King, comtesse de Lovelace** (1815–1852) est considérée comme **la première programmeuse informatique** de l’histoire.
 
-Pionnière de l'art abstrait​. 
+En 1843, Ada traduit un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage**n et y ajoute des **notes personnelles** brillantes :
+
+- Elle y décrit **le premier algorithme informatique** (pour les **nombres de Bernoulli**)
+- Elle comprend que la machine pourrait **traiter autre chose que des chiffres** (musique, texte, etc.)
+
+> *“L’Analytical Engine pourrait composer des morceaux de musique d’une complexité quelconque.”*
+
+
+## Hilma af Klint (1862–1944)
+
+**Hilma af Klint**  était une **artiste peintre suédoise**, aujourd’hui reconnue comme une **précurseure de l’art abstrait**, bien avant Kandinsky, Mondrian ou Malevitch.
+
+Elle est reconnue comme :
+
+- Une **pionnière de l’art abstrait**
+- Une **visionnaire mystique**
+- Une figure majeure de l’histoire de l’art moderne
+
+Hilma af Klint a commencé à peindre de façon abstraite dès **1906**, plusieurs années avant les grands noms de l’abstraction.
+
+Son travail était **profondément influencé par la spiritualité**, notamment :
+- Le spiritisme
+- La théosophie
+- L’anthroposophie de Rudolf Steiner
+
+Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 > « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n'avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
+
+Hilma pensait que son œuvre ne serait comprise que **des décennies après sa mort**. Elle a demandé que ses peintures ne soient pas exposées **avant 20 ans** après sa mort.
+
+Elle est restée **inconnue du grand public jusqu’aux années 1980**, puis redécouverte dans les années 2000.
+
+
 
 ![](./hilma.png)
 
