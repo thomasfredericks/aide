@@ -1098,7 +1098,7 @@ figure {
   display: block;
   text-align: center;
   /*border: none*/
-  border: 1px solid #999;
+  border: 1px solid;
   flex-flow: column;
   /*padding: 2px;*/
   padding: 0px;
@@ -1128,7 +1128,7 @@ figcaption {
   /* Ensures figcaption behaves as a block-level element */
   width: 100%;
   /* Makes figcaption take up the full width of its parent (figure) */
-  background-color: #000;
+  background-color: #888;
   color: #fff;
   font: italic sans-serif;
   padding: 3px;
