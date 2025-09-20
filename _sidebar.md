@@ -34,6 +34,7 @@
     - [priorites](/github/projects/priorites/)
 - *graphique*
   - *ateliers*
+    - [10x10](/graphique/ateliers/10x10/)
     - [logo](/graphique/ateliers/logo/)
     - [typoobjekto](/graphique/ateliers/typoobjekto/)
 - [ia](/ia/)
