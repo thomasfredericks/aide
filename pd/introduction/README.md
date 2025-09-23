@@ -1,4 +1,13 @@
-# Introduction à Pure Data de Max
+# Introduction à Pure Data
+
+## Installation
+
+- La version _vanille_ de Pure Data se trouve ici : [Software by Miller Puckette](https://msp.ucsd.edu/software.html)
+- L'exécutable, nommé _pd_,  se trouve dans le dossier _bin_.
+
+> ![WARNING]
+> À l'ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s'il doit créer les dossiers **Documents > Pd > externals**
+
 
 ## Interface générale
 
