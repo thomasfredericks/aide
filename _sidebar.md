@@ -97,6 +97,7 @@
     - [tof](/m5stack/units/tof/)
 - *max*
   - *osc*
+    - [relais](/max/osc/relais/)
     - [udp](/max/osc/udp/)
 - [mediagraphie](/mediagraphie/)
 - [microosc](/microosc/)
@@ -118,6 +119,7 @@
   - [pdchoco](/pd/pdchoco/)
   - *plugdata*
     - [copier-coller](/pd/plugdata/copier-coller/)
+    - [introduction](/pd/plugdata/introduction/)
   - [serial](/pd/serial/)
   - *traitement*
     - *delai*
@@ -166,6 +168,11 @@
   - [spout](/touchdesigner/spout/)
   - *tops*
     - [feedback](/touchdesigner/tops/feedback/)
+  - *traitement*
+    - [basculement](/touchdesigner/traitement/basculement/)
+    - [glissement](/touchdesigner/traitement/glissement/)
+    - [inversion](/touchdesigner/traitement/inversion/)
+    - [proportion](/touchdesigner/traitement/proportion/)
 - *unity*
   - [colliders](/unity/colliders/)
   - [execution_arriere-plan](/unity/execution_arriere-plan/)
