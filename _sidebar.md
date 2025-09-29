@@ -172,6 +172,7 @@
     - [basculement](/touchdesigner/traitement/basculement/)
     - [glissement](/touchdesigner/traitement/glissement/)
     - [inversion](/touchdesigner/traitement/inversion/)
+    - [plage](/touchdesigner/traitement/plage/)
     - [proportion](/touchdesigner/traitement/proportion/)
 - *unity*
   - [colliders](/unity/colliders/)
