@@ -1,0 +1,18 @@
+#N canvas 610 175 631 501 12;
+#X obj 159 135 comport;
+#X msg 160 84 devices;
+#X msg 228 84 baud 115200 \, open 4;
+#X obj 160 179 pdchoco/slip_parse;
+#X obj 162 437 netsend -u -b;
+#X msg 281 372 connect 127.0.0.1 8001;
+#X msg 288 400 disconnect;
+#X msg 245 109 close;
+#X text 167 59 RECEVOIR LES DONNEES DU MICROCONTRÔLEUR;
+#X text 180 332 ENVOYER LES DONNEES VERS LE LOGICIEL;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 4 0;
+#X connect 5 0 4 0;
+#X connect 6 0 4 0;
+#X connect 7 0 0 0;

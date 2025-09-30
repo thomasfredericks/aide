@@ -5,10 +5,10 @@
 
 ## **Idéation**  
    **Objectif : Explorer et définir la vision du projet.**  
-   - Analyse des besoins, du contexte et des utilisateurs.  
-   - Recherche, inspiration, brainstorming.  
-   - Définition des objectifs et de l’intention d’expérience.  
-   - Budget.
+   - Analyse des besoins et du contexte.
+   - Détermination du public cible. 
+   - Recherche, inspiration, brainstorming, choix et développement d'une idée. 
+   - Définition des objectifs et de l’intention d’expérience. 
 
 ## **Maquette**  
    **Objectif : Donner forme aux idées pour les valider.**  
@@ -16,7 +16,7 @@
    - Scénarisation des parcours utilisateurs.  
    - Tests initiaux pour recueillir des retours.  
    - Prototypes des médias et des processus.
-   - Ajustements au budget.
+   - Budget.
 
 ## **Réalisation**  
    **Objectif : Produire la version finale du projet.**  

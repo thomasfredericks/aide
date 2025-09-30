@@ -24,6 +24,9 @@
 ### Remue-méninges (15 min)
 - Esquisser 2–3 concepts. 
 - Définir l’objectif de l’expérience : Vouloir qu’elle soit tendue ? Ludique ? Injuste ? Stratégique ? Chaotique ? Méditative ? 
+
+> [!WARNING]
+> Ne pas choisir d'adapter un jeu de table ou social. Essayer d'adapter un système automatisé comme un jeu vidéo par exemple.
    
 ### Règles et système (20 min)
 Choisir une idée et définir :  
