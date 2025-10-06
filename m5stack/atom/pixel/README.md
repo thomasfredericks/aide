@@ -11,7 +11,7 @@ lib_deps =
     FastLED
 ```
 
-## À ajouter dans l'espace *global* (au début du code)
+## À ajouter dans l'espace *global* 
 
 Ajouter la bibliothèque FastLED:
 ```cpp
