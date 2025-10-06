@@ -1,6 +1,7 @@
 # TouchDesigner : Proportion
 
-`OP` utilisé :
+`OP` utilisés :
 - `Math CHOP`
+- `Limit CHOP`
 
-![Entrée, entre 0 et 4095, proportionnelle à la sortie, entre 0.0 et 1.0 ](./proportion.png)
+![Entrée, entre 0 et 4095, proportionnelle à la sortie qui est limitée entre 0.0 et 1.0 ](./proportion.drawio.png)
