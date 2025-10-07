@@ -4,6 +4,8 @@
 
 Le [M5Stack PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1) permet de brancher jusqu'à 6 M5Stack UNITS équipés d'un connecteur **noir**. Il nécessite une utilisation d'une bibliothèque (voir plus bas).
 
+![Photo de l'avant du PbHub v1.1](pbhub_front.png)
+
 ![Photo de l'arrière du PbHub v1.1](pbhub_back.jpg)
 
 ## Bibliothèque M5_PbHub

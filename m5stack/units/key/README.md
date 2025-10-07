@@ -67,7 +67,7 @@ Initialiser l'entrée du **M5Stack Key Unit** :
 
 Pour effectuer une lecture, nous utilisons la fonction [digitalRead()](https://docs.arduino.cc/learn/programming/reference/) :
 ```cpp
-int maLectureBouton = digitalRead( BROCHE_ATOM_FIL_BLANC );
+int maLectureKey = digitalRead( BROCHE_ATOM_FIL_BLANC );
 ```
 
 #### Pixel

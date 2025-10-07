@@ -1,4 +1,4 @@
-# Bouton du M5Stack Atom Lite
+# M5Stack Atom Lite : Bouton intégré 
 
 ## Introduction
 
@@ -10,14 +10,14 @@ Le bouton est relié à la broche `39` de l'ESP32 du Atom Lite.
 
 Bien que cela ne soit pas absolument nécessaire, c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
-#define MA_BROCHE_BOUTON 39
+#define BROCHE_ATOM_BOUTON 39
 ```
 
 ### Dans *setup()*
 
 S'assurer que la broche reliée au bouton est en mode entrée :
 ```cpp
-pinMode( MA_BROCHE_BOUTON , INPUT );
+pinMode( BROCHE_ATOM_BOUTON , INPUT );
 ```
 
 ### Dans *loop()*
@@ -25,7 +25,7 @@ pinMode( MA_BROCHE_BOUTON , INPUT );
 
 Pour effectuer une lecture, nous utilisons la fonction [digitalRead()](https://docs.arduino.cc/learn/programming/reference/) :
 ```cpp
-int maLectureBouton = digitalRead( MA_BROCHE_BOUTON );
+int maLectureAtomBouton = digitalRead( BROCHE_ATOM_BOUTON );
 ```
 
 ![](./digitalRead.drawio.png)
