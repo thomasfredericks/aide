@@ -60,7 +60,7 @@ Initialiser FastLED pour le pixel du **M5Stack Key Unit** :
 
 Initialiser l'entrée du **M5Stack Key Unit** :
 ```cpp
-  pinMode( BROCHE_ATOM_FIL_BLANC , INPUT_PULLUP );
+  pinMode( BROCHE_ATOM_FIL_BLANC , INPUT );
 ```
 
 ### Dans *loop()*
