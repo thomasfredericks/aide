@@ -25,6 +25,7 @@
           - [microosc](/electro/del/ruban/fastled/exemples/microosc/)
           - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
+- [figure_fond](/figure_fond/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
@@ -32,11 +33,6 @@
 - [github](/github/)
   - *projects*
     - [priorites](/github/projects/priorites/)
-- *graphique*
-  - *ateliers*
-    - [10x10](/graphique/ateliers/10x10/)
-    - [logo](/graphique/ateliers/logo/)
-    - [typoobjekto](/graphique/ateliers/typoobjekto/)
 - [ia](/ia/)
 - *interactivite*
   - [analyse](/interactivite/analyse/)
@@ -192,6 +188,11 @@
     - [baleines](/vcv_rack/patchs/baleines/)
     - [bulles](/vcv_rack/patchs/bulles/)
     - [tape_warble](/vcv_rack/patchs/tape_warble/)
+- *visuel*
+  - *ateliers*
+    - [10x10](/visuel/ateliers/10x10/)
+    - [logo](/visuel/ateliers/logo/)
+    - [typoobjekto](/visuel/ateliers/typoobjekto/)
 - [vnc](/vnc/)
 - *windows*
   - [clavier](/windows/clavier/)
