@@ -2,65 +2,18 @@
 
 Source : [TouchDesigner Python Cheat Sheet for Developers - The Interactive & Immersive HQ](https://interactiveimmersive.io/blog/python/python-cheat-sheet-for-touchdesigner-developers/) par Jack DiLaura
 
-## Python
+## Formatage F-String
 
-### Conversion de type (Casting) en Python
+Les **f-strings** permettent de formater rapidement des chaînes. Préfixez une chaîne avec `f` ou `F`, puis ajoutez des expressions entre accolades `{}`. Vous pouvez utiliser un spécificateur de format (comme `:.2f` pour deux décimales) après un `:` suivant la variable.
 
-| Code Python | Description |
-| :--- | :--- |
-| `x = int(4.5245)` | `x` sera `4` |
-| `y = float(6)` | `y` sera `6.0` |
-| `z = str(101.65)` | `z` sera `'101.65'` |
 
-Vous vous retrouverez souvent à utiliser ces fonctions dans TouchDesigner. `int()` donne un nombre entier (supprime les décimales sans arrondi). `float()` fournit un nombre flottant. Et `str()` fournit une chaîne de caractères (string).
-
-### Arrondi en Python
-
-| Code Python | Description |
-| :--- | :--- |
-| `round(float, nombre de décimales)` | Syntaxe |
-| `x = round(5.242375, 2)` | `x` sera `5.24` |
-
-La fonction `round()` permet de spécifier un nombre à arrondir et le nombre de décimales à conserver.
-
-### Travailler avec des chaînes de caractères (Strings)
-
-#### Formatage F-String
-
-Les **f-strings** permettent de formater rapidement des chaînes. Préfixez une chaîne avec `f` ou `F`, puis ajoutez des expressions entre accolades `{}`.
-
+La variable `piStr` s'évalue à _π est environ 3.14_ dans l'exemple suivant :
 ```python
 pi = 3.14159
-piStr = f'π est environ {pi:.2f}' # piStr s'évalue à 'π est environ 3.14'
+piStr = f'π est environ {pi:.2f}' 
 ```
 
-Vous pouvez utiliser un spécificateur de format (comme `:.2f` pour deux décimales) après un `:` suivant la variable.
-
-#### Remplacement de chaîne (String Replace)
-
-| Code Python | Description |
-| :--- | :--- |
-| `string.replace(ancienne_valeur, nouvelle_valeur, count)` | Syntaxe. `count` est facultatif. |
-| `txt = 'Le bus était de couleur vert foncé'` | Exemple |
-| `x = txt.replace('vert foncé', 'bleu clair')` | |
-| `print(x)` | `x` affiche `'Le bus était de couleur bleu clair'` |
-
-La fonction `replace` remplace une partie d'une chaîne par une autre.
-
-#### Majuscules, minuscules, capitalisation
-
-```python
-string = 'TEst'
-print(string.upper()) # affiche 'TEST'
-print(string.lower()) # affiche 'test'
-print(string.capitalize()) # affiche 'Test'
-```
-
-`upper()` convertit en majuscules, `lower()` en minuscules, et `capitalize()` met la première lettre en majuscule. Vous pouvez vérifier l'état avec `isLower()` ou `isUpper()`.
-
-## Fonctionnalités Python spécifiques à TouchDesigner
-
-### Récupération d'informations sur les Opérateurs (OPs)
+## Récupération d'informations sur les Opérateurs (OPs)
 
 | Description | Expression Python | Exemple de Résultat |
 | :--- | :--- | :--- |
@@ -72,7 +25,7 @@ print(string.capitalize()) # affiche 'Test'
 | Accéder au parent de l'opérateur | `op('noise1').parent()` | `/project1` |
 
 
-### Travailler avec des Opérateurs
+## Travailler avec des Opérateurs
 
 | Description | Code Python |
 | :--- | :--- |
@@ -90,7 +43,7 @@ print(string.capitalize()) # affiche 'Test'
 | Connecter des opérateurs ensemble | `op('ramp1').outputConnectors[0].connect(op('feedback1'))` |
 | Exécuter du code Python après un délai | `run('op("timer1").par.start.pulse()', delayFrames=60)` |
 
-### Temps
+## Temps
 
 Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 
@@ -101,7 +54,7 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Récupérer le temps absolu en trames | `absTime.frame` | `2036595` |
 | Récupérer le temps absolu en secondes | `absTime.seconds` | `33942.25` |
 
-### Accéder aux données CHOP
+## Accéder aux données CHOP
 
 | Description | Expression Python | Exemple de Résultat |
 | :--- | :--- | :--- |
@@ -113,7 +66,7 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Obtenir le nom du 2ème canal | `op('noise1')[2].name` | `chan3` |
 | Obtenir l'index du canal `chan5` | `op('noise1')['chan5'].index` | `4` |
 
-### Travailler avec des données DAT
+## Travailler avec des données DAT
 
 | Description | Expression Python |
 | :--- | :--- |
@@ -130,7 +83,7 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Effacer le contenu d'un tableau | `op('table1').clear()` |
 | Effacer le contenu d'un tableau, mais conserver la première ligne (peut aussi utiliser `keepFirstCol = True` pour garder la première colonne, et `keepSize=True` pour garder la taille du tableau mais supprimer tout le contenu des cellules) | `op('table1').clear(keepFirstRow = True)` |
 
-### Le module TDU : Une variété d'utilitaires Python utiles
+## Le module TDU : Une variété d'utilitaires Python utiles
 
 Le module TDU est un fourre-tout de fonctions utiles. Pour plus de détails, consultez la page de référence sur le module TDU : `https://docs.derivative.ca/Tdu_Module`
 
