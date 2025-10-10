@@ -81,7 +81,9 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Ajouter une ligne à un tableau | `op('table1').appendRow([label, 'xPos','yPos'])` |
 | Ajouter une colonne à un tableau | `op('table1').appendCol(['tz', pos1tz, pos2tz ])` |
 | Effacer le contenu d'un tableau | `op('table1').clear()` |
-| Effacer le contenu d'un tableau, mais conserver la première ligne (peut aussi utiliser `keepFirstCol = True` pour garder la première colonne, et `keepSize=True` pour garder la taille du tableau mais supprimer tout le contenu des cellules) | `op('table1').clear(keepFirstRow = True)` |
+| Effacer le contenu d'un tableau, mais conserver la première ligne | `op('table1').clear(keepFirstRow = True)`♠︎ |
+
+ ♠︎ : peut aussi utiliser `keepFirstCol = True` pour garder la première colonne, et `keepSize=True` pour garder la taille du tableau, mais supprimer tout le contenu des cellules
 
 ## Le module TDU : Une variété d'utilitaires Python utiles
 
