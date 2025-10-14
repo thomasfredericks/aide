@@ -70,3 +70,25 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 ## Dispositifs intéressants
 
 - [UCLA Game Lab » UCLA Game Lab Arcade Backpack](https://games.ucla.edu/game/ucla-game-lab-arcade-backpack)
+
+## Installations
+
+- [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
+- [Mécaniques Discursives](https://www.mecaniques-discursives.com/)
+- [Projets – Adrien M & Claire B](https://www.am-cb.net/projets)
+- [Les chaînes de Markov | Vithèque](https://vitheque.com/fr/oeuvres/les-chaines-de-markov)
+- [La femme dans la chambre (extrait), Andrée-Anne Roussel on Vimeo](https://vimeo.com/240049017)
+- [Bone VS steel - YouTube](https://www.youtube.com/watch?v=WMt9G4GD-mw)
+
+## Génératif
+
+- Boids
+    - [Boids (Flocks, Herds, and Schools: a Distributed Behavioral Model)](https://www.red3d.com/cwr/boids/)
+    - [Murmuration of Starling - Simulation of Flocking Boids in C++ / DirectX 11- 2 - YouTube](https://www.youtube.com/watch?v=nbbd5uby0sY)
+- [The Responsive Eye | MoMA](https://www.moma.org/calendar/exhibitions/2914?)
+- [Generative Bridget Riley in TouchDesigner - TouchDesigner Tutorial 081 - YouTube](https://www.youtube.com/watch?v=gRIJ8tX9PiE)
+- [#genuary2021 - YouTube](https://www.youtube.com/hashtag/genuary2021)
+- [#genuary2022 - YouTube](https://www.youtube.com/hashtag/genuary2022)
+- [MUSIC 20 10 2022 - YouTube](https://www.youtube.com/watch?v=LCfWhOyY3Q4)
+- [AZIMUTH on Vimeo](https://vimeo.com/599494283)
+- [Joshua Davis Studios](https://joshuadavis.com/)

@@ -29,3 +29,34 @@
         - [How To Sound Design Trailer Risers (using Vital) - YouTube](https://www.youtube.com/watch?v=-FTLhy9PZSs)
 
 
+## Acousmatique
+
+- [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)
+- [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)   
+- Première composition de musique électronique : [Johanna Beyer — Music of the Spheres [w/ score] - YouTube](https://www.youtube.com/watch?v=GpLbaJ8iwuA)
+- [Machines, Tools, Studios — Google Arts & Culture](https://artsandculture.google.com/story/YAVhtqcihjlQIw)
+- Forbidden Planet
+    - [FORBIDDEN PLANET Soundtrack - a) Main Titles - Overture - b) Giant Footprints In The Sand - YouTube](https://www.youtube.com/watch?v=unSrf-htPbk&list=PLuEZDoO6N6AHrSmd8KYqw9wz2AIHRqWc5)
+    - [The Music and SFX of Forbidden Planet - YouTube](https://www.youtube.com/watch?v=YSFoILcyqAU)
+- [Wendy Carlos demonstrates her Moog Synthesizer in 1970 - YouTube](https://www.youtube.com/watch?app=desktop&v=4SBDH5uhs4Q)
+- [Sarah Belle Reid - Sonder III (Official Video) - YouTube](https://www.youtube.com/watch?v=D2AO1NzGHa0)
+- Père de la synthèse FM : [John Chowning - Stria (1977) - YouTube](https://www.youtube.com/watch?v=988jPjs1gao)
+
+
+## Modulaire
+
+- [This is the modular synth Aphex Twin is using in his DJ sets](https://www.factmag.com/2017/06/12/aphex-twin-eurorack-modular-synth-field-day/)
+- [SynTesla Giorgio III, a monster modular Synthesizer custom-built for Hans Zimmer's Next Level Tour - SYNTH ANATOMY](https://synthanatomy.com/2025/10/syntesla-giorgio-iii-a-monster-modular-synthesizer-custom-built-for-hans-zimmers-next-level-tour.html)
+- [MODULAR VOYAGE #4 - Modulate TV 1 year anniversary - YouTube](https://www.youtube.com/watch?v=aImVRd9-8Mc)
+- [Caterina Barbieri Immersive Modular Live Set | Boiler Room x Genelec - YouTube](https://www.youtube.com/watch?v=W25FTlO42VY)
+- [Patch Notes: JakoJako - YouTube](https://www.youtube.com/watch?v=cd4Vss4qfGs&list=PLJppbsRft6q-jYyXO28M61uLj_TlVQfeu)
+- [Ascension - Modular Patch on Vimeo](https://vimeo.com/139872178)
+- [Patch Notes: Hélène Vogelsinger - YouTube](https://www.youtube.com/watch?v=kYxheEGl2oM)
+- [Patch Notes: Nene H - YouTube](https://www.youtube.com/watch?v=JAj1c0V-8pY)
+- [Jason H. J. Lim (Instruō) performance at Modular Meets Leeds 2022 // Eurorack beats, chords & glitch - YouTube](https://www.youtube.com/watch?v=TePSkRkZ8cs&list=WL&index=16)
+- [Five Minutes of Pink Oyster Mushroom Playing Modular Synthesizer #mushroom #mushroommusic #mycology - YouTube](https://www.youtube.com/watch?v=-hlQHYtncww)
+- VCV Rack
+    - [Ambient patch from scratch in VCV Rack - YouTube](https://www.youtube.com/watch?v=z9bZvDy2YnA)
+    - [How to make IDM track with modular synth (VCV Rack Tutorial) [WITH VOICE!] - YouTube](https://www.youtube.com/watch?v=TtkvogtLHBI)
+    - [URack: Modular audio-visual composition with Unity and VCV Rack - YouTube](https://www.youtube.com/watch?v=mtQ1f0sZmYM&list=WL&index=24&t=245s)
+    - [9.3.21 Generative sounds and visuals with VCV Rack and Processing - YouTube](https://www.youtube.com/watch?v=y84R8oCPeik)

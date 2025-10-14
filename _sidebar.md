@@ -13,6 +13,8 @@
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
+- *audiovisuel*
+  - [galerie](/audiovisuel/galerie/)
 - [bytebeat](/bytebeat/)
 - *education*
   - [manifeste](/education/manifeste/)
