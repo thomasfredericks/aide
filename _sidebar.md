@@ -9,9 +9,9 @@
   - [serial](/arduino/serial/)
   - [udp](/arduino/udp/)
 - *audio*
+  - [galerie](/audio/galerie/)
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
-  - [horreur](/audio/horreur/)
   - [plugins](/audio/plugins/)
 - [bytebeat](/bytebeat/)
 - *education*
