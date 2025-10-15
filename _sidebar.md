@@ -99,7 +99,6 @@
   - *osc*
     - [relais](/max/osc/relais/)
     - [udp](/max/osc/udp/)
-- [mediagraphie](/mediagraphie/)
 - [microosc](/microosc/)
   - [envoi](/microosc/envoi/)
     - [valeur_changee](/microosc/envoi/valeur_changee/)
@@ -156,14 +155,10 @@
 - *touchdesigner*
   - *audio*
     - [mixer](/touchdesigner/audio/mixer/)
-  - *chops*
-    - [null](/touchdesigner/chops/null/)
-    - [trail](/touchdesigner/chops/trail/)
-  - *exemples*
-    - [angle_filtrer](/touchdesigner/exemples/angle_filtrer.md)
-    - [angle_seuil](/touchdesigner/exemples/angle_seuil.md)
+  - [feedback](/touchdesigner/feedback/)
   - [git](/touchdesigner/git/)
   - [modularisation](/touchdesigner/modularisation/)
+  - [null_et_trail](/touchdesigner/null_et_trail/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
@@ -172,8 +167,6 @@
     - [configuration](/touchdesigner/python/configuration/)
     - [deboguer](/touchdesigner/python/deboguer/)
   - [spout](/touchdesigner/spout/)
-  - *tops*
-    - [feedback](/touchdesigner/tops/feedback/)
   - *traitement*
     - [basculement](/touchdesigner/traitement/basculement/)
     - [glissement](/touchdesigner/traitement/glissement/)

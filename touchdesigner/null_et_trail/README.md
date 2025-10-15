@@ -1,4 +1,12 @@
-#  Le CHOP _Trail_ 
+# TouchDesigner : _Null_ et _Trail_
+
+## Le CHOP _Null_ 
+
+Le CHOP _NUll_ est toujours **optionnel**.
+
+Il n'a aucun effet, mais permet d'identifier et de nommer le début ou la fin d'un réseau. 
+
+##   Le CHOP _Trail_ 
 
 Les CHOP _Trail_ est toujours **optionnel**.
 
