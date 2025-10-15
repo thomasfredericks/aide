@@ -28,7 +28,7 @@
 
 ## Live A/V
 
-
+- [(PDF) Principles of Visual Design for Computer Music](https://www.researchgate.net/publication/265162871_Principles_of_Visual_Design_for_Computer_Music)
 - [Live PHYSICAL Performance - YouTube](https://www.youtube.com/watch?v=MSN-TQGQSec)
 - [artificiel: POWEr](https://artificiel.org/projet/POWEr)
 - [artificiel: condemned_bulbes](https://artificiel.org/projet/bulbes)
@@ -61,13 +61,13 @@ Ryoji Ikeda
 - [AZIMUTH on Vimeo](https://vimeo.com/599494283)
 - [cyriak - YouTube](https://www.youtube.com/@cyriak)
 Multitude
-    - [Canon - ONF](https://www.onf.ca/film/canon_fr/)
-    - [Pas de deux - ONF](https://www.onf.ca/film/pas_de_deux/)
-    - [ECKO BAZZ - MUGULU E'YO - YouTube](https://www.youtube.com/watch?v=bXtrSKDWDYg)
-    - [Kraut - Lady Aicha & Pisko Crane's Original Fulu Miziki of Kinshasa - YouTube](https://www.youtube.com/watch?v=I3gm39XHKpg)
-    - [Conifer | Archived page from the “AATOAA” List on Conifer](https://conifer.rhizome.org/vmorisset/default-collection/list/aatoaa/b3/20180831193659$br:firefox:49/http:/beonlineb.com/)
+- [Canon - ONF](https://www.onf.ca/film/canon_fr/)
+- [ECKO BAZZ - MUGULU E'YO - YouTube](https://www.youtube.com/watch?v=bXtrSKDWDYg)
+- [Kraut - Lady Aicha & Pisko Crane's Original Fulu Miziki of Kinshasa - YouTube](https://www.youtube.com/watch?v=I3gm39XHKpg)
+- [Conifer | Archived page from the “AATOAA” List on Conifer](https://conifer.rhizome.org/vmorisset/default-collection/list/aatoaa/b3/20180831193659$br:firefox:49/http:/beonlineb.com/)
 
 ## Feedback
 
 - [Divisional Articulations (4:33) on Vimeo](https://vimeo.com/218815513)
 - [Chaotica I - YouTube](https://www.youtube.com/watch?v=erRR3LmKLD0)
+- [Pas de deux - ONF](https://www.onf.ca/film/pas_de_deux/)

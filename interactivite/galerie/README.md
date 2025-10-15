@@ -92,3 +92,49 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [MUSIC 20 10 2022 - YouTube](https://www.youtube.com/watch?v=LCfWhOyY3Q4)
 - [AZIMUTH on Vimeo](https://vimeo.com/599494283)
 - [Joshua Davis Studios](https://joshuadavis.com/)
+
+## Ouvrages
+
+### Expérience utilisateur
+
+- Crawford, Chris. "The Computer as a Game Technology." In *The Art of Computer Game Design*, Osborne / McGraw-Hill, 1984, pp. 35–44. ISBN: 9780881341171
+- Schell, J. (2022). *L'art du game design - Nouvelle édition: Se focaliser sur les fondamentaux*
+- Albinet, M. (2022). *Concevoir un Jeu Video*
+- Le Breton, R. (2017). *Design Narratif: Scénario et expérience de jeu*
+- Kholeif, O. (2023). *Internet_Art: From the Birth of the Web to the Rise of NFTs*
+- Kief, H. (2020). *Internet ou le retour à la bougie*
+- Burckhardt, A., Galloway, P., et Antonelli, P. (2022). *Never Alone: Video Games as Interactive Design*
+- Pereyra, I. (2023). *Universal Principles of UX: 100 Timeless Strategies to Create Positive Interactions between People and Technology*
+
+
+### Programmation et design computationnel
+
+- Reas, C., et McWilliams, C. (2010). *Form+Code in Design, Art, and Architecture: Introductory Book for Digital Design and Media Arts*. New York, NY: Princeton Architectural Press
+- Reas, C., et Fry, B. (2014). *Processing: A Programming Handbook for Visual Designers and Artists* (2nd ed.). Cambridge, MA: The MIT Press
+- McCarthy, Lauren, Casey Reas, et Ben Fry. (2015). *Getting Started with P5.Js: Making Interactive Graphics in JavaScript and Processing*. 1 edition. San Francisco, CA: Make Community, LLC
+- Leach, N., et Yuan, P. F. (2018). *Computational Design*. Shanghai: Tongji University Press Co., Ltd
+- Paquin, L.-C. (n.d.). *Comprendre les médias interactifs*. [Lien](http://www.lcpaquin.com/livre/tdm.html)
+- Levin, G., et Brain, T. (2021). *Code as Creative Medium*
+- Bianchini, S., et Verhagen, E. (2016). *Practicable: From Participation to Interaction in Contemporary Art*
+- Thiery, E. *Les bases de Git*. [PDF](http://www2.ift.ulaval.ca/~eude/Gif-1003/Initiation_a_git/Labo%20sur%20Git_fichiers/Les%20bases%20de%20Git.pdf)
+- *Aide-mémoire GIT*. [Lien](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
+- Lostritto, Carl. (2019). *Computational Drawing: From Foundational Exercises to Theories of Representation*. Novato: Applied Research & Design
+
+
+
+## Art numérique montréalais
+
+- [Alice Jarry](https://alicejarry.com/)
+- [Aurélie Pédron – Lilith & Cie](http://lilithetcie.com/)
+- [Cinzia Campolese](https://www.cinziac.net)
+- [Daily tous les jours – Projets](https://www.dailytouslesjours.com/fr/projets)
+- [Erin Gee – Human Voices in Electronic Bodies](https://eringee.net/)
+- [Gentilhomme – Les productions](http://gentilhomme.ca/fr)
+- [Jonathan Villeneuve – Projets](http://jonathan-villeneuve.com/)
+- [La boite interactive – Stratégies multimédia créatives](http://laboiteinteractive.com/)
+- [La Camaraderie – Design d’expériences participatives et narratives](https://www.lacamaraderie.com)
+- [Marie Brassard and Infrarouge company performances](https://infrarouge.org/?locale=fr)
+- [Nicolas Bernier – Laboratoire son / matière](https://www.son-matiere.org)
+- [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
+- [Projet EVA – Art numérique](http://projet-eva.org/)
+- [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
