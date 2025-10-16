@@ -153,15 +153,18 @@
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)
 - *touchdesigner*
+  - [aspect](/touchdesigner/aspect/)
   - *audio*
     - [mixer](/touchdesigner/audio/mixer/)
   - [feedback](/touchdesigner/feedback/)
   - [git](/touchdesigner/git/)
+  - [globales](/touchdesigner/globales/)
   - [modularisation](/touchdesigner/modularisation/)
   - [null_et_trail](/touchdesigner/null_et_trail/)
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
+  - [perform](/touchdesigner/perform/)
   - *python*
     - [aide-memoire](/touchdesigner/python/aide-memoire/)
     - [configuration](/touchdesigner/python/configuration/)
