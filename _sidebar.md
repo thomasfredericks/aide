@@ -16,6 +16,8 @@
 - *audiovisuel*
   - [galerie](/audiovisuel/galerie/)
 - [bytebeat](/bytebeat/)
+- *davinci_resolve*
+  - [effets](/davinci_resolve/effets/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
