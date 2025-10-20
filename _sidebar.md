@@ -31,6 +31,7 @@
           - [microosc](/electro/del/ruban/fastled/exemples/microosc/)
           - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
+- [enshitification](/enshitification/)
 - [figure_fond](/figure_fond/)
 - [gamestream](/gamestream/)
 - [git](/git/)
