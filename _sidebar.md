@@ -15,6 +15,7 @@
   - [plugins](/audio/plugins/)
 - *audiovisuel*
   - [galerie](/audiovisuel/galerie/)
+- [brave](/brave/)
 - [bytebeat](/bytebeat/)
 - *davinci_resolve*
   - [effets](/davinci_resolve/effets/)
@@ -152,8 +153,6 @@
     - [osc](/reaper/plugin/osc/)
   - [virtual_midi_keyboard](/reaper/virtual_midi_keyboard/)
 - [rpi](/rpi/)
-- *sante*
-  - [brave](/sante/brave/)
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)
 - *touchdesigner*
