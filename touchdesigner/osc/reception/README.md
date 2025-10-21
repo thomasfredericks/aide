@@ -1,36 +1,29 @@
 # Réception de l'OSC dans TouchDesigner
 
-## Préalable(s)
 
-- [Protocole Open Sound Control (OSC)](/osc/)
-- [Tutoriel: OscBridge, M5 Angle et le bouton](/m5stack/atom/tutoriel/angle-button-oscbridge.md)
+> [!WARNING]
+> Dans TouchDesigner les adresses de messages OSC perdent leur /.
+> L'adresse OSC /bouton devient bouton dans TouchDesigner.
 
-## Réception d'OSC dans TouchDesigner
 
-### Ajouter un CHOP _Osc In_
+## Ajouter un CHOP _Osc In_
 
-![](chop-oscin.png)
+![Un CHOP Osc In qui a reçu des messages OSC avec les adresses /button et /angle](chop-oscin.png)
 
-###  Configurer les paramètres du _Osc In_
+##  Configurer les paramètres du _Osc In_
 
-![](chop-oscin_parameters.png)
+Utiliser le même numéro de port que celui défini dans l'expéditeur.
 
-## Réception du bouton dans TouchDesigner
+![Paramètres du CHOP Osc In](chop-oscin_parameters.png)
 
-###   Ajouter des CHOP _Select_, _Tail_ et _Null_
 
-![](bouton_select-tail-null.png)
+##  Isoler les différents messages OSC avec des CHOP _Select_
 
-###  Configurer les paramètres du _Select_
+![CHOP Select pour les messages OSC avec l'adresse /button](bouton_select_parameters.png)
 
-![](bouton_select_parameters.png)
+![CHOP Select pour les messages OSC avec l'adresse /angle](angle_select_parameters.png)
 
-## Réception du capteur d'angle dans TouchDesigner
 
-###   Ajouter des CHOP _Select_, _Tail_ et _Null_
+![Réseau pour recevoir l'OSC et distinguer les messages OSC /button et /angle](angle_select-tail-null.png)
 
-![](angle_select-tail-null.png)
 
-###  Configurer les paramètres du _Select_
-
-![](angle_select_parameters.png)
