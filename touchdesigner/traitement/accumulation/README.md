@@ -6,7 +6,7 @@
 
 ![Réseau pour l'accumulation](./td_accumulation_reseau.png)
 
-Pour réaliser l'accumulation, nous voulons une entrée qui est soit 0 ou 1 (aucune valeur intermédiaire) :
+Pour réaliser l'accumulation, nous voulons une entrée qui est soit 0 ou 1 (aucune valeur intermédiaire, utiliser une [plage](../plage/) sinon) :
 - Quand l'entrée est 1, on veut que la sortie augmente graduellement avec une vitesse positive
 - Quand l'entrée est 0, on veut que la sortie réduise graduellement avec une vitesse négative
 
