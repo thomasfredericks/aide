@@ -17,6 +17,7 @@
   - [galerie](/audiovisuel/galerie/)
 - [brave](/brave/)
 - [bytebeat](/bytebeat/)
+- *coverage*
 - *davinci_resolve*
   - [effets](/davinci_resolve/effets/)
 - *education*
@@ -79,8 +80,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [blink](/m5stack/exemples/blink.md)
+    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -174,6 +175,7 @@
     - [configuration](/touchdesigner/python/configuration/)
     - [deboguer](/touchdesigner/python/deboguer/)
   - [spout](/touchdesigner/spout/)
+  - [template](/touchdesigner/template/)
   - *traitement*
     - [accumulation](/touchdesigner/traitement/accumulation/)
     - [basculement](/touchdesigner/traitement/basculement/)
