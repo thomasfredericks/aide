@@ -168,7 +168,7 @@
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
-  - [performer](/touchdesigner/performer/)
+  - [performance](/touchdesigner/performance/)
   - *python*
     - [aide-memoire](/touchdesigner/python/aide-memoire/)
     - [configuration](/touchdesigner/python/configuration/)
