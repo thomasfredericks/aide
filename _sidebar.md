@@ -168,18 +168,21 @@
   - *osc*
     - [envoi](/touchdesigner/osc/envoi/)
     - [reception](/touchdesigner/osc/reception/)
-  - [perform](/touchdesigner/perform/)
+  - [performer](/touchdesigner/performer/)
   - *python*
     - [aide-memoire](/touchdesigner/python/aide-memoire/)
     - [configuration](/touchdesigner/python/configuration/)
     - [deboguer](/touchdesigner/python/deboguer/)
   - [spout](/touchdesigner/spout/)
   - *traitement*
+    - [accumulation](/touchdesigner/traitement/accumulation/)
     - [basculement](/touchdesigner/traitement/basculement/)
     - [glissement](/touchdesigner/traitement/glissement/)
     - [inversion](/touchdesigner/traitement/inversion/)
     - [plage](/touchdesigner/traitement/plage/)
     - [proportion](/touchdesigner/traitement/proportion/)
+  - *video*
+    - [index](/touchdesigner/video/index/)
 - *unity*
   - [colliders](/unity/colliders/)
   - [execution_arriere-plan](/unity/execution_arriere-plan/)
