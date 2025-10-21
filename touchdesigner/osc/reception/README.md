@@ -6,11 +6,9 @@
 > L'adresse OSC /bouton devient bouton dans TouchDesigner.
 
 
-## Ajouter un CHOP _Osc In_
+## Ajouter un CHOP _Osc In_ et configurer son port
 
 ![Un CHOP Osc In qui a reçu des messages OSC avec les adresses /button et /angle](chop-oscin.png)
-
-##  Configurer les paramètres du _Osc In_
 
 Utiliser le même numéro de port que celui défini dans l'expéditeur.
 
