@@ -73,6 +73,7 @@
 
 ## Contrôle et contrôleurs
 
+- [10k Drum Machines](https://10kdrummachines.com/)
 - Elsea, Peter (2011). *Notes on Program Design with Max*. [PDF](http://peterelsea.com/Maxtuts_basic/Notes_on_Program_Design.pdf)
 - Tanaka, A. (2009). *Sensor-Based Musical Instruments and Interactive Music.* In R. T. Dean, ed. *The Oxford Handbook of Computer Music*. Oxford University Press, pp. 233-257
 - Ryan, J. (1991). “Some Remarks on Musical Instrument Design at STEIM.” *Contemporary Music Review*, 6(1): pp. 3-17

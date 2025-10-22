@@ -1,6 +1,10 @@
 # L'Enshittification »
 
+**TL;DR - Trop long ; pas lu** : ils te soutirent plus d’argent parce que tu ne peux pas partir.
+
 Source : [The Ensh*ttification of Everything with Cory Doctorow - YouTube](https://www.youtube.com/watch?v=P1EKQidRooc)
+
+
 
 ## Vue d'ensemble
 Dans cette interview, **Adam Conover** s'entretient avec l'écrivain et activiste **Cory Doctorow** sur le concept d'« **enshittification** » (que l'on pourrait traduire par **« dégradation »** ou **« merdification »**), un terme inventé par Doctorow pour décrire la dégradation systématique des plateformes numériques. La discussion examine comment des plateformes autrefois utiles deviennent exploitantes, pourquoi ce schéma est devenu omnipérant et quels changements structurels pourraient l'inverser.
