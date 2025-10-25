@@ -127,7 +127,7 @@ body {
   margin-right: auto;
 }
 
-img:not(.lightbox-image) {
+/* img:not(.lightbox-image) {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
   padding : 10px;
@@ -135,7 +135,7 @@ img:not(.lightbox-image) {
 
 img:not(.lightbox-image):hover {
   filter: grayscale(0%);
-}
+} */
 
 
 
