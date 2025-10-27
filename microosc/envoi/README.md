@@ -2,8 +2,7 @@
 
 ## Préalable(s)
 
-- [Installation de MicroOsc](/microosc/)
-- [Initialisation de MicroOsc](/microosc/initialisation/)
+- [Initialisation de MicroOsc](../initialisation/)
 
 ## Envoyer un entier par `MicroOsc` vers l'ordinateur
 

@@ -1,6 +1,5 @@
 # Initialisation de MicroOsc
 
-
 ## Installation
 
 ### Arduino IDE
@@ -19,7 +18,11 @@ Ajouter la ligne suivante à `lib_deps` dans `platformio.ini` :
 `MicroOsc` prend actuellement en charge deux protocoles de transport : Serial (avec SLIP) et UDP (Ethernet ou WiFi). Les deux versions utilisent un API identique, sauf pour leur initialisation.
 
 
-## Initialisation d'OSC SLIP
+## OSC *SLIP* : Initialisation
+
+
+> [!NOTE]
+> Suivre seulement ces instructions pour la version SLIP de l'OSC!
 
 ### Espace global
 
@@ -39,10 +42,16 @@ Dans `setup()`, n'oubliez pas de démarrer la communication série :
   Serial.begin(115200);
 ```
 
-> [!WARNING] 
+> [!IMPORTANT] 
 > Il ne faut plus utiliser les envois ASCII `Serial.print()` ou `Serial.println()` quand on utilise **OSC SLIP** parce que les messages **ASCII** vont corrompre le flux de données **OSC SLIP** 
 
-## Initialisation d'OSC UDP
+**L'initialisation de l'OSC SLIP est terminée.**
+
+## OSC *UDP* : Initialisation
+
+> [!NOTE]
+> Suivre seulement ces instructions pour la version UDP de l'OSC!
+
 
 Initialisez d'abord l'Ethernet ou le WiFi selon votre matériel:
 - Atom POE : [Initialisation de l'Ethernet pour un Atom POE](/m5stack/atom/poe/)
@@ -70,3 +79,4 @@ La destination peut optionnellement être modifiée en cours d'exécution :
 ```cpp
 myOsc.setDestination(IPAddress destinationIp , unsigned int destinationPort);
 ```
+**L'initialisation de l'OSC UDP est terminée.**
