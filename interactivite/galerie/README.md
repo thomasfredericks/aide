@@ -138,3 +138,11 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
 - [Projet EVA – Art numérique](http://projet-eva.org/)
 - [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
+
+## Voir et écouter le monde
+
+- [earth :: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/#current/wind/surface/level/orthographic)
+- [Live Starlink, SpaceX, Kuiper & GPS Satellite Map](https://satellitemap.space/)
+- [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/51.50,-0.12/6)
+- [Wide-band WebSDR in Enschede, the Netherlands](http://websdr.ewi.utwente.nl:8901/)
+- [Eyes on the Solar System - Home - NASA/JPL](https://eyes.nasa.gov/apps/solar-system/#/home)
