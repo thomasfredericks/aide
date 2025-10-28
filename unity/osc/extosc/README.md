@@ -36,125 +36,82 @@ Vous devriez maintenant trouver *extOSC* dans vos *assets* :
 
 
 
-## Intégration
+## Intégration de l'objet de contrôle OSC
 
-* Créez un nouveau GameObject vide nommé «OSC».
-* Ajoutez les scripts (qui viennent ave extOSC) «OSCTransmitter» et «OSCReceiver» en tant que *components* au GameObject «OSC».
-* Configurez les components avec la configuration réseau.
+> [!Note]
+> Suivre les instructions suivantes une seule fois par scène.
+
+* Créer un nouveau *GameObject* vide nommé `OSC`.
+* Ajouter les scripts (inclus avec *extOSC*) `OSCTransmitter` et `OSCReceiver` au  *GameObject* `OSC`.
+* Configurer les deux scripts avec la configuration réseau appropriée.
 
 ![Le GameObject OSC configuré](./extosc_gameobject_osc.png)
 
-Créez un nouveau script nommé «MyOSC» :
-![Le script «MyOSC» dans les Assets](./extosc_script_myosc.png)
+## Exemple d'intégration de la réception d'un message OSC
 
-Dans ce script, indiquez que vous allez utiliser le paquet « extOSC » en ajoutant `using extOSC` au tout début (après les autres `using`) :
+> [!Note]
+> Suivre les instructions suivantes pour chaque objet qui doit recevoir de l'OSC.
+
+Créez un nouveau script (nommé `OscCube` dans cet exemple) :
+![Le script OscCube dans les Assets](./script_OscCube_dans_assets.png)
+
+### Dans ce script
+
+Au tout début (après les autres `using`) du script, indiquez que vous allez utiliser le paquet « extOSC » en ajoutant `using extOSC` :
 ```csharp
 using extOSC;
 ```
 
-Ensuite, ajoutez deux variables qui pointeront vers les scripts *components* «OSCTransmitter» et «OSCReceiver» :
+Ensuite, dans la classe (avant les méthodes), ajoutez une variable qui pointera vers le script `OSCReceiver` :
 ```csharp
 public extOSC.OSCReceiver oscReceiver;
-public extOSC.OSCTransmitter oscTransmitter;
 ```
 
-Dans l'éditeur Unity liez ces variables aux scripts *components* «OSCTransmitter» et «OSCReceiver»:
-![Les scripts *components* «OSCTransmitter» et «OSCReceiver» liés aux variables publqiues](./extosc_script_myosc_lien.png)
-
-Pour interagir avec les GameObjects dans la scène, vous devez aussi ajouter une variable publique au script «MyOSC» :
+Dans la classe (avant les autres méthodes), ajoutez la méthode `Proportion()` très utile qui permet d'adapter les échelles des valeurs (comme `scale` dans Max ou `Math CHOP` dans TouchDesigner) :
 ```csharp
-public GameObject myTarget;
-```
-
-Dans Unity vous devez lier un GameObject de votre scène à la variable que vous vennez de créer:
-![Le GameObject Brioche lié à la variable «myTarget»](./extosc_script_myosc_mytarget_lien.png)
-
-Dans le script «myOSC», ajoutez cette méthode très utile qui permet d'adapter les échelles des valeurs (comme [scale] dans Max):
-```csharp
- public static float ScaleValue(float value, float inputMin, float inputMax, float outputMin, float outputMax)
+ public static float Proportion(float value, float inputMin, float inputMax, float outputMin, float outputMax)
     {
         return Mathf.Clamp( ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin), outputMin,outputMax);
     }
 ```
 
-## Recevoir des messages OSC
-
-Pour recevoir des messages OSC, vous devez ajouter un `Bind()` pour chaque adresse dans le `Start()` du script «myOSC»:
+Nous ajoutons aussi la méthode `TraiterOscAngle()` suivante à la classe qui va être appelée quand un message OSC (avec l'adresse qui sera définie plus tard dans `Start()`) est reçu :
 ```csharp
-// Mettre cette ligne dans la méthode start()
-oscReceiver.Bind("/adresse", TraiterMessageOSC);
-```
-
-Vous devez ensuite définir la fonction `TraiterMessageOSC()` qui va être appelée quand un message OSC avec l'adresse définie avec le `Bind()` est reçu:
-```csharp
-void TraiterMessageOSC(OSCMessage oscMessage)
+void TraiterOscAngle(OSCMessage message)
 {
-    // Récupérer une valeur numérique en tant que float
-    // même si elle est de type float ou int :
-    float value;
-    if (oscMessage.Values[0].Type == OSCValueType.Int )
-    {
-        value = oscMessage.Values[0].IntValue;
-    } else if (oscMessage.Values[0].Type == OSCValueType.Float)
-    {
-        value = oscMessage.Values[0].FloatValue;
-    } else
-    {
-        // Si la valeur n'est ni un foat ou int, on quitte la méthode :
+    // Si le message n'a pas d'argument ou l'argument n'est pas un Int on l'ignore
+    if (message.Values.Count == 0)
         return;
-    }
-    
-    // Changer l'échelle de la valeur pour l'appliquer à la rotation :
-    float rotation = ScaleValue(value, 0, 4095, 45, 315);
-    // Appliquer la rotation au GameObject ciblé :
-    myTarget.transform.eulerAngles = new Vector3(0,0,rotation);
+    if (message.Values[0].Type != OSCValueType.Int)
+        return;
+
+    // Récupérer la valeur de l'angle depuis le message OSC
+    int value = message.Values[0].IntValue;   
+
+    // EXEMPLE : Utiliser la valeur pour l'appliquer à la rotation
+    // Ajuster proportionnellement la valeur
+    float angle = Proportion(value, 0, 4095, -180, 180);
+    // Appliquer la rotation à l'objet en fonction de l'angle reçu
+    transform.rotation = Quaternion.Euler(0, angle, 0);
 }
 ```
 
-## Envoyer des messages OSC
-
-Pour envoyer des messages OSC, vous devez avant tout créer une proprité dans la classe «myOSC» pour mesurer le temps et ralentir l'envoi des messages qui peut être beaucoup trop rapide:
+Dans la méthode `Start()` on définit pour chaque adresse OSC le nom de la méthode correspondante qui sera appelée avec un `Bind()`, dans cet exemple, l'adresse OSC `/angle` déclenche la fonction `TraiterOscAngle()` :
 ```csharp
-// Variable utilisée pour contrôler la vitesse d'envoi des messages :
- float myChronoStart;
+oscReceiver.Bind("/angle", TraiterOscAngle);
 ```
 
-Ensuite, vous ajoutez une méthode `LateUpdate()` à la classe «myOSC» (nous utilisons `LateUpdate()` plutôt que `Update()` parce que nous voulons que la méthode soit appelée en dernier):
-```csharp
-// LateUpdate is called once per frame after Update
-void LateUpdate()
-{
-    // Si 50 millisecondes se sont écoulées depuis le dernier envoi :
-    if (Time.realtimeSinceStartup - myChronoStart >= 0.05f ) 
-    {
-        myChronoStart = Time.realtimeSinceStartup;
+### Dans l'éditeur Unity
 
-        // Créer le message
-        var myOscMessage = new OSCMessage("/adresse");
+De retour dans l'éditeur Unity :
+- On ajoute un GameObject, un Cube dans cet exemple, sur la scène
+- On lui ajoute le script `OscCube`. 
+- Ensuite, il faut lier le `OSCReceiver` du GameObject `OSC` à la variable du script que l'on a créé en glissant le GameObject `OSC` sur la variable.
 
-        
-        // Aller chercher une valeur:
-        float myPositionX = myTarget.transform.position.x;
-        // Changer l'échelle de la valeur:
-        float myScaledPositionX = ScaleValue(myPositionX, -7, 7, 0, 255);
+![Glisser le GameObject OSC sur la variable du script que l'on a créé et qu'on a ajouté à notre objet Cube](./glisser_script_OSCCube_et_instance_OSC.png)
 
-        // Ajouter la valeur au message
-        myOscMessage.AddValue(OSCValue.Int( (int) myScaledPositionX) ); // Le (int) entre parenthèses convertit le type.
+### Effet désiré
 
-        // Envoyer le message
-        oscTransmitter.Send(myOscMessage);
-    }
-  
-}
-```
+En exécutant le projet Unity, la rotation du cube devrait suivre la valeur du message OSC '/angle'.
 
-À noter que tous vos envois de messages doivent se faire dans cette fonction `LateUpdate()`!
 
-Si vous voulez envoyer des `float` , utilisez la méthode suivante :
-```csharp
-myOscMessage.AddValue(OSCValue.Float( (float) valeur) ); // Le (float) entre parenthèses convertit le type.
-```
-
-## Exemple complet
-
-Vous trouverez un exemple complet à l'adresse suivante : [thomasfredericks/unity_extosc_example: Example for the integration of extOSC in Unity](https://github.com/thomasfredericks/unity_extosc_example)
