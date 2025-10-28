@@ -52,7 +52,9 @@ Vous devriez maintenant trouver *extOSC* dans vos *assets* :
 > [!Note]
 > Suivre les instructions suivantes pour chaque objet qui doit recevoir de l'OSC.
 
-Créez un nouveau script (nommé `OscCube` dans cet exemple) :
+Voici l'effet escompté : la rotation dun GameObject, un cube, est contrôlée par la valeur du message OSC '/angle'.
+
+Pour chaque GameObject qui va recevoir de l'OSC, créer un nouveau script (nommé `OscCube` dans cet exemple) :
 ![Le script OscCube dans les Assets](./script_OscCube_dans_assets.png)
 
 ### Dans ce script
@@ -109,9 +111,5 @@ De retour dans l'éditeur Unity :
 - Ensuite, il faut lier le `OSCReceiver` du GameObject `OSC` à la variable du script que l'on a créé en glissant le GameObject `OSC` sur la variable.
 
 ![Glisser le GameObject OSC sur la variable du script que l'on a créé et qu'on a ajouté à notre objet Cube](./glisser_script_OSCCube_et_instance_OSC.png)
-
-### Effet désiré
-
-En exécutant le projet Unity, la rotation du cube devrait suivre la valeur du message OSC '/angle'.
 
 

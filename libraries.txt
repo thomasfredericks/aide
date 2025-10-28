@@ -9,5 +9,6 @@ https://gllmar.github.io/docsify-alert/docsify-alerts.js
 https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js
 https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js
 https:/cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.js
+https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js
 https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.js
 https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js
