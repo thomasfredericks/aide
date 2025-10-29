@@ -1,6 +1,6 @@
 # Audiovisuel : Compression
 
-Dans un souci de moralité écologique, nous voulons que nos fichiers audiovisuels soient le plus compressés sans trop d'impact sur le matériel.
+Dans un souci de moralité écologique, nous voulons que nos fichiers audiovisuels soient le plus compressés sans trop de dégradation.
 
 ## Conversion pour un poids cible
 
