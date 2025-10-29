@@ -14,6 +14,7 @@
     - [genelec](/audio/haut-parleurs/genelec/)
   - [plugins](/audio/plugins/)
 - *audiovisuel*
+  - [compression](/audiovisuel/compression/)
   - [galerie](/audiovisuel/galerie/)
   - [processus](/audiovisuel/processus/)
 - [brave](/brave/)
