@@ -6,8 +6,9 @@
 - L'exécutable, nommé _pd_,  se trouve dans le dossier _bin_.
 
 > [!WARNING]
-> À l'ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s'il doit créer les dossiers **Documents > Pd > externals**
+> À l'ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s'il doit créer le dossier **Documents > Pd**... répondre oui!
 
+![Répondre OUI à la création du dossier des documents pour Pd](pd_dossiers-defaut.png)
 
 ## Interface générale
 
