@@ -138,6 +138,7 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
 - [Projet EVA – Art numérique](http://projet-eva.org/)
 - [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
+- [Home — Allison Moore](https://www.allisonmoore.net/home) **PROJECTION_ARCHITECTURALE**
 
 ## Voir et écouter le monde
 
