@@ -189,6 +189,7 @@
 - *unity*
   - [colliders](/unity/colliders/)
   - [execution_arriere-plan](/unity/execution_arriere-plan/)
+  - [git](/unity/git/)
   - *osc*
     - [extosc](/unity/osc/extosc/)
     - [oscjackvs](/unity/osc/oscjackvs/)
