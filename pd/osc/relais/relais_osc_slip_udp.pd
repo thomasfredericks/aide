@@ -18,11 +18,15 @@
 #X obj 352 199 spigot;
 #X text 350 170 DEBOGAGE;
 #X obj 352 236 print COM;
+#X obj 121 171 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 135 324 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 2 0;
 #X connect 0 0 16 0;
+#X connect 0 0 19 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 2 0 12 0;
+#X connect 2 0 20 0;
 #X connect 4 0 3 0;
 #X connect 5 0 0 0;
 #X connect 8 0 0 0;
