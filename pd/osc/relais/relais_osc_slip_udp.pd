@@ -14,13 +14,12 @@
 #X obj 353 336 spigot;
 #X text 351 307 DEBOGAGE;
 #X obj 351 391 print OSC;
-#X obj 352 226 oscparse;
 #X obj 416 171 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 352 199 spigot;
 #X text 350 170 DEBOGAGE;
-#X obj 351 253 print COM;
+#X obj 352 236 print COM;
 #X connect 0 0 2 0;
-#X connect 0 0 17 0;
+#X connect 0 0 16 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 2 0 12 0;
@@ -31,6 +30,5 @@
 #X connect 10 0 14 0;
 #X connect 11 0 12 1;
 #X connect 12 0 10 0;
-#X connect 15 0 19 0;
-#X connect 16 0 17 1;
-#X connect 17 0 15 0;
+#X connect 15 0 16 1;
+#X connect 16 0 18 0;
