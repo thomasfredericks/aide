@@ -45,7 +45,8 @@ Dans `setup()`, n'oubliez pas de démarrer la communication série :
 > [!IMPORTANT] 
 > Il ne faut plus utiliser les envois ASCII `Serial.print()` ou `Serial.println()` quand on utilise **OSC SLIP** parce que les messages **ASCII** vont corrompre le flux de données **OSC SLIP** 
 
-**L'initialisation de l'OSC SLIP est terminée.**
+> [!NOTE]
+> L'initialisation de l'OSC SLIP est terminée.
 
 ## OSC *UDP* : Initialisation
 
@@ -79,4 +80,5 @@ La destination peut optionnellement être modifiée en cours d'exécution :
 ```cpp
 myOsc.setDestination(IPAddress destinationIp , unsigned int destinationPort);
 ```
-**L'initialisation de l'OSC UDP est terminée.**
+> [!NOTE]
+> L'initialisation de l'OSC UDP est terminée.

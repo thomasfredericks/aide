@@ -116,3 +116,5 @@ De retour dans l’éditeur Unity :
 - Liez le `OSCReceiver` du GameObject `OSC` à la variable publique du script en glissant le GameObject `OSC` sur la variable correspondante dans l’inspecteur.
 
 ![Glisser le GameObject OSC sur la variable du script ajouté à l’objet Cube](./glisser_script_OSCCube_et_instance_OSC.png)
+
+![Press Play](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhnYWZnZ2xtODJkNTg1MmxpYmV4azNtbTRnMjNxcnV1dWhnejExcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1pBlZILkXsutn6NdAD/giphy.gif)
