@@ -5,7 +5,7 @@
 Il est très important d'ajouter un `.gitignore` dans le **dossier de projet Unity**. 
 
 Coller le contenu suivant dans ce fichier `.gitignore` :
-```.ignore
+```ignore
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
