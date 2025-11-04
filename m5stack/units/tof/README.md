@@ -88,11 +88,11 @@ sensor.setMeasurementTimingBudget(200000);
 
 Obtenir la mesure en millimètres :
 ```cpp
-uint16_t mesure = myTOF.readRangeSingleMillimeters();
+int mesure = myTOF.readRangeSingleMillimeters();
 ```
 
 **Optionnellement**, déterminer s'il y a eu une erreur de communication avec le TOF :
 ```cpp
-int erreure = myTOF.timeoutOccurred();
+int erreur = myTOF.timeoutOccurred();
 ```
 
