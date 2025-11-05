@@ -141,6 +141,9 @@
   - [nouveau_projet](/platformio/nouveau_projet/)
 - *production*
   - [etapes](/production/etapes/)
+  - [maquettage](/production/maquettage/)
+    - [scenarisation](/production/maquettage/scenarisation/)
+    - [technique](/production/maquettage/technique/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
