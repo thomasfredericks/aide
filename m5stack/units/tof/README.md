@@ -54,6 +54,10 @@ Ensuite, initialiser le TOF :
   myTOF.init();
 ```
 
+> [!NOTE] 
+> Appliquer les configurations optionnelles suivantes seulement si nécessaire. 
+> Si l'une est nécessaire, l'intégrer dans setup()
+
 #### Configuration optionnelle : Longue distance
 
 Cela augmente la sensibilité du capteur et étend sa portée potentielle, mais cela augmente également la probabilité d'obtenir une lecture inexacte en raison de réflexions provenant d'objets autres que la cible visée. Ce mode fonctionne mieux dans des conditions sombres.
@@ -88,11 +92,14 @@ sensor.setMeasurementTimingBudget(200000);
 
 Obtenir la mesure en millimètres :
 ```cpp
-uint16_t mesure = myTOF.readRangeSingleMillimeters();
+int mesure = myTOF.readRangeSingleMillimeters();
 ```
+
+> [!NOTE] 
+> Récupérer les erreurs seulement si nécessaire.
 
 **Optionnellement**, déterminer s'il y a eu une erreur de communication avec le TOF :
 ```cpp
-int erreure = myTOF.timeoutOccurred();
+int erreur = myTOF.timeoutOccurred();
 ```
 
