@@ -22,54 +22,38 @@ monChronoDepart = millis(); // TEMPS DE DÉPART
 
 ### Utilisation dans *loop()*
 
+#### Remplacer le *delay()* dans *loop()* pour ralentir la vitesse de la boucle
+
+Pour remplacer un `delay(20)` :
+```cpp
+if ( millis() - monChronoDepart >= 20 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 20 MS...
+      monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
+      
+      // AJOUTER LE CODE RALENTIT ICI
+}
+```
+
+#### Autres fonctions
+
+##### Temps écoulé
+
 Pour calculer le temps écoulé on utilise l'extrait suivant: 
 ```cpp
 ( millis() - monChronoDepart ) // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```
 
+##### Temps écoulé dépasse un intervalle
 On peut vérifier si le temps écoulé dépasse 50 millisecondes avec l'extrait suivant:
 ```cpp
 ( millis() - monChronoDepart >= 50 ) // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```
+
+##### Redémarrer le chronomètre
 
 On peut redémarrer la mesure du temps avec le code suivant:
 ```cpp
 monChronoDepart = millis(); // REDÉMARRER LE CHRONOMÈTRE
 ```
 
-On combine ces deux extraits ainsi, pour un intervalle de 50 millisecondes :
-```cpp
-if ( millis() - monChronoDepart >= 50 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 50 MS...
-      monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 50 MS
-      // AJOUTER LE CODE À RÉPÉTER ICI
-}
-```
 
-## Explication de l'algorithme
 
-Si je prends un intervalle de 5 ms comme dans le code suivant :
-```cpp
-if ( millis() - monChronoDepart >= 5 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 5 MS...
-      monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 5 MS
-      // AJOUTER LE CODE À RÉPÉTER ICI
-}
-```
-
-Voicu un tableau qui décrit son déroulement:
-
-| millis() | monChronoDepart | millis()-monChronoDepart | >= 5 |
-|---------|---------|---------|---------|
-| 0 | 0 | 0 | false | 
-| 1 | 0 | 1 | false | 
-| 2 | 0 | 2 | false | 
-| 3 | 0 | 3 | false | 
-| 4 | 0 | 4 | false | 
-| 5 | 0 | 5 | true | 
-| 6 | 5 | 1 | false | 
-| 7 | 5 | 2 | false | 
-| 8 | 5 | 3 | false | 
-| 9 | 5 | 4 | false | 
-| 10 | 5 | 5 | true | 
-| 11 | 10 | 1 | false | 

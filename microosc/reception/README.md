@@ -2,85 +2,64 @@
 
 ## Préalable(s)
 
-- [Installation de MicroOsc](/microosc/)
 - [Initialisation de MicroOsc](/microosc/initialisation/)
 
-## Extrait de code 
+## Intégration
 
+### Dans l'espace global
+
+Pour recevoir des messages OSC, créer une fonction dans l'espace *global* dans laquelle traiter les messages OSC reçus :
 ```cpp
-// ...OMISSION DU CODE POUR INITALISER UNE INSTANCE DE MICROOSC NOMMÉE myOsc...
-// ...OMISSION DU CODE NON RELIÉ...
-
-// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
-void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
-   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
-    if (receivedOscMessage.checkOscAddress("/pot")) {
-        //  EXTRACTION DES ARGUMENTS
-        int32_t intArgument = receivedOscMessage.nextAsInt();
-        // ...OMISSION DU CODE QUI UTILISE L'ARGUMENT EXTRAIT...
+// FONCTION QUI SERA APPELÉE LORSQU'UN N'IMPORTTE QUEL MESSAGE OSC EST REÇU
+// receivedOscMessage est le message reçu
+void myOscMessageParser(MicroOscMessage & receivedOscMessage) {
+   // Ici, un if et receivedOscMessage.checkOscAddress() est utilisé pour traiter les différents messages
+   if (receivedOscMessage.checkOscAddress("/pixel")) {  // MODIFIER /pixel pour l'adresse qui sera reçue
+        int premierArgument = receivedOscMessage.nextAsInt(); // Récupérer le premier argument du message en tant que int
+        int deuxiemerArgument = receivedOscMessage.nextAsInt(); // SI NÉCESSAIRE, récupérer un autre int
+        int troisiemerArgument = receivedOscMessage.nextAsInt(); // SI NÉCESSAIRE, récupérer un autre int
+    // SI NÉCESSAIRE, ajouter d'autres if pour recevoir des messages avec d'autres adresses
+    } else if (receivedOscMessage.checkOscAddress("/autre")) {  // MODIFIER /autre une autre adresse qui sera reçue
+        // ...
     }
 }
-
-void setup() {
-    // ...OMISSION DU CODE NON RELIÉ...
-}
-
-void loop() {
-    myOsc.onOscMessageReceived(myOscMessageParser);
-    // ...OMISSION DU CODE NON RELIÉ...
-}
 ```
 
-### Explications
-
-#### Définition d'une fonction pour la réception des messages OSC
-
-Pour recevoir des messages OSC, vous devez d'abord créer une fonction dans l'espace *global* dans laquelle traiter les messages OSC reçus :
-```cpp
-// FONCTION QUI SERA APPELÉE LORSQU'UN MESSAGE OSC EST REÇU :
-void myOscMessageParser(MicroOscMessage& receivedOscMessage) {
-   // VÉRIFICATION DE L'ADRESSE DU MESSAGE
-   // EXTRACTION DES ARGUMENTS
-}
-```
-
-#### Déclenchement de la réception des messages OSC
+### Dans loop()
 
 Dans `loop()`, vous devez déclencher la réception des messages :
 ```cpp
 myOsc.onOscMessageReceived(myOscMessageParser);
 ```
 
-#### Traiter messages OSC reçus
+À noter que l'on veut récupérer les messages OSC le plus rapidement possible. Il fait ainsi éviter d'utiliser un `delay()` dans `loop()`. 
 
-Dans la fonction `myOscMessageParser(MicroOscMessage& receivedOscMessage)` il est possible de valider l'adresse du message et de récupérer les arguments du message. MicroOsc retourne une référence à un `MicroOscMessage` lorsqu'il reçoit un message OSC.
-
-##### Validation de l'adresse
-
-Valider si l'adresse OSC d'un message OSC correspond à la valeur désirée avec `bool checkOscAddress(const char* address)`.
-
-Exemple avec un `MicroOscMessage` nommé `receivedOscMessage` :
+Dans cet extrait de code, nous utilisons un `delay()` pour ralentir la vitesse de la boucle ce qui va aussi ralentir la réception des messages OSC :
 ```cpp
-if (receivedOscMessage.checkOscAddress("/pot")) {
-  // ...
+void loop() {
+    myOsc.onOscMessageReceived(myOscMessageParser);
+
+    // ... ici, tout le code est ralenti, onOscMessageReceived() inclu
+
+    delay(20);
 }
 ```
 
-##### Récupération des arguments d'un MicroOscMessage
-
-Un argument de type entier (*int32*) peut être récupéré avec `int32_t nextAsInt()`.
-
-Exemple de récupération d'un entier d'un `MicroOscMessage` nommé `receivedOscMessage` :
+Dans cet extrait, le `delay()` a été remplacé par un [algorithme d'intervalle ](/arduino/millis/intervalle/) :
 ```cpp
-    int premierArgument = receivedOscMessage.nextAsInt();
+unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autres variables globales
+
+void loop() {
+
+    myOsc.onOscMessageReceived(myOscMessageParser);
+    // onOscMessageReceived() n'est pas ralenti
+
+    if ( millis() - monChronoDepart >= 20 ) { 
+      monChronoDepart = millis(); 
+      
+      // ... METTRE le code ralenti ici
+      // comme l'envoi des messages OSC
+
+    }
+}
 ```
-
-Exemple de récupération de trois entiers d'un `MicroOscMessage` nommé `receivedOscMessage` :
-```cpp
-    int premierArgument = receivedOscMessage.nextAsInt();
-    int deuxiemerArgument = receivedOscMessage.nextAsInt();
-    int troisiemerArgument = receivedOscMessage.nextAsInt();
-```
-
-
-

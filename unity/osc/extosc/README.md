@@ -44,10 +44,11 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* :
 
 ![Le GameObject OSC configuré](./extosc_gameobject_osc.png)
 
-## Exemple : réception d’un message OSC
+## Réception d’un message OSC
 
 > [!Note]
-> Reproduisez et adaptez les étapes suivantes pour chaque objet devant recevoir des messages OSC.
+> Pour expliquer la réception d'un message OSC, cette section est sous la forme d'un exemple.
+> Reproduire et adapter les étapes suivantes pour chaque objet devant recevoir des messages OSC.
 
 Dans cet exemple, nous allons contrôler la rotation d’un Cube à partir de la valeur d’un message OSC `/angle`.
 
@@ -93,7 +94,7 @@ void TraiterOscAngle(OSCMessage message)
 
     // Récupérer la valeur de l’angle depuis le message OSC
     int value = message.Values[0].IntValue;   
-
+    
     // EXEMPLE : utiliser la valeur pour appliquer une rotation
     // Adapter proportionnellement la valeur reçue
     float angle = Proportion(value, 0, 4095, -180, 180);
@@ -102,7 +103,7 @@ void TraiterOscAngle(OSCMessage message)
 }
 ```
 
-Dans la méthode `Start()`, associez chaque adresse OSC à la fonction correspondante grâce à `Bind()`.  
+Dans la méthode `Start()`, associer chaque adresse OSC à la fonction correspondante grâce à `Bind()`.  
 Dans cet exemple, le message OSC `/angle` déclenche la fonction `TraiterOscAngle()` :
 ```csharp
 oscReceiver.Bind("/angle", TraiterOscAngle);
@@ -111,10 +112,46 @@ oscReceiver.Bind("/angle", TraiterOscAngle);
 ### Dans l’éditeur Unity
 
 De retour dans l’éditeur Unity :
-- Ajoutez un *GameObject* (un Cube, dans cet exemple) à la scène.  
-- Ajoutez-lui le script `OscCube`.  
-- Liez le `OSCReceiver` du GameObject `OSC` à la variable publique du script en glissant le GameObject `OSC` sur la variable correspondante dans l’inspecteur.
+- Ajouter un *GameObject* (un Cube, dans cet exemple) à la scène.  
+- Ajouter-lui le script `OscCube`.  
+- Lier le `OSCReceiver` du GameObject `OSC` à la variable publique du script en glissant le GameObject `OSC` sur la variable correspondante dans l’inspecteur.
 
 ![Glisser le GameObject OSC sur la variable du script ajouté à l’objet Cube](./glisser_script_OSCCube_et_instance_OSC.png)
 
-![Press Play](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhnYWZnZ2xtODJkNTg1MmxpYmV4azNtbTRnMjNxcnV1dWhnejExcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1pBlZILkXsutn6NdAD/giphy.gif)
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhnYWZnZ2xtODJkNTg1MmxpYmV4azNtbTRnMjNxcnV1dWhnejExcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1pBlZILkXsutn6NdAD/giphy.gif)
+
+## Envoi d’un message OSC
+
+### Dans le script qui a besoin d'envoyer un message OSC
+
+ Au tout début du script qui doit recevoir l'OSC, (après les autres `using`), ajouter la ligne suivante pour utiliser le paquet **extOSC** :
+```csharp
+using extOSC;
+```
+
+Ensuite, dans la classe (avant les méthodes), déclarer une variable qui fera référence au script `OSCTransmitter` :
+```csharp
+public extOSC.OSCTransmitter oscTransmitter;
+```
+Dans le même script, ajouter et adapter le code suivant à l'endroit où un message OSC doit être envoyé :
+```csharp
+       var oSCMessage = new OSCMessage("/pixel");  // CHANGER l'adresse /pixel pour l'adresse désirée
+
+        // AJOUTER autant de valeurs que désiré
+        // Dans cet exemple, trois entiers sont ajoutés au message
+        oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute l'entier 255
+        oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute un autre 255
+        oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute un troisième 255
+
+        // Envoyer le message 
+        oscTransmitter.Send(oSCMessage); 
+```
+
+### Dans l’éditeur Unity
+
+De retour dans l’éditeur Unity :
+- Lier le `OSCTransmitter` à la variable publique du script en glissant le GameObject `OSC` sur la variable correspondante dans l’inspecteur.
+
+![Glisser le GameObject OSC sur la variable oscTransmitter du script](./set_transmitter.png)
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlqOWRxNGJkcHFwNDQ0bGRxdTJjZzY4eGdobGR4MWkwM3BrMzN0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kZtvCaHukCsOFbQfAV/giphy.gif)

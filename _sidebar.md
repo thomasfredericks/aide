@@ -3,8 +3,8 @@
   - *ide*
     - [installation](/arduino/ide/installation.md)
   - *millis*
-    - [attendre](/arduino/millis/attendre.md)
-    - [intervalle](/arduino/millis/intervalle.md)
+    - [attendre](/arduino/millis/attendre/)
+    - [intervalle](/arduino/millis/intervalle/)
   - [random](/arduino/random/)
   - [serial](/arduino/serial/)
   - [udp](/arduino/udp/)
@@ -197,6 +197,9 @@
     - [extosc](/unity/osc/extosc/)
     - [oscjackvs](/unity/osc/oscjackvs/)
   - [spout](/unity/spout/)
+  - *traitement*
+    - [changement](/unity/traitement/changement/)
+    - [proportion](/unity/traitement/proportion/)
 - *vcv_rack*
   - *patchs*
     - [baleines](/vcv_rack/patchs/baleines/)
