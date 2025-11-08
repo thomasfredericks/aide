@@ -1,4 +1,4 @@
-#N canvas 611 236 995 661 12;
+#N canvas 283 167 995 661 12;
 #X obj 154 196 comport;
 #X msg 214 136 devices;
 #X obj 153 345 pdchoco/slip_parse;
@@ -16,8 +16,6 @@
 #X obj 195 271 spigot;
 #X obj 195 308 print COM;
 #X obj 128 215 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 521 467 oscformat -f i key;
-#X msg 518 415 0;
 #X text 149 14 RECEVOIR LES DONNEES DU LOGICIEL;
 #X text 212 196 ENVOYER ET RECEVOIR LES DONNEES AU MICROCONTRÔLEUR;
 #X obj 126 61 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -43,8 +41,6 @@
 #X connect 11 0 9 0;
 #X connect 13 0 14 1;
 #X connect 14 0 15 0;
-#X connect 17 0 3 0;
-#X connect 18 0 17 0;
-#X connect 22 0 21 0;
-#X connect 22 0 23 0;
-#X connect 23 0 0 0;
+#X connect 20 0 19 0;
+#X connect 20 0 21 0;
+#X connect 21 0 0 0;
