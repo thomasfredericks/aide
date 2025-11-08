@@ -32,9 +32,11 @@ Dans `loop()`, vous devez déclencher la réception des messages :
 myOsc.onOscMessageReceived(myOscMessageParser);
 ```
 
+Un `delay()` est souvent utilisé pour ralentir l'exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
+
 À noter que l'on veut récupérer les messages OSC le plus rapidement possible. Il fait ainsi éviter d'utiliser un `delay()` dans `loop()`. 
 
-Dans cet extrait de code, nous utilisons un `delay()` pour ralentir la vitesse de la boucle ce qui va aussi ralentir la réception des messages OSC :
+Par exemple, dans cet extrait de code, un `delay()` est utilisé pour ralentir la vitesse de la boucle **ce qui va aussi ralentir la réception des messages OSC** :
 ```cpp
 void loop() {
     myOsc.onOscMessageReceived(myOscMessageParser);
@@ -45,19 +47,19 @@ void loop() {
 }
 ```
 
-Dans cet extrait, le `delay()` a été remplacé par un [algorithme d'intervalle ](/arduino/millis/intervalle/) :
+Dans cette version optimisée, le `delay()` a été remplacé par un [algorithme d'intervalle ](/arduino/millis/intervalle/) :
 ```cpp
 unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autres variables globales
 
 void loop() {
-
-    myOsc.onOscMessageReceived(myOscMessageParser);
-    // onOscMessageReceived() n'est pas ralenti
+    
+    // ... METTRE ici le code non-ralenti
+    myOsc.onOscMessageReceived(myOscMessageParser); // onOscMessageReceived() n'est pas ralenti
 
     if ( millis() - monChronoDepart >= 20 ) { 
       monChronoDepart = millis(); 
       
-      // ... METTRE le code ralenti ici
+      // // ... METTRE ici le code à ralentir
       // comme l'envoi des messages OSC
 
     }

@@ -2,7 +2,7 @@
   - [code](/arduino/code/)
   - *ide*
     - [installation](/arduino/ide/installation.md)
-  - *millis*
+  - [millis](/arduino/millis/)
     - [attendre](/arduino/millis/attendre/)
     - [intervalle](/arduino/millis/intervalle/)
   - [random](/arduino/random/)
