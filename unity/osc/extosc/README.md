@@ -139,8 +139,8 @@ Dans le même script, ajouter et adapter le code suivant à l'endroit où un mes
 ```csharp
        var oSCMessage = new OSCMessage("/pixel");  // CHANGER l'adresse /pixel pour l'adresse désirée
 
-        // AJOUTER autant de valeurs que désiré
-        // Dans cet exemple, trois entiers sont ajoutés au message
+        // AJOUTER autant d'arguments que désiré
+        // Dans cet exemple, trois arguments de type entiers (int) sont ajoutés au message
         oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute l'entier 255
         oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute un autre 255
         oSCMessage.AddValue( OSCValue.Int(255) ); // Ajoute un troisième 255
