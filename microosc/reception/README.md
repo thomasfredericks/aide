@@ -18,6 +18,9 @@ void myOscMessageParser(MicroOscMessage & receivedOscMessage) {
         int premierArgument = receivedOscMessage.nextAsInt(); // Récupérer le premier argument du message en tant que int
         int deuxiemerArgument = receivedOscMessage.nextAsInt(); // SI NÉCESSAIRE, récupérer un autre int
         int troisiemerArgument = receivedOscMessage.nextAsInt(); // SI NÉCESSAIRE, récupérer un autre int
+
+        // UTILISER ici les arguments récupérés
+
     // SI NÉCESSAIRE, ajouter d'autres if pour recevoir des messages avec d'autres adresses
     } else if (receivedOscMessage.checkOscAddress("/autre")) {  // MODIFIER /autre une autre adresse qui sera reçue
         // ...
