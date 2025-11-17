@@ -18,7 +18,7 @@ La bibliothèque [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est di
 
 #### PlatformIO
 
-Dans **platformio.ini** ajouter à `lib_deps` : 
+Dans le fichier **platformio.ini** ajouter à la section `lib_deps` (ajouter cette catégorie si elle est absente) : 
 ```
 lib_deps =
     thomasfredericks/M5_PbHub@^0.1.4
@@ -29,10 +29,13 @@ lib_deps =
     M5_PbHub
 ```
 
+> [!WARNING]
+> Il est important de respecter la disposition et l'indentation de la section lib_deps!
+
 
 ### Code à ajouter à **l'espace global**
 
-Nous créons une instance de la classe `M5_PbHub` nommée `myPbHub`:
+Importer et créer une instance de la classe `M5_PbHub` (nommée `myPbHub` dans cet exemple) :
 ```cpp
 #include <M5_PbHub.h>
 M5_PbHub myPbHub;

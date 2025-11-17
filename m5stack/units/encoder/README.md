@@ -8,70 +8,97 @@ Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capte
 
 C'est un *Unit* de type I²C tel qu'identifié par son connecteur rouge.
 
+> [!NOTE]
+> Il doit être connecté au M5Stack Grove HUB ou directement au microcontrôleur!
 
 
-## Bibliothèque M5Unit-Encoder
 
-La bibliothèque [M5Unit-Encoder](https://github.com/m5stack/M5Unit-Encoder) permet d'interfacer avec le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
+## Bibliothèque M5_Encoder
+
+La bibliothèque [thomasfredericks/M5_Encoder](https://github.com/thomasfredericks/M5_Encoder) permet d'interfacer avec ce _unit_.
 
 ###  Installation
 
-La bibliothèque [M5Unit-Encoder](https://github.com/m5stack/M5Unit-Encoder) est disponible dans le gestionnaire de bibliothèques d'Arduino.
+#### Dans PlatformIO
 
-### Code à ajouter à l'espace global, i.e. avant setup()
+Dans le fichier **platformio.ini** ajouter à la section `lib_deps` : 
 
-Importer la bibliothèque, créer une instance de la classe `Unit_Encoder` et créer une variable pour mémoriser la rotation précédente :
-```cpp
-#include "Unit_Encoder.h"
-Unit_Encoder myEncoder;
-
-int myEncoderPreviousRotation;
+```
+lib_deps =
+    https://github.com/thomasfredericks/M5_Encoder.git
 ```
 
-### Code à ajouter à setup()
+> [!WARNING]
+> Il est important de respecter la disposition et l'indentation de la section lib_deps!
 
-Dans `setup()`, démarrer la connexion I2C (si elle n'a pas déjà été démarrée) et démarrer la connexion avec l'encodeur :
+### Code obligatoire à ajouter à **l'espace global**
+
+Importer et créer une instance de la classe `M5_Encoder` (nommée `myEncoder` dans cet exemple) :
 ```cpp
-Wire.begin(); // Démarrer la connexion I2C
-
-myEncoder.begin(); // Démarrer la connexion avec l'encodeur
+#include <M5_Encoder.h>
+M5_Encoder myEncoder;
 ```
 
-### Code à utiliser dans loop()
 
-Obtenir la rotation accumulée de l'encodeur:
+### Code obligatoire à ajouter à `setup()`
+
+S'assurer que `Wire` est initialisé : 
 ```cpp
-int encoderRotation = myEncoder.getEncoderValue();
+  Wire.begin();
 ```
 
-**Alternativement**, obtenir la rotation effectuée depuis la dernière récupération de rotation et mémoriser cette valeur dans `encoderRotationChange`:
+> [!WARNING] 
+> Ne pas initialiser Wire deux fois dans votre code!
+
+Démarrer `myEncoder` : 
 ```cpp
-int encoderRotation = myEncoder.getEncoderValue();
-int encoderRotationChange = encoderRotation - myEncoderPreviousRotation;
-myEncoderPreviousRotation = encoderRotation;
+  myEncoder.begin();
 ```
 
-Obtenir l'état du bouton (0=appuyé, 1=relâché):
+### Code obligatoire à mettre dans `loop()`
+
+Il est nécessaire de mettre à jour les valeurs de l'encodeur avant de les récupérer. Il faut ainsi appeler la méthode `myEncoder.update()` à chaque `loop()`.
 ```cpp
-  int encoderButton = myEncoder.getButtonStatus();
+    // Mise à jour des valeurs de l'encodeur. 
+    // Doit être appelé régulièrement.
+    // Doit être appelé avant de lire les valeurs.
+    myEncoder.update();
 ```
 
-Changer la couleur du **premier** pixel en blanc ([la couleur est en valeur hexadécimale](https://htmlcolorcodes.com/color-picker/) où le symbole # est remplacé par 0x) :
+### Lecture de la rotation
+
+Obtenir la rotation accumulée de l'encodeur :
 ```cpp
-myEncoder.setLEDColor(1, 0xFFFFFF);
+    // Lecture de la rotation de l'encodeur
+    int valeurEncodeur = myEncoder.getEncoderRotation();
 ```
 
-Changer la couleur du **deuxième** pixel en noir ([la couleur est en valeur hexadécimale](https://htmlcolorcodes.com/color-picker/) où le symbole # est remplacé par 0x) :
+### Lecture du changement de rotation
+
+Obtenir le changement de rotation de l'encodeur :
 ```cpp
-myEncoder.setLEDColor(2, 0x000000);
+    // Lecture du changement depuis la dernière lecture
+    int changementEncodeur = myEncoder.getEncoderChange();
+```
+### Écriture des pixels
+
+Les deux pixels :
+```cpp
+// Changer la couleur des deux pixels
+// CHANGER ROUGE, VERT, BLEU pour des valeurs entre 0 et 255 (inclusivement)
+myEncoder.setLEDColorBoth( ROUGE, VERT, BLEU );
 ```
 
-Exemples de couleurs hexadécimales en C++ :
+Pixel de gauche :
 ```cpp
-uint32_t rouge = 0xFF0000;
-uint32_t orange = 0xFF8800;
-uint32_t vert = 0x00FF00;
-uint32_t cyan = 0x00FFFF;
-uint32_t mauve = 0xFF00FF;
+// Changer la couleur du pixel de gauche
+// CHANGER ROUGE, VERT, BLEU pour des valeurs entre 0 et 255 (inclusivement)
+myEncoder.setLEDColorLeft( ROUGE, VERT, BLEU );
 ```
 
+Pixel de droite :
+```cpp
+// Changer la couleur du pixel de droite
+// CHANGER ROUGE, VERT, BLEU pour des valeurs entre 0 et 255 (inclusivement)
+myEncoder.setLEDColorRight( ROUGE, VERT, BLEU );
+```
