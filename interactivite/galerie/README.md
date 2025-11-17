@@ -20,6 +20,8 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
 - **WEB** : expérience sur le Web.
 - **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
+- **IU** : recherche sur l'interface utilisateur
+- **INSTRUMENT** : recherche sur ce qu'est un instrument
 
 ## Expériences de type jeu de table
 
@@ -67,9 +69,10 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
     - [Sketch Aquarium - YouTube](https://www.youtube.com/watch?v=jIQXMN7I2b4)
     - [This aquarium allows kids to see the fish they drew inside it!! - GIF - Imgur](https://imgur.com/gallery/this-aquarium-allows-kids-to-see-fish-they-drew-inside-LYRvyGj) 
 
-## Dispositifs intéressants
+## Instruments et dispositifs intéressants
 
 - [UCLA Game Lab » UCLA Game Lab Arcade Backpack](https://games.ucla.edu/game/ucla-game-lab-arcade-backpack)
+- [10k Drum Machines](https://10kdrummachines.com/)
 
 ## Installations
 
