@@ -1,33 +1,31 @@
 # Colliders dans Unity
 
 ## Tableau des interactions entre les colliders
+
 ### Génération de messages de détection de collision
 
-Ce tableau indique si une détection de collision se produit et si des messages sont envoyés lors d'une collision entre différents types de colliders. Un "O" indique une combinaison qui peut générer des messages de détection de collision.
+Ce tableau indique si une détection de collision se produit et si des messages sont envoyés lors d'une collision entre différents types de colliders. 
 
-|                        | Collider statique | Collider dynamique | Collider *kinematic* | Collider *trigger* statique | Collider *trigger* dynamique | Collider *trigger* *kinematic* |
+|                        | Collider sans Rigidbody | Collider avec Rigidbody (dynamique) | Collider avec Rigidbody kinématique | Collider trigger sans Rigidbody | Collider trigger avec Rigidbody (dynamique) | Collider trigger avec Rigidbody kinématique |
 |------------------------|------------------|--------------------|----------------------|---------------------------|-----------------------------|------------------------------|
-| **Collider statique**  |                  | O                  |                      |                           |                             |                              |
-| **Collider dynamique** | O                | O                  | O                    |                           |                             |                              |
-| **Collider *kinematic*** |                | O                  |                      |                           |                             |                              |
-| **Collider *trigger* statique** |         |                    |                      |                           |                             |                              |
-| **Collider *trigger* dynamique** |       |                    |                      |                           |                             |                              |
-| **Collider *trigger* *kinematic*** |     |                    |                      |                           |                             |                              |
+| **Collider sans Rigidbody**  |                  | Collision                  |                      |                           |                             |                              |
+| **Collider avec Rigidbody (dynamique)** | Collision                | Collision                  | Collision                    |                           |                             |                              |
+| **Collider avec Rigidbody kinématique** |                | Collision                  |                      |                           |                             |                              |
+| **Collider trigger sans Rigidbody** |         |                    |                      |                           |                             |                              |
+| **Collider trigger avec Rigidbody (dynamique)** |       |                    |                      |                           |                             |                              |
+| **Collider trigger avec Rigidbody kinématique** |     |                    |                      |                           |                             |                              |
 
-*Remarque :* Les colliders dynamiques sont des objets avec un Rigidbody non *kinematic*, les colliders *kinematic* ont un Rigidbody avec la propriété `isKinematic` activée, et les colliders statiques n'ont pas de Rigidbody.
 
 ### Génération de messages de trigger
 
-Ce tableau indique si des messages de *trigger* sont envoyés lors d'une collision entre différents types de colliders. Un "O" indique une combinaison qui peut générer des messages de trigger.
+Ce tableau indique si des messages de *trigger* sont envoyés lors d'une collision entre différents types de colliders. 
 
-|                        | Collider statique | Collider dynamique | Collider *kinematic* | Collider *trigger* statique | Collider *trigger* dynamique | Collider *trigger* *kinematic* |
+|                        | Collider sans Rigidbody | Collider avec Rigidbody (dynamique) | Collider avec Rigidbody kinématique | Collider trigger sans Rigidbody | Collider trigger avec Rigidbody (dynamique) | Collider trigger avec Rigidbody kinématique |
 |------------------------|------------------|--------------------|----------------------|---------------------------|-----------------------------|------------------------------|
-| **Collider statique**  |                  |                    |                      |                           | O                           | O                            |
-| **Collider dynamique** |                  |                    |                      | O                         | O                           | O                            |
-| **Collider *kinematic*** |                |                    |                      | O                         | O                           | O                            |
-| **Collider *trigger* statique** |         | O                  | O                    |                           | O                           | O                            |
-| **Collider *trigger* dynamique** | O      | O                  | O                    | O                         | O                           | O                            |
-| **Collider *trigger* *kinematic*** | O    | O                  | O                    | O                         | O                           | O                            |
-
-*Remarque :* Les colliders dynamiques sont des objets avec un Rigidbody non *kinematic*, les colliders *kinematic* ont un Rigidbody avec la propriété `isKinematic` activée, et les colliders statiques n'ont pas de Rigidbody.
+|  **Collider sans Rigidbody** |                  |                    |                      |                           | Trigger                           | Trigger                            |
+| **Collider avec Rigidbody (dynamique)** |                  |                    |                      | Trigger                         | Trigger                           | Trigger                            |
+| **Collider avec Rigidbody kinématique** |                |                    |                      | Trigger                         | Trigger                           | Trigger                            |
+| **Collider trigger sans Rigidbody** |         | Trigger                  | Trigger                    |                           | Trigger                           | Trigger                            |
+| **Collider trigger avec Rigidbody (dynamique)** | Trigger      | Trigger                  | Trigger                    | Trigger                         | Trigger                           | Trigger                            |
+| **Collider trigger avec Rigidbody kinématique** | Trigger    | Trigger                  | Trigger                    | Trigger                         | Trigger                           | Trigger                            |
 
