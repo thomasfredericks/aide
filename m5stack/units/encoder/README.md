@@ -11,7 +11,7 @@ C'est un *Unit* de type I²C tel qu'identifié par son connecteur rouge.
 > [!NOTE]
 > Il doit être connecté au M5Stack Grove HUB ou directement au microcontrôleur!
 
-
+Un cran (Ticks / Pulses) est l'unité de mesure fondamentale d'un encodeur rotatif. C'est le plus petit mouvement angulaire que l'encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
 
 ## Bibliothèque M5_Encoder
 
@@ -67,6 +67,16 @@ Il est nécessaire de mettre à jour les valeurs de l'encodeur avant de les réc
 
 ### Lecture de la rotation
 
+La rotation représente la somme de tous les crans accumulés par l'encodeur depuis le démarrage du programme :
+ - Si l'encodeur est tourné dans le sens horaire, la valeur augmente.
+ - Si l'encodeur est tourné dans le sens anti-horaire, la valeur diminue.
+  
+
+
+Une note à propos des valeurs limites : 
+ - Si l'encodeur continue de tourner dans le sens horaire, rendue à 32 767, elle tombe à -32 768 à la prochaine rotation
+ - Si l'encodeur continue de tourner dans le sens anti-horaire, rendue à -32 768, elle va déborder et passer à sa valeur maximale 32 767 à la prochaine rotation.
+
 Obtenir la rotation accumulée de l'encodeur :
 ```cpp
     // Lecture de la rotation de l'encodeur
@@ -74,6 +84,13 @@ Obtenir la rotation accumulée de l'encodeur :
 ```
 
 ### Lecture du changement de rotation
+
+Le changement de rotation est un entier qui peut être :
+ - Positif : L'encodeur a tourné de N crans dans le sens horaire depuis le dernier appel à `myEncoder.update()`.
+ - Négatif : L'encodeur a tourné de N crans dans le sens anti-horaire depuis le dernier appel à `myEncoder.update()`.
+ -  Zéro : L'encodeur est resté immobile (ou est revenu exactement à sa position précédente).
+
+La méthode `getEncoderChange()` fournit la vitesse angulaire effective (exprimée en crans par intervalle de mise à jour) qui s'est produite depuis le dernier rafraîchissement.
 
 Obtenir le changement de rotation de l'encodeur :
 ```cpp
