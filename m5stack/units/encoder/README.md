@@ -77,9 +77,18 @@ Obtenir la rotation accumulée de l'encodeur :
 
 Obtenir le changement de rotation de l'encodeur :
 ```cpp
-    // Lecture du changement depuis la dernière lecture
+   // Lecture du changement depuis la dernière lecture
     int changementEncodeur = myEncoder.getEncoderChange();
 ```
+
+### Lecture du bouton
+
+Obtenir l'état du bouton :
+```cpp
+     // Lecture du bouton 
+    int etatBouton = myEncoder.getButtonState();
+```
+
 ### Écriture des pixels
 
 Les deux pixels :
