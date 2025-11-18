@@ -103,11 +103,15 @@ void TraiterOscAngle(OSCMessage message)
 }
 ```
 
+
 Dans la méthode `Start()`, associer chaque adresse OSC à la fonction correspondante grâce à `Bind()`.  
 Dans cet exemple, le message OSC `/angle` déclenche la fonction `TraiterOscAngle()` :
 ```csharp
 oscReceiver.Bind("/angle", TraiterOscAngle);
 ```
+
+> [!WARNING]
+> Créer un `oscReceiver.Bind()` et une fonction différente de traitement de messages OSC (comme `TraiterOscAngle()`) pour **CHAQUE** adresse OSC qui doit être traitée
 
 ### Dans l’éditeur Unity
 
