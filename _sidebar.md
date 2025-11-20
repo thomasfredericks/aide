@@ -37,6 +37,8 @@
           - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
 - [enshitification](/enshitification/)
+- *esp32*
+  - [mac](/esp32/mac/)
 - [figure_fond](/figure_fond/)
 - [gamestream](/gamestream/)
 - [git](/git/)
@@ -146,7 +148,7 @@
 - *production*
   - [etapes](/production/etapes/)
   - [maquettage](/production/maquettage/)
-    - *demo*
+    - [demo](/production/maquettage/demo/)
     - [scenarisation](/production/maquettage/scenarisation/)
     - [technique](/production/maquettage/technique/)
 - *reaper*
