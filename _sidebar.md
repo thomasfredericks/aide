@@ -116,9 +116,11 @@
     - [valeur_changee](/microosc/envoi/valeur_changee/)
   - [initialisation](/microosc/initialisation/)
   - [reception](/microosc/reception/)
+- [oak](/oak/)
 - *obs*
-  - [navigateur](/obs/navigateur/)
+  - [source_web](/obs/source_web/)
   - [spout](/obs/spout/)
+  - [telecommande](/obs/telecommande/)
 - [osc](/osc/)
 - *pd*
   - [introduction](/pd/introduction/)
@@ -151,6 +153,8 @@
     - [demo](/production/maquettage/demo/)
     - [scenarisation](/production/maquettage/scenarisation/)
     - [technique](/production/maquettage/technique/)
+- *projecteurs*
+  - [telecommande](/projecteurs/telecommande/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
