@@ -64,17 +64,19 @@ Pour changer la couleur du pixel:
 
 Mettre à la fin de `setup()` :
 ```cpp
-    atomPixel = CRGB(255,0,0); // ROUGE
-    FastLED.show();
-    delay(1000); // PAUSE 1 SECONDE
-    atomPixel = CRGB(255,255,0); // JAUNE
-    FastLED.show();
-    delay(1000); // PAUSE 1 SECONDE
-    atomPixel = CRGB(0,255,0); // VERT
-    FastLED.show();
-    delay(1000); // PAUSE 1 SECONDE
-    atomPixel = CRGB(0,0,0);
-    FastLED.show(); // PAUSE 1 SECONDE
+  // animation de démarrage de 3 secondes -------|
+  atomPixel = CRGB(255,0,0); // ROUGE
+  FastLED.show();
+  delay(1000); // PAUSE 1 SECONDE
+  atomPixel = CRGB(255,255,0); // JAUNE
+  FastLED.show();
+  delay(1000); // PAUSE 1 SECONDE
+  atomPixel = CRGB(0,255,0); // VERT
+  FastLED.show();
+  delay(1000); // PAUSE 1 SECONDE
+  atomPixel = CRGB(0,0,0);
+  FastLED.show(); 
+  // --------------------------------------------|
 ```
 
 ### Sans `delay()`
@@ -93,6 +95,5 @@ while ( millis() - chronoDepart <= 3000 ) {  // boucler entre 0 et 3000 millisec
   FastLED.show();
   delay(1); // OPTIONNEL! libérer le cpu pour qu'il fasse d'autres choses comme gérer le wifi
 }
-
 // --------------------------------------------|
 ```
