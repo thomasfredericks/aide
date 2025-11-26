@@ -118,6 +118,7 @@
   - [reception](/microosc/reception/)
 - [oak](/oak/)
 - *obs*
+  - [mapping](/obs/mapping/)
   - [source_web](/obs/source_web/)
   - [spout](/obs/spout/)
   - [telecommande](/obs/telecommande/)
@@ -169,6 +170,8 @@
     - [midi](/reaper/plugin/midi/)
     - [osc](/reaper/plugin/osc/)
   - [virtual_midi_keyboard](/reaper/virtual_midi_keyboard/)
+- *reseautique*
+  - [scan](/reseautique/scan/)
 - [rpi](/rpi/)
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)
