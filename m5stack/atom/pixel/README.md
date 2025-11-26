@@ -60,6 +60,8 @@ Pour changer la couleur du pixel:
 
 ## Exemple : animation de démarrage
 
+### Avec `delay()`
+
 Mettre à la fin de `setup()` :
 ```cpp
     atomPixel = CRGB(255,0,0); // ROUGE
@@ -73,4 +75,24 @@ Mettre à la fin de `setup()` :
     delay(1000); // PAUSE 1 SECONDE
     atomPixel = CRGB(0,0,0);
     FastLED.show(); // PAUSE 1 SECONDE
+```
+
+### Sans `delay()`
+```cpp
+// animation de démarrage de 3 secondes -------|
+unsigned long chronoDepart = millis(); // temps de depart
+while ( millis() - chronoDepart <= 3000 ) {  // boucler entre 0 et 3000 millisecondes 
+  unsigned long duree = millis() - chronoDepart; 
+  if ( duree < 1000 ) { // entre 0 et 999 millisecondes
+    atomPixel = CRGB(255,0,0); // rouge
+  } else if ( duree < 2000 ) { // entre 1000 et 1999 millisecondes
+    atomPixel = CRGB(255,255,0); // jaune
+  } else { // entre 1999 et 2999 millisecondes
+    atomPixel = CRGB(0,255,0); // vert
+  }
+  FastLED.show();
+  delay(1); // OPTIONNEL! libérer le cpu pour qu'il fasse d'autres choses comme gérer le wifi
+}
+
+// --------------------------------------------|
 ```
