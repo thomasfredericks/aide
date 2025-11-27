@@ -12,12 +12,12 @@ Broches :
 
 ## Connexion
 
-### Touche
+### Potentiomètre
 - La lecture du potentiomètre s'effectue sur la broche identifiée par le texte *ANALOG*,  *ADC* ou *IN* sur fond blanc, ce qui correspond au fil blanc du câble Grove. 
 - Si l'unité **M5Stack Fader Unit** est connectée directement au Atom Lite, c'est la broche 32 du Atom  qui permet d'effectuer la lecture numérique analogique du potentiomètre.
 
 ### Pixels
-- Le contrôle des pixels s'effectue avec la broche identifiée par le texte **SK6812/RGB SIGNALOUT** ou **OUT** sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
+- Le contrôle des pixels s'effectue avec la broche identifiée par le texte **SK6812/RGB SIGNAL** ou **OUT** sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
 - Si l'unité **M5Stack Fader Unit** est connectée directement au Atom Lite, c'est la broche 26 (identifiée G26) qui permet de contrôler les pixels.
 
 ## Bibliothèque
