@@ -22,7 +22,6 @@
   - [processus](/audiovisuel/processus/)
 - [brave](/brave/)
 - [bytebeat](/bytebeat/)
-- *coverage*
 - *davinci_resolve*
   - [effets](/davinci_resolve/effets/)
 - *education*
@@ -38,14 +37,16 @@
           - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
 - [enshitification](/enshitification/)
+- *esp32*
+  - [mac](/esp32/mac/)
 - [figure_fond](/figure_fond/)
 - [gamestream](/gamestream/)
 - [git](/git/)
   - [ajout_depot](/git/ajout_depot/)
   - [configuration_identite](/git/configuration_identite/)
-- [github](/github/)
-  - *projects*
-    - [priorites](/github/projects/priorites/)
+  - [github](/git/github/)
+    - *projects*
+      - [priorites](/git/github/projects/priorites/)
 - [ia](/ia/)
 - *interactivite*
   - [analyse](/interactivite/analyse/)
@@ -85,8 +86,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink](/m5stack/exemples/blink.md)
     - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
+    - [blink](/m5stack/exemples/blink.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -116,9 +117,12 @@
     - [valeur_changee](/microosc/envoi/valeur_changee/)
   - [initialisation](/microosc/initialisation/)
   - [reception](/microosc/reception/)
+- [oak](/oak/)
 - *obs*
-  - [navigateur](/obs/navigateur/)
+  - [mapping](/obs/mapping/)
+  - [source_web](/obs/source_web/)
   - [spout](/obs/spout/)
+  - [telecommande](/obs/telecommande/)
 - [osc](/osc/)
 - *pd*
   - [introduction](/pd/introduction/)
@@ -148,8 +152,11 @@
 - *production*
   - [etapes](/production/etapes/)
   - [maquettage](/production/maquettage/)
+    - [demo](/production/maquettage/demo/)
     - [scenarisation](/production/maquettage/scenarisation/)
     - [technique](/production/maquettage/technique/)
+- *projecteurs*
+  - [telecommande](/projecteurs/telecommande/)
 - *reaper*
   - *compression*
     - [limiteur](/reaper/compression/limiteur/)
@@ -164,6 +171,8 @@
     - [midi](/reaper/plugin/midi/)
     - [osc](/reaper/plugin/osc/)
   - [virtual_midi_keyboard](/reaper/virtual_midi_keyboard/)
+- *reseautique*
+  - [scan](/reseautique/scan/)
 - [rpi](/rpi/)
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)

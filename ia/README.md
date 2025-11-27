@@ -118,6 +118,7 @@ Il existe aussi un autre type d’IA, **l’IA spécifique bien délimitée**, q
   - [Therapy Chatbot Tells Recovering Addict to Have a Little Meth as a Treat](https://futurism.com/therapy-chatbot-addict-meth)
 - Les manipulations abondent :  
   - L’IA **Grok**, développée par xAI (Elon Musk), a été accusée de **diffuser de fausses informations**, comme la théorie du « génocide blanc » en Afrique du Sud.
+  - L’IA **Grok**, développée par xAI (Elon Musk), affirme qu'Elon Musk est plus athlétique que LeBron James et plus intelligent que Leonardo da Vinci : [Elon Musk’s Grok AI tells users he is fitter than LeBron James and smarter than Leonardo da Vinci | Elon Musk | The Guardian](https://www.theguardian.com/technology/2025/nov/21/elon-musk-grok-ai-bias-ranks-richest-man-fittest-smartest)
 - **Atteinte du plafond du développement des GenAI**
   Le développement de l’IA générative a progressé à un rythme effréné, mais il pourrait exister une limite mathématique infranchissable — un plafond — qui marquerait la fin de son évolution fulgurante.
   Beaucoup misent sur l’idée de rendre l’IA générative toujours plus intelligente — mais que se passe-t-il si les données nécessaires à son développement n’existent tout simplement plus ? [AI Has a Fatal Flaw—And Nobody Can Fix It - YouTube](https://www.youtube.com/watch?v=_IOh0S_L3C4)
@@ -158,6 +159,22 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 
 ![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
 
+### Autres commentaires
+
+#### Internet of Bugs : SciShow Is Lying to You about AI. Here are the receipts.
+
+[SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc)
+Vidéo assez intéressante qui aborde ces mythes à propos du GenAI :
+- Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que le GenAI
+- Que le développement du GenAI a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
+- Que le GenAI est plus dangereux que la bombe atomique
+
+En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels du GenAI :
+- Désinformation
+- Manipulation
+- Chômage 
+- Violations des droits humains
+- Aggravation de la crise climatique.
 
 ## Le monde devient plus idiot
 
