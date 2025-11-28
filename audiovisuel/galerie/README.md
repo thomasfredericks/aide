@@ -28,6 +28,7 @@
 
 ## Live A/V
 
+- [3D visuals arrive in Ableton Live, easy as synths, with Unreal-powered SenSei - CDM Create Digital Music](https://cdm.link/3d-visuals-ableton-live-unreal-powered-sensei/)
 - [(PDF) Principles of Visual Design for Computer Music](https://www.researchgate.net/publication/265162871_Principles_of_Visual_Design_for_Computer_Music)
 - [Live PHYSICAL Performance - YouTube](https://www.youtube.com/watch?v=MSN-TQGQSec)
 - [artificiel: POWEr](https://artificiel.org/projet/POWEr)
