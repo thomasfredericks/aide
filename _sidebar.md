@@ -137,13 +137,13 @@
     - [introduction](/pd/plugdata/introduction/)
   - [serial](/pd/serial/)
   - *traitement*
-    - *delai*
-      - [retarder](/pd/traitement/delai/retarder/)
-    - *duree*
-      - [activite](/pd/traitement/duree/activite/)
-    - *filtre*
-      - [glissement](/pd/traitement/filtre/glissement/)
-    - [flux_evenement_flip_flop](/pd/traitement/flux_evenement_flip_flop/)
+    - [basculement](/pd/traitement/basculement/)
+    - [duree](/pd/traitement/duree/)
+    - [glissement](/pd/traitement/glissement/)
+    - [incrementation](/pd/traitement/incrementation/)
+    - [plage](/pd/traitement/plage/)
+    - [proportion](/pd/traitement/proportion/)
+    - [retarder](/pd/traitement/retarder/)
   - [websocket](/pd/websocket/)
 - [pecha_kucha](/pecha_kucha/)
 - *platformio*
