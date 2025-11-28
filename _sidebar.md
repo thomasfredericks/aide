@@ -102,6 +102,7 @@
       - [photoresistance](/m5stack/units/396/photoresistance/)
     - [angle](/m5stack/units/angle/)
     - [encoder](/m5stack/units/encoder/)
+    - [fader](/m5stack/units/fader/)
     - [grove_hub](/m5stack/units/grove_hub/)
     - [key](/m5stack/units/key/)
     - [light](/m5stack/units/light/)
