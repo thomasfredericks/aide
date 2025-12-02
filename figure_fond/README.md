@@ -1,4 +1,4 @@
-# Distinction figure / fond 
+# Figure / fond 
 
 ## Gestalt 
 
