@@ -86,8 +86,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink](/m5stack/exemples/blink.md)
     - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
+    - [blink](/m5stack/exemples/blink.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
@@ -128,6 +128,7 @@
   - [introduction](/pd/introduction/)
   - *osc*
     - [midi](/pd/osc/midi/)
+    - [oscformat](/pd/osc/oscformat/)
     - [relais](/pd/osc/relais/)
     - [slip](/pd/osc/slip/)
     - [udp](/pd/osc/udp/)
@@ -168,6 +169,9 @@
   - *osc*
     - [activation](/reaper/osc/activation/)
     - [default_pattern](/reaper/osc/default_pattern/)
+      - [general](/reaper/osc/default_pattern/general/)
+      - [piste](/reaper/osc/default_pattern/piste/)
+      - [VMK](/reaper/osc/default_pattern/VMK/)
     - *exemples*
       - [plugdata](/reaper/osc/exemples/plugdata/)
       - [reaper_osc_play-stop-vu](/reaper/osc/exemples/reaper_osc_play-stop-vu/)

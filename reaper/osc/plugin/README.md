@@ -18,7 +18,6 @@ graph LR
 ```
 
 
-
 #### Message OSC pour envoyer un MIDI Note au Virtual MIDI Keyboard
 
 ```mermaid

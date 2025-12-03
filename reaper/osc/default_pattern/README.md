@@ -4,7 +4,7 @@
 
 Pour ouvrir le dossier contenant le fichier de configuration OSC _default pattern_, sélectionner « open config directory » sous « pattern config » dans la boîte de dialogue des paramètres de la surface de contrôle OSC.
 
-### Messages reçus par Reaper 
+### Quelques messages reçus par Reaper
 
 #### Démarrer la lecture
 
@@ -25,7 +25,25 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 ```
 * `n` : _float_ entre 0.0 et 1.0
 
-### Messages OSC envoyés par Reaper
+#### Volume d'une piste
+
+
+```
+/track/@/volume n
+```
+* `@` : numéro de la piste (commence à 1)
+* `n` : _float_ entre 0.0 et 1.0
+
+#### Spatialisation (pan) d'une piste
+
+```
+/track/@/pan n
+```
+* `@` : numéro de la piste (commence à 1)
+* `n` : _float_ entre 0.0 et 1.0
+
+
+### Quelques messages OSC envoyés par Reaper
 
 #### Valeur actuelle du VU du Master
 
@@ -33,6 +51,8 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 /master/vu n
 ```
 * `n` : _float_ entre 0.0 et 1.0
+
+
 
 
 ## Contenu du fichier _default pattern_
