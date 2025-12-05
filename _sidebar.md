@@ -24,6 +24,8 @@
 - [bytebeat](/bytebeat/)
 - *davinci_resolve*
   - [effets](/davinci_resolve/effets/)
+- *dev*
+  - [dataflow](/dev/dataflow/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -150,6 +152,7 @@
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
+  - [pioarduino-espressif32](/platformio/pioarduino-espressif32/)
 - *production*
   - [etapes](/production/etapes/)
   - [maquettage](/production/maquettage/)
