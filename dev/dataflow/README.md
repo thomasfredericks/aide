@@ -59,7 +59,7 @@ Pour gérer cela, on distingue deux types d'état :
 
 **Exemple :**  
 - On crée un réseau simple : `oscillator -> out`. L'oscillateur démarre à une fréquence de 440 Hz et envoie le signal vers la sortie audio.  
-- Pendant l'exécution, on change la fréquence de l'oscillateur à 600 Hz via l'inspecteur.  
+- Durant l'exécution, on change la fréquence de l'oscillateur à 600 Hz via l'inspecteur.  
 - Si l'on modifie ensuite le réseau en ajoutant un filtre, par exemple `oscillator -> filtre -> out`, **l'oscillateur conserve sa fréquence actuelle de 600 Hz**. Il ne revient pas à sa valeur initiale de 440 Hz.
 
 
@@ -89,7 +89,7 @@ ON env DONE  {
 
 Dans le fichier principal :
 ```cpp
-synth = LOAD "synth.file"
+synth = VOICE "synth.file"
 note = MidiInNote
 out = AudioOut
 
