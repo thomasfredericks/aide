@@ -102,3 +102,6 @@ ON note NEW {
 synth -> out
 ```
 
+## Strudel
+
+[Strudel](https://strudel.cc/) fait des choses très intéressantes en chevauchant le dataflow et le texte. En particulier grâce à l’intégration directe des éléments d’interface utilisateur dans le corps du texte ([Visual Feedback 🌀 Strudel](https://strudel.cc/learn/visual-feedback/)) ainsi qu’à l’intégration avec [Hydra 🌀 Strudel](https://strudel.cc/learn/hydra/).
