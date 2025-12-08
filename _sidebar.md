@@ -71,6 +71,8 @@
   - [v1](/kinect/v1/)
 - *lidar*
   - [slamtec](/lidar/slamtec/)
+- [live-coding](/live-coding/)
+- [lumieres](/lumieres/)
 - *m5stack*
   - *atom*
     - [bouton](/m5stack/atom/bouton/)
