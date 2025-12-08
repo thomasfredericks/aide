@@ -14,3 +14,4 @@ https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.js
 https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js
 https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-ignore.min.js
 https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-bash.min.js
+https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-ini.min.js
