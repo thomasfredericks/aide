@@ -76,13 +76,13 @@ out = AudioOut
 
 osc -> env -> out
 
-ON in  {
-    in.velocity -> env.trigger
-    in.note -> osc.frequency
+ON in NEW  {
+    velocity OF in  -> trigger OF env
+    note OF in -> frequency OF env
 }
 
-ON env.done  {
-    FREE
+ON env DONE  {
+    SEND DONE
 }
 
 ```
@@ -95,8 +95,8 @@ out = AudioOut
 
 SCENE start :
 
-ON note {
-    note -> synth.in
+ON note NEW {
+    note -> in OF synth
 }
 
 synth -> out
