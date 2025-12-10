@@ -75,7 +75,7 @@
 - [live-coding](/live-coding/)
 - [lumieres](/lumieres/)
 - *m5stack*
-  - *atom*
+  - [atom](/m5stack/atom/)
     - [bouton](/m5stack/atom/bouton/)
       - [m5lib](/m5stack/atom/bouton/m5lib/)
     - [broches](/m5stack/atom/broches/)
@@ -87,6 +87,7 @@
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
     - [poe](/m5stack/atom/poe/)
+  - [atomS3](/m5stack/atomS3/)
   - *exemples*
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
