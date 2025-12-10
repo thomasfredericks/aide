@@ -41,6 +41,7 @@
 - [enshitification](/enshitification/)
 - *esp32*
   - [mac](/esp32/mac/)
+  - [modeles](/esp32/modeles/)
 - [figure_fond](/figure_fond/)
 - [gamestream](/gamestream/)
 - [git](/git/)
