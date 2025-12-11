@@ -1,0 +1,77 @@
+# AI : Création de code ou d'images
+
+## Documentation
+
+- 1970, *JRTFM* «Just Read the Fucking Manual » : Cette expression remonte aux années 1970-1980 dans la culture hacker et d’ingénierie. Elle était déjà bien établie bien avant l’internet public, utilisée sur les premiers réseaux informatiques, sur Usenet et dans les communautés techniques.
+- 2000, *LMGTFY* : « Let Me Google That For You » :L Le site a LMGTFY.com été créé en 2008, comme une réponse sarcastique aux questions dont la réponse est facilement trouvable sur Google.
+
+Mouvement d'érire la documentation du code dans le code source et popularisation des outils.
+
+Culturellement, perte de l'art de l'écriture du manuel.
+
+La documentation de code générée par la GenAI se révèle souvent trop bavarde et insuffisamment structurée, ce qui nuit à la transmission des informations clés. Tout est à plat.
+
+- *JWTFM* «Just Write the Fucking Manual »
+
+
+
+## Perfomances d'un GenAI 
+
+Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit.  On y projette  des intentions ou des capacités qu’il n’a pas.
+
+### Complétences humaines vs machines
+
+| **Compétences**                                           | **Humains** | **Machines** |
+|-----------------------------------------------------------|-------------|-----------------|
+| Opérations mathématiques                                  |             | ✅              |
+| Mémoire et rappel                                         |             | ✅              |
+| Raisonnement général (tests de QI)                        |             | ✅              |
+| Prise de décision (scénarios de type jeu)                 |             | ✅              |
+| Programmation de base                                     |             | ✅              |
+| Bon sens                                                  | ✅          |                 |
+| Créativité                                                | ✅          |                 |
+| Prise de décision (dans le monde réel)                    | ✅          |                 |
+| Mathématiques (résolution de problèmes complexes/créatifs)| ✅          |                 |
+
+
+### Capacité d'un GenAI pour jouer à un jeu
+
+| Type de jeu                               | Performance d’un LLM | Remarques                                                               |
+| ----------------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
+| **Échecs, Go, Shōgi**                     | ❌ Faible                  | Suit mal l’état du jeu, oublie les règles ou fait des coups illégaux    |
+| **Morpion (Tic-Tac-Toe)**                 | ✅ Bonne                   | Jeu simple, facile à suivre en texte                                    |
+| **Énigmes logiques**                      | 🤷 Moyenne                | Raisonnement souvent instable ou incohérent                             |
+| **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Peut simuler des dialogues ou des choix, mais sans planification réelle |
+| **Jeux avec grille (Connect Four, etc.)** | 😬 Limite                 | Possible sur quelques tours, mais perd le fil rapidement                |
+
+### Limites d'un GenAI à extrapoler
+
+![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
+
+Just write a fucking manual
+Récompenser à Écrire beaucoup 
+Le code n'est plus une connaissance transmissible
+LiDAR 
+Code moins réutilisable 
+Retrouve même truc avec struct Settings dans https://codeberg.org/gllm/atompoe-led/src/branch/main/src/main.cpp
+Faux sentiment de contrôle (exemple de Françoise et des serpents)
+Just write a fucking manual
+Récompenser à Écrire beaucoup 
+Le code n'est plus une connaissance transmissible
+LiDAR 
+Code moins réutilisable 
+Retrouve même truc avec struct Settings dans https://codeberg.org/gllm/atompoe-led/src/branch/main/src/main.cpp
+Faux sentiment de contrôle (exemple de Françoise et des serpents)... c'est plus Françoise qui décide
+GenAI bornéee
+Je vais le mentionner dans mon texte. mais les GenAI ont tendance á vouloir remplir leur tâche d'une certaine manière. Si tu essaies de les forcer a faire autrement, ils vont continuer à faire pareil, mais vont offusquer (ou cacher) le code problématique.
+“Read/Just Read the Fucking Manual” (RTFM/JRTFM)
+This expression goes back to the 1970s–1980s in hacker and engineering culture. It was already well-established long before the public internet, used on early computer networks, Usenet, and in tech communities.
+J'essaie plus de comprendre ce que le GenIA essaie de faire que d'évaluer le codecode
+Capacité de reprendre le contôle
+
+“Let Me Google That For You” (LMGTFY.com)
+The website was created much later, in 2008, as a tongue-in-cheek response to easily-googlable questions.
+La documentation de code générée par GenAI se révèle fréquemment trop bavarde et insuffisamment structurée, ce qui nuit à la transmission des informations clés. Tout est à plat.
+
+J'essaie davantage de comprendre ce que la GenIA tente de faire que d’évaluer le code lui-même.
+Capacité de reprendre le contrôle.
