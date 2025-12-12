@@ -11,7 +11,7 @@
   * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
 * OP **rename2**
   * Paramètre **From** = `*`
-  * Paramètre **To** = adresse OSC du message sans '/'
+  * Paramètre **To** = adresse OSC du message sans `/`
 * OP **oscout1**
   * Paramètre **Network Address** = adresse IP du destinataire (`127.0.0.1 `ou `localhost` pour la machine elle-même)
   * Paramètre **Network Port** = port IP du destinataire 
@@ -29,7 +29,7 @@
   * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
 * OP **rename2**
   * Paramètre **From** = `*`
-  * Paramètre **To** = adresse OSC du message sans '/'
+  * Paramètre **To** = adresse OSC du message sans `/`
 * OP **oscout1**
   * Paramètre **Network Address** = adresse IP du destinataire (`127.0.0.1 `ou `localhost` pour la machine elle-même)
   * Paramètre **Network Port** = port IP du destinataire 
