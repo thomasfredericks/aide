@@ -8,7 +8,6 @@ Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_poe)
 À ajouter à l'entrée `lib_deps` du fichier de configuration `platformio` :
 ```ini
 https://github.com/arduino-libraries/Ethernet
-https://github.com/TrippyLighting/EthernetBonjour
 ```
 
 ## Initialisation de l'Ethernet
@@ -18,7 +17,7 @@ Broches de l'Atom :
 | Ethernet | CLK	| CS	| MISO | MOSI |
 | --- |  --- |  --- |  --- |  --- | 
 | Atom |	22 |	19 |	23 |	33 |
-| AtomS3 |	5 |	6 |	7 |	8 |
+| AtomS3 (untested) |	5 |	6 |	7 |	8 |
 
 
 ### Code à ajouter à l'espace *global*
