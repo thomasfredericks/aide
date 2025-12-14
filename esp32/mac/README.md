@@ -1,13 +1,13 @@
 # ESP32 MAC
 
 ```cpp
-  	// GET FACTORY DEFINED ESP32 MAC --------------------------------------
-    uint8_t myMac[6];
-  	esp_efuse_mac_get_default(myMac);
-    // --------------------------------------------------------------------
-    // CREATE SSD FROM MAC ------------------------------------------------
-  	char mySSD[MAX_SSID_SIZE] = "lesquare-XXXXXX";
-  	sprintf(mySSD+9, "%06x", myMac[3]<<16 | myMac[4]<<8 | myMac[5] );
-  	strcpy((char*)wifi_settings.ap_ssid, mySSD);
-    // --------------------------------------------------------------------
+  // CREATE NAME FROM MAC ---------------------------------------| 
+  const size_t myNameMaxLength = 32;
+  char myName[myNameMaxLength] = "atom-"; // name prefix
+  // append last 3 bytes of MAC address in hex
+  snprintf(myName + strlen(myName),
+           myNameMaxLength - strlen(myName),
+           "%06x",
+           ((uint32_t)myMac[3] << 16) | ((uint32_t)myMac[4] << 8) | (uint32_t)myMac[5]);
+ // -------------------------------------------------------------|
 ```
