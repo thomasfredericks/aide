@@ -1,6 +1,7 @@
 # Git — Ajout d'un projet à un dépôt
 
-Voici les étapes pour ajouter un projet local à un dépôt comme [Codeberg.org](https://codeberg.org/) ou [GitHub.com](https://github.com/).
+Voici les étapes pour ajouter un projet local à un dépôt Git hébergé sur un serveur distant.
+
 
 ## Créer votre projet localement
 
@@ -11,24 +12,19 @@ Dans **Visual Studio Code** ou un autre éditeur, créer un projet.
 
 Ouvrir un terminal dans le dossier du projet, et y exécuter les commandes qui suivent.
 
-![Cliquer sur le petit icône de terminal de PlatformIO pour ouvrir son terminal](./vscode_terminal.svg)
+![Cliquer sur la petite icône du terminal de PlatformIO pour ouvrir son terminal](./vscode_terminal.svg)
 
-Initialiser un nouveau dépôt Git local dans le dossier courant. Cela crée un dossier caché `.git` qui contient l’historique de version :
+Pour créer le dépôt Git local :
+- Initialiser un nouveau dépôt Git local dans le dossier courant. Cela crée un dossier caché `.git` qui contient l’historique de version.
+- Créer et basculer sur une nouvelle branche nommée `main`.
+- Ajouter tous les fichiers du projet à l’index Git (ce qui prépare les fichiers pour le commit).
+
+Pour ce faire, exécuter les trois commandes suivantes :
 ```bash
 git init
-```
-
-Créer et basculer sur une nouvelle branche nommée `main` :
-```bash
 git checkout -b main
-```
-
-Ajouter tous les fichiers du projet à l’index Git (préparer les fichiers pour le commit) :
-```bash
 git add .
 ```
-
-
 
 ## Créer un dépôt distant
 
@@ -37,40 +33,36 @@ Créer un nouveau dépôt sur une plateforme comme :
 * [Codeberg.org](https://codeberg.org/)
 * [GitHub.com](https://github.com/)
 * [GitLab.com](https://gitlab.com/)
+* ou autre.
 
-Copier dans le presse-papier l’URL HTTPS du dépôt une fois créé (par exemple `https://github.com/mon-nom/projet.git`). 
+Copier dans le presse-papier l’URL HTTPS du dépôt une fois créé. 
+Cette URL devrait ressembler à celle-ci :
+```bash
+ https://github.com/mon-nom/projet.git
+```
 
 Dans le terminal, connecter le dépôt local au dépôt distant `origin` en remplaçant `https://github.com/mon-nom/projet.git` par l'adresse URL HTTPS du dépôt distant copiée juste plus haut :
 ```bash
 git remote add origin https://github.com/mon-nom/projet.git
 ```
+> [!WARNING]
+> Seulement si par accident la mauvaise adresse URL HTTPS a été ajoutée, la mauvaise adresse peut être enlevée avec la commande suivante `git remote remove origin`
 
-**SEULEMENT SI** par accident la mauvaise adresse URL HTTPS a été ajoutée, la mauvaise adresse peut être enlevée avec la commande suivante (ne pas oublier de remettre la bonne adresse avec la commande `git remote add origin ...` précédente) :
-```bash
-git remote remove origin
-```
+Il faut ensuite :
+- Récupérer les informations du dépôt distant.
+- Créer une révision (*commit*) avec les fichiers du projet et y associer un message décrivant la révision.
+- Envoyer la branche `main` (et ses commits) vers le dépôt distant.
+L’option `-u` indique à Git de suivre cette branche par défaut — il sera ensuite possible d’utiliser simplement `git push` sans arguments.
 
-
-Récupérer les informations du dépôt distant :
+Pour ce faire, exécuter les trois commandes suivantes :
 ```bash
 git fetch origin
-```
-
-Créer une révision (*commit*) avec les fichiers du projet et y associer un message décrivant la révision :
-```bash
 git commit -m "Initialisation"
-```
-
-Envoyer la branche `main` (et ses commits) vers le dépôt distant.
-L’option `-u` indique à Git de suivre cette branche par défaut — il sera ensuite possible d’utiliser simplement `git push` sans arguments :
-```bash
 git push -u origin main
 ```
 
-**SEULEMENT SI** la commande précédente ne fonctionne pas (parce que le dépôt distant contient un README.md par exemple) exécuter cette commande et ensuite refaire le `push` précédent :
-```bash
-git merge origin/main --allow-unrelated-histories -m "Fusion"
-```
+> [!WARNING]
+> Seulement si la commande `git push` précédente n'a pas fonctionné (parce que le dépôt distant contient un README.md par exemple), exécuter la commande `git merge origin/main --allow-unrelated-histories -m "Fusion"` et ensuite refaire le `git push` précédent.
 
 Une fois ces étapes complétées, le projet est versionné localement *et* synchronisé avec le dépôt distant.
 
