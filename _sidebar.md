@@ -10,7 +10,6 @@
       - [ralentir](/arduino/millis/remplacer_delay/ralentir/)
   - [random](/arduino/random/)
   - [serial](/arduino/serial/)
-  - [udp](/arduino/udp/)
 - *audio*
   - [galerie](/audio/galerie/)
   - *haut-parleurs*
@@ -126,8 +125,9 @@
     - [udp](/max/osc/udp/)
 - [microosc](/microosc/)
   - [envoi](/microosc/envoi/)
-    - [valeur_changee](/microosc/envoi/valeur_changee/)
   - [initialisation](/microosc/initialisation/)
+    - [SLIP](/microosc/initialisation/SLIP/)
+    - [UDP](/microosc/initialisation/UDP/)
   - [reception](/microosc/reception/)
 - [oak](/oak/)
 - *obs*

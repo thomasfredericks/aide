@@ -39,32 +39,20 @@ Un `delay()` est souvent utilisé pour ralentir l'exécution de la boucle `loop(
 
 À noter que l'on veut récupérer les messages OSC le plus rapidement possible. Il fait ainsi éviter d'utiliser un `delay()` dans `loop()`. 
 
-Par exemple, dans cet extrait de code, un `delay()` est utilisé pour ralentir la vitesse de la boucle **ce qui va aussi ralentir la réception des messages OSC** :
+S'il est nécessaire de ralentir des bouts, de code, remplacer `delay()` par un **chronomètre** de la bibliothèque [SofaPirate/Chrono](https://github.com/SofaPirate/Chrono).
+
 ```cpp
+// Dans l'espace global
+#include <Chrono.h> // Ajouter la bibliothèque Chrono si ce n’est pas déjà fait
+Chrono monChrono; // Chronomètre 
+
 void loop() {
+    // La fonction onOscMessageReceived() va s'exécuter très rapidement
     myOsc.onOscMessageReceived(myOscMessageParser);
 
-    // ... ici, tout le code est ralenti, onOscMessageReceived() inclu
-
-    delay(20);
-}
-```
-
-Dans cette version optimisée, le `delay()` a été remplacé par un [algorithme d'intervalle ](/arduino/millis/intervalle/) :
-```cpp
-unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autres variables globales
-
-void loop() {
-    
-    // ... METTRE ici le code non-ralenti
-    myOsc.onOscMessageReceived(myOscMessageParser); // onOscMessageReceived() n'est pas ralenti
-
-    if ( millis() - monChronoDepart >= 20 ) { 
-      monChronoDepart = millis(); 
-      
-      // // ... METTRE ici le code à ralentir
-      // comme l'envoi des messages OSC
-
+    if ( monChrono.hasPassed(20) ) {
+        monChron.restart();
+        // Le code ici ne va s'exécuter plus lentement à chaque 20 millisecondes
     }
 }
 ```

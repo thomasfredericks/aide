@@ -7,6 +7,8 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 - **Les promoteurs de l’IA en éducation sont les mêmes qui ont introduit les téléphones intelligents et les réseaux sociaux.**  
   Or, nous avons vu **les impacts négatifs de ces technologies sur les jeunes** — isolement, détresse mentale, distraction permanente. Et maintenant, on nous dit : *« Cette fois-ci, ce sera différent ? »*
 
+- **Meta a enterré des preuves internes montrant que Facebook et Instagram nuisaient à la santé mentale des utilisateurs** : Une étude interne menée en 2020, nommée Project Mercury, a montré que les personnes qui se désactivaient des plateformes ressentaient moins de dépression, d’anxiété, de solitude et de comparaison sociale — ce qui suggère un lien causal entre l’usage des réseaux sociaux et des effets négatifs sur le bien-être mental. Plutôt que de publier ces résultats ou de poursuivre les recherches, Meta aurait arrêté le projet. Source : [Meta buried 'causal' evidence of social media harm, US court filings allege | Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/)
+
 - **L’IA est un outil puissant, mais pas une transformation systémique en soi.**  
   L’exagération actuelle autour de l’IA rappelle les discours précédents sur le **bitcoin**, la **blockchain**, ou la **réalité virtuelle**. Il faut rester critique : **toute technologie n’est pas une panacée**.
 
