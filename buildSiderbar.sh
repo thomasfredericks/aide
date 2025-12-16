@@ -3,7 +3,7 @@
 output_file="_sidebar.md"
 output_content=() # Array to store output lines
 # List of top-level folders to ignore
-IGNORED_FOLDERS=("node_modules" "libs" "assets" ".git")
+IGNORED_FOLDERS=("node_modules" "_libs" "assets" ".git")
 
 # Recursive function to process directories
 process_directory() {
