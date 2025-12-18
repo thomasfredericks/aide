@@ -63,7 +63,7 @@
             plugins: [
                 function (hook, vm) {
                     hook.doneEach(() => {
-                        import('./libs/docsify-lightbox.js').then(module => {
+                        import('./_libs/docsify-lightbox.js').then(module => {
                             const images = document.querySelectorAll('img');
                             const lightbox = new module.default();
                             lightbox.initialize(images);
@@ -100,28 +100,28 @@
     </script>
 
     <!-- Required -->
-    <script src="./libs/docsify.min.js"></script>
+    <script src="./_libs/docsify.min.js"></script>
 
 
 
 
     <!-- Import Mermaid -->
-    <script src="./libs/mermaid.min.js"></script>
-    <script src="./libs/docsify-sidebar-collapse.min.js"></script>
-    <script src="./libs/docsify-mermaid.js"></script>
-    <script src="./libs/docsify-copy-code.min.js"></script>
-    <script src="./libs/docsify-alerts.js"></script>
-    <script src="./libs/docsify-unhashtaglink.js"></script>
-    <script src="./libs/docsify-img-caption.js"></script>
+    <script src="./_libs/mermaid.min.js"></script>
+    <script src="./_libs/docsify-sidebar-collapse.min.js"></script>
+    <script src="./_libs/docsify-mermaid.js"></script>
+    <script src="./_libs/docsify-copy-code.min.js"></script>
+    <script src="./_libs/docsify-alerts.js"></script>
+    <script src="./_libs/docsify-unhashtaglink.js"></script>
+    <script src="./_libs/docsify-img-caption.js"></script>
 
     <!-- Import Prism Languages https://cdn.jsdelivr.net/npm/prismjs@1/components/ -->
-    <script src="./libs/prism-c.js"></script>
-    <script src="./libs/prism-cpp.js"></script>
-    <script src="./libs/prism-csharp.min.js"></script>
-    <script src="./libs/prism-python.js"></script>
-    <script src="./libs/prism-ignore.min.js"></script>
-    <script src="./libs/prism-bash.min.js"></script>
-    <script src="./libs/prism-ini.min.js"></script>
+    <script src="./_libs/prism-c.js"></script>
+    <script src="./_libs/prism-cpp.js"></script>
+    <script src="./_libs/prism-csharp.min.js"></script>
+    <script src="./_libs/prism-python.js"></script>
+    <script src="./_libs/prism-ignore.min.js"></script>
+    <script src="./_libs/prism-bash.min.js"></script>
+    <script src="./_libs/prism-ini.min.js"></script>
 
 </body>
 
