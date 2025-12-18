@@ -125,23 +125,30 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 
 
 
-## Art numérique montréalais
+## Artistes montréalais du numérique
 
 - [Alice Jarry](https://alicejarry.com/)
-- [Aurélie Pédron – Lilith & Cie](http://lilithetcie.com/)
+- [Allison Moore](https://www.allisonmoore.net/home) **PROJECTION_ARCHITECTURALE**
 - [Cinzia Campolese](https://www.cinziac.net)
-- [Daily tous les jours – Projets](https://www.dailytouslesjours.com/fr/projets)
-- [Erin Gee – Human Voices in Electronic Bodies](https://eringee.net/)
-- [Gentilhomme – Les productions](http://gentilhomme.ca/fr)
-- [Jonathan Villeneuve – Projets](http://jonathan-villeneuve.com/)
+- [Daily tous les jours](https://www.dailytouslesjours.com/fr/projets)
+- [Erin Gee](https://eringee.net/)
+- [Gentilhomme](http://gentilhomme.ca/fr)
+- [Jonathan Villeneuve ](http://jonathan-villeneuve.com/)
 - [La boite interactive – Stratégies multimédia créatives](http://laboiteinteractive.com/)
 - [La Camaraderie – Design d’expériences participatives et narratives](https://www.lacamaraderie.com)
+- [Lukas Truniger – synthetic natures & lifelike infrastructures](https://lukastruniger.net/?utm_source=ig&utm_medium=social&utm_content=link_in_bio)
 - [Marie Brassard and Infrarouge company performances](https://infrarouge.org/?locale=fr)
 - [Nicolas Bernier – Laboratoire son / matière](https://www.son-matiere.org)
 - [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
 - [Projet EVA – Art numérique](http://projet-eva.org/)
 - [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
-- [Home — Allison Moore](https://www.allisonmoore.net/home) **PROJECTION_ARCHITECTURALE**
+
+
+## Artistes du numérique
+
+- [Ksawery Komputery](https://ksawerykomputery.com/works/)
+    - [We Are One ← Ksawery Komputery](https://ksawerykomputery.com/works/we-are-one#:~:text=Generative%20Sound%20System&text=Socials)
+- [Home | Rendah Mag](https://rendahmag.com/)
 
 ## Voir et écouter le monde
 
