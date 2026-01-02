@@ -157,3 +157,14 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/51.50,-0.12/6)
 - [Wide-band WebSDR in Enschede, the Netherlands](http://websdr.ewi.utwente.nl:8901/)
 - [Eyes on the Solar System - Home - NASA/JPL](https://eyes.nasa.gov/apps/solar-system/#/home)
+
+## Outils de génération pour jeux de rôle
+
+- [Free D&D Map Maker | Dungeon Scrawl](https://www.dungeonscrawl.com/)
+- [AnyDice](https://anydice.com/)
+- [The Homebrewery - NaturalCrit](https://homebrewery.naturalcrit.com/)
+- [Fantasy name generators. Names for all your fantasy characters.](https://www.fantasynamegenerators.com/)
+- [Inkarnate - Create Fantasy Maps Online](https://inkarnate.com/)
+- [Hero Forge Custom Miniatures](https://www.heroforge.com/)
+- [Kobold Plus Fight Club - The first rule of Kobold Fight Club is 'Yip Yip!'](https://koboldplus.club/)
+- [Reroll](https://app.reroll.co/select-character)
