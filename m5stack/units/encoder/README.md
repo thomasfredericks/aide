@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
+
 ![Photo de l'avant et l'arrière du M5Stack Unit Encoder](./unit_encoder.png)
 
 Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capteur de rotation infinie équipé de 2 pixels RGB.

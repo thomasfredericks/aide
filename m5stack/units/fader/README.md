@@ -1,6 +1,8 @@
 # M5Stack Fader Unit
 
-## Description
+## Introduction
+
+Page officielle du produit : [Unit Fader](https://docs.m5stack.com/en/unit/fader).
 
 L'unité **M5Stack Fader Unit** est équipé d'un potentiomètre linéaire (_slider_ ou _fader_ en anglais) et de 14 pixels.
 

@@ -1,5 +1,7 @@
 # AtomS3
 
+Page officielle : [AtomS3](https://docs.m5stack.com/en/core/AtomS3)
+
 ![](./atoms3_pins.jpg)
 
 ![](./atom_s3_schematic.jpeg)

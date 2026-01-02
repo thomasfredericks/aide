@@ -1,6 +1,8 @@
 # M5Stack Key Unit
 
-## Description
+## Introduction
+
+Page officielle du produit : [Unit Key](https://docs.m5stack.com/en/unit/key)
 
 L'unité **M5Stack Key Unit** est une unité d'entrée à une touche mécanique tactile avec un pixel RGB intégré. 
 

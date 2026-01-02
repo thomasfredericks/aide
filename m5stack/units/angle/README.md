@@ -1,10 +1,10 @@
 # M5Stack Angle Unit
 
-## Description
+## Introdution
 
 L'unité **M5Stack Angle** permet de mesurer un déplacement rotatif entre deux angles limites.
 
-Page de documentation officielle du produit : [m5-docs](https://docs.m5stack.com/en/unit/angle).
+Page officielle : [Unit Angle](https://docs.m5stack.com/en/unit/angle).
 
 
 ## Connexion

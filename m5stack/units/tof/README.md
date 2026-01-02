@@ -2,10 +2,20 @@
 
 ## Introduction
 
-![Photo de l'avant et l'arrière du M5Stack Unit TOF](./unit_tof.png)
+
+
+
+Page officielle du produit : [Unit ToF](https://docs.m5stack.com/en/unit/TOF)
+
+
 
 Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer des distances jusqu'à 2 mètres avec la technologie *Time of Flight*. 
 
+> [!NOTE]
+> Le M5Stack Unit TOF fonctionne mieux en mode continu (le mode non continu est lent)
+
+
+![Photo de l'avant et l'arrière du M5Stack Unit TOF](./unit_tof.png)
 ## Connexion
 
 **Le Unit TOF est de type I²C tel qu'identifié par son connecteur rouge.**

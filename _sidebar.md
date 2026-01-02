@@ -30,12 +30,6 @@
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
   - *del*
-    - [ruban](/electro/del/ruban/)
-      - [fastled](/electro/del/ruban/fastled/)
-        - *exemples*
-          - [animations_m5atom](/electro/del/ruban/fastled/exemples/animations_m5atom/)
-          - [microosc](/electro/del/ruban/fastled/exemples/microosc/)
-          - [pong-1D_nano](/electro/del/ruban/fastled/exemples/pong-1D_nano/)
   - [resistance](/electro/resistance/)
 - [enshitification](/enshitification/)
 - *esp32*
@@ -78,7 +72,7 @@
   - [slamtec](/lidar/slamtec/)
 - [live-coding](/live-coding/)
 - [lumieres](/lumieres/)
-- *m5stack*
+- [m5stack](/m5stack/)
   - [atom-poe](/m5stack/atom-poe/)
   - [atom](/m5stack/atom/)
     - [bouton](/m5stack/atom/bouton/)
@@ -108,7 +102,7 @@
     - [capacitance](/m5stack/exemples/capacitance/)
     - [matrice-cables](/m5stack/exemples/matrice-cables/)
   - *units*
-    - *396*
+    - [396](/m5stack/units/396/)
       - [bouton-arcade](/m5stack/units/396/bouton-arcade/)
       - [photoresistance](/m5stack/units/396/photoresistance/)
     - [angle](/m5stack/units/angle/)
@@ -159,6 +153,12 @@
     - [retarder](/pd/traitement/retarder/)
   - [websocket](/pd/websocket/)
 - [pecha_kucha](/pecha_kucha/)
+- [pixels](/pixels/)
+  - [fastled](/pixels/fastled/)
+    - *exemples*
+      - [animations_m5atom](/pixels/fastled/exemples/animations_m5atom/)
+      - [microosc](/pixels/fastled/exemples/microosc/)
+      - [pong-1D_nano](/pixels/fastled/exemples/pong-1D_nano/)
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
