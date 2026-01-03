@@ -10,6 +10,7 @@
       - [ralentir](/arduino/millis/remplacer_delay/ralentir/)
   - [random](/arduino/random/)
   - [serial](/arduino/serial/)
+  - [style](/arduino/style/)
 - *audio*
   - [galerie](/audio/galerie/)
   - *haut-parleurs*
