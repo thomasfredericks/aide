@@ -1,12 +1,16 @@
 # AtomS3
 
+
+## Introduction
+
 Pages officielles :
 - Version du matériel AtomS3 avec écran : [AtomS3](https://docs.m5stack.com/en/core/AtomS3)
 - Version du matériel AtomS3 sans écran  : [AtomS3-Lite](https://docs.m5stack.com/en/core/AtomS3%20Lite)
 
+
+## Broches
+
 ![](./atoms3_pins.png)
-
-
 
 
 ## Intégration dans PlatformIO
