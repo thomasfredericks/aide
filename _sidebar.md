@@ -25,6 +25,7 @@
   - [effets](/davinci_resolve/effets/)
 - *dev*
   - [dataflow](/dev/dataflow/)
+- [eclairage](/eclairage/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
@@ -71,7 +72,6 @@
 - *lidar*
   - [slamtec](/lidar/slamtec/)
 - [live-coding](/live-coding/)
-- [lumieres](/lumieres/)
 - [m5stack](/m5stack/)
   - [atom-poe](/m5stack/atom-poe/)
   - [atom](/m5stack/atom/)
