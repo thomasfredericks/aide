@@ -163,7 +163,9 @@
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
-  - [pioarduino-espressif32](/platformio/pioarduino-espressif32/)
+  - *pioarduino*
+    - [espressif32](/platformio/pioarduino/espressif32/)
+  - [style_arduino](/platformio/style_arduino/)
 - *production*
   - [etapes](/production/etapes/)
   - [maquettage](/production/maquettage/)
