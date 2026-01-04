@@ -27,11 +27,10 @@ monitor_speed = 115200
 
 ### Activer la communication série USB `Serial`
 
-- L'**ESP32-S3** dispose d'un contrôleur USB natif qui gère le **USB CDC/JTAG**.  
-- Le port **USB natif** de l'AtomS3 apparaît comme un **port COM virtuel** sur l'ordinateur.  
-- La fonction `Serial` d'Arduino peut être mappée sur ce **port USB CDC**, sans passer par un convertisseur USB-UART externe.  
-- Pour activer l'USB CDC, il faut utiliser les **build flags** suivants dans `platformio.ini` :
-
+- L'**ESP32-S3** ne dépend **pas**, comme les modèles **ESP32** précédents, de puce de conversion USB-UART externe pour gérer la communication série USB `Serial` (comme les puces FTDI, CP2102 ou CH340).
+- L'**ESP32-S3** possède un contrôleur **USB natif** qui peut apparaître comme **port COM virtuel CDC** sur l'ordinateur.  
+- La fonction `Serial` d'Arduino peut être mappée sur ce **port COM virtuel CDC**.
+- Pour activer le **port COM virtuel CDC**, il faut utiliser les **build flags** suivants dans `platformio.ini` :
 ```ini
 build_flags =
    -DARDUINO_USB_CDC_ON_BOOT=1   ; activate USB CDC
