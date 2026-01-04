@@ -34,13 +34,13 @@ monitor_speed = 115200
 
 ```ini
 build_flags =
-   -DARDUINO_USB_MODE=1          ; active USB CDC + JTAG
-   -DARDUINO_USB_CDC_ON_BOOT=1   ; énumération USB CDC au démarrage
+   -DARDUINO_USB_CDC_ON_BOOT=1   ; activate USB CDC
+   -DARDUINO_USB_MODE=0          ; USB CDC in device mode only (like a classic Arduino Leonardo/Micro)
 ```
 
 ### Activer la communication UART avec des modules/périphériques
 
-S'il est nécessaire de communiquer par série UART avec d'autres périphériques, ces ports doivent être activés manuellement ainsi.
+S'il est nécessaire de communiquer par série UART (ne pas confondre avec la version USB) avec d'autres périphériques, ces ports doivent être activés manuellement selon les instructions suivantes.
 
 #### Dans l'espace global
 
