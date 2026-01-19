@@ -2,6 +2,11 @@
 
 <!-- toc -->
 
+## Outils
+
+- [TONEDESIGNER](https://watusi.cloud/tonedesigner/)
+- [Simple Audio Editor](https://little-scale.github.io/simple-editor/)
+
 ## Acousmatique
 
 - [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)
