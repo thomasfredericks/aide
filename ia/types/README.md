@@ -1,4 +1,4 @@
-# Types d'IA
+# IA : Types
 
 Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. Ainsi, le terme « IA » devrait toujours être suivi d’un qualificatif pour préciser son type, car ces technologies sont très différentes.
 

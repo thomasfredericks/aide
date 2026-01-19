@@ -1,4 +1,4 @@
-# AI : Création de code ou d'images
+# IA : Création de code ou d'images
 
 ## Perfomances d'un GenAI 
 
