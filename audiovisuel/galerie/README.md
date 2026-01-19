@@ -1,5 +1,7 @@
 # Audiovisuel : galerie
 
+<!-- toc -->
+
 ## Synesthésie
 
 - VASSILY KANDINSKY - [Sounds Like Kandinsky — Google Arts & Culture](https://artsandculture.google.com/project/kandinsky)

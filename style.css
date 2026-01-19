@@ -741,7 +741,7 @@ body {
 
 .markdown-section a {
   color: var(--theme-link);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .markdown-section h1 {
@@ -1252,3 +1252,7 @@ figcaption {
     transition: none;
   }
 }
+
+
+
+
