@@ -16,6 +16,7 @@
     - [Synchromie - ONF](https://www.onf.ca/film/synchromie/)
     - [Points - ONF](https://www.onf.ca/film/points/)
 - Oscilloscope Music
+    - [Laserwaves - Jellybean Fenderson](https://www.youtube.com/watch?v=xDcjye1wL60)
     - [This is Music On An Oscilloscope - (Drawing with Sound) - Smarter Every Day 224 - YouTube](https://www.youtube.com/watch?v=4gibcRfp4zA)
     - [Drawing with sound - Oscilloscopes (Part I) - YouTube](https://www.youtube.com/watch?v=OsOcpm7eEl4)
     - [Drawing with sound, Oscilloscope & Modular lecture by Bernhard Rasinger and Václav Peloušek - YouTube](https://www.youtube.com/watch?v=Atwzx9TRd3Y)
