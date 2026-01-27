@@ -12,6 +12,7 @@
   - [serial](/arduino/serial/)
   - [style](/arduino/style/)
 - *audio*
+  - [ethetique](/audio/ethetique/)
   - [galerie](/audio/galerie/)
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
@@ -31,7 +32,6 @@
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
-  - *del*
   - [resistance](/electro/resistance/)
 - [enshitification](/enshitification/)
 - *esp32*
@@ -74,7 +74,6 @@
   - [slamtec](/lidar/slamtec/)
 - [live-coding](/live-coding/)
 - [m5stack](/m5stack/)
-  - [atom-poe](/m5stack/atom-poe/)
   - [atom](/m5stack/atom/)
     - [bouton](/m5stack/atom/bouton/)
       - [m5lib](/m5stack/atom/bouton/m5lib/)
@@ -86,6 +85,7 @@
       - [minimal](/m5stack/atom/code/minimal/)
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
+  - [atom-poe](/m5stack/atom-poe/)
   - [atomS3](/m5stack/atomS3/)
     - [midi](/m5stack/atomS3/midi/)
     - [uart](/m5stack/atomS3/uart/)
@@ -93,8 +93,8 @@
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
     - [angle-button-oscbridge](/m5stack/exemples/angle-button-oscbridge.md)
     - [angle-monitor](/m5stack/exemples/angle-monitor.md)
-    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [blink](/m5stack/exemples/blink.md)
+    - [blink_demarrage](/m5stack/exemples/blink_demarrage.md)
     - [clignoter-sans-bloquer](/m5stack/exemples/clignoter-sans-bloquer.md)
     - [etat-bouton](/m5stack/exemples/etat-bouton.md)
     - [lampe-clignotement](/m5stack/exemples/lampe-clignotement.md)
