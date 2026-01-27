@@ -22,8 +22,13 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 
 ## Droit d'auteur
 
--  **Événement révélateur sur le droit d'auteur**
-    Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GenAI et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GenAI sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
+- Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GenAI et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GenAI sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
+- Contrairement à ce qui a été promis, les GenAI mémorisent des données comme a été dévoilé en janvier 2026 :
+  - [AI's Memorization Crisis - The Atlantic](https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/)
+  - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
+  - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
+
+  
 
 ## Quel futur nous propose-t-on vraiment ?
 
