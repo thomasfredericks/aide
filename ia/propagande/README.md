@@ -28,7 +28,11 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
   - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
   - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
 
-  
+## Désinformation
+
+- Grokpedia
+  - [L’effondrement de la fiabilité de ChatGPT face à la contamination par Grokipedia | Le Club](https://blogs.mediapart.fr/romain-leclaire/blog/240126/l-effondrement-de-la-fiabilite-de-chatgpt-face-la-contamination-par-grokipedia)
+  - [Latest ChatGPT model uses Elon Musk’s Grokipedia as source, tests reveal | Grok AI | The Guardian](https://www.theguardian.com/technology/2026/jan/24/latest-chatgpt-model-uses-elon-musks-grokipedia-as-source-tests-reveal)
 
 ## Quel futur nous propose-t-on vraiment ?
 
