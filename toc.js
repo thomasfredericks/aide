@@ -6,7 +6,7 @@
 var defaultOptions = {
   headings: 'h2',      // which headers to include
   scope: '.markdown-section',   // container to search
-  title: 'Sections'             // text before list
+
 };
 
 // -----------------------
@@ -38,9 +38,13 @@ var buildInlineTOC = function (options) {
   if (options.title) {
     var title = document.createElement('span');
     title.className = 'inline_toc_title';
-    title.textContent = options.title + ': ';
+    title.textContent = options.title;
     container.appendChild(title);
-  }
+
+    // Add a line break after the title
+    var br = document.createElement('br');
+    container.appendChild(br);
+}
 
   headers.forEach(function (h, index) {
     // Make sure the header has an ID

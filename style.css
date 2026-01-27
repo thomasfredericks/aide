@@ -1253,6 +1253,11 @@ figcaption {
   }
 }
 
+.inline_toc {
+  text-align: center;
+}
 
-
+.inline_toc_title {
+  font-weight: bold;  /* standard bold */
+}
 

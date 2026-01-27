@@ -12,7 +12,7 @@
   - [serial](/arduino/serial/)
   - [style](/arduino/style/)
 - *audio*
-  - [ethetique](/audio/ethetique/)
+  - [esthetique](/audio/esthetique/)
   - [galerie](/audio/galerie/)
   - *haut-parleurs*
     - [genelec](/audio/haut-parleurs/genelec/)
