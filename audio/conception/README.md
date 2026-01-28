@@ -11,9 +11,10 @@ La virtuosité technique consiste à **maîtriser les aspects formels du son**, 
 Les caractéristiques recherchées sont :
 - **Dynamique sonore maîtrisée** : variations de volume cohérentes avec l’intention et le contexte  
 - **Volumes équilibrés** : éviter qu’un son masque ou soit masqué par d’autres
+- **Absence d'écrêtage (*clipping*) numérique** : éviter que le signal dépasse le niveau maximal (0 dBFS) dans un logiciel audio ou sur un circuit numérique, entraînant des coupures abruptes du signal, des craquements ou des bruits désagréables.  
 - **Réduction du bruit indésirable** : minimiser les artefacts, bruits parasites ou saturation non désirée  
 - **Découpage approprié des éléments sonores** : transitions nettes et fluides, sans coupures abruptes  
-- **Absence de glitches ou d’artefacts** : garantir un rendu propre et professionnel  
+- **Absence de cliques (*click*) ou d’artefacts numériques** : garantir un rendu propre et professionnel  
 
 
 
