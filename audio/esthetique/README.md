@@ -5,42 +5,24 @@
 
 ## Banque de mots pour qualifier une esthétique sonore
 
-- musical / chaotique 
-- harmonieux / dissonant  
-- rythmé / chaotique  
-- joyeux / triste  
-- mélancolique / euphorique  
-- nostalgique / futuriste  
-- dramatique / humoristique  
-- apaisant / anxiogène  
-- oppressant / rassurant  
-- scintillant / étouffé  
-- contrasté / uniforme  
-- granuleux / soyeux  
-- mécanique / organique  
-- saturé / épuré  
-- doux / agressif  
-- enveloppant / sec  
-- simple / complexe  
-- épuré / chargé  
-- minimal / dense  
-- répétitif / évolutif  
-- préhistorique / futuriste  
-- industriel / classique  
-- lent / rapide  
-- fluide / saccadé  
-- statique / frénétique  
-- pulsatif / continu  
-- progressif / explosif  
-- naïve / mature
-- physique / intangible
+| Dimension émotionnelle | Dimension timbrale | Dimension temporelle et structurelle | Dimension référentielle |
+|---|---|---|---|
+| joyeux / triste | scintillant / étouffé | musical / chaotique | mécanique / organique |
+| mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | industriel / classique |
+| nostalgique / futuriste | saturé / épuré | rythmé / chaotique | préhistorique / futuriste |
+| dramatique / humoristique | doux / agressif | répétitif / évolutif | contrasté / uniforme |
+| apaisant / anxiogène | enveloppant / sec | lent / rapide | simple / complexe |
+| oppressant / rassurant | minimal / dense | fluide / saccadé |  |
+| naïf / mature | épuré / chargé | statique / frénétique |  |
+|  | physique / intangible | pulsatif / continu |  |
+|  |  | progressif / explosif |  |
 
 
 ## Super Mario
 
 > Un monde sonore lumineux et souriant où déclencher les sons est un plaisir en soi 
 
-### Caractéristiques sonores
+### Qualités sonores
 - sons courts et clairs
 - joyeuse  
 - ludique  
@@ -50,7 +32,7 @@
 - effets sonores musicaux 
 - rythme enjoué, tempo stable  
 
-### Fonction du son
+### Intention
 - renforcer le plaisir immédiat  
 - guider le joueur par le son (feedback constant)  
 - récompenser l’action plutôt que la tension  
@@ -59,7 +41,7 @@
 
 > Un paysage sonore domestique et vivant conçu pour être habité plus qu’écouté  
 
-### Caractéristiques sonores
+### Qualités sonores
 - agressive  
 - violente  
 - industrielle  
@@ -70,7 +52,7 @@
 - effets sonores physiques (impacts, explosions, déchirures)  
 - densité sonore élevée et écrasante  
 
-### Fonction
+### Intention
 - musique adaptative mêlant metal, synthés et bruitisme pour maintenir une pression constante  
 - plonger le joueur dans un état de surstimulation contrôlée  
 - synchroniser le son avec la tension des situations
@@ -80,7 +62,7 @@
 
 > Un son qui accompagne  
 
-### Caractéristiques sonores
+### Qualités sonores
 - sons courts, doux, feutrés, jamais intrusifs
 - minimalise et sons chaleureux et rassurants
 - ambiances naturelles très présentes (vent, vagues, insectes)
@@ -88,7 +70,7 @@
 - voix stylisées, non verbales, quasi percussives
 - faible dynamique, absence de pics agressifs
 
-### Fonction du son
+### Intention 
 - installer une routine sonore
 - accompagner sans capter l’attention
 - favoriser le calme et la continuité
@@ -99,7 +81,7 @@
 
 > un son qui informe et pousse où écouter permet de mieux conduire
 
-### Caractéristiques sonores
+### Qualités sonores
 - réaliste, mécanique et précis
 - enregistrements spécifiques à chaque véhicule
 - micro-variations constantes (régime, surface, vitesse)
@@ -107,7 +89,7 @@
 - musique souvent secondaire face au bruit de la machine
 
 
-### Fonction du son
+### Intention 
 - transmettre des informations de pilotage
 - renforcer la crédibilité physique
 - créer un lien sensoriel joueur–machine
