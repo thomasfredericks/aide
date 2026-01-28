@@ -745,7 +745,7 @@ body {
 }
 
 .markdown-section h1 {
-  margin: 0 auto 1rem;
+  margin: 0 auto 2rem;
   font-size: 3rem;
   font-weight: 300;
   text-align: left;
@@ -1255,6 +1255,8 @@ figcaption {
 
 .inline_toc {
   text-align: center;
+   width: 75%;         /* 75% of parent width */
+  margin: 0 auto;     /* horizontally center the div */
 }
 
 .inline_toc_title {
