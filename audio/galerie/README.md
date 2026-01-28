@@ -9,7 +9,6 @@
 
 ## Acousmatique
 
-- [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)
 - [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)   
 - Première composition de musique électronique : [Johanna Beyer — Music of the Spheres [w/ score] - YouTube](https://www.youtube.com/watch?v=GpLbaJ8iwuA)
 - Rovner, Lisa (2020). *Sisters with transistors*. 84 min. [Vimeo](https://vimeo.com/ondemand/sisterswithtransistors)
