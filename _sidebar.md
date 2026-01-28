@@ -29,6 +29,7 @@
   - [dataflow](/dev/dataflow/)
 - *droit*
   - [auteur](/droit/auteur/)
+  - [videosurveillance](/droit/videosurveillance/)
 - [eclairage](/eclairage/)
 - *education*
   - [manifeste](/education/manifeste/)
