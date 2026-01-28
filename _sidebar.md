@@ -27,11 +27,13 @@
   - [effets](/davinci_resolve/effets/)
 - *dev*
   - [dataflow](/dev/dataflow/)
+- [droit](/droit/)
 - [eclairage](/eclairage/)
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electro*
+  - *del*
   - [resistance](/electro/resistance/)
 - [enshitification](/enshitification/)
 - *esp32*
@@ -74,6 +76,7 @@
   - [slamtec](/lidar/slamtec/)
 - [live-coding](/live-coding/)
 - [m5stack](/m5stack/)
+  - [atom-poe](/m5stack/atom-poe/)
   - [atom](/m5stack/atom/)
     - [bouton](/m5stack/atom/bouton/)
       - [m5lib](/m5stack/atom/bouton/m5lib/)
@@ -85,7 +88,6 @@
       - [minimal](/m5stack/atom/code/minimal/)
     - [installation](/m5stack/atom/installation/)
     - [pixel](/m5stack/atom/pixel/)
-  - [atom-poe](/m5stack/atom-poe/)
   - [atomS3](/m5stack/atomS3/)
     - [midi](/m5stack/atomS3/midi/)
     - [uart](/m5stack/atomS3/uart/)
@@ -186,9 +188,9 @@
   - *osc*
     - [activation](/reaper/osc/activation/)
     - [default_pattern](/reaper/osc/default_pattern/)
+      - [VMK](/reaper/osc/default_pattern/VMK/)
       - [general](/reaper/osc/default_pattern/general/)
       - [piste](/reaper/osc/default_pattern/piste/)
-      - [VMK](/reaper/osc/default_pattern/VMK/)
     - *exemples*
       - [plugdata](/reaper/osc/exemples/plugdata/)
       - [reaper_osc_play-stop-vu](/reaper/osc/exemples/reaper_osc_play-stop-vu/)
