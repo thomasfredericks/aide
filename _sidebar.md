@@ -27,7 +27,8 @@
   - [effets](/davinci_resolve/effets/)
 - *dev*
   - [dataflow](/dev/dataflow/)
-- [droit](/droit/)
+- *droit*
+  - [auteur](/droit/auteur/)
 - [eclairage](/eclairage/)
 - *education*
   - [manifeste](/education/manifeste/)
