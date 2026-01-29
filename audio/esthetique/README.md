@@ -5,20 +5,30 @@
 
 ## Banque de mots pour qualifier une esthétique sonore
 
-| Dimension émotionnelle | Dimension timbrale | Dimension temporelle et structurelle | Dimension référentielle |
+| Émotion | Timbre | Structure | Référence |
 |---|---|---|---|
 | joyeux / triste | scintillant / étouffé | musical / chaotique | mécanique / organique |
-| mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | cartoonesque / réaliste |
-| nostalgique / futuriste | saturé / épuré | rythmé / chaotique | préhistorique / futuriste |
-| dramatique / humoristique | doux / agressif | répétitif / évolutif | contrasté / uniforme |
-| apaisant / anxiogène | enveloppant / sec | lent / rapide | simple / complexe |
+| mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | cartoonesque / crédible |
+| plaisant / intimidant  | saturé / épuré | rythmé / chaotique | narratif / fonctionnel |
+| dramatique / humoristique | doux / agressif | répétitif  | contrasté / uniforme |
+| apaisant / anxiogène | pur / spectre complexe | lent / rapide | simple / complexe |
 | oppressant / rassurant | minimal / dense | fluide / saccadé | ludique / sérieux |
 | naïf / mature | chargé / aéré | statique / frénétique | performant / contemplatif |
-| enjoué / tendu | massif / léger | pulsatif / continu | stylisé / naturaliste |
-| calme / violent | chaleureux / froid | progressif / explosif | domestique / spectaculaire |
-| plaisant / intimidant | brillant / sombre | tempo stable / instable | narratif / fonctionnel |
-|  | physique / intangible |  | immersif / détaché |
-|  | précis / diffus |  |  |
+| enjoué / tendu | puissant / léger | pulsatif / continu | stylisé / naturaliste |
+| serein / violent | chaleureux / froid | progressif / explosif | mythique |
+| individu héroïque | brillant / sombre | tempo stable / instable | nostalgique  |
+| situation épique | physique / intangible | micro-variations | futuriste |
+| optimiste / pésimiste | précis / diffus | évolutif  | guerrier / pacifiste |
+
+## Conception sonore de Star Wars VS Star Trek
+
+| Aspect        | Star Wars                  | Star Trek                   |
+| ------------- | -------------------------- | --------------------------- |
+| **Émotion**   | Épique, héroïque           | Serein, optimiste           |
+| **Timbre**    | Puissant, saturé, spectre complexe    | Pur, minimal |
+| **Structure** | Pulsatif, rythmé, évolutif | Fluide, progressif          |
+| **Référence** | Stylisé, mythique, guerrier         | Nostalgique, futuriste, pacifiste  |
+
 
 
 
