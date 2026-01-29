@@ -8,14 +8,18 @@
 | Dimension émotionnelle | Dimension timbrale | Dimension temporelle et structurelle | Dimension référentielle |
 |---|---|---|---|
 | joyeux / triste | scintillant / étouffé | musical / chaotique | mécanique / organique |
-| mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | industriel / classique |
+| mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | cartoonesque / réaliste |
 | nostalgique / futuriste | saturé / épuré | rythmé / chaotique | préhistorique / futuriste |
 | dramatique / humoristique | doux / agressif | répétitif / évolutif | contrasté / uniforme |
 | apaisant / anxiogène | enveloppant / sec | lent / rapide | simple / complexe |
-| oppressant / rassurant | minimal / dense | fluide / saccadé |  |
-| naïf / mature | épuré / chargé | statique / frénétique |  |
-|  | physique / intangible | pulsatif / continu |  |
-|  |  | progressif / explosif |  |
+| oppressant / rassurant | minimal / dense | fluide / saccadé | ludique / sérieux |
+| naïf / mature | chargé / aéré | statique / frénétique | performant / contemplatif |
+| enjoué / tendu | massif / léger | pulsatif / continu | stylisé / naturaliste |
+| calme / violent | chaleureux / froid | progressif / explosif | domestique / spectaculaire |
+| plaisant / intimidant | brillant / sombre | tempo stable / instable | narratif / fonctionnel |
+|  | physique / intangible |  | immersif / détaché |
+|  | précis / diffus |  |  |
+
 
 
 ## Super Mario
