@@ -1,4 +1,5 @@
 # AtomS3
+<!-- toc -->
 
 ## Introduction
 
@@ -15,9 +16,10 @@ L’**AtomS3** est disponible en deux versions :
    - un **bouton programmable** situé sous l’écran,  
 
 
+
 Pages officielles :
-- Version du matériel AtomS3 avec écran : [AtomS3](https://docs.m5stack.com/en/core/AtomS3)
-- Version du matériel AtomS3 sans écran  : [AtomS3-Lite](https://docs.m5stack.com/en/core/AtomS3%20Lite)
+- Version du matériel AtomS3 **sans** écran : [AtomS3-Lite](https://docs.m5stack.com/en/core/AtomS3%20Lite)
+- Version du matériel AtomS3 **avec** écran et **capteur inertiel** : [AtomS3](https://docs.m5stack.com/en/core/AtomS3)
 
 ## Broches
 
@@ -25,7 +27,14 @@ Pages officielles :
 
 ## Intégration dans PlatformIO
 
-### Utiliser la plateforme de la communauté fournie par `pioarduino`
+![](./atoms3_new_project.png)
+
+### Configuration de `platformio.ini`
+
+Le fichier `platformio.ini` doit être modifié pour que :
+- Pointer la ligne `platform =` vers la plateforme `pioarduino` communautaire (informations complémentaires [ici](../../platformio/pioarduino/)).
+- Activer le **port USB CDC** et le mapper à `Serial`. L'**ESP32-S3** n'utilise **pas**, comme les modèles **ESP32** précédents, de puce de conversion USB-UART externe (comme les puces FTDI, CP2102 ou CH340) pour gérer la communication sérielle USB . L'**ESP32-S3** possède un contrôleur **USB natif** qui peut apparaître comme un **port COM virtuel**, aussi appelé **USB Communication Device Class** (**USB CDC**) sur l'ordinateur.  
+
 
 ```ini
 [env:m5stack-atoms3]
@@ -33,30 +42,24 @@ platform = https://github.com/pioarduino/platform-espressif32/releases/download/
 board = m5stack-atoms3
 framework = arduino
 monitor_speed = 115200
-```
-
-### Activer la communication série USB `Serial`
-
-- L'**ESP32-S3** ne dépend **pas**, comme les modèles **ESP32** précédents, de puce de conversion USB-UART externe pour gérer la communication série USB `Serial` (comme les puces FTDI, CP2102 ou CH340).
-- L'**ESP32-S3** possède un contrôleur **USB natif** qui peut apparaître comme un **port COM virtuel**, aussi appelé **USB Communication Device Class** (**USB CDC**) sur l'ordinateur.  
-- La fonction `Serial` d'Arduino peut être mappée sur ce **USB CDC**.
-- Pour activer le **port USB CDC**, il faut utiliser les **build flags** suivants dans `platformio.ini` :
-```ini
 build_flags =
    -DARDUINO_USB_CDC_ON_BOOT=1   ; activer le CDC USB au démarrage
    -DARDUINO_USB_MODE=0          ; CDC USB en mode périphérique (comme un Arduino Leonardo/Micro classique)
 ```
-#### Autres modes USB
 
-L’ESP32-S3 peut se présenter comme de nombreux types de périphériques USB, tels que des contrôleurs MIDI, des souris, des claviers, des manettes de jeu, etc. En revanche, les différents modes USB sont très peu documentés. Espressif met toutefois à disposition plusieurs exemples, disponibles ici : [arduino-esp32/libraries/USB at master · espressif/arduino-esp32](https://github.com/espressif/arduino-esp32/tree/master/libraries/USB)
 
-### Activer le mode pour le téléversement
+
+## Activer le mode pour le téléversement
 
 Pour téléverser le code, il faut maintenir le bouton de réinitialisation au moins 2 secondes jusqu’à ce que la DEL interne verte s’allume, puis relâcher. L’appareil est maintenant en mode de téléversement.
 
 ![](./atoms3_upload_mode.png)
 
-Après avoir téléversé le code, appuyer rapidement de nouveau sur le bouton pour lancer l'exécution du code.
+Après avoir téléversé le code, appuyer une fois rapidement sur le bouton pour lancer l'exécution du code.
+
+## Autres modes USB
+
+L’ESP32-S3 peut se présenter comme de nombreux types de périphériques USB, tels que des contrôleurs MIDI, des souris, des claviers, des manettes de jeu, etc. En revanche, les différents modes USB sont très peu documentés. Espressif met toutefois à disposition plusieurs exemples, disponibles ici : [arduino-esp32/libraries/USB at master · espressif/arduino-esp32](https://github.com/espressif/arduino-esp32/tree/master/libraries/USB)
 
 ## Schéma électronique
 
