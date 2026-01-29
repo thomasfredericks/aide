@@ -93,6 +93,7 @@
     - [pixel](/m5stack/atom/pixel/)
   - [atomS3](/m5stack/atomS3/)
     - [midi](/m5stack/atomS3/midi/)
+    - [mpu6886](/m5stack/atomS3/mpu6886/)
     - [uart](/m5stack/atomS3/uart/)
   - *exemples*
     - [angle-button-monitor](/m5stack/exemples/angle-button-monitor.md)
