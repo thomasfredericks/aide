@@ -1,7 +1,7 @@
 # Conception sonore
 <!-- toc -->
 
-Une bonne conception sonore repose sur **la virtuosité technique**, **l’expressivité sonore**, **l’intention** et la **cohérence**.  
+Une bonne conception sonore repose sur **la virtuosité technique**, **l’intention**, **l’expressivité sonore** et la **cohérence**.  
 Elle vise à créer des sons **vivants, immersifs et significatifs**, capables de guider, renforcer ou enrichir l’expérience utilisateur dans un contexte interactif ou narratif.
 
 
@@ -15,25 +15,6 @@ Les caractéristiques recherchées sont :
 - **Réduction du bruit indésirable** : minimiser les artefacts, bruits parasites ou saturation non désirée  
 - **Découpage approprié des éléments sonores** : transitions nettes et fluides, sans coupures abruptes  
 - **Absence de cliques (*click*) ou d’artefacts numériques** : garantir un rendu propre et professionnel  
-
-
-
-## Expressivité sonore
-
-L’expressivité sonore permet d’insuffler **vie et personnalité** aux sons.  
-Les caractéristiques recherchées sont :
-
-- **Empilage de couches** pour profondeur et nuance :  
-  - Superposition de **sons enregistrés** pour authenticité  
-  - Superposition de **sons transformés** (étirement, changement de hauteur, effets) pour variation et abstraction  
-  - Superposition de **sources différentes** pour complexité et richesse spatiale  
-  - Mélange de **synthèse et d’enregistrements** pour créer une texture hybride et originale  
-  
-- **Micro-variations** qui donnent vie et présence au son :  
-  - Variations subtiles de timbre, d’intensité ou de rythme  
-  - Éviter la monotonie et renforcer la sensation d’un son vivant et organique  
-
-Essayer [jsfxr - 8 bit sound maker and online sfx generator](https://sfxr.me/) pour créer des variations sur le même thème ! 
 
 ## Intention
 
@@ -65,6 +46,26 @@ Chaque son doit avoir un rôle clair dans l’expérience.
     - Donner du poids et de l’impact à une action  
 
 
+## Expressivité sonore
+
+L’expressivité sonore permet d’insuffler **vie et personnalité** aux sons.  
+Les caractéristiques recherchées sont :
+
+- **Empilage de couches** pour profondeur et nuance :  
+  - Superposition de **sons enregistrés** pour authenticité  
+  - Superposition de **sons transformés** (étirement, changement de hauteur, effets) pour variation et abstraction  
+  - Superposition de **sources différentes** pour complexité et richesse spatiale  
+  - Mélange de **synthèse et d’enregistrements** pour créer une texture hybride et originale 
+  - [How To Make Sound Effects For Games - YouTube](https://www.youtube.com/watch?v=Kux_LvRl57U) 
+  - [The Secret To The Gruesome Sounds In Mortal Kombat Is Exploding Vegetables - YouTube](https://www.youtube.com/watch?v=IYS0rPYjW28&t=6s)
+  
+- **Micro-variations** qui donnent vie et présence au son :  
+  - Variations subtiles de timbre, d’intensité ou de rythme  
+  - Éviter la monotonie et renforcer la sensation d’un son vivant et organique  
+  - Essayer [jsfxr - 8 bit sound maker and online sfx generator](https://sfxr.me/) pour créer des variations sur le même thème ! 
+
+
+
 
 ## Cohérence
 
@@ -74,7 +75,7 @@ La cohérence garantit que les sons sont **perçus comme appartenant au même un
 - Maintenir une **harmonie globale**, tant au niveau du timbre que de la dynamique  
 
 
-## Grille d’évaluation
+## Grille d’auto-évaluation
 
 | Critère | Description | Indicateurs |
 |---------|-------------|-------------|
@@ -83,9 +84,3 @@ La cohérence garantit que les sons sont **perçus comme appartenant au même un
 | **Virtuosité technique** | Maîtrise du volume, du découpage et de la qualité sonore | Dynamique sonore cohérente ; volumes équilibrés ; bruit indésirable réduit ; absence de glitches ou artefacts |
 | **Intention** | Chaque son a un rôle clair dans l’expérience | Feedback cohérent pour l’utilisateur ; indication d’émotion ou de tension ; repères temporels et navigation ; renforcement sensoriel et physique |
 | **Cohérence** | Le son dialogue avec l’image, l’espace et les autres sons | Harmonie avec l’environnement visuel et sonore ; intégration spatiale et temporelle ; renforcement de l’immersion |
-
-## Vidéos
-
-- [How To Make Sound Effects For Games - YouTube](https://www.youtube.com/watch?v=Kux_LvRl57U)
-- [The Secret To The Gruesome Sounds In Mortal Kombat Is Exploding Vegetables - YouTube](https://www.youtube.com/watch?v=IYS0rPYjW28&t=6s)
-- [Morder Rumble](https://www.youtube.com/watch?v=T14Er_xHRRo)
