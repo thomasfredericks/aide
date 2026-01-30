@@ -20,6 +20,12 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 - **Comment peut-on vouloir reproduire l’intelligence humaine alors même que la science ne s’entend pas sur ce qu’est l’intelligence humaine ?**  
   Il n’existe **aucun consensus scientifique clair** sur la nature de l’intelligence, de la conscience, ou de l’intention.
 
+## Sécurité
+
+- [Massive AI Chat App Leaked Millions of Users Private Conversations](https://www.404media.co/massive-ai-chat-app-leaked-millions-of-users-private-conversations/)
+- [Silicon Valley’s Favorite New AI Agent Has Serious Security Flaws](https://www.404media.co/silicon-valleys-favorite-new-ai-agent-has-serious-security-flaws/)
+- [AI browsers can be tricked with malicious prompts hidden in URL fragments | CSO Online](https://www.csoonline.com/article/4097087/ai-browsers-can-be-tricked-with-malicious-prompts-hidden-in-url-fragments.html)
+
 ## Droit d'auteur
 
 - Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GenAI et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GenAI sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
