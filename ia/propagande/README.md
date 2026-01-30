@@ -1,14 +1,21 @@
 # IA : Propagande
 
+<!-- toc -->
+
 La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L'objectif est d'influencer la population, voire de l'endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d'éliminer le pluralisme des points de vue et d'empêcher l'exercice de l'esprit critique.
+
+En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels du GenAI :
+- Désinformation
+- Manipulation
+- Chômage 
+- Violations des droits humains
+- Aggravation de la crise climatique
 
 ## Précédents
 
 - **Les promoteurs de l’IA en éducation sont les mêmes qui ont introduit les téléphones intelligents et les réseaux sociaux.**  
   Or, nous avons vu **les impacts négatifs de ces technologies sur les jeunes** — isolement, détresse mentale, distraction permanente. Et maintenant, on nous dit : *« Cette fois-ci, ce sera différent ? »*
-
 - **Meta a enterré des preuves internes montrant que Facebook et Instagram nuisaient à la santé mentale des utilisateurs** : Une étude interne menée en 2020, nommée Project Mercury, a montré que les personnes qui se désactivaient des plateformes ressentaient moins de dépression, d’anxiété, de solitude et de comparaison sociale — ce qui suggère un lien causal entre l’usage des réseaux sociaux et des effets négatifs sur le bien-être mental. Plutôt que de publier ces résultats ou de poursuivre les recherches, Meta aurait arrêté le projet. Source : [Meta buried 'causal' evidence of social media harm, US court filings allege | Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/)
-
 - **L’IA est un outil puissant, mais pas une transformation systémique en soi.**  
   L’exagération actuelle autour de l’IA rappelle les discours précédents sur le **bitcoin**, la **blockchain**, ou la **réalité virtuelle**. Il faut rester critique : **toute technologie n’est pas une panacée**.
 
@@ -16,9 +23,8 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 
 - **La vision de la Silicon Valley sur l’IA est-elle fondée ?**  
   On nous promet que l’IA guérira le cancer, mettra fin à la faim dans le monde, etc. — mais **il n’y a actuellement aucune preuve scientifique concrète** que ces affirmations soient réalisables.
-
-- **Comment peut-on vouloir reproduire l’intelligence humaine alors même que la science ne s’entend pas sur ce qu’est l’intelligence humaine ?**  
-  Il n’existe **aucun consensus scientifique clair** sur la nature de l’intelligence, de la conscience, ou de l’intention.
+- **Comment peut-on vouloir reproduire l’intelligence humaine alors même que la science ne s’entend pas sur ce qu’est l’intelligence humaine ?**  Il n’existe **aucun consensus scientifique clair** sur la nature de l’intelligence, de la conscience, ou de l’intention.
+- [Cursor lies about vibe-coding a web browser with AI](https://www.youtube.com/watch?app=desktop&v=emOC2Suu2zE)
 
 ## Sécurité
 
@@ -36,7 +42,7 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 
 ## Désinformation
 
-- Grokpedia
+- Grokipedia
   - [L’effondrement de la fiabilité de ChatGPT face à la contamination par Grokipedia | Le Club](https://blogs.mediapart.fr/romain-leclaire/blog/240126/l-effondrement-de-la-fiabilite-de-chatgpt-face-la-contamination-par-grokipedia)
   - [Latest ChatGPT model uses Elon Musk’s Grokipedia as source, tests reveal | Grok AI | The Guardian](https://www.theguardian.com/technology/2026/jan/24/latest-chatgpt-model-uses-elon-musks-grokipedia-as-source-tests-reveal)
 
@@ -47,12 +53,10 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
   - Surveillance accrue  
   - Précarité des emplois  
   - Productivité accrue sans gain salarial
-
-
 - **Le sentiment d’inévitabilité est une construction narrative.**  
   Silicon Valley cultive l’idée que « le futur est déjà écrit ». Mais **l’histoire des empires technologiques montre que tous peuvent s’effondrer** : IBM, les États-Unis, Yahoo, Nokia… Et bien d’autres.
 
-## L'âge d'or de l'IA est présentement et non plus tard, et elle est sur le point de se terminer
+## L'âge d'or de l'IA est en 2025 et ça dégringole à partir de là
 
 - **Le coût d’utilisation des GenAI est aujourd’hui artificiellement bas.**  
   Leur accès est **fortement subventionné** par le capital-risque, ce qui donne l’illusion qu’ils sont peu coûteux, voire gratuits. Mais ces subventions sont en train de s’évaporer...
@@ -72,17 +76,10 @@ La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuv
 - Le 15 août 2025, Sam Altman (PDG d’OpenAI) a reconnu que nous traversons actuellement une bulle autour de l’IA — un engouement exagéré, mais fondé sur un noyau de réalité — tout en affirmant qu’il compte bien en tirer parti, notamment en investissant des **billions** de dollars dans de nouveaux centres de données pour rester aux commandes après l’éclatement.  
 [Lire l’article original (The Register, 15 août 2025)](https://www.theregister.com/2025/08/15/boy_riding_bubble_realizes_what/)
 
-## Internet of Bugs : SciShow Is Lying to You about AI. Here are the receipts.
+## Bonus
 
-[SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc)
-Vidéo assez intéressante qui aborde ces mythes à propos du GenAI :
-- Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que le GenAI
-- Que le développement du GenAI a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
-- Que le GenAI est plus dangereux que la bombe atomique
-
-En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels du GenAI :
-- Désinformation
-- Manipulation
-- Chômage 
-- Violations des droits humains
-- Aggravation de la crise climatique.
+- [SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc) Vidéo assez intéressante qui aborde ces mythes à propos du GenAI :
+  - Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que le GenAI
+  - Que le développement du GenAI a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
+  - Que le GenAI est plus dangereux que la bombe atomique
+- [ChatBots Explained: Not Conscious, No Revolution — Just Searching's Next Step - YouTube](https://www.youtube.com/watch?app=desktop&v=0qnZDMvJPh4)
