@@ -247,7 +247,7 @@
       - [reception](/unity/osc/extosc/reception/)
     - [oscjackvs](/unity/osc/oscjackvs/)
   - [spout](/unity/spout/)
-  - *traitement*
+  - [traitement](/unity/traitement/)
     - [changement](/unity/traitement/changement/)
     - [proportion](/unity/traitement/proportion/)
 - *vcv_rack*

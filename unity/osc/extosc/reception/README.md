@@ -8,13 +8,13 @@
 
 ## Principe général de réception
 
-La réception OSC dans Unity repose sur trois éléments :
+La réception OSC dans Unity repose sur plusieurs éléments :
 
 - un **OSCReceiver** qui écoute les messages OSC entrants ;
 - un **script de réception**
 - une **adresse OSC** (par exemple `/angle`, `/position`, `/lumiere`) ;
 - une **fonction de réception** appelée lorsqu’un message correspondant est reçu;
-- traiter les messages reçus : [traitement de messages dans Unity](../../traitement/);
+- traiter les messages reçus : [traitement de messages dans Unity](../../../traitement/);
 - ajouter le script de réception à un GameObject;
 - lier l’OSCReceiver au script en glissant l’objet approprié.
 
