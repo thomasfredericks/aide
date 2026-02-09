@@ -1,4 +1,4 @@
-# L'Enshittification »
+# « L'Enshittification »
 
 **TL;DR - Trop long ; pas lu** : ils te soutirent plus d’argent parce que tu ne peux pas partir.
 

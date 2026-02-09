@@ -11,59 +11,61 @@ L’objectif est d’assurer un code **cohérent, lisible et maintenable**.
 - Le style doit faciliter la revue de code et la maintenance à long terme
 - Le code doit être clair pour un développeur Arduino expérimenté n’ayant jamais vu le projet
 
+## Fonctions
 
-## Classes, structures et types
+ - **lowerCamelCase** (pas de majuscule initiale)
+- Pour des fonctions qui effectuent des actions, utiliser des verbes
 
-- **UpperCamelCase** (PascalCase)
-- Pas de préfixes inutiles
-
-```cpp
-class FileManager;
-struct TokenInfo;
-enum class ColorMode;
-```
-
-## Fonctions et méthodes
-
- - **lowerCamelCase**
-- Les verbes décrivent une action
-- Pas de majuscule initiale
-
+Exemples :
 ```cpp
 void readFile();
 int computeHash(const std::string& input);
 bool isValid() const;
 ```
 
-## Variables locales et paramètres
+## Variables globales ou arguments de fonctions
+
 
 - **lowerCamelCase**
 - Noms courts mais explicites
 
+Exemples :
 ```cpp
 int fileSize;
 std::string fileName;
 ```
 
-## Membres de classe
+## Classes, structures et types
 
-- **snake_case_** 
-- Suffixe _ obligatoire
+- **UpperCamelCase** (PascalCase)
 
+Exemples :
+```cpp
+class FileManager;
+struct TokenInfo;
+enum class ColorMode;
+```
+
+## Membres (variables) privées d'une classe
+
+- **snake_case_** (suffixe _ obligatoire)
+
+Exemple :
 ```cpp
 class Reader {
-  int buffer_size_;
+  private:
+    int buffer_size_;
 };
 ```
 
 ## Constantes
 
-- **kConstantName**
-- Doivent être clairement identifiables
+- **ALL_CAPS_WITH_UNDERSCORES**
 
+Exemples : 
 ```cpp
-constexpr int kMaxBufferSize = 4096;
-constexpr double kPiValue = 3.14159;
+constexpr int MAX_BUFFER_SIZE = 4096;
+constexpr double PI_VALUE = 3.14159;
 ```
 
 ## Macros
