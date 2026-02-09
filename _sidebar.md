@@ -242,6 +242,9 @@
   - [git](/unity/git/)
   - *osc*
     - [extosc](/unity/osc/extosc/)
+      - [envoi](/unity/osc/extosc/envoi/)
+      - [initialisation](/unity/osc/extosc/initialisation/)
+      - [reception](/unity/osc/extosc/reception/)
     - [oscjackvs](/unity/osc/oscjackvs/)
   - [spout](/unity/spout/)
   - *traitement*
