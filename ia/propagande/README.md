@@ -32,6 +32,7 @@ En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé
 - [Silicon Valley’s Favorite New AI Agent Has Serious Security Flaws](https://www.404media.co/silicon-valleys-favorite-new-ai-agent-has-serious-security-flaws/)
 - [AI browsers can be tricked with malicious prompts hidden in URL fragments | CSO Online](https://www.csoonline.com/article/4097087/ai-browsers-can-be-tricked-with-malicious-prompts-hidden-in-url-fragments.html)
 
+
 ## Droit d'auteur
 
 - Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GenAI et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GenAI sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
@@ -39,6 +40,10 @@ En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé
   - [AI's Memorization Crisis - The Atlantic](https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/)
   - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
   - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
+
+## Communauté
+
+- [Vibe Coding Is Killing Open Source Software, Researchers Argue](https://www.404media.co/vibe-coding-is-killing-open-source-software-researchers-argue/)
 
 ## Désinformation
 

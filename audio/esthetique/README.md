@@ -7,18 +7,18 @@
 
 | Émotion | Timbre | Structure | Référence |
 |---|---|---|---|
-| joyeux / triste | scintillant / étouffé | musical / chaotique | mécanique / organique |
+| joyeux / triste | scintillant / sombre | musical / chaotique | mécanique / organique |
 | mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | cartoonesque / crédible |
-| plaisant / intimidant  | saturé / épuré | rythmé / chaotique | narratif / fonctionnel |
+| plaisant / intimidant  | saturé / épuré (réduction maitrisée) | rythmé / chaotique | narratif / fonctionnel |
 | dramatique / humoristique | doux / agressif | répétitif  | contrasté / uniforme |
-| apaisant / anxiogène | pur / spectre complexe | lent / rapide | simple / complexe |
-| oppressant / rassurant | minimal / dense | fluide / saccadé | ludique / sérieux |
+| apaisant / anxiogène | son pur / spectre complexe | lent / rapide | simple / complexe |
+| oppressant / rassurant | minimal (réduction extrême) / dense | fluide / saccadé | ludique / sérieux |
 | naïf / mature | chargé / aéré | statique / frénétique | performant / contemplatif |
 | enjoué / tendu | puissant / léger | pulsatif / continu | stylisé / naturaliste |
 | serein / violent | chaleureux / froid | progressif / explosif | mythique |
-| individu héroïque | brillant / sombre | tempo stable / instable | nostalgique  |
-| situation épique | physique / intangible | micro-variations | futuriste |
-| optimiste / pésimiste | précis / diffus | évolutif  | guerrier / pacifiste |
+| (individu) héroïque | brillant / sombre | tempo stable / instable | nostalgique  |
+| (situation) épique | physique / intangible | fragile / solide | futuriste |
+| optimiste / pessimiste | précis / diffus | évolutif  | guerrier / pacifiste |
 
 ## Conception sonore de Star Wars VS Star Trek
 
