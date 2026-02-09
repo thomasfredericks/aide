@@ -215,6 +215,7 @@
   - [feedback](/touchdesigner/feedback/)
   - [git](/touchdesigner/git/)
   - [globales](/touchdesigner/globales/)
+  - [l-systems](/touchdesigner/l-systems/)
   - [modularisation](/touchdesigner/modularisation/)
   - [null_et_trail](/touchdesigner/null_et_trail/)
   - *osc*
@@ -260,6 +261,7 @@
     - [10x10](/visuel/ateliers/10x10/)
     - [logo](/visuel/ateliers/logo/)
     - [typoobjekto](/visuel/ateliers/typoobjekto/)
+  - [logo](/visuel/logo/)
 - [vnc](/vnc/)
 - *windows*
   - [clavier](/windows/clavier/)
