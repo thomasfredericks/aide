@@ -1,5 +1,7 @@
 # TouchDesigner : Proportion
 
+Transforme une valeur d’entrée pour l’adapter à une autre plage de valeurs utilisable.
+
 `OP` utilisés :
 - `Math CHOP`
 - `Limit CHOP`

@@ -228,13 +228,13 @@
     - [deboguer](/touchdesigner/python/deboguer/)
   - [spout](/touchdesigner/spout/)
   - [template](/touchdesigner/template/)
-  - *traitement*
-    - [accumulation](/touchdesigner/traitement/accumulation/)
+  - [traitement](/touchdesigner/traitement/)
     - [basculement](/touchdesigner/traitement/basculement/)
-    - [glissement](/touchdesigner/traitement/glissement/)
-    - [inversion](/touchdesigner/traitement/inversion/)
+    - [inverser](/touchdesigner/traitement/inverser/)
+    - [lisser](/touchdesigner/traitement/lisser/)
     - [plage](/touchdesigner/traitement/plage/)
     - [proportion](/touchdesigner/traitement/proportion/)
+    - [variation](/touchdesigner/traitement/variation/)
   - *video*
     - [index](/touchdesigner/video/index/)
 - *unity*

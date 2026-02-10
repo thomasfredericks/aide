@@ -1,5 +1,7 @@
 # TouchDesigner : Basculement (*flip flop*)
 
+Chaque déclenchement alterne entre deux états.  
+
 `OP` utilisé :
 - `Logic CHOP`
 
