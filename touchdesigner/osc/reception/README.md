@@ -2,8 +2,8 @@
 
 
 > [!WARNING]
-> Dans TouchDesigner les adresses de messages OSC perdent leur /.
-> L'adresse OSC /bouton devient bouton dans TouchDesigner.
+> Dans TouchDesigner les adresses de messages OSC perdent leur `/`.
+> L'adresse OSC `/bouton` devient `bouton` dans TouchDesigner.
 
 
 ## Ajouter un CHOP _Osc In_ et configurer son port
@@ -25,3 +25,6 @@ Utiliser le même numéro de port que celui défini dans l'expéditeur.
 ![Réseau pour recevoir l'OSC et distinguer les messages OSC /button et /angle](angle_select-tail-null.png)
 
 
+## Traitement des signaux reçus
+
+Ne pas oublier de traiter les signaux reçus : [traitements](../../traitement/)

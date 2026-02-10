@@ -187,8 +187,6 @@
     - [sidechain](/reaper/compression/sidechain/)
   - [configuration](/reaper/configuration/)
   - [echantillonneur](/reaper/echantillonneur/)
-  - *midi*
-    - [plugin](/reaper/midi/plugin/)
   - *osc*
     - [activation](/reaper/osc/activation/)
     - [default_pattern](/reaper/osc/default_pattern/)
@@ -198,7 +196,6 @@
     - *exemples*
       - [plugdata](/reaper/osc/exemples/plugdata/)
       - [reaper_osc_play-stop-vu](/reaper/osc/exemples/reaper_osc_play-stop-vu/)
-    - [plugin](/reaper/osc/plugin/)
   - *plugin*
     - [midi](/reaper/plugin/midi/)
     - [osc](/reaper/plugin/osc/)
