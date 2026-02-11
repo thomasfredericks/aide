@@ -73,6 +73,7 @@
   - [galerie](/interactivite/galerie/)
   - [histoire](/interactivite/histoire/)
   - [public](/interactivite/public/)
+  - [scenarisation](/interactivite/scenarisation/)
 - *kinect*
   - [v1](/kinect/v1/)
 - *lidar*
