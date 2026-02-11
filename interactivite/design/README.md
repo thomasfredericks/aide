@@ -1,8 +1,8 @@
 # Design de l'interactivité
 
+
+
 ## Règles → Système → Expérience
-
-
 
 Concevoir l’interactivité implique de penser à **trois niveaux**, étroitement liés.
 
