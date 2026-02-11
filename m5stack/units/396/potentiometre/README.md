@@ -28,13 +28,17 @@ Le branchement du potentiomètre à un microcontrôleur se fait selon la logique
 
 ## Branchement au 3.96
 
-Pour le Unit 3.96 la logique de connexion générique correspond aux connexions suivantes :
+**Une petite complication** : La sortie #3/Rouge du 3.96 fournit 5 V. Les entrées analogiques sont limitées à 3.3 V. Il faut réduire le 5 V à 3.3 V avec un diviseur de tension avec deux résistances, une de 3.3k et l'autre de 1.8k.
 
-| Potentiomètre | Unit 3.96 |
-|--------------|------------|
-| Broche extérieure | #3 / Rouge (VCC) |
-| Broche centrale | #1 / Blanc (Signal) |
-| Autre broche extérieure | #4 / Noir (GND) |
+
+Pour le Unit 3.96 la logique de connexion générique, et du diviseur de tension, correspondent aux connexions suivantes :
+
+| Potentiomètre | Unit 3.96 | Résistance 1.8k | Résistance 3.3k |
+|--------------|------------|--------------|------------|
+| Broche extérieure | #3 / Rouge  |  |   |
+| | #1 / Blanc  | Une broche de la résitance  | Une broche de la résitance |
+| Broche centrale |  | | Autre broche de la résitance  |
+| Autre broche extérieure | #4 / Noir / GND| Autre broche de la résitance  | |
 
 ![Connexion d'un potentiomètre au Unit 3.96](./396_pot.png)
 
