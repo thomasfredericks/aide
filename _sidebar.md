@@ -114,6 +114,7 @@
     - [396](/m5stack/units/396/)
       - [bouton_arcade](/m5stack/units/396/bouton_arcade/)
       - [photoresistance](/m5stack/units/396/photoresistance/)
+      - [potentiometre](/m5stack/units/396/potentiometre/)
     - [angle](/m5stack/units/angle/)
     - [encoder](/m5stack/units/encoder/)
     - [fader](/m5stack/units/fader/)

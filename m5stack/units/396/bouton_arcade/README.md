@@ -68,7 +68,7 @@ Dans `setup()`, initialiser les broches, dans ce cas-ci, les broches du ATOM Lit
 
 Pour obtenir la valeur du bouton :
 ```cpp
-int monEtatBouton = digitalRead(ARCADE_SWITCH_PIN);
+int valeur = digitalRead(ARCADE_SWITCH_PIN);
 ```
 
 Pour allumer la DEL du bouton à pleine puissance :
@@ -116,11 +116,15 @@ Lorsqu'un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas 
 #define ARCADE_CHAN 0
 ```
 
+#### Code d'initialisation
+
+Aucune configuration particulière autre que l'initialisation du PbHub.
+
 #### Code d'utilisation
 
 Pour obtenir la valeur du bouton :
 ```cpp
-int monEtatBouton = myPbHub.digitalRead(ARCADE_CHAN);
+int valeur = myPbHub.digitalRead(ARCADE_CHAN);
 ```
 
 Pour allumer la DEL du bouton à pleine puissance :
