@@ -112,7 +112,7 @@
     - [matrice-cables](/m5stack/exemples/matrice-cables/)
   - *units*
     - [396](/m5stack/units/396/)
-      - [bouton-arcade](/m5stack/units/396/bouton-arcade/)
+      - [bouton_arcade](/m5stack/units/396/bouton_arcade/)
       - [photoresistance](/m5stack/units/396/photoresistance/)
     - [angle](/m5stack/units/angle/)
     - [encoder](/m5stack/units/encoder/)
@@ -132,6 +132,8 @@
     - [SLIP](/microosc/initialisation/SLIP/)
     - [UDP](/microosc/initialisation/UDP/)
   - [reception](/microosc/reception/)
+- *nano*
+  - [initialisation](/nano/initialisation/)
 - [oak](/oak/)
 - *obs*
   - [mapping](/obs/mapping/)
