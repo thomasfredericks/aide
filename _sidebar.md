@@ -134,6 +134,7 @@
     - [UDP](/microosc/initialisation/UDP/)
   - [reception](/microosc/reception/)
 - *nano*
+  - [arduino_terminals](/nano/arduino_terminals/)
   - [initialisation](/nano/initialisation/)
 - [oak](/oak/)
 - *obs*
