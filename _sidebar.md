@@ -35,9 +35,11 @@
 - *education*
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
-- *electro*
+- *electronique*
   - *del*
-  - [resistance](/electro/resistance/)
+  - [entrees_sorties](/electronique/entrees_sorties/)
+  - [references](/electronique/references/)
+  - [resistance](/electronique/resistance/)
 - [enshitification](/enshitification/)
 - *esp32*
   - [mac](/esp32/mac/)
