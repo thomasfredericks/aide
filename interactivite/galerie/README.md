@@ -95,6 +95,8 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [MUSIC 20 10 2022 - YouTube](https://www.youtube.com/watch?v=LCfWhOyY3Q4)
 - [AZIMUTH on Vimeo](https://vimeo.com/599494283)
 - [Joshua Davis Studios](https://joshuadavis.com/)
+- [alien language generator](https://codepen.io/p5art/details/XKWyob)
+- [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
 
 ## Ouvrages
 
