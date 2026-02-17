@@ -75,3 +75,7 @@ Multitude
 - [Divisional Articulations (4:33) on Vimeo](https://vimeo.com/218815513)
 - [Chaotica I - YouTube](https://www.youtube.com/watch?v=erRR3LmKLD0)
 - [Pas de deux - ONF](https://www.onf.ca/film/pas_de_deux/)
+- [LoFi Future - Circuit Bent By Design](https://www.lofifuture.com/vga-converter-video-synthesizer)
+- [Gleix Video Synth // VGS-FB](https://gleix.net/vgsfb)
+- [andrei_jay_creative_coding](https://andreijaycreativecoding.com/)
+- 
