@@ -1,23 +1,9 @@
 # Initialisation de MicroOsc
 
-## Installation
-
-### Arduino IDE
-
-Télécharger la bibliothèque `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
-
-### PlatformIO
-
-Ajouter la ligne suivante à `lib_deps` dans `platformio.ini` :
-```ini
-lib_deps =
-    https://github.com/thomasfredericks/MicroOsc.git
-```
 
 ## OSC SLIP ou UDP
 
-`MicroOsc` prend actuellement en charge deux protocoles de transport : Serial (avec SLIP) et UDP (Ethernet ou WiFi). Les deux versions utilisent un API identique, sauf pour leur initialisation.
-
+`MicroOsc` peut être initialisé soit pour un transport série avec SLIP, soit pour un transport réseau UDP. Le choix dépend du type de connexion et de la configuration matérielle de l’Arduino. Suivre les instructions suivantes selon le mode de transport :
 * [Inititalisation OSC SLIP](./SLIP/)
 * [Inititalisation OSC UDP](./UDP/)
 

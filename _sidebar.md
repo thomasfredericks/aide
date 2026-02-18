@@ -11,6 +11,9 @@
   - [random](/arduino/random/)
   - [serial](/arduino/serial/)
   - [style](/arduino/style/)
+  - [traitement](/arduino/traitement/)
+    - [changement](/arduino/traitement/changement/)
+    - [flux](/arduino/traitement/flux/)
 - *audio*
   - [conception](/audio/conception/)
   - [esthetique](/audio/esthetique/)

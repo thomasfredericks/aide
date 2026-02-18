@@ -1,64 +1,113 @@
-# L'envoi d'OSC avec MicroOsc
+# MicroOsc : Envoi
 
 ## Préalable(s)
 
 - [Initialisation de MicroOsc](../initialisation/)
+- Cette documentation assume une instance de `MicroOsc` nommée `monOsc`
 
-## Envoyer un entier par `MicroOsc` vers l'ordinateur
+## Envoi avec MicroOsc
 
-Utiliser `void sendInt(const char *address, int32_t i)` pour envoyer un entier. 
+`MicroOsc` permet d’envoyer plusieurs types de données à un destinataire OSC. Les plus utilisés sont :  
+
+- **`int`** : entier 32 bits (`int32_t`)  
+- **`float`** : nombre réel à virgule flottante  
+
+Pour envoyer une donnée, il suffit d’utiliser la méthode qui correspond au type de la donnée, par exemple `monOsc.sendInt(address, value)` ou `monOsc.sendFloat(address, value)`.  
+
+Cependant, avant de déclencher l’action d’envoi, il est recommandé de **traiter la donnée** afin de contrôler quand et comment l’envoyer. Ce traitement permet d’éviter d’envoyer des messages inutiles, de réduire la charge du microcontrôleur et de produire un flux de données cohérent.
+
+
+### Traiter la donnée pour contrôler l’envoi
+
+Le traitement peut suivre deux stratégies principales, selon le type de comportement souhaité :
+- Traitement par détection de [changement](/arduino/traitement/changement/)
+  - Réduit le nombre de messages OSC envoyés
+  - Permet de réagir uniquement aux événements pertinents
+  - Convient aux capteurs dont la valeur change de manière irrégulière ou sporadique
+- Traitement en [flux](/arduino/traitement/flux/) continu
+  - Maintient une transmission continue de l’information
+  - Convient aux visualisations temps réel ou aux systèmes qui nécessitent un rafraîchissement constant
+  - Permet d’appliquer des transformations ou des filtres avant chaque envoi
+
+
+### Envoyer un `int` par `MicroOsc` 
+
+Utiliser `sendInt( adresse, valeur )` pour envoyer un entier, où :
+- `adresse` est une chaîne de caractères (`const char *`) comme `"/alpha"` qui défini l'adresse Open Sound Control (OSC) du message.
+- `valeur` est un entier (`int32_t`) qui est la valeur a envoyer.
 
 ![](microosc_sendInt.drawio.png)
 
-Par exemple, pour envoyer la valeur de `maVariable` à l'adresse OSC `/adresseOSC` :
+Par exemple, pour envoyer la valeur de `maVariable (int32_t)` à l'adresse Open Sound Control (OSC) `/alpha (cont char *)` :
 ```cpp
-int maVariable = 10;
-monOsc.sendInt( "/adresseOSC" , maVariable);
+monOsc.sendInt( "/alpha" , maVariable);
 ```
 
-Un autre exemple pour envoyer la valeur de `maLectureAnalogique` à l'adresse OSC `/capteur` :
+Un autre exemple qui envoie la valeur de `maLectureAnalogique (int32_t)` à l'adresse Open Sound Control (OSC) `/beta (cont char *)` :
 ```cpp
-int maLectureAnalogique = analogRead(BROCHE_CAPTEUR);
-monOsc.sendInt( "/capteur" , maLectureAnalogique);
+monOsc.sendInt( "/beta" , maLectureAnalogique);
 ```
 
-## Limiter la fréquence d’envoi
+## Exemple 1 : Traitement par détection de changement
 
-C’est une **très** bonne idée de limiter la fréquence d’envoi des messages. Un microcontrôleur peut envoyer des messages plus rapidement qu’ils ne peuvent être transmis et traités par le destinataire.
+Dans ce traitement, la valeur n’est envoyée que lorsqu’elle diffère de la valeur précédente. Cette stratégie est particulièrement utile pour détecter le **moment exact** du déclenchement. **Modifiez le numéro de broche `digitalRead(2)` et l’adresse `"/bouton"`** pour correspondre à votre configuration.
 
-Pour chaque valeur de **capteur** envoyée via OSC, il est recommandé d’utiliser :
-- Un **chronomètre** pour mesurer le temps entre chaque envoi de message, à l’aide de la bibliothèque [SofaPirate/Chrono](https://github.com/SofaPirate/Chrono).
-- Une **variable globale** pour déterminer si la valeur mesurée a changé.
-
-### Exemple : limiter la fréquence d’envoi d’un message analogique
-
-#### Dans l’espace global
+Le modèle de ce traitement :
+- **ACQUISITION** : Lire la nouvelle valeur et la mettre dans une variable temporaire **unique**.
+- **CONDITION** : Comparer la valeur dans la variable temporaire avec la valeur dans la mémoire. Mettre en mémoire la nouvelle valeur.  
+    - **ACTION** : Envoyer le message Open Sound Control (OSC) avec la valeur changée.
 
 ```cpp
-#include <Chrono.h> // Ajouter la bibliothèque Chrono si ce n’est pas déjà fait
+int etatPrecedent; // Une variable en mémoire pour chauqe bouton
 
-// Variables pour un capteur analogique --------------------------|
-Chrono maLectureAnalogiqueChrono; // Chronomètre pour maLectureAnalogique
-int maLectureAnalogique;          // Variable globale pour stocker la lecture
-// ---------------------------------------------------------------|
-```
+void loop() {
 
-#### Dans la boucle `loop()`
+  // 1. Lire l’état actuel et le mettre dans une variable temporaire
+  int etatActuel = digitalRead(2);
 
-```cpp
-// Mise à jour du capteur et envoi des données par OSC si nécessaire -------|
-if (maLectureAnalogiqueChrono.hasPassed(5)) // si le chronomètre a dépassé 5 millisecondes
-{
-  int nouvelleLecture = analogRead(BROCHE_CAPTEUR); // lire la valeur du capteur
+  // 2. Comparer l’état actuel avec l’état en mémoire
+  if (etatActuel != etatPrecedent ) {
 
-  // Envoyer une mise à jour si la valeur a changé 
-  // ou si le chronomètre a dépassé 500 millisecondes
-  if (maLectureAnalogique != nouvelleLecture || maLectureAnalogiqueChrono.hasPassed(500))
-  {
-    maLectureAnalogique = nouvelleLecture;      // mettre à jour la valeur stockée
-    monOsc.sendInt("/capteur", maLectureAnalogique); // envoyer le message OSC
-    maLectureAnalogiqueChrono.restart();        // réinitialiser le chronomètre
+    // 3. Effectuer une action lors du changement d’état
+    monOsc.sendInt("/bouton", etatActuel);
+
+    // 4. Mettre en mémoire le nouvel état
+    etatPrecedent = etatActuel;
   }
 }
-// ------------------------------------------------------------------------|
 ```
+
+
+## Exemple 2 : Traitement en flux continu
+
+Dans ce traitement, la valeur est envoyée en continu toutes les 5 millisecondes. **Modifiez le numéro de broche `analogRead(0)` et l’adresse `"/angle"`** pour correspondre à votre configuration. Tous les envois peuvent utiliser la même condition de temps pour contrôler la fréquence.
+
+Le modèle de ce traitement :
+- **CONDITION** : vérifier si c'est le temps d'envoyer la ou les données
+    - **ACQUISITION** : si oui, lire la ou les valeurs 
+    - **ACTION** : et ensuite envoyer le message Open Sound Control (OSC)
+
+```cpp
+#include <Chrono.h>
+
+Chrono monChrono; // Chronomètre
+
+void loop() {
+
+  // 1. Vérifie si l’intervalle de temps est écoulé
+  if (monChrono.hasPassed(5)) { // toutes les 5 millisecondes
+    // 2. Réinitialiser le chronomètre
+    monChrono.restart();        
+
+    // 3. ACQUISITION : lire la nouvelle valeur du capteur
+    int valeur = analogRead(0); // modifier la broche si nécessaire
+
+    // 4. ACTION : envoyer la valeur via OSC
+    monOsc.sendInt("/angle", valeur); // modifier l’adresse OSC si nécessaire
+
+    // 5. RÉPÉTER l'ACQUISITION et l'ACTION pour les autres capteurs
+  }
+}
+```
+
+
