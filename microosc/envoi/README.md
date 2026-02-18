@@ -16,9 +16,6 @@ Pour envoyer une donnée, il suffit d’utiliser la méthode qui correspond au t
 
 Cependant, avant de déclencher l’action d’envoi, il est recommandé de **traiter la donnée** afin de contrôler quand et comment l’envoyer. Ce traitement permet d’éviter d’envoyer des messages inutiles, de réduire la charge du microcontrôleur et de produire un flux de données cohérent.
 
-
-### Traiter la donnée pour contrôler l’envoi
-
 Le traitement peut suivre deux stratégies principales, selon le type de comportement souhaité :
 - Traitement par détection de [changement](/arduino/traitement/changement/)
   - Réduit le nombre de messages OSC envoyés
@@ -48,7 +45,7 @@ Un autre exemple qui envoie la valeur de `maLectureAnalogique (int32_t)` à l'ad
 monOsc.sendInt( "/beta" , maLectureAnalogique);
 ```
 
-## Exemple 1 : Traitement par détection de changement
+## Extrait 1 : Traitement par détection de changement
 
 Dans ce traitement, la valeur n’est envoyée que lorsqu’elle diffère de la valeur précédente. Cette stratégie est particulièrement utile pour détecter le **moment exact** du déclenchement. **Modifiez le numéro de broche `digitalRead(2)` et l’adresse `"/bouton"`** pour correspondre à votre configuration.
 
@@ -78,7 +75,7 @@ void loop() {
 ```
 
 
-## Exemple 2 : Traitement en flux continu
+## Extrait 2 : Traitement en flux continu
 
 Dans ce traitement, la valeur est envoyée en continu toutes les 5 millisecondes. **Modifiez le numéro de broche `analogRead(0)` et l’adresse `"/angle"`** pour correspondre à votre configuration. Tous les envois peuvent utiliser la même condition de temps pour contrôler la fréquence.
 
