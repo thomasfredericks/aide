@@ -1,12 +1,12 @@
-# PlatformIO : pioarduino-espressif32 
+# PlatformIO : pioarduino-espressif32 
 
 Les microcontrôleurs _ESP32_ sont supportés dans _PlatformIO_ avec deux dépôts :
-- **espressif32** : le dépôt officiel maintenu par _PlatformIO_ (🔗 [GitHub](https://github.com/platformio/platform-espressif32))
-- **pioarduino-espressif32**  : un dépôt non-officiel géré par la communauté (🔗 [GitHub](https://github.com/pioarduino/platform-espressif32/))
+- **espressif32** : le dépôt officiel maintenu par _PlatformIO_ (🔗 [GitHub](https://github.com/platformio/platform-espressif32))
+- **pioarduino-espressif32**  : un dépôt non-officiel géré par la communauté (🔗 [GitHub](https://github.com/pioarduino/platform-espressif32/))
 
 **pioarduino-espressif32** a été créé pour maintenir le support des microcontrôleurs **Espressif** lorsque le support officiel devient insuffisant. Il permet d'utiliser les versions récentes des _framework_  ESP-IDF et Arduino.
 
-En date du 2025-12-08, voici le support fourni par les deux versions stables des dépôts :  
+En date du 2025-12-08, voici le support fourni par les deux versions stables des dépôts :  
 
 | _framework_ | [espressif32](https://github.com/platformio/platform-espressif32/releases/tag/v6.12.0) (officiel) | [pioarduino-espressif32](https://github.com/pioarduino/platform-espressif32/releases/tag/55.03.34) (communauté) |
 | --- | --- | --- |

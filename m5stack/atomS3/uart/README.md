@@ -1,4 +1,4 @@
-# AtomS3 : `UART`
+# AtomS3 : `UART`
 
 ## Activer la communication `UART` pour communiquer avec des modules/périphériques
 
@@ -17,9 +17,9 @@ HardwareSerial MySerial2(2);  // UART2
 ### Initialisation
 
 ```cpp
-  // UART1 : TX sur GPIO10, RX sur GPIO9, baudrate 115200
+  // UART1 : TX sur GPIO10, RX sur GPIO9, baudrate 115200
   MySerial1.begin(115200, SERIAL_8N1, 9, 10);
 
-  // UART2 : TX sur GPIO17, RX sur GPIO16, baudrate 9600
+  // UART2 : TX sur GPIO17, RX sur GPIO16, baudrate 9600
   MySerial2.begin(9600, SERIAL_8N1, 16, 17);
 ```

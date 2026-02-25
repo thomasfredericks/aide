@@ -1,4 +1,4 @@
-# Unity : Bonnes pratiques Git
+# Unity : Bonnes pratiques Git
 
 ## .gitignore
 

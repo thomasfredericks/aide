@@ -1,4 +1,4 @@
-# TouchDesigner : Basculement (*flip flop*)
+# TouchDesigner : Basculement (*flip flop*)
 
 Chaque déclenchement alterne entre deux états.  
 

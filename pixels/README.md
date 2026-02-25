@@ -5,7 +5,7 @@
 Un ruban de pixels DEL regroupe plusieurs pixels pouvant être contrôlées à l’aide d’une ou deux broches. Chaque pixel est composé de plusieurs DEL, généralement une rouge, une verte et une bleue. Certains modèles intègrent également des DEL supplémentaires blanches, ambrées ou ultraviolettes. 
 
 > [!NOTE]
-> Selon le modèle de ruban de pixels DEL, l’ordre des couleurs peut varier : RGB, GRB, BGR, etc.  
+> Selon le modèle de ruban de pixels DEL, l’ordre des couleurs peut varier : RGB, GRB, BGR, etc.  
 
 Aussi connu sous le nom de **NeoPixel**, ce type de produit a été popularisé par la société Adafruit, qui propose [de nombreux modèles de NeoPixels](https://www.adafruit.com/category/168). Attention, les NeoPixels d’Adafruit fonctionnent en 5 volts.
 
@@ -28,12 +28,12 @@ Aussi connu sous le nom de **NeoPixel**, ce type de produit a été popularisé 
 
 ## Broches
 
-Les NeoPixels possèdent au minimum trois broches à connecter :  
+Les NeoPixels possèdent au minimum trois broches à connecter :  
 - **GND** (masse)  
 - **Alimentation** (5 V, 12 V ou 24 V selon les modèles)  
 - **Entrée de données** (*Data In*)  
 
-Les modèles WS281X fonctionnant en 12 V comportent parfois une quatrième broche optionnelle :  
+Les modèles WS281X fonctionnant en 12 V comportent parfois une quatrième broche optionnelle :  
 - **GND**  
 - **+12 V** (alimentation)  
 - **DI** (*Data Input*, entrée de données)  
@@ -45,7 +45,7 @@ Dans cet exemple, nous utilisons un ruban DEL WS281X fonctionnant avec une tensi
 
 ![Couper un segment de ruban DEL](./Diapositive1.SVG)  
 
-![Attention : connectez-vous du côté DI (*Data Input*) et non DO !](./bande_del_sens.svg)  
+![Attention : connectez-vous du côté DI (*Data Input*) et non DO !](./bande_del_sens.svg)  
 
 ![Enlever soigneusement le revêtement sur la partie cuivrée coupée](./Diapositive2.SVG)  
 

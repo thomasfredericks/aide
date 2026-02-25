@@ -1,4 +1,4 @@
-# Max : Relais OSC SLIP ⇄ UDP
+# Max : Relais OSC SLIP ⇄ UDP
 
 ## Installation de CNMAT
 

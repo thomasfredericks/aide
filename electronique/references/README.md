@@ -1,4 +1,4 @@
-# Électronique : Référence de tension
+# Électronique : Référence de tension
 
 ## Tension négative
 

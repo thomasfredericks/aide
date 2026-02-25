@@ -1,4 +1,4 @@
-# Interactivité : scénarisation
+# Interactivité : scénarisation
 
 Cette section une méthode de scénarisation pour l’interactivité.
 

@@ -1,6 +1,6 @@
 # Compression *sidechain* dans Reaper
 
-La compression *sidechain* permet à une piste ou une groupe de piste de contrôler le volume d'une piste ou d'un groupe de piste. Voici un exemple : [Understanding Compression: Sidechaining in REAPER - YouTube](https://www.youtube.com/watch?v=JEKKGup1J68)
+La compression *sidechain* permet à une piste ou une groupe de piste de contrôler le volume d'une piste ou d'un groupe de piste. Voici un exemple : [Understanding Compression: Sidechaining in REAPER - YouTube](https://www.youtube.com/watch?v=JEKKGup1J68)
 
 
 ## Démonstration

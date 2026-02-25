@@ -1,4 +1,4 @@
-# Nano : Arduino Terminals
+# Nano : Arduino Terminals
 
 <!-- toc -->
 
@@ -15,10 +15,10 @@ Les broches analogiques disponibles sont :
 - `A2`  
 - `A3`  
 
-Pour effectuer une lecture sur l’une de ces broches, il faut utiliser `analogRead()` en spécifiant la broche souhaitée, par exemple `A1` :
+Pour effectuer une lecture sur l’une de ces broches, il faut utiliser `analogRead()` en spécifiant la broche souhaitée en omettant le `A`, par exemple `1` pour la broche `A1` :
 
 ```cpp
-int valeur = analogRead(A1);
+int valeur = analogRead(1); // Lire la broche A1
 ```
 
 ## Broches d'entrée numérique
@@ -65,14 +65,14 @@ analogWrite(3, intensity);
 
 
 
-## Exemple : Bouton d’arcade
+## Exemple : Bouton d’arcade
 
 ### Préparation du bouton
 
 Un bouton d’arcade avec DEL intégrée nécessite la soudure de deux paires de fils (quatre fils au total) :
 
-- Première paire : positif (+) et négatif (–) de la DEL. Il est essentiel de distinguer le positif du négatif. Le négatif sera raccordé au GND.
-- Deuxième paire : les deux broches de l’interrupteur. Ces broches sont interchangeables. L’une d’elles sera raccordée au GND.
+- Première paire : positif (+) et négatif (–) de la DEL. Il est essentiel de distinguer le positif du négatif. Le négatif sera raccordé au GND.
+- Deuxième paire : les deux broches de l’interrupteur. Ces broches sont interchangeables. L’une d’elles sera raccordée au GND.
 
 Les points de soudure et les étiquettes peuvent varier selon le modèle. L’exemple présenté utilise le modèle [bouton Arcade Button with LED – 30mm Translucent Red d'Adafruit ](https://www.adafruit.com/product/3489).
 
@@ -132,7 +132,7 @@ Allumage de la DEL à environ 25 % de sa puissance :
 analogWrite(3, 63);
 ```
 
-## Exemple : Potentiomètre
+## Exemple : Potentiomètre
 
 Un potentiomètre standard possède trois broches :
 

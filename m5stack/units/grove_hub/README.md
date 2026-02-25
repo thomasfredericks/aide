@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Page officielle du produit : [Unit Hub](https://docs.m5stack.com/en/unit/hub)
+Page officielle du produit : [Unit Hub](https://docs.m5stack.com/en/unit/hub)
 
 ![](grove_hub_back.png)
 

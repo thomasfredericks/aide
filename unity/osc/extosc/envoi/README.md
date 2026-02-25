@@ -1,4 +1,4 @@
-# Unity+extOSC : envoi OSC
+# Unity+extOSC : envoi OSC
 
 <!-- toc -->
 

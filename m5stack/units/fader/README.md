@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Page officielle du produit : [Unit Fader](https://docs.m5stack.com/en/unit/fader).
+Page officielle du produit : [Unit Fader](https://docs.m5stack.com/en/unit/fader).
 
 L'unité **M5Stack Fader Unit** est équipé d'un potentiomètre linéaire (_slider_ ou _fader_ en anglais) et de 14 pixels.
 
 Broches :
-- **ANALOG/ADC/IN** / fil blanc du câble Grove : permet la lecture du potentiomètre linéaire 
-- **SK6812/RGB SIGNAL/OUT** / fil jaune du câble Grove : permet de contrôler les 14 pixels
+- **ANALOG/ADC/IN** / fil blanc du câble Grove : permet la lecture du potentiomètre linéaire 
+- **SK6812/RGB SIGNAL/OUT** / fil jaune du câble Grove : permet de contrôler les 14 pixels
 
 ![](./fader.png)
 

@@ -28,7 +28,7 @@ Le branchement du potentiomètre à un microcontrôleur se fait selon la logique
 
 ## Branchement au 3.96
 
-**Une petite complication** : La sortie #3/Rouge du 3.96 fournit 5 V. Les entrées analogiques sont limitées à 3.3 V. Il faut réduire le 5 V à 3.3 V avec un diviseur de tension avec deux résistances, une de 3.3k et l'autre de 1.8k.
+**Une petite complication** : La sortie #3/Rouge du 3.96 fournit 5 V. Les entrées analogiques sont limitées à 3.3 V. Il faut réduire le 5 V à 3.3 V avec un diviseur de tension avec deux résistances, une de 3.3k et l'autre de 1.8k.
 
 
 Pour le Unit 3.96 la logique de connexion générique, et du diviseur de tension, correspondent aux connexions suivantes :

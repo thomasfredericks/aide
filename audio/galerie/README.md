@@ -1,4 +1,4 @@
-# Audio : galerie
+# Audio : galerie
 
 <!-- toc -->
 
@@ -14,7 +14,7 @@
 ## Acousmatique
 
 - [Leon Theremin’s Rhythmicon played by Andrei Smirnov | Loop - YouTube](https://www.youtube.com/watch?v=zyjOZPiW5dw)   
-- Première composition de musique électronique : [Johanna Beyer — Music of the Spheres [w/ score] - YouTube](https://www.youtube.com/watch?v=GpLbaJ8iwuA)
+- Première composition de musique électronique : [Johanna Beyer — Music of the Spheres [w/ score] - YouTube](https://www.youtube.com/watch?v=GpLbaJ8iwuA)
 - Rovner, Lisa (2020). *Sisters with transistors*. 84 min. [Vimeo](https://vimeo.com/ondemand/sisterswithtransistors)
 - [Sub Rosa. (2002). A Huge Anthology of Noise & Electronic Music (1920-2007)](http://www.openculture.com/2016/04/a-huge-anthology-of-noise-electronicmusic.html)
 - [Various Artists. (2000). OHM: Early Gurus of Electronic Music](http://archive.org/details/ohm-earlygurus)
@@ -24,9 +24,9 @@
     - [The Music and SFX of Forbidden Planet - YouTube](https://www.youtube.com/watch?v=YSFoILcyqAU)
 - [Wendy Carlos demonstrates her Moog Synthesizer in 1970 - YouTube](https://www.youtube.com/watch?app=desktop&v=4SBDH5uhs4Q)
 - [Sarah Belle Reid - Sonder III (Official Video) - YouTube](https://www.youtube.com/watch?v=D2AO1NzGHa0)
-- Père de la synthèse FM : [John Chowning - Stria (1977) - YouTube](https://www.youtube.com/watch?v=988jPjs1gao)
+- Père de la synthèse FM : [John Chowning - Stria (1977) - YouTube](https://www.youtube.com/watch?v=988jPjs1gao)
 - Version électronique d'Annette Vande Gorne. *Édition Musiques & Recherches - Revue LIEN VIII – 2017*. [Lien](https://sites.inagrm.com/avdg/index.xhtml#Xh6RxXVPWKkWzOBtBoJUwj)
-- Augoyard, J. F. et Torgue, H. (1995). *À l’écoute de l’environnement: répertoire des effets sonores*. Collection Habitat/ressources. Marseille : Parenthèses. ISBN BF353.5.N6 A85 1995
+- Augoyard, J. F. et Torgue, H. (1995). *À l’écoute de l’environnement: répertoire des effets sonores*. Collection Habitat/ressources. Marseille : Parenthèses. ISBN BF353.5.N6 A85 1995
 - Elsea, Peter (2007). *Electronic Music in Performance*. [PDF](http://peterelsea.com/Maxtuts_basic/Electronic%20Performance.pdf)
 - Elsea, Peter (2011). *Notes on Program Design with Max*. [PDF](http://peterelsea.com/Maxtuts_basic/Notes_on_Program_Design.pdf)
 - Grains

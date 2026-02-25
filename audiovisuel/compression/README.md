@@ -1,4 +1,4 @@
-# Audiovisuel : Compression
+# Audiovisuel : Compression
 
 Dans un souci de moralité écologique, nous voulons que nos fichiers audiovisuels soient le plus compressés sans trop de dégradation.
 
@@ -19,7 +19,7 @@ kbps  = (poids_en_octets * 8) / duree_secondes / 1000
 
 ### Conversion avec FFMPEG :
 
-Windows : 
+Windows : 
 ```powershell
 ffmpeg -y -i "$input" -c:v libx264 -b:v ${videoBitrate}k -pass 1 -an -f mp4 NUL
 ffmpeg -y -i "$input" -c:v libx264 -b:v ${videoBitrate}k -pass 2 -c:a aac -b:a ${audioKbps}k "$output"

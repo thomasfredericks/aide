@@ -1,4 +1,4 @@
-# Arduino : Guide de style
+# Arduino : Guide de style
 
 Ce document décrit les conventions de codage suggérées pour Arduino.  
 L’objectif est d’assurer un code **cohérent, lisible et maintenable**.
@@ -62,7 +62,7 @@ class Reader {
 
 - **ALL_CAPS_WITH_UNDERSCORES**
 
-Exemples : 
+Exemples : 
 ```cpp
 constexpr int MAX_BUFFER_SIZE = 4096;
 constexpr double PI_VALUE = 3.14159;
@@ -71,7 +71,7 @@ constexpr double PI_VALUE = 3.14159;
 ## Macros
 
 - À éviter autant que possible
-- Si nécessaires : **ALL_CAPS_WITH_UNDERSCORES**
+- Si nécessaires : **ALL_CAPS_WITH_UNDERSCORES**
 
 ```cpp
 #define LLVM_DEBUG_MODE 1

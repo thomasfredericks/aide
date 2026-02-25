@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Page officielle du produit : [Unit Light](https://docs.m5stack.com/en/unit/LIGHT)
+Page officielle du produit : [Unit Light](https://docs.m5stack.com/en/unit/LIGHT)
 
 L'unité **M5Stack Light** permet de mesurer une quantité de lumière à l'aide d'une photorésistance.
 

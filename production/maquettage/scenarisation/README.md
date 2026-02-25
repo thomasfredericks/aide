@@ -2,7 +2,7 @@
 
 ## Scénarisation de l'interactivité
 
-En interactivité, la scénarisation s'effectue principalement par le découpage de l'expérience en **scènes** subdivisées en **règles**. Les règles sont les instructions explicites qui définissent le fonctionnement. Rappel : [Règles -> Système -> Expérience](/interactivite/design/)
+En interactivité, la scénarisation s'effectue principalement par le découpage de l'expérience en **scènes** subdivisées en **règles**. Les règles sont les instructions explicites qui définissent le fonctionnement. Rappel : [Règles -> Système -> Expérience](/interactivite/design/)
 
 Pour chaque **scène**, créer un tableau :
 - 1 règle par ligne 

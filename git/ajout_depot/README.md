@@ -72,4 +72,4 @@ Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré
 
 ![](./erreur_source_control.png)
 
-Pour régler le problème, il suffit de configurer l'identité de l'utilisateur Git : [Configuration de l'identité Git](../configuration_identite/)
+Pour régler le problème, il suffit de configurer l'identité de l'utilisateur Git : [Configuration de l'identité Git](../configuration_identite/)

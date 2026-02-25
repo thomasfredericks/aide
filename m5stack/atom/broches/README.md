@@ -44,10 +44,10 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
 Dans le système M5Stack, la couleur du connecteur HY2.0-4P Grove indique normalement le type de communication :
 
-- **Noir** : Bus unique (analogique, numérique, GPIO)  
-- **Rouge** : I2C  
-- **Bleu** : UART  
-- **Blanc** : Autre / multi-usages
+- **Noir** : Bus unique (analogique, numérique, GPIO)  
+- **Rouge** : I2C  
+- **Bleu** : UART  
+- **Blanc** : Autre / multi-usages
 
 ## Définitions
 

@@ -1,4 +1,4 @@
-# M5Stack Atom Lite : Pixel intégré
+# M5Stack Atom Lite : Pixel intégré
 
 ## Introduction
 
@@ -58,7 +58,7 @@ Pour changer la couleur du pixel:
     FastLED.show();
 ```
 
-## Exemple : animation de démarrage
+## Exemple : animation de démarrage
 
 ### Avec `delay()`
 

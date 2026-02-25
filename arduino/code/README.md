@@ -44,7 +44,7 @@ void loop() {
 
 }
 ```
-On retrouve deux fonctions dans le code minimal : 
+On retrouve deux fonctions dans le code minimal : 
 * `setup()`
 * `loop()`
 
@@ -60,7 +60,7 @@ Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur�
 
 ## Les instructions 
 
-Les instructions sont des lignes de code qui disent au programme : « fais ceci, fais cela… » Ce sont donc les ordres qui seront exécutés par l'Arduino. Il est très important de respecter exactement la syntaxe ; faute de quoi, le code ne pourra pas être exécuté.
+Les instructions sont des lignes de code qui disent au programme : « fais ceci, fais cela… » Ce sont donc les ordres qui seront exécutés par l'Arduino. Il est très important de respecter exactement la syntaxe ; faute de quoi, le code ne pourra pas être exécuté.
 
 ### Les points-virgules
 
@@ -146,7 +146,7 @@ Les structures de contrôle sont des blocs d'instructions qui s'exécutent en fo
 
 Il existe quatre types de structure :
 
-`if...else` : exécute un code si certaines conditions sont remplies et éventuellement exécutera un autre code avec sinon.
+`if...else` : exécute un code si certaines conditions sont remplies et éventuellement exécutera un autre code avec sinon.
 
 Exemple :
 ```cpp
@@ -156,7 +156,7 @@ if(valeurCapteur>seuil){
     clignote();
 }
 ```
-`while` : exécute un code tant que certaines conditions sont remplies.
+`while` : exécute un code tant que certaines conditions sont remplies.
 
 Exemple :
 ```cpp
@@ -169,7 +169,7 @@ while(valeurCapteur>250){
 
 digitalWrite(5,LOW);
 ```
-`for` : exécute un code pour un certain nombre de fois.
+`for` : exécute un code pour un certain nombre de fois.
 
 Exemple :
 ```cpp
@@ -179,7 +179,7 @@ for (int i=0; i <= 255; i++){
     delay(10);
 }
 ```
-`switch...case` : fait un choix entre plusieurs codes parmi une liste de possibilités
+`switch...case` : fait un choix entre plusieurs codes parmi une liste de possibilités
 
 Exemple :
 ```cpp

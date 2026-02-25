@@ -14,7 +14,7 @@ Utiliser la fonction suivante **dans setup()** pour initialiser et configurer la
 void Serial.begin(int baud)
 ```
 La fonction accepte les paramètres suivants :
-- **int baud** : le débit de communication en bits par seconde (type de données : `long`). Le débit utilisé dans les exemples de ce site est de `115200`.
+- **int baud** : le débit de communication en bits par seconde (type de données : `long`). Le débit utilisé dans les exemples de ce site est de `115200`.
 
 ### Moniteur série dans Visual Studio Code + PlatformIO 
 
@@ -42,7 +42,7 @@ Syntaxe :
 Serial.print(val)
 ```
 Paramètres :
-`val` : la valeur à imprimer. Types de données autorisés : tout type de données.
+`val` : la valeur à imprimer. Types de données autorisés : tout type de données.
 
 Exemples :
 ```cpp

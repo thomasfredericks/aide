@@ -4,7 +4,7 @@ L'*Open Sound Control* (OSC) est un protocole de communication inter-application
 
 ## Pourquoi l'OSC? 
 
-La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d'organiser les données, et s'appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L'OSC impose une structure particulière de l'information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
+La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d'organiser les données, et s'appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L'OSC impose une structure particulière de l'information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
 
 L'OSC fournit également une vérification (primitive) des erreurs de transmission, ce qui est très important lorsque l'on travaille avec flux susceptibles au bruit!
 
@@ -28,7 +28,7 @@ Un message OSC est composé des éléments suivants:
 
 L'adresse indique quel est le paramètre que l'on veut modifier. Elle peut être composée de n'importe mot. Par contre, voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
 * Toujours commencer une adresse par `/` (attention, dans certains logiciels comme Pure Data ou TouchDesigner, le `/`  est implicite).
-* Chaque `/` subdivise l'adresse en hiérarchie symbolique. Plus une subdivision se trouve au début, plus est elle haute dans hiérarchie. Prenons comme exemple `/A/B` : `A` englobe `B` et `B` fait partie de `A`.
+* Chaque `/` subdivise l'adresse en hiérarchie symbolique. Plus une subdivision se trouve au début, plus est elle haute dans hiérarchie. Prenons comme exemple `/A/B` : `A` englobe `B` et `B` fait partie de `A`.
 * Remplacer les *espaces* par des `_`.
 
 Quelques exemples: 
@@ -42,10 +42,10 @@ Quelques exemples:
 
 
 Chaque argument possède un type. Il existe quatre types de base :
-* *int* : nombre entier à 32 bit.
-* *float* : nombre à virgule à 32 bit.
-* *string* : chaîne de caractères.
-* *blob* : un tableau d'octets (byte).
+* *int* : nombre entier à 32 bit.
+* *float* : nombre à virgule à 32 bit.
+* *string* : chaîne de caractères.
+* *blob* : un tableau d'octets (byte).
 
 Un message OSC peut mélanger plusieurs types d'arguments différents et peut contenir n'importe quel nombre d'arguments. 
 

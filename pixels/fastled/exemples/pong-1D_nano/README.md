@@ -10,7 +10,7 @@
 
 Cet exemple est basé sur le projet [DIY Arduino 1D Pong Game with WS2812 LED Strip](https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b). 
 
-Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
+Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
 
 Le projet dépend de la bibliothèque **Adafruit NeoPixel** et nécessite:
 * 1 bande de DEL d'au moins 32 pixels
@@ -506,7 +506,7 @@ static void set_state(uint8_t newstate)
       timer = TIME_BALL_BLINK;
       timeout = TIME_START_TIMEOUT;
       ballblinkstate = 0;
-      ballpos = thestate == ST_START_L ? 0 : NPIXELS - 1;
+      ballpos = thestate == ST_START_L ? 0 : NPIXELS - 1;
       break;
 
     case ST_MOVE_LR:

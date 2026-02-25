@@ -2,7 +2,7 @@
 
 **Consigne :** 
 - Concevoir une expérience interactive basée sur des règles, jouable en classe (ou dans un studio) avec un minimum de matériel (papier, marqueurs, ruban adhésif, chaises, corps).  
-- Concevoir des **systèmes interactifs** qui ressemblent à des interfaces mais :  
+- Concevoir des **systèmes interactifs** qui ressemblent à des interfaces mais :  
     - **Sans automatisation** (toute la logique gérée par les participants).  
     - **Sans explication verbale ou écrite des règles** (les règles émergent par l’interaction). Les nombres sont permis.  
     - Utiliser **papier, signes et simulacres d’interfaces** pour représenter le système.  
@@ -23,13 +23,13 @@
 
 ### Remue-méninges (15 min)
 - Esquisser 2–3 concepts. 
-- Définir l’objectif de l’expérience : Vouloir qu’elle soit tendue ? Ludique ? Injuste ? Stratégique ? Chaotique ? Méditative ? 
+- Définir l’objectif de l’expérience : Vouloir qu’elle soit tendue ? Ludique ? Injuste ? Stratégique ? Chaotique ? Méditative ? 
 
 > [!WARNING]
 > Ne pas choisir d'adapter un jeu de table ou social. Essayer d'adapter un système automatisé comme un jeu vidéo par exemple.
    
 ### Règles et système (20 min)
-Choisir une idée et définir :  
+Choisir une idée et définir :  
 - **Règles :** Que peuvent faire les joueurs ?  
 - **Système :** Comment les joueurs interagissent-ils ? Quelles ressources sont utilisées (jetons, temps, espace, attention) ? 
 - **Expérience :** Que cherchent à accomplir les joueurs ? Qu'elle expérience est-ce qu'on veut qu'ils vivent?
@@ -52,8 +52,8 @@ Choisir une idée et définir :
 - Laisser les participants comprendre les règles par interaction.  
 
 
-### Retour : Règles → Expérience (20 min)
-Discuter :  
+### Retour : Règles → Expérience (20 min)
+Discuter :  
 - Identifier les stratégies qui ont aidé à comprendre sans explication.  
 - Repérer les blocages rencontrés et les ajustements réalisés.  
 - Questionner l’intuitivité ou l’arbitraire de l’interface.  

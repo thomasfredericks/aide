@@ -5,7 +5,7 @@
 
 
 
-Page officielle du produit : [Unit ToF](https://docs.m5stack.com/en/unit/TOF)
+Page officielle du produit : [Unit ToF](https://docs.m5stack.com/en/unit/TOF)
 
 
 
@@ -68,7 +68,7 @@ Ensuite, initialiser le TOF :
 > Appliquer les configurations optionnelles suivantes seulement si nécessaire. 
 > Si l'une est nécessaire, l'intégrer dans setup()
 
-#### Configuration optionnelle : Longue distance
+#### Configuration optionnelle : Longue distance
 
 Cela augmente la sensibilité du capteur et étend sa portée potentielle, mais cela augmente également la probabilité d'obtenir une lecture inexacte en raison de réflexions provenant d'objets autres que la cible visée. Ce mode fonctionne mieux dans des conditions sombres.
 
@@ -80,7 +80,7 @@ Cela augmente la sensibilité du capteur et étend sa portée potentielle, mais 
   sensor.setVcselPulsePeriod(VL53L0X::VcselPeriodFinalRange, 14);
 ```
 
-#### Configuration optionnelle : Vitesse
+#### Configuration optionnelle : Vitesse
 
 Vitesse plus élevée au détriment de la précision. Le TOF prend 20 ms pour prendre une mesure (plutôt que 33 ms par défaut).
 
@@ -88,7 +88,7 @@ Vitesse plus élevée au détriment de la précision. Le TOF prend 20 ms pour pr
 sensor.setMeasurementTimingBudget(20000);
 ```
 
-#### Configuration optionnelle : Précision
+#### Configuration optionnelle : Précision
 
 Précision plus élevée au détriment de la vitesse. Le TOF prend 200 ms pour prendre une mesure.
 

@@ -4,7 +4,7 @@
 
 L'unité **M5Stack Angle** permet de mesurer un déplacement rotatif entre deux angles limites.
 
-Page officielle : [Unit Angle](https://docs.m5stack.com/en/unit/angle).
+Page officielle : [Unit Angle](https://docs.m5stack.com/en/unit/angle).
 
 
 ## Connexion

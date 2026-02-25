@@ -1,4 +1,4 @@
-# TD : Variation contrôlée
+# TD : Variation contrôlée
 
 Tant que le signal d’entrée reste à l’intérieur d’une plage définie, une valeur en mémoire augmente à une vitesse constante ; si le signal sort de la plage, la valeur en mémoire diminue à une vitesse qui peut être différente.  
 

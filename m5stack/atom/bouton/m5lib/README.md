@@ -2,7 +2,7 @@
 
 ## Documentation de l'API du bouton du M5Stack Atom Lite
 
-La documentation complète de l'API du bouton du M5Stack Atom Lite se trouve ici : [https://docs.m5stack.com/en/api/atom/button](https://docs.m5stack.com/en/api/atom/button)
+La documentation complète de l'API du bouton du M5Stack Atom Lite se trouve ici : [https://docs.m5stack.com/en/api/atom/button](https://docs.m5stack.com/en/api/atom/button)
 
 ## Code à intégrer dans *setup()*
 

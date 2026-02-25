@@ -2,10 +2,10 @@
 
 ## Gestalt 
 
-La distinction figure / fond est une notion centrale en perception visuelle et sonore. Elle vient de la psychologie de la forme (Gestalt) et s’applique à toutes les disciplines de la création : design, musique, cinéma, son, etc. 
+La distinction figure / fond est une notion centrale en perception visuelle et sonore. Elle vient de la psychologie de la forme (Gestalt) et s’applique à toutes les disciplines de la création : design, musique, cinéma, son, etc. 
 
 La relation figure/fond crée la hiérarchie visuelle et oriente la perception. 
-Un bon design guide le regard en jouant sur : 
+Un bon design guide le regard en jouant sur : 
 - Contraste (couleur, lumière, taille, forme) 
 - Proximité / séparation 
 - Mouvement ou direction
@@ -17,7 +17,7 @@ Un bon design guide le regard en jouant sur :
 - C’est l’élément que l’œil identifie comme principal, devant, porteur de sens. C’est ce que le spectateur « regarde ». 
 - C’est le son saillant, celui sur lequel l’attention se focalise. 
 
-Exemples : 
+Exemples : 
 - Dans un portrait, le visage est la figure. 
 - Sur une affiche, le texte ou le logo mis en avant est la figure. 
 - Dans un paysage, un arbre isolé ou un personnage peut devenir la figure. 
@@ -31,7 +31,7 @@ Exemples :
 - C’est le contexte sonore, souvent continu, qui soutient ou encadre la figure. 
 
 
-Exemples : 
+Exemples : 
 - Le ciel derrière un personnage. 
 - La texture ou la couleur uniforme qui sert de toile de fond. 
 - Le bruit ambiant. 

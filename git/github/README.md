@@ -4,7 +4,7 @@ GitHub permet de synchroniser un projet sur un ordinateur, avec un clone en lign
 
 ## Ne pas utiliser GitHub pour archiver un projet
 
-![Ici on voit une ERREUR : GitHub est utilisé pour archiver un projet](./demo_projet_error_online.png)
+![Ici on voit une ERREUR : GitHub est utilisé pour archiver un projet](./demo_projet_error_online.png)
 
 ![Ici on voit le même projet ERRONÉ mais sur l'ordinateur](./demo_projet_error.png)
 

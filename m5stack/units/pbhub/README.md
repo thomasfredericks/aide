@@ -1,7 +1,7 @@
 # M5Stack PbHub Unit
 
 ## Introduction
-Page officielle du produit : [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1)
+Page officielle du produit : [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1)
 
 Le M5Stack PbHub v1.1 permet de brancher jusqu'à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur **noir**). Il nécessite une utilisation d'une bibliothèque (voir plus bas).
 
@@ -11,7 +11,7 @@ Le M5Stack PbHub v1.1 permet de brancher jusqu'à 6 capteurs numériques ou anal
 
 > [!WARNING]
 > La version 1.1 du PbHub a un bogue majeur qui ne permet de contrôler qu'un seul pixel par canal (plutôt qu'un nombre arbitraire)
-> La version 2 semble régler ce problème : [m5stack/M5Unit-PbHub-Internal-FW](https://github.com/m5stack/M5Unit-PbHub-Internal-FW) 
+> La version 2 semble régler ce problème : [m5stack/M5Unit-PbHub-Internal-FW](https://github.com/m5stack/M5Unit-PbHub-Internal-FW) 
 
 ## Bibliothèque M5_PbHub
 
@@ -23,7 +23,7 @@ La bibliothèque [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est di
 
 #### PlatformIO
 
-Dans le fichier **platformio.ini** ajouter à la section `lib_deps` (ajouter cette catégorie si elle est absente) : 
+Dans le fichier **platformio.ini** ajouter à la section `lib_deps` (ajouter cette catégorie si elle est absente) : 
 ```
 lib_deps =
     thomasfredericks/M5_PbHub@^0.1.4
@@ -54,7 +54,7 @@ M5_PbHub myPbHub;
 
 ### Code à ajouter à `setup()`
 
-S'assurer que `Wire` est initialisé : 
+S'assurer que `Wire` est initialisé : 
 ```cpp
 Wire.begin();
 ```
@@ -62,7 +62,7 @@ Wire.begin();
 > [!WARNING] 
 > Ne pas initialiser Wire deux fois dans votre code!
 
-Démarrer `myPbHub` : 
+Démarrer `myPbHub` : 
 ```cpp
 myPbHub.begin();
 ```
@@ -122,7 +122,7 @@ Définir la couleur r, g, b du pixel à cet index du canal spécifié :
 myPbHub.setPixelColor(uint8_t channel, uint16_t index, uint8_t r,int8_t g, uint8_t b);
 ```
 
-À partir du pixel à cet index, assigner la même couleur RGB à un certain nombre de pixels sur le canal spécifié : 
+À partir du pixel à cet index, assigner la même couleur RGB à un certain nombre de pixels sur le canal spécifié : 
 ```cpp
 myPbHub.fillPixelColor(uint8_t channel, uint16_t start, uint16_t index, uint8_t r,int8_t g, uint8_t b);
 ```

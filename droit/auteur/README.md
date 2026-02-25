@@ -7,7 +7,7 @@ Le droit d'auteur au Québec est une compétence fédérale, donc déterminé pa
 
 Un montage vidéo réalisé à partir d’images trouvées sur Internet constitue une **œuvre dérivée**, puisqu’il s’agit d’une transformation ou adaptation d’œuvres préexistantes. Le caractère rapide ou créatif du montage ne change pas cette qualification juridique.
 
-Cependant, le fait qu’une œuvre soit dérivée ne signifie pas automatiquement qu’elle est illégale. Une œuvre dérivée peut être licite si une **base juridique** l’autorise. Trois situations principales sont mentionnées :  
+Cependant, le fait qu’une œuvre soit dérivée ne signifie pas automatiquement qu’elle est illégale. Une œuvre dérivée peut être licite si une **base juridique** l’autorise. Trois situations principales sont mentionnées :  
 - **L’exception de contenu généré par l’utilisateur**, applicable lorsque l’usage est :
     - non commercial, 
     - que les sources sont créditées lorsque possible, 

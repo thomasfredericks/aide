@@ -1,5 +1,5 @@
 
-# millis() : Ralentir *loop()* sans *delay()*
+# millis() : Ralentir *loop()* sans *delay()*
 
 Un `delay()` est souvent utilisé pour ralentir l'exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
 

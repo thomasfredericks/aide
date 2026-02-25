@@ -1,6 +1,6 @@
-# Unity : OSC UDP avec extOSC
+# Unity : OSC UDP avec extOSC
 
-Ce site documente deux paquets permettant d’utiliser OSC via UDP dans Unity :  
+Ce site documente deux paquets permettant d’utiliser OSC via UDP dans Unity :  
 - **extOSC** si Visual Scripting **n’est pas utilisé** (le cas le plus courant)  
 - **oscjackvs** si Visual Scripting **est utilisé** (moins fréquent)
 

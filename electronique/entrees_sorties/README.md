@@ -1,4 +1,4 @@
-# Électronique : Entrées/Sorties 
+# Électronique : Entrées/Sorties 
 
 <!-- toc -->
 
@@ -25,7 +25,7 @@
 ## Sortie numérique
 
 ![](./output_digital.png)
-- Vitesse de basculement : 30 kHz
+- Vitesse de basculement : 30 kHz
 
 ## Sortie analogique
 

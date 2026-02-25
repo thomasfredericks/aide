@@ -1,4 +1,4 @@
-# Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter
+# Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter
 
 ## Préalable(s)
 

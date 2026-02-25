@@ -1,4 +1,4 @@
-# Tutoriel : Reaper OSC Play,Stop,Volume,VU
+# Tutoriel : Reaper OSC Play,Stop,Volume,VU
 
 ```cpp
 #define CHAN_KEY 0

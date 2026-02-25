@@ -1,4 +1,4 @@
-# Audiovisuel : galerie
+# Audiovisuel : galerie
 
 <!-- toc -->
 
@@ -11,7 +11,7 @@
 - [1930's Electronic Music - Prelude by Rachmaninov - YouTube](https://www.youtube.com/watch?v=yIR3pCgqb5o)
 - [John Whitney-Matrix III (1972) - YouTube](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
 - Norman McLaren
-    - [Norman McLaren : musicien animé - ONF](https://www.onf.ca/film/norman_mclaren_musicien_anime/)
+    - [Norman McLaren : musicien animé - ONF](https://www.onf.ca/film/norman_mclaren_musicien_anime/)
     - [À la pointe de la plume - ONF](https://www.onf.ca/film/a_la_pointe_de_la_plume/)
     - [Synchromie - ONF](https://www.onf.ca/film/synchromie/)
     - [Points - ONF](https://www.onf.ca/film/points/)
@@ -52,7 +52,7 @@ Ryoji Ikeda
     - [Collapse on Vimeo](https://vimeo.com/76080177)
 - [Spin on Vimeo](https://vimeo.com/7142396?fl=pl&fe=sh)
 - [Anthropocene - YouTube](https://www.youtube.com/watch?v=8Cgyv5DjRr8)
-- [chdh : deciban](https://chdh.net/deciban.php)
+- [chdh : deciban](https://chdh.net/deciban.php)
 - [raster-noton founders on how they found visual inspiration - CDM Create Digital Music](https://cdm.link/raster-noton-founders-found-visual-inspiration/)
 - [HERMAN KOLGEN - DUST-02 on Vimeo](https://vimeo.com/21297593)
 - Quayola

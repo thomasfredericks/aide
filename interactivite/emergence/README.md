@@ -12,7 +12,7 @@ Créer un système qui encourage ce type d’interaction enrichit l'expérience 
 
 Ajouter davantage **d’actions de base** permet plus d’interactions. Cependant, la qualité est préférable à la quantité.
 
-> ⚠️ Attention : Trop d’actions mal intégrées peuvent rendre l’expérience confuse et difficile à maîtriser.
+> ⚠️ Attention : Trop d’actions mal intégrées peuvent rendre l’expérience confuse et difficile à maîtriser.
 
 #### ✅ Exemple :
 
@@ -75,7 +75,7 @@ Ce genre de liberté pousse les joueurs à **tester le système** et à découvr
 
 ---
 
-### 4. Démultiplication : plusieurs objets simples qui interagissent
+### 4. Démultiplication : plusieurs objets simples qui interagissent
 
 Même si les **objets sont simples**, leur **quantité et capacité à interagir entre eux** peut créer une profondeur émergente.
 

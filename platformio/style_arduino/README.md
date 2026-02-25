@@ -1,4 +1,4 @@
-# PlatformIO : Projet de style Arduino
+# PlatformIO : Projet de style Arduino
 
 Pour avoir un projet compatible entre Arduino et PlatformIO, le projet doit avoir une structure similaire à ceci :
 ```

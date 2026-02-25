@@ -1,4 +1,4 @@
-# MicroOscUDP : Initialisation
+# MicroOscUDP : Initialisation
 
 ## Préalables
 
@@ -27,8 +27,8 @@ lib_deps =
 Inclure et initaliser MicroOsc :
 ```cpp
 #include <MicroOscUdp.h>
-EthernetUDP monUdp; // ou pour le WiFi :  WiFiUDP myUdp; 
-MicroOscUdp<1024> monOsc(&monUdp); // <#> : nombre d'octets pour la réception de messages
+EthernetUDP monUdp; // ou pour le WiFi :  WiFiUDP myUdp; 
+MicroOscUdp<1024> monOsc(&monUdp); // <#> : nombre d'octets pour la réception de messages
 ```
 
 ### Dans `setup()`
@@ -60,7 +60,7 @@ MicroOscUdp<1024> monOsc(&myUdp); // 1024 octets pour la réception
 void setup() {
 
     char myName[MICRO_NET_NAME_MAX_LENGTH] = "device-";
-    myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
+    myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
     myMicroNet.begin(myName); // obtention d'une IP via DHCP et enregistrement mDNS
 
     unsigned int myReceptionPort = 8001;        // Port de réception
@@ -97,7 +97,7 @@ MicroOscUdp<1024> monOsc(&myUdp); // 1024 octets pour la réception
 
 void setup() {
     char myName[MICRO_NET_NAME_MAX_LENGTH] = "device-";
-    myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
+    myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
     myMicroNet.begin(myName); // connexion au réseau et obtention d'une IP via DHCP
 
     unsigned int myReceptionPort = 8001;        // Port de réception

@@ -1,4 +1,4 @@
-# Interactivité : galerie
+# Interactivité : galerie
 
 Une **expérience multimédia** est une œuvre qui intègre différents types de médias et propose une progression à suivre. Cette progression peut être très courte, possiblement seulement deux étapes, mais elle nécessite toutefois un déclencheur externe.
 
@@ -9,19 +9,19 @@ Un **jeu de table** est un jeu dans lequel les joueurs sont responsables du main
 Un **jeu interactif** est un jeu dans lequel un système automatisé est responsable du maintien des règles.
 
 ## Mots-clés
-- **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
-- **COLLECTIF** : expérience qui s'effectue à plus de 2 interacteurs.
-- **CORPORALITÉ** : expérience qui concerne le corps physique.
-- **EXPÉRIMENTAL** : une approche qui déconstruit la forme pour mieux la réinventer.
-- **CONSÉQUENCES** : expérience qui entraîne des conséquences réelles.
-- **COLLECTE** : expérience qui collectionne des données.
-- **NUMÉRISATION** : expérience qui transfert un élément du réel au virtuel.
-- **MATÉRIALISATION** : expérience qui transfert un élément du virtuel au réel.
-- **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
-- **WEB** : expérience sur le Web.
-- **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
-- **IU** : recherche sur l'interface utilisateur
-- **INSTRUMENT** : recherche sur ce qu'est un instrument
+- **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
+- **COLLECTIF** : expérience qui s'effectue à plus de 2 interacteurs.
+- **CORPORALITÉ** : expérience qui concerne le corps physique.
+- **EXPÉRIMENTAL** : une approche qui déconstruit la forme pour mieux la réinventer.
+- **CONSÉQUENCES** : expérience qui entraîne des conséquences réelles.
+- **COLLECTE** : expérience qui collectionne des données.
+- **NUMÉRISATION** : expérience qui transfert un élément du réel au virtuel.
+- **MATÉRIALISATION** : expérience qui transfert un élément du virtuel au réel.
+- **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
+- **WEB** : expérience sur le Web.
+- **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
+- **IU** : recherche sur l'interface utilisateur
+- **INSTRUMENT** : recherche sur ce qu'est un instrument
 
 ## Expériences de type jeu de table
 
@@ -40,7 +40,7 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
 - [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
 - [Lose/Lose - Wikipedia](https://en.wikipedia.org/wiki/Lose/Lose) (2009, Zach Gage) Un clone de Space Invaders où chaque ennemi correspond à un fichier de l’ordinateur du joueur. Détruire un ennemi supprime le fichier. Chaque tir a une conséquence réelle. **CONSÉQUENCES EXPÉRIMENTAL**
-- [Execution: Changing Games Forever | Ludus Novus](https://ludusnovus.net/2008/06/05/execution-changing-games-forever/) Le joueur se trouve face à un prisonnier; il peut le fusiller ou non. S’il tire, le prisonnier reste mort pour toujours. Relancer le jeu ne l’efface pas : le condamné ne revient jamais. **SUBVERSIF CONSÉQUENCES EXPÉRIMENTAL**
+- [Execution: Changing Games Forever | Ludus Novus](https://ludusnovus.net/2008/06/05/execution-changing-games-forever/) Le joueur se trouve face à un prisonnier; il peut le fusiller ou non. S’il tire, le prisonnier reste mort pour toujours. Relancer le jeu ne l’efface pas : le condamné ne revient jamais. **SUBVERSIF CONSÉQUENCES EXPÉRIMENTAL**
 - [Kloonigames » Blog Archive » 4 Minutes and 33 Seconds of Uniqueness](https://www.kloonigames.com/blog/games/4mins33secs)  Inspiré directement de la pièce de John Cage 4’33”. C’est un jeu multijoueur mondial… mais qui ne fonctionne que si un seul joueur y joue à ce moment précis. Si quelqu’un d’autre lance le jeu ailleurs dans le monde, la partie s’arrête immédiatement. Le but est simplement de tenir 4 minutes et 33 secondes en étant l’unique joueur connecté. **SUBVERSIF COLLECTIF EXPÉRIMENTAL**
 - [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria) Un jeu narratif sur la guerre par drones, où les actions du joueur entraînent des répercussions et l’obligent à réfléchir sur la responsabilité. **JOUABLE ENJEUX-SOCIAUX**
 - [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) Un “serious game” où tirer sur des terroristes tue toujours des civils et engendre encore plus de terroristes, rendant la violence sans fin. **ENJEUX-SOCIAUX**
@@ -64,7 +64,7 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 ## Expériences multimédias qui ne sont pas des jeux
 
 - [Pointer Pointer](https://pointerpointer.com/)  **COLLECTE WEB**
-- **Sketch Aquarium** : Chaque participant est invité à colorier un dessin de créature marine de son choix. Une fois le dessin terminé, le papier est numérisé et l’image est projetée dans un gigantesque aquarium virtuel. Les enfants pourront voir leur création prendre vie et nager avec les autres créatures marines. Ils peuvent également toucher les poissons pour les faire nager ou toucher le sac de nourriture virtuel pour les nourrir. **NUMÉRISATION COLLECTE COLLECTIF**
+- **Sketch Aquarium** : Chaque participant est invité à colorier un dessin de créature marine de son choix. Une fois le dessin terminé, le papier est numérisé et l’image est projetée dans un gigantesque aquarium virtuel. Les enfants pourront voir leur création prendre vie et nager avec les autres créatures marines. Ils peuvent également toucher les poissons pour les faire nager ou toucher le sac de nourriture virtuel pour les nourrir. **NUMÉRISATION COLLECTE COLLECTIF**
     - [Sketch Aquarium | teamLab Learn and Play! Future Park](https://futurepark.teamlab.art/en/playinstallations/sketch_aquarium/)
     - [Sketch Aquarium - YouTube](https://www.youtube.com/watch?v=jIQXMN7I2b4)
     - [This aquarium allows kids to see the fish they drew inside it!! - GIF - Imgur](https://imgur.com/gallery/this-aquarium-allows-kids-to-see-fish-they-drew-inside-LYRvyGj) 

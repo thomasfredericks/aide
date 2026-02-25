@@ -1,4 +1,4 @@
-# TD : Inversion
+# TD : Inversion
 
 Transformer un signal en son opposé, échangeant les valeurs positives et négatives ou 0 et 1 selon le type de signal. 
 

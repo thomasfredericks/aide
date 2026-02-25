@@ -1,18 +1,18 @@
 # Deux systèmes de pensée
 
-La plupart des informations ici sont tirées de cette vidéo : [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains - YouTube](https://www.youtube.com/watch?v=0xS68sl2D70)
+La plupart des informations ici sont tirées de cette vidéo : [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains - YouTube](https://www.youtube.com/watch?v=0xS68sl2D70)
 
 Dans «Thinking, Fast and Slow» de Daniel Kahneman. l'auteur décrit nos deux systèmes de pensée — deux types de processus qui se déroulent en même temps dans notre cerveau.
-- Le processus de pensée rapide : le système 1,
-- Le processus de pensée lent : le système 2
+- Le processus de pensée rapide : le système 1,
+- Le processus de pensée lent : le système 2
 
-## Le système 1 : la pensée automatique
+## Le système 1 : la pensée automatique
 
 Le système 1, lui, fonctionne automatiquement et rapidement, en arrière-plan, sans que l’on en ait conscience. Il trie les informations sensorielles pour ne garder que l’essentiel et s’appuie sur la mémoire à long terme pour répondre vite et efficacement. Il donne des réponses immédiates, souvent sans vérification, parce que le système 2 est paresseux et n’intervient que si nécessaire.
 
 Le système 1 traite beaucoup d'information en parralèle.
 
-## Le système 2 : le raisonnement
+## Le système 2 : le raisonnement
 
 Le système 2 correspond à la pensée consciente, lente et méthodique, celle que l’on associe à la réflexion volontaire. Il demande de l’effort et peut vérifier les erreurs, suivre des étapes logiques, et réfléchir à sa propre pensée. Par exemple, il peut calculer 13 x 17 en plusieurs étapes, même si ce n’est pas très motivant.
 
@@ -38,13 +38,13 @@ Ainsi, apprendre, c’est répéter consciemment avec le Système 2 pour automat
 Nous devons répéter cette pratique exigeante jusqu’à atteindre la maîtrise.
 Pourquoi la maîtrise est-elle si importante ? Parce qu’une compétence maîtrisée devient un domaine géré par le Système 1.
 
-Par exemple, pour la plupart d’entre nous, les tables de multiplication sont maîtrisées : elles sont stockées dans le Système 1, donc on n’a pas besoin d’y réfléchir consciemment.
+Par exemple, pour la plupart d’entre nous, les tables de multiplication sont maîtrisées : elles sont stockées dans le Système 1, donc on n’a pas besoin d’y réfléchir consciemment.
 
-Et c’est très utile : lorsqu’on doit résoudre un autre problème qui utilise ces connaissances, on ne surcharge pas le Système 2, car tout cela est devenu automatique.
+Et c’est très utile : lorsqu’on doit résoudre un autre problème qui utilise ces connaissances, on ne surcharge pas le Système 2, car tout cela est devenu automatique.
 
-C’est la clé pour améliorer la performance : développer de plus en plus de compétences automatisées.
+C’est la clé pour améliorer la performance : développer de plus en plus de compétences automatisées.
 
-Si on ne parvient jamais à ce niveau de maîtrise, chaque nouvel apprentissage devient plus difficile, car on doit continuellement mobiliser une mémoire de travail déjà encombrée par des bases non automatisées. Résultat : la charge cognitive augmente.
+Si on ne parvient jamais à ce niveau de maîtrise, chaque nouvel apprentissage devient plus difficile, car on doit continuellement mobiliser une mémoire de travail déjà encombrée par des bases non automatisées. Résultat : la charge cognitive augmente.
 
 | **Étape**  |  **Description**  | **Impact sur l'apprentissage**   |
 | ------------------------- | ---------------------------- | ----------------|

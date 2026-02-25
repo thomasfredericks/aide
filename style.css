@@ -1096,15 +1096,16 @@ h3::after {
 
 
 figure {
-  display: block;
+  display: table;
   text-align: center;
   /*border: none*/
-  border: 1px solid #888;
-  flex-flow: column;
-  /*padding: 2px;*/
-  padding: 0px;
+  border: 1px solid #aaa;
+  /*flex-flow: column;
+  padding: 2px;*/
+padding: 10px 10px 0 10px; /* top right bottom left */
   margin: 0 auto;
-  min-width: 50%;
+
+  max-width: 90%;
   background-color: #fff;
   /* 
   background: linear-gradient(to bottom, 
@@ -1116,23 +1117,17 @@ figure {
 */
 }
 
-figure::before {
-  content: "";
-  display: block;
-  text-align: center;
-}
-
-
 
 figcaption {
   display: block;
   /* Ensures figcaption behaves as a block-level element */
   width: 100%;
   /* Makes figcaption take up the full width of its parent (figure) */
-  background-color: #888;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font: italic sans-serif;
-  padding: 3px;
+  padding: 5px;
+  margin: 0px;
   text-align: center;
 
 }

@@ -1,4 +1,4 @@
-# TD : Configuration éditeur Python
+# TD : Configuration éditeur Python
 
 ## Configurer éditeur de texte 
 

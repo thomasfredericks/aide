@@ -8,7 +8,7 @@
 
 ### Client
 
-* [TigerVNC](https://github.com/TigerVNC/tigervnc/releases) : en date du 2025-12-08 cliquer sur le lien vers les *binaires* qui sont hébergés sur SourceForge et choisir le téléchargement 64 bits dont le nom ressemble à **vncviewer64-#.#.#.exe**
+* [TigerVNC](https://github.com/TigerVNC/tigervnc/releases) : en date du 2025-12-08 cliquer sur le lien vers les *binaires* qui sont hébergés sur SourceForge et choisir le téléchargement 64 bits dont le nom ressemble à **vncviewer64-#.#.#.exe**
 
 ## VNC pour macOS
 
@@ -23,5 +23,5 @@ Pour configurer un serveur VNC sur macOS, utiliser la fonctionnalité de partage
 
 ### Client
 
-macOS intègre un client VNC accessible depuis le Finder; il suffit d’ouvrir « Se connecter au serveur… » et d’entrer l’adresse du serveur VNC précédé de `vnc://` ainsi  : `vnc://adresse.du.serveur`
+macOS intègre un client VNC accessible depuis le Finder; il suffit d’ouvrir « Se connecter au serveur… » et d’entrer l’adresse du serveur VNC précédé de `vnc://` ainsi  : `vnc://adresse.du.serveur`
 

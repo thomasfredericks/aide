@@ -1,4 +1,4 @@
-# M5Stack Atom Lite : Bouton intégré 
+# M5Stack Atom Lite : Bouton intégré 
 
 ## Introduction
 

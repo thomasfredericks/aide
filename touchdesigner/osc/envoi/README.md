@@ -8,7 +8,7 @@
 
 ![](./td_osc_out_1val.png)
 * OP **resample1**
-  * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
+  * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
 * OP **rename2**
   * Paramètre **From** = `*`
   * Paramètre **To** = adresse OSC du message sans `/`
@@ -24,9 +24,9 @@
 ## Code TouchDesigner pour envoyer 3 données
 
 ![](./td_osc_out_3val.png)
-* OP **merge1** : combine les valeurs à envoyer
+* OP **merge1** : combine les valeurs à envoyer
 * OP **resample1**
-  * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
+  * Paramètre **Sample Rate** = `50` : l'intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
 * OP **rename2**
   * Paramètre **From** = `*`
   * Paramètre **To** = adresse OSC du message sans `/`

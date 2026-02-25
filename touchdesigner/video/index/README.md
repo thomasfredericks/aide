@@ -1,4 +1,4 @@
-# TouchDesigner : Lecture d'une vidéo par index
+# TouchDesigner : Lecture d'une vidéo par index
 
 Paramètres pour contrôler l'image d'une vidéo par valeur d'index.
 

@@ -1,4 +1,4 @@
-# MicroOsc *SLIP* : Initialisation
+# MicroOsc *SLIP* : Initialisation
 
 ## Installation
 
@@ -20,7 +20,7 @@ lib_deps =
 
 ```cpp
 #include <MicroOscSlip.h>
-MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d'octets pour la réception de messages
+MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d'octets pour la réception de messages
 ```
 
 ![](./microosc_initialisation.drawio.png)

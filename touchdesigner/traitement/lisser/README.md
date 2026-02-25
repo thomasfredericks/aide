@@ -1,4 +1,4 @@
-# TD : Lisser
+# TD : Lisser
 
 Réduit les fluctuations rapides d’un signal pour obtenir une courbe plus régulière, en utilisant des techniques comme la moyenne glissante ou le filtrage passe-bas.
 
@@ -7,11 +7,11 @@ Réduit les fluctuations rapides d’un signal pour obtenir une courbe plus rég
 
 ![Lisser entre des valeurs et réduction de bruit](./glissement.png)
 
-Le filtre One Euro est particulièrement utile lorsqu’on souhaite une réponse rapide : il réagit rapidement aux grands changements de valeur et atténue le tremblement dans l’entrée. À basse vitesse, une fréquence de coupure faible stabilise le signal en réduisant les tremblements, mais à mesure que la vitesse augmente, la fréquence de coupure est augmentée afin de réduire la latence. 
+Le filtre One Euro est particulièrement utile lorsqu’on souhaite une réponse rapide : il réagit rapidement aux grands changements de valeur et atténue le tremblement dans l’entrée. À basse vitesse, une fréquence de coupure faible stabilise le signal en réduisant les tremblements, mais à mesure que la vitesse augmente, la fréquence de coupure est augmentée afin de réduire la latence. 
 
-- **Cutoff Frequency** : Diminuez-la si les tremblements à basse vitesse posent un problème.
-- **Speed Coefficient** : Augmentez-le si le décalage (latence) à haute vitesse est un problème.
-- **Slope Cutoff Frequency** : Évite les pics de dérivée causés par les tremblements.
+- **Cutoff Frequency** : Diminuez-la si les tremblements à basse vitesse posent un problème.
+- **Speed Coefficient** : Augmentez-le si le décalage (latence) à haute vitesse est un problème.
+- **Slope Cutoff Frequency** : Évite les pics de dérivée causés par les tremblements.
 
 Voici une procédure pour ajuster le filtre One Euro :
 - **Cutoff Frequency** à une valeur intermédiaire raisonnable, comme 1 Hz. 

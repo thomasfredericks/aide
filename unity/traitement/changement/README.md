@@ -1,4 +1,4 @@
-# Unity : changement
+# Unity : changement
 
 ## Introduction
 
@@ -17,7 +17,7 @@ Dans ce cas :
 - `1` représente un bouton relâché
 - `0` représente un bouton appuyé
 
-Ce flux est **continu** : tant que le bouton reste dans le même état, la valeur ne change pas. L’objectif est donc de détecter **les transitions** entre ces états.
+Ce flux est **continu** : tant que le bouton reste dans le même état, la valeur ne change pas. L’objectif est donc de détecter **les transitions** entre ces états.
 
 Les symboles ⬇︎ et ⬆︎ représentent visuellement ces transitions :
 ```
@@ -34,8 +34,8 @@ Un changement d’état correspond toujours à une comparaison entre :
 Dans le cas d’un bouton binaire, il existe exactement deux types de changements possibles :
 
 ```
-1 → 0 : ⬇︎ bouton pressé
-0 → 1 : ⬆︎ bouton relâché
+1 → 0 : ⬇︎ bouton pressé
+0 → 1 : ⬆︎ bouton relâché
 ```
 
 Ces changements peuvent ensuite être traduits en événements logiques, par exemple :

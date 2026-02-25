@@ -1,6 +1,6 @@
 # Atom (Lite)
 
- Page officielle de l'Atom (Lite) : [Atom-Lite](https://docs.m5stack.com/en/core/ATOM%20Lite)
+ Page officielle de l'Atom (Lite) : [Atom-Lite](https://docs.m5stack.com/en/core/ATOM%20Lite)
 
 ![](./atom_lite_schematic.webp)
 

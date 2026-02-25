@@ -1,4 +1,4 @@
-# Pd : Relais OSC SLIP ⇄ UDP
+# Pd : Relais OSC SLIP ⇄ UDP
 
 ## Prérequis
 
@@ -10,5 +10,5 @@
 
 ![Patcher relais_osc_slip_udp.pd](./relais_osc_slip_udp.png)
 
-Télécharger le patcher ici : [relais_osc_slip_udp.pd](./relais_osc_slip_udp.pd)
+Télécharger le patcher ici : [relais_osc_slip_udp.pd](./relais_osc_slip_udp.pd)
 

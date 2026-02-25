@@ -15,23 +15,23 @@ La réception d’un message OSC avec MicroOsc repose sur deux éléments :
 4. Appeler `onOscMessageReceived()` à chaque passage dans `loop()`.
 5. Éviter `delay()` pour ne pas bloquer la réception.
 
-La réception OSC suit une logique événementielle : chaque message déclenche immédiatement un traitement. Cette structure permet de construire des systèmes interactifs réactifs, robustes et clairement organisés.
+La réception OSC suit une logique événementielle : chaque message déclenche immédiatement un traitement. Cette structure permet de construire des systèmes interactifs réactifs, robustes et clairement organisés.
 
 La réception suit également un modèle structuré :
-- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l'envoi à la fonction de rappel.
-- **CONDITION** : vérifier l’adresse OSC et les types d’arguments du `MicroOscMessage`.
-    - **ACTION** : lire les arguments pour modifier le comportement du système.
+- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l'envoi à la fonction de rappel.
+- **CONDITION** : vérifier l’adresse OSC et les types d’arguments du `MicroOscMessage`.
+    - **ACTION** : lire les arguments pour modifier le comportement du système.
 
 ## Types supportés en réception
 
 MicroOsc peut recevoir les types suivants :
 
-- `i` : int32
-- `f` : float
-- `d` : double
-- `s` : string
-- `b` : blob
-- `m` : MIDI (4 bytes)
+- `i` : int32
+- `f` : float
+- `d` : double
+- `s` : string
+- `b` : blob
+- `m` : MIDI (4 bytes)
 
 Les arguments doivent toujours être lus dans l’ordre défini par les type tags.
 
@@ -66,10 +66,10 @@ Cette vérification constitue la **CONDITION** du traitement.
 // FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
-   // CONDITION : vérifier adresse ET types
+   // CONDITION : vérifier adresse ET types
    if (message.checkOscAddressAndTypeTags("/alpha", "i")) {  // MODIFIER l’adresse si nécessaire
 
-        int valeur = message.nextAsInt();  // ACTION : lire l’argument
+        int valeur = message.nextAsInt();  // ACTION : lire l’argument
 
         // ACTION utilisant la valeur
    } 
@@ -177,7 +177,7 @@ void loop() {
         monChrono.restart();
 
         // ACTION exécutée toutes les 5 ms
-        // Exemple : mise à jour d’un affichage
+        // Exemple : mise à jour d’un affichage
     }
 }
 ```
@@ -197,7 +197,7 @@ Dans cette structure :
 ```cpp
 
 #include <MicroOscSlip.h>
-MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d'octets pour la réception de messages
+MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d'octets pour la réception de messages
 
 #include <Chrono.h>
 Chrono monChrono;
@@ -209,10 +209,10 @@ void setup() {
 // FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
-   // CONDITION : vérifier adresse ET types
+   // CONDITION : vérifier adresse ET types
    if (message.checkOscAddressAndTypeTags("/alpha", "i")) {  // MODIFIER l’adresse si nécessaire
 
-        int valeur = message.nextAsInt();  // ACTION : lire l’argument
+        int valeur = message.nextAsInt();  // ACTION : lire l’argument
 
         // ACTION utilisant la valeur
    } 

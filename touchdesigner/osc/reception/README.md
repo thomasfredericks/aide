@@ -27,4 +27,4 @@ Utiliser le même numéro de port que celui défini dans l'expéditeur.
 
 ## Traitement des signaux reçus
 
-Ne pas oublier de traiter les signaux reçus : [traitements](../../traitement/)
+Ne pas oublier de traiter les signaux reçus : [traitements](../../traitement/)

@@ -29,8 +29,8 @@ Voici des exemples de tâches à effectuer pour une démo de faisabilité :
     - Trouver un exemple semblable à ce qui est désiré. 
     - Faire fonctionner cet exemple et démontrer comment il peut être adapté pour les besoins du projet. 
     - Confirmer que l’environnement retenu permet les interactions nécessaires et le rendu visuel souhaité 
-- Valider le système de capture/d'interaction : 
-    - Identifier les solutions possibles : caméras, capteurs, microphones, Lidar, Arduino, Kinect/Azure, Leap Motion, etc. 
+- Valider le système de capture/d'interaction : 
+    - Identifier les solutions possibles : caméras, capteurs, microphones, Lidar, Arduino, Kinect/Azure, Leap Motion, etc. 
     - Trouver un exemple similaire à ce qui est désiré. 
     - Préparer un exemple permettant d’obtenir des évènements qui peuvent être intégrés à l'environnement de développement. 
 

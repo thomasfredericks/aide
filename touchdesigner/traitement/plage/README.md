@@ -1,4 +1,4 @@
-# TD : Plage
+# TD : Plage
 
 Détermine si un signal se trouve dans, ou à l'extérieur, d'une plage de valeurs définie.  
 

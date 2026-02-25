@@ -7,9 +7,9 @@ L’éducation ne sert pas qu’à décrocher un emploi. Elle vise à créer une
 L'éducation doit libérer, et donner de l’agentivité aux élèves. Elle  doit former à l’émancipation. 
 
 Qualités à développer chez les étudiants :
-* **Agentivité** : réfléchir et identifier ses intérêts
-* **Vivre ensemble** : Les étudiants doivent apprendre à interagir avec d’autres êtres
-* **Communiquer** : Écouter et parler
+* **Agentivité** : réfléchir et identifier ses intérêts
+* **Vivre ensemble** : Les étudiants doivent apprendre à interagir avec d’autres êtres
+* **Communiquer** : Écouter et parler
 
 
 ## Apprendre à réfléchir
@@ -20,11 +20,11 @@ Apprendre à **résoudre des problèmes**, pas seulement à répondre à des que
 
 ## Vivre ensemble
 
-Les élèves doivent apprendre à être humains ensemble : **travailler avec leurs pairs**, **dialoguer avec les membres de la communauté**, **comprendre l’autre**. La société se construit à travers les échanges humains.
+Les élèves doivent apprendre à être humains ensemble : **travailler avec leurs pairs**, **dialoguer avec les membres de la communauté**, **comprendre l’autre**. La société se construit à travers les échanges humains.
 
 L’**art d’écouter** l’autre est une compétence fondamentale, qui doit être davantage développée. Dans le souci de se faire comprendre et d’échanger, les élèves doivent aussi **apprendre à s’exprimer**.
 
-L'école est un lieu d’**apprentissage social** : **coopération**, **respect**, **empathie**.
+L'école est un lieu d’**apprentissage social** : **coopération**, **respect**, **empathie**.
 
 ![](./empathie_et_cooperation.png)
 

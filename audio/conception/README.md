@@ -9,12 +9,12 @@ Elle vise à créer des sons **vivants, immersifs et significatifs**, capables d
 
 La virtuosité technique consiste à **maîtriser les aspects formels du son**, afin qu’il soit clair, équilibré et agréable à écouter.  
 Les caractéristiques recherchées sont :
-- **Dynamique sonore maîtrisée** : variations de volume cohérentes avec l’intention et le contexte  
-- **Volumes équilibrés** : éviter qu’un son masque ou soit masqué par d’autres
-- **Absence d'écrêtage (*clipping*) numérique** : éviter que le signal dépasse le niveau maximal (0 dBFS) dans un logiciel audio ou sur un circuit numérique, entraînant des coupures abruptes du signal, des craquements ou des bruits désagréables.  
-- **Réduction du bruit indésirable** : minimiser les artefacts, bruits parasites ou saturation non désirée  
-- **Découpage approprié des éléments sonores** : transitions nettes et fluides, sans coupures abruptes  
-- **Absence de cliques (*click*) ou d’artefacts numériques** : garantir un rendu propre et professionnel  
+- **Dynamique sonore maîtrisée** : variations de volume cohérentes avec l’intention et le contexte  
+- **Volumes équilibrés** : éviter qu’un son masque ou soit masqué par d’autres
+- **Absence d'écrêtage (*clipping*) numérique** : éviter que le signal dépasse le niveau maximal (0 dBFS) dans un logiciel audio ou sur un circuit numérique, entraînant des coupures abruptes du signal, des craquements ou des bruits désagréables.  
+- **Réduction du bruit indésirable** : minimiser les artefacts, bruits parasites ou saturation non désirée  
+- **Découpage approprié des éléments sonores** : transitions nettes et fluides, sans coupures abruptes  
+- **Absence de cliques (*click*) ou d’artefacts numériques** : garantir un rendu propre et professionnel  
 
 ## Intention
 
@@ -51,7 +51,7 @@ Chaque son doit avoir un rôle clair dans l’expérience.
 L’expressivité sonore permet d’insuffler **vie et personnalité** aux sons.  
 Les caractéristiques recherchées sont :
 
-- **Empilage de couches** pour profondeur et nuance :  
+- **Empilage de couches** pour profondeur et nuance :  
   - Superposition de **sons enregistrés** pour authenticité  
   - Superposition de **sons transformés** (étirement, changement de hauteur, effets) pour variation et abstraction  
   - Superposition de **sources différentes** pour complexité et richesse spatiale  
@@ -59,7 +59,7 @@ Les caractéristiques recherchées sont :
   - [How To Make Sound Effects For Games - YouTube](https://www.youtube.com/watch?v=Kux_LvRl57U) 
   - [The Secret To The Gruesome Sounds In Mortal Kombat Is Exploding Vegetables - YouTube](https://www.youtube.com/watch?v=IYS0rPYjW28&t=6s)
   
-- **Micro-variations** qui donnent vie et présence au son :  
+- **Micro-variations** qui donnent vie et présence au son :  
   - Variations subtiles de timbre, d’intensité ou de rythme  
   - Éviter la monotonie et renforcer la sensation d’un son vivant et organique  
   - Essayer [jsfxr - 8 bit sound maker and online sfx generator](https://sfxr.me/) pour créer des variations sur le même thème ! 
@@ -69,7 +69,7 @@ Les caractéristiques recherchées sont :
 
 ## Cohérence
 
-La cohérence garantit que les sons sont **perçus comme appartenant au même univers sonore** :  
+La cohérence garantit que les sons sont **perçus comme appartenant au même univers sonore** :  
 - Le son dialogue avec l’image, l’espace et les autres sons  
 - Les sons simultanés semblent provenir de la même source  
 - Maintenir une **harmonie globale**, tant au niveau du timbre que de la dynamique  

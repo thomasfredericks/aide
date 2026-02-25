@@ -4,8 +4,8 @@
 ## Préparation
 
 Il faut souder 2 paires de fils (donc 4 au total) au bouton d'arcade :
-- Première paire : positif(+) et négatif(-) de la DEL. Il est important de distinguer le positif du négatif.
-- Deuxième paire : les 2 broches de l'interrupteur. Ces deux broches sont interchangeables.
+- Première paire : positif(+) et négatif(-) de la DEL. Il est important de distinguer le positif du négatif.
+- Deuxième paire : les 2 broches de l'interrupteur. Ces deux broches sont interchangeables.
 
 Les points de soudure et les étiquettes diffèrent selon chaque modèle. Voici un exemple avec 
 le [bouton Arcade Button with LED – 30mm Translucent Red d'Adafruit ](https://www.adafruit.com/product/3489)

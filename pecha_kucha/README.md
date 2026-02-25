@@ -5,13 +5,13 @@ Le format Pecha Kucha est une façon très particulière de faire une présentat
 - Présentations d’équipe rapides (pitchs de projet, brainstorming). 
 - Conférences qui veulent garder un rythme vivant. 
 
-Le principe : 
+Le principe : 
 - 15 diapositives PowerPoint EXACTEMENT 
 - 20 secondes de durée chacune EXACTEMENT 
 - Les diapositives avancent automatiquement 
 - Donc la présentation dure EXACTEMENT 5 minutes au total  
-- Rythme rapide : pas le temps de s’étendre, chaque idée doit être claire et concise. 
-- Visuel : les diapositives sont surtout des images, pas des longs textes. 
+- Rythme rapide : pas le temps de s’étendre, chaque idée doit être claire et concise. 
+- Visuel : les diapositives sont surtout des images, pas des longs textes. 
 - Éviter d'inclure des vidéos, de l'audio et surtout des liens externes 
 
 ## Exemples de présentations Pecha Kucha

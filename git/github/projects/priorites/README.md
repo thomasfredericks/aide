@@ -6,8 +6,8 @@
 
 ## Configurer les priorités pour avoir au minimum MVP et NTH
 
-* MVP : *Minimum Viable Product*
-* NTH : *Nice to Have*
+* MVP : *Minimum Viable Product*
+* NTH : *Nice to Have*
 
 ![](./priorities_settings.png)
 

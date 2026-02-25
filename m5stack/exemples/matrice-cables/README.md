@@ -1,4 +1,4 @@
-# Tutoriel : Matrice de connexions de câbles
+# Tutoriel : Matrice de connexions de câbles
 
 ## Tutoriel
 

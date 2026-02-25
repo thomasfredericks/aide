@@ -1,4 +1,4 @@
-# Arduino : traiter le changement
+# Arduino : traiter le changement
 
 Dans un système interactif, la plupart des actions ne doivent pas être exécutées en continu, mais seulement lorsqu’un changement significatif se produit. Traiter le changement consiste à comparer l’état actuel d’une entrée avec son état précédent afin de déclencher une action uniquement au moment pertinent.
 
@@ -6,9 +6,9 @@ Cette approche permet de réduire les calculs inutiles, d’éviter les répéti
 
 
 Le modèle de ce traitement :
-- **ACQUISITION** : Lire la nouvelle valeur et la mettre dans une variable temporaire **unique**.
-- **CONDITION** : Comparer la valeur dans la variable temporaire avec la valeur dans la mémoire. Mettre en mémoire la nouvelle valeur.  
-    - **ACTION** : Effectuer une action si la valeur est différente.
+- **ACQUISITION** : Lire la nouvelle valeur et la mettre dans une variable temporaire **unique**.
+- **CONDITION** : Comparer la valeur dans la variable temporaire avec la valeur dans la mémoire. Mettre en mémoire la nouvelle valeur.  
+    - **ACTION** : Effectuer une action si la valeur est différente.
 
 ## Détection simple de changement
 
@@ -84,13 +84,13 @@ void loop() {
   // ACQUISITION de la valeur du bouton
   bouton.update();
 
-  // CONDITION : Détection d’un front montant (bouton pressé)
+  // CONDITION : Détection d’un front montant (bouton pressé)
   if (bouton.pressed()) {
 
     // ACTION ICI
   }
 
-  // CONDITION : Détection d’un front descendant (bouton relâché)
+  // CONDITION : Détection d’un front descendant (bouton relâché)
   if (bouton.released()) {
 
     // ACTION ICI

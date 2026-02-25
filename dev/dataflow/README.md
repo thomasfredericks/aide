@@ -44,21 +44,21 @@ Un inspecteur permet d'afficher plusieurs informations importantes :
     - Les valeurs actuelles des paramètres des nodes.
 
 **Exemple :**  
-- On crée un réseau simple : `oscillator -> out`.
+- On crée un réseau simple : `oscillator -> out`.
 - En cliquant sur le mot `oscillator` l'inspecteur affiche les paramètres de l'oscillateur et permet leur modification :
-    - frequency : Hz 
-    - shape : SIN, SQUARE, TRIANGLE, ...
+    - frequency : Hz 
+    - shape : SIN, SQUARE, TRIANGLE, ...
 
 ## Restauration de l'état
 
 Dans un réseau nodal, modifier la structure du réseau ne doit pas réinitialiser son état d'exécution. Contrairement à un langage interprété ou compilé, l'exécution ne repart pas automatiquement depuis l'état initial lorsque le réseau change.
 
-Pour gérer cela, on distingue deux types d'état :  
-- **État initial** : défini à l'ouverture du réseau.  
-- **État courant** : reflète les valeurs actuelles pendant l'exécution.
+Pour gérer cela, on distingue deux types d'état :  
+- **État initial** : défini à l'ouverture du réseau.  
+- **État courant** : reflète les valeurs actuelles pendant l'exécution.
 
 **Exemple :**  
-- On crée un réseau simple : `oscillator -> out`. L'oscillateur démarre à une fréquence de 440 Hz et envoie le signal vers la sortie audio.  
+- On crée un réseau simple : `oscillator -> out`. L'oscillateur démarre à une fréquence de 440 Hz et envoie le signal vers la sortie audio.  
 - Durant l'exécution, on change la fréquence de l'oscillateur à 600 Hz via l'inspecteur.  
 - Si l'on modifie ensuite le réseau en ajoutant un filtre, par exemple `oscillator -> filtre -> out`, **l'oscillateur conserve sa fréquence actuelle de 600 Hz**. Il ne revient pas à sa valeur initiale de 440 Hz.
 

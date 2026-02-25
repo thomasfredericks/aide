@@ -1,4 +1,4 @@
-# Reaper OSC default_pattern : général 
+# Reaper OSC default_pattern : général 
 
 ## Démarrer la lecture
 
@@ -17,4 +17,4 @@
 ```
 /master/volume n
 ```
-* `n` : _float_ entre 0.0 et 1.0
+* `n` : _float_ entre 0.0 et 1.0

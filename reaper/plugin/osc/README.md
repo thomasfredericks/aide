@@ -1,5 +1,5 @@
 
-# Reaper : contrôle d'un plugin par OSC
+# Reaper : contrôle d'un plugin par OSC
 
 ## Préalable(s)
 
@@ -35,9 +35,9 @@ Si le [default_pattern](/reaper/osc/default_pattern/) est utilisé, voici le for
 ```
 /vkb_midi/@/note/# i
 ```
-* `@` : canal 0-15 (int)
-* `#` : numéro de la note 0-127 (int)
-* `i` : vélocité 0-127 (int)
+* `@` : canal 0-15 (int)
+* `#` : numéro de la note 0-127 (int)
+* `i` : vélocité 0-127 (int)
 
 #### Message OSC pour envoyer un MIDI CC au Virtual MIDI Keyboard
 
@@ -55,8 +55,8 @@ Si le [default_pattern](/reaper/osc/default_pattern/) est utilisé, voici le for
 ```
 /vkb_midi/@/cc/# i
 ```
-* `@` : canal 0-15 (int)
-* `#` : numéro du CC 0-127 (int)
-* `i` : valeur 0-127 (int)
+* `@` : canal 0-15 (int)
+* `#` : numéro du CC 0-127 (int)
+* `i` : valeur 0-127 (int)
 
 

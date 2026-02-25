@@ -1,4 +1,4 @@
-# Reaper : Configuration 
+# Reaper : Configuration 
 
 ## Partir un nouveau projet
 

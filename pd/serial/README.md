@@ -14,4 +14,4 @@ Pour recevoir et envoyer sur le port série, il est nécessaire d'ajouter l'obje
 
 ![](./exemple_comport.png)
 
-Télécharger l'exemple ici : [exemple_comport.pd](./exemple_comport.pd)
+Télécharger l'exemple ici : [exemple_comport.pd](./exemple_comport.pd)

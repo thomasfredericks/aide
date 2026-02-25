@@ -1,6 +1,6 @@
-# TD : Aide mémoire Python
+# TD : Aide mémoire Python
 
-Source : [TouchDesigner Python Cheat Sheet for Developers - The Interactive & Immersive HQ](https://interactiveimmersive.io/blog/python/python-cheat-sheet-for-touchdesigner-developers/) par Jack DiLaura
+Source : [TouchDesigner Python Cheat Sheet for Developers - The Interactive & Immersive HQ](https://interactiveimmersive.io/blog/python/python-cheat-sheet-for-touchdesigner-developers/) par Jack DiLaura
 
 ## Formatage F-String
 
@@ -83,11 +83,11 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Effacer le contenu d'un tableau | `op('table1').clear()` |
 | Effacer le contenu d'un tableau, mais conserver la première ligne | `op('table1').clear(keepFirstRow = True)`♠︎ |
 
- ♠︎ : peut aussi utiliser `keepFirstCol = True` pour garder la première colonne, et `keepSize=True` pour garder la taille du tableau, mais supprimer tout le contenu des cellules
+ ♠︎ : peut aussi utiliser `keepFirstCol = True` pour garder la première colonne, et `keepSize=True` pour garder la taille du tableau, mais supprimer tout le contenu des cellules
 
-## Le module TDU : Une variété d'utilitaires Python utiles
+## Le module TDU : Une variété d'utilitaires Python utiles
 
-Le module TDU est un fourre-tout de fonctions utiles. Pour plus de détails, consultez la page de référence sur le module TDU : `https://docs.derivative.ca/Tdu_Module`
+Le module TDU est un fourre-tout de fonctions utiles. Pour plus de détails, consultez la page de référence sur le module TDU : `https://docs.derivative.ca/Tdu_Module`
 
 | Description | Expression Python | Exemple de Résultat |
 | :--- | :--- | :--- |

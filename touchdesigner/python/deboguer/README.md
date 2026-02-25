@@ -1,4 +1,4 @@
-# TD : Déboguer Python
+# TD : Déboguer Python
 
 
 ## Ouvrir Texport

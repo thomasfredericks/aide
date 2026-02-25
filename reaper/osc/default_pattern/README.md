@@ -1,4 +1,4 @@
-# Reaper : OSC _default pattern_ 
+# Reaper : OSC _default pattern_ 
 
 ## Ouverture du fichier de configuration OSC _default pattern_
 
@@ -23,7 +23,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 ```
 /master/volume n
 ```
-* `n` : _float_ entre 0.0 et 1.0
+* `n` : _float_ entre 0.0 et 1.0
 
 #### Volume d'une piste
 
@@ -31,16 +31,16 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 ```
 /track/@/volume n
 ```
-* `@` : numéro de la piste (commence à 1)
-* `n` : _float_ entre 0.0 et 1.0
+* `@` : numéro de la piste (commence à 1)
+* `n` : _float_ entre 0.0 et 1.0
 
 #### Spatialisation (pan) d'une piste
 
 ```
 /track/@/pan n
 ```
-* `@` : numéro de la piste (commence à 1)
-* `n` : _float_ entre 0.0 et 1.0
+* `@` : numéro de la piste (commence à 1)
+* `n` : _float_ entre 0.0 et 1.0
 
 
 ### Quelques messages OSC envoyés par Reaper
@@ -50,7 +50,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 ```
 /master/vu n
 ```
-* `n` : _float_ entre 0.0 et 1.0
+* `n` : _float_ entre 0.0 et 1.0
 
 
 

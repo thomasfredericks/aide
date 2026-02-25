@@ -33,7 +33,7 @@ Préciser les logiciels et systèmes nécessaires au bon fonctionnement de l’i
 
 ## Synoptique
 
-Créer un synoptique (avec [Mermaid](https://mermaid.js.org/) ou [Draw.io](https://app.diagrams.net/)) représentant les connexions entre les équipements : 
+Créer un synoptique (avec [Mermaid](https://mermaid.js.org/) ou [Draw.io](https://app.diagrams.net/)) représentant les connexions entre les équipements : 
 - câblages 
 - réseaux
 - signaux audio/vidéo
@@ -64,7 +64,7 @@ La planification de l’espace est une étape essentielle dans la conception de 
 
 La disposition des dispositifs multimédias (projecteurs, capteurs, caméras, haut-parleurs, etc.) doit être soigneusement pensée afin d’assurer une cohérence entre les besoins techniques et l’expérience utilisateur. Chaque emplacement doit être pensé en fonction des contraintes techniques, de la portée des capteurs et de la nature des interactions prévues.
 
-Enfin, la circulation des visiteurs doit être anticipée : les déplacements doivent rester fluides et intuitifs, tout en favorisant la découverte progressive des points d’interaction et des effets visuels et sonores de l’installation.
+Enfin, la circulation des visiteurs doit être anticipée : les déplacements doivent rester fluides et intuitifs, tout en favorisant la découverte progressive des points d’interaction et des effets visuels et sonores de l’installation.
 
 **Le plan d'implantation doit être à l'échelle !**
 
@@ -77,4 +77,4 @@ Exemples :
 ## Budget
 
 
-Comptabiliser dans une liste **facile à mettre à jour** l'estimation des coûts : Calculer les coûts associés à l'acquisition de matériel, de logiciels, au développement et à la maintenance.  
+Comptabiliser dans une liste **facile à mettre à jour** l'estimation des coûts : Calculer les coûts associés à l'acquisition de matériel, de logiciels, au développement et à la maintenance.  

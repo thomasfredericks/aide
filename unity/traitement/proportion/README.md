@@ -1,10 +1,10 @@
-# Unity : Proportion
+# Unity : Proportion
 
 ## Introduction
 
 Lorsqu’un flux de données représente une valeur continue (par exemple un capteur analogique, une glissière, une distance, une intensité, etc), il est souvent nécessaire de transformer cette valeur d’entrée pour l’adapter à une autre plage de valeurs utilisable dans Unity.
 
-Ce type de transformation est appelé **traitement proportionnel** : une valeur située dans une plage d’entrée donnée est mise à l’échelle vers une plage de sortie différente, tout en conservant les proportions relatives.
+Ce type de transformation est appelé **traitement proportionnel** : une valeur située dans une plage d’entrée donnée est mise à l’échelle vers une plage de sortie différente, tout en conservant les proportions relatives.
 
 Par exemple, un capteur peut fournir des valeurs comprises entre `0` et `1023`, alors qu’un paramètre dans Unity (comme une rotation, un volume ou une vitesse) attend une valeur comprise entre `0.0` et `1.0`.
 
@@ -66,7 +66,7 @@ float valeurProportionnelle = Proportion(
 );
 
 // METTRE ici le code qui utilise la valeur proportionnelle
-// par exemple : rotation, intensité lumineuse, volume, etc.
+// par exemple : rotation, intensité lumineuse, volume, etc.
 ```
 
 ## Exemple d’application

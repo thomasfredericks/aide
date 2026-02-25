@@ -139,7 +139,7 @@
     - [SLIP](/microosc/initialisation/SLIP/)
     - [UDP](/microosc/initialisation/UDP/)
   - [reception](/microosc/reception/)
-- *nano*
+- [nano](/nano/)
   - [arduino_terminals](/nano/arduino_terminals/)
   - [initialisation](/nano/initialisation/)
 - [oak](/oak/)

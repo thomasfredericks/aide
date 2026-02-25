@@ -2,7 +2,7 @@
 
 ## Installation
 
-- La version _vanille_ de Pure Data se trouve ici : [Software by Miller Puckette](https://msp.ucsd.edu/software.html)
+- La version _vanille_ de Pure Data se trouve ici : [Software by Miller Puckette](https://msp.ucsd.edu/software.html)
 - L'exécutable, nommé _pd_,  se trouve dans le dossier _bin_.
 
 > [!WARNING]
@@ -12,24 +12,24 @@
 
 ## Interface générale
 
-- **Patchs** : Comme dans Max, un patch est un fichier `.pd`.  
-- **Objets** : Même principe que dans Max, créés dans des boîtes rectangulaires.  
-- **Commentaires** : Boîtes de texte (utilisées pour documenter).  
-- **Messages** : Boîtes spécifiques avec un texte qui envoie des valeurs ou instructions.  
-- **Nombres** : boîtes de contrôle numériques (`floatatom` ou `number`).  
-- **Bang** : bouton rond qui envoie une impulsion (équivalent du "button" dans Max).  
-- **Toggles, sliders, radios** : éléments d’IU très similaires, mais plus sobres graphiquement.  
+- **Patchs** : Comme dans Max, un patch est un fichier `.pd`.  
+- **Objets** : Même principe que dans Max, créés dans des boîtes rectangulaires.  
+- **Commentaires** : Boîtes de texte (utilisées pour documenter).  
+- **Messages** : Boîtes spécifiques avec un texte qui envoie des valeurs ou instructions.  
+- **Nombres** : boîtes de contrôle numériques (`floatatom` ou `number`).  
+- **Bang** : bouton rond qui envoie une impulsion (équivalent du "button" dans Max).  
+- **Toggles, sliders, radios** : éléments d’IU très similaires, mais plus sobres graphiquement.  
 
-⚠️ Pure Data a une esthétique plus minimale que Max : pas d’ombres, de couleurs riches ou d’arrondis, mais la logique reste la même.
+⚠️ Pure Data a une esthétique plus minimale que Max : pas d’ombres, de couleurs riches ou d’arrondis, mais la logique reste la même.
 
 
 ## Modes d’édition et d’exécution
 
-- **Edit Mode (édition)** : nécessaire pour créer/déplacer/effacer des objets.  
-- **Run Mode (exécution)** : nécessaire pour cliquer sur les bangs, toggles, sliders, etc.  
+- **Edit Mode (édition)** : nécessaire pour créer/déplacer/effacer des objets.  
+- **Run Mode (exécution)** : nécessaire pour cliquer sur les bangs, toggles, sliders, etc.  
 
 ### Raccourci :
-- **⌘ + E** (macOS) ou **Ctrl  + E** (Windows/Linux) : bascule entre édition et exécution.  
+- **⌘ + E** (macOS) ou **Ctrl  + E** (Windows/Linux) : bascule entre édition et exécution.  
 *(équivalent du “lock/unlock” dans Max).*
 
 
@@ -55,21 +55,21 @@
 
 ## Éléments d’IU principaux
 
-- **Bang** : déclenche une action ponctuelle.  
-- **Toggle** : interrupteur marche/arrêt (0 ou 1).  
-- **Number box (floatatom)** : valeur numérique affichée ou entrée.  
-- **Symbol box** : texte/chaîne.  
-- **Slider** : glissière horizontale ou verticale.  
-- **Radio** : boutons exclusifs (sélection unique).  
-- **Canvas** : zones graphiques de couleur (pour interface personnalisée).  
+- **Bang** : déclenche une action ponctuelle.  
+- **Toggle** : interrupteur marche/arrêt (0 ou 1).  
+- **Number box (floatatom)** : valeur numérique affichée ou entrée.  
+- **Symbol box** : texte/chaîne.  
+- **Slider** : glissière horizontale ou verticale.  
+- **Radio** : boutons exclusifs (sélection unique).  
+- **Canvas** : zones graphiques de couleur (pour interface personnalisée).  
 
 
 
 ## Différences à noter
 
-- **Audio on/off** : dans Pd, il faut activer le DSP avec le menu **Media > DSP On** (ou bouton dans la fenêtre principale), contrairement à Max qui a un interrupteur intégré au patch.  
-- **Abstractions** : comme les patchers dans Max, mais les fichiers doivent être dans le chemin de recherche de Pd.  
-- **Help** : clic droit sur un objet → "Help" ouvre un patch d’exemple/documentation (Max ouvre une fenêtre d’aide intégrée).  
-- **Graph-on-parent** : permet de créer des interfaces dans un sous-patch, équivalent à un patcher avec présentation personnalisée dans Max.  
+- **Audio on/off** : dans Pd, il faut activer le DSP avec le menu **Media > DSP On** (ou bouton dans la fenêtre principale), contrairement à Max qui a un interrupteur intégré au patch.  
+- **Abstractions** : comme les patchers dans Max, mais les fichiers doivent être dans le chemin de recherche de Pd.  
+- **Help** : clic droit sur un objet → "Help" ouvre un patch d’exemple/documentation (Max ouvre une fenêtre d’aide intégrée).  
+- **Graph-on-parent** : permet de créer des interfaces dans un sous-patch, équivalent à un patcher avec présentation personnalisée dans Max.  
 
 

@@ -1,4 +1,4 @@
-# Unity+extOSC : réception OSC
+# Unity+extOSC : réception OSC
 
 <!-- toc -->
 
@@ -14,7 +14,7 @@ La réception OSC dans Unity repose sur plusieurs éléments :
 - un **script de réception**
 - une **adresse OSC** (par exemple `/angle`, `/position`, `/lumiere`) ;
 - une **fonction de réception** appelée lorsqu’un message correspondant est reçu;
-- traiter les messages reçus : [traitement de messages dans Unity](../../../traitement/);
+- traiter les messages reçus : [traitement de messages dans Unity](../../../traitement/);
 - ajouter le script de réception à un GameObject;
 - lier l’OSCReceiver au script en glissant l’objet approprié.
 
@@ -101,7 +101,7 @@ oscReceiver.Bind("/adresseOSC", MA_FONCTION_RECEPTION);
 
 Dans cet exemple, nous allons contrôler la rotation d’un Cube à partir de la valeur d’un message OSC `/angle`.
 
-Pour chaque *GameObject* qui doit recevoir de l’OSC, créez un nouveau script (appelé `OscCube` dans cet exemple) :  
+Pour chaque *GameObject* qui doit recevoir de l’OSC, créez un nouveau script (appelé `OscCube` dans cet exemple) :  
 ![Le script OscCube dans les Assets](./script_OscCube_dans_assets.png)
 
 ### Dans le script
@@ -144,7 +144,7 @@ void TraiterOscAngle(OSCMessage message)
     // Récupérer la valeur de l’angle depuis le message OSC
     int value = message.Values[0].IntValue;   
     
-    // EXEMPLE : utiliser la valeur pour appliquer une rotation
+    // EXEMPLE : utiliser la valeur pour appliquer une rotation
     // Adapter proportionnellement la valeur reçue
     float angle = Proportion(value, 0, 4095, -180, 180);
     // Appliquer la rotation à l’objet

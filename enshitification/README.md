@@ -1,8 +1,8 @@
 # « L'Enshittification »
 
-**TL;DR - Trop long ; pas lu** : ils te soutirent plus d’argent parce que tu ne peux pas partir.
+**TL;DR - Trop long ; pas lu** : ils te soutirent plus d’argent parce que tu ne peux pas partir.
 
-Source : [The Ensh*ttification of Everything with Cory Doctorow - YouTube](https://www.youtube.com/watch?v=P1EKQidRooc)
+Source : [The Ensh*ttification of Everything with Cory Doctorow - YouTube](https://www.youtube.com/watch?v=P1EKQidRooc)
 
 
 
@@ -16,7 +16,7 @@ Doctorow définit l'enshittification comme un cycle de vie prévisible des plate
 Les plateformes offrent des services de haute qualité pour attirer les utilisateurs. Une fois que les utilisateurs en sont dépendants, l'entreprise érige des **barrières à la sortie** (effets de réseau, formats propriétaires, etc.).
 
 ### Exploitation des Utilisateurs au Profit des Clients Commerciaux
-Une fois les utilisateurs captifs, les plateformes dégradent leur expérience pour **extraire davantage de revenus** des annonceurs et des clients commerciaux : plus de publicités, plus de suivi et manipulation algorithmique.
+Une fois les utilisateurs captifs, les plateformes dégradent leur expérience pour **extraire davantage de revenus** des annonceurs et des clients commerciaux : plus de publicités, plus de suivi et manipulation algorithmique.
 
 ### Exploitation des Clients Commerciaux
 Lorsque les annonceurs et les fournisseurs dépendent eux-mêmes de la plateforme, celle-ci commence à **extraire de la valeur d'eux aussi**, réduisant leurs marges et leur autonomie. Finalement, l'entreprise conserve la quasi-totalité de la plus-value.

@@ -1,4 +1,4 @@
-# ESP32 : modèles
+# ESP32 : modèles
 
 
 ## Tableau de comparaison entre l'ESP32 et l'ESP32-S3

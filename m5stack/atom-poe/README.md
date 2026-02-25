@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_poe)
+Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_poe)
 
 
 ## Bibliothèque `MicroNet` (recommandée)

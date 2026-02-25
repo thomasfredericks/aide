@@ -1,13 +1,13 @@
-# Reaper : Échantillonneur
+# Reaper : Échantillonneur
 
 La lecture d'échantillons (_samples_ en anglais) se fait avec un _échantillonneur_ (_sampler_ en anglais). Reaper est distribué avec l'_échantillonneur_ **ReaSamplOmatic5000** qui peut être ajouté à une piste et être contrôlé par MIDI ou par OSC (avec  le Virtual Midi Keyboard).
 
 ![Ajout du VST ReaSamplOmatic5000 à une piste](./ajout_reasamplomatic5000.png)
 
 **ReaSamplOmatic5000** peut être utilisé en 3 modes :
-- Mode hauteur (_pitched_) : jouer un échantillon comme un synthétiseur ou un piano virtuel
-- Mode multiple : jouer plusieurs échantillons différents
-- Mode boucle (_loop_) : activer et désactiver la lecture d'un échantillon lu en boucle
+- Mode hauteur (_pitched_) : jouer un échantillon comme un synthétiseur ou un piano virtuel
+- Mode multiple : jouer plusieurs échantillons différents
+- Mode boucle (_loop_) : activer et désactiver la lecture d'un échantillon lu en boucle
 
 > [!NOTE]
 > Peu importe le mode utilisé, il ne faut oublier de copier les échantillons dans votre dossier de projet Reaper.

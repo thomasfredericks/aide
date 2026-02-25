@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
+Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
 
 ![Photo de l'avant et l'arrière du M5Stack Unit Encoder](./unit_encoder.png)
 
@@ -23,7 +23,7 @@ La bibliothèque [thomasfredericks/M5_Encoder](https://github.com/thomasfrederic
 
 #### Dans PlatformIO
 
-Dans le fichier **platformio.ini** ajouter à la section `lib_deps` : 
+Dans le fichier **platformio.ini** ajouter à la section `lib_deps` : 
 
 ```
 lib_deps =
@@ -44,7 +44,7 @@ M5_Encoder myEncoder;
 
 ### Code obligatoire à ajouter à `setup()`
 
-S'assurer que `Wire` est initialisé : 
+S'assurer que `Wire` est initialisé : 
 ```cpp
   Wire.begin();
 ```
@@ -52,7 +52,7 @@ S'assurer que `Wire` est initialisé :
 > [!WARNING] 
 > Ne pas initialiser Wire deux fois dans votre code!
 
-Démarrer `myEncoder` : 
+Démarrer `myEncoder` : 
 ```cpp
   myEncoder.begin();
 ```
@@ -88,9 +88,9 @@ Obtenir la rotation accumulée de l'encodeur :
 ### Lecture du changement de rotation
 
 Le changement de rotation est un entier qui peut être :
- - Positif : L'encodeur a tourné de N crans dans le sens horaire depuis le dernier appel à `myEncoder.update()`.
- - Négatif : L'encodeur a tourné de N crans dans le sens anti-horaire depuis le dernier appel à `myEncoder.update()`.
- - Zéro : L'encodeur est resté immobile (ou est revenu exactement à sa position précédente).
+ - Positif : L'encodeur a tourné de N crans dans le sens horaire depuis le dernier appel à `myEncoder.update()`.
+ - Négatif : L'encodeur a tourné de N crans dans le sens anti-horaire depuis le dernier appel à `myEncoder.update()`.
+ - Zéro : L'encodeur est resté immobile (ou est revenu exactement à sa position précédente).
 
 La méthode `getEncoderChange()` fournit la vitesse angulaire effective (exprimée en crans par intervalle de mise à jour) qui s'est produite depuis le dernier rafraîchissement.
 

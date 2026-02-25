@@ -8,7 +8,7 @@ Tous les fichiers (*principal.toe*, *alpha.toe*, *beta.toe* ainsi que les fichie
 
 ![](./fileview.png)
 
-L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_dans_toe_par_tox.zip)
+L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_dans_toe_par_tox.zip)
 
 ### Ouvrir *alpha.toe* et accéder à sa configuration
 

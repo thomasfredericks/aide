@@ -1,4 +1,4 @@
-# millis() : Attendre sans *delay()*
+# millis() : Attendre sans *delay()*
 
 
 ```cpp

@@ -20,7 +20,7 @@ Le logiciel [Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet 
 
 ![](./imager_4.png)
 
-Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d'une séquence. Cela permet d'avoir plusieurs Raspberry Pi facilement reconnaissables.
+Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d'une séquence. Cela permet d'avoir plusieurs Raspberry Pi facilement reconnaissables.
 
 ![](./imager_3.png)
 
@@ -37,9 +37,9 @@ Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où 
 Documentation additionnelle :
 * [Vidéo survolant Raspberry Pi Imager ](https://www.youtube.com/watch?v=ntaXWS8Lk34).
 * [Documentation officielle pour bien démarrer](https://www.raspberrypi.com/documentation/computers/getting-started.html).
-* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access).
-* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server).
-* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc).
+* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access).
+* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server).
+* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc).
 
 
 ### Raspi-config 
@@ -69,7 +69,7 @@ Via [raspi-config](https://www.raspberrypi.com/documentation/computers/configura
 
 ### Partage de fichier réseau
 
-* Samba : [Raspberry Pi Documentation - Samba (SMB/CIFS)](https://www.raspberrypi.com/documentation/computers/remote-access.html#samba-smbcifs).
+* Samba : [Raspberry Pi Documentation - Samba (SMB/CIFS)](https://www.raspberrypi.com/documentation/computers/remote-access.html#samba-smbcifs).
 
 
 ```
@@ -115,7 +115,7 @@ ssh-keygen -t rsa -b 2048 -C $HOSTNAME
 La version qui est disponible via le gestionnaire de paquet est désuète. 
 
 * Télécharger et installer la plus récente version de la série Legacy IDE (1.8.X) sur le site suivant [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
-* Sélectionner **Linux ARM 32 bits** : [https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz](https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz).
+* Sélectionner **Linux ARM 32 bits** : [https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz](https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz).
 * Décompresser le fichier `tar.xz`
 * Exécuter le fichier `install.sh`
 * Lancer l'application via l'icône générée dans la barre de menu
