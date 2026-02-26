@@ -466,13 +466,16 @@ body.sticky .sidebar-toggle {
 }
 
 .markdown-section table {
+  margin: 1rem auto;  /* top/bottom 1rem, left/right auto = centers table */
+  display: table;     /* ensures table layout works properly */
+
   border-collapse: collapse;
   border-spacing: 0;
-  display: block;
+/*   display: block;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; */
   overflow: auto;
-  width: 100%;
+  max-width: 90%;
 }
 
 .markdown-section th {
@@ -1098,23 +1101,13 @@ h3::after {
 figure {
   display: table;
   text-align: center;
-  /*border: none*/
+
   border: 1px solid #aaa;
-  /*flex-flow: column;
-  padding: 2px;*/
 padding: 10px 10px 0 10px; /* top right bottom left */
   margin: 0 auto;
-
   max-width: 90%;
   background-color: #fff;
-  /* 
-  background: linear-gradient(to bottom, 
-  #fff0 0%,     
-  #fff0 50%,     
-  #000f 95%,      
-  #000f 100%     
-  );
-*/
+
 }
 
 
