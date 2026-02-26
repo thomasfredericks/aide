@@ -151,7 +151,7 @@ Le branchement se fait selon la logique suivante :
 
 | Potentiomètre | Microcontrôleur |
 |---------------|-----------------|
-| Broche extérieure | 5V (ou 3.3V) |
+| Broche extérieure | 5 volts (ou 3.3 volts) |
 | Broche centrale (curseur) | Entrée analogique |
 | Autre broche extérieure | GND |
 

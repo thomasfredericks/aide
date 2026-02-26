@@ -5,6 +5,7 @@
 
 Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_poe)
 
+![Atom POE](./atom_poe.jpg)
 
 ## Bibliothèque `MicroNet` (recommandée)
 
