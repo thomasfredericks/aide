@@ -133,6 +133,7 @@
   - *osc*
     - [relais](/max/osc/relais/)
     - [udp](/max/osc/udp/)
+- [micronet](/micronet/)
 - [microosc](/microosc/)
   - [envoi](/microosc/envoi/)
   - [initialisation](/microosc/initialisation/)
