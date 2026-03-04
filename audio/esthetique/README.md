@@ -20,6 +20,8 @@
 | (situation) épique | physique / intangible | fragile / solide | futuriste |
 | optimiste / pessimiste | précis / diffus | évolutif  | guerrier / pacifiste |
 
+N.B. : la référence *jeu-vidéo rétro* (ou *8 bit*) est à éviter parce qu'elle couvre plus de 80 ans d'histoire. Il est nécessaire d'être plus spécifique en faisant référence plutôt au terminal, aux écrans à deux couleurs, débuts de l'intégration de la vidéo, etc.
+
 ## Conception sonore de Star Wars VS Star Trek
 
 | Aspect        | Star Wars                  | Star Trek                   |
