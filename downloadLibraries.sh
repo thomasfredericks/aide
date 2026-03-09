@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory to store downloaded JS files
-LIB_DIR="libs"
+LIB_DIR="_libs"
 
 # File containing JS library URLs
 LIB_FILE="libraries.txt"
