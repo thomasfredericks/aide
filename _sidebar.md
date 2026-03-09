@@ -271,7 +271,8 @@
     - [10x10](/visuel/ateliers/10x10/)
     - [logo](/visuel/ateliers/logo/)
     - [typoobjekto](/visuel/ateliers/typoobjekto/)
-  - [logo](/visuel/logo/)
+  - [guide](/visuel/guide/)
+  - [marges](/visuel/marges/)
 - [vnc](/vnc/)
 - *windows*
   - [clavier](/windows/clavier/)
