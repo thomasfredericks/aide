@@ -1,3 +1,4 @@
+- *_libs_modified*
 - *arduino*
   - [code](/arduino/code/)
   - *ide*
@@ -216,6 +217,7 @@
 - *reseautique*
   - [scan](/reseautique/scan/)
 - [rpi](/rpi/)
+- [securite](/securite/)
 - *threejs*
   - [fond_transparent](/threejs/fond_transparent/)
 - *touchdesigner*
