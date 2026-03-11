@@ -28,6 +28,9 @@
   /* Light mode sidebar active text color */
   --sidebar-width: 200px;
   --sidebar-slide: -200px;
+  --bracket-arm-length: 40px; 
+  --bracket-thickness: 1px;
+  --bracket-color: #000;
 }
 
 * {
@@ -1098,16 +1101,34 @@ h3::after {
 }
 
 
-figure {
-  display: table;
-  text-align: center;
 
-  border: 1px solid #aaa;
-padding: 10px 10px 0 10px; /* top right bottom left */
-  margin: 0 auto;
+figure {
+display: table;
+  text-align: center;
+  margin: 2em auto;
   max-width: 90%;
   background-color: #fff;
+  padding: 20px;
+  
+  /* 1. Define the border thickness */
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
 
+  /* 2. Apply the gradient mask to the borders */
+border-image-source: linear-gradient(
+    to bottom, 
+    var(--bracket-color) 0%, 
+    var(--bracket-color) var(--bracket-arm-length), 
+    transparent var(--bracket-arm-length), 
+    transparent calc(100% - var(--bracket-arm-length)), 
+    var(--bracket-color) calc(100% - var(--bracket-arm-length)), 
+    var(--bracket-color) 100%
+  );
+  
+  /* 3. This tells the border to stretch the gradient across the edges */
+  border-image-slice: 1;
 }
 
 
