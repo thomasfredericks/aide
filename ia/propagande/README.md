@@ -4,7 +4,7 @@
 
 La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L'objectif est d'influencer la population, voire de l'endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d'éliminer le pluralisme des points de vue et d'empêcher l'exercice de l'esprit critique.
 
-En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels du GenAI :
+En bref, les PDG d'IAG voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels de l'IAG :
 - Désinformation
 - Manipulation
 - Chômage 
@@ -35,8 +35,8 @@ En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé
 
 ## Droit d'auteur
 
-- Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GenAI et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GenAI sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
-- Contrairement à ce qui a été promis, les GenAI mémorisent des données comme a été dévoilé en janvier 2026 :
+- Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les IAG et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des IAG sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
+- Contrairement à ce qui a été promis, les IAG mémorisent des données comme a été dévoilé en janvier 2026 :
   - [AI's Memorization Crisis - The Atlantic](https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/)
   - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
   - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
@@ -63,19 +63,19 @@ En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé
 
 ## L'âge d'or de l'IA est en 2025 et ça dégringole à partir de là
 
-- **Le coût d’utilisation des GenAI est aujourd’hui artificiellement bas.**  
+- **Le coût d’utilisation des IAG est aujourd’hui artificiellement bas.**  
   Leur accès est **fortement subventionné** par le capital-risque, ce qui donne l’illusion qu’ils sont peu coûteux, voire gratuits. Mais ces subventions sont en train de s’évaporer...
-- Nous constatons le développement de  **Sycophant AI** : des GenAI conçues pour dire ce que l'utilisateur veut entendre, sans esprit critique.
+- Nous constatons le développement de  **Sycophant AI** : des IAG conçues pour dire ce que l'utilisateur veut entendre, sans esprit critique.
   - [AI-Fueled Spiritual Delusions Are Destroying Human Relationships](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/)
 - Le **marketing** est au cœur du discours sur l’IA et prochainement de ses produits :  
   - **Kate Rouch**, ancienne de Meta, est aujourd’hui la première directrice du marketing d’OpenAI.
 - Les erreurs abondent :
-  - CamoGPT, une GenAI développée par l’armée américaine, a récemment été utilisée pour supprimer automatiquement des contenus jugés non conformes à de nouvelles directives politiques. Cette opération a mené à des erreurs notables, comme la suppression d’archives historiques liées au bombardier Enola Gay, simplement à cause de son nom contenant le mot "Gay". L’IA a également écarté d’autres documents importants liés à des figures militaires historiques, révélant les limites graves de ces systèmes lorsqu’ils manquent de compréhension contextuelle. Ces incidents soulignent l’importance d’une supervision humaine dans les usages sensibles de l’IA.
+  - CamoGPT, une IAG développée par l’armée américaine, a récemment été utilisée pour supprimer automatiquement des contenus jugés non conformes à de nouvelles directives politiques. Cette opération a mené à des erreurs notables, comme la suppression d’archives historiques liées au bombardier Enola Gay, simplement à cause de son nom contenant le mot "Gay". L’IA a également écarté d’autres documents importants liés à des figures militaires historiques, révélant les limites graves de ces systèmes lorsqu’ils manquent de compréhension contextuelle. Ces incidents soulignent l’importance d’une supervision humaine dans les usages sensibles de l’IA.
   - [Therapy Chatbot Tells Recovering Addict to Have a Little Meth as a Treat](https://futurism.com/therapy-chatbot-addict-meth)
 - Les manipulations abondent :  
   - L’IA **Grok**, développée par xAI (Elon Musk), a été accusée de **diffuser de fausses informations**, comme la théorie du « génocide blanc » en Afrique du Sud.
   - L’IA **Grok**, développée par xAI (Elon Musk), affirme qu'Elon Musk est plus athlétique que LeBron James et plus intelligent que Leonardo da Vinci : [Elon Musk’s Grok AI tells users he is fitter than LeBron James and smarter than Leonardo da Vinci | Elon Musk | The Guardian](https://www.theguardian.com/technology/2025/nov/21/elon-musk-grok-ai-bias-ranks-richest-man-fittest-smartest)
-- **Atteinte du plafond du développement des GenAI**
+- **Atteinte du plafond du développement des IAG**
   Le développement de l’IA générative a progressé à un rythme effréné, mais il pourrait exister une limite mathématique infranchissable — un plafond — qui marquerait la fin de son évolution fulgurante.
   Beaucoup misent sur l’idée de rendre l’IA générative toujours plus intelligente — mais que se passe-t-il si les données nécessaires à son développement n’existent tout simplement plus ? [AI Has a Fatal Flaw—And Nobody Can Fix It - YouTube](https://www.youtube.com/watch?v=_IOh0S_L3C4)
 - Le 15 août 2025, Sam Altman (PDG d’OpenAI) a reconnu que nous traversons actuellement une bulle autour de l’IA — un engouement exagéré, mais fondé sur un noyau de réalité — tout en affirmant qu’il compte bien en tirer parti, notamment en investissant des **billions** de dollars dans de nouveaux centres de données pour rester aux commandes après l’éclatement.  
@@ -83,8 +83,8 @@ En bref, les PDG de GenAI voudraient que la population craigne un futur imaginé
 
 ## Bonus
 
-- [SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc) Vidéo assez intéressante qui aborde ces mythes à propos du GenAI :
-  - Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que le GenAI
-  - Que le développement du GenAI a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
-  - Que le GenAI est plus dangereux que la bombe atomique
+- [SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc) Vidéo assez intéressante qui aborde ces mythes à propos de l'IAG :
+  - Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que l'IAG
+  - Que le développement de l'IAG a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
+  - Que l'IAG est plus dangereux que la bombe atomique
 - [ChatBots Explained: Not Conscious, No Revolution — Just Searching's Next Step - YouTube](https://www.youtube.com/watch?app=desktop&v=0qnZDMvJPh4)

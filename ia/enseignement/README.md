@@ -1,9 +1,9 @@
 # IA : impact sur l'enseignement
 
 - **Utiliser ChatGPT pendant l'apprentissage pourrait nuire aux capacités de pensée critique**
-  Une équipe de neurologues et spécialistes en IA du Media Lab du MIT a mené une étude sur l’impact des grands modèles de langage (LLM/GenAI), comme ChatGPT, sur le cerveau des utilisateurs lors de tâches d’écriture, un groupe utilisant ChatGPT, un autre utilisant Google Search, et un dernier sans aucun outil. Les résultats montrent que le groupe sans assitance présentait la plus forte activité cérébrale et engagement mental, le groupe Google était intermédiaire, et le groupe ChatGPT avait la connectivité cérébrale la plus faible. Après plusieurs mois, ceux qui avaient utilisé ChatGPT précédemment ont montré une activité cérébrale plus faible et une mémoire moins performante. Ils ressentaient moins de sentiment de propriété sur leurs essais et avaient plus de difficultés à s’en souvenir ou à les citer. [Using ChatGPT to write essays may be eroding critical thinking skills](https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html)
+  Une équipe de neurologues et spécialistes en IA du Media Lab du MIT a mené une étude sur l’impact des grands modèles de langage (IAG), comme ChatGPT, sur le cerveau des utilisateurs lors de tâches d’écriture, un groupe utilisant ChatGPT, un autre utilisant Google Search, et un dernier sans aucun outil. Les résultats montrent que le groupe sans assitance présentait la plus forte activité cérébrale et engagement mental, le groupe Google était intermédiaire, et le groupe ChatGPT avait la connectivité cérébrale la plus faible. Après plusieurs mois, ceux qui avaient utilisé ChatGPT précédemment ont montré une activité cérébrale plus faible et une mémoire moins performante. Ils ressentaient moins de sentiment de propriété sur leurs essais et avaient plus de difficultés à s’en souvenir ou à les citer. [Using ChatGPT to write essays may be eroding critical thinking skills](https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html)
 
-- **La personne qui utilise ou « prompte » une GenAI doit avoir une solide expertise du métier.**  
+- **La personne qui utilise ou « prompte » une IAG doit avoir une solide expertise du métier.**  
   Même si l’outil accomplit certaines tâches à sa place, **tout doit être vérifié, validé, corrigé**. Sans cette compétence métier, l’IA générative devient un générateur d’erreurs crédibles mais dangereuses.
 
 - **Allons-nous enseigner à nos étudiants des outils ou des techniques voués à disparaître dans trois ans ?**  
@@ -43,18 +43,18 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
 
 ## Comment avoir un avantage compétif en tant que futur diplômé
 
-- 💡 **Le piège des GenAI** : 
-  - Utiliser ChatGPT ou toute autre GenAI pour remplacer ta propre réflexion dans un contexte éducatif affaiblit réellement tes capacités cognitives.
+- 💡 **Le piège des IAG** : 
+  - Utiliser ChatGPT ou toute autre IAG pour remplacer ta propre réflexion dans un contexte éducatif affaiblit réellement tes capacités cognitives.
   - Ton intellect devient plus faible et moins performant.
 
 - 🧠 **Renforcer son cerveau : mental de métal** : 
   - Les étudiants qui ont réalisé leurs travaux avec leur cerveau obtiennent *à long terme* de meilleurs résultats.
-  - Et surtout, leur intellect ne régresse pas en utilisant une GenAI plus tard.
+  - Et surtout, leur intellect ne régresse pas en utilisant une IAG plus tard.
   - Refuser de laisser l’IA générative penser à ta place te rend plus résistant aux effets d’affaiblissement cognitif liés à l’IA générative.
 
 - ✊  **Un conseil simple aux étudiants** 
   - Tu veux dépasser tous ceux qui utilisent l'IA générative pour faire leurs travaux, surtout quand vous serez sur le marché du travail (pour faire plus d'argent 🤑) ?
-  - Alors n’utilise pas de GenAI pour faire tes travaux!
+  - Alors n’utilise pas d'IAG pour faire tes travaux!
 
 - 🏋️ **Oui, ce sera dur... comme aller à la salle de sport...**
   - Tu devras écrire toi-même.

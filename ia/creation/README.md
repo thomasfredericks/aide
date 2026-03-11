@@ -1,6 +1,6 @@
 # IA : Création de code ou d'images
 
-## Perfomances d'un GenAI 
+## Perfomances d'une IAG 
 
 Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit.  On y projette  des intentions ou des capacités qu’il n’a pas.
 
@@ -19,7 +19,7 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 | Mathématiques (résolution de problèmes complexes/créatifs)| ✅          |                 |
 
 
-### Capacité d'un GenAI pour jouer à un jeu
+### Capacité d'une IAG pour jouer à un jeu
 
 | Type de jeu                               | Performance d’un LLM | Remarques                                                               |
 | ----------------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
@@ -29,6 +29,6 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 | **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Peut simuler des dialogues ou des choix, mais sans planification réelle |
 | **Jeux avec grille (Connect Four, etc.)** | 😬 Limite                 | Possible sur quelques tours, mais perd le fil rapidement                |
 
-### Limites d'un GenAI à extrapoler
+### Limites d'une IAG à extrapoler
 
 ![Dans cette séquence, il est clair que l'IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
