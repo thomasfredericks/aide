@@ -31,6 +31,9 @@ Ensuite, mettez à jour l’affichage :
 FastLED.show();
 ```
 
+## Exemples
 
+- [Exemple d'illumination d'une bande de pixels (LED strip) en arc-en-ciel](https://codeberg.org/tim-montmorency/fastled_rainbow_esp32)
+- [Exemple de pixels contrôlés par ArtNet avec MicroNet pour Atom Light POE](https://codeberg.org/tim-montmorency/atom_artnet_ethernet)
 
 

@@ -181,6 +181,7 @@
       - [animations_m5atom](/pixels/fastled/exemples/animations_m5atom/)
       - [microosc](/pixels/fastled/exemples/microosc/)
       - [pong-1D_nano](/pixels/fastled/exemples/pong-1D_nano/)
+  - [neopixel](/pixels/neopixel/)
 - *platformio*
   - [installation](/platformio/installation/)
   - [nouveau_projet](/platformio/nouveau_projet/)
