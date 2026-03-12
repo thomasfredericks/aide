@@ -1,4 +1,6 @@
-# Les rubans de pixels DEL
+# Les bandes de pixels DEL
+
+<!-- toc -->
 
 ## Introduction
 
@@ -62,3 +64,13 @@ Dans cet exemple, nous utilisons un ruban DEL WS281X fonctionnant avec une tensi
 ### Bonnes pratiques
 
 Adafruit recommande de suivre [ces bonnes pratiques de connexion](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) afin d’éviter les problèmes.
+
+## Bibliothèques FastLED et NeoPixel
+
+Plusieurs bibliothèques permettent de contrôler des bandes de pixels adressables avec Arduino ou PlatformIO. Parmi les plus utilisées, on retrouve **FastLED** et **Adafruit NeoPixel**. Ces deux bibliothèques permettent de contrôler des pixels individuellement dans une bande, en définissant pour chaque pixel une couleur composée de rouge, vert et bleu.
+
+La bibliothèque [Adafruit NeoPixel](./neopixel/) est généralement la plus simple à utiliser. Elle offre une interface directe pour initialiser une bande de pixels, modifier la couleur d’un pixel et envoyer les données vers la bande. Elle est bien adaptée aux projets simples ou aux premières expérimentations.
+
+La bibliothèque [FastLED](./fastled/), quant à elle, est plus puissante et plus flexible. Elle prend en charge un grand nombre de types de pixels et offre des fonctionnalités avancées comme la gestion efficace des couleurs, des palettes, des animations optimisées et des outils pour manipuler facilement de grands ensembles de pixels. Elle est également reconnue pour ses bonnes performances sur les microcontrôleurs.
+
+Pour ces raisons, **FastLED est généralement la bibliothèque recommandée**, en particulier pour les projets plus complexes, les installations interactives ou les animations avancées. Toutefois, **Adafruit NeoPixel** reste une bonne option pour les projets simples ou pour comprendre les bases du contrôle de pixels adressables.
