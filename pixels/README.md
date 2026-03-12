@@ -69,4 +69,4 @@ La bibliothèque [Adafruit NeoPixel](./neopixel/) est généralement la plus sim
 
 La bibliothèque [FastLED](./fastled/), quant à elle, est plus puissante et plus flexible. Elle prend en charge un grand nombre de types de pixels et offre des fonctionnalités avancées comme la gestion efficace des couleurs, des palettes, des animations optimisées et des outils pour manipuler facilement de grands ensembles de pixels. Elle est également reconnue pour ses bonnes performances sur les microcontrôleurs.
 
-Pour ces raisons, **FastLED est généralement la bibliothèque recommandée**, en particulier pour les projets plus complexes, les installations interactives ou les animations avancées. Toutefois, **Adafruit NeoPixel** reste une bonne option pour les projets simples ou pour comprendre les bases du contrôle de pixels adressables.
+Pour ces raisons, **FastLED est généralement la bibliothèque recommandée**, en particulier pour les projets plus complexes, les installations interactives ou les animations avancées. 
