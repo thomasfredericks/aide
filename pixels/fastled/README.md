@@ -1,6 +1,6 @@
 # Pixels : FastLED
 
-Les bibliothèques pour bandes de LED prennent généralement en charge plusieurs modèles de pixels. Il est donc important de sélectionner le bon modèle dans le code afin d’assurer une communication correcte avec le matériel.
+Les bibliothèques pour bandes de pixels prennent généralement en charge plusieurs modèles de pixels. Il est donc important de sélectionner le bon modèle dans le code afin d’assurer une communication correcte avec le matériel.
 
 La bibliothèque recommandée est [FastLED](https://github.com/FastLED/FastLED). Elle peut être installée via le gestionnaire de bibliothèques d’Arduino ou dans un projet PlatformIO. FastLED est très performante et largement utilisée pour le contrôle de pixels adressables, bien qu’elle demande une certaine familiarité avec sa structure.
 
@@ -9,7 +9,7 @@ La bibliothèque recommandée est [FastLED](https://github.com/FastLED/FastLED).
 Les pixels sont représentés dans le code par un tableau d’objets `CRGB`.  
 Chaque élément du tableau correspond à un pixel de la bande et contient ses valeurs de couleur rouge, vert et bleu.
 
-Après avoir modifié les valeurs des pixels dans ce tableau, il faut appeler `FastLED.show()` pour envoyer les données à la bande de LED.
+Après avoir modifié les valeurs des pixels dans ce tableau, il faut appeler `FastLED.show()` pour envoyer les données à la bande de pixels.
 
 ## Initialisation dans le code
 
@@ -30,13 +30,13 @@ CRGB mesPixels[NOMBRE_PIXELS];
 ### Dans `setup()`
 
 Ajout de la bande de pixels à FastLED.  
-La broche **26** correspond à celle du **M5Stack Atom** utilisée pour envoyer les données vers la bande de LED.
+La broche **26** correspond à celle du **M5Stack Atom** utilisée pour envoyer les données vers la bande de pixels.
 
 ```cpp
 FastLED.addLeds<WS2812, 26, RGB>(mesPixels, NOMBRE_PIXELS);
 ```
 
-Selon le matériel utilisé, le type de pixel peut varier (par exemple `WS2812`, `WS2812B`, `SK6812`, etc.). Il est donc essentiel de choisir le modèle correspondant à la bande de LED.
+Selon le matériel utilisé, le type de pixel peut varier (par exemple `WS2812`, `WS2812B`, `SK6812`, etc.). Il est donc essentiel de choisir le modèle correspondant à la bande de pixels.
 
 ### Dans `loop()`
 
@@ -51,7 +51,7 @@ int bleu = 255;
 mesPixels[indexDuPixel] = CRGB(rouge, vert, bleu);
 ```
 
-Une fois les modifications effectuées, l’appel à `FastLED.show()` envoie les nouvelles valeurs à la bande de LED.
+Une fois les modifications effectuées, l’appel à `FastLED.show()` envoie les nouvelles valeurs à la bande de pixels.
 
 ```cpp
 FastLED.show();

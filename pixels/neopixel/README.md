@@ -1,6 +1,6 @@
 # Pixels : NeoPixel
 
-Les pixels **NeoPixel** sont des LED adressables individuellement, très utilisées dans les projets interactifs, les installations artistiques et les dispositifs d’éclairage créatif. Chaque pixel contient un petit contrôleur qui permet de définir sa couleur indépendamment des autres pixels dans la même bande.
+Les pixels **NeoPixel** sont des DEL adressables individuellement, très utilisées dans les projets interactifs, les installations artistiques et les dispositifs d’éclairage créatif. Chaque pixel contient un petit contrôleur qui permet de définir sa couleur indépendamment des autres pixels dans la même bande.
 
 Les bandes NeoPixel utilisent généralement des protocoles compatibles avec des modèles populaires comme **WS2812** ou **WS2812B**. Une seule broche de données du microcontrôleur suffit pour contrôler toute la bande.
 
@@ -8,7 +8,7 @@ Une bibliothèque couramment utilisée pour ce type de pixels est **Adafruit Neo
 
 ## Principe général
 
-Les pixels sont contrôlés par un objet représentant la bande de LED.  
+Les pixels sont contrôlés par un objet représentant la bande de pixels.  
 Chaque pixel peut être modifié en spécifiant sa position dans la bande et sa couleur.
 
 Après avoir modifié les couleurs, il faut appeler la fonction d’actualisation pour envoyer les données à la bande de pixels.
