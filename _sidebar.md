@@ -1,4 +1,3 @@
-- *_libs_modified*
 - *arduino*
   - [code](/arduino/code/)
   - *ide*
