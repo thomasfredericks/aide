@@ -22,6 +22,7 @@ Pour un `Arduino Nano ATmega328` :
 platform = atmelavr
 board = nanoatmega328
 framework = arduino
+monitor_speed = 115200
 lib_deps =
 ```
 
@@ -31,6 +32,7 @@ Pour un `Arduino Nano R4` :
 platform = renesas-ra
 board = nano_r4
 framework = arduino
+monitor_speed = 115200
 lib_deps =
 ```
 
