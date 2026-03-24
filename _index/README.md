@@ -143,6 +143,8 @@
   * [Bulles](../outils/vcv_rack/patchs/bulles/)
 * Cartes
   * [Modèles de cartes](../fabrication/arduino/cartes/)
+* Causés
+  * [Les délires causés par les GML](../culture/ia/delires/)
 * Centre
   * [Centre d'aide TOF](../)
 * Changement
@@ -221,6 +223,8 @@
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
+* Délires
+  * [Les délires causés par les GML](../culture/ia/delires/)
 * Démo
   * [Démo de faisabilité](../creation/production/maquettage/demo/)
 * Dépôt
@@ -266,7 +270,7 @@
 * Encoder
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
 * Enseignement
-  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
+  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
 * Enshittification
   * [Merdification ( Enshittification )](../culture/merdification/)
 * Entre
@@ -351,7 +355,8 @@
 * GML
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
-  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
+  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
+  * [Les délires causés par les GML](../culture/ia/delires/)
   * [Propagande sur les GML](../culture/ia/propagande/)
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Graphique
@@ -379,8 +384,8 @@
   * [Configuration de l'identité Git](../outils/git/configuration_identite/)
 * Images
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-* Impact
-  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
+* Impacts
+  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
 * Incrémenter
   * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
 * Index

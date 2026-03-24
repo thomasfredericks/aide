@@ -53,6 +53,7 @@
     - [sytemes_pensee](/culture/education/sytemes_pensee/)
   - [ia](/culture/ia/)
     - [creation](/culture/ia/creation/)
+    - [delires](/culture/ia/delires/)
     - [enseignement](/culture/ia/enseignement/)
     - [guides](/culture/ia/guides/)
     - [propagande](/culture/ia/propagande/)
