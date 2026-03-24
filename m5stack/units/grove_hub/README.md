@@ -6,7 +6,7 @@ Page officielle du produit : [Unit Hub](https://docs.m5stack.com/en/unit/hub)
 
 ![](grove_hub_back.png)
 
-Le **Grove Hub** permet de relier 3 modules **I2C/Wire** (qui sont reconnaissables à leur connecteur rouge) à 1 connecteur d'un microcontrôleur M5 Stack.
+Le **Grove Hub** permet de relier 3 modules **I2C/Wire** (qui sont reconnaissables à leur connecteur rouge) à 1 connecteur d'un microcontrôleur M5Stack.
 
 
 ![](grove_hub_front.png)

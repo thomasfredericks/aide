@@ -56,7 +56,6 @@ Arborescence :
   - [platine_experimentation](/electronique/platine_experimentation/)
     - [alimenter_del](/electronique/platine_experimentation/alimenter_del.md)
   - [soudure](/electronique/soudure/)
-- [enshitification](/enshitification/)
 - *esp32*
   - [mac](/esp32/mac/)
   - [modeles](/esp32/modeles/)
@@ -147,6 +146,7 @@ Arborescence :
   - *osc*
     - [relais](/max/osc/relais/)
     - [udp](/max/osc/udp/)
+- [merdification](/merdification/)
 - [micronet](/micronet/)
 - [microosc](/microosc/)
   - [envoi](/microosc/envoi/)

@@ -4,14 +4,14 @@ Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouil
 
 Voici les types d’IA que l’on retrouve dans le discours public ambiant :
 
-- **IA générative (IAG)** : ChatGPT, Claude, Grok, etc.
+- **IA générative (GML)** : ChatGPT, Claude, Grok, etc.
 - **IA générale** : **hypothétique – n’existe pas**
 
 ---
 
 ## Comparatif
 
-| **Critère**                                          | **IA générative (IAG)**                                    | **IA générale**                                                                                                   |
+| **Critère**                                          | **IA générative (GML)**                                    | **IA générale**                                                                                                   |
 | ---------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | **Domaine d'application**                            | Large éventail de tâches dans plusieurs domaines                 | Tous domaines, avec adaptation contextuelle comme un humain                                                             |
 | **Contrôle et gouvernance**                          | ❌ Moins contrôlable, comportements complexes et parfois imprévus | 🤔 Autonome, nécessiterait des formes avancées de régulation et d’éthique                                               |
@@ -28,4 +28,4 @@ Voici les types d’IA que l’on retrouve dans le discours public ambiant :
 > Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis près de 75 ans, avec des racines remontant aux premiers modèles symboliques des années 1950.
 
 > [!WARNING]
-> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (IAG) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
+> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.

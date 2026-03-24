@@ -304,7 +304,7 @@
 * **Enseignement**
   * [IA : impact sur l'enseignement](../ia/enseignement/)
 * **Enshittification**
-  * [« L'Enshittification »](../enshitification/)
+  * [Merdification ( Enshittification )](../merdification/)
 * **Entre**
   * [Effectuer un glissement entre des valeurs avec PD](../pd/traitement/glissement/)
 * **Entrées/Sorties**
@@ -499,6 +499,7 @@
   * [Code de base pour le M5Stack Atom](../m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../m5stack/atom/code/microosc/slip/)
   * [Installation de M5Stack Atom dans Arduino](../m5stack/atom/installation/)
+  * [M5Stack](../m5stack/)
   * [M5Stack Angle Unit](../m5stack/units/angle/)
   * [M5Stack Atom Lite : Bouton intégré](../m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../m5stack/atom/pixel/)
@@ -533,6 +534,8 @@
   * [Réception série ASCII dans Max](../max/ascii/)
 * **Mémoire**
   * [TD : Aide mémoire Python](../touchdesigner/python/aide-memoire/)
+* **Merdification**
+  * [Merdification ( Enshittification )](../merdification/)
 * **Messages**
   * [Convertir les messages OSC en MIDI (notes et CC)](../pd/osc/midi/)
   * [Unity : Traitement de messages](../unity/traitement/)
@@ -820,8 +823,6 @@
   * [Spout dans OBS](../obs/spout/)
   * [Spout dans TouchDesigner](../touchdesigner/spout/)
   * [Spout dans Unity](../unity/spout/)
-* **Stack**
-  * [M5 Stack](../m5stack/)
 * **Studio**
   * [OBS Studio: Télécommande et inspecteur](../obs/telecommande/)
 * **Style**
