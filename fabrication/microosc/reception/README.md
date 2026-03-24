@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Initialisation de MicroOsc](/microosc/initialisation/)
+- [Initialisation de MicroOsc](../microosc/initialisation/)
 - Cette documentation assume une instance de `MicroOsc` nommée `monOsc`
 
 ## Principe général

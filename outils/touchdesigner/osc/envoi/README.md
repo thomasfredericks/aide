@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Protocole Open Sound Control (OSC)](/osc/)
+- [Protocole Open Sound Control (OSC)](../../../osc/)
 
 ## Code TouchDesigner pour envoyer 1 donnée
 

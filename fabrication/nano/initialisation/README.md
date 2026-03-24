@@ -4,12 +4,12 @@
 
 ### Préalable(s)
 
-- [Installer PlatformIO dans Visual Studio Code](/platformio/installation/).
+- [Installer PlatformIO dans Visual Studio Code](../../platformio/installation/).
 - [Identifier son modèle précis de Nano](../)
 
 ### Créer un nouveau projet
 
-Suivre les instructions pour [démarrer un nouveau projet dans PlatformIO](/platformio/nouveau_projet/). Choisir le bon modèle de plaquette :
+Suivre les instructions pour [démarrer un nouveau projet dans PlatformIO](../../platformio/nouveau_projet/). Choisir le bon modèle de plaquette :
 - `Arduino Nano ATmega168` 
 - `Arduino Nano ATmega328` 
 - `Arduino Nano R4` 

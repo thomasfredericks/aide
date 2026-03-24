@@ -17,11 +17,11 @@ Pour envoyer une donnée, il suffit d’utiliser la méthode qui correspond au t
 Cependant, avant de déclencher l’action d’envoi, il est recommandé de **traiter la donnée** afin de contrôler quand et comment l’envoyer. Ce traitement permet d’éviter d’envoyer des messages inutiles, de réduire la charge du microcontrôleur et de produire un flux de données cohérent.
 
 Le traitement peut suivre deux stratégies principales, selon le type de comportement souhaité :
-- Traitement par détection de [changement](/arduino/traitement/changement/)
+- Traitement par détection de [changement](../../arduino/traitement/changement/)
   - Réduit le nombre de messages OSC envoyés
   - Permet de réagir uniquement aux événements pertinents
   - Convient aux capteurs dont la valeur change de manière irrégulière ou sporadique
-- Traitement en [flux](/arduino/traitement/flux/) continu
+- Traitement en [flux](../../arduino/traitement/flux/) continu
   - Maintient une transmission continue de l’information
   - Convient aux visualisations temps réel ou aux systèmes qui nécessitent un rafraîchissement constant
   - Permet d’appliquer des transformations ou des filtres avant chaque envoi

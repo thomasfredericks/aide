@@ -2,7 +2,7 @@
 
 ## Préalables
 
-* [Activer l'exécution en arrière-plan](/unity/execution_arriere-plan/)
+* [Activer l'exécution en arrière-plan](../execution_arriere-plan/)
 
 ## Ajouter le régistre de Keijiro qui a créé KlakSpout dans Unity
 
@@ -45,5 +45,5 @@ Voici l'information à inscrire dans les paramètres du gestionnaire de paquets 
 
 ## Configurer votre logiciel pour recevoir le flux Spout
 
-* [Suivre ces instructions pour recevoir le flux Spout dans TouchDesigner](/touchdesigner/spout/)
-* [Suivre ces instructions pour recevoir le flux Spout dans OBS](/obs/spout/)
+* [Suivre ces instructions pour recevoir le flux Spout dans TouchDesigner](../../touchdesigner/spout/)
+* [Suivre ces instructions pour recevoir le flux Spout dans OBS](../../obs/spout/)

@@ -80,7 +80,7 @@ lib_deps =
     FastLED
 ```
 
-L'exemple est assez complexe puisqu'il initialise une connexion Ethernet avec MicroNet et une communication UDP OSC avec [MicroOsc](/microosc/).
+L'exemple est assez complexe puisqu'il initialise une connexion Ethernet avec MicroNet et une communication UDP OSC avec [MicroOsc](../microosc/).
 
 **Il y a quelques éléments du code à configurer.**
 

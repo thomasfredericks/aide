@@ -3,7 +3,7 @@
 
 ## Préalable(s)
 
-- [Installer PlatformIO dans Visual Studio Code](/platformio/installation/).
+- [Installer PlatformIO dans Visual Studio Code](../installation/).
 
 ## Initialiser un nouveau projet
 

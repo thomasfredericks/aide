@@ -61,8 +61,7 @@
   - *arduino*
     - [cartes](/fabrication/arduino/cartes/)
     - [code](/fabrication/arduino/code/)
-    - *ide*
-      - [installation](/fabrication/arduino/ide/installation.md)
+    - [ide](/fabrication/arduino/ide/)
     - [millis](/fabrication/arduino/millis/)
       - [attendre](/fabrication/arduino/millis/attendre/)
       - [intervalle](/fabrication/arduino/millis/intervalle/)
@@ -71,10 +70,11 @@
         - [ralentir](/fabrication/arduino/millis/remplacer_delay/ralentir/)
     - [random](/fabrication/arduino/random/)
     - [serial](/fabrication/arduino/serial/)
-    - [style](/fabrication/arduino/style/)
     - [traitement](/fabrication/arduino/traitement/)
       - [changement](/fabrication/arduino/traitement/changement/)
       - [flux](/fabrication/arduino/traitement/flux/)
+  - *cpp*
+    - [style](/fabrication/cpp/style/)
   - *electronique*
     - *circuits*
       - [entrees_sorties](/fabrication/electronique/circuits/entrees_sorties/)
@@ -86,8 +86,8 @@
     - [electricite](/fabrication/electronique/electricite/)
     - [fatalites](/fabrication/electronique/fatalites/)
     - [multimetre](/fabrication/electronique/multimetre/)
-    - [platine_experimentation](/fabrication/electronique/platine_experimentation/)
-      - [alimenter_del](/fabrication/electronique/platine_experimentation/alimenter_del.md)
+    - [platine](/fabrication/electronique/platine/)
+      - [del](/fabrication/electronique/platine/del/)
     - [soudure](/fabrication/electronique/soudure/)
   - *esp32*
     - [mac](/fabrication/esp32/mac/)
@@ -109,20 +109,6 @@
       - [midi](/fabrication/m5stack/atomS3/midi/)
       - [mpu6886](/fabrication/m5stack/atomS3/mpu6886/)
       - [uart](/fabrication/m5stack/atomS3/uart/)
-    - *exemples*
-      - [angle-button-monitor](/fabrication/m5stack/exemples/angle-button-monitor.md)
-      - [angle-button-oscbridge](/fabrication/m5stack/exemples/angle-button-oscbridge.md)
-      - [angle-monitor](/fabrication/m5stack/exemples/angle-monitor.md)
-      - [blink](/fabrication/m5stack/exemples/blink.md)
-      - [blink_demarrage](/fabrication/m5stack/exemples/blink_demarrage.md)
-      - [clignoter-sans-bloquer](/fabrication/m5stack/exemples/clignoter-sans-bloquer.md)
-      - [etat-bouton](/fabrication/m5stack/exemples/etat-bouton.md)
-      - [lampe-clignotement](/fabrication/m5stack/exemples/lampe-clignotement.md)
-      - [lampe-torche-correlation](/fabrication/m5stack/exemples/lampe-torche-correlation.md)
-      - [lampe-torche-etat](/fabrication/m5stack/exemples/lampe-torche-etat.md)
-      - [pbhub_key-motion-angle-light](/fabrication/m5stack/exemples/pbhub_key-motion-angle-light.md)
-      - [capacitance](/fabrication/m5stack/exemples/capacitance/)
-      - [matrice-cables](/fabrication/m5stack/exemples/matrice-cables/)
     - *units*
       - [396](/fabrication/m5stack/units/396/)
         - [bouton_arcade](/fabrication/m5stack/units/396/bouton_arcade/)
@@ -226,8 +212,6 @@
         - [general](/outils/reaper/osc/default_pattern/general/)
         - [piste](/outils/reaper/osc/default_pattern/piste/)
       - *exemples*
-        - [plugdata](/outils/reaper/osc/exemples/plugdata/)
-        - [reaper_osc_play-stop-vu](/outils/reaper/osc/exemples/reaper_osc_play-stop-vu/)
     - *plugin*
       - [midi](/outils/reaper/plugin/midi/)
       - [osc](/outils/reaper/plugin/osc/)

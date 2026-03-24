@@ -3,9 +3,9 @@
 
 ## Préalable(s)
 
-- [Activation de l'OSC dans Reaper](/reaper/osc/activation/)
-- Utilisation du [Virtual MIDI Keyboard](/reaper/virtual_midi_keyboard/)
-- Configuration [MIDI d'un plugin](/reaper/plugin/midi/)
+- [Activation de l'OSC dans Reaper](../../osc/activation/)
+- Utilisation du [Virtual MIDI Keyboard](../../virtual_midi_keyboard/)
+- Configuration [MIDI d'un plugin](../midi/)
 
 ### Pour contrôler un plugin par OSC, il faut passer par le Virtual MIDI Keyboard
 
@@ -31,7 +31,7 @@ graph LR
     end
 ```
 
-Si le [default_pattern](/reaper/osc/default_pattern/) est utilisé, voici le format du message OSC :
+Si le [default_pattern](../../osc/default_pattern/) est utilisé, voici le format du message OSC :
 ```
 /vkb_midi/@/note/# i
 ```
@@ -51,7 +51,7 @@ graph LR
     end
 ```
 
-Si le [default_pattern](/reaper/osc/default_pattern/) est utilisé, voici le format du message OSC :
+Si le [default_pattern](../../osc/default_pattern/) est utilisé, voici le format du message OSC :
 ```
 /vkb_midi/@/cc/# i
 ```

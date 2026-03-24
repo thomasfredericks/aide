@@ -8,7 +8,6 @@ Ce patch de permet d'effectuer un glissement sur un flux de valeur. Il permet de
 
 Télécharger ici : [slide.pd](./slide.pd)
 
-**Dans le cas de plugdata en tant que plugin**, suivre ces [instructions sur copier-coller](/pd/copier-coller/README.md) pour transférer ce patch à votre propre patch.
 
 ### Configuration du glissement
 
