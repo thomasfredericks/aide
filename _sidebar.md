@@ -1,4 +1,8 @@
+[**Index**](/_index/)
+
+Arborescence :
 - *arduino*
+  - [cartes](/arduino/cartes/)
   - [code](/arduino/code/)
   - *ide*
     - [installation](/arduino/ide/installation.md)
@@ -23,12 +27,12 @@
   - [plugins](/audio/plugins/)
 - *audiovisuel*
   - [compression](/audiovisuel/compression/)
+  - *davinci_resolve*
+    - [effets](/audiovisuel/davinci_resolve/effets/)
   - [galerie](/audiovisuel/galerie/)
   - [processus](/audiovisuel/processus/)
 - [brave](/brave/)
 - [bytebeat](/bytebeat/)
-- *davinci_resolve*
-  - [effets](/davinci_resolve/effets/)
 - *dev*
   - [dataflow](/dev/dataflow/)
 - *droit*
@@ -39,10 +43,19 @@
   - [manifeste](/education/manifeste/)
   - [sytemes_pensee](/education/sytemes_pensee/)
 - *electronique*
-  - *del*
-  - [entrees_sorties](/electronique/entrees_sorties/)
-  - [references](/electronique/references/)
-  - [resistance](/electronique/resistance/)
+  - *circuits*
+    - [entrees_sorties](/electronique/circuits/entrees_sorties/)
+    - [references](/electronique/circuits/references/)
+    - [schemas](/electronique/circuits/schemas/)
+  - *composants*
+    - [del](/electronique/composants/del/)
+    - [resistance](/electronique/composants/resistance/)
+  - [electricite](/electronique/electricite/)
+  - [fatalites](/electronique/fatalites/)
+  - [multimetre](/electronique/multimetre/)
+  - [platine_experimentation](/electronique/platine_experimentation/)
+    - [alimenter_del](/electronique/platine_experimentation/alimenter_del.md)
+  - [soudure](/electronique/soudure/)
 - [enshitification](/enshitification/)
 - *esp32*
   - [mac](/esp32/mac/)
@@ -130,6 +143,7 @@
     - [pbhub](/m5stack/units/pbhub/)
     - [tof](/m5stack/units/tof/)
 - *max*
+  - [ascii](/max/ascii/)
   - *osc*
     - [relais](/max/osc/relais/)
     - [udp](/max/osc/udp/)
@@ -144,6 +158,8 @@
 - [nano](/nano/)
   - [arduino_terminals](/nano/arduino_terminals/)
   - [initialisation](/nano/initialisation/)
+- *nodejs*
+  - [osc](/nodejs/osc/)
 - [oak](/oak/)
 - *obs*
   - [mapping](/obs/mapping/)
@@ -260,6 +276,7 @@
     - [changement](/unity/traitement/changement/)
     - [proportion](/unity/traitement/proportion/)
 - *vcv_rack*
+  - [osc](/vcv_rack/osc/)
   - *patchs*
     - [baleines](/vcv_rack/patchs/baleines/)
     - [bulles](/vcv_rack/patchs/bulles/)

@@ -4,4 +4,3 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
 
 ![](./cover.jpg)  
 Crédit photo : [Déviation-serie-photographique - Blandine Soulage](https://blandinesoulage.com/deviation-serie-photographique/)
-

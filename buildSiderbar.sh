@@ -1,9 +1,14 @@
 #!/bin/bash
 
 output_file="_sidebar.md"
-output_content=() # Array to store output lines
+# Define the exact header with required spaces and returns
+header="[**Index**](/_index/)
+
+Arborescence :"
+
+output_content=("$header") # Array to store output lines
 # List of top-level folders to ignore
-IGNORED_FOLDERS=("node_modules" "_libs" "assets" ".git" "_libs_modified")
+IGNORED_FOLDERS=("node_modules" "_libs" "assets" ".git" "_libs_modified" "_index")
 
 # Recursive function to process directories
 process_directory() {
