@@ -31,7 +31,7 @@ graph LR
     end
 ```
 
-Si le [default_pattern](../../osc/default_pattern/) est utilisé, voici le format du message OSC :
+Si le [défaut](../../osc/defaut/) est utilisé, voici le format du message OSC :
 ```
 /vkb_midi/@/note/# i
 ```
@@ -51,7 +51,8 @@ graph LR
     end
 ```
 
-Si le [default_pattern](../../osc/default_pattern/) est utilisé, voici le format du message OSC :
+
+Si le [défaut](../../osc/defaut/) est utiliséest utilisé, voici le format du message OSC :
 ```
 /vkb_midi/@/cc/# i
 ```

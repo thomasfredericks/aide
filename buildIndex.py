@@ -8,6 +8,19 @@ DOCS_DIR = './'
 OUTPUT_DIR = os.path.join(DOCS_DIR, '_index')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'README.md')
 
+# Synonymes / alias (clé = variante, valeur = forme canonique)
+ALIASES = {
+    "TD": "TouchDesigner",
+    "Td": "TouchDesigner",
+    "td": "TouchDesigner",
+    "VSCode": "Visual Studio Code",
+    "VSC": "Visual Studio Code",
+    "PD": "Pure Data",
+    "Pd": "Pure Data",
+    "RPi": "Raspberry Pi",
+    "OSC": "Open SOund Control"
+}
+
 # Liste des expressions à garder groupées (insensible à la casse)
 COMBOS = [
     "Pure Data",
@@ -15,25 +28,67 @@ COMBOS = [
     "TouchDesigner",
     "DaVinci Resolve",
     "VLC Media Player",
-    "Arduino IDE",
+    "Visual Studio Code",
     "Pecha Kucha",
     "VCV Rack",
     "Raspberry Pi",
-    "Open Sound Control"
+    "Open Sound Control",
+    "Virtual MIDI Keyboard"
 ]
 
 SKIP_WORDS = {
     'a', 'an', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'with', 'by',
     'de', 'la', 'le', 'les', 'des', 'un', 'une', 'du', 'au', 'aux', 'par', 
     'pour', 'dans', 'sur', 'avec', 'et', 'ou', 'est', 'sont', 'lequel',
-    'ce', 'ces', 'en', 'votre', 'notre', 'quelques', 'par', 'ceux', 'elles', 'À', 'qui', 'uniquement', 'certain'
+    'ce', 'ces', 'en', 'votre', 'notre', 'quelques', 'par', 'ceux', 'elles', 'À', 'qui', 'uniquement', 'certain', 'dans', 'sans'
 }
 
-def normalize_string(s):
-    return ''.join(
+def singularize(word):
+    w = word
+    
+    # 1️⃣ Si le mot contient un point, ne rien changer
+    if '.' in w:
+        return w
+    
+    # 2️⃣ Cas français simples
+    if w.endswith('aux'):
+        return w[:-3] + 'al'   # chevaux → cheval
+    
+    if w.endswith('eaux'):
+        return w[:-1]          # bateaux → bateau
+    
+    # 3️⃣ Pluriel simple
+    if w.endswith('s') and len(w) > 3:
+        # print(f"{w} -> {w[:-1]}")
+        return w[:-1]          # valeurs → valeur
+    
+    return w
+
+# def normalize_string(s):
+#     return ''.join(
+#         c for c in unicodedata.normalize('NFD', s)
+#         if unicodedata.category(c) != 'Mn'
+#     ).lower()
+
+def normalize_for_sort(s):
+    """
+    Transforme une chaîne pour un tri alphabétique correct.
+    - minuscule
+    - suppression des accents
+    - ligatures œ -> oe, æ -> ae
+    """
+    s = s.lower()
+    
+    # ligatures
+    s = s.replace('œ', 'oe').replace('æ', 'ae')
+    
+    # normalisation Unicode NFD + suppression des diacritiques
+    s = ''.join(
         c for c in unicodedata.normalize('NFD', s)
         if unicodedata.category(c) != 'Mn'
-    ).lower()
+    )
+    
+    return s
 
 def get_h1_and_path(docs_dir):
     data = []
@@ -64,6 +119,10 @@ def build_keyword_dict(metadata):
     index = defaultdict(list)
     for title, path in metadata:
         current_title = title
+
+        # Remplacement des alias (ex: TD → TouchDesigner)
+        for alias, full in ALIASES.items():
+            current_title = re.sub(rf'\b{re.escape(alias)}\b', full, current_title)
         
         # 1. Protection des Combos : on remplace "Pure Data" par "Pure-Data" temporairement
         # On utilise une liste pour suivre ce qu'on a modifié
@@ -82,25 +141,29 @@ def build_keyword_dict(metadata):
             clean_prefix = re.sub(r"^[a-zA-Z]['’]", "", word)
             
             # 3. Nettoyer la ponctuation aux extrémités
-            cleaned = clean_prefix.strip('.,;:!?()[]{}""\'’')
+            cleaned = clean_prefix.strip('«».,;:!?()[]{}""\'’')
+
+            lower = cleaned.lower()
+
+            if (lower not in SKIP_WORDS):
             
-            check_val = cleaned.lower()
-            
-            # 4. Filtrage
-            if (check_val and 
-                check_val not in SKIP_WORDS and 
-                not check_val.isdigit() and 
-                len(check_val) > 2):
-                
-                # On restaure l'espace pour l'entrée du dictionnaire si c'était un combo
-                # (ex: "Pure-data" redevient "Pure Data")
-                display_word = cleaned.replace('-', ' ') if any(c.replace(' ', '-').lower() == check_val for c in COMBOS) else cleaned
-                
-                # Capitalisation
-                entry = display_word[0].upper() + display_word[1:] if len(display_word) > 1 else display_word.upper()
-                
-                if (title, path) not in index[entry]:
-                    index[entry].append((title, path))
+                singular = singularize(lower)
+
+                check_val = singular
+
+                if (check_val and 
+                    check_val not in SKIP_WORDS and 
+                    not check_val.isdigit() and 
+                    len(check_val) > 2):
+                    
+                    display_word = singular.replace('-', ' ') if any(
+                        c.replace(' ', '-').lower() == check_val for c in COMBOS
+                    ) else singular
+                    
+                    entry = display_word[0].upper() + display_word[1:] if len(display_word) > 1 else display_word.upper()
+
+                    if (title, path) not in index[entry]:
+                        index[entry].append((title, path))
     return index
 
 def write_markdown(index):
@@ -109,11 +172,11 @@ def write_markdown(index):
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("# Index\n\n")
-        sorted_keys = sorted(index.keys(), key=normalize_string)
+        sorted_keys = sorted(index.keys(), key=normalize_for_sort)
         
         for keyword in sorted_keys:
             f.write(f"* {keyword}\n")
-            sorted_links = sorted(index[keyword], key=lambda x: normalize_string(x[0]))
+            sorted_links = sorted(index[keyword], key=lambda x: normalize_for_sort(x[0]))
             for title, path in sorted_links:
                 f.write(f"  * [{title}](../{path})\n")
 

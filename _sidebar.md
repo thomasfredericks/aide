@@ -211,10 +211,10 @@
     - [echantillonneur](/outils/reaper/echantillonneur/)
     - *osc*
       - [activation](/outils/reaper/osc/activation/)
-      - [default_pattern](/outils/reaper/osc/default_pattern/)
-        - [VMK](/outils/reaper/osc/default_pattern/VMK/)
-        - [general](/outils/reaper/osc/default_pattern/general/)
-        - [piste](/outils/reaper/osc/default_pattern/piste/)
+      - [defaut](/outils/reaper/osc/defaut/)
+        - [VMK](/outils/reaper/osc/defaut/VMK/)
+        - [general](/outils/reaper/osc/defaut/general/)
+        - [piste](/outils/reaper/osc/defaut/piste/)
       - *exemples*
     - *plugin*
       - [midi](/outils/reaper/plugin/midi/)

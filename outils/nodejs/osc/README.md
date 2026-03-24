@@ -1,4 +1,4 @@
-# OSC SLIP : Web/Node.js
+# OSC SLIP : Node.js
 
 
 ## Installation de Node.js
@@ -7,7 +7,7 @@
 
 ## Téléchargement du code slipWebDemo.zip
 
-[![CLiquer pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.png)](./slipWebDemo.zip) 
+[![Cliquer pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.png)](./slipWebDemo.zip) 
 
 ![Décompresser le code](./extraire_slipWebDemo.png) 
 

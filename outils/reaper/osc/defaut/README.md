@@ -1,8 +1,8 @@
-# Reaper : OSC _default pattern_ 
+# Reaper : OSC par défaut
 
-## Ouverture du fichier de configuration OSC _default pattern_
+## Ouverture du fichier de configuration OSC par défaut
 
-Pour ouvrir le dossier contenant le fichier de configuration OSC _default pattern_, sélectionner « open config directory » sous « pattern config » dans la boîte de dialogue des paramètres de la surface de contrôle OSC.
+Pour ouvrir le dossier contenant le fichier de configuration OSC par défaut, sélectionner « open config directory » sous « pattern config » dans la boîte de dialogue des paramètres de la surface de contrôle OSC.
 
 ### Quelques messages reçus par Reaper
 
@@ -55,7 +55,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC _default patter
 
 
 
-## Contenu du fichier _default pattern_
+## Contenu du fichier par défaut
 
 ```
 # OSC pattern config file.

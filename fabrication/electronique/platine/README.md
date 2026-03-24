@@ -1,4 +1,4 @@
-# Platine d'expérimentation (*breadboard*)
+# Platine d'expérimentation (breadboard)
 
 Une platine d’expérimentation (*breadboard* en anglais) permet de réaliser des prototypes de circuits électroniques sans soudure et donc de pouvoir réutiliser les composants.
 
@@ -11,7 +11,7 @@ Une platine d’expérimentation (*breadboard* en anglais) permet de réaliser d
 
 Certains des trous de la platine d'expérimentation sont connectés entre eux. Ces connexions sont indiquées par des lignes dans l'illustration suivante.
 
-![Connexions internes de la paltine d'expérimentation](./platine_experimentation_connexions_internes.svg)
+![Connexions internes de la platine d'expérimentation](./platine_experimentation_connexions_internes.svg)
 
 * Tous les trous dans une rangée intérieure de 5 sont reliés entre eux. 
 * Les trous des colonnes extérieures sont reliés entre eux. Ils sont réservés à l'alimentation :

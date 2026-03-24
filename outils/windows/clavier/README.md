@@ -1,4 +1,4 @@
-# Configurer son clavier dans Windows
+# Configurer le clavier dans Windows
 
 ## Configurer pour un clavier dont les touches sont en anglais
 

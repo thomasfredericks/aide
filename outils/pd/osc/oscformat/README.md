@@ -53,7 +53,7 @@ Cet exemple envoie un blob de 4 octets : `10 20 30 40` avec l'adresse `/data` 
 
 ## Exemples
 
-### Envoyer une note au Virtual MIDI Keyboard de Reaper (selon le default_pattern)
+### Envoyer une note au Virtual MIDI Keyboard de Reaper (selon le défaut)
 
 Si le modèle du message à envoyer est le suivant :
 ```
@@ -70,7 +70,7 @@ Et l'on veut envoyer un message au canal 1, de la note 64 avec une vélocité de
 [oscformat -f i vkb_midi 1 note]
 ```
 
-### Envoyer un message CC au Virtual MIDI Keyboard de Reaper (selon le default_pattern)
+### Envoyer un message CC au Virtual MIDI Keyboard de Reaper (selon le défaut)
 
 Si le modèle du message à envoyer est le suivant :
 ```
