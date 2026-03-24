@@ -143,6 +143,8 @@
   * [Bulles](../outils/vcv_rack/patchs/bulles/)
 * Cartes
   * [Modèles de cartes](../fabrication/arduino/cartes/)
+* Causée
+  * [Dette technique causée par les GML](../culture/ia/dette_technique/)
 * Causés
   * [Les délires causés par les GML](../culture/ia/delires/)
 * Centre
@@ -233,6 +235,8 @@
   * [Design de l'interactivité](../creation/interactivite/design/)
 * Déterminer
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
+* Dette
+  * [Dette technique causée par les GML](../culture/ia/dette_technique/)
 * Deux
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * Diode
@@ -354,6 +358,7 @@
   * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
 * GML
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
+  * [Dette technique causée par les GML](../culture/ia/dette_technique/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
   * [Les délires causés par les GML](../culture/ia/delires/)
@@ -768,6 +773,7 @@
 * Systèmes
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * Technique
+  * [Dette technique causée par les GML](../culture/ia/dette_technique/)
   * [Production > Maquettage > Technique](../creation/production/maquettage/technique/)
 * Télécommande
   * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)

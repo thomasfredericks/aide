@@ -54,6 +54,7 @@
   - [ia](/culture/ia/)
     - [creation](/culture/ia/creation/)
     - [delires](/culture/ia/delires/)
+    - [dette_technique](/culture/ia/dette_technique/)
     - [enseignement](/culture/ia/enseignement/)
     - [guides](/culture/ia/guides/)
     - [propagande](/culture/ia/propagande/)
