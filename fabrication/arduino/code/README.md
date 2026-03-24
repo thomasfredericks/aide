@@ -1,5 +1,7 @@
 # Le code Arduino
 
+<!-- toc -->
+
 ## Créer une variable
 
 ![](./code_creation_variable.drawio.png)

@@ -1,4 +1,3 @@
-
 [**Index**](/_index/)
 
 **Arborescence**
@@ -140,11 +139,11 @@
     - [fastled](/fabrication/pixels/fastled/)
     - [neopixel](/fabrication/pixels/neopixel/)
   - *platformio*
+    - [ino](/fabrication/platformio/ino/)
     - [installation](/fabrication/platformio/installation/)
     - [nouveau_projet](/fabrication/platformio/nouveau_projet/)
     - *pioarduino*
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)
-    - [style_arduino](/fabrication/platformio/style_arduino/)
 - *outils*
   - [brave](/outils/brave/)
   - *davinci_resolve*

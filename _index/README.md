@@ -69,7 +69,7 @@
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/style_arduino/)
+  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Arduino IDE
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * Arrière-plan
@@ -274,6 +274,7 @@
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
   * [Unity+extOSC : envoi OSC](../outils/unity/osc/extosc/envoi/)
 * Erreur
+  * [Erreur 404](../_404.md)
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * ESP32
   * [ESP32 MAC](../fabrication/esp32/mac/)
@@ -611,7 +612,7 @@
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/style_arduino/)
+  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Platine
   * [Platine d'expérimentation (*breadboard*)](../fabrication/electronique/platine/)
 * Plug Data
@@ -641,7 +642,7 @@
   * [Git — Ajout d'un projet à un dépôt](../outils/git/ajout_depot/)
   * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/style_arduino/)
+  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Propagande
   * [IA : Propagande](../culture/ia/propagande/)
 * Proportion
@@ -742,7 +743,7 @@
   * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
 * Style
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/style_arduino/)
+  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Supprimée
   * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Systèmes
