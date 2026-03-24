@@ -1,4 +1,4 @@
-# IA : Création de code ou d'images
+# Création de code ou d'images avec un GML
 
 ## Perfomances d'un GML 
 

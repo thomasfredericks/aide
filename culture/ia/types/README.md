@@ -1,13 +1,10 @@
-# IA : Types
+# Types d'apprentissage automatique (IA, GML, IA générale)
 
-Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. Ainsi, le terme « IA » devrait toujours être suivi d’un qualificatif pour préciser son type, car ces technologies sont très différentes.
+Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. En fait, on parle d'apprentissage machine et souvent plus spécifiquement de  **Grand modèle de langage (GML)**.
 
-Voici les types d’IA que l’on retrouve dans le discours public ambiant :
-
-- **IA générative (GML)** : ChatGPT, Claude, Grok, etc.
+- **Grand modèle de langage (GML) aussi appelé à tort IA générative**  : ChatGPT, Claude, Grok, etc.
 - **IA générale** : **hypothétique – n’existe pas**
 
----
 
 ## Comparatif
 

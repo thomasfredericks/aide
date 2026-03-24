@@ -1,8 +1,8 @@
-# IA : Propagande
+# Propagande sur les GML
 
 <!-- toc -->
 
-La propagande sur l'IA est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L'objectif est d'influencer la population, voire de l'endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d'éliminer le pluralisme des points de vue et d'empêcher l'exercice de l'esprit critique.
+La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L'objectif est d'influencer la population, voire de l'endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d'éliminer le pluralisme des points de vue et d'empêcher l'exercice de l'esprit critique.
 
 En bref, les PDG de compagnies de GML voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels des GML :
 - Désinformation

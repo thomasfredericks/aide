@@ -58,6 +58,8 @@
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
 * Angle
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
+* Apprentissage
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Arcade
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
 * Arduino
@@ -75,7 +77,7 @@
 * Arrière-plan
   * [Unity : Exécution en arrière-plan](../outils/unity/execution_arriere-plan/)
 * Artificielle
-  * [Intelligence artificielle](../culture/ia/)
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * ASCII
   * [Réception série ASCII dans Max](../outils/max/ascii/)
 * Aspect
@@ -109,6 +111,8 @@
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Auteur
   * [Droit d'auteur](../culture/droit/auteur/)
+* Automatique
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Avant
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
 * Baleines
@@ -155,8 +159,8 @@
 * Code
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
-  * [IA : Création de code ou d'images](../culture/ia/creation/)
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Le code Arduino](../fabrication/arduino/code/)
 * Collectif
@@ -200,7 +204,7 @@
 * Court
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Création
-  * [IA : Création de code ou d'images](../culture/ia/creation/)
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
 * Cycling
   * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
 * DaVinci Resolve
@@ -262,7 +266,7 @@
 * Encoder
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
 * Enseignement
-  * [IA : impact sur l'enseignement](../culture/ia/enseignement/)
+  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
 * Enshittification
   * [Merdification ( Enshittification )](../culture/merdification/)
 * Entre
@@ -327,6 +331,8 @@
   * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
 * Général
   * [Reaper OSC default_pattern : général](../outils/reaper/osc/default_pattern/general/)
+* Générale
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Générer
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
 * Gestalt
@@ -342,6 +348,12 @@
   * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
 * Globales
   * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
+* GML
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
+  * [Guides d'utilisation des GML](../culture/ia/guides/)
+  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
+  * [Propagande sur les GML](../culture/ia/propagande/)
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Graphique
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
 * Graphiques
@@ -352,7 +364,7 @@
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * Guides
-  * [IA : Guides](../culture/ia/guides/)
+  * [Guides d'utilisation des GML](../culture/ia/guides/)
 * Gyroscope
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 * Haut-parleurs
@@ -361,12 +373,14 @@
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Hub
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
+* IA/AI
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Identité
   * [Configuration de l'identité Git](../outils/git/configuration_identite/)
 * Images
-  * [IA : Création de code ou d'images](../culture/ia/creation/)
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
 * Impact
-  * [IA : impact sur l'enseignement](../culture/ia/enseignement/)
+  * [Impact sur l'enseignement des GML](../culture/ia/enseignement/)
 * Incrémenter
   * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
 * Index
@@ -391,7 +405,7 @@
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * Intelligence
-  * [Intelligence artificielle](../culture/ia/)
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Interactive
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
 * Interactive​
@@ -644,7 +658,7 @@
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Propagande
-  * [IA : Propagande](../culture/ia/propagande/)
+  * [Propagande sur les GML](../culture/ia/propagande/)
 * Proportion
   * [TouchDesigner : Proportion](../outils/touchdesigner/traitement/proportion/)
   * [Unity : Proportion](../outils/unity/traitement/proportion/)
@@ -794,7 +808,7 @@
 * Travail
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Types
-  * [IA : Types](../culture/ia/types/)
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Typographie
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
 * UDP
@@ -833,6 +847,8 @@
   * [Unity+extOSC : réception OSC](../outils/unity/osc/extosc/reception/)
 * USB
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
+* Utilisation
+  * [Guides d'utilisation des GML](../culture/ia/guides/)
 * Valeur
   * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
