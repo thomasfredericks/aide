@@ -3,6 +3,8 @@
 output_file="_sidebar.md"
 # Define the exact header with required spaces and returns
 header="[**Index**](/_index/)
+
+**Arborescence**
 "
 
 output_content=("$header") # Array to store output lines
