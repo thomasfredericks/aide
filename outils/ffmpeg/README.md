@@ -1,6 +1,6 @@
-# Audiovisuel : Compression
+# FFMPEG
 
-Dans un souci de moralité écologique, nous voulons que nos fichiers audiovisuels soient le plus compressés sans trop de dégradation.
+- FFmpeg Audio Batch (FFAB) : [tisuye.com/ffab/](https://disuye.com/ffab/)
 
 ## Conversion pour un poids cible
 

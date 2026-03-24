@@ -26,7 +26,7 @@ SKIP_WORDS = {
     'a', 'an', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'with', 'by',
     'de', 'la', 'le', 'les', 'des', 'un', 'une', 'du', 'au', 'aux', 'par', 
     'pour', 'dans', 'sur', 'avec', 'et', 'ou', 'est', 'sont', 'lequel',
-    'ce', 'ces', 'en', 'votre', 'notre', 'quelques', 'par', 'ceux', 'elles', 'À', 'qui', 'uniquement'
+    'ce', 'ces', 'en', 'votre', 'notre', 'quelques', 'par', 'ceux', 'elles', 'À', 'qui', 'uniquement', 'certain'
 }
 
 def normalize_string(s):
@@ -112,7 +112,7 @@ def write_markdown(index):
         sorted_keys = sorted(index.keys(), key=normalize_string)
         
         for keyword in sorted_keys:
-            f.write(f"* **{keyword}**\n")
+            f.write(f"* {keyword}\n")
             sorted_links = sorted(index[keyword], key=lambda x: normalize_string(x[0]))
             for title, path in sorted_links:
                 f.write(f"  * [{title}](../{path})\n")
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     metadata = get_h1_and_path(DOCS_DIR)
     keyword_index = build_keyword_dict(metadata)
     write_markdown(keyword_index)
-    print(f"✨ Index mis à jour avec gestion des combos (ex: Pure Data)")
+    print(f"✨ Index mis à jour")

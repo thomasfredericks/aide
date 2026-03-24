@@ -78,4 +78,8 @@ Multitude
 - [LoFi Future - Circuit Bent By Design](https://www.lofifuture.com/vga-converter-video-synthesizer)
 - [Gleix Video Synth // VGS-FB](https://gleix.net/vgsfb)
 - [andrei_jay_creative_coding](https://andreijaycreativecoding.com/)
-- 
+
+
+## ByteBeat
+
+* [TuesdayNightMachines/Bytebeats: A free PDF guide on creating Bytebeats and example code.](https://github.com/TuesdayNightMachines/Bytebeats)
