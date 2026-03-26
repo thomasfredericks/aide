@@ -1,4 +1,4 @@
-# Unity+extOSC : réception OSC
+# Réception d'OSC dans Unity avec extOSC 
 
 <!-- toc -->
 

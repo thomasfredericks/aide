@@ -1,12 +1,19 @@
 # Index
 
+<!-- toc -->
+
+## 1
 * 10x10
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
+
+## 3
 * 3.96
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
   * [M5Stack Unit 3.96 et photorésistance](../fabrication/m5stack/units/396/photoresistance/)
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
   * [Unit 3.96](../fabrication/m5stack/units/396/)
+
+## A
 * Accéléromètre
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 * Action
@@ -14,6 +21,8 @@
 * Activer
   * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+* AI
+  * Voir : Grand modèle de language
 * Aide
   * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
 * Ajout
@@ -37,8 +46,8 @@
 * Arduino
   * [Arduino Nano](../fabrication/nano/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-  * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
@@ -66,8 +75,8 @@
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * Atoms3
-  * [AtomS3](../fabrication/m5stack/atomS3/)
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
+  * [AtomS3](../fabrication/m5stack/atomS3/)
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
 * Attendre
@@ -86,6 +95,8 @@
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Avant
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+
+## B
 * Baleine
   * [Baleines](../outils/vcv_rack/patchs/baleines/)
 * Bande
@@ -122,6 +133,8 @@
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
 * Bulle
   * [Bulles](../outils/vcv_rack/patchs/bulles/)
+
+## C
 * Câble
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * Capacitance
@@ -162,8 +175,8 @@
   * [Colliders dans Unity](../outils/unity/colliders/)
 * Communication
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-  * [Communication sérielle](../fabrication/arduino/serial/)
   * [Communication sérielle dans Pure Data](../outils/pd/serial/)
+  * [Communication sérielle](../fabrication/arduino/serial/)
 * Composant
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * Compresseur
@@ -207,6 +220,10 @@
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
 * Cycling
   * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
+
+## D
+* Data
+  * [Introduction à Plug Data](../outils/pd/plugdata/introduction/)
 * Dataflow
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Davinci resolve
@@ -252,6 +269,8 @@
   * [Droit d'auteur](../culture/droit/auteur/)
 * Durée
   * [Mesurer la durée](../outils/pd/traitement/duree/)
+
+## E
 * Échantillonneur
   * [Reaper : Échantillonneur](../outils/reaper/echantillonneur/)
 * Éclairage
@@ -290,9 +309,9 @@
 * Entrée
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
 * Envoi
+  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../outils/touchdesigner/osc/envoi/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
-  * [Unity+extOSC : envoi OSC](../outils/unity/osc/extosc/envoi/)
 * Erreur
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Esp32
@@ -318,7 +337,12 @@
 * Expérimentation
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * Extosc
+  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
+  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
+  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
   * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
+
+## F
 * Fader
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
 * Faisabilité
@@ -345,6 +369,8 @@
   * [Fond transparent avec Three.js](../outils/threejs/fond_transparent/)
 * Forme
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
+
+## G
 * Galerie
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audio : galerie](../creation/audio/galerie/)
@@ -373,11 +399,14 @@
   * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
 * Globale
   * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
-* Gml
+* GML
+  * Voir : Grand modèle de language
+* Grand
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
   * [Les délires causés par les GML](../culture/ia/delires/)
   * [Propagande sur les GML](../culture/ia/propagande/)
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
@@ -392,14 +421,18 @@
   * [Guides d'utilisation des GML](../culture/ia/guides/)
 * Gyroscope
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
+
+## H
 * Haut-parleur
   * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
 * Histoire
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Hub
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
-* Ia/ai
-  * [Intelligence artificielle (IA/AI)](../culture/ia/)
+
+## I
+* IA
+  * Voir : Grand modèle de language
 * Ide
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * Idée
@@ -416,11 +449,11 @@
   * [Index](../_index/)
   * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
 * Initialisation
+  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
   * [Nano : Initialisation](../fabrication/nano/initialisation/)
-  * [Unity+extOSC : initialisation](../outils/unity/osc/extosc/initialisation/)
 * Inspecteur
   * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
 * Installation
@@ -454,19 +487,36 @@
   * [Introduction à Pure Data](../outils/pd/introduction/)
 * Inversion
   * [TD : Inversion](../outils/touchdesigner/traitement/inverser/)
+
+## J
 * Jeu
   * [Jeu en une minute](../creation/interactivite/ateliers/affordance/)
+
+## K
 * Key
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * Kinect
   * [Kinect V1](../outils/kinect/v1/)
+
+## L
 * L-system
   * [TD : L-Systems](../outils/touchdesigner/l-systems/)
 * Lampe
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
+* Language
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
+  * [Dette technique causée par les GML](../culture/ia/dette/technique/)
+  * [Guides d'utilisation des GML](../culture/ia/guides/)
+  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
+  * [Les délires causés par les GML](../culture/ia/delires/)
+  * [Propagande sur les GML](../culture/ia/propagande/)
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
+* Language/grand
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Lecture
   * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
 * Lidar
@@ -489,13 +539,14 @@
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * Loop
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
+
+## M
 * M5stack
   * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
-  * [M5Stack](../fabrication/m5stack/)
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
@@ -508,6 +559,7 @@
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
   * [M5Stack Unit TOF](../fabrication/m5stack/units/tof/)
+  * [M5Stack](../fabrication/m5stack/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * Mac
   * [ESP32 MAC](../fabrication/esp32/mac/)
@@ -547,8 +599,8 @@
 * Microosc
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
-  * [MicroOsc](../fabrication/microosc/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
+  * [MicroOsc](../fabrication/microosc/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
 * Microoscudp
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
@@ -568,8 +620,16 @@
 * Mixer
   * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
 * Modèle
+  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
+  * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
+  * [Guides d'utilisation des GML](../culture/ia/guides/)
+  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
+  * [Les délires causés par les GML](../culture/ia/delires/)
   * [Modèles de cartes](../fabrication/arduino/cartes/)
+  * [Propagande sur les GML](../culture/ia/propagande/)
+  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Modification
   * [Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * Modularisation
@@ -584,6 +644,8 @@
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Multimètre
   * [Multimètre](../fabrication/electronique/multimetre/)
+
+## N
 * Nano
   * [Arduino Nano](../fabrication/nano/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
@@ -604,6 +666,8 @@
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
 * Null
   * [TouchDesigner : _Null_ et _Trail_](../outils/touchdesigner/null_et_trail/)
+
+## O
 * Oak
   * [Oak](../outils/oak/)
 * Objet
@@ -621,6 +685,7 @@
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
+  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../outils/touchdesigner/osc/envoi/)
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
   * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
@@ -635,26 +700,33 @@
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
   * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
   * [Reaper : OSC par défaut](../outils/reaper/osc/defaut/)
+  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../outils/touchdesigner/osc/reception/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
-  * [Unity+extOSC : envoi OSC](../outils/unity/osc/extosc/envoi/)
-  * [Unity+extOSC : réception OSC](../outils/unity/osc/extosc/reception/)
   * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
   * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
   * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
 * Organisation
   * [Organisation silencieuse](../creation/interactivite/ateliers/organisation/)
+* OSC
+  * Voir : Open Sound Control
 * Oscbridge
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
 * Oscformat
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
 * Oscjackv
   * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
+
+## P
 * Paramètre
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
 * Pbhub
   * [M5Stack PbHub Unit](../fabrication/m5stack/units/pbhub/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
+* PD
+  * Voir : Pure Data
+* Pd
+  * Voir : Pure Data
 * Pdchoco
   * [pdchoco](../outils/pd/pdchoco/)
 * Pecha kucha
@@ -691,7 +763,7 @@
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * Plotter
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
-* Plug data
+* Plug
   * [Introduction à Plug Data](../outils/pd/plugdata/introduction/)
 * Plugdata
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
@@ -749,8 +821,12 @@
   * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
   * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
   * [TD : Déboguer Python](../outils/touchdesigner/python/deboguer/)
+
+## Q
 * Qualifier
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
+
+## R
 * Ralentir
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
 * Raspberry pi
@@ -768,9 +844,9 @@
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * Réception
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
+  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../outils/touchdesigner/osc/reception/)
   * [Réception série ASCII dans Max](../outils/max/ascii/)
-  * [Unity+extOSC : réception OSC](../outils/unity/osc/extosc/reception/)
 * Référence
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * Règle
@@ -788,6 +864,10 @@
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Résistance
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
+* RPi
+  * Voir : Raspberry Pi
+
+## S
 * Scanner
   * [Réseautique : Scanner les IP](../outils/reseautique/scan/)
 * Scénarisation
@@ -804,8 +884,8 @@
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Réception série ASCII dans Max](../outils/max/ascii/)
 * Sérielle
-  * [Communication sérielle](../fabrication/arduino/serial/)
   * [Communication sérielle dans Pure Data](../outils/pd/serial/)
+  * [Communication sérielle](../fabrication/arduino/serial/)
 * Sidechain
   * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
 * Signal
@@ -841,8 +921,12 @@
   * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Système
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
+
+## T
 * Tape
   * [«Tape Warble»](../outils/vcv_rack/patchs/tape_warble/)
+* TD
+  * Voir : TouchDesigner
 * Technique
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Production > Maquettage > Technique](../creation/production/maquettage/technique/)
@@ -895,8 +979,8 @@
 * Trail
   * [TouchDesigner : _Null_ et _Trail_](../outils/touchdesigner/null_et_trail/)
 * Traitement
-  * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
   * [Unity : Traitement de messages](../outils/unity/traitement/)
 * Traiter
@@ -923,6 +1007,8 @@
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Typographie
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
+
+## U
 * Uart
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
 * Udp
@@ -948,6 +1034,9 @@
   * [Unit 3.96](../fabrication/m5stack/units/396/)
 * Unity
   * [Colliders dans Unity](../outils/unity/colliders/)
+  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
+  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
+  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
   * [Spout dans Unity](../outils/unity/spout/)
   * [Unity : Bonnes pratiques Git](../outils/unity/git/)
   * [Unity : changement](../outils/unity/traitement/changement/)
@@ -956,14 +1045,12 @@
   * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
   * [Unity : Proportion](../outils/unity/traitement/proportion/)
   * [Unity : Traitement de messages](../outils/unity/traitement/)
-* Unity+extosc
-  * [Unity+extOSC : envoi OSC](../outils/unity/osc/extosc/envoi/)
-  * [Unity+extOSC : initialisation](../outils/unity/osc/extosc/initialisation/)
-  * [Unity+extOSC : réception OSC](../outils/unity/osc/extosc/reception/)
 * Usb
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
 * Utilisation
   * [Guides d'utilisation des GML](../culture/ia/guides/)
+
+## V
 * Valeur
   * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
   * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
@@ -982,6 +1069,10 @@
   * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)
 * Vnc
   * [VNC](../outils/vnc/)
+* VSCode
+  * Voir : Visual Studio Code
+
+## W
 * Warble
   * [«Tape Warble»](../outils/vcv_rack/patchs/tape_warble/)
 * Websocket

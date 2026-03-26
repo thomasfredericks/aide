@@ -13,20 +13,19 @@ OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'README.md')
 # Synonymes / alias (clé = variante, valeur = forme canonique)
 ALIASES = {
     "TD": "TouchDesigner",
-    "Td": "TouchDesigner",
-    "td": "TouchDesigner",
     "VSCode": "Visual Studio Code",
-    "VSC": "Visual Studio Code",
     "PD": "Pure Data",
     "Pd": "Pure Data",
     "RPi": "Raspberry Pi",
-    "OSC": "Open SOund Control"
+    "OSC": "Open Sound Control",
+    "IA" : "Grand modèle de language",
+    "AI" : "Grand modèle de language",
+    "GML" : "Grand modèle de language"
 }
 
 # Liste des expressions à garder groupées (insensible à la casse)
 COMBOS = [
     "Pure Data",
-    "Plug Data",
     "TouchDesigner",
     "DaVinci Resolve",
     "VLC Media Player",
@@ -122,21 +121,29 @@ def get_h1_and_path(docs_dir):
     return data
 
 def build_keyword_dict(metadata):
+    # On initialise avec des listes vides
     index = defaultdict(list)
+    
+    # 1. Ajouter les redirections d'alias (ex: Pd -> : Voir Pure Data)
+    for alias, full_name in ALIASES.items():
+        # Formatage de la clé (ex: "pd" -> "Pd")
+        entry_alias = alias[0].upper() + alias[1:] if len(alias) > 1 else alias.upper()
+        line = f"Voir : {full_name}"
+        if line not in index[entry_alias]:
+            index[entry_alias].append(line)
+
+    # 2. Parcourir les métadonnées pour les liens réels
     for title, path in metadata:
         current_title = title
-
-        # --- MODIFICATION 2 : Nettoyage des underscores ---
-        # Cette regex supprime les _ s'ils sont au début/fin de titre ou entourés d'espaces
-        # mais ne touche pas à l'underscore dans "mot_cle"
+        
+        # Nettoyage des underscores (italique Markdown)
         current_title = re.sub(r'(^|(?<=\s))_|_(?=\s|$)', '', current_title)
 
-        # Remplacement des alias
+        # Remplacement des alias dans le titre
         for alias, full in ALIASES.items():
             current_title = re.sub(rf'\b{re.escape(alias)}\b', full, current_title)
         
-        # (Le reste de ta fonction build_keyword_dict demeure inchangé...)
-        protected_terms = []
+        # Protection des Combos (ex: Pure Data -> Pure-Data)
         for combo in COMBOS:
             if re.search(re.escape(combo), current_title, re.IGNORECASE):
                 joined_combo = combo.replace(' ', '-')
@@ -144,21 +151,30 @@ def build_keyword_dict(metadata):
         
         words = current_title.split()
         for word in words:
+            # Nettoyage préfixe et ponctuation (dont l'underscore)
             clean_prefix = re.sub(r"^[a-zA-Z]['’]", "", word)
-            # Ajout de l'underscore dans les caractères à nettoyer aux extrémités si nécessaire
-            cleaned = clean_prefix.strip('*«».,;:!?()[]{}""\'’_') 
+            cleaned = clean_prefix.strip('*«».,;:!?()[]{}""\'’_')
 
             lower = cleaned.lower()
-            if (lower not in SKIP_WORDS):
+            if lower not in SKIP_WORDS:
                 singular = singularize(lower)
-                check_val = singular
-                if (check_val and check_val not in SKIP_WORDS and not check_val.isdigit() and len(check_val) > 2):
+                
+                if (singular and singular not in SKIP_WORDS and 
+                    not singular.isdigit() and len(singular) > 2):
+                    
+                    # Gestion de l'affichage (remettre les espaces des combos)
                     display_word = singular.replace('-', ' ') if any(
-                        c.replace(' ', '-').lower() == check_val for c in COMBOS
+                        c.replace(' ', '-').lower() == singular for c in COMBOS
                     ) else singular
-                    entry = display_word[0].upper() + display_word[1:] if len(display_word) > 1 else display_word.upper()
-                    if (title, path) not in index[entry]:
-                        index[entry].append((title, path))
+                    
+                    entry_key = display_word[0].upper() + display_word[1:] if len(display_word) > 1 else display_word.upper()
+                    
+                    # Préformatage de la ligne Markdown
+                    markdown_link = f"[{title}](../{path})"
+                    
+                    if markdown_link not in index[entry_key]:
+                        index[entry_key].append(markdown_link)
+                        
     return index
 
 def write_markdown(index):
@@ -167,13 +183,29 @@ def write_markdown(index):
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("# Index\n\n")
+
+        f.write("<!-- toc -->\n")
+        
         sorted_keys = sorted(index.keys(), key=normalize_for_sort)
         
+        current_letter = None
+        
         for keyword in sorted_keys:
+            # Extraire la première lettre et la normaliser (sans accent, majuscule)
+            first_char = normalize_for_sort(keyword[0]).upper()[0]
+            
+            # Si la lettre change, on insère un nouveau titre de section
+            if first_char != current_letter:
+                current_letter = first_char
+                f.write(f"\n## {current_letter}\n")
+            
+            # Écriture du mot-clé
             f.write(f"* {keyword}\n")
-            sorted_links = sorted(index[keyword], key=lambda x: normalize_for_sort(x[0]))
-            for title, path in sorted_links:
-                f.write(f"  * [{title}](../{path})\n")
+            
+            # Tri et écriture des entrées (liens ou redirections)
+            sorted_entries = sorted(index[keyword], key=normalize_for_sort)
+            for line in sorted_entries:
+                f.write(f"  * {line}\n")
 
 if __name__ == "__main__":
     metadata = get_h1_and_path(DOCS_DIR)

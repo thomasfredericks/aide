@@ -1,4 +1,4 @@
-# Unity+extOSC : initialisation
+# Initialisation d'extOSC dans Unity 
 
 ## Préalables
 
