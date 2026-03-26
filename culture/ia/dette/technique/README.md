@@ -1,5 +1,7 @@
 # Dette technique causée par les GML
 
+> «Il est important de garder en tête que ce sont les ingénieurs qui doivent guider l’IA, et non l’IA qui doit guider l’utilisateur», affirme Alexis Raymond dans [Ne vous laissez pas séduire trop vite par le «vibe coding» - Les Affaires](https://www.lesaffaires.com/dossiers/mois-du-genie-lheure-est-a-la-releve/ne-vous-laissez-pas-seduire-trop-vite-par-le-vibe-coding/)
+
 Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-complex-ai-complex) : 
 * Plus de 66 % des développeurs disent que leur principale frustration avec les outils de code basés sur un GML, c’est *le code presque correct, mais pas tout à fait*.
 * Ce qui mène souvent à la deuxième plus grande frustration : *Déboguer du code généré par l'IA prend plus de temps* (45 %)

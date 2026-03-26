@@ -19,7 +19,7 @@ process_directory() {
 
     for ignored in "${IGNORED_FOLDERS[@]}"; do
         if [[ "$foldername" == "$ignored" ]]; then
-            echo "Skipping ignored folder: $foldername"
+            # echo "Skipping ignored folder: $foldername"
             return 0 # Folder is in the ignore list
         fi
     done

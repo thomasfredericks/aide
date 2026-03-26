@@ -1,4 +1,4 @@
-# AtomS3 : `UART`
+# Communication série UART avec AtomS3
 
 ## Activer la communication `UART` pour communiquer avec des modules/périphériques
 

@@ -1,4 +1,4 @@
-# Électronique : Entrées/Sorties 
+# Électronique : Entrées et sorties 
 
 <!-- toc -->
 

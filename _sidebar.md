@@ -54,7 +54,8 @@
   - [ia](/culture/ia/)
     - [creation](/culture/ia/creation/)
     - [delires](/culture/ia/delires/)
-    - [dette_technique](/culture/ia/dette_technique/)
+    - *dette*
+      - [technique](/culture/ia/dette/technique/)
     - [enseignement](/culture/ia/enseignement/)
     - [guides](/culture/ia/guides/)
     - [propagande](/culture/ia/propagande/)
@@ -154,8 +155,8 @@
   - [ffmpeg](/outils/ffmpeg/)
   - [gamestream](/outils/gamestream/)
   - [git](/outils/git/)
-    - [ajout_depot](/outils/git/ajout_depot/)
-    - [configuration_identite](/outils/git/configuration_identite/)
+    - [ajout](/outils/git/ajout/)
+    - [configuration](/outils/git/configuration/)
     - [github](/outils/git/github/)
       - *projects*
         - [priorites](/outils/git/github/projects/priorites/)

@@ -1,4 +1,4 @@
-# Actions Émergentes
+# Actions émergentes
 
 Les **actions émergentes** sont des comportements ou stratégies non prévus explicitement par les concepteurs, mais rendus possibles par l'interaction entre les règles et les éléments d’un système (souvent interactif comme un jeu ou une simulation).
 

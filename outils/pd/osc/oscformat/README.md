@@ -1,6 +1,4 @@
-# Pd : `[oscformat]`
-
-
+# Créer des messages OSC dans Pd avec oscformat
 
 > [!NOTE]
 > Dans Pure Data, lors de la réception de messages OSC les `/` des adresses sont remplacées par des espaces.

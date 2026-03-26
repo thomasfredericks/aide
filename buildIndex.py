@@ -1,3 +1,5 @@
+# Ce code parcourt tous mes documents .md de Docsify pour générer un index de tous les titres H1.
+
 import os
 import re
 import unicodedata
@@ -93,6 +95,10 @@ def normalize_for_sort(s):
 def get_h1_and_path(docs_dir):
     data = []
     for root, dirs, files in os.walk(docs_dir):
+        # --- MODIFICATION 1 : Ignorer le dossier racine ---
+        if os.path.abspath(root) == os.path.abspath(docs_dir):
+            continue 
+            
         dirs[:] = [d for d in dirs if not d.startswith('_')]
         for file in files:
             if file.endswith('.md'):
@@ -120,48 +126,37 @@ def build_keyword_dict(metadata):
     for title, path in metadata:
         current_title = title
 
-        # Remplacement des alias (ex: TD → TouchDesigner)
+        # --- MODIFICATION 2 : Nettoyage des underscores ---
+        # Cette regex supprime les _ s'ils sont au début/fin de titre ou entourés d'espaces
+        # mais ne touche pas à l'underscore dans "mot_cle"
+        current_title = re.sub(r'(^|(?<=\s))_|_(?=\s|$)', '', current_title)
+
+        # Remplacement des alias
         for alias, full in ALIASES.items():
             current_title = re.sub(rf'\b{re.escape(alias)}\b', full, current_title)
         
-        # 1. Protection des Combos : on remplace "Pure Data" par "Pure-Data" temporairement
-        # On utilise une liste pour suivre ce qu'on a modifié
+        # (Le reste de ta fonction build_keyword_dict demeure inchangé...)
         protected_terms = []
         for combo in COMBOS:
             if re.search(re.escape(combo), current_title, re.IGNORECASE):
-                # On crée une version jointe (ex: Pure-Data)
                 joined_combo = combo.replace(' ', '-')
-                # Remplacement insensible à la casse dans le titre de travail
                 current_title = re.sub(re.escape(combo), joined_combo, current_title, flags=re.IGNORECASE)
         
         words = current_title.split()
-        
         for word in words:
-            # 2. Supprimer les préfixes D', L', etc.
             clean_prefix = re.sub(r"^[a-zA-Z]['’]", "", word)
-            
-            # 3. Nettoyer la ponctuation aux extrémités
-            cleaned = clean_prefix.strip('«».,;:!?()[]{}""\'’')
+            # Ajout de l'underscore dans les caractères à nettoyer aux extrémités si nécessaire
+            cleaned = clean_prefix.strip('*«».,;:!?()[]{}""\'’_') 
 
             lower = cleaned.lower()
-
             if (lower not in SKIP_WORDS):
-            
                 singular = singularize(lower)
-
                 check_val = singular
-
-                if (check_val and 
-                    check_val not in SKIP_WORDS and 
-                    not check_val.isdigit() and 
-                    len(check_val) > 2):
-                    
+                if (check_val and check_val not in SKIP_WORDS and not check_val.isdigit() and len(check_val) > 2):
                     display_word = singular.replace('-', ' ') if any(
                         c.replace(' ', '-').lower() == check_val for c in COMBOS
                     ) else singular
-                    
                     entry = display_word[0].upper() + display_word[1:] if len(display_word) > 1 else display_word.upper()
-
                     if (title, path) not in index[entry]:
                         index[entry].append((title, path))
     return index
@@ -184,4 +179,4 @@ if __name__ == "__main__":
     metadata = get_h1_and_path(DOCS_DIR)
     keyword_index = build_keyword_dict(metadata)
     write_markdown(keyword_index)
-    print(f"✨ Index mis à jour")
+    print(f"{OUTPUT_FILE} generated")

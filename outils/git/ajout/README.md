@@ -1,4 +1,4 @@
-# Git — Ajout d'un projet à un dépôt
+# Ajout d'un projet à un dépôt Git
 
 Voici les étapes pour ajouter un projet local à un dépôt Git hébergé sur un serveur distant.
 
