@@ -116,7 +116,8 @@
       - [uart](/fabrication/m5stack/atomS3/uart/)
     - *units*
       - [396](/fabrication/m5stack/units/396/)
-        - [bouton_arcade](/fabrication/m5stack/units/396/bouton_arcade/)
+        - *bouton*
+          - [arcade](/fabrication/m5stack/units/396/bouton/arcade/)
         - [photoresistance](/fabrication/m5stack/units/396/photoresistance/)
         - [potentiometre](/fabrication/m5stack/units/396/potentiometre/)
       - [angle](/fabrication/m5stack/units/angle/)
@@ -190,9 +191,6 @@
       - [slip](/outils/pd/osc/slip/)
       - [udp](/outils/pd/osc/udp/)
     - [pdchoco](/outils/pd/pdchoco/)
-    - *plugdata*
-      - [copier-coller](/outils/pd/plugdata/copier-coller/)
-      - [introduction](/outils/pd/plugdata/introduction/)
     - [serial](/outils/pd/serial/)
     - *traitement*
       - [basculement](/outils/pd/traitement/basculement/)
@@ -203,6 +201,9 @@
       - [proportion](/outils/pd/traitement/proportion/)
       - [retarder](/outils/pd/traitement/retarder/)
     - [websocket](/outils/pd/websocket/)
+  - *plugdata*
+    - [copier-coller](/outils/plugdata/copier-coller/)
+    - [introduction](/outils/plugdata/introduction/)
   - [projecteurs](/outils/projecteurs/)
   - *reaper*
     - *compression*

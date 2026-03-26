@@ -40,18 +40,8 @@
 
 ### Exemple de code Arduino pour la réception de trois données avec l'adresse /rgb
 
-Partir du code du [Tutoriel: OscBridge, M5 Angle et le bouton](../../m5stack/atom/tutoriel/angle-button-oscbridge.md).
-
-Ajouter le code suivant à _loop()_ juste après _M5.update()_ :
+Partir du code d'un code qui intègre déjà `MicroOsc`. Dans la fonction de réception de messages OSC, ajouter ceci :
 ```cpp
-  // TRIGGER maReceptionMessageOsc() IF AN OSC MESSAGE IS RECEIVED :
-  monOsc.onOscMessageReceived(maReceptionMessageOsc);
-```
-
-Ajouter la fonction suivante à _l'espace global_ :
-```cpp
-void maReceptionMessageOsc(MicroOscMessage& oscMessage) {
-  // IF THE OSC ADDRESS IS "/pixel"
   if (oscMessage.checkOscAddress("/rgb")) {
     // PARSE THREE int ARGUMENTS
     int red = oscMessage.nextAsInt();
@@ -61,5 +51,4 @@ void maReceptionMessageOsc(MicroOscMessage& oscMessage) {
     pixel = CRGB(red, green, blue);
     FastLED.show();
   } 
-}
 ```

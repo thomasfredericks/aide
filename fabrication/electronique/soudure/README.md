@@ -22,12 +22,12 @@
 
 ## Informations complémentaires
 
-* Altman, M. (s. d.). Souder c’est facile : voici comment faire (A. Nordgren, ill.; J. Keyzerm éd.; Snootlab, trad.). [bd_soudure.pdf](../pdf/bd_soudure.pdf)
+* Altman, M. (s. d.). Souder c’est facile : voici comment faire (A. Nordgren, ill.; J. Keyzerm éd.; Snootlab, trad.). [bd_soudure.pdf](bd_soudure.pdf)
 * Earl. B. (2012, 6 septembre). Common Soldering Problems. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
 * Earl. B. (2012, 6 septembre). Making good solder joint. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)
 * Earl. B. (2012, 6 septembre). Preparation. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
 * Earl. B. (2012, 6 septembre). Tools. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
-* Montuelle, C. (s. d.). Introduction à la soudure électrique [vidéo]. Vimeo. [https://vimeo.com/481700117/fe056befd2]( https://vimeo.com/481700117/fe056befd2) 
+* Montuelle, C. (s. d.). Introduction à la soudure électrique [vidéo]. Vimeo. [https://vimeo.com/481700117/fe056befd2](https://vimeo.com/481700117/fe056befd2) 
 
 ## Sources des images
 

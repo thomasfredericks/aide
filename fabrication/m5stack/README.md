@@ -6,7 +6,7 @@
 | --- | --- |  --- |  --- |
 | [Atom Lite](./atom/) | [Atom-Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) | Microcontrôleur | La puce CH552T, utilisée dans le circuit de l’Atom Lite pour la communication USB série, émule une puce FTDI VCP, mais **avec un bogue majeur**. Le firmware actuel de la CH552T provoque des pertes de paquets série lorsque l’Arduino reçoit des données en même temps qu’il en transmet. |
 | [AtomS3 Lite](./atomS3/)| [AtomS3-Lite](https://docs.m5stack.com/en/core/AtomS3%20Lite) | Microcontrôleur | Semble plus prometteur que l'Atom Lite... en cours d'évaluation |
-| [396](./units/396/) | [Unit 3.96](https://docs.m5stack.com/en/unit/396port) | Connecteur | Très utile pour intégrer des [boutons d'arcade](./bouton-arcade/), des [photorésistances](./photoresistance/) ou des [bandes de pixels DEL](../pixels/) |
+| [396](./units/396/) | [Unit 3.96](https://docs.m5stack.com/en/unit/396port) | Connecteur | Très utile pour intégrer des boutons d'arcade, des photorésistances ou des [bandes de pixels DEL](../pixels/) |
 | [Angle](./units/angle/) | [Unit Angle](https://docs.m5stack.com/en/unit/angle) | Capteur analogique | Fonctionne très bien |
 | [Encoder](./units/encoder/) | [Unit Encoder](https://docs.m5stack.com/en/unit/encoder) | I2C | Fonctionne très bien |
 | [Fader](./units/fader/) | [Unit Fader](https://docs.m5stack.com/en/unit/fader) | Capteur analogique + pixel | Fonctionne très bien |

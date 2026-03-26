@@ -8,7 +8,7 @@
 
 ## 3
 * 3.96
-  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
+  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [M5Stack Unit 3.96 et photorésistance](../fabrication/m5stack/units/396/photoresistance/)
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
   * [Unit 3.96](../fabrication/m5stack/units/396/)
@@ -42,7 +42,7 @@
 * Apprentissage
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Arcade
-  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
+  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * Arduino
   * [Arduino Nano](../fabrication/nano/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
@@ -121,7 +121,7 @@
 * Bouton
   * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
-  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
+  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
@@ -209,7 +209,7 @@
 * Convertir
   * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
 * Copier-coller
-  * [Copier-coller avec PD](../outils/pd/plugdata/copier-coller/)
+  * [Copier-coller avec PD](../outils/plugdata/copier-coller/)
 * Corrélation
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
 * Court
@@ -222,8 +222,6 @@
   * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
 
 ## D
-* Data
-  * [Introduction à Plug Data](../outils/pd/plugdata/introduction/)
 * Dataflow
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Davinci resolve
@@ -484,7 +482,7 @@
 * Intervalle
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Introduction
-  * [Introduction à Plug Data](../outils/pd/plugdata/introduction/)
+  * [Introduction à plugdata](../outils/plugdata/introduction/)
   * [Introduction à Pure Data](../outils/pd/introduction/)
 * Inversion
   * [TD : Inversion](../outils/touchdesigner/traitement/inverser/)
@@ -544,7 +542,7 @@
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
   * [M5Stack Light Unit](../fabrication/m5stack/units/light/)
   * [M5Stack PbHub Unit](../fabrication/m5stack/units/pbhub/)
-  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
+  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [M5Stack Unit 3.96 et photorésistance](../fabrication/m5stack/units/396/photoresistance/)
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
@@ -745,10 +743,9 @@
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * Plotter
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
-* Plug
-  * [Introduction à Plug Data](../outils/pd/plugdata/introduction/)
 * Plugdata
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
+  * [Introduction à plugdata](../outils/plugdata/introduction/)
 * Plugin
   * [MIDI et plugins](../outils/reaper/plugin/midi/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
@@ -787,7 +784,7 @@
   * [Public cible](../creation/interactivite/public/)
 * Pure data
   * [Communication sérielle dans Pure Data](../outils/pd/serial/)
-  * [Copier-coller avec PD](../outils/pd/plugdata/copier-coller/)
+  * [Copier-coller avec PD](../outils/plugdata/copier-coller/)
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
   * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
   * [Introduction à Pure Data](../outils/pd/introduction/)
@@ -1007,7 +1004,7 @@
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
   * [M5Stack Light Unit](../fabrication/m5stack/units/light/)
   * [M5Stack PbHub Unit](../fabrication/m5stack/units/pbhub/)
-  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton_arcade/)
+  * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [M5Stack Unit 3.96 et photorésistance](../fabrication/m5stack/units/396/photoresistance/)
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)

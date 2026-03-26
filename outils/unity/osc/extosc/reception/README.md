@@ -163,7 +163,7 @@ oscReceiver.Bind("/angle", TraiterOscAngle);
 > Créer un `oscReceiver.Bind()` et une fonction différente de traitement de messages OSC (comme `TraiterOscAngle()`) pour **CHAQUE** adresse OSC qui doit être traitée
 
 > [!NOTE]
-> Pour les traitements de message, se référer à la section [Traitement de messages dans Unity](../../traitement/)
+> Pour les traitements de message, se référer à la section [Traitement de messages dans Unity](../../../traitement/)
 
 
 ### Dans l’éditeur Unity
