@@ -209,7 +209,7 @@
 * Convertir
   * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
 * Copier-coller
-  * [Copier-coller avec PD](../outils/plugdata/copier-coller/)
+  * [Copier-coller avec Pd](../outils/plugdata/copier-coller/)
 * Corrélation
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
 * Court
@@ -280,7 +280,7 @@
 * Éducation
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Effectuer
-  * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
 * Effet
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Effets dans Davinci Resolve](../outils/davinci_resolve/effets/)
@@ -303,7 +303,7 @@
 * Enshittification
   * [Merdification ( Enshittification )](../culture/merdification/)
 * Entre
-  * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
 * Entrée
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
 * Envoi
@@ -394,7 +394,7 @@
 * Github
   * [GitHub](../outils/git/github/)
 * Glissement
-  * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
 * Globale
   * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
 * GML
@@ -784,9 +784,9 @@
   * [Public cible](../creation/interactivite/public/)
 * Pure data
   * [Communication sérielle dans Pure Data](../outils/pd/serial/)
-  * [Copier-coller avec PD](../outils/plugdata/copier-coller/)
+  * [Copier-coller avec Pd](../outils/plugdata/copier-coller/)
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
-  * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
   * [Introduction à Pure Data](../outils/pd/introduction/)
   * [OSC SLIP dans Pd](../outils/pd/osc/slip/)
   * [OSC UDP : Pure Data](../outils/pd/osc/udp/)
@@ -795,7 +795,7 @@
   * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
   * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
-  * [WebSockets dans PD](../outils/pd/websocket/)
+  * [WebSockets dans Pd](../outils/pd/websocket/)
 * Python
   * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
   * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
@@ -1031,7 +1031,7 @@
 
 ## V
 * Valeur
-  * [Effectuer un glissement entre des valeurs avec PD](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
   * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
   * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
@@ -1055,7 +1055,7 @@
 * Warble
   * [«Tape Warble»](../outils/vcv_rack/patchs/tape_warble/)
 * Websocket
-  * [WebSockets dans PD](../outils/pd/websocket/)
+  * [WebSockets dans Pd](../outils/pd/websocket/)
 * While
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Window

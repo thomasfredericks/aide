@@ -1,4 +1,4 @@
-# Effectuer un glissement entre des valeurs avec PD
+# Effectuer un glissement entre des valeurs avec Pd
 
 ## Patch pour effectuer un glissement
 

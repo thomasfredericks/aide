@@ -1,4 +1,4 @@
-# Copier-coller avec PD
+# Copier-coller avec Pd
 
 ## Copier-coller lorsque plugdata est un plugin
 

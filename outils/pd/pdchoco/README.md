@@ -26,7 +26,7 @@ Déplacez le dossier **pdchoco** ( pas *pdchoco-main* ) dans **Documents > Pd > 
 - `list_iterator` : Itère les éléments d’une liste.
 - `list_iterator_delayed` : Itère les éléments d’une liste avec un délai entre chaque.
 - `map` : Remappe et limite une plage d’entrée vers une plage de sortie.
-- `matches_start_of` : Vérifie si tous les caractères de l’entrée correspondent au début d’une référence. La comparaison utilise `expr` et `strncmp`. Requiert PD version >= 0.55-2.
+- `matches_start_of` : Vérifie si tous les caractères de l’entrée correspondent au début d’une référence. La comparaison utilise `expr` et `strncmp`. Requiert Pd version >= 0.55-2.
 - `message_looper` : Enregistre tout type de message dans le temps et les rejoue en boucle.
 - `modulo` : Modulo mathématique au lieu du modulo de programmation (%).
 - `once` : Laisse passer un seul bang. Permet un nouveau bang à chaque fois qu’un bang est reçu à l’entrée droite.
