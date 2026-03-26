@@ -212,4 +212,4 @@ if __name__ == "__main__":
     metadata = get_h1_and_path(DOCS_DIR)
     keyword_index = build_keyword_dict(metadata)
     write_markdown(keyword_index)
-    print(f"{OUTPUT_FILE} generated")
+    print(f"✅ {OUTPUT_FILE} generated")

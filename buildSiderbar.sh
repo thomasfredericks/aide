@@ -57,4 +57,4 @@ done
 # Write all collected output to the file at once
 printf "%s\n" "${output_content[@]}" > "$output_file"
 
-echo "_sidebar.md generated successfully."
+echo "✅ _sidebar.md generated successfully."
