@@ -22,7 +22,7 @@
   * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
 * AI
-  * Voir : Grand modèle de language
+  * Voir : Grand modèle de langage
 * Aide
   * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
 * Ajout
@@ -400,16 +400,17 @@
 * Globale
   * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
 * GML
-  * Voir : Grand modèle de language
-* Grand
+  * Voir : Grand modèle de langage
+* Grand modèle de langage
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
-  * [Intelligence artificielle (IA/AI)](../culture/ia/)
   * [Les délires causés par les GML](../culture/ia/delires/)
   * [Propagande sur les GML](../culture/ia/propagande/)
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
+* Grand-modèle-de-langage/grand-modèle-de-langage
+  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Graphique
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
@@ -432,7 +433,7 @@
 
 ## I
 * IA
-  * Voir : Grand modèle de language
+  * Voir : Grand modèle de langage
 * Ide
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * Idée
@@ -506,17 +507,6 @@
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
-* Language
-  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-  * [Dette technique causée par les GML](../culture/ia/dette/technique/)
-  * [Guides d'utilisation des GML](../culture/ia/guides/)
-  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
-  * [Intelligence artificielle (IA/AI)](../culture/ia/)
-  * [Les délires causés par les GML](../culture/ia/delires/)
-  * [Propagande sur les GML](../culture/ia/propagande/)
-  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Language/grand
-  * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Lecture
   * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
 * Lidar
@@ -620,16 +610,8 @@
 * Mixer
   * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
 * Modèle
-  * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-  * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
-  * [Guides d'utilisation des GML](../culture/ia/guides/)
-  * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
-  * [Intelligence artificielle (IA/AI)](../culture/ia/)
-  * [Les délires causés par les GML](../culture/ia/delires/)
   * [Modèles de cartes](../fabrication/arduino/cartes/)
-  * [Propagande sur les GML](../culture/ia/propagande/)
-  * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Modification
   * [Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * Modularisation
