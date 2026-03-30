@@ -248,7 +248,7 @@
 * Démarrage
   * [Tutoriel: «Blink» uniquement au démarrage](../_hidden/exemples/blink_demarrage.md)
 * Démo
-  * [Démo de faisabilité](../creation/production/maquettage/demo/)
+  * [Démo de faisabilité](../creation/production/faisabilite/)
 * Dépôt
   * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
 * Design
@@ -320,8 +320,6 @@
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * Établir
   * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
-* Étape
-  * [Étapes de production](../creation/production/etapes/)
 * État
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * Etat
@@ -344,7 +342,7 @@
 * Fader
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
 * Faisabilité
-  * [Démo de faisabilité](../creation/production/maquettage/demo/)
+  * [Démo de faisabilité](../creation/production/faisabilite/)
 * Fait
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
 * Fastled
@@ -556,8 +554,7 @@
 * Mapping
   * [OBS : Mapping](../outils/obs/mapping/)
 * Maquettage
-  * [Maquettage](../creation/production/maquettage/)
-  * [Production > Maquettage > Technique](../creation/production/maquettage/technique/)
+  * [Production > Maquettage > Technique](../creation/production/planification/)
 * Marge
   * [Marges](../creation/visuel/marges/)
 * Master
@@ -762,8 +759,8 @@
 * Processu
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Production
-  * [Étapes de production](../creation/production/etapes/)
-  * [Production > Maquettage > Technique](../creation/production/maquettage/technique/)
+  * [Production > Maquettage > Technique](../creation/production/planification/)
+  * [Production](../creation/production/)
 * Projecteur
   * [Projecteurs](../outils/projecteurs/)
 * Projet
@@ -851,7 +848,7 @@
   * [Réseautique : Scanner les IP](../outils/reseautique/scan/)
 * Scénarisation
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
-  * [Scénarisation](../creation/production/maquettage/scenarisation/)
+  * [Scénarisation](../creation/production/scenarisation/)
 * Schéma
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
 * Sécurité
@@ -908,7 +905,7 @@
   * Voir : TouchDesigner
 * Technique
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
-  * [Production > Maquettage > Technique](../creation/production/maquettage/technique/)
+  * [Production > Maquettage > Technique](../creation/production/planification/)
 * Télécommande
   * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
 * Temp

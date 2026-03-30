@@ -2,6 +2,10 @@
 
 <!-- toc -->
 
+## Histoire
+
+- [The short history of 150 years of music technology - YouTube](https://www.youtube.com/watch?app=desktop&v=jN_sBYqRxKw)
+
 ## Outils
 
 - [TONEDESIGNER](https://watusi.cloud/tonedesigner/)

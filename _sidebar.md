@@ -31,12 +31,10 @@
     - [public](/creation/interactivite/public/)
     - [scenarisation](/creation/interactivite/scenarisation/)
   - [pecha_kucha](/creation/pecha_kucha/)
-  - *production*
-    - [etapes](/creation/production/etapes/)
-    - [maquettage](/creation/production/maquettage/)
-      - [demo](/creation/production/maquettage/demo/)
-      - [scenarisation](/creation/production/maquettage/scenarisation/)
-      - [technique](/creation/production/maquettage/technique/)
+  - [production](/creation/production/)
+    - [faisabilite](/creation/production/faisabilite/)
+    - [planification](/creation/production/planification/)
+    - [scenarisation](/creation/production/scenarisation/)
   - *visuel*
     - *ateliers*
       - [10x10](/creation/visuel/ateliers/10x10/)
