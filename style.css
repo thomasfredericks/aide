@@ -1105,10 +1105,10 @@ h3::after {
 figure {
 display: table;
   text-align: center;
-  margin: 2em auto;
+  margin: 2em auto 0px auto;
   max-width: 90%;
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   
   /* 1. Define the border thickness */
   border-left: 1px solid #aaa;
@@ -1140,7 +1140,7 @@ figcaption {
   background-color: #fff;
   color: #000;
   font: italic sans-serif;
-  padding: 5px;
+  padding: 20px 5px 5px 5px;
   margin: 0px;
   text-align: center;
 

@@ -154,7 +154,7 @@
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
 * Clavier
-  * [Configurer le clavier dans Windows](../outils/windows/clavier/)
+  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
 * Clignote
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
 * Clignoter
@@ -192,8 +192,8 @@
   * [Reaper : Configuration](../outils/reaper/configuration/)
   * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
 * Configurer
-  * [Configurer le clavier dans Windows](../outils/windows/clavier/)
   * [Configurer les priorités](../outils/git/github/projects/priorites/)
+  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
 * Connexion
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * Continu
@@ -324,6 +324,8 @@
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * Etat
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
+* États-uni
+  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
 * Exécuter
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Exécution
@@ -422,6 +424,8 @@
 ## H
 * Haut-parleur
   * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
+* Hiérarchie
+  * [Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Histoire
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Hub
@@ -475,8 +479,12 @@
   * [Design de l'interactivité](../creation/interactivite/design/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
+* Interface
+  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
 * Intérieur
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
+* International
+  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
 * Intervalle
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Introduction
@@ -866,6 +874,8 @@
   * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
 * Signal
   * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
+* Signifiant
+  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
 * Silencieuse
   * [Organisation silencieuse](../creation/interactivite/ateliers/organisation/)
 * Simulation
@@ -1023,6 +1033,8 @@
   * [Unity : Traitement de messages](../outils/unity/traitement/)
 * Usb
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
+* Utilisateur
+  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
 * Utilisation
   * [Guides d'utilisation des GML](../culture/ia/guides/)
 
@@ -1043,6 +1055,8 @@
 * Virtual midi keyboard
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
   * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)
+* Visuelle
+  * [Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Vnc
   * [VNC](../outils/vnc/)
 * VSCode
@@ -1056,4 +1070,4 @@
 * While
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Window
-  * [Configurer le clavier dans Windows](../outils/windows/clavier/)
+  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)

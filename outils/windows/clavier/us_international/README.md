@@ -1,18 +1,18 @@
-# Configurer le clavier dans Windows
+# Configurer Windows pour le clavier États-Unis international
 
-## Configurer pour un clavier dont les touches sont en anglais
+## Étapes
 
-![](./configuration_clavier_anglais001.png)
+![Ouvrir les paramètres de langue et de clavier](./configuration_clavier_anglais001.png)
 
-![](./configuration_clavier_anglais002.png)
+![Déplier le module de langue en français](./configuration_clavier_anglais002.png)
 
-![](./configuration_clavier_anglais003.png)
+![Cliquer les options](./configuration_clavier_anglais003.png)
 
-![](./configuration_clavier_anglais004.png)
+![Cliquer pour ajouter un clavier](./configuration_clavier_anglais004.png)
 
-![](./configuration_clavier_anglais005.png)
+![Ajouter le clavier États-Unis international](./configuration_clavier_anglais005.png)
 
-![](./configuration_clavier_anglais006.png)
+![Sélectionner le clavier dans la barre Windows](./configuration_clavier_anglais006.png)
 
 
 ### Tableau des combinaisons pour les signes en français

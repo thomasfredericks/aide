@@ -41,6 +41,9 @@
       - [logo](/creation/visuel/ateliers/logo/)
       - [typoobjekto](/creation/visuel/ateliers/typoobjekto/)
     - [guide](/creation/visuel/guide/)
+    - *iu*
+      - [hierarchie](/creation/visuel/iu/hierarchie/)
+      - [signifiants](/creation/visuel/iu/signifiants/)
     - [marges](/creation/visuel/marges/)
 - *culture*
   - *droit*
@@ -276,4 +279,5 @@
       - [tape_warble](/outils/vcv_rack/patchs/tape_warble/)
   - [vnc](/outils/vnc/)
   - *windows*
-    - [clavier](/outils/windows/clavier/)
+    - *clavier*
+      - [us_international](/outils/windows/clavier/us_international/)
