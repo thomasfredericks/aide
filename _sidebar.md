@@ -42,8 +42,12 @@
       - [typoobjekto](/creation/visuel/ateliers/typoobjekto/)
     - [guide](/creation/visuel/guide/)
     - *iu*
+      - [couleur](/creation/visuel/iu/couleur/)
+      - [espace](/creation/visuel/iu/espace/)
       - [hierarchie](/creation/visuel/iu/hierarchie/)
+      - [retroaction](/creation/visuel/iu/retroaction/)
       - [signifiants](/creation/visuel/iu/signifiants/)
+      - [typographie](/creation/visuel/iu/typographie/)
     - [marges](/creation/visuel/marges/)
 - *culture*
   - *droit*

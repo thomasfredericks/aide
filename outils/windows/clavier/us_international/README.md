@@ -1,6 +1,6 @@
-# Configurer Windows pour le clavier États-Unis international
+# Clavier États-Unis international dans Windows
 
-## Étapes
+## Étapes pour ajouter la disposition de clavier États-Unis international dans Windows
 
 ![Ouvrir les paramètres de langue et de clavier](./configuration_clavier_anglais001.png)
 

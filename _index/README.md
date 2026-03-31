@@ -154,7 +154,7 @@
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
 * Clavier
-  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
 * Clignote
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
 * Clignoter
@@ -193,7 +193,6 @@
   * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
 * Configurer
   * [Configurer les priorités](../outils/git/github/projects/priorites/)
-  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
 * Connexion
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * Continu
@@ -212,6 +211,8 @@
   * [Copier-coller avec Pd](../outils/plugdata/copier-coller/)
 * Corrélation
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
+* Couleur
+  * [Couleur](../creation/visuel/iu/couleur/)
 * Court
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Création
@@ -294,6 +295,8 @@
 * Électronique
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
+* Élément
+  * [Espacer les éléments](../creation/visuel/iu/espace/)
 * Émergente
   * [Actions émergentes](../creation/interactivite/emergence/)
 * Encoder
@@ -316,6 +319,8 @@
   * [ESP32 MAC](../fabrication/esp32/mac/)
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
+* Espacer
+  * [Espacer les éléments](../creation/visuel/iu/espace/)
 * Esthétique
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * Établir
@@ -325,7 +330,7 @@
 * Etat
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
 * États-uni
-  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
 * Exécuter
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Exécution
@@ -353,6 +358,7 @@
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Feedback
   * [*Feedback* avec TouchDesigner](../outils/touchdesigner/feedback/)
+  * [Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * Ffmpeg
   * [FFMPEG](../outils/ffmpeg/)
 * Flip
@@ -484,7 +490,7 @@
 * Intérieur
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
 * International
-  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
 * Intervalle
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Introduction
@@ -848,6 +854,8 @@
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Résistance
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
+* Rétroaction
+  * [Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * RPi
   * Voir : Raspberry Pi
 
@@ -993,6 +1001,7 @@
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Typographie
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
+  * [Typographie](../creation/visuel/iu/typographie/)
 
 ## U
 * Uart
@@ -1070,4 +1079,4 @@
 * While
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Window
-  * [Configurer Windows pour le clavier États-Unis international](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
