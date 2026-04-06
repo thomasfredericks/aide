@@ -90,9 +90,11 @@
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Auteur
-  * [Droit d'auteur](../culture/droit/auteur/)
+  * [Autorat : droit d'auteur](../culture/autorat/)
 * Automatique
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
+* Autorat
+  * [Autorat : droit d'auteur](../culture/autorat/)
 * Avant
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
 
@@ -265,7 +267,7 @@
 * Directe
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
 * Droit
-  * [Droit d'auteur](../culture/droit/auteur/)
+  * [Autorat : droit d'auteur](../culture/autorat/)
 * Durée
   * [Mesurer la durée](../outils/pd/traitement/duree/)
 
@@ -593,6 +595,8 @@
   * [Mesurer la durée](../outils/pd/traitement/duree/)
 * Micro-soudure
   * [Micro-soudure](../fabrication/electronique/soudure/)
+* Microélectronique
+  * [Simulation de microélectronique](../fabrication/simulation/)
 * Micronet
   * [MicroNet](../fabrication/micronet/)
 * Microosc
@@ -887,6 +891,7 @@
 * Silencieuse
   * [Organisation silencieuse](../creation/interactivite/ateliers/organisation/)
 * Simulation
+  * [Simulation de microélectronique](../fabrication/simulation/)
   * [Simulation](../creation/interactivite/ateliers/simulation/)
 * Slamtec
   * [Slamtec LIDAR](../outils/lidar/slamtec/)
@@ -913,6 +918,8 @@
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Supprimée
   * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
+* Surveillance
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
 * Système
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 
@@ -1058,9 +1065,10 @@
 * Vcv rack
   * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
 * Vidéo
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
   * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
 * Vidéosurveillance
-  * [Vidéosurveillance](../culture/droit/videosurveillance/)
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
 * Virtual midi keyboard
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
   * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)

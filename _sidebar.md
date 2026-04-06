@@ -50,9 +50,7 @@
       - [typographie](/creation/visuel/iu/typographie/)
     - [marges](/creation/visuel/marges/)
 - *culture*
-  - *droit*
-    - [auteur](/culture/droit/auteur/)
-    - [videosurveillance](/culture/droit/videosurveillance/)
+  - [autorat](/culture/autorat/)
   - *education*
     - [manifeste](/culture/education/manifeste/)
     - [sytemes_pensee](/culture/education/sytemes_pensee/)
@@ -67,6 +65,7 @@
     - [types](/culture/ia/types/)
   - [merdification](/culture/merdification/)
   - [securite](/culture/securite/)
+  - [surveillance](/culture/surveillance/)
 - *fabrication*
   - *arduino*
     - [cartes](/fabrication/arduino/cartes/)
@@ -153,6 +152,7 @@
     - [nouveau_projet](/fabrication/platformio/nouveau_projet/)
     - *pioarduino*
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)
+  - [simulation](/fabrication/simulation/)
 - *outils*
   - [brave](/outils/brave/)
   - *davinci_resolve*
