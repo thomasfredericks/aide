@@ -16,6 +16,10 @@ Elles utilisent quelque chose appelé *apprentissage par renforcement à partir 
 Pour contrer les hallucinations, il faut une base de connaissances réelles pour vérifier la validité des affirmations. Quand un GML dit : « Super architecture », les connaissances permettent de répondre : « Vraiment ? »
 Un [article](https://medium.com/@delightene8/llms-are-confidence-engines-why-ai-is-making-tech-founders-delusional-3fe64ab4bc71) qualifie les GML de moteurs de confiance : ils ne rendent pas plus intelligents, ils donnent simplement l’impression de l’être.
 
+Selon [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity - METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) :
+- Les développeurs s’attendent à ce que l’IA les rende 24 % plus rapides.
+- Lorsque les développeurs utilisent des outils d’IA, ils mettent 19 % de temps en plus pour résoudre des problèmes — un ralentissement significatif qui va à l’encontre des croyances des développeurs et des prévisions des experts. 
+- Cet écart entre perception et réalité est frappant. Même après avoir constaté le ralentissement, ils continuaient de penser que l’IA les avait accélérés de 20 %.
 
 ## Références
 
