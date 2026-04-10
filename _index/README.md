@@ -95,6 +95,8 @@
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Autorat
   * [Autorat : droit d'auteur](../culture/autorat/)
+* Av1
+  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
 * Avant
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
 
@@ -169,6 +171,8 @@
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
+* Codec
+  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
 * Collectif
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * Collectivement
@@ -363,7 +367,8 @@
   * [*Feedback* avec TouchDesigner](../outils/touchdesigner/feedback/)
   * [Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * Ffmpeg
-  * [FFMPEG](../outils/ffmpeg/)
+  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
+  * [FFmpeg](../outils/ffmpeg/)
 * Flip
   * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
 * Flip-flop/toggle

@@ -160,6 +160,7 @@
     - [effets](/outils/davinci_resolve/effets/)
   - [eclairage](/outils/eclairage/)
   - [ffmpeg](/outils/ffmpeg/)
+    - [av1](/outils/ffmpeg/av1/)
   - [gamestream](/outils/gamestream/)
   - [git](/outils/git/)
     - [ajout](/outils/git/ajout/)
