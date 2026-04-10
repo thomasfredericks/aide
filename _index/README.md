@@ -287,6 +287,7 @@
 * Effet
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Effets dans Davinci Resolve](../outils/davinci_resolve/effets/)
+  * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
 * Effondrement
   * [Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
@@ -410,6 +411,7 @@
 * Grand modèle de langage
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
+  * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
   * [Les délires causés par les GML](../culture/ia/delires/)
@@ -795,6 +797,8 @@
   * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
 * Psychologie
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
+* Psychologique
+  * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
 * Public
   * [Public cible](../creation/interactivite/public/)
 * Pure data
@@ -864,6 +868,8 @@
   * Voir : Raspberry Pi
 
 ## S
+* Santé
+  * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
 * Scanner
   * [Réseautique : Scanner les IP](../outils/reseautique/scan/)
 * Scénarisation

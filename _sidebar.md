@@ -62,6 +62,7 @@
     - [enseignement](/culture/ia/enseignement/)
     - [guides](/culture/ia/guides/)
     - [propagande](/culture/ia/propagande/)
+    - [sante](/culture/ia/sante/)
     - [types](/culture/ia/types/)
   - [merdification](/culture/merdification/)
   - [securite](/culture/securite/)
