@@ -149,6 +149,8 @@
   * [Les délires causés par les GML](../culture/ia/delires/)
 * Causée
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
+* Cellulaire
+  * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
 * Changement
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Unity : changement](../outils/unity/traitement/changement/)
@@ -592,6 +594,8 @@
   * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
 * Merdification
   * [Merdification ( Enshittification )](../culture/merdification/)
+* Meshtastic
+  * [Meshtastic](../fabrication/meshtastic/)
 * Message
   * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
   * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
@@ -882,8 +886,6 @@
   * [Scénarisation](../creation/production/scenarisation/)
 * Schéma
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
-* Sécurité
-  * [Sécurité](../culture/securite/)
 * Serial
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
@@ -930,7 +932,8 @@
 * Supprimée
   * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Surveillance
-  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
+  * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
 * Système
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 
@@ -942,6 +945,8 @@
 * Technique
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Production > Maquettage > Technique](../creation/production/planification/)
+* Technologie
+  * [Technologie](../culture/technologie/)
 * Télécommande
   * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
 * Temp
@@ -1076,10 +1081,10 @@
 * Vcv rack
   * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
 * Vidéo
-  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
   * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
 * Vidéosurveillance
-  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/)
+  * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
 * Virtual midi keyboard
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
   * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)

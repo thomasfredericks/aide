@@ -65,8 +65,12 @@
     - [sante](/culture/ia/sante/)
     - [types](/culture/ia/types/)
   - [merdification](/culture/merdification/)
-  - [securite](/culture/securite/)
-  - [surveillance](/culture/surveillance/)
+  - *surveillance*
+    - [cellulaire](/culture/surveillance/cellulaire/)
+    - [temoins](/culture/surveillance/temoins/)
+    - [video](/culture/surveillance/video/)
+  - [techno](/culture/techno/)
+  - [technologie](/culture/technologie/)
 - *fabrication*
   - *arduino*
     - [cartes](/fabrication/arduino/cartes/)
@@ -133,6 +137,7 @@
       - [light](/fabrication/m5stack/units/light/)
       - [pbhub](/fabrication/m5stack/units/pbhub/)
       - [tof](/fabrication/m5stack/units/tof/)
+  - [meshtastic](/fabrication/meshtastic/)
   - [micronet](/fabrication/micronet/)
   - [microosc](/fabrication/microosc/)
     - [envoi](/fabrication/microosc/envoi/)
