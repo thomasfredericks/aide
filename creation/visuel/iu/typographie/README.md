@@ -1,4 +1,4 @@
-# Typographie
+# IU : Typographie
 
 ![Polices suggérées](./polices.png)
 

@@ -1,4 +1,4 @@
-# Signifiants de l'interface utilisateur (UI / IU)
+# IU : Signifiants de l'interface utilisateur
 
 Un signifiant (tel que défini par la psychologie du design de Don Norman) est un indicateur visuel d'utilisabilité. 
 

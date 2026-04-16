@@ -1,4 +1,4 @@
-# Règle supprimée 
+# Atelier : Règle supprimée 
 
 - Prendre un jeu connu (dames, Uno).  
 - Supprimer volontairement une règle essentielle.  

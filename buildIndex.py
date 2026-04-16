@@ -20,7 +20,9 @@ ALIASES = {
     "OSC": "Open Sound Control",
     "IA" : "Grand modèle de langage",
     "AI" : "Grand modèle de langage",
-    "GML" : "Grand modèle de langage"
+    "GML" : "Grand modèle de langage",
+    "IU" : "Interface utilisateur",
+    "GUI" : "Interface utilisateur"
 }
 
 # Liste des expressions à garder groupées (insensible à la casse)
@@ -35,7 +37,8 @@ COMBOS = [
     "Raspberry Pi",
     "Open Sound Control",
     "Virtual MIDI Keyboard",
-    "Grand modèle de langage"
+    "Grand modèle de langage",
+    "Interface utilisateur"
 ]
 
 SKIP_WORDS = {

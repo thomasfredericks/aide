@@ -1,4 +1,4 @@
-# Couleur
+# IU : Couleur
 
 Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://www.youtube.com/watch?v=EcbgbKtOELY)
 

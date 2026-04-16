@@ -1,4 +1,4 @@
-# Hiérarchie visuelle
+# IU : Hiérarchie visuelle
 
 Organisation et mise en valeur des éléments par importance.
 

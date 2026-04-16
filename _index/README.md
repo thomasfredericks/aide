@@ -21,6 +21,8 @@
 * Activer
   * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
   * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+* Affordance
+  * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * AI
   * Voir : Grand modèle de langage
 * Aide
@@ -56,6 +58,8 @@
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Arrière-plan
   * [Unity : Exécution en arrière-plan](../outils/unity/execution_arriere-plan/)
+* Arti
+  * [Galerie de projets artis](../culture/techno/)
 * Artificielle
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Ascii
@@ -63,6 +67,12 @@
 * Aspect
   * [TouchDesigner : Aspect](../outils/touchdesigner/aspect/)
 * Atelier
+  * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
+  * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
+  * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
+  * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
+  * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
+  * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
 * Atom
   * [Atom (Lite)](../fabrication/m5stack/atom/)
@@ -177,11 +187,10 @@
   * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
 * Collectif
   * [Logo collectif](../creation/visuel/ateliers/logo/)
-* Collectivement
-  * [Compter collectivement](../creation/interactivite/ateliers/compter/)
 * Collider
   * [Colliders dans Unity](../outils/unity/colliders/)
 * Communication
+  * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Communication sérielle dans Pure Data](../outils/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
@@ -191,8 +200,6 @@
   * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
 * Compression
   * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
-* Compter
-  * [Compter collectivement](../creation/interactivite/ateliers/compter/)
 * Conception
   * [Conception sonore](../creation/audio/conception/)
 * Configuration
@@ -206,7 +213,7 @@
 * Continu
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
 * Contrainte
-  * [Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
+  * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * Contrôle
   * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
 * Contrôlée
@@ -220,7 +227,7 @@
 * Corrélation
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
 * Couleur
-  * [Couleur](../creation/visuel/iu/couleur/)
+  * [IU : Couleur](../creation/visuel/iu/couleur/)
 * Court
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Création
@@ -296,7 +303,7 @@
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
 * Effondrement
-  * [Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
+  * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * Électricité
   * [L'électricité](../fabrication/electronique/electricite/)
 * Électroluminescente
@@ -305,7 +312,7 @@
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * Élément
-  * [Espacer les éléments](../creation/visuel/iu/espace/)
+  * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
 * Émergente
   * [Actions émergentes](../creation/interactivite/emergence/)
 * Encoder
@@ -329,7 +336,7 @@
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * Espacer
-  * [Espacer les éléments](../creation/visuel/iu/espace/)
+  * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
 * Esthétique
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * Établir
@@ -367,7 +374,7 @@
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Feedback
   * [*Feedback* avec TouchDesigner](../outils/touchdesigner/feedback/)
-  * [Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
+  * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * Ffmpeg
   * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
   * [FFmpeg](../outils/ffmpeg/)
@@ -388,6 +395,7 @@
 * Galerie
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audio : galerie](../creation/audio/galerie/)
+  * [Galerie de projets artis](../culture/techno/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
 * Gamestream
   * [GameStream](../outils/gamestream/)
@@ -431,6 +439,8 @@
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * Grove
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
+* GUI
+  * Voir : Interface utilisateur
 * Guide
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
@@ -442,7 +452,7 @@
 * Haut-parleur
   * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
 * Hiérarchie
-  * [Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
+  * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Histoire
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Hub
@@ -496,8 +506,13 @@
   * [Design de l'interactivité](../creation/interactivite/design/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
-* Interface
-  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
+* Interface utilisateur
+  * [IU : Couleur](../creation/visuel/iu/couleur/)
+  * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
+  * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
+  * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
+  * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
+  * [IU : Typographie](../creation/visuel/iu/typographie/)
 * Intérieur
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
 * International
@@ -509,10 +524,12 @@
   * [Introduction à Pure Data](../outils/pd/introduction/)
 * Inversion
   * [TD : Inversion](../outils/touchdesigner/traitement/inverser/)
+* IU
+  * Voir : Interface utilisateur
 
 ## J
 * Jeu
-  * [Jeu en une minute](../creation/interactivite/ateliers/affordance/)
+  * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
 
 ## K
 * Key
@@ -630,14 +647,14 @@
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
 * Minute
-  * [Jeu en une minute](../creation/interactivite/ateliers/affordance/)
+  * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * Mixer
   * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
 * Modèle
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Modèles de cartes](../fabrication/arduino/cartes/)
 * Modification
-  * [Modification d'une règle](../creation/interactivite/ateliers/modification/)
+  * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * Modularisation
   * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
 * Monitor/plotter
@@ -712,8 +729,6 @@
   * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
   * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
   * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
-* Organisation
-  * [Organisation silencieuse](../creation/interactivite/ateliers/organisation/)
 * OSC
   * Voir : Open Sound Control
 * Oscbridge
@@ -794,6 +809,7 @@
   * [Projecteurs](../outils/projecteurs/)
 * Projet
   * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
+  * [Galerie de projets artis](../culture/techno/)
   * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
@@ -857,8 +873,8 @@
 * Référence
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * Règle
-  * [Modification d'une règle](../creation/interactivite/ateliers/modification/)
-  * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
+  * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
+  * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Relai
   * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
@@ -872,7 +888,7 @@
 * Résistance
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * Rétroaction
-  * [Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
+  * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * RPi
   * Voir : Raspberry Pi
 
@@ -900,12 +916,10 @@
 * Signal
   * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
 * Signifiant
-  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
-* Silencieuse
-  * [Organisation silencieuse](../creation/interactivite/ateliers/organisation/)
+  * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
 * Simulation
+  * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Simulation de microélectronique](../fabrication/simulation/)
-  * [Simulation](../creation/interactivite/ateliers/simulation/)
 * Slamtec
   * [Slamtec LIDAR](../outils/lidar/slamtec/)
 * Slip
@@ -930,10 +944,12 @@
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Supprimée
-  * [Règle supprimée](../creation/interactivite/ateliers/suppression/)
+  * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Surveillance
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
+* Synchroniser
+  * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
 * Système
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 
@@ -1023,8 +1039,8 @@
 * Type
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Typographie
+  * [IU : Typographie](../creation/visuel/iu/typographie/)
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
-  * [Typographie](../creation/visuel/iu/typographie/)
 
 ## U
 * Uart
@@ -1065,8 +1081,6 @@
   * [Unity : Traitement de messages](../outils/unity/traitement/)
 * Usb
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
-* Utilisateur
-  * [Signifiants de l'interface utilisateur (UI / IU)](../creation/visuel/iu/signifiants/)
 * Utilisation
   * [Guides d'utilisation des GML](../culture/ia/guides/)
 
@@ -1089,7 +1103,7 @@
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
   * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)
 * Visuelle
-  * [Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
+  * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Vnc
   * [VNC](../outils/vnc/)
 * VSCode

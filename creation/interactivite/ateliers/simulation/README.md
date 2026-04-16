@@ -1,4 +1,4 @@
-# Simulation 
+# Atelier : Simulation d'un jeu
 
 **Consigne :** 
 - Concevoir une expérience interactive basée sur des règles, jouable en classe (ou dans un studio) avec un minimum de matériel (papier, marqueurs, ruban adhésif, chaises, corps).  

@@ -16,12 +16,11 @@
     - [analyse](/creation/interactivite/analyse/)
     - *ateliers*
       - [affordance](/creation/interactivite/ateliers/affordance/)
-      - [compter](/creation/interactivite/ateliers/compter/)
       - [contrainte](/creation/interactivite/ateliers/contrainte/)
       - [modification](/creation/interactivite/ateliers/modification/)
-      - [organisation](/creation/interactivite/ateliers/organisation/)
       - [simulation](/creation/interactivite/ateliers/simulation/)
       - [suppression](/creation/interactivite/ateliers/suppression/)
+      - [synchronisation](/creation/interactivite/ateliers/synchronisation/)
     - [design](/creation/interactivite/design/)
     - [ecoute](/creation/interactivite/ecoute/)
     - [emergence](/creation/interactivite/emergence/)
