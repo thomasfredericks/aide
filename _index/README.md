@@ -114,6 +114,7 @@
 * Baleine
   * [Baleines](../outils/vcv_rack/patchs/baleines/)
 * Bande
+  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
 * Basculement
   * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
@@ -220,6 +221,9 @@
   * [TD : Variation contrôlée](../outils/touchdesigner/traitement/variation/)
 * Contrôler
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
+* Contrôleur
+  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
+  * [Contrôleur éclairage QLC+](../outils/qlc+/)
 * Convertir
   * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
 * Copier-coller
@@ -288,7 +292,7 @@
 * Échantillonneur
   * [Reaper : Échantillonneur](../outils/reaper/echantillonneur/)
 * Éclairage
-  * [Éclairage](../outils/eclairage/)
+  * [Contrôleur éclairage QLC+](../outils/qlc+/)
 * Écoute
   * [Écoute](../creation/interactivite/ecoute/)
 * Éditeur
@@ -399,6 +403,8 @@
   * [Interactivité : galerie](../creation/interactivite/galerie/)
 * Gamestream
   * [GameStream](../outils/gamestream/)
+* Gd-pjlink
+  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
 * Genelec
   * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
 * Général
@@ -457,6 +463,8 @@
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Hub
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
+* Hyperhdr
+  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
 
 ## I
 * IA
@@ -591,6 +599,8 @@
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * Mac
   * [ESP32 MAC](../fabrication/esp32/mac/)
+* Manette
+  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
 * Manifeste
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Mapping
@@ -677,6 +687,8 @@
   * [Navigateur dans OBS](../outils/obs/source_web/)
 * Neopixel
   * [Pixels : NeoPixel](../fabrication/pixels/neopixel/)
+* Ngrok
+  * [Tunnel réseau ngrok](../outils/ngrok/)
 * Node.js
   * [OSC SLIP : Node.js](../outils/nodejs/osc/)
 * Nombre
@@ -729,6 +741,8 @@
   * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
   * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
   * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
+* Open-ip-scanner
+  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
 * OSC
   * Voir : Open Sound Control
 * Oscbridge
@@ -766,6 +780,7 @@
   * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
   * [Reaper OSC default_pattern : piste](../outils/reaper/osc/defaut/piste/)
 * Pixel
+  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
   * [Pixels : FastLED](../fabrication/pixels/fastled/)
@@ -806,7 +821,7 @@
   * [Production > Maquettage > Technique](../creation/production/planification/)
   * [Production](../creation/production/)
 * Projecteur
-  * [Projecteurs](../outils/projecteurs/)
+  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
 * Projet
   * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
   * [Galerie de projets artis](../culture/techno/)
@@ -846,6 +861,8 @@
   * [TD : Déboguer Python](../outils/touchdesigner/python/deboguer/)
 
 ## Q
+* Qlc+
+  * [Contrôleur éclairage QLC+](../outils/qlc+/)
 * Qualifier
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 
@@ -881,8 +898,9 @@
 * Relation
   * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
-* Réseautique
-  * [Réseautique : Scanner les IP](../outils/reseautique/scan/)
+* Réseau
+  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
+  * [Tunnel réseau ngrok](../outils/ngrok/)
 * Résiliente
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Résistance
@@ -895,8 +913,8 @@
 ## S
 * Santé
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
-* Scanner
-  * [Réseautique : Scanner les IP](../outils/reseautique/scan/)
+* Scan
+  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
 * Scénarisation
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
   * [Scénarisation](../creation/production/scenarisation/)
@@ -1023,6 +1041,8 @@
   * [Fond transparent avec Three.js](../outils/threejs/fond_transparent/)
 * Travail
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
+* Tunnel
+  * [Tunnel réseau ngrok](../outils/ngrok/)
 * Tutoriel
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)

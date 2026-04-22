@@ -162,10 +162,11 @@
   - [brave](/outils/brave/)
   - *davinci_resolve*
     - [effets](/outils/davinci_resolve/effets/)
-  - [eclairage](/outils/eclairage/)
+  - [ddp](/outils/ddp/)
   - [ffmpeg](/outils/ffmpeg/)
     - [av1](/outils/ffmpeg/av1/)
   - [gamestream](/outils/gamestream/)
+  - [gd-pjlink](/outils/gd-pjlink/)
   - [git](/outils/git/)
     - [ajout](/outils/git/ajout/)
     - [configuration](/outils/git/configuration/)
@@ -174,6 +175,7 @@
         - [priorites](/outils/git/github/projects/priorites/)
   - *haut-parleurs*
     - [genelec](/outils/haut-parleurs/genelec/)
+  - [hyperhdr](/outils/hyperhdr/)
   - *kinect*
     - [v1](/outils/kinect/v1/)
   - *lidar*
@@ -184,6 +186,7 @@
     - *osc*
       - [relais](/outils/max/osc/relais/)
       - [udp](/outils/max/osc/udp/)
+  - [ngrok](/outils/ngrok/)
   - *nodejs*
     - [osc](/outils/nodejs/osc/)
   - [oak](/outils/oak/)
@@ -192,6 +195,7 @@
     - [source_web](/outils/obs/source_web/)
     - [spout](/outils/obs/spout/)
     - [telecommande](/outils/obs/telecommande/)
+  - [open-ip-scanner](/outils/open-ip-scanner/)
   - [osc](/outils/osc/)
   - *pd*
     - [introduction](/outils/pd/introduction/)
@@ -215,7 +219,7 @@
   - *plugdata*
     - [copier-coller](/outils/plugdata/copier-coller/)
     - [introduction](/outils/plugdata/introduction/)
-  - [projecteurs](/outils/projecteurs/)
+  - [qlc+](/outils/qlc+/)
   - *reaper*
     - *compression*
       - [limiteur](/outils/reaper/compression/limiteur/)
@@ -233,8 +237,6 @@
       - [midi](/outils/reaper/plugin/midi/)
       - [osc](/outils/reaper/plugin/osc/)
     - [virtual_midi_keyboard](/outils/reaper/virtual_midi_keyboard/)
-  - *reseautique*
-    - [scan](/outils/reseautique/scan/)
   - [rpi](/outils/rpi/)
   - *threejs*
     - [fond_transparent](/outils/threejs/fond_transparent/)
