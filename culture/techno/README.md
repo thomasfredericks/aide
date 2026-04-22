@@ -1,1 +1,0 @@
-# Galerie de projets artis

@@ -19,16 +19,16 @@
 * Action
   * [Actions émergentes](../creation/interactivite/emergence/)
 * Activer
-  * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
-  * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+  * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
+  * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
 * Affordance
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * AI
   * Voir : Grand modèle de langage
 * Aide
-  * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
+  * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
 * Ajout
-  * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
+  * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
 * Aléatoire
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
 * Alimenter
@@ -57,15 +57,13 @@
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Arrière-plan
-  * [Unity : Exécution en arrière-plan](../outils/unity/execution_arriere-plan/)
-* Arti
-  * [Galerie de projets artis](../culture/techno/)
+  * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * Artificielle
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * Ascii
-  * [Réception série ASCII dans Max](../outils/max/ascii/)
+  * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * Aspect
-  * [TouchDesigner : Aspect](../outils/touchdesigner/aspect/)
+  * [TouchDesigner : Aspect](../logiciels/touchdesigner/aspect/)
 * Atelier
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
@@ -90,12 +88,12 @@
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
 * Attendre
-  * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+  * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
 * Audio
   * [Audio : galerie](../creation/audio/galerie/)
-  * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
+  * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * Audiovisuel
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
@@ -106,20 +104,20 @@
 * Autorat
   * [Autorat : droit d'auteur](../culture/autorat/)
 * Av1
-  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
+  * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
 * Avant
-  * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+  * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
 
 ## B
 * Baleine
-  * [Baleines](../outils/vcv_rack/patchs/baleines/)
+  * [Baleines](../logiciels/vcv_rack/patchs/baleines/)
 * Bande
-  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
+  * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
 * Basculement
-  * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
+  * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * Basculer
-  * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
+  * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
 * Base
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
@@ -131,8 +129,8 @@
 * Bloquer
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
 * Bonne
-  * [Bonnes pratiques *git* pour TouchDesigner](../outils/touchdesigner/git/)
-  * [Unity : Bonnes pratiques Git](../outils/unity/git/)
+  * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
+  * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * Bouton
   * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
@@ -141,13 +139,13 @@
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * Brave
-  * [Brave](../outils/brave/)
+  * [Brave](../logiciels/brave/)
 * Breadboard
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * Broche
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
 * Bulle
-  * [Bulles](../outils/vcv_rack/patchs/bulles/)
+  * [Bulles](../logiciels/vcv_rack/patchs/bulles/)
 
 ## C
 * Câble
@@ -164,14 +162,14 @@
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
 * Changement
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
-  * [Unity : changement](../outils/unity/traitement/changement/)
+  * [Unity : changement](../logiciels/unity/traitement/changement/)
 * Cible
   * [Public cible](../creation/interactivite/public/)
 * Circuit
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
 * Clavier
-  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * Clignote
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
 * Clignoter
@@ -185,30 +183,30 @@
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * Codec
-  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
+  * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
 * Collectif
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * Collider
-  * [Colliders dans Unity](../outils/unity/colliders/)
+  * [Colliders dans Unity](../logiciels/unity/colliders/)
 * Communication
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-  * [Communication sérielle dans Pure Data](../outils/pd/serial/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
 * Composant
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * Compresseur
-  * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
+  * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
 * Compression
-  * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
+  * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
 * Conception
   * [Conception sonore](../creation/audio/conception/)
 * Configuration
-  * [Configuration de l'identité Git](../outils/git/configuration/)
-  * [Reaper : Configuration](../outils/reaper/configuration/)
-  * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
+  * [Configuration de l'identité Git](../logiciels/git/configuration/)
+  * [Reaper : Configuration](../logiciels/reaper/configuration/)
+  * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * Configurer
-  * [Configurer les priorités](../outils/git/github/projects/priorites/)
+  * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
 * Connexion
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * Continu
@@ -216,18 +214,18 @@
 * Contrainte
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * Contrôle
-  * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
+  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
 * Contrôlée
-  * [TD : Variation contrôlée](../outils/touchdesigner/traitement/variation/)
+  * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
 * Contrôler
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
 * Contrôleur
-  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
-  * [Contrôleur éclairage QLC+](../outils/qlc+/)
+  * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
+  * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
 * Convertir
-  * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
+  * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
 * Copier-coller
-  * [Copier-coller avec Pd](../outils/plugdata/copier-coller/)
+  * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
 * Corrélation
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
 * Couleur
@@ -237,25 +235,27 @@
 * Création
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
 * Créer
-  * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
+  * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
 * Cycling
-  * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
+  * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
 
 ## D
 * Dataflow
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Davinci resolve
-  * [Effets dans Davinci Resolve](../outils/davinci_resolve/effets/)
+  * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
+* Ddp
+  * [Protocole DDP](../fabrication/ddp/)
 * Déboguer
-  * [TD : Déboguer Python](../outils/touchdesigner/python/deboguer/)
+  * [TD : Déboguer Python](../logiciels/touchdesigner/python/deboguer/)
 * Décrémenter
-  * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
+  * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
 * Default_pattern
-  * [Reaper OSC default_pattern : général](../outils/reaper/osc/defaut/general/)
-  * [Reaper OSC default_pattern : piste](../outils/reaper/osc/defaut/piste/)
-  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
+  * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
+  * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
+  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
 * Défaut
-  * [Reaper : OSC par défaut](../outils/reaper/osc/defaut/)
+  * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
 * Del
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
@@ -270,11 +270,11 @@
 * Démo
   * [Démo de faisabilité](../creation/production/faisabilite/)
 * Dépôt
-  * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
+  * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
 * Design
   * [Design de l'interactivité](../creation/interactivite/design/)
 * Déterminer
-  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
+  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
 * Dette
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
 * Deux
@@ -286,24 +286,24 @@
 * Droit
   * [Autorat : droit d'auteur](../culture/autorat/)
 * Durée
-  * [Mesurer la durée](../outils/pd/traitement/duree/)
+  * [Mesurer la durée](../logiciels/pd/traitement/duree/)
 
 ## E
 * Échantillonneur
-  * [Reaper : Échantillonneur](../outils/reaper/echantillonneur/)
+  * [Reaper : Échantillonneur](../logiciels/reaper/echantillonneur/)
 * Éclairage
-  * [Contrôleur éclairage QLC+](../outils/qlc+/)
+  * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
 * Écoute
   * [Écoute](../creation/interactivite/ecoute/)
 * Éditeur
-  * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
+  * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * Éducation
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Effectuer
-  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
 * Effet
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-  * [Effets dans Davinci Resolve](../outils/davinci_resolve/effets/)
+  * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
 * Effondrement
@@ -326,12 +326,12 @@
 * Enshittification
   * [Merdification ( Enshittification )](../culture/merdification/)
 * Entre
-  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
 * Entrée
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
 * Envoi
-  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
-  * [Envoi OSC dans TouchDesigner](../outils/touchdesigner/osc/envoi/)
+  * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
+  * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
 * Erreur
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
@@ -344,26 +344,26 @@
 * Esthétique
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * Établir
-  * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
+  * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
 * État
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * Etat
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
 * États-uni
-  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * Exécuter
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Exécution
-  * [Unity : Exécution en arrière-plan](../outils/unity/execution_arriere-plan/)
+  * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * Expérience
   * [Expériences](../creation/interactivite/experience/)
 * Expérimentation
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * Extosc
-  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
-  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
-  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
-  * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
+  * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
+  * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
+  * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
+  * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
 
 ## F
 * Fader
@@ -377,21 +377,21 @@
 * Fatale
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * Feedback
-  * [*Feedback* avec TouchDesigner](../outils/touchdesigner/feedback/)
+  * [*Feedback* avec TouchDesigner](../logiciels/touchdesigner/feedback/)
   * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
 * Ffmpeg
-  * [Codec AV1 avec FFmpeg](../outils/ffmpeg/av1/)
-  * [FFmpeg](../outils/ffmpeg/)
+  * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
+  * [FFmpeg](../logiciels/ffmpeg/)
 * Flip
-  * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
+  * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * Flip-flop/toggle
-  * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
+  * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
 * Flop
-  * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
+  * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * Flux
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
 * Fond
-  * [Fond transparent avec Three.js](../outils/threejs/fond_transparent/)
+  * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * Forme
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
 
@@ -399,16 +399,15 @@
 * Galerie
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audio : galerie](../creation/audio/galerie/)
-  * [Galerie de projets artis](../culture/techno/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
 * Gamestream
-  * [GameStream](../outils/gamestream/)
+  * [GameStream](../logiciels/gamestream/)
 * Gd-pjlink
-  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
+  * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
 * Genelec
-  * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
+  * [Haut-parleurs Genelec](../materiel/genelec/)
 * Général
-  * [Reaper OSC default_pattern : général](../outils/reaper/osc/defaut/general/)
+  * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
 * Générale
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * Générer
@@ -416,17 +415,17 @@
 * Gestalt
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
 * Git
-  * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
-  * [Bonnes pratiques *git* pour TouchDesigner](../outils/touchdesigner/git/)
-  * [Configuration de l'identité Git](../outils/git/configuration/)
-  * [Git](../outils/git/)
-  * [Unity : Bonnes pratiques Git](../outils/unity/git/)
+  * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
+  * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
+  * [Configuration de l'identité Git](../logiciels/git/configuration/)
+  * [Git](../logiciels/git/)
+  * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * Github
-  * [GitHub](../outils/git/github/)
+  * [GitHub](../logiciels/git/github/)
 * Glissement
-  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
 * Globale
-  * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
+  * [TouchDesigner : Globales](../logiciels/touchdesigner/globales/)
 * GML
   * Voir : Grand modèle de langage
 * Grand modèle de langage
@@ -456,7 +455,7 @@
 
 ## H
 * Haut-parleur
-  * [Haut-parleurs Genelec](../outils/haut-parleurs/genelec/)
+  * [Haut-parleurs Genelec](../materiel/genelec/)
 * Hiérarchie
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Histoire
@@ -464,7 +463,7 @@
 * Hub
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
 * Hyperhdr
-  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
+  * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
 
 ## I
 * IA
@@ -474,24 +473,24 @@
 * Idée
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Identité
-  * [Configuration de l'identité Git](../outils/git/configuration/)
+  * [Configuration de l'identité Git](../logiciels/git/configuration/)
 * Image
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
 * Impact
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
 * Incrémenter
-  * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
+  * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
 * Index
   * [Index](../_index/)
-  * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
+  * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
 * Initialisation
-  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
+  * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
   * [Nano : Initialisation](../fabrication/nano/initialisation/)
 * Inspecteur
-  * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
+  * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * Installation
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
@@ -522,16 +521,16 @@
   * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
   * [IU : Typographie](../creation/visuel/iu/typographie/)
 * Intérieur
-  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
+  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
 * International
-  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * Intervalle
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
 * Introduction
-  * [Introduction à plugdata](../outils/plugdata/introduction/)
-  * [Introduction à Pure Data](../outils/pd/introduction/)
+  * [Introduction à plugdata](../logiciels/plugdata/introduction/)
+  * [Introduction à Pure Data](../logiciels/pd/introduction/)
 * Inversion
-  * [TD : Inversion](../outils/touchdesigner/traitement/inverser/)
+  * [TD : Inversion](../logiciels/touchdesigner/traitement/inverser/)
 * IU
   * Voir : Interface utilisateur
 
@@ -544,33 +543,37 @@
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * Kinect
-  * [Kinect V1](../outils/kinect/v1/)
+  * [kinect-ndi-cpp pour Kinect V1](../logiciels/kinect-ndi-cpp/)
+* Kinect-ndi-cpp
+  * [kinect-ndi-cpp pour Kinect V1](../logiciels/kinect-ndi-cpp/)
 
 ## L
 * L-system
-  * [TD : L-Systems](../outils/touchdesigner/l-systems/)
+  * [TD : L-Systems](../logiciels/touchdesigner/l-systems/)
 * Lampe
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
+* Laser
+  * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * Lecture
-  * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
+  * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
 * Lidar
-  * [Slamtec LIDAR](../outils/lidar/slamtec/)
+  * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * Light
   * [M5Stack Light Unit](../fabrication/m5stack/units/light/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * Limiteur
-  * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
+  * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
 * Lisser
-  * [TD : Lisser](../outils/touchdesigner/traitement/lisser/)
+  * [TD : Lisser](../logiciels/touchdesigner/traitement/lisser/)
 * Lite
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * Live-coding
-  * [Live-Coding](../outils/live-coding/)
+  * [Live-Coding](../logiciels/live-coding/)
 * Logo
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * Loop
@@ -600,37 +603,37 @@
 * Mac
   * [ESP32 MAC](../fabrication/esp32/mac/)
 * Manette
-  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
+  * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
 * Manifeste
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Mapping
-  * [OBS : Mapping](../outils/obs/mapping/)
+  * [OBS : Mapping](../logiciels/obs/mapping/)
 * Maquettage
   * [Production > Maquettage > Technique](../creation/production/planification/)
 * Marge
   * [Marges](../creation/visuel/marges/)
 * Master
-  * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
+  * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
 * Matrice
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * Max
-  * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
-  * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
-  * [Réception série ASCII dans Max](../outils/max/ascii/)
+  * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
+  * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
+  * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * Mémoire
-  * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
+  * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
 * Merdification
   * [Merdification ( Enshittification )](../culture/merdification/)
 * Meshtastic
   * [Meshtastic](../fabrication/meshtastic/)
 * Message
-  * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
-  * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
-  * [Unity : Traitement de messages](../outils/unity/traitement/)
+  * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
+  * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
+  * [Unity : Traitement de messages](../logiciels/unity/traitement/)
 * Mesure
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * Mesurer
-  * [Mesurer la durée](../outils/pd/traitement/duree/)
+  * [Mesurer la durée](../logiciels/pd/traitement/duree/)
 * Micro-soudure
   * [Micro-soudure](../fabrication/electronique/soudure/)
 * Microélectronique
@@ -649,8 +652,8 @@
   * [MicroRemoteWire](../fabrication/microremotewire/)
 * Midi
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
-  * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
-  * [MIDI et plugins](../outils/reaper/plugin/midi/)
+  * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
+  * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
 * Milli
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
   * [millis( )](../fabrication/arduino/millis/)
@@ -659,14 +662,14 @@
 * Minute
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * Mixer
-  * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
+  * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * Modèle
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Modèles de cartes](../fabrication/arduino/cartes/)
 * Modification
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * Modularisation
-  * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
+  * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
 * Monitor/plotter
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * Motion
@@ -684,73 +687,75 @@
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
   * [Nano : Initialisation](../fabrication/nano/initialisation/)
 * Navigateur
-  * [Navigateur dans OBS](../outils/obs/source_web/)
+  * [Navigateur dans OBS](../logiciels/obs/source_web/)
 * Neopixel
   * [Pixels : NeoPixel](../fabrication/pixels/neopixel/)
 * Ngrok
-  * [Tunnel réseau ngrok](../outils/ngrok/)
+  * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * Node.js
-  * [OSC SLIP : Node.js](../outils/nodejs/osc/)
+  * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
 * Nombre
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
 * Norme
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * Note
-  * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
+  * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
 * Nouveau
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
 * Null
-  * [TouchDesigner : _Null_ et _Trail_](../outils/touchdesigner/null_et_trail/)
+  * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 
 ## O
 * Oak
-  * [Oak](../outils/oak/)
+  * [Oak](../materiel/oak/)
 * Objet
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
 * Obs
-  * [Navigateur dans OBS](../outils/obs/source_web/)
-  * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
-  * [OBS : Mapping](../outils/obs/mapping/)
-  * [Spout dans OBS](../outils/obs/spout/)
+  * [Navigateur dans OBS](../logiciels/obs/source_web/)
+  * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
+  * [OBS : Mapping](../logiciels/obs/mapping/)
+  * [Spout dans OBS](../logiciels/obs/spout/)
 * Œuvre
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
 * Open sound control
-  * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
+  * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-  * [Convertir les messages OSC en MIDI (notes et CC)](../outils/pd/osc/midi/)
-  * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
-  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
-  * [Envoi OSC dans TouchDesigner](../outils/touchdesigner/osc/envoi/)
+  * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
+  * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
+  * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
+  * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
-  * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
-  * [Open Sound Control (OSC)](../outils/osc/)
-  * [OSC SLIP : Node.js](../outils/nodejs/osc/)
-  * [OSC SLIP dans Pd](../outils/pd/osc/slip/)
-  * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
-  * [OSC UDP : Pure Data](../outils/pd/osc/udp/)
-  * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
-  * [Reaper OSC default_pattern : général](../outils/reaper/osc/defaut/general/)
-  * [Reaper OSC default_pattern : piste](../outils/reaper/osc/defaut/piste/)
-  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
-  * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
-  * [Reaper : OSC par défaut](../outils/reaper/osc/defaut/)
-  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
-  * [Réception de l'OSC dans TouchDesigner](../outils/touchdesigner/osc/reception/)
+  * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
+  * [Open Sound Control (OSC)](../fabrication/osc/)
+  * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
+  * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
+  * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
+  * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
+  * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
+  * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
+  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
+  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
+  * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
+  * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
-  * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
-  * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
-  * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
+  * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
+  * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
+  * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
 * Open-ip-scanner
-  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
+  * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
 * OSC
   * Voir : Open Sound Control
 * Oscbridge
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
 * Oscformat
-  * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
+  * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
 * Oscjackv
-  * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
+  * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
+* Oscmo-lidar
+  * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 
 ## P
 * Paramètre
@@ -763,13 +768,13 @@
 * Pd
   * Voir : Pure Data
 * Pdchoco
-  * [pdchoco](../outils/pd/pdchoco/)
+  * [pdchoco](../logiciels/pd/pdchoco/)
 * Pecha kucha
   * [Pecha Kucha](../creation/pecha_kucha/)
 * Pensée
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * Perform
-  * [TouchDesigner : Perform](../outils/touchdesigner/performance/)
+  * [TouchDesigner : Perform](../logiciels/touchdesigner/performance/)
 * Petite
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * Photorésistance
@@ -777,17 +782,17 @@
 * Pioarduino-espressif32
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
 * Piste
-  * [Compresseur et limiteur sur la piste Master](../outils/reaper/compression/limiteur/)
-  * [Reaper OSC default_pattern : piste](../outils/reaper/osc/defaut/piste/)
+  * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
+  * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
 * Pixel
-  * [Contrôleur de bandes de pixels HyperHDR](../outils/hyperhdr/)
+  * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
   * [Pixels : FastLED](../fabrication/pixels/fastled/)
   * [Pixels : NeoPixel](../fabrication/pixels/neopixel/)
 * Plage
-  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
-  * [TD : Plage](../outils/touchdesigner/traitement/plage/)
+  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
+  * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * Platformio
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
@@ -801,40 +806,41 @@
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
 * Plugdata
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-  * [Introduction à plugdata](../outils/plugdata/introduction/)
+  * [Introduction à plugdata](../logiciels/plugdata/introduction/)
 * Plugin
-  * [MIDI et plugins](../outils/reaper/plugin/midi/)
+  * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
-  * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
+  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
 * Poe
   * [Atom POE](../fabrication/m5stack/atom-poe/)
 * Potentiomètre
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
 * Pratique
-  * [Bonnes pratiques *git* pour TouchDesigner](../outils/touchdesigner/git/)
-  * [Unity : Bonnes pratiques Git](../outils/unity/git/)
+  * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
+  * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * Priorité
-  * [Configurer les priorités](../outils/git/github/projects/priorites/)
+  * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
 * Processu
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Production
   * [Production > Maquettage > Technique](../creation/production/planification/)
   * [Production](../creation/production/)
 * Projecteur
-  * [Manette de projecteurs : gd-pjlink](../outils/gd-pjlink/)
+  * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
 * Projet
-  * [Ajout d'un projet à un dépôt Git](../outils/git/ajout/)
-  * [Galerie de projets artis](../culture/techno/)
-  * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
+  * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
+  * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Propagande
   * [Propagande sur les GML](../culture/ia/propagande/)
 * Proportion
-  * [TouchDesigner : Proportion](../outils/touchdesigner/traitement/proportion/)
-  * [Unity : Proportion](../outils/unity/traitement/proportion/)
+  * [TouchDesigner : Proportion](../logiciels/touchdesigner/traitement/proportion/)
+  * [Unity : Proportion](../logiciels/unity/traitement/proportion/)
 * Proportionnelle
-  * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
+  * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
+* Protocole
+  * [Protocole DDP](../fabrication/ddp/)
 * Psychologie
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
 * Psychologique
@@ -842,27 +848,27 @@
 * Public
   * [Public cible](../creation/interactivite/public/)
 * Pure data
-  * [Communication sérielle dans Pure Data](../outils/pd/serial/)
-  * [Copier-coller avec Pd](../outils/plugdata/copier-coller/)
-  * [Créer des messages OSC dans Pd avec oscformat](../outils/pd/osc/oscformat/)
-  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
-  * [Introduction à Pure Data](../outils/pd/introduction/)
-  * [OSC SLIP dans Pd](../outils/pd/osc/slip/)
-  * [OSC UDP : Pure Data](../outils/pd/osc/udp/)
-  * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
-  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
-  * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
-  * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
-  * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
-  * [WebSockets dans Pd](../outils/pd/websocket/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
+  * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
+  * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
+  * [Introduction à Pure Data](../logiciels/pd/introduction/)
+  * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
+  * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
+  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
+  * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
+  * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
+  * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
+  * [WebSockets dans Pd](../logiciels/pd/websocket/)
 * Python
-  * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
-  * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
-  * [TD : Déboguer Python](../outils/touchdesigner/python/deboguer/)
+  * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
+  * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
+  * [TD : Déboguer Python](../logiciels/touchdesigner/python/deboguer/)
 
 ## Q
 * Qlc+
-  * [Contrôleur éclairage QLC+](../outils/qlc+/)
+  * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
 * Qualifier
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 
@@ -870,37 +876,37 @@
 * Ralentir
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
 * Raspberry pi
-  * [Raspberry Pi](../outils/rpi/)
+  * [Raspberry Pi](../logiciels/rpi/)
 * Reaper
-  * [Activer l'OSC dans Reaper](../outils/reaper/osc/activation/)
-  * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
-  * [Reaper OSC default_pattern : général](../outils/reaper/osc/defaut/general/)
-  * [Reaper OSC default_pattern : piste](../outils/reaper/osc/defaut/piste/)
-  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
-  * [Reaper : Configuration](../outils/reaper/configuration/)
-  * [Reaper : contrôle d'un plugin par OSC](../outils/reaper/plugin/osc/)
-  * [Reaper : Échantillonneur](../outils/reaper/echantillonneur/)
-  * [Reaper : OSC par défaut](../outils/reaper/osc/defaut/)
+  * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
+  * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
+  * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
+  * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
+  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
+  * [Reaper : Configuration](../logiciels/reaper/configuration/)
+  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [Reaper : Échantillonneur](../logiciels/reaper/echantillonneur/)
+  * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * Réception
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
-  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
-  * [Réception de l'OSC dans TouchDesigner](../outils/touchdesigner/osc/reception/)
-  * [Réception série ASCII dans Max](../outils/max/ascii/)
+  * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
+  * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
+  * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * Référence
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * Règle
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
   * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Relai
-  * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
-  * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
+  * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
+  * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
 * Relation
-  * [Pd : Établir une relation proportionnelle](../outils/pd/traitement/proportion/)
+  * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
 * Réseau
-  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
-  * [Tunnel réseau ngrok](../outils/ngrok/)
+  * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
+  * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * Résiliente
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
 * Résistance
@@ -914,7 +920,9 @@
 * Santé
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
 * Scan
-  * [Scan de réseau : Open-IP-Scanner](../outils/open-ip-scanner/)
+  * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
+* Scanner
+  * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * Scénarisation
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
   * [Scénarisation](../creation/production/scenarisation/)
@@ -925,39 +933,39 @@
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * Série
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-  * [Réception série ASCII dans Max](../outils/max/ascii/)
+  * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * Sérielle
-  * [Communication sérielle dans Pure Data](../outils/pd/serial/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
 * Sidechain
-  * [Compression *sidechain* dans Reaper](../outils/reaper/compression/sidechain/)
+  * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
 * Signal
-  * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
+  * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
 * Signifiant
   * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
 * Simulation
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Simulation de microélectronique](../fabrication/simulation/)
 * Slamtec
-  * [Slamtec LIDAR](../outils/lidar/slamtec/)
+  * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * Slip
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
-  * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
+  * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
-  * [OSC SLIP : Node.js](../outils/nodejs/osc/)
-  * [OSC SLIP dans Pd](../outils/pd/osc/slip/)
-  * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
+  * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
+  * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
+  * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
 * Sonore
   * [Conception sonore](../creation/audio/conception/)
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * Sortie
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
 * Spout
-  * [Spout dans OBS](../outils/obs/spout/)
-  * [Spout dans TouchDesigner](../outils/touchdesigner/spout/)
-  * [Spout dans Unity](../outils/unity/spout/)
+  * [Spout dans OBS](../logiciels/obs/spout/)
+  * [Spout dans TouchDesigner](../logiciels/touchdesigner/spout/)
+  * [Spout dans Unity](../logiciels/unity/spout/)
 * Studio
-  * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
+  * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * Style
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
@@ -973,7 +981,7 @@
 
 ## T
 * Tape
-  * [«Tape Warble»](../outils/vcv_rack/patchs/tape_warble/)
+  * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
 * TD
   * Voir : TouchDesigner
 * Technique
@@ -982,12 +990,12 @@
 * Technologie
   * [Technologie](../culture/technologie/)
 * Télécommande
-  * [OBS Studio: Télécommande et inspecteur](../outils/obs/telecommande/)
+  * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * Temp
-  * [Attendre un certain temps avant d'activer](../outils/pd/traitement/retarder/)
+  * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Template
-  * [TouchDesigner : Template](../outils/touchdesigner/template/)
+  * [TouchDesigner : Template](../logiciels/touchdesigner/template/)
 * Tension
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * Terminal
@@ -995,7 +1003,7 @@
 * Test
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * Three.js
-  * [Fond transparent avec Three.js](../outils/threejs/fond_transparent/)
+  * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * Tof
   * [M5Stack Unit TOF](../fabrication/m5stack/units/tof/)
 * Torche
@@ -1003,46 +1011,46 @@
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
 * Touchdesigner
-  * [*Feedback* avec TouchDesigner](../outils/touchdesigner/feedback/)
-  * [Bonnes pratiques *git* pour TouchDesigner](../outils/touchdesigner/git/)
-  * [Envoi OSC dans TouchDesigner](../outils/touchdesigner/osc/envoi/)
-  * [Modularisation d'un projet TouchDesigner](../outils/touchdesigner/modularisation/)
-  * [Réception de l'OSC dans TouchDesigner](../outils/touchdesigner/osc/reception/)
-  * [Spout dans TouchDesigner](../outils/touchdesigner/spout/)
-  * [TD : Aide mémoire Python](../outils/touchdesigner/python/aide-memoire/)
-  * [TD : Configuration éditeur Python](../outils/touchdesigner/python/configuration/)
-  * [TD : Déboguer Python](../outils/touchdesigner/python/deboguer/)
-  * [TD : Inversion](../outils/touchdesigner/traitement/inverser/)
-  * [TD : L-Systems](../outils/touchdesigner/l-systems/)
-  * [TD : Lisser](../outils/touchdesigner/traitement/lisser/)
-  * [TD : Plage](../outils/touchdesigner/traitement/plage/)
-  * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
-  * [TD : Variation contrôlée](../outils/touchdesigner/traitement/variation/)
-  * [TouchDesigner : _Null_ et _Trail_](../outils/touchdesigner/null_et_trail/)
-  * [TouchDesigner : Aspect](../outils/touchdesigner/aspect/)
-  * [TouchDesigner : Basculement (*flip flop*)](../outils/touchdesigner/traitement/basculement/)
-  * [TouchDesigner : Globales](../outils/touchdesigner/globales/)
-  * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
-  * [TouchDesigner : Mixer de l'audio](../outils/touchdesigner/audio/mixer/)
-  * [TouchDesigner : Perform](../outils/touchdesigner/performance/)
-  * [TouchDesigner : Proportion](../outils/touchdesigner/traitement/proportion/)
-  * [TouchDesigner : Template](../outils/touchdesigner/template/)
+  * [*Feedback* avec TouchDesigner](../logiciels/touchdesigner/feedback/)
+  * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
+  * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
+  * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
+  * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
+  * [Spout dans TouchDesigner](../logiciels/touchdesigner/spout/)
+  * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
+  * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
+  * [TD : Déboguer Python](../logiciels/touchdesigner/python/deboguer/)
+  * [TD : Inversion](../logiciels/touchdesigner/traitement/inverser/)
+  * [TD : L-Systems](../logiciels/touchdesigner/l-systems/)
+  * [TD : Lisser](../logiciels/touchdesigner/traitement/lisser/)
+  * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
+  * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
+  * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
+  * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
+  * [TouchDesigner : Aspect](../logiciels/touchdesigner/aspect/)
+  * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
+  * [TouchDesigner : Globales](../logiciels/touchdesigner/globales/)
+  * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
+  * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
+  * [TouchDesigner : Perform](../logiciels/touchdesigner/performance/)
+  * [TouchDesigner : Proportion](../logiciels/touchdesigner/traitement/proportion/)
+  * [TouchDesigner : Template](../logiciels/touchdesigner/template/)
 * Trail
-  * [TouchDesigner : _Null_ et _Trail_](../outils/touchdesigner/null_et_trail/)
+  * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 * Traitement
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
   * [Arduino : Traitement](../fabrication/arduino/traitement/)
-  * [TD : Traitement de signaux](../outils/touchdesigner/traitement/)
-  * [Unity : Traitement de messages](../outils/unity/traitement/)
+  * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
+  * [Unity : Traitement de messages](../logiciels/unity/traitement/)
 * Traiter
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * Transparent
-  * [Fond transparent avec Three.js](../outils/threejs/fond_transparent/)
+  * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * Travail
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * Tunnel
-  * [Tunnel réseau ngrok](../outils/ngrok/)
+  * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * Tutoriel
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
@@ -1066,13 +1074,13 @@
 * Uart
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
 * Udp
-  * [Max : Relais OSC SLIP ⇄ UDP](../outils/max/osc/relais/)
-  * [OSC UDP : Cycling '74 Max](../outils/max/osc/udp/)
-  * [OSC UDP : Pure Data](../outils/pd/osc/udp/)
-  * [Pd : Relais OSC SLIP ⇄ UDP](../outils/pd/osc/relais/)
-  * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
-  * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
-  * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
+  * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
+  * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
+  * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
+  * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
+  * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
+  * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
 * Unit
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
@@ -1087,18 +1095,18 @@
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
   * [Unit 3.96](../fabrication/m5stack/units/396/)
 * Unity
-  * [Colliders dans Unity](../outils/unity/colliders/)
-  * [Envoi OSC avec extOSC  dans Unity](../outils/unity/osc/extosc/envoi/)
-  * [Initialisation d'extOSC dans Unity](../outils/unity/osc/extosc/initialisation/)
-  * [Réception d'OSC dans Unity avec extOSC](../outils/unity/osc/extosc/reception/)
-  * [Spout dans Unity](../outils/unity/spout/)
-  * [Unity : Bonnes pratiques Git](../outils/unity/git/)
-  * [Unity : changement](../outils/unity/traitement/changement/)
-  * [Unity : Exécution en arrière-plan](../outils/unity/execution_arriere-plan/)
-  * [Unity : OSC UDP avec extOSC](../outils/unity/osc/extosc/)
-  * [Unity : OSC UDP avec oscjackvs](../outils/unity/osc/oscjackvs/)
-  * [Unity : Proportion](../outils/unity/traitement/proportion/)
-  * [Unity : Traitement de messages](../outils/unity/traitement/)
+  * [Colliders dans Unity](../logiciels/unity/colliders/)
+  * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
+  * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
+  * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
+  * [Spout dans Unity](../logiciels/unity/spout/)
+  * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
+  * [Unity : changement](../logiciels/unity/traitement/changement/)
+  * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
+  * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
+  * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
+  * [Unity : Proportion](../logiciels/unity/traitement/proportion/)
+  * [Unity : Traitement de messages](../logiciels/unity/traitement/)
 * Usb
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
 * Utilisation
@@ -1106,35 +1114,35 @@
 
 ## V
 * Valeur
-  * [Effectuer un glissement entre des valeurs avec Pd](../outils/pd/traitement/glissement/)
-  * [Pd : Basculer (flip-flop/toggle) une valeur](../outils/pd/traitement/basculement/)
-  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../outils/pd/traitement/plage/)
-  * [Pd : Incrémenter (ou décrémenter) une valeur](../outils/pd/traitement/incrementation/)
+  * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
+  * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
+  * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
+  * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
 * Variation
-  * [TD : Variation contrôlée](../outils/touchdesigner/traitement/variation/)
+  * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
 * Vcv rack
-  * [VCV Rack : OSC UDP](../outils/vcv_rack/osc/)
+  * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
 * Vidéo
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
-  * [TouchDesigner : Lecture d'une vidéo par index](../outils/touchdesigner/video/index/)
+  * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
 * Vidéosurveillance
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
 * Virtual midi keyboard
-  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../outils/reaper/osc/defaut/VMK/)
-  * [Virtual MIDI Keyboard](../outils/reaper/virtual_midi_keyboard/)
+  * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
+  * [Virtual MIDI Keyboard](../logiciels/reaper/virtual_midi_keyboard/)
 * Visuelle
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Vnc
-  * [VNC](../outils/vnc/)
+  * [VNC](../logiciels/vnc/)
 * VSCode
   * Voir : Visual Studio Code
 
 ## W
 * Warble
-  * [«Tape Warble»](../outils/vcv_rack/patchs/tape_warble/)
+  * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
 * Websocket
-  * [WebSockets dans Pd](../outils/pd/websocket/)
+  * [WebSockets dans Pd](../logiciels/pd/websocket/)
 * While
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Window
-  * [Clavier États-Unis international dans Windows](../outils/windows/clavier/us_international/)
+  * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)

@@ -1,9 +1,5 @@
 # Envoi OSC dans TouchDesigner
 
-## Préalable(s)
-
-- [Protocole Open Sound Control (OSC)](../../../osc/)
-
 ## Code TouchDesigner pour envoyer 1 donnée
 
 ![](./td_osc_out_1val.png)
