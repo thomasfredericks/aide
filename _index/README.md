@@ -224,6 +224,8 @@
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
 * Convertir
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
+* Cookie
+  * [Témoins (cookies)](../culture/surveillance/temoins/)
 * Copier-coller
   * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
 * Corrélation
@@ -319,6 +321,8 @@
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
 * Émergente
   * [Actions émergentes](../creation/interactivite/emergence/)
+* Empathie
+  * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
 * Encoder
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
 * Enseignement
@@ -815,6 +819,8 @@
   * [Atom POE](../fabrication/m5stack/atom-poe/)
 * Potentiomètre
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
+* Pouvoir
+  * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
 * Pratique
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
@@ -913,6 +919,8 @@
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * Rétroaction
   * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
+* Richesse
+  * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
 * RPi
   * Voir : Raspberry Pi
 
@@ -991,6 +999,8 @@
   * [Technologie](../culture/technologie/)
 * Télécommande
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
+* Témoin
+  * [Témoins (cookies)](../culture/surveillance/temoins/)
 * Temp
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)

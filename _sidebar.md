@@ -64,6 +64,8 @@
     - [sante](/culture/ia/sante/)
     - [types](/culture/ia/types/)
   - [merdification](/culture/merdification/)
+  - *pouvoir*
+    - [empathie](/culture/pouvoir/empathie/)
   - *surveillance*
     - [cellulaire](/culture/surveillance/cellulaire/)
     - [temoins](/culture/surveillance/temoins/)
