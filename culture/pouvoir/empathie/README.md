@@ -9,7 +9,7 @@ Quand une personne possède davantage de ressources et dépend moins des autres 
 
 Voici un échantillon de ces études :
 
-- [Power and perspectives not taken - PubMed](https://pubmed.ncbi.nlm.nih.gov/17201789/) : le pouvoir réduit la capacité à adopter le point de vue d’autrui. La capacité à percevoir la perspective d’une autre personne diminue.
+- [Power and perspectives not taken - PubMed](https://pubmed.ncbi.nlm.nih.gov/17201789/) : le pouvoir réduit la capacité à adopter le point de vue d’autrui. 
 - [Power, distress, and compassion: turning a blind eye to the suffering of others - PubMed](https://pubmed.ncbi.nlm.nih.gov/19121143/) : les participantes et participants ayant un sentiment de pouvoir plus élevé ressentent significativement moins de détresse et moins de compassion face à la souffrance d’autrui. Ils montrent également un détachement physiologique plus important. Les personnes disposant de plus de pouvoir ne déclarent pas seulement ressentir moins ; leurs corps se révèlent aussi mesurablement moins engagés.
 - [Higher social class predicts increased unethical behavior - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3306667/) : démontre que les personnes plus riches trichent davantage.
 - [Class and compassion: socioeconomic factors predict responses to suffering - PubMed](https://pubmed.ncbi.nlm.nih.gov/22148992/) : démontre que les personnes à plus faible revenu font preuve de davantage de compassion.
