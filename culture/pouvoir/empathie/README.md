@@ -22,4 +22,4 @@ Voici un échantillon de ces études :
 Nous pourrions tirer une conclusion prudente de ces études :
 
 > [!WARNING]
-> Si un gouvernement veut assurer l’accessibilité aux ressources communes et le bien-être collectif, il est risqué que les décisions soient dominées principalement par des personnes très riches ou très puissantes, parce que leur position sociale tend statistiquement à réduire leur perception directe des réalités vécues par le reste de la population.
+> Si un gouvernement veut assurer l’accessibilité aux ressources communes et le bien-être collectif, et si la richesse tend statistiquement à réduire la perception directe des réalités vécues par le reste de la population, est-il risqué que les décisions soient dominées par des personnes très riches ?
