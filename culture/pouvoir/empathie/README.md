@@ -17,6 +17,7 @@ Voici un échantillon de ces études :
 - [High economic inequality leads higher-income individuals to be less generous | PNAS](https://www.pnas.org/doi/10.1073/pnas.1511536112) : établi un lien entre classe sociale élevée et diminution de l’intelligence émotionnelle.
 - [Social Class and the Motivational Relevance of Other Human Beings: Evidence From Visual Attention - PubMed](https://pubmed.ncbi.nlm.nih.gov/27698091/) : démontre que la richesse altère le jugement émotionnel.
 - [The Psychological Consequences of Money | Science](https://www.science.org/doi/10.1126/science.1132491) : le simple fait d’exposer des personnes à des images d’argent réduit les comportements d’entraide.
+- [You Are Living In An Economic Fairy Tale - YouTube](https://www.youtube.com/watch?v=ZzOMmMFQZWs&t=1229s)
 
 Nous pourrions tirer une conclusion prudente de ces études :
 
