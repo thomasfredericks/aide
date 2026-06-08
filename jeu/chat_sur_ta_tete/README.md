@@ -12,7 +12,7 @@ Vidéo : [Cat On Yer Head (with 200 players!) - Shut Up & Sit Down Review - YouT
 - Le chat doit attraper la souris en 30 secondes.
 
 ### Mise en place  
-- Désigner une personne pour commencer avec le chat sur sa tête et un autre, à distance, pour commencer avec la souris.
+- Désigner une personne pour commencer avec le chat sur sa tête et un autre, à distance, pour commencer avec la souris. 
 
 ### Règles  
 - Le chat poursuit la souris.  
@@ -27,6 +27,7 @@ Vidéo : [Cat On Yer Head (with 200 players!) - Shut Up & Sit Down Review - YouT
 - Si la souris survit 30 secondes sans être touchée, elle gagne.  
 
 ### Conseils  
+- Pour cette première version et pour faciliter le repérage des protagonistes, le chat et la souris pourraient être représentés en tant que ballons gonflés qui doivent être passées entre les personnes.
 - Les personnes qui jouent doivent parler fort et clairement pour que tout le monde dans la salle puisse entendre. Si vous n’entendez pas, n’hésitez pas à dire « parlez plus fort ».  
 - Le temps peut être augmenté ou diminué pour rendre le jeu plus facile ou plus difficile pour la souris, selon les besoins.  
 - Une fois une manche terminée, recommencez simplement !  
