@@ -154,6 +154,8 @@
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * Carte
   * [Modèles de cartes](../fabrication/arduino/cartes/)
+* Cat
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * Causé
   * [Les délires causés par les GML](../culture/ia/delires/)
 * Causée
@@ -163,6 +165,8 @@
 * Changement
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Unity : changement](../logiciels/unity/traitement/changement/)
+* Chat
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * Cible
   * [Public cible](../creation/interactivite/public/)
 * Circuit
@@ -460,6 +464,8 @@
 ## H
 * Haut-parleur
   * [Haut-parleurs Genelec](../materiel/genelec/)
+* Head
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * Hiérarchie
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * Histoire
@@ -541,6 +547,7 @@
 ## J
 * Jeu
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 
 ## K
 * Key
@@ -1012,6 +1019,8 @@
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
 * Test
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
+* Tête
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * Three.js
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * Tof
@@ -1156,3 +1165,7 @@
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
 * Window
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
+
+## Y
+* Yer
+  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
