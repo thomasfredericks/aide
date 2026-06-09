@@ -149,15 +149,14 @@
   - [microremotewire](/fabrication/microremotewire/)
   - [nano](/fabrication/nano/)
     - [arduino_terminals](/fabrication/nano/arduino_terminals/)
-    - [initialisation](/fabrication/nano/initialisation/)
+    - [configuration](/fabrication/nano/configuration/)
   - [osc](/fabrication/osc/)
   - [pixels](/fabrication/pixels/)
     - [fastled](/fabrication/pixels/fastled/)
     - [neopixel](/fabrication/pixels/neopixel/)
   - *platformio*
-    - [ino](/fabrication/platformio/ino/)
     - [installation](/fabrication/platformio/installation/)
-    - [nouveau_projet](/fabrication/platformio/nouveau_projet/)
+    - [nouveau](/fabrication/platformio/nouveau/)
     - *pioarduino*
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)
   - [simulation](/fabrication/simulation/)

@@ -55,7 +55,7 @@
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * Arrière-plan
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * Artificielle
@@ -197,6 +197,8 @@
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
+* Compatible
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * Composant
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * Compresseur
@@ -207,6 +209,7 @@
   * [Conception sonore](../creation/audio/conception/)
 * Configuration
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
+  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * Configurer
@@ -480,6 +483,7 @@
   * Voir : Grand modèle de langage
 * Ide
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * Idée
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * Identité
@@ -498,7 +502,6 @@
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
-  * [Nano : Initialisation](../fabrication/nano/initialisation/)
 * Inspecteur
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * Installation
@@ -696,7 +699,7 @@
 * Nano
   * [Arduino Nano](../fabrication/nano/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
-  * [Nano : Initialisation](../fabrication/nano/initialisation/)
+  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
 * Navigateur
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
 * Neopixel
@@ -712,7 +715,7 @@
 * Note
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
 * Nouveau
-  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * Null
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 
@@ -804,11 +807,12 @@
 * Plage
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
+* Plaquette
+  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
 * Platformio
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
-  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Platine
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * Play,stop,volume,vu
@@ -843,8 +847,7 @@
 * Projet
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
   * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
-  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau_projet/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
+  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * Propagande
   * [Propagande sur les GML](../culture/ia/propagande/)
 * Proportion
@@ -983,7 +986,6 @@
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * Style
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-  * [PlatformIO : Projet de style Arduino](../fabrication/platformio/ino/)
 * Supprimée
   * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
 * Surveillance
