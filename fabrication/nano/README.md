@@ -34,8 +34,10 @@ En bref, la seule différence entre ces deux modèles est la quantité de mémoi
 
 ## Arduino Nano R4
 
+Informations complètes sur ce modèle : [Nano R4 User Manual | Arduino Documentation](https://docs.arduino.cc/tutorials/nano-r4/user-manual/)
+
 ![Arduino Nano R4](./arduino_nano_r4.png)
 
 ![Broches du Arduino Nano R4](./arduino_nano_r4_pins.png)
 
-Informations complémentaires sur ce modèle : [Nano R4 User Manual | Arduino Documentation](https://docs.arduino.cc/tutorials/nano-r4/user-manual/)
+
