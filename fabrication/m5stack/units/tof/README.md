@@ -22,13 +22,13 @@ Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer de
 
 Il peut être branché à un connecteur **grove blanc** ou à une connecteur **grove rouge**.
 
-## Bibliothèque vl53l0x de Polulu 
+## Bibliothèque logicielle vl53l0x de Polulu 
 
-La bibliothèque [vl53l0x de Polulu](https://github.com/pololu/vl53l0x-arduino) permet d'interfacer avec le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof).
+La bibliothèque logicielle [vl53l0x de Polulu](https://github.com/pololu/vl53l0x-arduino) permet d'interfacer avec le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof).
 
 ###  Installation dans Arduino IDE
 
-La bibliothèque [vl53l0x-arduino](https://github.com/pololu/vl53l0x-arduino) est disponible dans le gestionnaire de bibliothèques d'Arduino.
+La bibliothèque logicielle [vl53l0x-arduino](https://github.com/pololu/vl53l0x-arduino) est disponible dans le gestionnaire de bibliothèques d'Arduino.
 
 ### Installation dans PlatformIO
 
@@ -42,7 +42,7 @@ lib_deps =
 
 ### Code à ajouter à l'espace global
 
-Importer la bibliothèque et créer une instance de la classe `VL53L0X` :
+Importer la bibliothèque logicielle et créer une instance de la classe `VL53L0X` :
 ```cpp
 #include <VL53L0X.h>
 VL53L0X  myTOF;

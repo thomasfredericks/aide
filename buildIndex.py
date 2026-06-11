@@ -22,7 +22,9 @@ ALIASES = {
     "AI" : "Grand modèle de langage",
     "GML" : "Grand modèle de langage",
     "IU" : "Interface utilisateur",
-    "GUI" : "Interface utilisateur"
+    "GUI" : "Interface utilisateur",
+    "BL" : "Bibliothèque logicielle",
+    "PL" : "Plugiciel"
 }
 
 # Liste des expressions à garder groupées (insensible à la casse)
@@ -38,7 +40,8 @@ COMBOS = [
     "Open Sound Control",
     "Virtual MIDI Keyboard",
     "Grand modèle de langage",
-    "Interface utilisateur"
+    "Interface utilisateur",
+    "Bibliothèque logicielle"
 ]
 
 SKIP_WORDS = {
@@ -204,7 +207,7 @@ def write_markdown(index):
                 f.write(f"\n## {current_letter}\n")
             
             # Écriture du mot-clé
-            f.write(f"* {keyword}\n")
+            f.write(f"* {keyword.upper()}\n")
             
             # Tri et écriture des entrées (liens ou redirections)
             sorted_entries = sorted(index[keyword], key=normalize_for_sort)

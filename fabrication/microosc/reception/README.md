@@ -161,7 +161,7 @@ Pourquoi :
 - les messages OSC peuvent être perdus
 - la latence augmente
 
-Si un ralentissement est nécessaire, utiliser un chronomètre avec la bibliothèque `Chrono` comme dans cet extrait :
+Si un ralentissement est nécessaire, utiliser un chronomètre avec la bibliothèque logicielle `Chrono` comme dans cet extrait :
 ```cpp
 #include <Chrono.h>
 

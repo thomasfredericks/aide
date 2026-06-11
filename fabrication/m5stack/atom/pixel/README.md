@@ -4,9 +4,9 @@
 
 Le pixel est relié à la broche `27` de l'ESP32 du Atom Lite.
 
-## Bibliothèque
+## Bibliothèque logicielle
 
-Le contrôle du pixel du M5Stack Atom Lite nécessite la bibliothèque suivante :
+Le contrôle du pixel du M5Stack Atom Lite nécessite la bibliothèque logicielle suivante :
 - FastLED 
 
 ### PlatformIO **platformio.ini**
@@ -17,7 +17,7 @@ lib_deps =
 
 ## À ajouter dans l'espace *global* 
 
-Ajouter la bibliothèque FastLED:
+Ajouter la bibliothèque logicielle FastLED:
 ```cpp
 #include <FastLED.h>
 ```

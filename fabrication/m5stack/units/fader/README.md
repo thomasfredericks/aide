@@ -22,9 +22,9 @@ Broches :
 - Le contrôle des pixels s'effectue avec la broche identifiée par le texte **SK6812/RGB SIGNAL** ou **OUT** sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
 - Si l'unité **M5Stack Fader Unit** est connectée directement au Atom Lite, c'est la broche 26 (identifiée G26) qui permet de contrôler les pixels.
 
-## Bibliothèque
+## Bibliothèque logicielle
 
-Le contrôle du pixel nécessite la bibliothèque suivante :
+Le contrôle du pixel nécessite la bibliothèque logicielle suivante :
 - FastLED 
 
 ### PlatformIO **platformio.ini**
@@ -37,7 +37,7 @@ lib_deps =
 
 ### Dans l'espace global
 
-Ajouter la bibliothèque FastLED:
+Ajouter la bibliothèque logicielle FastLED:
 ```cpp
 #include <FastLED.h>
 ```

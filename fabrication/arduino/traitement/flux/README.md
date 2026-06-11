@@ -7,7 +7,7 @@ Le modèle de ce traitement :
     - **ACQUISITION** : si oui, lire la ou les valeurs 
     - **ACTION** : effectuer une ou plusieurs actions
 
-La bibliothèque `Chrono` est utilisée pour contrôler la fréquence d’exécution et éviter que l’action ne soit exécutée à chaque passage dans `loop()`.
+La bibliothèque logicielle `Chrono` est utilisée pour contrôler la fréquence d’exécution et éviter que l’action ne soit exécutée à chaque passage dans `loop()`.
 
 ## Exemple de traitement en flux
 

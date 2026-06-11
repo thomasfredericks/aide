@@ -47,7 +47,7 @@ Ce principe est fondamental dans les systèmes interactifs. Sans cette vérifica
 
 Pour un bouton, on peut selon le contexte vouloir détecter uniquement le moment précis où il est pressé ou relaché, et non son état continu.
 
- La bibliothèque `Bounce` simplifie cette logique en intégrant la gestion des rebonds électriques (bounce) et la détection des transitions.
+ La bibliothèque logicielle `Bounce` simplifie cette logique en intégrant la gestion des rebonds électriques (bounce) et la détection des transitions.
 
 La classe `Bounce2::Button` permet de :
 
@@ -98,4 +98,4 @@ void loop() {
 }
 ```
 
-La bibliothèque gère les rebonds électriques en interne, ce qui rend le code plus simple, plus robuste et plus lisible. 
+La bibliothèque logicielle gère les rebonds électriques en interne, ce qui rend le code plus simple, plus robuste et plus lisible. 

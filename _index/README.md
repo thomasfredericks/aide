@@ -3,7 +3,7 @@
 <!-- toc -->
 
 ## 1
-* 10x10
+* 10X10
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
 
 ## 3
@@ -14,38 +14,38 @@
   * [Unit 3.96](../fabrication/m5stack/units/396/)
 
 ## A
-* Accéléromètre
+* ACCÉLÉROMÈTRE
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
-* Action
+* ACTION
   * [Actions émergentes](../creation/interactivite/emergence/)
-* Activer
+* ACTIVER
   * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
-* Affordance
+* AFFORDANCE
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * AI
   * Voir : Grand modèle de langage
-* Aide
+* AIDE
   * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
-* Ajout
+* AJOUT
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
-* Aléatoire
+* ALÉATOIRE
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
-* Alimenter
+* ALIMENTER
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
-* Analyse
+* ANALYSE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
-* Angle
+* ANGLE
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
-* Apprentissage
+* APPRENTISSAGE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Arcade
+* ARCADE
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
-* Arduino
+* ARDUINO
   * [Arduino Nano](../fabrication/nano/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
@@ -56,15 +56,15 @@
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
-* Arrière-plan
+* ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
-* Artificielle
+* ARTIFICIELLE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
-* Ascii
+* ASCII
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
-* Aspect
+* ASPECT
   * [TouchDesigner : Aspect](../logiciels/touchdesigner/aspect/)
-* Atelier
+* ATELIER
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
@@ -72,115 +72,117 @@
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
-* Atom
+* ATOM
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Atom POE](../fabrication/m5stack/atom-poe/)
-  * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
+  * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
-* Atoms3
+* ATOMS3
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
   * [AtomS3](../fabrication/m5stack/atomS3/)
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-* Attendre
+* ATTENDRE
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
-* Audio
+* AUDIO
   * [Audio : galerie](../creation/audio/galerie/)
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
-* Audiovisuel
+* AUDIOVISUEL
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
-* Auteur
+* AUTEUR
   * [Autorat : droit d'auteur](../culture/autorat/)
-* Automatique
+* AUTOMATIQUE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Autorat
+* AUTORAT
   * [Autorat : droit d'auteur](../culture/autorat/)
-* Av1
+* AV1
   * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
-* Avant
+* AVANT
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
 
 ## B
-* Baleine
+* BALEINE
   * [Baleines](../logiciels/vcv_rack/patchs/baleines/)
-* Bande
+* BANDE
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
-* Basculement
+* BASCULEMENT
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
-* Basculer
+* BASCULER
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
-* Base
+* BASE
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
-* Bibliographie
-  * [Bibliographie sélective](../culture/bibliographie/momo/)
-* Bibliothèque
-  * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
-* Blink
+* BIBLIOGRAPHIE
+  * [Bibliographie Montmorency](../culture/bibliographie/momo/)
+* BIBLIOTHÈQUE LOGICIELLE
+  * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
+* BL
+  * Voir : Bibliothèque logicielle
+* BLINK
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
   * [Tutoriel: «Blink» uniquement au démarrage](../_hidden/exemples/blink_demarrage.md)
-* Bloquer
+* BLOQUER
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
-* Bonne
+* BONNE
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
-* Bouton
-  * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
+* BOUTON
+  * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
-* Brave
+* BRAVE
   * [Brave](../logiciels/brave/)
-* Breadboard
+* BREADBOARD
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
-* Broche
+* BROCHE
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
-* Bulle
+* BULLE
   * [Bulles](../logiciels/vcv_rack/patchs/bulles/)
 
 ## C
-* Câble
+* CÂBLE
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
-* Capacitance
+* CAPACITANCE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
-* Carte
+* CARTE
   * [Modèles de cartes](../fabrication/arduino/cartes/)
-* Cat
+* CAT
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-* Causé
+* CAUSÉ
   * [Les délires causés par les GML](../culture/ia/delires/)
-* Causée
+* CAUSÉE
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
-* Cellulaire
+* CELLULAIRE
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
-* Changement
+* CHANGEMENT
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Unity : changement](../logiciels/unity/traitement/changement/)
-* Chat
+* CHAT
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-* Cible
+* CIBLE
   * [Public cible](../creation/interactivite/public/)
-* Circuit
+* CIRCUIT
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
-* Clavier
+* CLAVIER
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
-* Clignote
+* CLIGNOTE
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
-* Clignoter
+* CLIGNOTER
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
-* Code
+* CODE
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
@@ -188,260 +190,260 @@
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
-* Codec
+* CODEC
   * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
-* Collectif
+* COLLECTIF
   * [Logo collectif](../creation/visuel/ateliers/logo/)
-* Collider
+* COLLIDER
   * [Colliders dans Unity](../logiciels/unity/colliders/)
-* Communication
+* COMMUNICATION
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
-* Compatible
+* COMPATIBLE
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
-* Composant
+* COMPOSANT
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
-* Compresseur
+* COMPRESSEUR
   * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
-* Compression
+* COMPRESSION
   * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
-* Conception
+* CONCEPTION
   * [Conception sonore](../creation/audio/conception/)
-* Configuration
+* CONFIGURATION
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
   * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
-* Configurer
+* CONFIGURER
   * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
-* Connexion
+* CONNEXION
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
-* Continu
+* CONTINU
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
-* Contrainte
+* CONTRAINTE
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
-* Contrôle
+* CONTRÔLE
   * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
-* Contrôlée
+* CONTRÔLÉE
   * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
-* Contrôler
+* CONTRÔLER
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-* Contrôleur
+* CONTRÔLEUR
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
-* Convertir
+* CONVERTIR
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
-* Cookie
+* COOKIE
   * [Témoins (cookies)](../culture/surveillance/temoins/)
-* Copier-coller
+* COPIER-COLLER
   * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
-* Corrélation
+* CORRÉLATION
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
-* Couleur
+* COULEUR
   * [IU : Couleur](../creation/visuel/iu/couleur/)
-* Court
+* COURT
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
-* Création
+* CRÉATION
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-* Créer
+* CRÉER
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
-* Cycling
+* CYCLING
   * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
 
 ## D
-* Dataflow
+* DATAFLOW
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
-* Davinci resolve
+* DAVINCI RESOLVE
   * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
-* Ddp
+* DDP
   * [Protocole DDP](../fabrication/ddp/)
-* Déboguer
+* DÉBOGUER
   * [TD : Déboguer Python](../logiciels/touchdesigner/python/deboguer/)
-* Décrémenter
+* DÉCRÉMENTER
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
-* Default_pattern
+* DEFAULT_PATTERN
   * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
   * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
-* Défaut
+* DÉFAUT
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
-* Del
+* DEL
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
-* Delay
+* DELAY
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
-* Délire
+* DÉLIRE
   * [Les délires causés par les GML](../culture/ia/delires/)
-* Démarrage
+* DÉMARRAGE
   * [Tutoriel: «Blink» uniquement au démarrage](../_hidden/exemples/blink_demarrage.md)
-* Démo
+* DÉMO
   * [Démo de faisabilité](../creation/production/faisabilite/)
-* Dépôt
+* DÉPÔT
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
-* Design
+* DESIGN
   * [Design de l'interactivité](../creation/interactivite/design/)
-* Déterminer
+* DÉTERMINER
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
-* Dette
+* DETTE
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
-* Deux
+* DEUX
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
-* Diode
+* DIODE
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
-* Directe
+* DIRECTE
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
-* Droit
+* DROIT
   * [Autorat : droit d'auteur](../culture/autorat/)
-* Durée
+* DURÉE
   * [Mesurer la durée](../logiciels/pd/traitement/duree/)
 
 ## E
-* Échantillonneur
+* ÉCHANTILLONNEUR
   * [Reaper : Échantillonneur](../logiciels/reaper/echantillonneur/)
-* Éclairage
+* ÉCLAIRAGE
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
-* Écoute
+* ÉCOUTE
   * [Écoute](../creation/interactivite/ecoute/)
-* Éditeur
+* ÉDITEUR
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
-* Éducation
+* ÉDUCATION
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
-* Effectuer
+* EFFECTUER
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
-* Effet
+* EFFET
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
-* Effondrement
+* EFFONDREMENT
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
-* Électricité
+* ÉLECTRICITÉ
   * [L'électricité](../fabrication/electronique/electricite/)
-* Électroluminescente
+* ÉLECTROLUMINESCENTE
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
-* Électronique
+* ÉLECTRONIQUE
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
-* Élément
+* ÉLÉMENT
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
-* Émergente
+* ÉMERGENTE
   * [Actions émergentes](../creation/interactivite/emergence/)
-* Empathie
+* EMPATHIE
   * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
-* Encoder
+* ENCODER
   * [M5Stack Unit Encoder](../fabrication/m5stack/units/encoder/)
-* Enseignement
+* ENSEIGNEMENT
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
-* Enshittification
+* ENSHITTIFICATION
   * [Merdification ( Enshittification )](../culture/merdification/)
-* Entre
+* ENTRE
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
-* Entrée
+* ENTRÉE
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
-* Envoi
+* ENVOI
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
-* Erreur
+* ERREUR
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
-* Esp32
+* ESP32
   * [ESP32 MAC](../fabrication/esp32/mac/)
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
-* Espacer
+* ESPACER
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
-* Esthétique
+* ESTHÉTIQUE
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
-* Établir
+* ÉTABLIR
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
-* État
+* ÉTAT
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
-* Etat
+* ETAT
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
-* États-uni
+* ÉTATS-UNI
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
-* Exécuter
+* EXÉCUTER
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
-* Exécution
+* EXÉCUTION
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
-* Expérience
+* EXPÉRIENCE
   * [Expériences](../creation/interactivite/experience/)
-* Expérimentation
+* EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
-* Extosc
+* EXTOSC
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
   * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
   * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
 
 ## F
-* Fader
+* FADER
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
-* Faisabilité
+* FAISABILITÉ
   * [Démo de faisabilité](../creation/production/faisabilite/)
-* Fait
+* FAIT
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
-* Fastled
+* FASTLED
   * [Pixels : FastLED](../fabrication/pixels/fastled/)
-* Fatale
+* FATALE
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
-* Feedback
+* FEEDBACK
   * [*Feedback* avec TouchDesigner](../logiciels/touchdesigner/feedback/)
   * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
-* Ffmpeg
+* FFMPEG
   * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
   * [FFmpeg](../logiciels/ffmpeg/)
-* Flip
+* FLIP
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
-* Flip-flop/toggle
+* FLIP-FLOP/TOGGLE
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
-* Flop
+* FLOP
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
-* Flux
+* FLUX
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
-* Fond
+* FOND
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
-* Forme
+* FORME
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
 
 ## G
-* Galerie
+* GALERIE
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audio : galerie](../creation/audio/galerie/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
-* Gamestream
+* GAMESTREAM
   * [GameStream](../logiciels/gamestream/)
-* Gd-pjlink
+* GD-PJLINK
   * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
-* Genelec
+* GENELEC
   * [Haut-parleurs Genelec](../materiel/genelec/)
-* Général
+* GÉNÉRAL
   * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
-* Générale
+* GÉNÉRALE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Générer
+* GÉNÉRER
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
-* Gestalt
+* GESTALT
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
-* Git
+* GIT
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
   * [Git](../logiciels/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
-* Github
+* GITHUB
   * [GitHub](../logiciels/git/github/)
-* Glissement
+* GLISSEMENT
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
-* Globale
+* GLOBALE
   * [TouchDesigner : Globales](../logiciels/touchdesigner/globales/)
 * GML
   * Voir : Grand modèle de langage
-* Grand modèle de langage
+* GRAND MODÈLE DE LANGAGE
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
@@ -450,154 +452,154 @@
   * [Les délires causés par les GML](../culture/ia/delires/)
   * [Propagande sur les GML](../culture/ia/propagande/)
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Grand-modèle-de-langage/grand-modèle-de-langage
+* GRAND-MODÈLE-DE-LANGAGE/GRAND-MODÈLE-DE-LANGAGE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
-* Graphique
+* GRAPHIQUE
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
-* Grove
+* GROVE
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
 * GUI
   * Voir : Interface utilisateur
-* Guide
+* GUIDE
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
   * [Guides d'utilisation des GML](../culture/ia/guides/)
-* Gyroscope
+* GYROSCOPE
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 
 ## H
-* Haut-parleur
+* HAUT-PARLEUR
   * [Haut-parleurs Genelec](../materiel/genelec/)
-* Head
+* HEAD
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-* Hiérarchie
+* HIÉRARCHIE
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
-* Histoire
+* HISTOIRE
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
-* Hub
+* HUB
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
-* Hyperhdr
+* HYPERHDR
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
 
 ## I
 * IA
   * Voir : Grand modèle de langage
-* Ide
+* IDE
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
-* Idée
+* IDÉE
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
-* Identité
+* IDENTITÉ
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
-* Image
+* IMAGE
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-* Impact
+* IMPACT
   * [Impacts des GML sur l'enseignement](../culture/ia/enseignement/)
-* Incrémenter
+* INCRÉMENTER
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
-* Index
+* INDEX
   * [Index](../_index/)
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
-* Initialisation
+* INITIALISATION
   * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
-* Inspecteur
+* INSPECTEUR
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
-* Installation
+* INSTALLATION
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
-* Installer
+* INSTALLER
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
-* Instrument
+* INSTRUMENT
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
-* Intégré
+* INTÉGRÉ
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
-* Intelligence
+* INTELLIGENCE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
-* Interactive
+* INTERACTIVE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
-* Interactive​
+* INTERACTIVE​
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
-* Interactivité
+* INTERACTIVITÉ
   * [Design de l'interactivité](../creation/interactivite/design/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
-* Interface utilisateur
+* INTERFACE UTILISATEUR
   * [IU : Couleur](../creation/visuel/iu/couleur/)
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
   * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
   * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
   * [IU : Typographie](../creation/visuel/iu/typographie/)
-* Intérieur
+* INTÉRIEUR
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
-* International
+* INTERNATIONAL
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
-* Intervalle
+* INTERVALLE
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
-* Introduction
+* INTRODUCTION
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
   * [Introduction à Pure Data](../logiciels/pd/introduction/)
-* Inversion
+* INVERSION
   * [TD : Inversion](../logiciels/touchdesigner/traitement/inverser/)
 * IU
   * Voir : Interface utilisateur
 
 ## J
-* Jeu
+* JEU
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 
 ## K
-* Key
+* KEY
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
-* Kinect
+* KINECT
   * [kinect-ndi-cpp pour Kinect V1](../logiciels/kinect-ndi-cpp/)
-* Kinect-ndi-cpp
+* KINECT-NDI-CPP
   * [kinect-ndi-cpp pour Kinect V1](../logiciels/kinect-ndi-cpp/)
 
 ## L
-* L-system
+* L-SYSTEM
   * [TD : L-Systems](../logiciels/touchdesigner/l-systems/)
-* Lampe
+* LAMPE
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
-* Laser
+* LASER
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
-* Lecture
+* LECTURE
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
-* Lidar
+* LIDAR
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
-* Light
+* LIGHT
   * [M5Stack Light Unit](../fabrication/m5stack/units/light/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
-* Limiteur
+* LIMITEUR
   * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
-* Lisser
+* LISSER
   * [TD : Lisser](../logiciels/touchdesigner/traitement/lisser/)
-* Lite
+* LITE
   * [Atom (Lite)](../fabrication/m5stack/atom/)
-  * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
+  * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
-* Live-coding
+* LIVE-CODING
   * [Live-Coding](../logiciels/live-coding/)
-* Logo
+* LOGO
   * [Logo collectif](../creation/visuel/ateliers/logo/)
-* Loop
+* LOOP
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
 
 ## M
-* M5stack
-  * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
+* M5STACK
+  * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
@@ -616,124 +618,126 @@
   * [M5Stack Unit TOF](../fabrication/m5stack/units/tof/)
   * [M5Stack](../fabrication/m5stack/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
-* Mac
+* MAC
   * [ESP32 MAC](../fabrication/esp32/mac/)
-* Manette
+* MANETTE
   * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
-* Manifeste
+* MANIFESTE
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
-* Mapping
+* MAPPING
   * [OBS : Mapping](../logiciels/obs/mapping/)
-* Maquettage
+* MAQUETTAGE
   * [Production > Maquettage > Technique](../creation/production/planification/)
-* Marge
+* MARGE
   * [Marges](../creation/visuel/marges/)
-* Master
+* MASTER
   * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
-* Matrice
+* MATRICE
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
-* Max
+* MAX
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
-* Mémoire
+* MÉMOIRE
   * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
-* Merdification
+* MERDIFICATION
   * [Merdification ( Enshittification )](../culture/merdification/)
-* Meshtastic
+* MESHTASTIC
   * [Meshtastic](../fabrication/meshtastic/)
-* Message
+* MESSAGE
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
   * [Unity : Traitement de messages](../logiciels/unity/traitement/)
-* Mesure
+* MESURE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
-* Mesurer
+* MESURER
   * [Mesurer la durée](../logiciels/pd/traitement/duree/)
-* Micro-soudure
+* MICRO-SOUDURE
   * [Micro-soudure](../fabrication/electronique/soudure/)
-* Microélectronique
+* MICROÉLECTRONIQUE
   * [Simulation de microélectronique](../fabrication/simulation/)
-* Micronet
+* MICRONET
   * [MicroNet](../fabrication/micronet/)
-* Microosc
+* MICROOSC
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [MicroOsc](../fabrication/microosc/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
-* Microoscudp
+* MICROOSCUDP
   * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
-* Microremotewire
+* MICROREMOTEWIRE
   * [MicroRemoteWire](../fabrication/microremotewire/)
-* Midi
+* MIDI
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
   * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
-* Milli
+* MILLI
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
   * [millis( )](../fabrication/arduino/millis/)
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
-* Minute
+* MINUTE
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
-* Mixer
+* MIXER
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
-* Modèle
+* MODÈLE
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
   * [Modèles de cartes](../fabrication/arduino/cartes/)
-* Modification
+* MODIFICATION
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
-* Modularisation
+* MODULARISATION
   * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
-* Monitor/plotter
+* MONITOR/PLOTTER
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
-* Motion
+* MONTMORENCY
+  * [Bibliographie Montmorency](../culture/bibliographie/momo/)
+* MOTION
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
-* Mpu6886
+* MPU6886
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
-* Multimédia
+* MULTIMÉDIA
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
-* Multimètre
+* MULTIMÈTRE
   * [Multimètre](../fabrication/electronique/multimetre/)
 
 ## N
-* Nano
+* NANO
   * [Arduino Nano](../fabrication/nano/)
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
   * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
-* Navigateur
+* NAVIGATEUR
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
-* Neopixel
+* NEOPIXEL
   * [Pixels : NeoPixel](../fabrication/pixels/neopixel/)
-* Ngrok
+* NGROK
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
-* Node.js
+* NODE.JS
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
-* Nombre
+* NOMBRE
   * [Générer un nombre aléatoire](../fabrication/arduino/random/)
-* Norme
+* NORME
   * [Guide de normes graphiques](../creation/visuel/guide/)
-* Note
+* NOTE
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
-* Nouveau
+* NOUVEAU
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
-* Null
+* NULL
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 
 ## O
-* Oak
+* OAK
   * [Oak](../materiel/oak/)
-* Objet
+* OBJET
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
-* Obs
+* OBS
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
   * [OBS : Mapping](../logiciels/obs/mapping/)
   * [Spout dans OBS](../logiciels/obs/spout/)
-* Œuvre
+* ŒUVRE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
-* Open sound control
+* OPEN SOUND CONTROL
   * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
@@ -760,112 +764,114 @@
   * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
   * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
   * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
-* Open-ip-scanner
+* OPEN-IP-SCANNER
   * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
 * OSC
   * Voir : Open Sound Control
-* Oscbridge
+* OSCBRIDGE
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
-* Oscformat
+* OSCFORMAT
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
-* Oscjackv
+* OSCJACKV
   * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
-* Oscmo-lidar
+* OSCMO-LIDAR
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 
 ## P
-* Paramètre
+* PARAMÈTRE
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-* Pbhub
+* PBHUB
   * [M5Stack PbHub Unit](../fabrication/m5stack/units/pbhub/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * PD
   * Voir : Pure Data
-* Pd
+* PD
   * Voir : Pure Data
-* Pdchoco
+* PDCHOCO
   * [pdchoco](../logiciels/pd/pdchoco/)
-* Pecha kucha
+* PECHA KUCHA
   * [Pecha Kucha](../creation/pecha_kucha/)
-* Pensée
+* PENSÉE
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
-* Perform
+* PERFORM
   * [TouchDesigner : Perform](../logiciels/touchdesigner/performance/)
-* Petite
+* PETITE
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
-* Photorésistance
+* PHOTORÉSISTANCE
   * [M5Stack Unit 3.96 et photorésistance](../fabrication/m5stack/units/396/photoresistance/)
-* Pioarduino-espressif32
+* PIOARDUINO-ESPRESSIF32
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
-* Piste
+* PISTE
   * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
   * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
-* Pixel
+* PIXEL
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
   * [Pixels : FastLED](../fabrication/pixels/fastled/)
   * [Pixels : NeoPixel](../fabrication/pixels/neopixel/)
-* Plage
+* PL
+  * Voir : Plugiciel
+* PLAGE
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
-* Plaquette
+* PLAQUETTE
   * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
-* Platformio
+* PLATFORMIO
   * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
-* Platine
+* PLATINE
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
-* Play,stop,volume,vu
+* PLAY,STOP,VOLUME,VU
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
-* Plotter
+* PLOTTER
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
-* Plugdata
+* PLUGDATA
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
-* Plugin
+* PLUGIN
   * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
   * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
   * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
-* Poe
+* POE
   * [Atom POE](../fabrication/m5stack/atom-poe/)
-* Potentiomètre
+* POTENTIOMÈTRE
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
-* Pouvoir
+* POUVOIR
   * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
-* Pratique
+* PRATIQUE
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
-* Priorité
+* PRIORITÉ
   * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
-* Processu
+* PROCESSU
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
-* Production
+* PRODUCTION
   * [Production > Maquettage > Technique](../creation/production/planification/)
   * [Production](../creation/production/)
-* Projecteur
+* PROJECTEUR
   * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
-* Projet
+* PROJET
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
   * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
-* Propagande
+* PROPAGANDE
   * [Propagande sur les GML](../culture/ia/propagande/)
-* Proportion
+* PROPORTION
   * [TouchDesigner : Proportion](../logiciels/touchdesigner/traitement/proportion/)
   * [Unity : Proportion](../logiciels/unity/traitement/proportion/)
-* Proportionnelle
+* PROPORTIONNELLE
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
-* Protocole
+* PROTOCOLE
   * [Protocole DDP](../fabrication/ddp/)
-* Psychologie
+* PSYCHOLOGIE
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
-* Psychologique
+* PSYCHOLOGIQUE
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
-* Public
+* PUBLIC
   * [Public cible](../creation/interactivite/public/)
-* Pure data
+* PURE DATA
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
@@ -879,23 +885,23 @@
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
   * [WebSockets dans Pd](../logiciels/pd/websocket/)
-* Python
+* PYTHON
   * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
   * [TD : Déboguer Python](../logiciels/touchdesigner/python/deboguer/)
 
 ## Q
-* Qlc+
+* QLC+
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
-* Qualifier
+* QUALIFIER
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 
 ## R
-* Ralentir
+* RALENTIR
   * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
-* Raspberry pi
+* RASPBERRY PI
   * [Raspberry Pi](../logiciels/rpi/)
-* Reaper
+* REAPER
   * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
   * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
   * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
@@ -906,136 +912,134 @@
   * [Reaper : Échantillonneur](../logiciels/reaper/echantillonneur/)
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
-* Réception
+* RÉCEPTION
   * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
   * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
-* Référence
+* RÉFÉRENCE
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
-* Règle
+* RÈGLE
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
   * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
-* Relai
+* RELAI
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
-* Relation
+* RELATION
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
-* Réseau
+* RÉSEAU
   * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
-* Résiliente
+* RÉSILIENTE
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
-* Résistance
+* RÉSISTANCE
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
-* Rétroaction
+* RÉTROACTION
   * [IU : Rétroaction (feedback)](../creation/visuel/iu/retroaction/)
-* Richesse
+* RICHESSE
   * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
-* RPi
+* RPI
   * Voir : Raspberry Pi
 
 ## S
-* Santé
+* SANTÉ
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
-* Scan
+* SCAN
   * [Scan de réseau : Open-IP-Scanner](../logiciels/open-ip-scanner/)
-* Scanner
+* SCANNER
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
-* Scénarisation
+* SCÉNARISATION
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
   * [Scénarisation](../creation/production/scenarisation/)
-* Schéma
+* SCHÉMA
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
-* Sélective
-  * [Bibliographie sélective](../culture/bibliographie/momo/)
-* Serial
+* SERIAL
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
-* Série
+* SÉRIE
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
-* Sérielle
+* SÉRIELLE
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/serial/)
-* Sidechain
+* SIDECHAIN
   * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
-* Signal
+* SIGNAL
   * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
-* Signifiant
+* SIGNIFIANT
   * [IU : Signifiants de l'interface utilisateur](../creation/visuel/iu/signifiants/)
-* Simulation
+* SIMULATION
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Simulation de microélectronique](../fabrication/simulation/)
-* Slamtec
+* SLAMTEC
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
-* Slip
+* SLIP
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
-* Sonore
+* SONORE
   * [Conception sonore](../creation/audio/conception/)
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
-* Sortie
+* SORTIE
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
-* Spout
+* SPOUT
   * [Spout dans OBS](../logiciels/obs/spout/)
   * [Spout dans TouchDesigner](../logiciels/touchdesigner/spout/)
   * [Spout dans Unity](../logiciels/unity/spout/)
-* Studio
+* STUDIO
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
-* Style
+* STYLE
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-* Supprimée
+* SUPPRIMÉE
   * [Atelier : Règle supprimée](../creation/interactivite/ateliers/suppression/)
-* Surveillance
+* SURVEILLANCE
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
-* Synchroniser
+* SYNCHRONISER
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
-* Système
+* SYSTÈME
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 
 ## T
-* Tape
+* TAPE
   * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
 * TD
   * Voir : TouchDesigner
-* Technique
+* TECHNIQUE
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
   * [Production > Maquettage > Technique](../creation/production/planification/)
-* Technologie
+* TECHNOLOGIE
   * [Technologie](../culture/technologie/)
-* Télécommande
+* TÉLÉCOMMANDE
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
-* Témoin
+* TÉMOIN
   * [Témoins (cookies)](../culture/surveillance/temoins/)
-* Temp
+* TEMP
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
-* Template
+* TEMPLATE
   * [TouchDesigner : Template](../logiciels/touchdesigner/template/)
-* Tension
+* TENSION
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
-* Terminal
+* TERMINAL
   * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
-* Test
+* TEST
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
-* Tête
+* TÊTE
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-* Three.js
+* THREE.JS
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
-* Tof
+* TOF
   * [M5Stack Unit TOF](../fabrication/m5stack/units/tof/)
-* Torche
+* TORCHE
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
-* Touchdesigner
+* TOUCHDESIGNER
   * [*Feedback* avec TouchDesigner](../logiciels/touchdesigner/feedback/)
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
@@ -1060,23 +1064,23 @@
   * [TouchDesigner : Perform](../logiciels/touchdesigner/performance/)
   * [TouchDesigner : Proportion](../logiciels/touchdesigner/traitement/proportion/)
   * [TouchDesigner : Template](../logiciels/touchdesigner/template/)
-* Trail
+* TRAIL
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
-* Traitement
+* TRAITEMENT
   * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
   * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
   * [Unity : Traitement de messages](../logiciels/unity/traitement/)
-* Traiter
+* TRAITER
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
-* Transparent
+* TRANSPARENT
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
-* Travail
+* TRAVAIL
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
-* Tunnel
+* TUNNEL
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
-* Tutoriel
+* TUTORIEL
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
@@ -1089,16 +1093,16 @@
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
-* Type
+* TYPE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
-* Typographie
+* TYPOGRAPHIE
   * [IU : Typographie](../creation/visuel/iu/typographie/)
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)
 
 ## U
-* Uart
+* UART
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-* Udp
+* UDP
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
   * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
@@ -1106,7 +1110,7 @@
   * [Unity : OSC UDP avec extOSC](../logiciels/unity/osc/extosc/)
   * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
   * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
-* Unit
+* UNIT
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
   * [M5Stack Key Unit](../fabrication/m5stack/units/key/)
@@ -1119,7 +1123,7 @@
   * [M5Stack Unit TOF](../fabrication/m5stack/units/tof/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
   * [Unit 3.96](../fabrication/m5stack/units/396/)
-* Unity
+* UNITY
   * [Colliders dans Unity](../logiciels/unity/colliders/)
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
@@ -1132,50 +1136,50 @@
   * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
   * [Unity : Proportion](../logiciels/unity/traitement/proportion/)
   * [Unity : Traitement de messages](../logiciels/unity/traitement/)
-* Usb
+* USB
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
-* Utilisation
+* UTILISATION
   * [Guides d'utilisation des GML](../culture/ia/guides/)
 
 ## V
-* Valeur
+* VALEUR
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
-* Variation
+* VARIATION
   * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
-* Vcv rack
+* VCV RACK
   * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
-* Vidéo
+* VIDÉO
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
-* Vidéosurveillance
+* VIDÉOSURVEILLANCE
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
-* Virtual midi keyboard
+* VIRTUAL MIDI KEYBOARD
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
   * [Virtual MIDI Keyboard](../logiciels/reaper/virtual_midi_keyboard/)
-* Visuelle
+* VISUELLE
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
-* Vnc
+* VNC
   * [VNC](../logiciels/vnc/)
-* VSCode
+* VSCODE
   * Voir : Visual Studio Code
 
 ## W
-* Wander
+* WANDER
   * [Wonder Wander](../jeu/wonder_wander/)
-* Warble
+* WARBLE
   * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
-* Websocket
+* WEBSOCKET
   * [WebSockets dans Pd](../logiciels/pd/websocket/)
-* While
+* WHILE
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
-* Window
+* WINDOW
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
-* Wonder
+* WONDER
   * [Wonder Wander](../jeu/wonder_wander/)
 
 ## Y
-* Yer
+* YER
   * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)

@@ -24,13 +24,13 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ![Installer le gestionnaire de carte ESP32](ajouter_m5stack3.SVG)
 
-## Trouver la bibliothèque M5Atom
+## Trouver la bibliothèque logicielle M5Atom
 
-![Trouver la bibliothèque M5Atom](ajouter_m5atom1.SVG)
+![Trouver la bibliothèque logicielle M5Atom](ajouter_m5atom1.SVG)
 
-## Ajouter la bibliothèque M5Atom
+## Ajouter la bibliothèque logicielle M5Atom
 
-![Installer la bibliothèque M5Atom avec toutes les dépendances](ajouter_m5atom2.SVG)
+![Installer la bibliothèque logicielle M5Atom avec toutes les dépendances](ajouter_m5atom2.SVG)
 
 ## Choisir la bonne plateforme
 

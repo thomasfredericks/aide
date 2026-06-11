@@ -15,9 +15,9 @@ C'est un *Unit* de type I²C tel qu'identifié par son connecteur rouge.
 
 Un cran (Ticks / Pulses) est l'unité de mesure fondamentale d'un encodeur rotatif. C'est le plus petit mouvement angulaire que l'encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
 
-## Bibliothèque M5_Encoder
+## Bibliothèque logicielle M5_Encoder
 
-La bibliothèque [thomasfredericks/M5_Encoder](https://github.com/thomasfredericks/M5_Encoder) permet d'interfacer avec ce _unit_.
+La bibliothèque logicielle [thomasfredericks/M5_Encoder](https://github.com/thomasfredericks/M5_Encoder) permet d'interfacer avec ce _unit_.
 
 ###  Installation
 

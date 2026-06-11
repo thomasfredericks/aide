@@ -1,6 +1,6 @@
 # MicroNet
 
-`MicroNet` est une bibliothèque Arduino qui simplifie la gestion des connexions réseau sur microcontrôleur, que ce soit en **Wi-Fi** ou en **Ethernet**.
+`MicroNet` est une bibliothèque logicielle Arduino qui simplifie la gestion des connexions réseau sur microcontrôleur, que ce soit en **Wi-Fi** ou en **Ethernet**.
 
 Elle fournit :
 
@@ -9,7 +9,7 @@ Elle fournit :
 - Un portail captif de configuration Wi-Fi.
 
 
-Code source de la bibliothèque : [git de MicroNet](https://github.com/thomasfredericks/MicroNet)
+Code source de la bibliothèque logicielle : [git de MicroNet](https://github.com/thomasfredericks/MicroNet)
 
 Pour l'ajouter dans PlatformIO, ajouter à `lib_deps` dans `plarformio.ini` :
 ```cpp
@@ -25,7 +25,7 @@ lib_deps =
 Lors de l’appel à `begin(name)` :
 
 - En **Wi-Fi** :
-  - La bibliothèque tente de se connecter au point d’accès configuré.
+  - La bibliothèque logicielle tente de se connecter au point d’accès configuré.
   - En cas d’échec, un portail captif est ouvert en utilisant le nom fourni.
   - L’utilisateur peut se connecter à ce portail pour configurer les identifiants Wi-Fi.
 - En **Wi-Fi et Ethernet** :

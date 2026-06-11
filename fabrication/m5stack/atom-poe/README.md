@@ -7,17 +7,17 @@ Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_po
 
 ![Atom POE](./atom_poe.jpg)
 
-## Bibliothèque `MicroNet` (recommandée)
+## Bibliothèque logicielle `MicroNet` (recommandée)
 
 Pour utiliser l'Atom POE, il est recommandé d'utiliser [MicroNet](https://github.com/thomasfredericks/MicroNet). Il suffit de suivre les instructions et exemples qui y sont fournis.
 
-S'il n'est pas possible ou désiré d'utiliser cette bibliothèque, Atom POE peut-être intégré manuellement en suivant les instructions ci-bas.
+S'il n'est pas possible ou désiré d'utiliser cette bibliothèque logicielle, Atom POE peut-être intégré manuellement en suivant les instructions ci-bas.
 
 ## Intégration manuelle (non recommandée)
 
-### Bibliothèque `arduino-libraries/Ethernet` pour PlatformIO
+### Bibliothèque logicielle `arduino-libraries/Ethernet` pour PlatformIO
 
-Pour PlatformIO, il faut ajouter la bibliothèque `arduino-libraries/Ethernet` à l'entrée `lib_deps` du fichier de configuration `platformio`  :
+Pour PlatformIO, il faut ajouter la bibliothèque logicielle `arduino-libraries/Ethernet` à l'entrée `lib_deps` du fichier de configuration `platformio`  :
 ```ini
 lib_deps=
   https://github.com/arduino-libraries/Ethernet

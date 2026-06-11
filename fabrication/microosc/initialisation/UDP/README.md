@@ -4,13 +4,13 @@
 
 L'intégration de MicroOscUdp est assez simple. Ce qui est plus complexe, est le démarrage de la réseautique et de l'UDP. 
 
-L'initialisation du réseau est un préalable à l'utilisation de MicroOscUdp. La bibliothèque MicroNet est recommandée pour réaliser cette tâche complexe.
+L'initialisation du réseau est un préalable à l'utilisation de MicroOscUdp. La bibliothèque logicielle MicroNet est recommandée pour réaliser cette tâche complexe.
 
 ## Installation de MicroOscUdp
 
 ### Arduino IDE
 
-Télécharger la bibliothèque `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
+Télécharger la bibliothèque logicielle `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
 
 ### PlatformIO
 

@@ -4,7 +4,7 @@ Les pixels **NeoPixel** sont des DEL adressables individuellement, très utilis�
 
 Les bandes NeoPixel utilisent généralement des protocoles compatibles avec des modèles populaires comme **WS2812** ou **WS2812B**. Une seule broche de données du microcontrôleur suffit pour contrôler toute la bande.
 
-Une bibliothèque couramment utilisée pour ce type de pixels est **Adafruit NeoPixel**. Elle simplifie l’initialisation de la bande et la gestion des couleurs. Elle peut être installée via le gestionnaire de bibliothèques d’Arduino ou utilisée dans un projet PlatformIO.
+Une bibliothèque logicielle couramment utilisée pour ce type de pixels est **Adafruit NeoPixel**. Elle simplifie l’initialisation de la bande et la gestion des couleurs. Elle peut être installée via le gestionnaire de bibliothèques d’Arduino ou utilisée dans un projet PlatformIO.
 
 ## Principe général
 
@@ -15,7 +15,7 @@ Après avoir modifié les couleurs, il faut appeler la fonction d’actualisatio
 
 ## Initialisation typique
 
-### Bibliothèque à inclure
+### Bibliothèque logicielle à inclure
 
 ```cpp
 #include <Adafruit_NeoPixel.h>

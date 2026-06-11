@@ -2,7 +2,7 @@
 
 Les bibliothèques pour bandes de pixels prennent généralement en charge plusieurs modèles de pixels. Il est donc important de sélectionner le bon modèle dans le code afin d’assurer une communication correcte avec le matériel.
 
-La bibliothèque recommandée est [FastLED](https://github.com/FastLED/FastLED). Elle peut être installée via le gestionnaire de bibliothèques d’Arduino ou dans un projet PlatformIO. FastLED est très performante et largement utilisée pour le contrôle de pixels adressables, bien qu’elle demande une certaine familiarité avec sa structure.
+La bibliothèque logicielle recommandée est [FastLED](https://github.com/FastLED/FastLED). Elle peut être installée via le gestionnaire de bibliothèques d’Arduino ou dans un projet PlatformIO. FastLED est très performante et largement utilisée pour le contrôle de pixels adressables, bien qu’elle demande une certaine familiarité avec sa structure.
 
 ## Principe général
 
@@ -13,7 +13,7 @@ Après avoir modifié les valeurs des pixels dans ce tableau, il faut appeler `F
 
 ## Initialisation dans le code
 
-### Bibliothèque à inclure
+### Bibliothèque logicielle à inclure
 ```cpp
 #include <FastLED.h>
 ```

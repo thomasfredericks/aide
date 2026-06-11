@@ -1,4 +1,4 @@
-# Bouton du M5Stack Atom Lite avec la bibliothèque M5
+# Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5
 
 ## Documentation de l'API du bouton du M5Stack Atom Lite
 

@@ -1,6 +1,6 @@
 # MicroRemoteWire
 
-`MicroRemoteWire` est une micro-bibliothèque Arduino qui permet à un microcontrôleur Arduino d’en contrôler un autre via I2C/Wire.
+`MicroRemoteWire` est une micro-bibliothèque logicielle Arduino qui permet à un microcontrôleur Arduino d’en contrôler un autre via I2C/Wire.
 
 ![Un M5Stack Atom POE allimente et contrôle trois plaquettes Arduino Nano.](./mrw_nano_poe.png)
 
@@ -11,7 +11,7 @@ Dans l'exemple illustré ci-haut, un M5Stack Atom POE **alimente** et **contrôl
 Chaque `MicroRemoteWirePeripheral` doit se voir attribuer une adresse I2C/Wire unique.  
 Le `MicroRemoteWireController` peut ensuite communiquer avec chaque `MicroRemoteWirePeripheral` en utilisant son adresse.
 
-Code source de la bibliothèque : [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire)
+Code source de la bibliothèque logicielle : [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire)
  
 
 ## Principe de fonctionnement
@@ -32,7 +32,7 @@ Points importants :
 
 Le code du périphérique doit :
 
-- Inclure la bibliothèque `MicroRemoteWirePeripheral.h`.
+- Inclure la bibliothèque logicielle `MicroRemoteWirePeripheral.h`.
 - Initialiser le bus I2C avec son adresse.
 - Déclarer les fonctions `onReceive` et `onRequest`.
 
@@ -60,7 +60,7 @@ constexpr uint8_t PERIPHERAL_I2C_ADDR = 0x42;
 
 Le code du contrôleur doit :
 
-- Inclure la bibliothèque `MicroRemoteWireController`.
+- Inclure la bibliothèque logicielle `MicroRemoteWireController`.
 - Configurer la communication avec l'ordinateur.
 - **Pour chaque périphérique** : Créer un objet en lui passant le bus `Wire` et l’adresse configurée dans le code du périphérique.
 

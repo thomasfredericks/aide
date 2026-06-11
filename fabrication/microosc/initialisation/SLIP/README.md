@@ -4,7 +4,7 @@
 
 ### Arduino IDE
 
-Télécharger la bibliothèque `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
+Télécharger la bibliothèque logicielle `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
 
 ### PlatformIO
 

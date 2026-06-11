@@ -22,9 +22,9 @@ L’unité expose deux interfaces numériques : l’une pour la détection de 
 - Le contrôle du pixel s'effectue sur la broche identifiée par le texte *LED* sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
 - Si l'unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c'est la broche 26 (identifiée G26) qui permet de contrôler le pixel.
 
-## Bibliothèque
+## Bibliothèque logicielle
 
-Le contrôle du pixel nécessite la bibliothèque suivante :
+Le contrôle du pixel nécessite la bibliothèque logicielle suivante :
 - FastLED 
 
 ### PlatformIO **platformio.ini**
@@ -37,7 +37,7 @@ lib_deps =
 
 ### Dans l'espace global
 
-Ajouter la bibliothèque FastLED:
+Ajouter la bibliothèque logicielle FastLED:
 ```cpp
 #include <FastLED.h>
 ```
