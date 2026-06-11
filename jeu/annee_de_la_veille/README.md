@@ -1,4 +1,4 @@
-# Jeu : L’année de la veille
+# Jeu L’année de la veille
 
 <!-- toc -->
 

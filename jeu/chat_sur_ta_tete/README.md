@@ -1,4 +1,4 @@
-# Jeu : Chat sur ta tête (Cat on Yer Head)
+# Jeu Chat sur ta tête (Cat on Yer Head)
 
 Chat sur ta tête est un jeu basé sur *Cat on Yer Head* qui est un concept original de Rob Davis et Richard Butterworth.
 
