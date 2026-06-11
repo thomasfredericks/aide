@@ -820,9 +820,10 @@ body {
 }
 
 .markdown-section em {
-  color: #FF3333;
+  color: #666;
+  font-style: italic;
+  font-weight: bold;
 }
-
 .markdown-section code,
 .markdown-section output:after,
 .markdown-section pre {
