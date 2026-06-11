@@ -73,57 +73,58 @@ Si vous obtenez **3 dés ou plus de même valeur**, interprétez librement le r�
 
 Si vous reliez une **chaîne de montagnes** ou un **corridor forestier** vous devez immédiatement générer son nom.
 
+
 #### Générer le nom d'un corridor forestier
 
-| Jet D6<D6 | Suffixe | Préfixe |
+| Jet D6 ≤ D6 | Préfixe | Suffixe |
 |-----------|---------|---------|
-| 1 1 | Bosquet | fantôme |
-| 1 2 | Jungle | dansante |
-| 1 3 | Cimes | éternelle |
-| 1 4 | Forêt | toujours-verte |
-| 1 5 | Sylve | sacrée |
-| 1 6 | Bocage | rouge |
-| 2 2 | Forêt | endormie |
-| 2 3 | Fourré | ombreuse |
-| 2 4 | Bois | rêveuse |
-| 2 5 | Saule | argentée |
-| 2 6 | Massif | vagabonde |
-| 3 3 | Forêt | fendue |
-| 3 4 | Solitude | humide |
-| 3 5 | Canopée | dorée |
-| 3 6 | Bosquet | blamche |
-| 4 4 | Futaie | profonde |
-| 4 5 | Hêtraie | silencieuse |
-| 4 6 | Buisson | tranchante |
-| 5 5 | Sapinière | abondante |
-| 5 6 | Broussailles | sombre |
-| 6 6 | Sylve | ancienne |
+| 1 1 | BOSQUET | FANTÔME |
+| 1 2 | JUNGLE | DANSANTE |
+| 1 3 | CIMES | ÉTERNELLE |
+| 1 4 | FORÊT | TOUJOURS-VERTE |
+| 1 5 | SYLVE | SACRÉE |
+| 1 6 | BOCAGE | ROUGE |
+| 2 2 | FORÊT | ENDORMIE |
+| 2 3 | FOURRÉ | OMBREUSE |
+| 2 4 | BOIS | RÊVEUSE |
+| 2 5 | SAULE | ARGENTÉE |
+| 2 6 | MASSIF | VAGABONDE |
+| 3 3 | FORÊT | FENDUE |
+| 3 4 | SOLITUDE | HUMIDE |
+| 3 5 | CANOPÉE | DORÉE |
+| 3 6 | BOSQUET | BLANCHE |
+| 4 4 | FUTAIE | PROFONDE |
+| 4 5 | HÊTRAIE | SILENCIEUSE |
+| 4 6 | BUISSON | TRANCHANTE |
+| 5 5 | SAPINIÈRE | ABONDANTE |
+| 5 6 | BROUSSAILLES | SOMBRE |
+| 6 6 | SYLVE | ANCIENNE |
 
-#### Générer le nom d'une chaîne de montagne
+#### GÉNÉRER LE NOM D'UNE CHAÎNE DE MONTAGNE
 
-| Jet D6<D6 | Suffixe | Préfixe |
+| JET D6 ≤ D6 | Préfixe | Suffixe |
 |-----------|---------|---------|
-| 1 1 | Sommet | émeraude |
-| 1 2 | Promontoire | creux |
-| 1 3 | Haute | escarpée |
-| 1 4 | Pics | gelés |
-| 1 5 | Chaîne | désolée |
-| 1 6 | Montagne | de l'aigle |
-| 2 2 | Roc | verte |
-| 2 3 | Élévation | blanche |
-| 2 4 | Falaise | du géant |
-| 2 5 | Crête | couché |
-| 2 6 | Plateau | dentelé |
-| 3 3 | Mont | cendré |
-| 3 4 | Alpes | du soleil |
-| 3 5 | Fer | jumeaux |
-| 3 6 | Élévation | hurlante |
-| 4 4 | Pic | silencieuse |
-| 4 5 | Sierra | du diamant |
-| 4 6 | Flèche | dormante |
-| 5 5 | Mont | ardent |
-| 5 6 | Grand | hantée |
-| 6 6 | Couronne | ancienne |
+| 1 1 | SOMMET | ÉMERAUDE |
+| 1 2 | PROMONTOIRE | CREUX |
+| 1 3 | HAUTE | ESCARPÉE |
+| 1 4 | PICS | GELÉS |
+| 1 5 | CHAÎNE | DÉSOLÉE |
+| 1 6 | MONTAGNE | DE L'AIGLE |
+| 2 2 | ROC | VERTE |
+| 2 3 | ÉLÉVATION | BLANCHE |
+| 2 4 | FALAISE | DU GÉANT |
+| 2 5 | CRÊTE | COUCHÉ |
+| 2 6 | PLATEAU | DENTELÉ |
+| 3 3 | MONT | CENDRÉ |
+| 3 4 | ALPES | DU SOLEIL |
+| 3 5 | FER | JUMEAUX |
+| 3 6 | ÉLÉVATION | HURLANTE |
+| 4 4 | PIC | SILENCIEUSE |
+| 4 5 | SIERRA | DU DIAMANT |
+| 4 6 | FLÈCHE | DORMANTE |
+| 5 5 | MONT | ARDENT |
+| 5 6 | GRAND | HANTÉE |
+| 6 6 | COURONNE | ANCIENNE |
 
 ## Choisir une destination
 
@@ -143,31 +144,31 @@ Se référer à la section qui correspond au type d'élément visité (communaut
 
 Si le lieu est une communauté (🔺), générer le nom à partir de trois lancés (`-` indique de sauter cette colonne) : 
 
-En premier, trouver le préfixe (`-` indique aucun préfixe) :
+En premier, trouver le préfixe (`-` n'indique aucun préfixe) :
 
-| Jet D6<D6 | Préfixe | Première | Deuxième |
+| JET D6 ≤ D6 | Préfixe | Première | Deuxième |
 |-----------|----------|-----------|-----------|
-| 1 1 | Val | en | dar |
-| 1 2 | Havre | urn | a |
-| 1 3 | Pointe | an | ek |
-| 1 4 | Mont | ol | in |
-| 1 5 | Port | ere | kar |
-| 1 6 | Crête | lin | or |
-| 2 2 | - | vel | ess |
-| 2 3 | - | ith | wyn |
-| 2 4 | Roche | or | don |
-| 2 5 | Fort | ni | ria |
-| 2 6 | Mont | is | Bri |
-| 3 3 | - | e | lan |
-| 3 4 | Col | as | Vor |
-| 3 5 | Forge | im | dra |
-| 3 6 | Tour | en | vor |
-| 4 4 | Pointe | ia | neth |
-| 4 5 | - | Fen | dus |
-| 4 6 | Rivière | el | vain |
-| 5 5 | Refuge | or | Nyx |
-| 5 6 | Port | es | tor |
-| 6 6 | Havre | an | dor |
+| 1 1 | VAL | EN | DAR |
+| 1 2 | HAVRE | URN | A |
+| 1 3 | POINTE | AN | EK |
+| 1 4 | MONT | OL | IN |
+| 1 5 | PORT | ERE | KAR |
+| 1 6 | CRÊTE | LIN | OR |
+| 2 2 | - | VEL | ESS |
+| 2 3 | - | ITH | WYN |
+| 2 4 | ROCHE | OR | DON |
+| 2 5 | FORT | NI | RIA |
+| 2 6 | MONT | IS | BRI |
+| 3 3 | - | E | LAN |
+| 3 4 | COL | AS | VOR |
+| 3 5 | FORGE | IM | DRA |
+| 3 6 | TOUR | EN | VOR |
+| 4 4 | POINTE | IA | NETH |
+| 4 5 | - | FEN | DUS |
+| 4 6 | RIVIÈRE | EL | VAIN |
+| 5 5 | REFUGE | OR | NYX |
+| 5 6 | PORT | ES | TOR |
+| 6 6 | HAVRE | AN | DOR |
 
 ### Visiter un lieu particulier (❓)
 
