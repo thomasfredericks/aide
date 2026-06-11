@@ -121,6 +121,8 @@
 * Base
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+* Bibliographie
+  * [Bibliographie sélective](../culture/bibliographie/momo/)
 * Bibliothèque
   * [Bouton du M5Stack Atom Lite avec la bibliothèque M5](../fabrication/m5stack/atom/bouton/m5lib/)
 * Blink
@@ -946,6 +948,8 @@
   * [Scénarisation](../creation/production/scenarisation/)
 * Schéma
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
+* Sélective
+  * [Bibliographie sélective](../culture/bibliographie/momo/)
 * Serial
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
