@@ -1,4 +1,8 @@
-# Wonder Wander
+# Jeu : Wonder Wander
+
+<!-- toc -->
+
+## Introduction
 
 Wonder Wander est un portant sur la création de mondes à travers l'apprentissage d'un territoire. 
 

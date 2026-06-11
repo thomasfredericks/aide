@@ -22,9 +22,9 @@ Bibliographie sélective d'ouvrages disponibles à la bibliothèque du collège 
 
 - [Designing sound](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=302988&data=05)
 
-### Patch & tweak :exploring modular synthesis
+### Patch & tweak : exploring modular synthesis
 
-- [Patch & tweak :exploring modular synthesis](https://cmontmorency-intranet.koha.collecto.ca/cgi-bin/koha/catalogue/detail.pl?biblionumber=303820&data=05)
+- [Patch & tweak : exploring modular synthesis](https://cmontmorency-intranet.koha.collecto.ca/cgi-bin/koha/catalogue/detail.pl?biblionumber=303820&data=05)
 
 ### Push turn move : interface design in electronic music
 

@@ -1,4 +1,16 @@
-# L’année de la veille
+# Jeu : L’année de la veille
+
+<!-- toc -->
+
+## Introduction
+
+*L’année de la veille* nécessite de 2 à 4 joueurs et dure entre 2 et 4 heures.
+
+De plus, il faut :
+
+- Une grande feuille blanche.
+- Des crayons, des gommes à effacer.
+- Six dés.
 
 *L’année de la veille* est un jeu de narration et de création collective. Il est essentiellement une traduction en français des jeux *The Quiet Year* d'Avery Alder et *The Deep Forest* de Mark Diaz Truman et Avery Alder Mcdaldno. Il reprend les thèmes de *The Deep Forest* mais y rajoutent les ressources de *The Quiet Year*. 
 
@@ -17,7 +29,7 @@ Le jeu nous demandera de nous exprimer au nom de différents résidents de la co
 
 S’il existe une question avec laquelle vous êtes aux prises dans votre propre vie comme la possibilité qu’un espace soit réellement sûr ou qu’il y ait une place pour l’espoir, n’hésitez pas à introduire des situations qui la mettent à l’épreuve.
 
-La communauté est composée d’environ 60 à 80 membres.
+
 
 > [!IMPORTANT]
 > La communauté n'est pas humaine. La communauté peut être composée d'un type d'être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L'important est d'avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l'histoire et ne font pas partie de la communauté. 
@@ -36,22 +48,13 @@ Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 
 À gauche, nous dessinons une colonne avec deux rangées. Nous titrons la case supérieure « Abondances ». Nous titrons la case inférieure « Pénuries ».
 
-À droite de la feuille, nous dessinons une colonne avec une seule rangée que nous titrons « Personnages ».
+À droite de la feuille, nous dessinons une colonne avec une seule rangée que nous titrons « Membres ».
 
 
-## Création des membres de la communauté
+## Créer le monde
 
-Nous sommes invités à incarner différents membres de la communauté au fil de la partie. En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
-
-Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, **même s’il s’agit d’une ou d'une membre de la communauté qui disparaît immédiatement à la suite d’un incident**.
-
-> [!IMPORTANT]
-> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l'histoire et ne sont pas natifs à notre territoire.
-
-
-## Comment dessiner la carte
-
-Souvenez-vous que vous pouvez utiliser des symboles ou des représentations symboliques, mais qu’il faut éviter les mots.
+> [!WARNING]
+> Nous pouvons utiliser des symboles ou des représentations symboliques, mais nous devons éviter les mots lorsque nous dessinons la carte.
 
 ### Les limites de la communauté
 
@@ -65,17 +68,43 @@ Nous devons situer la communauté dans le temps et dans l'espace. Cela peut êtr
 
 Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
+## Introduction des membres de la communauté
+
+Nous serons invités à incarner différents membres de la communauté au fil de la partie. En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
+
+Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, même s’il s’agit d’une ou d'une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
+
+> [!IMPORTANT]
+> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l'histoire et ne sont pas natifs à notre territoire.
+
+À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son nid ou de son lieu de vie. Nous esquissons ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
+
+> [!NOTE]
+> La communauté est composée d’environ 60 à 80 membres.
+
+Par exemple, un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien :
+
+> - Le premier joueur présente un monstre : « Très bien, une bande de kobolds, les Eidoo, s’est installée dans les anciennes écuries. »
+> - La joueuse suivante ajoute : « Un ogre des collines, Tezog, vit dans la carrière située à une courte distance de la tour. »
+> - Le troisième joueur ajoute : « Un groupe d’esprits des arbres appelés les Feux Follets a creusé plusieurs arbres à la lisière de la clairière pour en faire son nid. »
+> - Enfin, la dernière joueuse dit : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
+> 
+> Au fur et à mesure que des détails sont ajoutés, les joueurs les dessinent sur la carte. Notez les noms dans la section à droite de la carte.
+
+
+
 ## Ressources
 
 Ensuite, nous trouvons chacun une ressource importante pour la communauté. Le fait de choisir une ressource la rend importante. Si nous choisissons « essence », cela devient quelque chose dont notre communauté a réellement besoin et qu’elle désire. Chaque joueuse ou joueur doit choisir une ressource. Nous devrions limiter la discussion à deux minutes par personne. 
 
 Quelques exemples :
 
-- de l’eau pure potable ;
-- une source d’énergie ;
-- un moyen de protection contre des prédateurs ;
-- un abri convenable ;
-- de la nourriture.
+> - De l’eau pure potable.
+> - Une source d’énergie.
+> - Un moyen de protection contre des prédateurs.
+> - Un abri convenable.
+> - De la nourriture.
+
 
 Tous ensemble, nous choisissons ensuite une de ces ressources qui sera en abondance. Elle doit être écrite dans la case « Abondances », et la personne qui l’a nommée dessine alors cette ressource en abondance sur la carte.
 
@@ -83,15 +112,12 @@ Toutes les autres ressources sont écrites dans la case « Pénuries », et les 
 
 En début de partie, nous aurons une ressource en abondance et toutes les autres en pénurie. Ces listes servent de fil directeur pour interpréter la santé de la communauté. Tout au long de la partie, nous les mettrons à jour pour refléter les changements dans notre situation lorsque nous jugerons approprié de le faire. Peut-être l’achèvement d’un projet viendra-t-il soulager une pénurie ou créer une abondance. Certains évènements viendront également modifier ces listes.
 
-> **Exemple :**
->
-> Le groupe joue dans un village minier abandonné, niché au cœur d’une forêt dense.
->
-> Ils identifient plusieurs ressources : de l’eau courante, des moyens de transport et de la ferraille.
->
-> Ils s’accordent tous à dire que la ferraille est de loin l’abondance la plus intéressante ; elle est donc dessinée sur la carte.
->
-> Les pénuries d’eau courante et de moyens de transport sont également indiquées sur la carte.
+Par exemple :
+
+> - Le groupe joue dans un village minier abandonné, niché au cœur d’une forêt dense.
+> - Ils identifient plusieurs ressources : de l’eau courante, des moyens de transport et de la ferraille.
+> - Ils s’accordent tous à dire que la ferraille est de loin l’abondance la plus intéressante ; elle est donc dessinée sur la carte.
+> - Les pénuries d’eau courante et de moyens de transport sont également indiquées sur la carte.
 
 ## Ce qui a été pris
 
@@ -133,12 +159,12 @@ La plupart des évènements comportent deux options parmi lesquelles nous devons
 
 L’évènement peut poser une question, apporter de mauvaises nouvelles ou créer de nouvelles occasions. C’est à la personne qui a tiré l’évènement qu’il revient de prendre les décisions.
 
-> [!NOTE]
+> [!TIP]
 > Quand l'évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
 
 Si un évènement mentionne des éléments non présents sur la cart, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d'utiliser du texte.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Si l’évènement mentionne l’endroit où dorment les membres de la communauté, la joueuse ou le joueur actif pourrait dessiner une série de tentes près de la lisière de la forêt.
 
 ### 2. Travailler sur les projets
@@ -155,7 +181,7 @@ La fin d’un projet doit être ressentie comme un pas en avant, pas comme un pa
 
 ## 3. Choisir une action parmi celles-ci
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Choisir **une seule** des actions suivantes.
 
 ### 3.A Découvrir quelque chose de vieux
@@ -261,7 +287,7 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 ### Été
 | # | Option A | ou | Option B |
 |--------|----------|----|----------|
-| 1 | Quelque chose tourne mal et les réserves sont perdues. Ajoutez une nouvelle Pénurie. | ou | L’un des plus grands membres de la communauté commence à consommer des membres de la communauté plus petits. Pourquoi ? Comment la communauté réagit-elle ? |
+| 1 | Quelque chose tourne mal et les réserves sont perdues. Créez une nouvelle Pénurie. | ou | L’un des plus grands membres de la communauté commence à consommer des membres de la communauté plus petits. Pourquoi ? Comment la communauté réagit-elle ? |
 | 2 | Le plus âgé d’entre vous meurt. Quelle est la cause de sa mort ? | ou | Le plus âgé d’entre vous est gravement malade. Prendre soin de lui et chercher un remède nécessite l’aide de toute la communauté. Ne réduisez pas les dés de projet cette semaine. |
 | 3 | Quelqu’un commence à répondre à un besoin personnel urgent, quel qu’en soit le coût. Lancez un projet qui aliène certains membres de la communauté. | ou | Quelqu’un tente de prendre le contrôle de la communauté par la force. Réussit-il ? Pourquoi agit-il ainsi ? |
 | 4 | Un jeune membre s’en prend violemment à la communauté. Qui est-ce ? Qui la communauté tient-elle responsable de sa colère ? | ou | Un personnage ayant vécu avant l’occupation affirme que la nouvelle communauté est immorale. Lancez un projet reflétant son appel fondamentaliste. |
@@ -283,11 +309,11 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 | 2 | Quelqu’un jure de récupérer ce que les humains ont pris. Qui est-ce ? Lancez un projet pour refléter leurs efforts. | ou | Les vents froids de l’automne chassent vos ennemis. Retirez une force menaçante de la carte et de la région. |
 | 3 | Un groupe d’humains arrive, blessés et effrayés. Ils cherchent refuge et appartenance. Comment sont-ils accueillis ? | ou | Plusieurs petits membres de la communauté reviennent d'une sortie avec des rapports d’humains à proximité. |
 | 4 | Un nouveau personnage naît. Qui sont ses parents ? Quels espoirs représente-t-il pour la communauté ? | ou | Un petit personnage meurt d’une maladie. Qui s’en occupait ? Comment la communauté réagit-elle ? |
-| 5 | Un projet ne se déroule tout simplement pas comme prévu. Changez radicalement la nature de ce projet (ne modifiez pas le dé du projet). Lorsqu’il sera achevé, vous serez responsable de raconter à la communauté comment cela s’est passé. | ou | Quelque chose tourne mal et les réserves sont perdues. Ajoutez une nouvelle Pénurie. |
+| 5 | Un projet ne se déroule tout simplement pas comme prévu. Changez radicalement la nature de ce projet (ne modifiez pas le dé du projet). Lorsqu’il sera achevé, vous serez responsable de raconter à la communauté comment cela s’est passé. | ou | Quelque chose tourne mal et les réserves sont perdues. Créez une nouvelle Pénurie. |
 | 6 | Le plus fort d’entre vous meurt. Qu’est-ce qui a causé sa mort ? | ou | Le plus faible d’entre vous meurt. Qui est responsable de sa mort ? |
 | 7 | Une catastrophe naturelle frappe la région. Vous vous concentrez sur la mise en sécurité de tout le monde. Retirez une Abondance et un projet échoue. | ou | Une catastrophe naturelle frappe la région. Vous vous concentrez sur la protection de vos réserves et du fruit de votre travail à tout prix. Plusieurs personnes meurent en conséquence. |
 | 8 | Un nouveau système de coutumes apparaît dans la communauté, provoquant la controverse. Qui les pratique ? Comment sont-ils traités ? | ou | Quelqu’un est surpris en train de saboter les efforts de la communauté. Comment la communauté réagit-elle ? |
-| 9 | La récolte est arrivée et elle est abondante. Ajoutez une Abondance. | ou | Quelqu’un creuse et découvre un squelette très étrange. De quelle créature pourrait-il s’agir ? Existe-t-il d’autres comme elle ? |
+| 9 | La récolte est arrivée et elle est abondante. Créez une Abondance. | ou | Quelqu’un creuse et découvre un squelette très étrange. De quelle créature pourrait-il s’agir ? Existe-t-il d’autres comme elle ? |
 | 10 | Un personnage tente un ancien rituel qui se termine en tragédie. Ajoutez quelque chose à la carte pour représenter ce qui a été perdu. | ou | Un personnage sacrifie quelque chose de précieux lors d’un rituel ancien pour obtenir un pouvoir. Ajoutez quelque chose à la carte pour représenter ce qui a été gagné. |
 | 11 | Un chef de la communauté part après avoir arbitré un conflit particulièrement tendu. Qui part ? Qu’est-ce qui l’a poussé à partir ? | ou | L’un des membres les plus problématiques de la communauté est retrouvé mort. Comment son corps est-il traité ? Quelqu’un assume-t-il la responsabilité ? |
 | 12 | Une maladie se propage dans la communauté. Vous passez la semaine à mettre les malades en quarantaine et à les soigner. Les dés de projet ne sont pas réduits cette semaine. | ou | Une maladie se propage dans la communauté. Personne ne sait comment y faire face. Ajoutez « Santé et Fertilité » comme Pénurie. |
