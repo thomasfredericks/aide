@@ -74,6 +74,33 @@ Si vous obtenez **3 dés ou plus de même valeur**, interprétez librement le r�
 Si vous reliez une **chaîne de montagnes** ou un **corridor forestier** vous devez immédiatement générer son nom.
 
 
+
+#### Générer le nom d'une chaîne de montagnes
+
+| JET D6 ≤ D6 | Préfixe | Suffixe |
+|-----------|---------|---------|
+| 1 1 | SOMMET | ÉMERAUDE |
+| 1 2 | PROMONTOIRE | CREUX |
+| 1 3 | HAUTE | ESCARPÉE |
+| 1 4 | PICS | GELÉS |
+| 1 5 | CHAÎNE | DÉSOLÉE |
+| 1 6 | MONTAGNE | DE L'AIGLE |
+| 2 2 | ROC | VERTE |
+| 2 3 | ÉLÉVATION | BLANCHE |
+| 2 4 | FALAISE | DU GÉANT |
+| 2 5 | CRÊTE | COUCHÉ |
+| 2 6 | PLATEAU | DENTELÉ |
+| 3 3 | MONT | CENDRÉ |
+| 3 4 | ALPES | DU SOLEIL |
+| 3 5 | FER | JUMEAUX |
+| 3 6 | ÉLÉVATION | HURLANTE |
+| 4 4 | PIC | SILENCIEUSE |
+| 4 5 | SIERRA | DU DIAMANT |
+| 4 6 | FLÈCHE | DORMANTE |
+| 5 5 | MONT | ARDENT |
+| 5 6 | GRAND | HANTÉE |
+| 6 6 | COURONNE | ANCIENNE |
+
 #### Générer le nom d'un corridor forestier
 
 | Jet D6 ≤ D6 | Préfixe | Suffixe |
@@ -99,32 +126,6 @@ Si vous reliez une **chaîne de montagnes** ou un **corridor forestier** vous de
 | 5 5 | SAPINIÈRE | ABONDANTE |
 | 5 6 | BROUSSAILLES | SOMBRE |
 | 6 6 | SYLVE | ANCIENNE |
-
-#### GÉNÉRER LE NOM D'UNE CHAÎNE DE MONTAGNE
-
-| JET D6 ≤ D6 | Préfixe | Suffixe |
-|-----------|---------|---------|
-| 1 1 | SOMMET | ÉMERAUDE |
-| 1 2 | PROMONTOIRE | CREUX |
-| 1 3 | HAUTE | ESCARPÉE |
-| 1 4 | PICS | GELÉS |
-| 1 5 | CHAÎNE | DÉSOLÉE |
-| 1 6 | MONTAGNE | DE L'AIGLE |
-| 2 2 | ROC | VERTE |
-| 2 3 | ÉLÉVATION | BLANCHE |
-| 2 4 | FALAISE | DU GÉANT |
-| 2 5 | CRÊTE | COUCHÉ |
-| 2 6 | PLATEAU | DENTELÉ |
-| 3 3 | MONT | CENDRÉ |
-| 3 4 | ALPES | DU SOLEIL |
-| 3 5 | FER | JUMEAUX |
-| 3 6 | ÉLÉVATION | HURLANTE |
-| 4 4 | PIC | SILENCIEUSE |
-| 4 5 | SIERRA | DU DIAMANT |
-| 4 6 | FLÈCHE | DORMANTE |
-| 5 5 | MONT | ARDENT |
-| 5 6 | GRAND | HANTÉE |
-| 6 6 | COURONNE | ANCIENNE |
 
 ## Choisir une destination
 
