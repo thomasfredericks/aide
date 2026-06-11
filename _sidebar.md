@@ -163,6 +163,7 @@
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)
   - [simulation](/fabrication/simulation/)
 - *jeu*
+  - [annee_de_la_veille](/jeu/annee_de_la_veille/)
   - [chat_sur_ta_tete](/jeu/chat_sur_ta_tete/)
   - [wonder_wander](/jeu/wonder_wander/)
 - *logiciels*

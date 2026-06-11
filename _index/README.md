@@ -41,6 +41,8 @@
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
+* ANNÉE
+  * [L’année de la veille](../jeu/annee_de_la_veille/)
 * APPRENTISSAGE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * ARCADE
@@ -1151,6 +1153,8 @@
   * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
 * VCV RACK
   * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
+* VEILLE
+  * [L’année de la veille](../jeu/annee_de_la_veille/)
 * VIDÉO
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
