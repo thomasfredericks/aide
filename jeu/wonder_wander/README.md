@@ -73,7 +73,7 @@ Si vous obtenez **3 dés ou plus de même valeur**, interprétez librement le r�
 
 Si vous reliez une **chaîne de montagnes** ou un **corridor forestier** vous devez immédiatement générer son nom.
 
-### Pour générer le nom d'une forêt
+### Pour générer le nom d'un corridor forestier
 
 | Jet D6<D6 | Suffixe | Préfixe |
 |-----------|---------|---------|
@@ -99,7 +99,7 @@ Si vous reliez une **chaîne de montagnes** ou un **corridor forestier** vous de
 | 5 6 | Broussailles | sombre |
 | 6 6 | Sylve | ancienne |
 
-### Pour générer le nom d'une montange
+### Pour générer le nom d'une chaîne de montagne
 
 | Jet D6<D6 | Suffixe | Préfixe |
 |-----------|---------|---------|
@@ -142,6 +142,7 @@ Se référer au tableau qui correspond au type d'élément visité (🔺 communa
 Si le lieu est une 🔺 communauté, générer le nom à partir de trois lancés (`-` indique de sauter cette colonne) : 
 
 En premier, trouver le préfixe (`-` indique aucun préfixe) :
+
 | Jet D6<D6 | Préfixe | Première | Deuxième |
 |-----------|----------|-----------|-----------|
 | 1 1 | Val | en | dar |
