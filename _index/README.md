@@ -1160,7 +1160,7 @@
 
 ## W
 * Wander
-  * [Wonder Wander](../_hidden/wonder_wander/)
+  * [Wonder Wander](../jeu/wonder_wander/)
 * Warble
   * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
 * Websocket
@@ -1170,7 +1170,7 @@
 * Window
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * Wonder
-  * [Wonder Wander](../_hidden/wonder_wander/)
+  * [Wonder Wander](../jeu/wonder_wander/)
 
 ## Y
 * Yer

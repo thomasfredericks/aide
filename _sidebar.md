@@ -162,6 +162,7 @@
   - [simulation](/fabrication/simulation/)
 - *jeu*
   - [chat_sur_ta_tete](/jeu/chat_sur_ta_tete/)
+  - [wonder_wander](/jeu/wonder_wander/)
 - *logiciels*
   - [brave](/logiciels/brave/)
   - *davinci_resolve*
