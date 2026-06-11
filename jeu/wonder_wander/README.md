@@ -18,34 +18,6 @@ Pour jouer à Wonder Wander, vous aurez besoin du matériel suivant :
 - 6 dés.
 
 
-## Mise en place
-
-Complétez ensuite la phrase suivante :
-
-> La terre d’où je viens était... mais pourtant...
-
-Lancez un dé à six faces pour chaque colonne.
-
-| Jet | État | Descripteur |
-|------|------|-------------|
-| 1 | Avancée | Sauvage |
-| 2 | Florissante | Morose |
-| 3 | Dangereuse | Vaste |
-| 4 | Défavorisée | Isolée |
-| 5 | Contrôlée | Petite |
-| 6 | Épuisée | Magnifique |
-
-Déterminez ensuite pourquoi vous avez quitté cette terre.
-
-| Jet | Raison |
-|------|---------|
-| 1 | Mon collectif m’a confié cette expédition. |
-| 2 | Une catastrophe m’a forcé·e à abandonner mon foyer. |
-| 3 | J’ai économisé suffisamment de ressources pour réaliser mon rêve d’exploration. |
-| 4 | Je recherche une personne disparue dans cette nouvelle terre. |
-| 5 | Un rêve saisissant m’a poussé·e vers l’aventure. |
-| 6 | Je suis des indices laissés par un membre de ma famille aujourd’hui disparu. |
-
 ## La carte
 
 Vous serez souvent amené·e à compléter votre carte au cours de la partie, mais la manière précise de le faire n’est pas définie. C’est volontaire. L’art est une forme d’expression personnelle : que vous soyez un·e artiste accompli·e ou un·e amateur·rice de bonhommes bâtons, votre carte sera tout aussi merveilleuse et entièrement vôtre.
