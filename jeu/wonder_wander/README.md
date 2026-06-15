@@ -6,7 +6,7 @@
 
 Wonder Wander est un portant sur la création de mondes à travers l'apprentissage d'un territoire. 
 
-Ce jeu est une version extrêmement simplifié de [Cartograph - Atlas Edition de Brandon Lee](https://the-ravensridge-press.itch.io/cartograph-atlas-edition).
+Ce jeu est une version extrêmement simplifié de [Cartograph - Atlas Edition](https://the-ravensridge-press.itch.io/cartograph-atlas-edition) de Brandon Lee.
 
 Le cœur de ce jeu repose sur la création d’une carte, que vous enrichirez
 progressivement de détails. Vous arrivez sur une terre que vous ne connaissez pas avec le désir d'apprendre.
@@ -72,18 +72,18 @@ Lorsque vous lancez les dés sur la page de carte, leurs valeurs indiquent souve
 
 Les biomes ⛰️/🌳 représentent des environnements naturels qui définissent le paysage. Les montages ⛰️ bloquent les déplacements.
 
-Les communautés (🔴) et ❓ lieux particuliers marquent des endroits à visiter. Ce n’est que lorsque vous choisissez de visiter ces lieux que vous en apprendrez les détails. 
+Les communautés (⚫️) et lieux particuliers (?) marquent des endroits à visiter. Ce n’est que lorsque vous choisissez de visiter ces lieux que vous en apprendrez les détails. 
 
 Un à la fois, enlevez les dés de la carte à mesure que vous dessinez chaque élément.
 
-| Valeur | Élément à dessiner |
-|-----|--------------------------|
-| 1 | Rien : Étendre le littoral autour du dé, mais ne pas ajouter d'élément  |
-| 2 | ⛰️/🌳 Le biome le plus proche |
-| 3 | ⛰️ Une montagne (chaîne de montagnes si 2 dés ou plus) | 
-| 4 | 🔴 Étendre le littoral autour du dé et ajouter une communauté  |
-| 5 | 🌳 Une forêt (corridor forestier si 2 dés ou plus) |
-| 6 | ❓ Étendre le littoral autour du dé et ajouter un lieu particulier | 
+| Valeur | Élément à dessiner | Instructions |
+|-----|--------------------------|-----|
+| 1 | Rien | Étendre le littoral autour du dé, mais ne pas ajouter d'élément  |
+| 2 | ⛰️/🌳 | Le biome le plus proche |
+| 3 | ⛰️ | Une montagne (chaîne de montagnes si 2 dés ou plus) | 
+| 4 | ⚫️ | Étendre le littoral autour du dé et ajouter une communauté  |
+| 5 | 🌳 | Une forêt (corridor forestier si 2 dés ou plus) |
+| 6 | ? | Étendre le littoral autour du dé et ajouter un lieu particulier | 
 
 Si vous avez déjà établi une ligne côtière et qu’un dé de biome ⛰️/🌳 tombe au milieu de l’océan, vous pourriez l'ignorer. Optionnellement, il pourrait révéler un aspect intéressant de votre monde. Par exemple, vous pourriez dessiner un arbre solitaire géant qui émerge de la surface dans le cas d'une forêt dans l'eau. Ou un récif dans le cas d'une montagne dans l'eau.
 
@@ -192,14 +192,14 @@ Lorsque vous recevez les instructions de réduire en ruine, cela veut dire de ma
 
 ## Choisir une destination
 
-Choisissez n’importe quel communauté (🔴) ou lieu particulier (❓) sur votre carte. Tracez une ligne en pointillés reliant votre position précédente à ce nouvel emplacement. Vous ne pouvez pas traverser les montagnes ou les plans d'eau à moins d'indications contraires.
+Choisissez n’importe quel communauté (⚫️) ou lieu particulier (?) sur votre carte. Tracez une ligne en pointillés reliant votre position précédente à ce nouvel emplacement. Vous ne pouvez pas traverser les montagnes ou les plans d'eau à moins d'indications contraires.
 
 Si vous ne choisissez pas le lieu le plus proche, lancez un dé de moins au prochain tour.
 
 
-## Visiter une communauté (🔴)
+## Visiter une communauté (⚫️)
 
-Si le lieu est une communauté (🔴), générer le nom à partir de ce tableau :
+Si le lieu est une communauté (⚫️), générer le nom à partir de ce tableau :
 
 | D66↗ | Préfixe | Première | Deuxième |
 |-----------|----------|-----------|-----------|
@@ -240,20 +240,20 @@ Exemple :
 >
 > Nom obtenu : **CRÊTE EREWYN** 
 
-Optionnellement, vous pouvez rouler pour identifier la nation de cette communauté :
+**Optionnellement**, vous pouvez rouler pour identifier la nation de cette communauté et ajuster la marque de la communauté :
 
-| D6 | Nation |
-|-----------|
-| 1 | Des rebelles ou brigands sans nation |
-| 2 | La même nation que la communauté la plus proche |
-| 3 | La nation des étoiles |
-| 4 | La nation du feu |
-| 5 | La nation de l'air |
-| 6 | La nation végétale |
+| D6 | Nation | Marque suggérée |
+|-----------|-----------|-----------|
+| 1 | Des rebelles ou brigands sans nation | ⚫️ |
+| 2 | La même nation que la communauté la plus proche | - | 
+| 3 | La nation des étoiles | ⭐️ |
+| 4 | La nation du feu | ▲ |
+| 5 | La nation de l'air | 🌀 |
+| 6 | La nation de la terre | ⦿ |
 
-## Visiter un lieu particulier (❓)
+## Visiter un lieu particulier (?)
 
-Si le lieu visité est un lieu particulier (❓), consultez le tableau suivant.
+Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 
 | D66↗ | Description du lieu particulier |
 |-----|--------------------------|
@@ -262,19 +262,19 @@ Si le lieu visité est un lieu particulier (❓), consultez le tableau suivant.
 | 13 | Vous découvrez une énorme porte que vous n'arrivez pas à franchir. Dessinez la porte et lancez un dé de moins au prochain tour. |
 | 14 | Une structure abritant un signal lumineux. Quel avertissement ce signal transmet-il ? |
 | 15 | Vous apercevez un navire au large de la côte. |
-| 16 | Monstre marin le large de la côte. |
+| 16 | Vous apercevez un monstre marin le large de la côte. |
 | 22 | Le campement d'une petite armée. Réduisez en ruine la communauté la plus proche |
 | 23 | Dessiner une épave à proximité de la côte |
-| 24 | Une lente procession de personnes transportant quelque chose de gigantesque. Dessinez ce qu'ils transportent.|
+| 24 | Une lente procession de personnes transportant quelque chose de gigantesque. Dessinez ce qu'ils transportent ou trainent.|
 | 25 | Des collines verdoyantes s’étendent jusqu’à l’horizon |
 | 26 | Une modeste ferme entourée de champs cultivés. Dessinez la ferme. Les habitants vous parlent d'un lieu : roulez 1 dé de plus sur la carte seulement au prochain tour |
 | 33 | Un volcan entre en éruption. Dessinez le volcan. Les cendres emportées par le vent réduisent à la ruine la communauté la plus proche |
-| 34 | Une auberge au bord de la route accueillant des voyageurs fatigués. |
+| 34 | Une auberge au bord de la route accueillant des voyageurs fatigués. Lancez 1 dé de plus au prochain tour |
 | 35 | Une tente spectaculaire remplie de toutes sortes d’artistes. Dessinez la tente et la compétence qu’ils vous enseignent pendant votre séjour.|
 | 36 | Une haute tour de guet dominant le paysage. Dessinez avec un cône ce qui est observé |
 | 44 | Un ancien site lié à une arme d’une puissance redoutable. Dessinez l'arme. Dessiner plus loin la marque permanente qu'elle a laissée sur la nature.  |
 | 45 | Un trou très profond. Qui l'a creusé ? Où mène-t-il |
-| 46 | Marais avec des arbres pétrifiés s’entrelacent comme des membres noueux. |
+| 46 | Un marais avec des arbres pétrifiés s’entrelacent comme des membres noueux. |
 | 55 | Un poste frontalier animé et débordant d’activité. Dessiner un mur avec un passage entre deux biomes. Vous devez remplir des formulaires, lancez 1 dé de moins au prochain tour |
 | 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s'y baigne |
 | 66 | Un immense œuf dormant. Quelle créature est censée grandir à l’intérieur ? |
