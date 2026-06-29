@@ -50,8 +50,7 @@
     - [marges](/creation/visuel/marges/)
 - *culture*
   - [autorat](/culture/autorat/)
-  - *bibliographie*
-    - [momo](/culture/bibliographie/momo/)
+  - [biblio_momo](/culture/biblio_momo/)
   - *education*
     - [manifeste](/culture/education/manifeste/)
     - [sytemes_pensee](/culture/education/sytemes_pensee/)

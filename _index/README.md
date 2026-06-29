@@ -124,7 +124,7 @@
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
 * BIBLIOGRAPHIE
-  * [Bibliographie Montmorency](../culture/bibliographie/momo/)
+  * [Bibliographie Montmorency](../culture/biblio_momo/)
 * BIBLIOTHÈQUE LOGICIELLE
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
 * BL
@@ -249,6 +249,7 @@
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * CRÉATION
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
+  * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
 * CRÉER
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
 * CYCLING
@@ -320,7 +321,6 @@
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
-  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
 * EFFONDREMENT
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * ÉLECTRICITÉ
@@ -518,7 +518,6 @@
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * INSTRUMENT
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
 * INTÉGRÉ
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
@@ -596,6 +595,8 @@
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * LIVE-CODING
   * [Live-Coding](../logiciels/live-coding/)
+* LOGICIEL
+  * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
 * LOGO
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * LOOP
@@ -695,7 +696,7 @@
 * MONITOR/PLOTTER
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * MONTMORENCY
-  * [Bibliographie Montmorency](../culture/bibliographie/momo/)
+  * [Bibliographie Montmorency](../culture/biblio_momo/)
 * MOTION
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * MPU6886
@@ -780,6 +781,8 @@
   * [Unity : OSC UDP avec oscjackvs](../logiciels/unity/osc/oscjackvs/)
 * OSCMO-LIDAR
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
+* OUTIL
+  * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
 
 ## P
 * PARAMÈTRE
@@ -835,7 +838,7 @@
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
 * PLUGICIEL
-  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
+  * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
   * [Reaper : contrôle d'un plugiciel par OSC](../logiciels/reaper/plugiciel/osc/)
 * PLUGIN
   * [MIDI et plugins](../logiciels/reaper/plugiciel/midi/)
@@ -988,6 +991,7 @@
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
 * SONORE
   * [Conception sonore](../creation/audio/conception/)
+  * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * SORTIE
   * [Électronique : Entrées et sorties](../fabrication/electronique/circuits/entrees_sorties/)
