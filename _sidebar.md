@@ -7,7 +7,7 @@
     - [conception](/creation/audio/conception/)
     - [esthetique](/creation/audio/esthetique/)
     - [galerie](/creation/audio/galerie/)
-    - [plugins](/creation/audio/plugins/)
+    - [outils](/creation/audio/outils/)
   - *audiovisuel*
     - [galerie](/creation/audiovisuel/galerie/)
     - [processus](/creation/audiovisuel/processus/)
@@ -234,9 +234,9 @@
         - [general](/logiciels/reaper/osc/defaut/general/)
         - [piste](/logiciels/reaper/osc/defaut/piste/)
       - *exemples*
-    - *plugin*
-      - [midi](/logiciels/reaper/plugin/midi/)
-      - [osc](/logiciels/reaper/plugin/osc/)
+    - *plugiciel*
+      - [midi](/logiciels/reaper/plugiciel/midi/)
+      - [osc](/logiciels/reaper/plugiciel/osc/)
     - [virtual_midi_keyboard](/logiciels/reaper/virtual_midi_keyboard/)
   - [rpi](/logiciels/rpi/)
   - *threejs*

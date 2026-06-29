@@ -4,16 +4,9 @@
 
 ## Histoire
 
+
 - [The short history of 150 years of music technology - YouTube](https://www.youtube.com/watch?app=desktop&v=jN_sBYqRxKw)
 
-## Outils
-
-- [TONEDESIGNER](https://watusi.cloud/tonedesigner/)
-- [Simple Audio Editor](https://little-scale.github.io/simple-editor/)
-- [CataRT | Real-Time Corpus-Based Concatenative Resynthesis](https://ircam-ismm.github.io/max-msp/catart.html#videos)
-- [EXC!TE SNARE DRUM – CHAIR](https://www.chair.audio/product/excite_snare_drum/)
-    - [CHAIR](https://github.com/chairaudio)
-- [Search Results for “tickle” – CHAIR](https://www.chair.audio/?s=tickle)
 
 ## Acousmatique
 

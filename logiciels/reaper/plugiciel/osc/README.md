@@ -1,20 +1,20 @@
 
-# Reaper : contrôle d'un plugin par OSC
+# Reaper : contrôle d'un plugiciel par OSC
 
 ## Préalable(s)
 
 - [Activation de l'OSC dans Reaper](../../osc/activation/)
 - Utilisation du [Virtual MIDI Keyboard](../../virtual_midi_keyboard/)
-- Configuration [MIDI d'un plugin](../midi/)
+- Configuration [MIDI d'un plugiciel](../midi/)
 
-### Pour contrôler un plugin par OSC, il faut passer par le Virtual MIDI Keyboard
+### Pour contrôler un plugiciel par OSC, il faut passer par le Virtual MIDI Keyboard
 
 ```mermaid
 graph LR
     OSC[OSC UDP] --> Control[OSC Control Panel]
     subgraph Reaper
     Control --> VKB[Virtual MIDI Keyboard]
-    VKB --> Plugin
+    VKB --> Plugiciel
     end
 ```
 
@@ -27,7 +27,7 @@ graph LR
     OSC[OSC UDP] --> Control[OSC Control Panel]
     subgraph Reaper
     Control --> VKB[Virtual MIDI Keyboard]
-    VKB -->|MIDI Note| Plugin
+    VKB -->|MIDI Note| Plugiciel
     end
 ```
 

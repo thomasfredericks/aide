@@ -42,7 +42,7 @@
   * [Tutoriel: OscBridge, M5 Angle et le bouton](../_hidden/exemples/angle-button-oscbridge.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * ANNÉE
-  * [Jeu : L’année de la veille](../jeu/annee_de_la_veille/)
+  * [Jeu L’année de la veille](../jeu/annee_de_la_veille/)
 * APPRENTISSAGE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * ARCADE
@@ -161,7 +161,7 @@
 * CARTE
   * [Modèles de cartes](../fabrication/arduino/cartes/)
 * CAT
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CAUSÉ
   * [Les délires causés par les GML](../culture/ia/delires/)
 * CAUSÉE
@@ -172,7 +172,7 @@
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Unity : changement](../logiciels/unity/traitement/changement/)
 * CHAT
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CIBLE
   * [Public cible](../creation/interactivite/public/)
 * CIRCUIT
@@ -227,7 +227,7 @@
 * CONTRAINTE
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * CONTRÔLE
-  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [Reaper : contrôle d'un plugiciel par OSC](../logiciels/reaper/plugiciel/osc/)
 * CONTRÔLÉE
   * [TD : Variation contrôlée](../logiciels/touchdesigner/traitement/variation/)
 * CONTRÔLER
@@ -320,7 +320,7 @@
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Effets dans Davinci Resolve](../logiciels/davinci_resolve/effets/)
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
-  * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
+  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
 * EFFONDREMENT
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * ÉLECTRICITÉ
@@ -474,7 +474,7 @@
 * HAUT-PARLEUR
   * [Haut-parleurs Genelec](../materiel/genelec/)
 * HEAD
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * HIÉRARCHIE
   * [IU : Hiérarchie visuelle](../creation/visuel/iu/hierarchie/)
 * HISTOIRE
@@ -518,7 +518,7 @@
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * INSTRUMENT
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
-  * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
+  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
 * INTÉGRÉ
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
@@ -556,9 +556,9 @@
 ## J
 * JEU
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-  * [Jeu : L’année de la veille](../jeu/annee_de_la_veille/)
-  * [Jeu : Wonder Wander](../jeu/wonder_wander/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu L’année de la veille](../jeu/annee_de_la_veille/)
+  * [Jeu Wonder Wander](../jeu/wonder_wander/)
 
 ## K
 * KEY
@@ -675,7 +675,7 @@
 * MIDI
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
-  * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
+  * [MIDI et plugins](../logiciels/reaper/plugiciel/midi/)
 * MILLI
   * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
   * [millis( )](../fabrication/arduino/millis/)
@@ -760,7 +760,7 @@
   * [Reaper OSC default_pattern : général](../logiciels/reaper/osc/defaut/general/)
   * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
-  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [Reaper : contrôle d'un plugiciel par OSC](../logiciels/reaper/plugiciel/osc/)
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
@@ -834,10 +834,11 @@
 * PLUGDATA
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
+* PLUGICIEL
+  * [Plugiciels d'effets et d'instruments](../creation/audio/outils/)
+  * [Reaper : contrôle d'un plugiciel par OSC](../logiciels/reaper/plugiciel/osc/)
 * PLUGIN
-  * [MIDI et plugins](../logiciels/reaper/plugin/midi/)
-  * [Plugins d'effets et d'instruments](../creation/audio/plugins/)
-  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [MIDI et plugins](../logiciels/reaper/plugiciel/midi/)
 * POE
   * [Atom POE](../fabrication/m5stack/atom-poe/)
 * POTENTIOMÈTRE
@@ -912,7 +913,7 @@
   * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
   * [Reaper OSC default_pattern : Virtual MIDI Keyboard](../logiciels/reaper/osc/defaut/VMK/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
-  * [Reaper : contrôle d'un plugin par OSC](../logiciels/reaper/plugin/osc/)
+  * [Reaper : contrôle d'un plugiciel par OSC](../logiciels/reaper/plugiciel/osc/)
   * [Reaper : Échantillonneur](../logiciels/reaper/echantillonneur/)
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
@@ -1034,7 +1035,7 @@
 * TEST
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * TÊTE
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * THREE.JS
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * TOF
@@ -1156,7 +1157,7 @@
 * VCV RACK
   * [VCV Rack : OSC UDP](../logiciels/vcv_rack/osc/)
 * VEILLE
-  * [Jeu : L’année de la veille](../jeu/annee_de_la_veille/)
+  * [Jeu L’année de la veille](../jeu/annee_de_la_veille/)
 * VIDÉO
   * [Surveillance vidéo (vidéosurveillance)](../culture/surveillance/video/)
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
@@ -1174,7 +1175,7 @@
 
 ## W
 * WANDER
-  * [Jeu : Wonder Wander](../jeu/wonder_wander/)
+  * [Jeu Wonder Wander](../jeu/wonder_wander/)
 * WARBLE
   * [«Tape Warble»](../logiciels/vcv_rack/patchs/tape_warble/)
 * WEBSOCKET
@@ -1184,8 +1185,8 @@
 * WINDOW
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * WONDER
-  * [Jeu : Wonder Wander](../jeu/wonder_wander/)
+  * [Jeu Wonder Wander](../jeu/wonder_wander/)
 
 ## Y
 * YER
-  * [Jeu : Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+  * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
