@@ -28,5 +28,6 @@ Cette liste non exhaustive présente des outils de création sonore recommandés
 - [EXC!TE SNARE DRUM – CHAIR](https://www.chair.audio/product/excite_snare_drum/)
     - [CHAIR](https://github.com/chairaudio)
 - [“tickle” – CHAIR](https://www.chair.audio/?s=tickle)
+- [Soundplant: computer keyboard sample triggering for Windows & Mac](https://soundplant.org/)
 
 
