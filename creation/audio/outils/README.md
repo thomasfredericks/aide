@@ -23,6 +23,7 @@ Cette liste non exhaustive présente des outils de création sonore recommandés
 
 - **Modélisation physique** : [RipplerX](https://github.com/tiagolr/ripplerx)
 - **Modélisation de résonateurs** : [odoare/Mechanodd](https://github.com/odoare/MechanOdd)
+- [VRAC - Feed any source and generate Kicks, snares, Hi-hats](https://beatsurfing.com/audio-plugins/vrac/)
 - [Simple Audio Editor](https://little-scale.github.io/simple-editor/)
 - [CataRT | Real-Time Corpus-Based Concatenative Resynthesis](https://ircam-ismm.github.io/max-msp/catart.html#videos)
 - [EXC!TE SNARE DRUM – CHAIR](https://www.chair.audio/product/excite_snare_drum/)
