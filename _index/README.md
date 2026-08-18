@@ -527,6 +527,8 @@
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * INTELLIGENCE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
+* INTERACTION
+  * [Types d'interaction](../creation/interactivite/types/)
 * INTERACTIVE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
   * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
@@ -1114,6 +1116,7 @@
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * TYPE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
+  * [Types d'interaction](../creation/interactivite/types/)
 * TYPOGRAPHIE
   * [IU : Typographie](../creation/visuel/iu/typographie/)
   * [Typographie fait d'objets](../creation/visuel/ateliers/typoobjekto/)

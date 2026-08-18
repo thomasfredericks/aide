@@ -32,6 +32,7 @@
     - [public](/creation/interactivite/public/)
     - [qualites](/creation/interactivite/qualites/)
     - [scenarisation](/creation/interactivite/scenarisation/)
+    - [types](/creation/interactivite/types/)
   - [pecha_kucha](/creation/pecha_kucha/)
   - [production](/creation/production/)
     - [faisabilite](/creation/production/faisabilite/)

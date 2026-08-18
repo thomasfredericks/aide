@@ -1,0 +1,21 @@
+#  Types d'interaction
+
+Ce tableau présente différentes formes d’expériences multimédias interactives, **classées selon la manière dont le public entre en relation avec le contenu** et non selon la technologie. 
+
+L’interaction peut passer par le corps — mouvements, gestes, présence détectée par une caméra ou un Lidar — ou par la manipulation d’objets physiques conçus comme des interfaces.
+D’autres formes mettent davantage l’accent sur la dimension sociale et participative de l’expérience. Le téléphone peut devenir une télécommande ou une porte d’accès au contenu, tandis qu’un mur, un sol ou un espace entier peut réagir aux actions des visiteurs. L’expérience peut aussi être conçue pour être collective, permettre aux participants de laisser une trace qui s’intègre à l’œuvre, ou encore connecter des personnes présentes dans différents lieux. 
+
+Cette classification permet donc de réfléchir à l’interactivité en fonction de ce que le visiteur fait, de ce que l’espace lui renvoie et de la place qu’il occupe dans l’expérience.
+
+| Type                           | Exemples                                                    |
+| ------------------------------ | ----------------------------------------------------------- |
+| **Entrer dans un autre monde** | VR, projection immersive, environnement 360°                |
+| **Augmenter le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
+| **Se voir transformé**         | miroir magique, silhouette interactive                      |
+| **Agir avec son corps**        | Lidar, caméra, Kinect                         |
+| **Agir avec un objet**         | objets augmentés, interfaces tangibles                      |
+| **Utiliser son téléphone**     | télé-interface, QR/NFC, web app                             |
+| **Transformer l'espace**       | mur interactif, sol interactif, installation réactive       |
+| **Créer à plusieurs**          | œuvre collective, vote, composition audiovisuelle           |
+| **Laisser une trace**          | mémoire de l'installation, contenu généré par les visiteurs |
+| **Être connecté à distance**   | présence virtuelle, intervention à distance                 |
