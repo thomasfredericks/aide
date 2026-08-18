@@ -116,6 +116,8 @@
 * BANDE
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
+* BANQUE
+  * [Banque de mots pour l'esthétique](../creation/esthetique/banque/)
 * BASCULEMENT
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * BASCULER
@@ -359,6 +361,7 @@
 * ESPACER
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
 * ESTHÉTIQUE
+  * [Banque de mots pour l'esthétique](../creation/esthetique/banque/)
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * ÉTABLIR
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
@@ -699,6 +702,8 @@
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * MONTMORENCY
   * [Bibliographie Montmorency](../culture/biblio_momo/)
+* MOT
+  * [Banque de mots pour l'esthétique](../creation/esthetique/banque/)
 * MOTION
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
 * MPU6886

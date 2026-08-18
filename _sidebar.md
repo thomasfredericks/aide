@@ -11,6 +11,8 @@
   - *audiovisuel*
     - [galerie](/creation/audiovisuel/galerie/)
     - [processus](/creation/audiovisuel/processus/)
+  - *esthetique*
+    - [banque](/creation/esthetique/banque/)
   - [experience](/creation/experience/)
   - [gestalt](/creation/gestalt/)
   - *interactivite*
