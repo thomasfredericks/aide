@@ -16,6 +16,7 @@ Le cinéma consiste à organiser des images et des sons dans le temps afin de pr
 * L’utilisateur observe.
 * Il ressent des émotions guidées.
 * L’expérience se termine dans un temps défini.
+* L'œuvre se traverse par le temps.
 
 ### L’art plastique
 
@@ -25,6 +26,7 @@ L’art plastique consiste à donner forme à une présence dans l’espace — 
 * L’utilisateur contemple.
 * Il interprète l’œuvre à partir de sa propre sensibilité.
 * L’expérience n’a pas de durée prescrite.
+* L'œuvre se traverse par l'espace.
 
 ### L’expérience multimédia interactive
 
@@ -38,6 +40,7 @@ L’expérience multimédia interactive nécessite un engagement actif. Elle per
 * L’utilisateur peut expérimenter, échouer et recommencer.
 * L’expérience peut évoluer en fonction des choix et des actions de l’utilisateur.
 * L’utilisateur développe progressivement une compréhension du système et, lorsque le dispositif le permet, des compétences.
+* L'œuvre se traverse par les actions.
 
 Le support du projet en tant que tel n’est pas l’expérience. Le jeu vidéo, l’installation ou le dispositif interactif constitue un vecteur : il rend possible une expérience dès lors qu’une personne entre en interaction avec lui. L’expérience elle-même est intangible, subjective et changeante. Elle n’existe véritablement que dans ce qui est vécu par chaque utilisateur individuellement.
 

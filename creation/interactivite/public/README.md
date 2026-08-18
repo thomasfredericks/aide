@@ -1,23 +1,28 @@
 # Public cible
 
-## Taxonomie des joueurs de Richard Bartle
+Le public cible est le groupe de personnes pour lequel une expérience multimédia est conçue. Il ne désigne pas seulement les personnes susceptibles d’utiliser ou de voir le projet, mais les personnes dont les caractéristiques, les besoins, les connaissances, les attentes et les motivations sont prises en compte dans la conception de l’expérience.
 
-![Graphique de la taxonomie des joueurs de Richard Bartle](./joueurs_richard_bartle.drawio.png)
+Le public cible permet au concepteur de déterminer **quelle expérience il souhaite faire vivre, à qui il souhaite la faire vivre et dans quelles conditions cette expérience doit être vécue**.
 
-### Axe horizontal : Joueurs ⟷ Monde
+* Il définit à qui l’expérience s’adresse.
+* Il influence les choix de contenu, de langage, d’esthétique et d’interaction.
+* Il permet d’adapter le niveau de difficulté et de familiarité avec le média.
+* Il influence les émotions, les comportements ou les apprentissages que l’expérience cherche à susciter.
+* Il permet d’évaluer la qualité de l’expérience en fonction des personnes pour lesquelles elle a été conçue.
+
+Le public cible n’est donc pas nécessairement l’ensemble des personnes qui peuvent accéder au projet. Il représente plutôt le groupe de référence à partir duquel le concepteur prend ses décisions et évalue si l’expérience répond à son intention.
 
 
-| Axe | **Gauche : Joueurs** | **Droite : Monde** |
-| --- | --- | --- |
-| Profil |  L’intérêt est centré sur les autres joueurs. Le joueur cherche l’affrontement, la coopération ou l’interaction sociale. | L’intérêt est centré sur le monde virtuel lui-même. Le joueur veut découvrir, construire, progresser ou maîtriser l’univers du jeu. | 
+## Taxonomie de Richard Bartle
 
-### Axe vertical : Agir ⟷ Interagir
+![Graphique de la taxonomie des types de joueurs de Richard Bartle](./joueurs_richard_bartle.drawio.png)
 
-
-| Axe | Profil |
-| --- | --- | 
-| **Haut : Agir** | Le joueur préfère agir sur son environnement ou sur les autres (imposer, conquérir, dominer, accomplir). C’est une posture active, orientée vers l’impact direct. Le joueur veut changer, transformer, contrôler |
-| **Bas : Interagir** | Le joueur préfère interagir avec les autres ou le monde (dialoguer, échanger, explorer, comprendre). C’est une posture relationnelle, orientée vers l’échange ou la compréhension. Le joueur cherche à communiquer, collaborer, découvrir plutôt qu’imposer| 
+- Axe horizontal : Joueurs ⟷ Monde
+    - Joueurs : L’intérêt est centré sur les autres joueurs. Le joueur cherche l’affrontement, la coopération ou l’interaction sociale.
+    - Monde : L’intérêt est centré sur le monde virtuel lui-même. Le joueur veut découvrir, construire, progresser ou maîtriser l’univers du jeu.
+- Axe vertical : Agir ⟷ Interagir
+    - Agir : Le joueur préfère agir sur son environnement ou sur les autres (imposer, conquérir, dominer, accomplir). C’est une posture active, orientée vers l’impact direct. Le joueur veut changer, transformer, contrôler.
+    - Le joueur préfère interagir avec les autres ou le monde (dialoguer, échanger, explorer, comprendre). C’est une posture relationnelle, orientée vers l’échange ou la compréhension. Le joueur cherche à communiquer, collaborer, découvrir plutôt qu’imposer
 
 ### 4 grands profils
 

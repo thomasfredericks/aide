@@ -63,11 +63,11 @@ Pour Marcel Duchamp, « c'est le regardeur qui fait le tableau ».​ [Rotary Gl
 
 Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Morellet, Francisco Sobrino, Joël Stein, Yvaral se sont réunis dans un collectif, le Groupe de recherche d'art visuel (GRAV) avec pour but de permettre à tous de pouvoir approcher leur art. Ils distribuent leur manifeste lors de la 3e biennale de Paris en octobre 1963 sous forme de tract s’intitulant « Assez de mystifications » et contenant les lignes suivantes :  
 
-> « Nous voulons intéresser le spectateur, le sortir des inhibitions, le décontracter.  
+> Nous voulons intéresser le spectateur, le sortir des inhibitions, le décontracter.  
 > Nous voulons le faire participer.  
 > Nous voulons le placer dans une situation qu'il déclenche et qu'il transforme.  
 > Nous voulons qu'il s'oriente vers une interaction avec d'autres spectateurs.  
-> Nous voulons développer chez le spectateur une forte capacité de perception et d'action ».  
+> Nous voulons développer chez le spectateur une forte capacité de perception et d'action.  
 
 Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries/c_frs/mordoch/grav/grav.html).
 
@@ -78,7 +78,7 @@ Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries
 
 ## Myron Kreuger (1975,1989)
 
-> « L’esthétique de l’image et du son est secondaire. La réactivité est le médium principal. »​ - Myron Krueger
+> L’esthétique de l’image et du son est secondaire. La réactivité est le médium principal.
 
 ![](./videoplace.png)
 
