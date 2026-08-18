@@ -30,6 +30,8 @@ Un **jeu interactif** est un jeu dans lequel un système automatisé est respons
 - [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **ENJEUX-SOCIAUX**
 - [Slay the Spire: The Board Game | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game) Une adaptation extrêmement fidèle du jeu vidéo [Slay the Spire](https://www.megacrit.com/games/) **MATÉRIALISATION**
 
+
+
 ## Expériences de type jeu interactif
 
 - [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation) **CORPORALITÉ CONSÉQUENCES**

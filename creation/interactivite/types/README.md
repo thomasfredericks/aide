@@ -11,10 +11,10 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 | ------------------------------ | ----------------------------------------------------------- |
 | **Entrer dans un autre monde** | VR, projection immersive, environnement 360°                |
 | **Augmenter le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
-| **Se voir transformé**         | miroir magique, silhouette interactive                      |
-| **Agir avec son corps**        | Lidar, caméra, Kinect                         |
-| **Agir avec un objet**         | objets augmentés, interfaces tangibles                      |
-| **Utiliser son téléphone**     | télé-interface, QR/NFC, web app                             |
+| **Se voir transformé.e**         | miroir magique, silhouette interactive                      |
+| **Agir avec son corps**        | Lidar, caméra, Kinect                        |
+| **Agir sur un objet**          | objets augmentés, interfaces tangibles                      |
+| **Agir avec un objet**         | télé-interface (web app), QR/NFC, Wiimote                           |
 | **Transformer l'espace**       | mur interactif, sol interactif, installation réactive       |
 | **Créer à plusieurs**          | œuvre collective, vote, composition audiovisuelle           |
 | **Laisser une trace**          | mémoire de l'installation, contenu généré par les visiteurs |
