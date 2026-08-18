@@ -9,7 +9,7 @@ Une direction esthétique peut être décrite selon plusieurs dimensions complé
 * **L'émotion** : ce que l'expérience fait ressentir.
 * **Le timbre** : la qualité sensible et perceptuelle de l'expérience.
 * **La structure** : la manière dont l'expérience se déploie et évolue.
-* **La référence** : les univers, styles et imaginaires évoqués par l'expérience.
+* **Les références** : les univers, styles et imaginaires évoqués par l'expérience.
 
 La banque de mots suivante propose des qualificatifs qui peuvent servir à préciser chacune de ces dimensions. Il ne s'agit pas de choisir les mots qui semblent simplement « beaux » ou intéressants, mais de sélectionner ceux qui correspondent à **l'expérience que l'on souhaite faire vivre**.
 
@@ -22,14 +22,14 @@ On peut préciser la direction recherchée :
 - **Émotion :** anxiogène, mélancolique
 - **Timbre :** sombre, froid, diffus
 - **Structure :** lente, progressive, saccadée
-- **Référence :** naturaliste, mythologique
+- **Références :** naturaliste, mythologique
 
 Cette description devient alors un outil de conception. Elle permet de maintenir une cohérence entre les différents éléments du projet et de communiquer plus clairement une intention esthétique à une équipe ou à un collaborateur.
 
 **L'objectif n'est donc pas de trouver le mot parfait, mais de construire un vocabulaire commun permettant de transformer une intention abstraite en choix de conception concrets.**
 
 
-| Émotion | Timbre | Structure | Référence |
+| Émotion | Timbre | Structure | Références |
 |---|---|---|---|
 | joyeux ou triste | scintillant ou sombre | musical ou chaotique | mécanique ou organique |
 | mélancolique ou euphorique | granuleux ou soyeux | harmonieux ou dissonant | cartoonesque ou crédible |
