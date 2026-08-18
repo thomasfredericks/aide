@@ -373,7 +373,8 @@
 * EXÉCUTION
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * EXPÉRIENCE
-  * [Expériences](../creation/interactivite/experience/)
+  * [Expérience multimédia](../creation/experience/)
+  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
 * EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * EXTOSC
@@ -525,6 +526,7 @@
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * INTERACTIVE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
+  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
 * INTERACTIVE​
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * INTERACTIVITÉ
@@ -702,6 +704,7 @@
 * MPU6886
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 * MULTIMÉDIA
+  * [Expérience multimédia](../creation/experience/)
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * MULTIMÈTRE
   * [Multimètre](../fabrication/electronique/multimetre/)
@@ -903,6 +906,8 @@
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
 * QUALIFIER
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
+* QUALITÉ
+  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
 
 ## R
 * RALENTIR

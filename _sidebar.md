@@ -11,6 +11,7 @@
   - *audiovisuel*
     - [galerie](/creation/audiovisuel/galerie/)
     - [processus](/creation/audiovisuel/processus/)
+  - [experience](/creation/experience/)
   - [gestalt](/creation/gestalt/)
   - *interactivite*
     - [analyse](/creation/interactivite/analyse/)
@@ -24,10 +25,10 @@
     - [design](/creation/interactivite/design/)
     - [ecoute](/creation/interactivite/ecoute/)
     - [emergence](/creation/interactivite/emergence/)
-    - [experience](/creation/interactivite/experience/)
     - [galerie](/creation/interactivite/galerie/)
     - [histoire](/creation/interactivite/histoire/)
     - [public](/creation/interactivite/public/)
+    - [qualites](/creation/interactivite/qualites/)
     - [scenarisation](/creation/interactivite/scenarisation/)
   - [pecha_kucha](/creation/pecha_kucha/)
   - [production](/creation/production/)
