@@ -23,6 +23,8 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## Entrer dans un autre monde
 
+- [Half-Life: Alyx](https://www.half-life.com/en/alyx)
+
 ## Augmenter le monde réel
 
 - [Mécaniques Discursives](https://www.mecaniques-discursives.com/)
@@ -110,7 +112,9 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
 
 
+## Études sur l'interface utilisateur
 
+- [10k Drum Machines](https://10kdrummachines.com/)
 
 ## Génératif
 
@@ -127,11 +131,34 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [alien language generator](https://codepen.io/p5art/details/XKWyob)
 - [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
 
-## Varia
 
-- [10k Drum Machines](https://10kdrummachines.com/)
+
+
+## Artistes montréalais du numérique
+
+- [Alice Jarry](https://alicejarry.com/)
+- [Allison Moore](https://www.allisonmoore.net/home) **PROJECTION_ARCHITECTURALE**
+- [Cinzia Campolese](https://www.cinziac.net)
+- [Daily tous les jours](https://www.dailytouslesjours.com/fr/projets)
+- [Erin Gee](https://eringee.net/)
+- [Gentilhomme](http://gentilhomme.ca/fr)
+- [Jonathan Villeneuve ](http://jonathan-villeneuve.com/)
+- [La boite interactive – Stratégies multimédia créatives](http://laboiteinteractive.com/)
+- [La Camaraderie – Design d’expériences participatives et narratives](https://www.lacamaraderie.com)
+- [Lukas Truniger – synthetic natures & lifelike infrastructures](https://lukastruniger.net/?utm_source=ig&utm_medium=social&utm_content=link_in_bio)
+- [Marie Brassard and Infrarouge company performances](https://infrarouge.org/?locale=fr)
+- [Nicolas Bernier – Laboratoire son / matière](https://www.son-matiere.org)
+- [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
+- [Projet EVA – Art numérique](http://projet-eva.org/)
+- [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
 - [Projets – Adrien M & Claire B](https://www.am-cb.net/projets)
-- [Les chaînes de Markov | Vithèque](https://vitheque.com/fr/oeuvres/les-chaines-de-markov)
+- [Andrée-Anne Roussel – arts numériques & cinéma](https://andreeanneroussel.com/)
+
+## Artistes du numérique
+
+- [Ksawery Komputery](https://ksawerykomputery.com/works/)
+    - [We Are One ← Ksawery Komputery](https://ksawerykomputery.com/works/we-are-one#:~:text=Generative%20Sound%20System&text=Socials)
+- [Home | Rendah Mag](https://rendahmag.com/)
 
 ## Ouvrages
 
@@ -159,29 +186,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - *Aide-mémoire GIT*. [Lien](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
 - Lostritto, Carl. (2019). *Computational Drawing: From Foundational Exercises to Theories of Representation*. Novato: Applied Research & Design
 
-## Artistes montréalais du numérique
 
-- [Alice Jarry](https://alicejarry.com/)
-- [Allison Moore](https://www.allisonmoore.net/home) **PROJECTION_ARCHITECTURALE**
-- [Cinzia Campolese](https://www.cinziac.net)
-- [Daily tous les jours](https://www.dailytouslesjours.com/fr/projets)
-- [Erin Gee](https://eringee.net/)
-- [Gentilhomme](http://gentilhomme.ca/fr)
-- [Jonathan Villeneuve ](http://jonathan-villeneuve.com/)
-- [La boite interactive – Stratégies multimédia créatives](http://laboiteinteractive.com/)
-- [La Camaraderie – Design d’expériences participatives et narratives](https://www.lacamaraderie.com)
-- [Lukas Truniger – synthetic natures & lifelike infrastructures](https://lukastruniger.net/?utm_source=ig&utm_medium=social&utm_content=link_in_bio)
-- [Marie Brassard and Infrarouge company performances](https://infrarouge.org/?locale=fr)
-- [Nicolas Bernier – Laboratoire son / matière](https://www.son-matiere.org)
-- [Porte Parole – Théâtre documentaire](https://porteparole.org/fr/)
-- [Projet EVA – Art numérique](http://projet-eva.org/)
-- [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
-
-## Artistes du numérique
-
-- [Ksawery Komputery](https://ksawerykomputery.com/works/)
-    - [We Are One ← Ksawery Komputery](https://ksawerykomputery.com/works/we-are-one#:~:text=Generative%20Sound%20System&text=Socials)
-- [Home | Rendah Mag](https://rendahmag.com/)
 
 ## Voir et écouter le monde
 
