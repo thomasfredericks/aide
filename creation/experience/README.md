@@ -30,6 +30,8 @@ L’art plastique consiste à donner forme à une présence dans l’espace — 
 
 ### L’expérience multimédia interactive
 
+Une **expérience multimédia interactive** est une œuvre qui intègre différents types de médias et propose une progression à suivre. Cette progression peut être très courte, possiblement seulement deux étapes, mais elle nécessite toutefois un déclencheur externe.
+
 L’expérience multimédia interactive consiste à concevoir un système avec lequel une personne peut agir, faire des choix et observer les conséquences de ses actions. Elle est suffisamment structurée pour orienter l’action et susciter l’engagement, tout en laissant à l’utilisateur une marge de décision et d’exploration. Contrairement au cinéma et à l’art plastique, l’expérience interactive ne se contente pas d’être observée ou contemplée : elle se construit à travers l’action de l’utilisateur et la réponse du système.
 
 L’expérience multimédia interactive nécessite un engagement actif. Elle permet à l’utilisateur d’influencer le déroulement de l’expérience et, dans certains cas, de développer des compétences.
@@ -39,15 +41,10 @@ L’expérience multimédia interactive nécessite un engagement actif. Elle per
 * Le système réagit aux actions de l’utilisateur.
 * L’utilisateur peut expérimenter, échouer et recommencer.
 * L’expérience peut évoluer en fonction des choix et des actions de l’utilisateur.
-* L’utilisateur développe progressivement une compréhension du système et, lorsque le dispositif le permet, des compétences.
+* L’utilisateur développe progressivement une compréhension du système.
 * L'œuvre se traverse par les actions.
+* L'œuvre se traverse par l'espace et par le temps.
 
-Le support du projet en tant que tel n’est pas l’expérience. Le jeu vidéo, l’installation ou le dispositif interactif constitue un vecteur : il rend possible une expérience dès lors qu’une personne entre en interaction avec lui. L’expérience elle-même est intangible, subjective et changeante. Elle n’existe véritablement que dans ce qui est vécu par chaque utilisateur individuellement.
-
-Ainsi, le projet n’est pas la finalité de la conception, mais le moyen par lequel une expérience peut être créée. Le rôle du concepteur consiste donc à concevoir les conditions qui permettront à cette expérience d’exister et d’orienter ce que l’utilisateur pourra vivre. La qualité d’un projet interactif se mesure ainsi moins à son support qu’à la qualité de l’expérience qu’il produit.
-
-
-Pour en savoir plus : *p. 45 de L’art du Game Design* de Jesse Schell, 2020.
 
 ### Qualités d’une bonne expérience interactive
 
