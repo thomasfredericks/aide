@@ -71,11 +71,11 @@ Créer un fichier `platformio.ini`. Y inclure cette section au début :
 src_dir = .
 ```
 
-Ensuite, il faut ajouter la configuration du bon modèle de plaquette :
-- Suivre ces instructions de [configuration](/fabrication/arduino/carte/nano/configuration/) pour une **plaquette Arduino Nano**
+Ensuite, il faut ajouter la configuration du bon modèle de carte :
+- Suivre ces instructions de [configuration](/fabrication/arduino/carte/nano/configuration/) pour une **carte Arduino Nano**
 
 > [!WARNING]
-> Ne pas oublier de suivre la configuration du modèle de plaquette !
+> Ne pas oublier de suivre la configuration du modèle de carte !
 
 ## 4. Git commit
 
