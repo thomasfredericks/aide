@@ -1,10 +1,10 @@
 # Plaquette Nano : Configuration
 
-## PlatformIO
+## Configuration pour PlatformIO
 
 ### 0. Préalable(s)
 
-- Suivre les instructions pour [démarrer un nouveau projet dans PlatformIO](../../platformio/nouveau/). 
+- Suivre les instructions pour [démarrer un nouveau projet dans PlatformIO](/fabrication/platformio/nouveau/). 
 
 ### 1. Contenu à ajouter au fichier `platformio.ini`
 

@@ -72,7 +72,7 @@ src_dir = .
 ```
 
 Ensuite, il faut ajouter la configuration du bon modèle de plaquette :
-- Suivre ces instructions de [configuration](../../nano/configuration/) pour une **plaquette Arduino Nano**
+- Suivre ces instructions de [configuration](/fabrication/arduino/carte/nano/configuration/) pour une **plaquette Arduino Nano**
 
 > [!WARNING]
 > Ne pas oublier de suivre la configuration du modèle de plaquette !

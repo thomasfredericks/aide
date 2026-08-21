@@ -30,7 +30,7 @@
 * AJOUT
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
 * ALÉATOIRE
-  * [Générer un nombre aléatoire](../fabrication/arduino/random/)
+  * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * ALIMENTER
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
 * ANALYSE
@@ -46,17 +46,19 @@
 * APPRENTISSAGE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * ARCADE
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * ARDUINO
-  * [Arduino Nano](../fabrication/nano/)
+  * [Arduino Nano](../fabrication/arduino/carte/nano/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
-  * [Arduino : Traitement](../fabrication/arduino/traitement/)
-  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
-  * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
+  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
@@ -91,8 +93,8 @@
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
 * ATTENDRE
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
-  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
-  * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
+  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/code/millis/attendre/)
+  * [millis() : Attendre sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/attendre/)
 * AUDIO
   * [Audio : galerie](../creation/audio/galerie/)
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
@@ -140,6 +142,7 @@
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * BOUTON
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
@@ -161,7 +164,7 @@
 * CAPACITANCE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * CARTE
-  * [Modèles de cartes](../fabrication/arduino/cartes/)
+  * [Modèles de cartes](../fabrication/arduino/carte/)
 * CAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CAUSÉ
@@ -171,7 +174,7 @@
 * CELLULAIRE
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
 * CHANGEMENT
-  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
   * [Unity : changement](../logiciels/unity/traitement/changement/)
 * CHAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
@@ -190,7 +193,7 @@
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
-  * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
+  * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * CODEC
@@ -203,7 +206,7 @@
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
-  * [Communication sérielle](../fabrication/arduino/serial/)
+  * [Communication sérielle](../fabrication/arduino/code/serial/)
 * COMPATIBLE
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * COMPOSANT
@@ -216,7 +219,7 @@
   * [Conception sonore](../creation/audio/conception/)
 * CONFIGURATION
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
-  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
+  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * CONFIGURER
@@ -224,7 +227,7 @@
 * CONNEXION
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * CONTINU
-  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
 * CONTRAINTE
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * CONTRÔLE
@@ -278,8 +281,8 @@
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
 * DELAY
-  * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
-  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
+  * [millis() : Attendre sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/attendre/)
+  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/ralentir/)
 * DÉLIRE
   * [Les délires causés par les GML](../culture/ia/delires/)
 * DÉMARRAGE
@@ -371,7 +374,7 @@
 * ÉTATS-UNI
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * EXÉCUTER
-  * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
+  * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
 * EXÉCUTION
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * EXPÉRIENCE
@@ -409,7 +412,7 @@
 * FLOP
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * FLUX
-  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
 * FOND
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * FORME
@@ -431,7 +434,7 @@
 * GÉNÉRALE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * GÉNÉRER
-  * [Générer un nombre aléatoire](../fabrication/arduino/random/)
+  * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * GESTALT
   * [Gestalt : Psychologie de la forme](../creation/gestalt/)
 * GIT
@@ -548,7 +551,7 @@
 * INTERNATIONAL
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * INTERVALLE
-  * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
+  * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
 * INTRODUCTION
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
   * [Introduction à Pure Data](../logiciels/pd/introduction/)
@@ -605,7 +608,7 @@
 * LOGO
   * [Logo collectif](../creation/visuel/ateliers/logo/)
 * LOOP
-  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
+  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/ralentir/)
 
 ## M
 * M5STACK
@@ -683,17 +686,17 @@
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
   * [MIDI et plugins](../logiciels/reaper/plugiciel/midi/)
 * MILLI
-  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
-  * [millis( )](../fabrication/arduino/millis/)
-  * [millis() : Attendre sans *delay()*](../fabrication/arduino/millis/remplacer_delay/attendre/)
-  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
+  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/code/millis/attendre/)
+  * [millis( )](../fabrication/arduino/code/millis/)
+  * [millis() : Attendre sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/attendre/)
+  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/ralentir/)
 * MINUTE
   * [Atelier : affordance en 1 minute](../creation/interactivite/ateliers/affordance/)
 * MIXER
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * MODÈLE
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
-  * [Modèles de cartes](../fabrication/arduino/cartes/)
+  * [Modèles de cartes](../fabrication/arduino/carte/)
 * MODIFICATION
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * MODULARISATION
@@ -716,9 +719,9 @@
 
 ## N
 * NANO
-  * [Arduino Nano](../fabrication/nano/)
-  * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
-  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
+  * [Arduino Nano](../fabrication/arduino/carte/nano/)
+  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
+  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
 * NAVIGATEUR
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
 * NEOPIXEL
@@ -728,7 +731,7 @@
 * NODE.JS
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
 * NOMBRE
-  * [Générer un nombre aléatoire](../fabrication/arduino/random/)
+  * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * NORME
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * NOTE
@@ -831,7 +834,7 @@
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * PLAQUETTE
-  * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
+  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
 * PLATFORMIO
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
@@ -915,7 +918,7 @@
 
 ## R
 * RALENTIR
-  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/millis/remplacer_delay/ralentir/)
+  * [millis() : Ralentir *loop()* sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/ralentir/)
 * RASPBERRY PI
   * [Raspberry Pi](../logiciels/rpi/)
 * REAPER
@@ -979,7 +982,7 @@
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * SÉRIELLE
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
-  * [Communication sérielle](../fabrication/arduino/serial/)
+  * [Communication sérielle](../fabrication/arduino/code/serial/)
 * SIDECHAIN
   * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
 * SIGNAL
@@ -1038,13 +1041,14 @@
   * [Témoins (cookies)](../culture/surveillance/temoins/)
 * TEMP
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
-  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
+  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/code/millis/attendre/)
 * TEMPLATE
   * [TouchDesigner : Template](../logiciels/touchdesigner/template/)
 * TENSION
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * TERMINAL
-  * [Nano : Arduino Terminals](../fabrication/nano/arduino_terminals/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
+  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
 * TEST
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * TÊTE
@@ -1085,12 +1089,12 @@
 * TRAIL
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 * TRAITEMENT
-  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
-  * [Arduino : Traitement](../fabrication/arduino/traitement/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
   * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
   * [Unity : Traitement de messages](../logiciels/unity/traitement/)
 * TRAITER
-  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * TRANSPARENT
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
@@ -1195,7 +1199,7 @@
 * WEBSOCKET
   * [WebSockets dans Pd](../logiciels/pd/websocket/)
 * WHILE
-  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/millis/attendre/)
+  * [Attendre un certain temps avec *millis()* et *while()*](../fabrication/arduino/code/millis/attendre/)
 * WINDOW
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * WONDER
