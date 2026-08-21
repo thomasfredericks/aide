@@ -18,7 +18,7 @@
   /* Light mode code block background */
   --code-text: #525252;
   /* Light mode code text color */
-  --code-syntax: #e96900;
+  --code-syntax: #f00;
   /* Light mode syntax highlight color */
   --sidebar-background: #ffffff;
   /* Light mode sidebar background */
@@ -30,7 +30,7 @@
   --sidebar-slide: -200px;
   --bracket-arm-length: 40px; 
   --bracket-thickness: 1px;
-  --bracket-color: #000;
+  --bracket-color: #f00;
 }
 
 * {

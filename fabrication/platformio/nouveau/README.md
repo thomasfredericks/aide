@@ -1,4 +1,4 @@
-# Nouveau projet PlatformIO compatible Arduino IDE
+# Nouveau projet PlatformIO
 
 ## 0. Installation de PlatformIO dans Visual Studio Code
 
@@ -13,7 +13,9 @@
 
 ## 2. Cloner le dépôt Git l'ordinateur
 
-## 3. Ouvrir le dépôt Git sur l'ordinateur
+![Option de menu pour cloner un dépôt Git](./vscode_git_clone.png)
+
+## 3. Créer les fichiers
 
 Créer les trois fichiers expliqués dans les prochaines sections :
 ```
@@ -31,7 +33,7 @@ Créer un fichier `.gitignore`.
 > [!WARNING]
 > Ne pas oublier le `.` au début du nom de fichier `.gitignore`
 
-Y ajouter le contenu suivant :
+Y copier ceci :
 ```ini
 .DS_Store
 .pio
@@ -43,7 +45,13 @@ Y ajouter le contenu suivant :
 
 ### 3.2 Fichier `.ino`
 
-Créer un fichier `.ino` qui porte le même nom que le dossier. Y ajouter ceci :
+Créer un fichier `.ino` qui porte le même nom que le dossier. Par exemple, si le dépôt se nomme `mon_projet_arduino`, nommer le fichier `mon_projet_arduino.ino`
+
+> [!WARNING]
+> Le fichier `.ino` doit avoir le même nom que le dossier !
+> Ainsi le projet sera compatible avec le logiciel Arduino IDE.
+
+Y copier ceci :
 ```cpp
 // Le code minimal
 
@@ -58,11 +66,9 @@ void loop() {
 }
 ```
 
-> [!WARNING]
-> Le fichier `.ino` doit avoir le même nom que le dossier !
-> Ainsi le projet sera compatible avec Arduino IDE aussi.
 
-### 3.3 Fihcier `platformio.ini`
+
+### 3.3 Fichier `platformio.ini`
 
 Créer un fichier `platformio.ini`. Y inclure cette section au début :
 ```ini
@@ -71,11 +77,15 @@ Créer un fichier `platformio.ini`. Y inclure cette section au début :
 src_dir = .
 ```
 
-Ensuite, il faut ajouter la configuration du bon modèle de carte :
-- Suivre ces instructions de [configuration](/fabrication/arduino/carte/nano/configuration/) pour une **carte Arduino Nano**
-
 > [!WARNING]
-> Ne pas oublier de suivre la configuration du modèle de carte !
+> Il faut ensuite ajouter la configuration spécifique au **bon** modèle de carte !
+
+
+Suivre ces instructions suivantes pour le modèle indiqué :
+* Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/carte/nano/configuration/)
+* Arduino Nano R4 : [configuration](/fabrication/arduino/carte/nano/configuration/)
+
+
 
 ## 4. Git commit
 
@@ -83,4 +93,6 @@ Ne pas oublier de faire un *commit* des modifications.
 
 ## 5. Rouvrir le projet dans  *Visual Studio Code*
 
-Pour que *Visual Studio Code* charge le dossier en tant que projet PlatformIO il faut le rouvrir.
+Pour que *Visual Studio Code* charge le dossier en tant que projet *PlatformIO* il faut le rouvrir.
+
+![La barre d'outils de PlatformIO devrait apparaître après la réouverture du dossier de projet](./vscode_platformio.png)

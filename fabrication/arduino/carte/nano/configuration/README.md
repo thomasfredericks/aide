@@ -1,4 +1,4 @@
-# Plaquette Nano : Configuration
+# Carte Nano : Configuration
 
 ## Configuration pour PlatformIO
 
