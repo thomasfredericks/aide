@@ -160,7 +160,6 @@
     - [fastled](/fabrication/pixels/fastled/)
     - [neopixel](/fabrication/pixels/neopixel/)
   - *platformio*
-    - [installation](/fabrication/platformio/installation/)
     - [nouveau](/fabrication/platformio/nouveau/)
     - *pioarduino*
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)

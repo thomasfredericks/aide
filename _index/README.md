@@ -191,7 +191,6 @@
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/millis/intervalle/)
-  * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * CODEC
@@ -516,7 +515,6 @@
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * INSTALLATION
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
-  * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * INSTALLER
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
@@ -835,7 +833,6 @@
 * PLAQUETTE
   * [Plaquette Nano : Configuration](../fabrication/nano/configuration/)
 * PLATFORMIO
-  * [Installation PlatformIO dans VS Code](../fabrication/platformio/installation/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
 * PLATINE

@@ -1,29 +1,37 @@
 # Nouveau projet PlatformIO compatible Arduino IDE
 
-## Préalable(s)
+## 0. Installation de PlatformIO dans Visual Studio Code
 
-- [Installer PlatformIO dans Visual Studio Code](../installation/).
-- Si nécessaire, créer un dépôt Git (avec un README.md) et le cloner sur l'ordinateur.
-- Pour le nom pas d'espaces ou de caractères spéciaux sauf `_` ou `-`.
+![Étapes pour l'installation de PlatformIO dans Visual Studio Code](./installation.svg)
+
+
+## 1. Créer d'un Git
+
+- Créer un dépôt Git (avec un README.md) dont le nom :
+    - ne contient pas d'espaces ou de caractères spéciaux sauf `_` ou `-`.
+
+
+## 2. Cloner le dépôt Git l'ordinateur
+
+## 3. Ouvrir le dépôt Git sur l'ordinateur
+
+Créer les trois fichiers expliqués dans les prochaines sections :
+```
+📂 titre_du_projet 
+    |- 📄 .gitignore 
+    |- 📄 titre_du_projet.ino
+    |- 📄 platformio.ini 
+
+```
+
+### 3.1 Fichier `.gitignore`
+
+Créer un fichier `.gitignore`. 
 
 > [!WARNING]
-> Soit on travaille dans un **nouveau dossier** ou dans un **Git cloné** sur l'ordinateur !
+> Ne pas oublier le `.` au début du nom de fichier `.gitignore`
 
-## Structure du dossier
-
-Pour avoir un projet compatible entre Arduino et PlatformIO, le projet doit avoir une structure similaire à ceci :
-```
-Titre_du_projet // (Ceci est le dossier du projet)
-    |- Titre_du_projet.ino // (Ce fichier .ino doit porter le même nom que le projet)
-    |- platformio.ini  // (Fichier vide)
-    |- .gitignore // (Fichier vide)
-```
-
-Pour créer les fichiers, ouvrir le dossier de projet dans **Visual Studio Code**.
-
-## 1. `.gitignore`
-
-Créer un fichier `.gitignore`. Y ajouter le contenu suivant :
+Y ajouter le contenu suivant :
 ```ini
 .DS_Store
 .pio
@@ -33,19 +41,7 @@ Créer un fichier `.gitignore`. Y ajouter le contenu suivant :
 .vscode/ipch
 ```
 
-## 2. `platformio.ini`
-
-Créer un fichier `platformio.ini`. Y inclure cette section au début :
-```ini
-[platformio]
-; Tell PIO to treat this folder (containing .ino) as the source directory
-src_dir = .
-```
-
-Ensuite, il faut ajouter la configuration du bon modèle de plaquette :
-- Suivre ces instructions de [configuration](../../nano/configuration/) pour une **plaquette Arduino Nano**
-
-## 3. Ficher `.ino`
+### 3.2 Fichier `.ino`
 
 Créer un fichier `.ino` qui porte le même nom que le dossier. Y ajouter ceci :
 ```cpp
@@ -62,10 +58,29 @@ void loop() {
 }
 ```
 
+> [!WARNING]
+> Le fichier `.ino` doit avoir le même nom que le dossier !
+> Ainsi le projet sera compatible avec Arduino IDE aussi.
+
+### 3.3 Fihcier `platformio.ini`
+
+Créer un fichier `platformio.ini`. Y inclure cette section au début :
+```ini
+[platformio]
+; Tell PIO to treat this folder (containing .ino) as the source directory
+src_dir = .
+```
+
+Ensuite, il faut ajouter la configuration du bon modèle de plaquette :
+- Suivre ces instructions de [configuration](../../nano/configuration/) pour une **plaquette Arduino Nano**
+
+> [!WARNING]
+> Ne pas oublier de suivre la configuration du modèle de plaquette !
+
 ## 4. Git commit
 
-Si un dossier Git est utilisé, ne pas oublier de faire un *commit* des modifications.
+Ne pas oublier de faire un *commit* des modifications.
 
-## 5. Rouvrir le projet
+## 5. Rouvrir le projet dans  *Visual Studio Code*
 
 Pour que *Visual Studio Code* charge le dossier en tant que projet PlatformIO il faut le rouvrir.
