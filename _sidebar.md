@@ -94,9 +94,9 @@
         - [changement](/fabrication/arduino/code/traitement/changement/)
         - [flux](/fabrication/arduino/code/traitement/flux/)
     - [ide](/fabrication/arduino/ide/)
-  - [arduino_terminals](/fabrication/arduino_terminals/)
-    - [bouton_arcade](/fabrication/arduino_terminals/bouton_arcade/)
-    - [potentiometre](/fabrication/arduino_terminals/potentiometre/)
+    - [terminals](/fabrication/arduino/terminals/)
+      - [bouton_arcade](/fabrication/arduino/terminals/bouton_arcade/)
+      - [potentiometre](/fabrication/arduino/terminals/potentiometre/)
   - *cpp*
     - [style](/fabrication/cpp/style/)
   - [ddp](/fabrication/ddp/)

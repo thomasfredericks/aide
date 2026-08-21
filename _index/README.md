@@ -46,11 +46,11 @@
 * APPRENTISSAGE
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * ARCADE
-  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * ARDUINO
   * [Arduino Nano](../fabrication/arduino/carte/nano/)
-  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
   * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
@@ -58,7 +58,7 @@
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
-  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
+  * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
   * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
@@ -142,7 +142,7 @@
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * BOUTON
-  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
@@ -720,7 +720,7 @@
 ## N
 * NANO
   * [Arduino Nano](../fabrication/arduino/carte/nano/)
-  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
+  * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
   * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
 * NAVIGATEUR
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
@@ -1047,8 +1047,8 @@
 * TENSION
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * TERMINAL
-  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino_terminals/bouton_arcade/)
-  * [Nano : Arduino Terminals](../fabrication/arduino_terminals/)
+  * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
+  * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
 * TEST
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * TÊTE
