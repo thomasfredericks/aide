@@ -1,4 +1,4 @@
-# La réception d'OSC avec MicroOsc
+# MicroOsc : réception d'OSC
 
 ## Préalable(s)
 
@@ -39,7 +39,7 @@ Les arguments doivent toujours être lus dans l’ordre défini par les type tag
 
 ### Dans l’espace global
 
-Créer une **fonction de rappel** qui sera appelée chaque fois qu’un message OSC est reçu :
+Créer, au-dessus de la fonction `loop()` une **fonction de rappel** qui sera appelée chaque fois qu’un message OSC est reçu :
 
 ```cpp
 // FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
@@ -48,7 +48,29 @@ void maFonctionRappelOsc(MicroOscMessage & message) {
 }
 ```
 
-### Dans la fonction de rappel
+### Dans la fonction `loop()`
+
+Dans `loop()`, il faut appeler :
+
+```cpp
+monOsc.onOscMessageReceived(maFonctionRappelOsc); // ACQUISITION DES MESSAGES
+```
+
+Cet appel :
+
+- vérifie si des données sont disponibles
+- parse les messages reçus
+- appelle la fonction de rappel pour chaque message
+
+> [!WARNING]
+> L'appel à `onOscMessageReceived()` doit se faire le plus rapidement possible au début de la fonction `loop()`.
+> Ne pas utiliser de `delay()` et ne pas ralentir les appels de `onOscMessageReceived()` en utilisant un chronomètre.
+
+### Dans la fonction de rappel appelée par `onOscMessageReceived()`
+
+Plus haut, nous appelons la fonction `maFonctionRappelOsc()` à partir de `onOscMessageReceived(maFonctionRappelOsc)`.
+
+Nous devons personnaliser la fonction `maFonctionRappelOsc()` pour le traitement des messages OSC.
 
 Chaque message OSC possède :
 
@@ -138,57 +160,6 @@ Chaque appel à `nextAsInt()` ou `nextAsFloat()` déplace le pointeur interne ve
 Il est donc essentiel que l’ordre et les types de lecture correspondent exactement à ceux définis lors de l’envoi du message OSC.
 
 
-### Déclencher l'acquisition dans `loop()`
-
-Dans `loop()`, il faut appeler :
-
-```cpp
-monOsc.onOscMessageReceived(maFonctionRappelOsc); // ACQUISITION DES MESSAGES
-```
-
-Cet appel :
-
-- vérifie si des données sont disponibles
-- parse les messages reçus
-- appelle la fonction de rappel pour chaque message
-
-
-Il est fortement déconseillé d’utiliser `delay()` dans `loop()` lors de la réception OSC.
-
-Pourquoi :
-
-- `delay()` bloque l’exécution
-- les messages OSC peuvent être perdus
-- la latence augmente
-
-Si un ralentissement est nécessaire, utiliser un chronomètre avec la bibliothèque logicielle `Chrono` comme dans cet extrait :
-```cpp
-#include <Chrono.h>
-
-Chrono monChrono;
-
-void loop() {
-
-    // ACQUISITION instantannée des messages OSC
-    monOsc.onOscMessageReceived(maFonctionRappelOsc);
-
-    // CONDITION temporelle pour ralentir une autre partie du code
-    if (monChrono.hasPassed(5)) {
-        monChrono.restart();
-
-        // ACTION exécutée toutes les 5 ms
-        // Exemple : mise à jour d’un affichage
-    }
-}
-```
-
-Dans cette structure :
-
-- La réception OSC reste rapide et non bloquante.
-- Les traitements plus lents sont contrôlés séparément.
-- Le système reste réactif et stable.
-
-
 
 
 
@@ -223,5 +194,15 @@ void loop() {
     // ACQUISITION des messages OSC
     monOsc.onOscMessageReceived(maFonctionRappelOsc);
 
+       
+    // Si nécessaire, ralentir le reste du code
+    if (monChrono.hasPassed(5)) {
+        monChrono.restart();
+
+        // ACTION exécutée toutes les 5 ms
+        // Exemple : mise à jour d’un affichage
+    }
 }
 ```
+
+

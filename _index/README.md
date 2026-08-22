@@ -49,17 +49,19 @@
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * ARDUINO
-  * [Arduino Nano](../fabrication/arduino/carte/nano/)
+  * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
+  * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
+  * [Arduino](../fabrication/arduino/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
   * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
   * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
+  * [Carte Arduino Nano](../fabrication/arduino/nano/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * ARTIFICIELLE
@@ -76,6 +78,10 @@
   * [Atelier : Simulation d'un jeu](../creation/interactivite/ateliers/simulation/)
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
+* ATMEGA168
+  * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
+* ATMEGA32
+  * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
 * ATOM
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Atom POE](../fabrication/m5stack/atom-poe/)
@@ -164,7 +170,7 @@
 * CAPACITANCE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * CARTE
-  * [Modèles de cartes](../fabrication/arduino/carte/)
+  * [Carte Arduino Nano](../fabrication/arduino/nano/)
 * CAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CAUSÉ
@@ -207,8 +213,6 @@
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
   * [Communication sérielle](../fabrication/arduino/code/serial/)
-* COMPATIBLE
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * COMPOSANT
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * COMPRESSEUR
@@ -219,7 +223,6 @@
   * [Conception sonore](../creation/audio/conception/)
 * CONFIGURATION
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
-  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * CONFIGURER
@@ -495,7 +498,6 @@
   * Voir : Grand modèle de langage
 * IDE
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
 * IDÉE
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * IDENTITÉ
@@ -673,8 +675,8 @@
   * [MicroNet](../fabrication/micronet/)
 * MICROOSC
   * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
-  * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
+  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
   * [MicroOsc](../fabrication/microosc/)
   * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
 * MICROOSCUDP
@@ -696,7 +698,6 @@
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * MODÈLE
   * [ESP32 : modèles](../fabrication/esp32/modeles/)
-  * [Modèles de cartes](../fabrication/arduino/carte/)
 * MODIFICATION
   * [Atelier : Modification d'une règle](../creation/interactivite/ateliers/modification/)
 * MODULARISATION
@@ -719,9 +720,10 @@
 
 ## N
 * NANO
-  * [Arduino Nano](../fabrication/arduino/carte/nano/)
+  * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
+  * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
+  * [Carte Arduino Nano](../fabrication/arduino/nano/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
-  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
 * NAVIGATEUR
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
 * NEOPIXEL
@@ -737,7 +739,7 @@
 * NOTE
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
 * NOUVEAU
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
+  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
 * NULL
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 
@@ -761,8 +763,8 @@
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
-  * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
+  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
   * [Open Sound Control (OSC)](../fabrication/osc/)
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
@@ -833,10 +835,8 @@
 * PLAGE
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
-* PLAQUETTE
-  * [Plaquette Nano : Configuration](../fabrication/arduino/carte/nano/configuration/)
 * PLATFORMIO
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
+  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
 * PLATINE
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
@@ -873,7 +873,7 @@
 * PROJET
   * [Ajout d'un projet à un dépôt Git](../logiciels/git/ajout/)
   * [Modularisation d'un projet TouchDesigner](../logiciels/touchdesigner/modularisation/)
-  * [Nouveau projet PlatformIO compatible Arduino IDE](../fabrication/platformio/nouveau/)
+  * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
 * PROPAGANDE
   * [Propagande sur les GML](../culture/ia/propagande/)
 * PROPORTION
@@ -933,7 +933,7 @@
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * RÉCEPTION
-  * [La réception d'OSC avec MicroOsc](../fabrication/microosc/reception/)
+  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
   * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)

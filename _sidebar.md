@@ -77,10 +77,7 @@
     - [video](/culture/surveillance/video/)
   - [technologie](/culture/technologie/)
 - *fabrication*
-  - *arduino*
-    - [carte](/fabrication/arduino/carte/)
-      - [nano](/fabrication/arduino/carte/nano/)
-        - [configuration](/fabrication/arduino/carte/nano/configuration/)
+  - [arduino](/fabrication/arduino/)
     - [code](/fabrication/arduino/code/)
       - [millis](/fabrication/arduino/code/millis/)
         - [attendre](/fabrication/arduino/code/millis/attendre/)
@@ -94,6 +91,9 @@
         - [changement](/fabrication/arduino/code/traitement/changement/)
         - [flux](/fabrication/arduino/code/traitement/flux/)
     - [ide](/fabrication/arduino/ide/)
+    - [nano](/fabrication/arduino/nano/)
+      - [atmega](/fabrication/arduino/nano/atmega/)
+      - [r4](/fabrication/arduino/nano/r4/)
     - [terminals](/fabrication/arduino/terminals/)
       - [bouton_arcade](/fabrication/arduino/terminals/bouton_arcade/)
       - [potentiometre](/fabrication/arduino/terminals/potentiometre/)

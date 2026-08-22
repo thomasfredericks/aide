@@ -11,6 +11,7 @@
     - ne contient pas d'espaces ou de caractères spéciaux sauf `_` ou `-`.
 
 
+
 ## 2. Cloner le dépôt Git l'ordinateur
 
 ![Option de menu pour cloner un dépôt Git](./vscode_git_clone.png)
@@ -82,8 +83,8 @@ src_dir = .
 
 
 Suivre ces instructions suivantes pour le modèle indiqué :
-* Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/carte/nano/configuration/)
-* Arduino Nano R4 : [configuration](/fabrication/arduino/carte/nano/configuration/)
+* Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/nano/atmega#Configuration)
+* Arduino Nano R4 : [configuration](/fabrication/arduino/nano/r4#Configuration)
 
 
 
