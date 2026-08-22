@@ -146,6 +146,7 @@
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
 * BONNE
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
+  * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * BOUTON
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
@@ -382,7 +383,7 @@
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * EXPÉRIENCE
   * [Expérience multimédia interactive](../creation/interactivite/experience/)
-  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
+  * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
 * EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * EXTOSC
@@ -535,7 +536,7 @@
 * INTERACTIVE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
   * [Expérience multimédia interactive](../creation/interactivite/experience/)
-  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
+  * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
 * INTERACTIVE​
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * INTERACTIVITÉ
@@ -913,7 +914,7 @@
 * QUALIFIER
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * QUALITÉ
-  * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
+  * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
 
 ## R
 * RALENTIR
