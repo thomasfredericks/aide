@@ -243,6 +243,8 @@
 * CONTRÔLEUR
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Contrôleur éclairage QLC+](../logiciels/qlc+/)
+* CONVERSATION
+  * [L'interactivité est une conversation](../creation/interactivite/conversation/)
 * CONVERTIR
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
 * COOKIE
@@ -543,6 +545,7 @@
   * [Design de l'interactivité](../creation/interactivite/design/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
+  * [L'interactivité est une conversation](../creation/interactivite/conversation/)
 * INTERFACE UTILISATEUR
   * [IU : Couleur](../creation/visuel/iu/couleur/)
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)

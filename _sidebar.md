@@ -23,6 +23,7 @@
       - [simulation](/creation/interactivite/ateliers/simulation/)
       - [suppression](/creation/interactivite/ateliers/suppression/)
       - [synchronisation](/creation/interactivite/ateliers/synchronisation/)
+    - [conversation](/creation/interactivite/conversation/)
     - [design](/creation/interactivite/design/)
     - [ecoute](/creation/interactivite/ecoute/)
     - [emergence](/creation/interactivite/emergence/)
