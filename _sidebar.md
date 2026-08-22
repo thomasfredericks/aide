@@ -13,7 +13,6 @@
     - [processus](/creation/audiovisuel/processus/)
   - *esthetique*
     - [banque](/creation/esthetique/banque/)
-  - [experience](/creation/experience/)
   - [gestalt](/creation/gestalt/)
   - *interactivite*
     - [analyse](/creation/interactivite/analyse/)
@@ -27,6 +26,7 @@
     - [design](/creation/interactivite/design/)
     - [ecoute](/creation/interactivite/ecoute/)
     - [emergence](/creation/interactivite/emergence/)
+    - [experience](/creation/interactivite/experience/)
     - [galerie](/creation/interactivite/galerie/)
     - [histoire](/creation/interactivite/histoire/)
     - [public](/creation/interactivite/public/)

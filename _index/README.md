@@ -381,7 +381,7 @@
 * EXÉCUTION
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * EXPÉRIENCE
-  * [Expérience multimédia](../creation/experience/)
+  * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
 * EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
@@ -534,6 +534,7 @@
   * [Types d'interaction](../creation/interactivite/types/)
 * INTERACTIVE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
+  * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Qualités d’une expérience interactive](../creation/interactivite/qualites/)
 * INTERACTIVE​
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
@@ -713,7 +714,7 @@
 * MPU6886
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 * MULTIMÉDIA
-  * [Expérience multimédia](../creation/experience/)
+  * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * MULTIMÈTRE
   * [Multimètre](../fabrication/electronique/multimetre/)
@@ -809,8 +810,6 @@
   * Voir : Pure Data
 * PDCHOCO
   * [pdchoco](../logiciels/pd/pdchoco/)
-* PECHA KUCHA
-  * [Pecha Kucha](../creation/pecha_kucha/)
 * PENSÉE
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * PERFORM
