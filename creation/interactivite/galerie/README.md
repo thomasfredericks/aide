@@ -116,6 +116,15 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 - [10k Drum Machines](https://10kdrummachines.com/)
 
+## Mythologies (Lore)
+
+- [Scavengers - YouTube](https://www.youtube.com/watch?v=1TRzemJbUsw)
+    - [Scavengers Reign | Official Teaser | Max - YouTube](https://www.youtube.com/watch?v=JOsZVmVPn4E)
+- Fake Video Games
+    - [The FAKE video game trend is out of control - YouTube](https://www.youtube.com/watch?app=desktop&v=kZjbcjxuSGE)
+    - [The Bizarre World of Fake Video Games by Super Eyepatch Wolf - U.D.W.F – www.hollow-press.net](https://hollow-press.net/products/the-bizarre-world-of-fake-video-games-by-super-eyepatch-wolf-u-d-w-f-g-essays-i)
+- [Lore Game Books – www.hollow-press.net](https://hollow-press.net/collections/lore-game-books)    
+
 ## Génératif
 
 - Boids
@@ -130,8 +139,6 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Joshua Davis Studios](https://joshuadavis.com/)
 - [alien language generator](https://codepen.io/p5art/details/XKWyob)
 - [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
-
-
 
 
 ## Artistes montréalais du numérique

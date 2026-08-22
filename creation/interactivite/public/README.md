@@ -12,6 +12,11 @@ Le public cible permet au concepteur de déterminer **quelle expérience il souh
 
 Le public cible n’est donc pas nécessairement l’ensemble des personnes qui peuvent accéder au projet. Il représente plutôt le groupe de référence à partir duquel le concepteur prend ses décisions et évalue si l’expérience répond à son intention.
 
+- Certains interacteurs vont se désintéresser si l'expérience est trop simple. 
+- Et d’autres qui fuient la complexité. 
+- D'autres recherchent le conflit.
+- Et aussi certains qui recherchent le calme.
+
 
 ## Graphique de la taxonomie de Richard Bartle
 
