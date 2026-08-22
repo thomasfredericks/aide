@@ -55,6 +55,12 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 - [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
 
+## Contrôler le temps
+
+- [Super Hot](https://www.crazygames.com/game/super-hot)  **JOUABLE EXPÉRIMENTAL**
+- [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
+
+
 ## Collaborer à plusieurs
 
 - [Spaceteam — A Game of Cooperative Shouting for Phones and Tablets](https://spaceteam.ca/) Spaceteam est un jeu coopératif collaboratif, où les joueurs, chacun sur leur téléphone ou tablette, crient des instructions techniques dans le chaos pour empêcher leur vaisseau spatial de s’écraser. **JOUABLE COLLECTIF**
@@ -109,7 +115,6 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ## Bataille
 
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
-- [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
 
 
 ## Études sur l'interface utilisateur
