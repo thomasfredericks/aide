@@ -27,15 +27,27 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## Augmenter le monde réel
 
+- [Hand from Above - Chris O'Shea](https://www.chrisoshea.org/portfolio/hand-from-above)
+- [Scott Made This: Still Life](https://scottmadethis.net/interactive/still_life)
+- [Data Chromesthesia | Felipe Pantone](https://www.acuteart.com/discover/felipe-pantone)
+- [4th Wall — AR Public Art by Nancy Baker Cahill](https://www.4thwallapp.org/)
 - [Mécaniques Discursives](https://www.mecaniques-discursives.com/)
+
 
 ## Se voir transformé.e
 
+- [Daniel Rozin Interactive Art](https://www.smoothware.com/danny/index.html)
+- [Body Swap - Chris O'Shea](https://www.chrisoshea.org/portfolio/body-swap)
 - [Pointer Pointer](https://pointerpointer.com/)  **COLLECTE WEB**
 - [Bone VS steel - YouTube](https://www.youtube.com/watch?v=WMt9G4GD-mw)
 
 ## Agir avec son corps
 
+- [Jump! de Yacine Sebti](https://legacy.imal.org/en/project/jump)
+- [Big Screen Quiz - Chris O'Shea](https://www.chrisoshea.org/portfolio/big-screen-quiz)
+- [Dash Dodge Dive - Chris O'Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
+- [Marie Sester: ACCESS, 2003](https://sester.net/access/)
+- [The Treachery of Sanctuary - CHRIS MILK](http://milk.co/treachery)
 - [La légèreté de l'être | Videos & Movies on Vimeo](https://vimeo.com/333354293)
 - [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
 - [La femme dans la chambre (extrait), Andrée-Anne Roussel on Vimeo](https://vimeo.com/240049017)
@@ -53,16 +65,18 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## Transformer l'espace
 
+- [Rain Room, 2012 — RANDOM INTERNATIONAL](https://www.random-international.com/rain-room?utm_source=chatgpt.com)
 - [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
 
 ## Contrôler le temps
 
 - [Super Hot](https://www.crazygames.com/game/super-hot)  **JOUABLE EXPÉRIMENTAL**
-- [Toribash](https://toribash.com/) (Toribash) (https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
+- [Toribash](https://toribash.com/) **JOUABLE EXPÉRIMENTAL**
 
 
 ## Collaborer à plusieurs
 
+- [21 Balançoires | Daily tous les jours](https://www.dailytouslesjours.com/fr/projets/21-balancoires)
 - [Spaceteam — A Game of Cooperative Shouting for Phones and Tablets](https://spaceteam.ca/) Spaceteam est un jeu coopératif collaboratif, où les joueurs, chacun sur leur téléphone ou tablette, crient des instructions techniques dans le chaos pour empêcher leur vaisseau spatial de s’écraser. **JOUABLE COLLECTIF**
 - [PICO PARK ポータル](https://picoparkgame.com/) PICO PARK est un jeu de plateforme d’énigmes coopératif pour 2–8 joueurs où l’on doit tous travailler ensemble pour récupérer une clé, ouvrir la porte, et que tous atteignent l’objectif, en surmontant des niveaux spécialement conçus pour la coopération. **JOUABLE COLLECTIF**
     - [PICO PARK 2](https://picoparkgame.com/pp2/)
