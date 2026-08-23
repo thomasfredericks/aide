@@ -19,3 +19,4 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 | **Collaborer à plusieurs**          | œuvre collective, vote, composition audiovisuelle           |
 | **Laisser une trace**          | mémoire de l'installation, contenu généré par les visiteurs |
 | **Être connecté à distance**   | présence virtuelle, intervention à distance                 |
+| **Contrôler le temps**         | manipuler l'écoulement du temps                             |

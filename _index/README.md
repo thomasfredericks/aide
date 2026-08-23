@@ -232,6 +232,8 @@
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * CONTINU
   * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
+* CONTINUUM
+  * [Continuum de l'interactivité](../creation/interactivite/continuum/)
 * CONTRAINTE
   * [Atelier : Effondrement par contrainte](../creation/interactivite/ateliers/contrainte/)
 * CONTRÔLE
@@ -544,6 +546,7 @@
 * INTERACTIVE​
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * INTERACTIVITÉ
+  * [Continuum de l'interactivité](../creation/interactivite/continuum/)
   * [Design de l'interactivité](../creation/interactivite/design/)
   * [Interactivité : galerie](../creation/interactivite/galerie/)
   * [Interactivité : scénarisation](../creation/interactivite/scenarisation/)
