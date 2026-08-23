@@ -69,6 +69,7 @@
     - [propagande](/culture/ia/propagande/)
     - [sante](/culture/ia/sante/)
     - [types](/culture/ia/types/)
+  - [manipulations](/culture/manipulations/)
   - [merdification](/culture/merdification/)
   - *pouvoir*
     - [empathie](/culture/pouvoir/empathie/)

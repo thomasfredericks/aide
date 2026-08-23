@@ -266,6 +266,8 @@
   * [OSC UDP : Cycling '74 Max](../logiciels/max/osc/udp/)
 
 ## D
+* DARK
+  * [Manipulation : Dark Patterns](../culture/manipulations/)
 * DATAFLOW
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * DAVINCI RESOLVE
@@ -644,6 +646,8 @@
   * [Manette de projecteurs : gd-pjlink](../logiciels/gd-pjlink/)
 * MANIFESTE
   * [Manifeste pour une éducation résiliente](../culture/education/manifeste/)
+* MANIPULATION
+  * [Manipulation : Dark Patterns](../culture/manipulations/)
 * MAPPING
   * [OBS : Mapping](../logiciels/obs/mapping/)
 * MAQUETTAGE
@@ -805,6 +809,8 @@
 ## P
 * PARAMÈTRE
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
+* PATTERN
+  * [Manipulation : Dark Patterns](../culture/manipulations/)
 * PBHUB
   * [M5Stack PbHub Unit](../fabrication/m5stack/units/pbhub/)
   * [Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key](../_hidden/exemples/pbhub_key-motion-angle-light.md)
