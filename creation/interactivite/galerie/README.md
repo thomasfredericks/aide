@@ -62,6 +62,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ## Agir avec un objet
 
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **CORPORALITÉ MALIN COLLECTIF JOUABLE**
+	- [Johann Sebastian Joust at MagFest 2016](https://www.youtube.com/watch?v=YUDEi2dZUV8)
 
 ## Transformer l'espace
 
