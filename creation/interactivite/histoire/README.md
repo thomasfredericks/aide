@@ -41,15 +41,13 @@ Hilma pensait que son œuvre ne serait comprise que **des décennies après sa m
 
 Elle est restée **inconnue du grand public jusqu’aux années 1980**, puis redécouverte dans les années 2000.
 
-
-
 ![](./hilma.png)
 
 ![](./hilma2.png)
 
 ![](./hilma3.png)
 
-## Marcel Duchamp (1920)
+## Marcel Duchamp (1969)
 
 Duchamp ne s'intéresse pas à ce qu'il appelle « l'art rétinien ». Un art qui n'est que visuel — et cherche d'autres modes d'expression. ​
 
@@ -59,7 +57,15 @@ Pour Marcel Duchamp, « c'est le regardeur qui fait le tableau ».​ [Rotary Gl
 
 ![](./marcel.png)
 
-## GRAV
+## Jean Tinguely (1950-60)
+
+Dans les années 1950-1960, l'**art cinétique** apporte une autre étape importante.
+
+Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu'on interagit avec elles. L'œuvre commence alors à être pensée comme un **système**.
+
+[Jean Tinguely Museum, Basel Switzerland - YouTube](https://www.youtube.com/watch?v=ZiNnTY3sMmU)
+
+## GRAV (1963)
 
 Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Morellet, Francisco Sobrino, Joël Stein, Yvaral se sont réunis dans un collectif, le Groupe de recherche d'art visuel (GRAV) avec pour but de permettre à tous de pouvoir approcher leur art. Ils distribuent leur manifeste lors de la 3e biennale de Paris en octobre 1963 sous forme de tract s’intitulant « Assez de mystifications » et contenant les lignes suivantes :  
 
@@ -70,6 +76,8 @@ Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Mor
 > Nous voulons développer chez le spectateur une forte capacité de perception et d'action.  
 
 Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries/c_frs/mordoch/grav/grav.html).
+
+
 
 ## Ivan Sutherland (1963, 1965)
 
@@ -88,3 +96,4 @@ Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries
 Myron Krueger de l’Artificial Reality Corporation est reconnu comme le premier chercheur en informatique à avoir trouvé un moyen d’entrer dans le monde virtuel. Son « Videoplace » est devenu un point de rencontre pour les hackers de la réalité. Imaginez devenir votre propre ombre et pouvoir interagir avec les ombres d’autres personnes dans un espace simulé, les toucher et être touché. L’objectif de Krueger est de créer justement un tel monde d’ombres où les gens peuvent se relier les uns aux autres d’une manière tout à fait impossible dans le monde physique.
 
 Et cela fait partie du concept général de « Videplace », où des personnes se rassemblent dans la réalité artificielle. En d’autres termes, ce qui se passe maintenant entre les deux personnes, c’est que nous interagissons d’une manière que les humains n’ont jamais pu expérimenter auparavant. L’une des principales attractions est aussi la juxtaposition du grand et du petit, de sorte que les deux personnes vont désormais interagir et, dans une certaine mesure, découvrir quelles sont les possibilités, ce que suggère émotionnellement l’échelle.
+
