@@ -1,4 +1,4 @@
-**# Pecha Kucha**
+# Pecha Kucha**
 
 Le format Pecha Kucha est une façon très particulière de faire une présentation orale. Il est couramment utilisé pour des :
 
@@ -16,20 +16,20 @@ Le principe :
 * **Visuel :** les diapositives sont surtout composées d’images, et non de longs textes.
 * Il faut éviter d’inclure des vidéos, de l’audio et, surtout, des liens externes.
 
-**## Exemples de présentations Pecha Kucha**
+## Exemples de présentations Pecha Kucha**
 
 * [Intellect Begets Art](https://www.youtube.com/watch?v=HmhhfbIsTSk)
 * [Games as Interactive Art](https://www.youtube.com/watch?v=wb16067ptX8)
 * [Video Games as Art (PechaKucha)](https://www.youtube.com/watch?v=Y-vc_2o8IR4)
 
-**## Comment automatiser le défilement d’une présentation PowerPoint**
+## Comment automatiser le défilement d’une présentation PowerPoint**
 
 Les deux méthodes suivantes exigent l’utilisation de l’application de bureau (et non de la version en ligne) de PowerPoint.
 
-**### Avec des transitions**
+### Avec des transitions**
 
 ![](./transitions_20secondes.svg)
 
-**### En exportant une vidéo**
+### En exportant une vidéo**
 
 ![](./exporter_video.svg)
