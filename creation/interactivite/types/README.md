@@ -10,11 +10,11 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 | Type                           | Exemples                                                    |
 | ------------------------------ | ----------------------------------------------------------- |
 | **Entrer dans un autre monde** | VR, projection immersive, environnement 360°                |
-| **Augmenter le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
+| **Superposer sur le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
 | **Se voir transformé.e**       | miroir magique, silhouette interactive, caméra, Kinect                        |
-| **Agir avec son corps**        | Lidar, caméra, Kinect                        |
+| **Agir avec son corps (sans objet)**        | Lidar, caméra, Kinect                        |
 | **Agir sur un objet**          | objets augmentés, interfaces tangibles                      |
-| **Agir avec un objet**         | télé-interface (web app), QR/NFC, Wiimote                           |
+| **Agir avec un objet (qui nous augmente)**         | télé-interface (web app), QR/NFC, Wiimote                           |
 | **Transformer l'espace**       | mur interactif, sol interactif, installation réactive       |
 | **Collaborer à plusieurs**          | œuvre collective, vote, composition audiovisuelle           |
 | **Laisser une trace**          | mémoire de l'installation, contenu généré par les visiteurs |
