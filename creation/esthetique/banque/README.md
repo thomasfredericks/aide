@@ -28,7 +28,7 @@ Cette description permet de maintenir une cohérence entre les différents élé
 
 | Émotion | Timbre | Structure | Références |
 |---|---|---|---|
-| joyeux ↔ triste | scintillant ↔ sombre | musical ↔ chaotique | mécanique ↔ organique |
+| joyeux ↔ triste | arrondi ↔ angulaire | musical ↔ chaotique | mécanique ↔ organique |
 | mélancolique ↔ euphorique | granuleux ↔ soyeux | harmonieux ↔ dissonant | cartoonesque ↔ crédible |
 | plaisant ↔ intimidant  | saturé ↔ épuré  | rythmé ↔ chaotique | narratif ↔ fonctionnel |
 | dramatique ↔ humoristique | doux ↔ agressif | répétitif  | contrasté ↔ uniforme |
@@ -38,5 +38,5 @@ Cette description permet de maintenir une cohérence entre les différents élé
 | enjoué ↔ tendu | puissant ↔ léger | pulsatif ↔ continu | stylisé ↔ naturaliste |
 | serein ↔ violent | chaleureux ↔ froid | progressif ↔ explosif | mythologique |
 | individu héroïque | brillant ↔ sombre | tempo stable ↔ instable | nostalgique  |
-| situation épique | physique ↔ intangible | fragile ↔ solide | futuriste |
+| situation épique | scintillant ↔ sombre| fragile ↔ solide | futuriste |
 | optimiste ↔ pessimiste | précis ↔ diffus | évolutif  | guerrier ↔ pacifiste |
