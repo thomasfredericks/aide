@@ -9,14 +9,14 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 
 | Type                           | Exemples                                                    |
 | ------------------------------ | ----------------------------------------------------------- |
-| **Entrer dans un autre monde** | VR, projection immersive, environnement 360°                |
+| **Explorer un autre monde** | VR, projection immersive, environnement 360°                |
 | **Superposer sur le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
-| **Se voir transformé.e**       | miroir magique, silhouette interactive, caméra, Kinect                        |
+| **Se voir transformé.e**       | Miroir magique, silhouette interactive, caméra, Kinect                        |
 | **Agir avec son corps (sans objet)**        | Lidar, caméra, Kinect                        |
-| **Agir sur un objet (central)**          | objets augmentés, interfaces tangibles                      |
-| **Agir avec un objet (qui nous augmente)**         | télé-interface (web app), QR/NFC, Wiimote                           |
-| **Transformer l'espace**       | mur interactif, sol interactif, installation réactive       |
-| **Collaborer à plusieurs**          | œuvre collective, vote, composition audiovisuelle           |
-| **Laisser une trace**          | mémoire de l'installation, contenu généré par les visiteurs |
-| **Être connecté à distance**   | présence virtuelle, intervention à distance                 |
-| **Contrôler le temps**         | manipuler l'écoulement du temps                             |
+| **Agir sur un objet central**          | L'objet est la cible de mon action et l'objet est l'élément principal : objets augmentés, interfaces tangibles                      |
+| **Étendre son corps par un objet**         | L'objet devient le prolongement de mon action : télé-interface (web app), QR/NFC, Wiimote                           |
+| **Agir sur son environnement**       | Mur interactif, sol interactif, installation réactive       |
+| **Collaborer à plusieurs**          | Expérience collective, vote, composition audiovisuelle           |
+| **Laisser une trace**          | Mémoire de l'installation, contenu généré par les visiteurs |
+| **Agir à distance**   | Présence virtuelle, intervention à distance                 |
+| **Agir sur le déroulement du temps**         | Manipuler l'écoulement du temps                             |
