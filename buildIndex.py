@@ -24,7 +24,8 @@ ALIASES = {
     "IU" : "Interface utilisateur",
     "GUI" : "Interface utilisateur",
     "BL" : "Bibliothèque logicielle",
-    "PL" : "Plugiciel"
+    "PL" : "Plugiciel",
+    "Breadboard" : "Platine d'expérimentation"
 }
 
 # Liste des expressions à garder groupées (insensible à la casse)
@@ -41,7 +42,8 @@ COMBOS = [
     "Virtual MIDI Keyboard",
     "Grand modèle de langage",
     "Interface utilisateur",
-    "Bibliothèque logicielle"
+    "Bibliothèque logicielle",
+    "Platine d'expérimentation"
 ]
 
 SKIP_WORDS = {

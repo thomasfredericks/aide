@@ -1,5 +1,5 @@
 
-# Alimenter la platine d'expérimentation avec une carte Arduino
+# Alimenter un *breadboard* avec une carte Arduino
 
 ## Pôles de la carte Arduino Nano
 

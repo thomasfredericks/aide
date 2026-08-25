@@ -32,7 +32,7 @@
 * ALÉATOIRE
   * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * ALIMENTER
-  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
+  * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
 * ANALYSE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
@@ -48,12 +48,14 @@
   * [Types d'apprentissage automatique (IA, GML, IA générale)](../culture/ia/types/)
 * ARCADE
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
+  * [Bouton d’arcade](../fabrication/electronique/composants/bouton/arcade/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * ARDUINO
-  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
+  * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
   * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
+  * [Arduino Terminals : Potentiomètre](../fabrication/arduino/terminals/potentiometre/)
   * [Arduino](../fabrication/arduino/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
   * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
@@ -153,6 +155,7 @@
 * BOUTON
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
+  * [Bouton d’arcade](../fabrication/electronique/composants/bouton/arcade/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
@@ -161,7 +164,9 @@
 * BRAVE
   * [Brave](../logiciels/brave/)
 * BREADBOARD
+  * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
+  * Voir : Platine d'expérimentation
 * BROCHE
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
 * BULLE
@@ -173,7 +178,7 @@
 * CAPACITANCE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * CARTE
-  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
+  * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
 * CAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
@@ -393,9 +398,6 @@
 * EXPÉRIENCE
   * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
-* EXPÉRIMENTATION
-  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
-  * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * EXTOSC
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
@@ -856,8 +858,7 @@
 * PLATFORMIO
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
-* PLATINE
-  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
+* PLATINE D'EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * PLAY,STOP,VOLUME,VU
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
@@ -874,7 +875,9 @@
 * POE
   * [Atom POE](../fabrication/m5stack/atom-poe/)
 * POTENTIOMÈTRE
+  * [Arduino Terminals : Potentiomètre](../fabrication/arduino/terminals/potentiometre/)
   * [M5Stack Unit 3.96 et potentiomètre](../fabrication/m5stack/units/396/potentiometre/)
+  * [Potentiomètre](../fabrication/electronique/composants/potentiometre/)
 * POUVOIR
   * [Pouvoir, richesse et empathie](../culture/pouvoir/empathie/)
 * PRATIQUE
@@ -1067,6 +1070,7 @@
   * [Électronique : Référence de tension](../fabrication/electronique/circuits/references/)
 * TERMINAL
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
+  * [Arduino Terminals : Potentiomètre](../fabrication/arduino/terminals/potentiometre/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
 * TEST
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)

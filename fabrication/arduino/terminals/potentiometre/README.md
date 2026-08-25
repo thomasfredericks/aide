@@ -1,4 +1,4 @@
-## Arduino Terminals : Potentiomètre
+# Arduino Terminals : Potentiomètre
 
 Un potentiomètre standard possède trois broches :
 

@@ -109,7 +109,10 @@
       - [references](/fabrication/electronique/circuits/references/)
       - [schemas](/fabrication/electronique/circuits/schemas/)
     - *composants*
+      - *bouton*
+        - [arcade](/fabrication/electronique/composants/bouton/arcade/)
       - [del](/fabrication/electronique/composants/del/)
+      - [potentiometre](/fabrication/electronique/composants/potentiometre/)
       - [resistance](/fabrication/electronique/composants/resistance/)
     - [electricite](/fabrication/electronique/electricite/)
     - [fatalites](/fabrication/electronique/fatalites/)
