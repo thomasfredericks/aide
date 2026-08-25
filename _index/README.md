@@ -32,6 +32,7 @@
 * ALÉATOIRE
   * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * ALIMENTER
+  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Alimenter une DEL](../fabrication/electronique/platine/del/)
 * ANALYSE
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
@@ -49,6 +50,7 @@
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [M5Stack Unit 3.96 et bouton d'arcade](../fabrication/m5stack/units/396/bouton/arcade/)
 * ARDUINO
+  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
   * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
@@ -171,6 +173,7 @@
 * CAPACITANCE
   * [Mesure de capacitance avec un ESP32](../_hidden/exemples/capacitance/)
 * CARTE
+  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
 * CAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
@@ -391,6 +394,7 @@
   * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
 * EXPÉRIMENTATION
+  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * EXTOSC
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
@@ -823,6 +827,8 @@
   * Voir : Pure Data
 * PDCHOCO
   * [pdchoco](../logiciels/pd/pdchoco/)
+* PECHA KUCHA
+  * [Pecha Kucha**](../creation/pecha_kucha/)
 * PENSÉE
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * PERFORM
@@ -851,6 +857,7 @@
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
 * PLATINE
+  * [Alimenter la platine d'expérimentation avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
 * PLAY,STOP,VOLUME,VU
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)

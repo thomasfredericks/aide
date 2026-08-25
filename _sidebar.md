@@ -115,6 +115,8 @@
     - [fatalites](/fabrication/electronique/fatalites/)
     - [multimetre](/fabrication/electronique/multimetre/)
     - [platine](/fabrication/electronique/platine/)
+      - *alimenter*
+        - [carte](/fabrication/electronique/platine/alimenter/carte/)
       - [del](/fabrication/electronique/platine/del/)
     - [soudure](/fabrication/electronique/soudure/)
   - *esp32*
