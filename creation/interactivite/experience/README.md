@@ -41,3 +41,10 @@ Le sens n’est pas entièrement prescrit : il se construit dans la perception, 
 * L’utilisateur développe progressivement une compréhension du système.
 * L’expérience peut évoluer en fonction des choix et des actions de l’utilisateur.
 * L’expérience se construit par l’action, dans l’espace et dans le temps.
+
+|  | Cinéma | Arts plastiques | Expérience multimédia interactive (jeux vidéo) |
+|---|---|---|---|
+| **Temps** | Déroulement imposé dans le temps. | Durée libre. | Déroulement variable selon les actions. |
+| **Espace** | Espace principalement représenté à l’écran. | Espace librement exploré. | Espace exploré et manipulé. |
+| **Progression dans l’expérience** | Déterminée par le créateur. | Construite par le spectateur. | Construite par les actions et les choix de l’utilisateur. |
+| **Contrôle de l’expérience** | Principalement contrôlé par le créateur. | Principalement contrôlé par le spectateur. | Partagé entre le créateur et l’utilisateur. |
