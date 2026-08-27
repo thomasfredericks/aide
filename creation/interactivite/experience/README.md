@@ -2,9 +2,7 @@
 
 Une expérience **multimédia** est une activité ou une présentation qui combine plusieurs types de médias pour transmettre de l’information, raconter une histoire ou créer une ambiance. Les médias peuvent prendre différentes formes : image, sculpture, vidéo, son, texte, papier, lumière, etc.
 
-
-Une expérience multimédia **interactive** est une expérience multimédia dont le contenu ou la progression est dirigé ou influencé par le public. Le public peut également interagir avec l’expérience ou y ajouter du contenu.
-
+Une expérience multimédia **interactive** est une expérience multimédia dont le contenu ou la progression est dirigé ou influencé par le public.
 
 Il existe toutefois différents **degrés d’interactivité**. Il est possible de les situer sur un [continuum](../continuum/) selon l’influence que les actions de l’utilisateur ont sur l’expérience.
 
@@ -15,7 +13,7 @@ Pour vivre une expérience, le spectateur doit la parcourir. Pour mieux comprend
 * Le cinéma
 * L’art plastique
 
-### Le parcours du spectateur au cinéma
+## Le parcours du spectateur au cinéma
 
 Le cinéma consiste à organiser des images et des sons dans le temps afin de produire une expérience guidée. Le déroulement de l’œuvre est principalement déterminé par le créateur : le spectateur peut interpréter ce qu’il voit et ressentir des émotions, mais il ne modifie généralement pas la progression de l’œuvre.
 
@@ -23,7 +21,7 @@ Le cinéma consiste à organiser des images et des sons dans le temps afin de pr
 * Le temps consacré à l’œuvre est généralement laissé au choix du spectateur.
 * L’œuvre se traverse par le temps.
 
-### Le parcours du spectateur face à de l'art plastique
+## Le parcours du spectateur face à de l'art plastique
 
 Une expérience plastique est principalement organisée par la présence de formes dans l’espace. Elle laisse au spectateur la liberté de déterminer son point de vue, son parcours et le temps qu’il lui consacre.
 

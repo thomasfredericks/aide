@@ -14,6 +14,26 @@ En 1843, Ada traduit un article sur l’**Analytical Engine**, une machine à ca
 
 > *“L’Analytical Engine pourrait composer des morceaux de musique d’une complexité quelconque.”*
 
+Oui. Je ferais surtout quelques corrections de formulation et je renforcerais la dernière idée : ce n’est pas seulement une question d’algorithmes, mais de données, de puissance de calcul et d’infrastructures.
+
+
+## Intelligence artificielle (1940)
+
+Les recherches en intelligence artificielle commencent véritablement dans les années 1940 :
+
+- En 1943, Warren McCulloch et Walter Pitts proposent un modèle mathématique du neurone artificiel, qui deviendra l’une des bases des réseaux de neurones.
+- En 1950, Alan Turing publie Computing Machinery and Intelligence et pose la question de la capacité des machines à penser.
+- En 1956, la conférence de Dartmouth marque la naissance officielle du domaine de l’intelligence artificielle.
+
+Dans les décennies suivantes apparaissent les premiers systèmes capables d’apprendre ou de générer :
+
+- En 1957, Frank Rosenblatt développe le Perceptron, l’un des premiers réseaux de neurones capables d’apprendre.
+- Dans les années 1960, Joseph Weizenbaum crée ELIZA, un programme capable de simuler une conversation humaine.
+
+Les principes et les algorithmes existaient donc depuis plusieurs décennies, mais il faudra attendre la concentration massive des données, de la puissance de calcul et des infrastructures pour permettre leur développement à grande échelle.
+
+- Les GAN (2014), les transformers (2017) et les modèles de diffusion constituent ensuite des étapes majeures vers les IA génératives contemporaines.
+
 
 ## Hilma af Klint (1862–1944)
 
