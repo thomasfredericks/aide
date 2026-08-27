@@ -9,7 +9,7 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 
 | Type                           | Exemples                                                    |
 | ------------------------------ | ----------------------------------------------------------- |
-| **Explorer un autre monde** | VR, projection immersive, environnement 360°                |
+| **Entrer dans un autre monde** | VR, projection immersive, environnement 360°                |
 | **Superposer sur le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
 | **Se voir transformé.e**       | Miroir magique, silhouette interactive, caméra, Kinect                        |
 | **Agir avec son corps (sans objet)**        | Lidar, caméra, Kinect                        |
