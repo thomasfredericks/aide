@@ -14,8 +14,6 @@ En 1843, Ada traduit un article sur l’**Analytical Engine**, une machine à ca
 
 > *“L’Analytical Engine pourrait composer des morceaux de musique d’une complexité quelconque.”*
 
-Oui. Je ferais surtout quelques corrections de formulation et je renforcerais la dernière idée : ce n’est pas seulement une question d’algorithmes, mais de données, de puissance de calcul et d’infrastructures.
-
 
 ## Intelligence artificielle (1940)
 
@@ -56,10 +54,6 @@ Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 > « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n'avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
 
-Hilma pensait que son œuvre ne serait comprise que **des décennies après sa mort**. Elle a demandé que ses peintures ne soient pas exposées **avant 20 ans** après sa mort.
-
-Elle est restée **inconnue du grand public jusqu’aux années 1980**, puis redécouverte dans les années 2000.
-
 ![](./hilma.png)
 
 ![](./hilma2.png)
@@ -95,8 +89,6 @@ Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Mor
 > Nous voulons développer chez le spectateur une forte capacité de perception et d'action.  
 
 Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries/c_frs/mordoch/grav/grav.html).
-
-
 
 ## Ivan Sutherland (1963, 1965)
 
