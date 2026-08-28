@@ -26,17 +26,25 @@ On peut en préciser 4 dimensions :
 
 Cette description permet de maintenir une cohérence entre les différents éléments du projet.
 
+
 | Émotion | Timbre | Structure | Références |
 |---|---|---|---|
-| joyeux ↔ triste | arrondi ↔ angulaire | musical ↔ chaotique | mécanique ↔ organique |
-| mélancolique ↔ euphorique | granuleux ↔ soyeux | harmonieux ↔ dissonant | cartoonesque ↔ crédible |
-| plaisant ↔ intimidant  | saturé ↔ épuré  | rythmé ↔ chaotique | narratif ↔ fonctionnel |
-| dramatique ↔ humoristique | doux ↔ agressif | répétitif  | contrasté ↔ uniforme |
-| apaisant ↔ anxiogène | son pur ↔ spectre complexe | lent ↔ rapide | simple ↔ complexe |
-| oppressant ↔ rassurant | minimal ↔ dense | fluide ↔ saccadé | ludique ↔ sérieux |
-| naïf ↔ mature | chargé ↔ aéré | statique ↔ frénétique | performant ↔ contemplatif |
-| enjoué ↔ tendu | puissant ↔ léger | pulsatif ↔ continu | stylisé ↔ naturaliste |
-| serein ↔ violent | chaleureux ↔ froid | progressif ↔ explosif | mythologique |
-| individu héroïque | brillant ↔ sombre | tempo stable ↔ instable | nostalgique  |
-| situation épique | scintillant ↔ sombre| fragile ↔ solide | futuriste |
-| optimiste ↔ pessimiste | précis ↔ diffus | évolutif  | guerrier ↔ pacifiste |
+| joyeux ↔ triste | arrondi ↔ angulaire | musical ↔ ambiance | mécanique ↔ organique |
+| mélancolique ↔ euphorique | granuleux ↔ soyeux | harmonieux ↔ dissonant | cartoonesque ↔ crédible |
+| plaisant ↔ intimidant | saturé ↔ épuré | rythmé ↔ chaotique | narratif ↔ fonctionnel |
+| dramatique ↔ humoristique | doux ↔ agressif | répétitif ↔ varié | contrasté ↔ uniforme |
+| apaisant ↔ anxiogène | son pur ↔ spectre complexe | lent ↔ rapide | simple ↔ complexe |
+| oppressant ↔ rassurant | minimal ↔ dense | fluide ↔ saccadé | ludique ↔ sérieux |
+| naïf ↔ mature | chargé ↔ aéré | statique ↔ frénétique | performant ↔ contemplatif |
+| enjoué ↔ tendu | puissant ↔ léger | pulsatif ↔ continu | stylisé ↔ naturaliste |
+| serein ↔ violent | chaleureux ↔ froid | progressif ↔ explosif | mythologique ↔ quotidien |
+| héroïque ↔ vulnérable | brillant ↔ feutré | tempo stable ↔ instable | nostalgique ↔ contemporain |
+| épique ↔ intime | scintillant ↔ mat | fragile ↔ solide | futuriste ↔ rétro |
+| optimiste ↔ pessimiste | précis ↔ diffus | évolutif ↔ statique | guerrier ↔ pacifiste |
+| clinique ↔ affectif | coloré ↔ monochromatique | mélodique ↔ textural | naturel ↔ artificiel |
+| indifférent ↔ passionné | hyperréaliste ↔ stylisé | micro-variations ↔ grandes variations | nature ↔ industriel |
+| détaché ↔ impliqué | clair ↔ sombre | continu ↔ fragmenté | scientifique ↔ mystique |
+| contemplatif ↔ fébrile | sec ↔ réverbérant | prévisible ↔ imprévisible | urbain ↔ rural |
+| neutre ↔ expressif | brut ↔ travaillé | linéaire ↔ cyclique | documentaire ↔ fictionnel |
+| réaliste ↔ fantastique | proche ↔ lointain | isolé ↔ superposé | humain ↔ technologique |
+| chaleureux ↔ hostile | acoustique ↔ électronique | minimal ↔ maximal | archaïque ↔ futuriste |

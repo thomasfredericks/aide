@@ -194,6 +194,7 @@
 * CHAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CIBLE
+  * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Public cible](../creation/interactivite/public/)
 * CIRCUIT
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
@@ -321,6 +322,8 @@
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
 * DIRECTE
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
+* DOOM
+  * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
 * DROIT
   * [Autorat : droit d'auteur](../culture/autorat/)
 * DURÉE
@@ -382,6 +385,7 @@
   * [IU : Espacer les éléments](../creation/visuel/iu/espace/)
 * ESTHÉTIQUE
   * [Banque de mots pour l'esthétique](../creation/esthetique/banque/)
+  * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * ÉTABLIR
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
@@ -391,6 +395,8 @@
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
 * ÉTATS-UNI
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
+* ETERNAL
+  * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
 * EXÉCUTER
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
 * EXÉCUTION
@@ -910,6 +916,7 @@
 * PSYCHOLOGIQUE
   * [Effets sur la santé psychologique des GML](../culture/ia/sante/)
 * PUBLIC
+  * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Public cible](../creation/interactivite/public/)
 * PURE DATA
   * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)

@@ -13,6 +13,7 @@
     - [processus](/creation/audiovisuel/processus/)
   - *esthetique*
     - [banque](/creation/esthetique/banque/)
+    - [doom](/creation/esthetique/doom/)
   - [gestalt](/creation/gestalt/)
   - *interactivite*
     - [analyse](/creation/interactivite/analyse/)
