@@ -22,17 +22,17 @@ Le public cible n’est donc pas nécessairement l’ensemble des personnes qui 
 
 ![Graphique de la taxonomie des types de joueurs de Richard Bartle](./joueurs_richard_bartle.drawio.png)
 
-- Axe horizontal : Joueurs ⟷ Monde
-    - Joueurs : L’intérêt est centré sur les autres joueurs. Le joueur cherche l’affrontement, la coopération ou l’interaction sociale.
+- Axe horizontal : Joueurs/Ennemis ⟷ Monde
+    - Joueurs : L’intérêt est centré sur les autres joueurs ou sur les ennemis. Le joueur cherche l’affrontement, la coopération ou l’interaction sociale.
     - Monde : L’intérêt est centré sur le monde virtuel lui-même. Le joueur veut découvrir, construire, progresser ou maîtriser l’univers du jeu.
-- Axe vertical : Agir ⟷ Interagir
-    - Agir : Le joueur préfère agir sur son environnement ou sur les autres (imposer, conquérir, dominer, accomplir). C’est une posture active, orientée vers l’impact direct. Le joueur veut changer, transformer, contrôler.
+- Axe vertical : Agir (dominer) ⟷ Interagir
+    - Agir (dominer) : Le joueur préfère agir sur son environnement ou sur les autres (imposer, conquérir, dominer, accomplir). C’est une posture active, orientée vers l’impact direct. Le joueur veut changer, transformer, contrôler.
     - Le joueur préfère interagir avec les autres ou le monde (dialoguer, échanger, explorer, comprendre). C’est une posture relationnelle, orientée vers l’échange ou la compréhension. Le joueur cherche à communiquer, collaborer, découvrir plutôt qu’imposer
 
 ### 4 grands profils
 
-- Tueurs : agir sur les joueurs (compétition, PvP, domination) → attaquer, battre, dominer.
-- Réalisateurs : agir sur le monde (avancer, accomplir, accumuler) → gagner des niveaux, accumuler des ressources, construire.
+- Tueurs : agir sur les joueurs (compétition, PvP, domination) ou les ennemis → attaquer, battre, dominer.
+- Accomplisseurs (réalisateurs) : agir sur le monde (avancer, accomplir, accumuler) → gagner des niveaux, accumuler des ressources, construire.
 - Sociables : interagir avec les joueurs (coopération, amitié, communauté)  → discuter, créer des liens, coopérer .
 - Explorateurs : interagir avec le monde (curiosité, découverte, compréhension) → explorer, observer, comprendre les mécaniques.
 
