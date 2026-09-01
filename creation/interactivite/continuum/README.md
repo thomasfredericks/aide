@@ -9,16 +9,16 @@ Continuum de l'interactivité :
 
 ```mermaid
 flowchart LR
-    A["Dévoiler du contenu"]
+    A["Dévoiler un contenu"]
     B["Modifier l’œuvre (contenu ou comportement)"]
     C["Faire émerger de nouvelles possibilités"]
 
     A --- B --- C
 ```
 
-À une extrémité, l’interaction sert principalement à **dévoiler un contenu prédéterminé** : l’utilisateur choisit ce qu’il découvre, mais ne transforme pas réellement l’œuvre.
+À une extrémité, l’interaction sert principalement à **dévoiler un contenu prédéterminé** : l’utilisateur choisit ce qu’il découvre, mais ne transforme pas réellement l'expérience.
 
-Au centre, les actions de l’utilisateur **modifient l’état de l’œuvre** et peuvent influencer ce que vivront les utilisateurs suivants. Le contenu et les comportements peuvent être influencés. 
+Au centre, les actions de l’utilisateur **modifient l’état de l’œuvre**. Le contenu peut être modifié et les comportements de l'expérience peuvent changer pour s'adapter aux interactions. S'il y a modification de contenu, ce nouveau contenu doit pouvoir être expérimenté par les utilisateurs suivants. 
 
-À l’autre extrémité, l’œuvre fonctionne comme un **système ouvert** dont les règles permettent l’apparition de comportements ou de résultats qui n’ont pas été entièrement prévus par les concepteurs. On parle alors d’**interactivité émergente** : les utilisateurs peuvent créer, par leurs actions et leurs interactions entre eux, des situations nouvelles qui deviennent à leur tour partie de l’expérience.
+À l’autre extrémité, l'expérience fonctionne comme un **système ouvert** dont les règles permettent l’apparition de comportements ou de résultats qui n’ont pas été entièrement prévus par les concepteurs. On parle alors d’**interactivité émergente** : les utilisateurs peuvent créer, par leurs actions et leurs interactions entre eux, des situations nouvelles qui deviennent à leur tour partie de l’expérience.
 
