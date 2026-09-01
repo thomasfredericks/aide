@@ -91,9 +91,6 @@
           - [ralentir](/fabrication/arduino/code/millis/remplacer_delay/ralentir/)
       - [random](/fabrication/arduino/code/random/)
       - [serial](/fabrication/arduino/code/serial/)
-      - [traitement](/fabrication/arduino/code/traitement/)
-        - [changement](/fabrication/arduino/code/traitement/changement/)
-        - [flux](/fabrication/arduino/code/traitement/flux/)
     - [ide](/fabrication/arduino/ide/)
     - [nano](/fabrication/arduino/nano/)
       - [atmega](/fabrication/arduino/nano/atmega/)
@@ -101,7 +98,15 @@
     - [terminals](/fabrication/arduino/terminals/)
       - [bouton_arcade](/fabrication/arduino/terminals/bouton_arcade/)
       - [potentiometre](/fabrication/arduino/terminals/potentiometre/)
+    - [traitement](/fabrication/arduino/traitement/)
+      - [changement](/fabrication/arduino/traitement/changement/)
+      - [flux](/fabrication/arduino/traitement/flux/)
+    - *tutoriels*
+      - [clignotement](/fabrication/arduino/tutoriels/clignotement/)
+  - [bounce2](/fabrication/bounce2/)
+  - [chrono](/fabrication/chrono/)
   - *cpp*
+    - [code](/fabrication/cpp/code/)
     - [style](/fabrication/cpp/style/)
   - [ddp](/fabrication/ddp/)
   - *electronique*
@@ -170,7 +175,7 @@
   - [pixels](/fabrication/pixels/)
     - [fastled](/fabrication/pixels/fastled/)
     - [neopixel](/fabrication/pixels/neopixel/)
-  - *platformio*
+  - [platformio](/fabrication/platformio/)
     - [nouveau](/fabrication/platformio/nouveau/)
     - *pioarduino*
       - [espressif32](/fabrication/platformio/pioarduino/espressif32/)

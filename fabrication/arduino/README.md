@@ -3,8 +3,8 @@
 Le nom Arduino peut faire référence à plusieurs choses :
 
 - Le langage de programmation *Arduino* : [Code Arduino](./code/).
-- Le logiciel de développement *Arduino IDE*.
-- L'organisme *Arduino* qui maintient le code à jour : [Arduino.cc](https://www.arduino.cc/)
+- Le logiciel de développement *Arduino IDE* : [docs.arduino.cc/software/ide](https://docs.arduino.cc/software/ide/).
+- L'organisme *Arduino* qui maintient le code à jour : [arduino.cc](https://www.arduino.cc/)
 - Une carte *Arduino* : un petit circuit électronique programmable (pas nécessairement fabriqué par l'organisme Arduino).
 
 ## Modèles de carte

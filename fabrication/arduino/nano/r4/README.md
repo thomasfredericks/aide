@@ -1,10 +1,10 @@
 # Arduino Nano R4
 
-La carte **Nano R4** représente l’évolution naturelle de la famille Nano. Elle combine le puissant microcontrôleur **RA4M1 de Renesas** avec le format compact et familier des cartes Nano. 
+La carte **Nano R4** représente la dernière évolution de la famille Nano. Elle combine le puissant microcontrôleur **RA4M1 de Renesas** avec le format compact et familier des cartes Nano. 
 
 La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3CFM)**, une connectivité étendue grâce à un connecteur **Qwiic** intégré, ainsi que des fonctionnalités avancées telles qu'un **DAC**, le **CAN** et des **amplificateurs opérationnels (OpAmp)**.
 
-Avec ses dimensions compactes de **18 mm × 45 mm** et sa construction robuste, la Nano R4 constitue un excellent choix pour les projets nécessitant des capacités de **fusion de données provenant de plusieurs capteurs (sensor fusion)** ainsi qu'une puissance de calcul adaptée aux microcontrôleurs modernes.
+Dimensions : **18 mm × 45 mm**.
 
 ![Arduino Nano R4](./arduino_nano_r4.png)
 
@@ -26,9 +26,6 @@ Avec ses dimensions compactes de **18 mm × 45 mm** et sa construction robuste, 
   * un **bus CAN** destiné notamment aux communications industrielles ;
   * des **amplificateurs opérationnels (OpAmp) intégrés** ;
   * des capacités d'**émulation HID**, permettant notamment de simuler un **clavier ou une souris USB**.
-
-
-
 
 ## Configuration
 

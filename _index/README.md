@@ -58,14 +58,15 @@
   * [Arduino Terminals : Potentiomètre](../fabrication/arduino/terminals/potentiometre/)
   * [Arduino](../fabrication/arduino/)
   * [Arduino : Guide de style](../fabrication/cpp/style/)
-  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
-  * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
-  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/traitement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
+  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
 * ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * ARTIFICIELLE
@@ -139,6 +140,9 @@
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
 * BIBLIOGRAPHIE
   * [Bibliographie Montmorency](../culture/biblio_momo/)
+* BIBLIOTHÈQUE
+  * [La bibliothèque Bounce2](../fabrication/bounce2/)
+  * [La bibliothèque Chrono](../fabrication/chrono/)
 * BIBLIOTHÈQUE LOGICIELLE
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
 * BL
@@ -152,6 +156,8 @@
   * [Bonnes pratiques *git* pour TouchDesigner](../logiciels/touchdesigner/git/)
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
+* BOUNCE2
+  * [La bibliothèque Bounce2](../fabrication/bounce2/)
 * BOUTON
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
@@ -173,6 +179,8 @@
   * [Bulles](../logiciels/vcv_rack/patchs/bulles/)
 
 ## C
+* C++
+  * [Le code C++ (cpp)](../fabrication/cpp/code/)
 * CÂBLE
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * CAPACITANCE
@@ -189,10 +197,12 @@
 * CELLULAIRE
   * [Surveillance cellulaire](../culture/surveillance/cellulaire/)
 * CHANGEMENT
-  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Unity : changement](../logiciels/unity/traitement/changement/)
 * CHAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+* CHRONO
+  * [La bibliothèque Chrono](../fabrication/chrono/)
 * CIBLE
   * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Public cible](../creation/interactivite/public/)
@@ -203,6 +213,8 @@
   * [Clavier États-Unis international dans Windows](../logiciels/windows/clavier/us_international/)
 * CLIGNOTE
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
+* CLIGNOTEMENT
+  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
 * CLIGNOTER
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
 * CODE
@@ -211,6 +223,7 @@
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
   * [Le code Arduino](../fabrication/arduino/code/)
+  * [Le code C++ (cpp)](../fabrication/cpp/code/)
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * CODEC
   * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
@@ -240,7 +253,7 @@
 * CONNEXION
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
 * CONTINU
-  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
 * CONTINUUM
   * [Continuum de l'interactivité](../creation/interactivite/continuum/)
 * CONTRAINTE
@@ -268,6 +281,8 @@
   * [IU : Couleur](../creation/visuel/iu/couleur/)
 * COURT
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
+* CPP
+  * [Le code C++ (cpp)](../fabrication/cpp/code/)
 * CRÉATION
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
@@ -434,7 +449,7 @@
 * FLOP
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * FLUX
-  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
 * FOND
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * FORME
@@ -549,6 +564,8 @@
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * INTELLIGENCE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
+* INTERACTIF
+  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
 * INTERACTION
   * [Types d'interaction](../creation/interactivite/types/)
 * INTERACTIVE
@@ -863,6 +880,7 @@
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * PLATFORMIO
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
+  * [PlatformIO](../fabrication/platformio/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
 * PLATINE D'EXPÉRIMENTATION
   * [Platine d'expérimentation (breadboard)](../fabrication/electronique/platine/)
@@ -1119,12 +1137,12 @@
 * TRAIL
   * [TouchDesigner : _Null_ et _Trail_](../logiciels/touchdesigner/null_et_trail/)
 * TRAITEMENT
-  * [Arduino : traitement en flux continu](../fabrication/arduino/code/traitement/flux/)
-  * [Arduino : Traitement](../fabrication/arduino/code/traitement/)
+  * [Arduino : traitement en flux continu](../fabrication/arduino/traitement/flux/)
+  * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [TD : Traitement de signaux](../logiciels/touchdesigner/traitement/)
   * [Unity : Traitement de messages](../logiciels/unity/traitement/)
 * TRAITER
-  * [Arduino : traiter le changement](../fabrication/arduino/code/traitement/changement/)
+  * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Traiter l'état du bouton](../_hidden/exemples/etat-bouton.md)
 * TRANSPARENT
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
@@ -1133,6 +1151,7 @@
 * TUNNEL
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * TUTORIEL
+  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
