@@ -26,8 +26,8 @@ Ici, `compteur` est une variable de type `int` dont la valeur initiale est `0`.
 
 | Type | Taille | Étendue | Commentaire |
 |---|---|---|---|
-| `bool` | 1 octet | `false` ou `true` | Pour stocker une valeur vraie ou fausse |
-| `int` | 32 bits | -2 147 483 648 à 2 147 483 647 | Pour stocker un nombre entier |
+| `bool` (Arduino Nano) | 1 bit | `false` ou `true` | Pour stocker une valeur vraie ou fausse |
+| `int` (Arduino Nano) | 16 bits | -32 768 à 32 767 | Pour stocker un nombre entier |
 | `unsigned long` | 32 bits | 0 à 4 294 967 295 | Pour stocker notamment du temps en millisecondes |
 | `float` | 32 bits | Pour stocker un nombre décimal |
 | `char` | 8 bits | Pour stocker un caractère |
