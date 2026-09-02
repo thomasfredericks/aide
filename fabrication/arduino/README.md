@@ -11,6 +11,6 @@ Le nom Arduino peut faire référence à plusieurs choses :
 
 ![](./cartes_modeles.svg)
 
-Il existe plusieurs modèles de cartes Arduino. Certains sont produits par la compagnie Arduino et d'autres sont des clones légaux. La fabrication est la vente de clones est légale, Arduino est en fait un clone de la plateforme [Wiring](http://www.wiring.org.co/). 
+Il existe plusieurs modèles de cartes Arduino. Certains sont produits par la compagnie Arduino et d'autres sont des clones légaux. La fabrication et la vente de clones est légale, Arduino est en fait un clone de la plateforme [Wiring](http://www.wiring.org.co/). 
 
 Pour plus d'informations sur l'ensemble des cartes disponibles, consultez le [Make: Boards Guide](https://makezine.com/comparison/boards).

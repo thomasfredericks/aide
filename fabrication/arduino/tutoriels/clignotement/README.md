@@ -28,6 +28,8 @@ lib_deps =
 
 ## Circuit
 
+![Broches de l'Arduino Nano R4](./arduino_nano_r4_pins.png)
+
 ![Schéma du circuit](./schema.png)
 
 ![Dessin du circuit](./plaquette.png)
