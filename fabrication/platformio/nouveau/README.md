@@ -90,7 +90,7 @@ Suivre ces instructions suivantes pour le modèle indiqué :
 
 ## 4. Git commit
 
-Ne pas oublier de faire un *commit* des modifications.
+Ne pas oublier de faire un *commit* des modifications. Si nécessaire [configurer](/logiciels/git/configuration/) Git sur l'ordinateur.
 
 ## 5. Rouvrir le projet dans  *Visual Studio Code*
 
