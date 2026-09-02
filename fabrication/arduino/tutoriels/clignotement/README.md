@@ -5,6 +5,15 @@
 ## Introduction
 
 
+Ce tutoriel présente progressivement la création d'un système Arduino interactif composé d'une DEL et d'un bouton. 
+
+Il présente :
+- l'utilisation de la bibliothèque `Chrono` 
+- introduit les fonctions `pinMode()` et `digitalWrite()` afin de commander la DEL
+- l'utilisation de la bibliothèque  `Bounce2` et sa classe `Bounce2::Button` 
+- combine tout pour permettre à un bouton de démarrer ou d'arrêter le clignotement de la DEL
+
+
 À configurer dans `platformio.ini` :
 ```ini
 lib_deps =
@@ -13,9 +22,15 @@ lib_deps =
 ```
 
 > [!IMPORTANT]
-> Dans Arduino :
+> Pour un Arduino Nano :
 > `LOW` est la même chose que `0` ou `false` et correspond à `0 volts`
 > `HIGH` est la même chose que `1` ou `true` et correspond à `5 volts`
+
+## Circuit
+
+![Schéma du circuit](./schema.png)
+
+![Dessin du circuit](./plaquette.png)
 
 ## Chrono
 
@@ -88,7 +103,7 @@ Premier objectif : faire clignoter sans délai.
 
 La fonction `pinMode()` permet de configurer une broche :
 
-| Syntaxe | Signification |
+| Instruction | Signification |
 |---|---|
 | `pinMode(BROCHE,INPUT)` | Configure la broche `BROCHE` comme entrée |
 | `pinMode(BROCHE, INPUT_PULLUP)` | Configure la broche `BROCHE` comme entrée avec la résistance pull-up interne activée |
@@ -96,7 +111,7 @@ La fonction `pinMode()` permet de configurer une broche :
 
 La fonction `digitalWrite()` permet d'envoyer une tension électrique sur une broche.
 
-| Syntaxe | Signification |
+| Instruction | Signification |
 |---|---|
 | `digitalWrite(BROCHE, LOW)` | Envoie 0 volts à la broche `BROCHE` |
 | `digitalWrite(BROCHE, HIGH)` | Envoie 5 volts à la  broche `BROCHE`  |
@@ -166,7 +181,7 @@ Bounce2::Button bouton = Bounce2::Button();
 
 Ensuite, nous pouvons accéder aux méthodes suivantes :
 
-| Syntaxe | Signification |
+| Instruction | Signification |
 |---|---|
 | `bouton.attach(BROCHE_BOUTON, INPUT_PULLUP)` | Associe le bouton à la broche `BROCHE_BOUTON` configurée comme entrée avec la résistance pull-up interne activée |
 | `bouton.setPressedState(LOW)` | Considère que le bouton est appuyé lorsque la broche est à `LOW` |
@@ -257,14 +272,14 @@ DEL allumée → DEL éteinte
 
 La méthode `pressed()` permet de savoir si une pression sur le bouton vient d'être détectée :
 
-| Syntaxe | Valeur retournée | Signification |
+| Instruction | Valeur retournée | Signification |
 |---|---|---|
 | `bouton.pressed()` | `true` | Une pression vient d'être détectée |
 | `bouton.pressed()` | `false` | Aucune nouvelle pression n'a été détectée |
 
 La méthode `released()` permet de savoir si un relâchement du bouton vient d'être détecté :
 
-| Syntaxe | Valeur retournée | Signification |
+| Instruction | Valeur retournée | Signification |
 |---|---|---|
 | `bouton.released()` | `true` | Un relâchement vient d'être détecté |
 | `bouton.released()` | `false` | Aucun nouveau relâchement n'a été détecté |
