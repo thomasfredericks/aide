@@ -180,6 +180,7 @@
 
 ## C
 * C++
+  * [C++ : Quiz](../fabrication/cpp/code/quiz/)
   * [Le code C++ (cpp)](../fabrication/cpp/code/)
 * CÂBLE
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
@@ -962,6 +963,8 @@
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * QUALITÉ
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
+* QUIZ
+  * [C++ : Quiz](../fabrication/cpp/code/quiz/)
 
 ## R
 * RALENTIR

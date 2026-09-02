@@ -107,6 +107,7 @@
   - [chrono](/fabrication/chrono/)
   - *cpp*
     - [code](/fabrication/cpp/code/)
+      - [quiz](/fabrication/cpp/code/quiz/)
     - [style](/fabrication/cpp/style/)
   - [ddp](/fabrication/ddp/)
   - *electronique*
