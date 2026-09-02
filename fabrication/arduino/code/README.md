@@ -65,6 +65,24 @@ La fonction `millis()` permet de connaître le nombre de millisecondes écoulée
 |---|---|
 | `millis()` | Retourne le nombre de millisecondes écoulées depuis le démarrage |
 
+Documentation supplémentaire : [millis()](./millis/)
+
+## `Serial`
+
+La classe `Serial` permet de communiquer avec l'ordinateur ou un autre appareil par une liaison série :
+
+| Syntaxe | Signification |
+|---|---|
+| `Serial.begin(VITESSE)` | Initialise la communication série avec une vitesse de `VITESSE` bauds |
+| `Serial.print(VALEUR)` | Envoie `VALEUR` sur la liaison série sans ajouter de retour à la ligne |
+| `Serial.println(VALEUR)` | Envoie `VALEUR` sur la liaison série puis ajoute un retour à la ligne |
+| `Serial.available()` | Retourne le nombre de caractères disponibles à lire |
+| `Serial.read()` | Lit un caractère reçu sur la liaison série |
+| `Serial.write(VALEUR)` | Envoie une donnée sous forme d'octet sur la liaison série |
+
+
+Documentation supplémentaire : [serial()](./serial/)
+
 ## `random()`
 
 La fonction `random()` permet de générer un nombre pseudo-aléatoire :
@@ -74,6 +92,8 @@ La fonction `random()` permet de générer un nombre pseudo-aléatoire :
 | `random(MAXIMUM)` | Génère un nombre compris entre `0` et `MAXIMUM - 1` |
 | `random(MINIMUM, MAXIMUM)` | Génère un nombre compris entre `MINIMUM` et `MAXIMUM - 1` |
 
+Documentation supplémentaire : [random()](./random/)
+
 ## `map()`
 
 La fonction `map()` permet de convertir une valeur d'une plage vers une autre :
@@ -81,6 +101,5 @@ La fonction `map()` permet de convertir une valeur d'une plage vers une autre :
 | Syntaxe | Signification |
 |---|---|
 | `map(VALEUR, MIN_ENTREE, MAX_ENTREE, MIN_SORTIE, MAX_SORTIE)` | Convertit `VALEUR` de la plage d'entrée vers la plage de sortie |
-
 
 
