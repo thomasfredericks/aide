@@ -1,5 +1,3 @@
-Bien sûr. Voici la version sans headers, avec chaque question en gras, tout en conservant le format Markdown brut entre quatre backticks.
-
 # C++ : Quiz
 
 **1. Quelle est la syntaxe générale utilisée pour créer une variable ?**
