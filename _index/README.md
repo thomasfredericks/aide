@@ -62,6 +62,7 @@
   * [Arduino : Traitement](../fabrication/arduino/traitement/)
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
+  * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
@@ -85,6 +86,8 @@
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
 * ATMEGA168
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
+* ATMEGA168/ATMEGA328
+  * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
 * ATMEGA32
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
 * ATOM
@@ -180,7 +183,6 @@
 
 ## C
 * C++
-  * [C++ : Quiz](../fabrication/cpp/code/quiz/)
   * [Le code C++ (cpp)](../fabrication/cpp/code/)
 * CÂBLE
   * [Tutoriel : Matrice de connexions de câbles](../_hidden/exemples/matrice-cables/)
@@ -246,7 +248,9 @@
 * CONCEPTION
   * [Conception sonore](../creation/audio/conception/)
 * CONFIGURATION
+  * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Configuration de l'identité Git](../logiciels/git/configuration/)
+  * [Configuration Nano R4 PlatformIO](../fabrication/arduino/nano/r4/platformio/)
   * [Reaper : Configuration](../logiciels/reaper/configuration/)
   * [TD : Configuration éditeur Python](../logiciels/touchdesigner/python/configuration/)
 * CONFIGURER
@@ -765,6 +769,8 @@
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
   * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
+  * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
+  * [Configuration Nano R4 PlatformIO](../fabrication/arduino/nano/r4/platformio/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
 * NAVIGATEUR
   * [Navigateur dans OBS](../logiciels/obs/source_web/)
@@ -880,6 +886,8 @@
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * PLATFORMIO
+  * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
+  * [Configuration Nano R4 PlatformIO](../fabrication/arduino/nano/r4/platformio/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
   * [PlatformIO](../fabrication/platformio/)
   * [PlatformIO : pioarduino-espressif32](../fabrication/platformio/pioarduino/espressif32/)
@@ -963,8 +971,6 @@
   * [Qualifier l'esthétique sonore](../creation/audio/esthetique/)
 * QUALITÉ
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
-* QUIZ
-  * [C++ : Quiz](../fabrication/cpp/code/quiz/)
 
 ## R
 * RALENTIR

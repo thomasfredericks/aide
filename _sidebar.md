@@ -94,7 +94,9 @@
     - [ide](/fabrication/arduino/ide/)
     - [nano](/fabrication/arduino/nano/)
       - [atmega](/fabrication/arduino/nano/atmega/)
+        - [plaftformio](/fabrication/arduino/nano/atmega/plaftformio/)
       - [r4](/fabrication/arduino/nano/r4/)
+        - [platformio](/fabrication/arduino/nano/r4/platformio/)
     - [terminals](/fabrication/arduino/terminals/)
       - [bouton_arcade](/fabrication/arduino/terminals/bouton_arcade/)
       - [potentiometre](/fabrication/arduino/terminals/potentiometre/)
@@ -107,7 +109,6 @@
   - [chrono](/fabrication/chrono/)
   - *cpp*
     - [code](/fabrication/cpp/code/)
-      - [quiz](/fabrication/cpp/code/quiz/)
     - [style](/fabrication/cpp/style/)
   - [ddp](/fabrication/ddp/)
   - *electronique*
@@ -133,7 +134,6 @@
     - [mac](/fabrication/esp32/mac/)
     - [modeles](/fabrication/esp32/modeles/)
   - [m5stack](/fabrication/m5stack/)
-    - [atom-poe](/fabrication/m5stack/atom-poe/)
     - [atom](/fabrication/m5stack/atom/)
       - [bouton](/fabrication/m5stack/atom/bouton/)
         - [m5lib](/fabrication/m5stack/atom/bouton/m5lib/)
@@ -145,6 +145,7 @@
         - [minimal](/fabrication/m5stack/atom/code/minimal/)
       - [installation](/fabrication/m5stack/atom/installation/)
       - [pixel](/fabrication/m5stack/atom/pixel/)
+    - [atom-poe](/fabrication/m5stack/atom-poe/)
     - [atomS3](/fabrication/m5stack/atomS3/)
       - [midi](/fabrication/m5stack/atomS3/midi/)
       - [mpu6886](/fabrication/m5stack/atomS3/mpu6886/)
@@ -249,10 +250,9 @@
     - *osc*
       - [activation](/logiciels/reaper/osc/activation/)
       - [defaut](/logiciels/reaper/osc/defaut/)
-        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
         - [general](/logiciels/reaper/osc/defaut/general/)
         - [piste](/logiciels/reaper/osc/defaut/piste/)
-      - *exemples*
+        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
     - *plugiciel*
       - [midi](/logiciels/reaper/plugiciel/midi/)
       - [osc](/logiciels/reaper/plugiciel/osc/)

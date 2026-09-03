@@ -83,8 +83,8 @@ src_dir = .
 
 
 Suivre ces instructions suivantes pour le modèle indiqué :
-* Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/nano/atmega#Configuration)
-* Arduino Nano R4 : [configuration](/fabrication/arduino/nano/r4#Configuration)
+* Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/nano/atmega/plaftformio/)
+* Arduino Nano R4 : [configuration](/fabrication/arduino/nano/r4/platformio/)
 
 
 
