@@ -1,39 +1,20 @@
 # Petite histoire de l'installation interactive​
 
-## Ada Lovelace
+## Ada Lovelace (1842)
 
 
 ![](./ada.png)
 
 **Augusta Ada King, comtesse de Lovelace** (1815–1852) est considérée comme **la première programmeuse informatique** de l’histoire.
 
-En 1843, Ada traduit un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage**n et y ajoute des **notes personnelles** brillantes :
+En 1843, Ada traduit du français à l'anglais un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage** et y ajoute des **notes personnelles** brillantes :
 
 - Elle y décrit **le premier algorithme informatique** (pour les **nombres de Bernoulli**)
 - Elle comprend que la machine pourrait **traiter autre chose que des chiffres** (musique, texte, etc.)
 
-> *“L’Analytical Engine pourrait composer des morceaux de musique d’une complexité quelconque.”*
+> la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n'importe quelle longueur ou degré de complexité.
 
-
-## Intelligence artificielle (1940)
-
-Les recherches en intelligence artificielle commencent véritablement dans les années 1940 :
-
-- En 1943, Warren McCulloch et Walter Pitts proposent un modèle mathématique du neurone artificiel, qui deviendra l’une des bases des réseaux de neurones.
-- En 1950, Alan Turing publie Computing Machinery and Intelligence et pose la question de la capacité des machines à penser.
-- En 1956, la conférence de Dartmouth marque la naissance officielle du domaine de l’intelligence artificielle.
-
-Dans les décennies suivantes apparaissent les premiers systèmes capables d’apprendre ou de générer :
-
-- En 1957, Frank Rosenblatt développe le Perceptron, l’un des premiers réseaux de neurones capables d’apprendre.
-- Dans les années 1960, Joseph Weizenbaum crée ELIZA, un programme capable de simuler une conversation humaine.
-
-Les principes et les algorithmes existaient donc depuis plusieurs décennies, mais il faudra attendre la concentration massive des données, de la puissance de calcul et des infrastructures pour permettre leur développement à grande échelle.
-
-- Les GAN (2014), les transformers (2017) et les modèles de diffusion constituent ensuite des étapes majeures vers les IA génératives contemporaines.
-
-
-## Hilma af Klint (1862–1944)
+## Hilma af Klint (1906)
 
 **Hilma af Klint**  était une **artiste peintre suédoise**, aujourd’hui reconnue comme une **précurseure de l’art abstrait**, bien avant Kandinsky, Mondrian ou Malevitch.
 
@@ -108,3 +89,22 @@ Myron Krueger de l’Artificial Reality Corporation est reconnu comme le premier
 
 Et cela fait partie du concept général de « Videplace », où des personnes se rassemblent dans la réalité artificielle. En d’autres termes, ce qui se passe maintenant entre les deux personnes, c’est que nous interagissons d’une manière que les humains n’ont jamais pu expérimenter auparavant. L’une des principales attractions est aussi la juxtaposition du grand et du petit, de sorte que les deux personnes vont désormais interagir et, dans une certaine mesure, découvrir quelles sont les possibilités, ce que suggère émotionnellement l’échelle.
 
+
+## Intelligence artificielle (1940)
+
+Les recherches en intelligence artificielle commencent véritablement dans les années 1940 :
+
+- En 1943, Warren McCulloch et Walter Pitts proposent un modèle mathématique du neurone artificiel, qui deviendra l’une des bases des réseaux de neurones.
+
+Dans les décennies suivantes apparaissent les premiers systèmes capables d’apprendre ou de générer :
+
+- En 1957, Frank Rosenblatt développe le Perceptron, l’un des premiers réseaux de neurones capables d’apprendre.
+- Dans les années 1960, Joseph Weizenbaum crée ELIZA, un programme capable de simuler une conversation humaine.
+
+Les principes et les algorithmes existaient donc depuis plusieurs décennies, mais il faudra attendre la concentration massive des données, de la puissance de calcul et des infrastructures pour permettre leur développement à grande échelle.
+
+Étapes suivantes vers les IA génératives contemporaines :
+
+- En 2014, les Generative Adversarial Networks (GAN), en français réseaux antagonistes génératifs. Deux réseaux se confrontent → générateur vs discriminateur.
+- En 2015, diffusion : partir du bruit et apprend à reconstruire progressivement des données, notamment des images.
+- En 2017, les transformers (2017),  excellent pour comprendre et générer des séquences, notamment du texte.
