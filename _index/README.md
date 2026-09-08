@@ -65,7 +65,7 @@
   * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
-  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
+  * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * ARDUINO IDE
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [M5Stack Atom et Arduino IDE](../fabrication/m5stack/atom/arduino-ide/)
@@ -163,6 +163,7 @@
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * BOUNCE2
   * [La bibliothèque Bounce2](../fabrication/bounce2/)
+  * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * BOUTON
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
@@ -208,6 +209,7 @@
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CHRONO
   * [La bibliothèque Chrono](../fabrication/chrono/)
+  * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * CIBLE
   * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Public cible](../creation/interactivite/public/)
@@ -219,7 +221,7 @@
 * CLIGNOTE
   * [Tutoriel: Lampe torche qui clignote](../_hidden/exemples/lampe-clignotement.md)
 * CLIGNOTEMENT
-  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
+  * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * CLIGNOTER
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
 * CODE
@@ -568,8 +570,6 @@
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * INTELLIGENCE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
-* INTERACTIF
-  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
 * INTERACTION
   * [Types d'interaction](../creation/interactivite/types/)
 * INTERACTIVE
@@ -1160,7 +1160,7 @@
 * TUNNEL
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * TUTORIEL
-  * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
+  * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
   * [Tutoriel: Lampe torche avec une corrélation directe](../_hidden/exemples/lampe-torche-correlation.md)
