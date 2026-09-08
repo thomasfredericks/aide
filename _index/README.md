@@ -113,6 +113,7 @@
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/attendre/)
 * AUDIO
   * [Audio : galerie](../creation/audio/galerie/)
+  * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * AUDIOVISUEL
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
@@ -146,8 +147,8 @@
 * BIBLIOGRAPHIE
   * [Bibliographie Montmorency](../culture/biblio_momo/)
 * BIBLIOTHÈQUE
-  * [La bibliothèque Bounce2](../fabrication/bounce2/)
-  * [La bibliothèque Chrono](../fabrication/chrono/)
+  * [La bibliothèque Bounce2](../fabrication/arduino/bounce2/)
+  * [La bibliothèque Chrono](../fabrication/arduino/chrono/)
 * BIBLIOTHÈQUE LOGICIELLE
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
 * BL
@@ -162,7 +163,7 @@
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * BOUNCE2
-  * [La bibliothèque Bounce2](../fabrication/bounce2/)
+  * [La bibliothèque Bounce2](../fabrication/arduino/bounce2/)
   * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * BOUTON
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
@@ -208,7 +209,7 @@
 * CHAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CHRONO
-  * [La bibliothèque Chrono](../fabrication/chrono/)
+  * [La bibliothèque Chrono](../fabrication/arduino/chrono/)
   * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * CIBLE
   * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
@@ -398,7 +399,7 @@
 * ENVOI
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
-  * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
+  * [MicroOsc : Envoi](../fabrication/arduino/microosc/envoi/)
 * ERREUR
   * [Erreur fatale : court circuit](../fabrication/electronique/fatalites/)
 * ESP32
@@ -451,6 +452,8 @@
 * FFMPEG
   * [Codec AV1 avec FFmpeg](../logiciels/ffmpeg/av1/)
   * [FFmpeg](../logiciels/ffmpeg/)
+* FICHIER
+  * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
 * FLIP
   * [TouchDesigner : Basculement (*flip flop*)](../logiciels/touchdesigner/traitement/basculement/)
 * FLIP-FLOP/TOGGLE
@@ -554,9 +557,9 @@
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
 * INITIALISATION
   * [Initialisation d'extOSC dans Unity](../logiciels/unity/osc/extosc/initialisation/)
-  * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
-  * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
-  * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
+  * [Initialisation de MicroOsc](../fabrication/arduino/microosc/initialisation/)
+  * [MicroOsc *SLIP* : Initialisation](../fabrication/arduino/microosc/initialisation/SLIP/)
+  * [MicroOscUDP : Initialisation](../fabrication/arduino/microosc/initialisation/UDP/)
 * INSPECTEUR
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * INSTALLATION
@@ -599,7 +602,6 @@
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
 * INTRODUCTION
   * [Introduction à plugdata](../logiciels/plugdata/introduction/)
-  * [Introduction à Pure Data](../logiciels/pd/introduction/)
 * INVERSION
   * [TD : Inversion](../logiciels/touchdesigner/traitement/inverser/)
 * IU
@@ -631,6 +633,7 @@
 * LASER
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * LECTURE
+  * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [TouchDesigner : Lecture d'une vidéo par index](../logiciels/touchdesigner/video/index/)
 * LIDAR
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
@@ -717,17 +720,17 @@
 * MICROÉLECTRONIQUE
   * [Simulation de microélectronique](../fabrication/simulation/)
 * MICRONET
-  * [MicroNet](../fabrication/micronet/)
+  * [MicroNet](../fabrication/arduino/micronet/)
 * MICROOSC
-  * [Initialisation de MicroOsc](../fabrication/microosc/initialisation/)
-  * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
-  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
-  * [MicroOsc](../fabrication/microosc/)
-  * [MicroOsc : Envoi](../fabrication/microosc/envoi/)
+  * [Initialisation de MicroOsc](../fabrication/arduino/microosc/initialisation/)
+  * [MicroOsc *SLIP* : Initialisation](../fabrication/arduino/microosc/initialisation/SLIP/)
+  * [MicroOsc : réception d'OSC](../fabrication/arduino/microosc/reception/)
+  * [MicroOsc](../fabrication/arduino/microosc/)
+  * [MicroOsc : Envoi](../fabrication/arduino/microosc/envoi/)
 * MICROOSCUDP
-  * [MicroOscUDP : Initialisation](../fabrication/microosc/initialisation/UDP/)
+  * [MicroOscUDP : Initialisation](../fabrication/arduino/microosc/initialisation/UDP/)
 * MICROREMOTEWIRE
-  * [MicroRemoteWire](../fabrication/microremotewire/)
+  * [MicroRemoteWire](../fabrication/arduino/microremotewire/)
 * MIDI
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
@@ -811,7 +814,7 @@
   * [Envoi OSC avec extOSC  dans Unity](../logiciels/unity/osc/extosc/envoi/)
   * [Envoi OSC dans TouchDesigner](../logiciels/touchdesigner/osc/envoi/)
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
-  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
+  * [MicroOsc : réception d'OSC](../fabrication/arduino/microosc/reception/)
   * [Open Sound Control (OSC)](../fabrication/osc/)
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
@@ -857,6 +860,7 @@
 * PD
   * Voir : Pure Data
 * PDCHOCO
+  * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [pdchoco](../logiciels/pd/pdchoco/)
 * PECHA KUCHA
   * [Pecha Kucha**](../creation/pecha_kucha/)
@@ -950,14 +954,15 @@
   * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
-  * [Introduction à Pure Data](../logiciels/pd/introduction/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
   * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [Pd : Établir une relation proportionnelle](../logiciels/pd/traitement/proportion/)
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
+  * [Pure Data (Pd)](../logiciels/pd/)
   * [WebSockets dans Pd](../logiciels/pd/websocket/)
 * PYTHON
   * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
@@ -989,7 +994,7 @@
   * [Reaper : OSC par défaut](../logiciels/reaper/osc/defaut/)
   * [Tutoriel : Reaper OSC Play,Stop,Volume,VU](../_hidden/reaper_osc_play-stop-vu/)
 * RÉCEPTION
-  * [MicroOsc : réception d'OSC](../fabrication/microosc/reception/)
+  * [MicroOsc : réception d'OSC](../fabrication/arduino/microosc/reception/)
   * [Réception d'OSC dans Unity avec extOSC](../logiciels/unity/osc/extosc/reception/)
   * [Réception de l'OSC dans TouchDesigner](../logiciels/touchdesigner/osc/reception/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
@@ -1053,7 +1058,7 @@
 * SLIP
   * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
-  * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
+  * [MicroOsc *SLIP* : Initialisation](../fabrication/arduino/microosc/initialisation/SLIP/)
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
