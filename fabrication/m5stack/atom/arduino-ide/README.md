@@ -1,7 +1,5 @@
 # M5Stack Atom et Arduino IDE
 
-
-
 ## Ouvrir le gestionnaire de carte
 
 ![Ouvrir les préférences et trouver la section «Additional boards manager URLs» en bas](ajouter_m5stack1.SVG)
