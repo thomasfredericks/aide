@@ -11,20 +11,7 @@ Il présente :
 - l'utilisation de la bibliothèque `Chrono` 
 - introduit les fonctions `pinMode()` et `digitalWrite()` afin de commander la DEL
 - l'utilisation de la bibliothèque  `Bounce2` et sa classe `Bounce2::Button` 
-- combine tout pour permettre à un bouton de démarrer ou d'arrêter le clignotement de la DEL
 
-
-À configurer dans `platformio.ini` :
-```ini
-lib_deps =
-    https://github.com/thomasfredericks/Bounce2.git#v2.71
-    https://github.com/SofaPirate/Chrono.git#v1.2.1
-```
-
-> [!IMPORTANT]
-> Pour un Arduino Nano :
-> `LOW` est la même chose que `0` ou `false` et correspond à `0 volts`
-> `HIGH` est la même chose que `1` ou `true` et correspond à `5 volts`
 
 ## Circuit
 
@@ -35,6 +22,15 @@ lib_deps =
 ![Dessin du circuit](./plaquette.png)
 
 ## Chrono
+
+
+`Chrono` est une bibliothèque pour la gestion du temps. Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). Nous utilisons la version `v1.2.1` qui est la [dernière à être publiée](https://github.com/SofaPirate/Chrono/releases).
+
+Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Chrono` :
+```ini
+lib_deps =
+    https://github.com/SofaPirate/Chrono.git#v1.2.1
+```
 
 L'instruction `#include <Chrono.h>` permet d'inclure la bibliothèque **Chrono** dans le programme.
 
@@ -55,6 +51,15 @@ Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 | `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s'est écoulée |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
+En combinant ces méthodes nous pouvons produire un bloc de code qui s'exécute à chaque `INTERVALLE` : 
+
+```cpp
+  if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l'INTERVALLE
+    {
+        minuterieDel.restart(); // REPARTIR LA MINUTERIE
+        // FAIRE QQCH ICI
+    }
+```
 
 La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s'écoule.
 
@@ -101,7 +106,11 @@ void loop()
 
 ## Clignotement
 
-Premier objectif : faire clignoter sans délai.
+> [!IMPORTANT]
+> Pour un Arduino Nano :
+> `LOW` est la même chose que `0` ou `false` et correspond à `0 volts`
+> `HIGH` est la même chose que `1` ou `true` et correspond à `5 volts`
+
 
 La fonction `pinMode()` permet de configurer une broche :
 
@@ -117,7 +126,6 @@ La fonction `digitalWrite()` permet d'envoyer une tension électrique sur une br
 |---|---|
 | `digitalWrite(BROCHE, LOW)` | Envoie 0 volts à la broche `BROCHE` |
 | `digitalWrite(BROCHE, HIGH)` | Envoie 5 volts à la  broche `BROCHE`  |
-
 
 
 ### Schéma
@@ -173,6 +181,15 @@ void loop()
 
 ## Bouton et DEL
 
+La bibliothèque `Bounce2` permet de gérer des interrupteurs. Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2). Nous utilisons la version `v2.71` qui est la [dernière à être publiée](https://github.com/thomasfredericks/Bounce2/releases).
+
+
+Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Bounce2` :
+```ini
+lib_deps =
+    https://github.com/thomasfredericks/Bounce2.git#v2.71
+```
+
 La classe `Bounce2::Button` permet de gérer un bouton.
 
 Cette instruction crée un objet nommé `bouton` de type `Bounce2::Button` :
@@ -181,15 +198,30 @@ Cette instruction crée un objet nommé `bouton` de type `Bounce2::Button` :
 Bounce2::Button bouton = Bounce2::Button();
 ```
 
-Ensuite, nous pouvons accéder aux méthodes suivantes :
+Ensuite, nous pouvons accéder aux méthodes de configuration suivantes :
 
 | Instruction | Signification |
 |---|---|
 | `bouton.attach(BROCHE_BOUTON, INPUT_PULLUP)` | Associe le bouton à la broche `BROCHE_BOUTON` configurée comme entrée avec la résistance pull-up interne activée |
 | `bouton.setPressedState(LOW)` | Considère que le bouton est appuyé lorsque la broche est à `LOW` |
-| `bouton.update()` | Met à jour l'état du bouton. Doit être appelée à chaque passage dans `loop()` |
+
+Ainsi que ces méthodes d'interaction :
+
+ | Instruction | Signification |
+|---|---|
+| `bouton.update()` | **IMPORTANT**! Met à jour l'état du bouton. Doit être appelée à chaque passage dans `loop()` |
 | `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n'est pas actuellement appuyé |
 
+Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
+
+```cpp
+    bouton.update();
+
+    if (bouton.isPressed())
+    {
+        // FAIRE QQCHOSE
+    }
+```
 ### Schéma logique
 
 ```mermaid
@@ -289,12 +321,11 @@ La méthode `released()` permet de savoir si un relâchement du bouton vient d'�
 
 Différence entre `isPressed()` et `pressed()` :
 
-| Méthode | Signification |
-|---|---|
-| `bouton.isPressed()` | Le bouton est actuellement appuyé |
-| `bouton.pressed()` | Une pression vient d'être détectée |
-| `bouton.released()` | Un relâchement vient d'être détecté |
-| `bouton.changed()` | L'état du bouton vient de changer |
+| Méthode | Signification | Méthode | Signification |
+|---|---|---|---|
+| `bouton.isPressed()` | Le bouton est actuellement appuyé | `bouton.pressed()` | Une pression vient d'être détectée |
+| `bouton.isReleased()` | Le bouton est actuellement relâché | `bouton.released()` | Un relâchement vient d'être détecté |
+
 
 ### Schéma
 
@@ -423,12 +454,9 @@ void loop()
     // Gestion de l'événement de pression
     if (bouton.pressed())
     {
-        if (clignotementActif)
-        {
+        if (clignotementActif) {
             clignotementActif = false;
-        }
-        else
-        {
+        } else {
              clignotementActif = true;
         }
     }
@@ -439,7 +467,11 @@ void loop()
         {
             minuterieDel.restart();
 
-            etatDel = !etatDel;
+            if ( etatDel == 0 ) {
+                etatDel = 1;
+            } else {
+                etatDel = 0;    
+            }
             digitalWrite(BROCHE_DEL, etatDel);
         }
     } 
