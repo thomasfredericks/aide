@@ -134,21 +134,23 @@
     - [mac](/fabrication/esp32/mac/)
     - [modeles](/fabrication/esp32/modeles/)
   - [m5stack](/fabrication/m5stack/)
+    - [atom-poe](/fabrication/m5stack/atom-poe/)
     - [atom](/fabrication/m5stack/atom/)
+      - [arduino-ide](/fabrication/m5stack/atom/arduino-ide/)
       - [bouton](/fabrication/m5stack/atom/bouton/)
         - [m5lib](/fabrication/m5stack/atom/bouton/m5lib/)
       - [broches](/fabrication/m5stack/atom/broches/)
       - *code*
         - [base](/fabrication/m5stack/atom/code/base/)
-        - *microosc*
-          - [slip](/fabrication/m5stack/atom/code/microosc/slip/)
         - [minimal](/fabrication/m5stack/atom/code/minimal/)
-      - [installation](/fabrication/m5stack/atom/installation/)
       - [pixel](/fabrication/m5stack/atom/pixel/)
-    - [atom-poe](/fabrication/m5stack/atom-poe/)
+      - *tutoriels*
+        - *microosc*
+          - [slip](/fabrication/m5stack/atom/tutoriels/microosc/slip/)
     - [atomS3](/fabrication/m5stack/atomS3/)
       - [midi](/fabrication/m5stack/atomS3/midi/)
       - [mpu6886](/fabrication/m5stack/atomS3/mpu6886/)
+      - [platformio](/fabrication/m5stack/atomS3/platformio/)
       - [uart](/fabrication/m5stack/atomS3/uart/)
     - *units*
       - [396](/fabrication/m5stack/units/396/)
@@ -250,9 +252,10 @@
     - *osc*
       - [activation](/logiciels/reaper/osc/activation/)
       - [defaut](/logiciels/reaper/osc/defaut/)
+        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
         - [general](/logiciels/reaper/osc/defaut/general/)
         - [piste](/logiciels/reaper/osc/defaut/piste/)
-        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
+      - *exemples*
     - *plugiciel*
       - [midi](/logiciels/reaper/plugiciel/midi/)
       - [osc](/logiciels/reaper/plugiciel/osc/)

@@ -43,7 +43,8 @@ COMBOS = [
     "Grand modèle de langage",
     "Interface utilisateur",
     "Bibliothèque logicielle",
-    "Platine d'expérimentation"
+    "Platine d'expérimentation",
+    "Arduino IDE"
 ]
 
 SKIP_WORDS = {

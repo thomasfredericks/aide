@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Configurer Arduino IDE pour M5Stack Atom](../../installation/)
+- [Configurer Arduino IDE pour M5Stack Atom](../../arduino-ide/)
 
 ## Le code de base
 

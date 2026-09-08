@@ -63,11 +63,12 @@
   * [Arduino : traiter le changement](../fabrication/arduino/traitement/changement/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
   * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
-  * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
-  * [Installer Arduino IDE](../fabrication/arduino/ide/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
   * [Tutoriel Arduino clignotement interactif](../fabrication/arduino/tutoriels/clignotement/)
+* ARDUINO IDE
+  * [Installer Arduino IDE](../fabrication/arduino/ide/)
+  * [M5Stack Atom et Arduino IDE](../fabrication/m5stack/atom/arduino-ide/)
 * ARRIÈRE-PLAN
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
 * ARTIFICIELLE
@@ -96,11 +97,12 @@
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
-  * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
+  * [M5Stack Atom et Arduino IDE](../fabrication/m5stack/atom/arduino-ide/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
 * ATOMS3
+  * [AtomS3 et PlatformIO](../fabrication/m5stack/atomS3/platformio/)
   * [AtomS3 USB MIDI](../fabrication/m5stack/atomS3/midi/)
   * [AtomS3](../fabrication/m5stack/atomS3/)
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
@@ -140,7 +142,7 @@
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
 * BASE
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
 * BIBLIOGRAPHIE
   * [Bibliographie Montmorency](../culture/biblio_momo/)
 * BIBLIOTHÈQUE
@@ -222,7 +224,7 @@
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
 * CODE
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
   * [Création de code ou d'images avec un GML](../culture/ia/creation/)
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
   * [Le code Arduino](../fabrication/arduino/code/)
@@ -535,8 +537,6 @@
 ## I
 * IA
   * Voir : Grand modèle de langage
-* IDE
-  * [Installer Arduino IDE](../fabrication/arduino/ide/)
 * IDÉE
   * [Idées pour un *dataflow* multimédia](../_hidden/dataflow/)
 * IDENTITÉ
@@ -558,7 +558,6 @@
 * INSPECTEUR
   * [OBS Studio: Télécommande et inspecteur](../logiciels/obs/telecommande/)
 * INSTALLATION
-  * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
   * [Petite histoire de l'installation interactive​](../creation/interactivite/histoire/)
 * INSTALLER
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
@@ -661,9 +660,9 @@
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
-  * [Installation de M5Stack Atom dans Arduino](../fabrication/m5stack/atom/installation/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
   * [M5Stack Angle Unit](../fabrication/m5stack/units/angle/)
+  * [M5Stack Atom et Arduino IDE](../fabrication/m5stack/atom/arduino-ide/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)
   * [M5Stack Fader Unit](../fabrication/m5stack/units/fader/)
@@ -805,7 +804,7 @@
   * [Analyse d'une œuvre interactive](../creation/interactivite/analyse/)
 * OPEN SOUND CONTROL
   * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
@@ -886,6 +885,7 @@
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * PLATFORMIO
+  * [AtomS3 et PlatformIO](../fabrication/m5stack/atomS3/platformio/)
   * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Configuration Nano R4 PlatformIO](../fabrication/arduino/nano/r4/platformio/)
   * [Nouveau projet PlatformIO](../fabrication/platformio/nouveau/)
@@ -1051,7 +1051,7 @@
 * SLAMTEC
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](../logiciels/oscmo-lidar/)
 * SLIP
-  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/code/microosc/slip/)
+  * [Code OSC SLIP de base du M5Stack Atom](../fabrication/m5stack/atom/tutoriels/microosc/slip/)
   * [Max : Relais OSC SLIP ⇄ UDP](../logiciels/max/osc/relais/)
   * [MicroOsc *SLIP* : Initialisation](../fabrication/microosc/initialisation/SLIP/)
   * [OSC SLIP : Node.js](../logiciels/nodejs/osc/)

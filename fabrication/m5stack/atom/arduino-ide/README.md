@@ -1,12 +1,6 @@
-# Installation de M5Stack Atom dans Arduino
+# M5Stack Atom et Arduino IDE
 
-## Préalable(s)
 
-- [Installer Arduino IDE](../installation/)
-
-## Page du produit
-
- [Page de produit du ATOM Lite ESP32 IoT Development Kit sur m5stack-store](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)
 
 ## Ouvrir le gestionnaire de carte
 

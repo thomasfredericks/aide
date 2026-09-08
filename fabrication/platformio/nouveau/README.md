@@ -85,7 +85,7 @@ src_dir = .
 Suivre ces instructions suivantes pour le modèle indiqué :
 * Arduino Nano ATMEGA328 : [configuration](/fabrication/arduino/nano/atmega/plaftformio/)
 * Arduino Nano R4 : [configuration](/fabrication/arduino/nano/r4/platformio/)
-
+* M5Stack AtomS3 : [configuration](/fabrication/m5stack/atomS3/platformio/)
 
 
 ## 4. Git commit
