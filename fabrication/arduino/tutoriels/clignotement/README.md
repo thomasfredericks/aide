@@ -10,7 +10,7 @@ Ce tutoriel présente progressivement la création d'un système Arduino interac
 Il présente :
 - l'utilisation de la bibliothèque `Chrono` 
 - introduit les fonctions `pinMode()` et `digitalWrite()` afin de commander la DEL
-- l'utilisation de la bibliothèque  `Bounce2` et sa classe `Bounce2::Button` 
+- l'utilisation de la bibliothèque `Bounce2` et sa classe `Bounce2::Button` 
 
 
 ## Circuit
