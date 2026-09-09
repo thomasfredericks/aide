@@ -381,8 +381,9 @@ void loop()
             etatDel = 0;    
         }
 
-        digitalWrite(BROCHE_DEL, etatDel);
+       
     }
+    digitalWrite(BROCHE_DEL, etatDel);
 }
 ```
 
