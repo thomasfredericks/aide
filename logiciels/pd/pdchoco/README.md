@@ -14,11 +14,13 @@ Téléchargez l'archive de la bibliothèque directement à partir du dépôt off
 
 ### Déplacer
 
-Déplacez le dossier **pdchoco** (et non pas le dossier racine *pdchoco-main* compressé par défaut) dans le répertoire d'extensions de Pure Data : **Documents > Pd > externals**. 
+Déplacez le dossier **pdchoco** (et non pas le dossier racine **pdchoco-main** compressé par défaut) dans le répertoire d'extensions de Pure Data : **Documents > Pd > externals**. 
 
 Si le dossier `externals` ou `Pd` n'existe pas encore sur votre machine, lancez Pure Data une première fois pour qu'il génère automatiquement son arborescence par défaut. Et déplacez ensuite le dossier `pdchoco`.
 
-![Installation du dossier *pdchoco*](./pdchoco_folder.png)
+![Installation du dossier pdchoco dans macOS](./pdchoco_folder.png)
+
+![Installation du dossier pdchoco dans Windows](./pdchoco_folder_windows.png)
 
 ## Abstractions
 
