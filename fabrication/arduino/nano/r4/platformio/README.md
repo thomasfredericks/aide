@@ -1,5 +1,8 @@
 # Configuration Nano R4 PlatformIO
 
+- [PlatformIO : plateforme Renesas RA ](https://docs.platformio.org/en/latest/platforms/renesas-ra.html#platform-renesas-ra)
+- [PlatformIO : carte Arduino Nano R4 ](https://docs.platformio.org/en/latest/boards/renesas-ra/nano_r4.html)
+
 ## Contenu à ajouter au fichier `platformio.ini`
 
 Contenu à ajouter au fichier `platformio.ini` :

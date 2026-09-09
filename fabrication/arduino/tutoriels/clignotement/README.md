@@ -472,9 +472,29 @@ void loop()
             } else {
                 etatDel = 0;    
             }
-            digitalWrite(BROCHE_DEL, etatDel);
+            
         }
     } 
+
+    digitalWrite(BROCHE_DEL, etatDel);
 }
 ```
 
+Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu'elle s'allume lorsque le clignotement est actif, modifiez la condition du bouton :
+
+```cpp
+  if (bouton.pressed())
+    {
+        if (clignotementActif == 0)
+        {
+            clignotementActif = 1;
+            etatDel = 1;
+            minuterieDel.restart();
+        }
+        else
+        {
+            clignotementActif = 0;
+            etatDel = 0;
+        }
+    }
+```
