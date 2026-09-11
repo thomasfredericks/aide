@@ -95,6 +95,7 @@
   * [Atom (Lite) et PlatformIO](../fabrication/m5stack/atom/platformio/)
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Atom POE](../fabrication/m5stack/atom-poe/)
+  * [Bande de pixels et Atom](../fabrication/pixels/atom/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [Broches du M5Stack Atom](../fabrication/m5stack/atom/broches/)
   * [Code de base pour le M5Stack Atom](../fabrication/m5stack/atom/code/base/)
@@ -134,6 +135,7 @@
 * BALEINE
   * [Baleines](../logiciels/vcv_rack/patchs/baleines/)
 * BANDE
+  * [Bande de pixels et Atom](../fabrication/pixels/atom/)
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
 * BANQUE
@@ -880,6 +882,7 @@
   * [Compresseur et limiteur sur la piste Master](../logiciels/reaper/compression/limiteur/)
   * [Reaper OSC default_pattern : piste](../logiciels/reaper/osc/defaut/piste/)
 * PIXEL
+  * [Bande de pixels et Atom](../fabrication/pixels/atom/)
   * [Contrôleur de bandes de pixels HyperHDR](../logiciels/hyperhdr/)
   * [Les bandes de pixels DEL](../fabrication/pixels/)
   * [M5Stack Atom Lite : Pixel intégré](../fabrication/m5stack/atom/pixel/)

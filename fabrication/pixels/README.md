@@ -51,11 +51,9 @@ Dans l'exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec un
 
 ![Connexion sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.png)  
 
-![Schéma du montage à effectuer](./bande-del_atom_schema.png)  
-
-![Photo du montage effectué](./bande-del_atom_photo.png)  
-
 ![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
+
+Par exemple : [connexion entre Atom et bande de pixel](./atom/).
 
 ### Bonnes pratiques
 

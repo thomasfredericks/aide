@@ -178,6 +178,7 @@
   - [meshtastic](/fabrication/meshtastic/)
   - [osc](/fabrication/osc/)
   - [pixels](/fabrication/pixels/)
+    - [atom](/fabrication/pixels/atom/)
     - [fastled](/fabrication/pixels/fastled/)
     - [neopixel](/fabrication/pixels/neopixel/)
   - [platformio](/fabrication/platformio/)
