@@ -92,6 +92,7 @@
 * ATMEGA32
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
 * ATOM
+  * [Atom (Lite) et PlatformIO](../fabrication/m5stack/atom/platformio/)
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Atom POE](../fabrication/m5stack/atom-poe/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
@@ -645,6 +646,7 @@
 * LISSER
   * [TD : Lisser](../logiciels/touchdesigner/traitement/lisser/)
 * LITE
+  * [Atom (Lite) et PlatformIO](../fabrication/m5stack/atom/platformio/)
   * [Atom (Lite)](../fabrication/m5stack/atom/)
   * [Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5](../fabrication/m5stack/atom/bouton/m5lib/)
   * [M5Stack Atom Lite : Bouton intégré](../fabrication/m5stack/atom/bouton/)
@@ -889,6 +891,7 @@
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
   * [TD : Plage](../logiciels/touchdesigner/traitement/plage/)
 * PLATFORMIO
+  * [Atom (Lite) et PlatformIO](../fabrication/m5stack/atom/platformio/)
   * [AtomS3 et PlatformIO](../fabrication/m5stack/atomS3/platformio/)
   * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Configuration Nano R4 PlatformIO](../fabrication/arduino/nano/r4/platformio/)

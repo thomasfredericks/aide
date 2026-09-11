@@ -12,3 +12,5 @@
 > [Atom Serial TX is full of errors when it simultaneously receives Serial data · Issue #86 · m5stack/M5Atom](https://github.com/m5stack/M5Atom/issues/86)
 > [Bugs and measures for M5Stack ATOM | macsbug](https://macsbug.wordpress.com/2021/10/10/bugs-and-measures-for-m5stack-atom/)
 > [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ | docs](https://sohtamei.github.io/docs/esp32AndUsbUartWith5V_IO_Issue.html)
+
+Configuration pour PlatformIO ici : [platformio](./platformio/)

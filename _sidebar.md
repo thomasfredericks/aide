@@ -152,6 +152,7 @@
         - [base](/fabrication/m5stack/atom/code/base/)
         - [minimal](/fabrication/m5stack/atom/code/minimal/)
       - [pixel](/fabrication/m5stack/atom/pixel/)
+      - [platformio](/fabrication/m5stack/atom/platformio/)
       - *tutoriels*
         - *microosc*
           - [slip](/fabrication/m5stack/atom/tutoriels/microosc/slip/)
