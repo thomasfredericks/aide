@@ -346,6 +346,8 @@
   * [Dette technique causée par les GML](../culture/ia/dette/technique/)
 * DEUX
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
+* DILEMME
+  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * DIODE
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
 * DIRECTE
@@ -616,6 +618,8 @@
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
   * [Jeu L’année de la veille](../jeu/annee_de_la_veille/)
   * [Jeu Wonder Wander](../jeu/wonder_wander/)
+* JEUX
+  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 
 ## K
 * KEY
@@ -928,6 +932,8 @@
   * [Unity : Bonnes pratiques Git](../logiciels/unity/git/)
 * PRIORITÉ
   * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
+* PRISONNIER
+  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * PROCESSU
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * PRODUCTION
@@ -1121,6 +1127,8 @@
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * TÊTE
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
+* THÉORIE
+  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * THREE.JS
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * TOF

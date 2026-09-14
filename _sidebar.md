@@ -189,6 +189,8 @@
 - *jeu*
   - [annee_de_la_veille](/jeu/annee_de_la_veille/)
   - [chat_sur_ta_tete](/jeu/chat_sur_ta_tete/)
+  - *theorie_des_jeux*
+    - [dilemne_prisonnier](/jeu/theorie_des_jeux/dilemne_prisonnier/)
   - [wonder_wander](/jeu/wonder_wander/)
 - *logiciels*
   - [brave](/logiciels/brave/)
