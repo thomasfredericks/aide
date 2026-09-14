@@ -1,4 +1,4 @@
-# Théorie des jeux : le dilemme du prisonnier
+#  Dilemme du prisonnier
 
 Le **dilemme du prisonnier** est un exemple classique de la **théorie des jeux**.
 
