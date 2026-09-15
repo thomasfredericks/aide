@@ -19,10 +19,11 @@ Cette liste non exhaustive présente des outils de création sonore recommandés
 - **Saturation / fuzz / destruction** : [Noise Engineering Ruina](https://noiseengineering.us/products/the-freequel-bundle-sinc-vereor-virt-vereor-ruina)
 - [TONEDESIGNER](https://watusi.cloud/tonedesigner/)
 
-## Autres intéressants
+## Autres outils gratuits 
 
-- **Modélisation physique** : [RipplerX](https://github.com/tiagolr/ripplerx)
-- **Modélisation de résonateurs** : [odoare/Mechanodd](https://github.com/odoare/MechanOdd)
+- [Arturia - Pigments Play](https://www.arturia.com/products/software-instruments/pigments/free)
+- Modélisation physique : [RipplerX](https://github.com/tiagolr/ripplerx)
+- Modélisation de résonateurs : [odoare/Mechanodd](https://github.com/odoare/MechanOdd)
 - [VRAC - Feed any source and generate Kicks, snares, Hi-hats](https://beatsurfing.com/audio-plugins/vrac/)
 - [Simple Audio Editor](https://little-scale.github.io/simple-editor/)
 - [CataRT | Real-Time Corpus-Based Concatenative Resynthesis](https://ircam-ismm.github.io/max-msp/catart.html#videos)
