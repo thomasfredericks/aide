@@ -234,7 +234,9 @@
       - [slip](/logiciels/pd/osc/slip/)
       - [udp](/logiciels/pd/osc/udp/)
     - [pdchoco](/logiciels/pd/pdchoco/)
-    - [serial](/logiciels/pd/serial/)
+    - [serie](/logiciels/pd/serie/)
+      - [ascii](/logiciels/pd/serie/ascii/)
+      - [comport](/logiciels/pd/serie/comport/)
     - *traitement*
       - [basculement](/logiciels/pd/traitement/basculement/)
       - [duree](/logiciels/pd/traitement/duree/)

@@ -69,19 +69,7 @@ Documentation supplémentaire : [millis()](./millis/)
 
 ## `Serial`
 
-La classe `Serial` permet de communiquer avec l'ordinateur ou un autre appareil par une liaison série :
-
-| Syntaxe | Signification |
-|---|---|
-| `Serial.begin(VITESSE)` | Initialise la communication série avec une vitesse de `VITESSE` bauds |
-| `Serial.print(VALEUR)` | Envoie `VALEUR` sur la liaison série sans ajouter de retour à la ligne |
-| `Serial.println(VALEUR)` | Envoie `VALEUR` sur la liaison série puis ajoute un retour à la ligne |
-| `Serial.available()` | Retourne le nombre de caractères disponibles à lire |
-| `Serial.read()` | Lit un caractère reçu sur la liaison série |
-| `Serial.write(VALEUR)` | Envoie une donnée sous forme d'octet sur la liaison série |
-
-
-Documentation supplémentaire : [serial()](./serial/)
+La classe `Serial` permet de communiquer avec l'ordinateur ou un autre appareil par une liaison série. Consulter la documentation à la page qui y est dédiée  : [serial()](./serial/)
 
 ## `random()`
 

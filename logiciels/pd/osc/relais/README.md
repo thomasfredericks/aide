@@ -2,8 +2,8 @@
 
 ## Prérequis
 
-- Installation de [comport](../../serial/)
-- Installation de [pdchoco](../../pdchoco/)
+- Installation de comport dans Pd.
+- Installation de [pdchoco](../../pdchoco/).
 
 
 ## Patcher Pure Data pour le relais des messages OSC SLIP -> UDP 

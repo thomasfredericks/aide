@@ -1,4 +1,4 @@
-# Communication sérielle dans Pure Data
+# Pd : comport 
 
 ## Installation de `comport`
 
@@ -12,6 +12,6 @@ Pour recevoir et envoyer sur le port série, il est nécessaire d'ajouter l'obje
 
 ## Exemple d'utilisation 
 
-![](./exemple_comport.png)
+![](./exemple_comport_pd.png)
 
 Télécharger l'exemple ici : [exemple_comport.pd](./exemple_comport.pd)

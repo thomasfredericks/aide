@@ -9,7 +9,7 @@ Pour l'OSC SLIP dans Pd, il faut installer :
 
 ### 1. Objet `comport`
 
-Suivre les instructions pour l'installation de `comport` : [communication sérielle dans Pd](../../serial/)
+Suivre les instructions pour l'installation de `comport` dans Pd.
 
 ### 2. Bibliothèque `pdchoco`
 

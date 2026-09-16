@@ -54,6 +54,7 @@
   * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Arduino Nano ATmega168 et ATmega32](../fabrication/arduino/nano/atmega/)
   * [Arduino Nano R4](../fabrication/arduino/nano/r4/)
+  * [Arduino Serial : communication sérielle](../fabrication/arduino/code/serial/)
   * [Arduino Terminals : Bouton d’arcade](../fabrication/arduino/terminals/bouton_arcade/)
   * [Arduino Terminals : Potentiomètre](../fabrication/arduino/terminals/potentiometre/)
   * [Arduino](../fabrication/arduino/)
@@ -74,6 +75,7 @@
 * ARTIFICIELLE
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * ASCII
+  * [Pd : ASCII sérielle](../logiciels/pd/serie/ascii/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * ASPECT
   * [TouchDesigner : Aspect](../logiciels/touchdesigner/aspect/)
@@ -243,10 +245,12 @@
 * COLLIDER
   * [Colliders dans Unity](../logiciels/unity/colliders/)
 * COMMUNICATION
+  * [Arduino Serial : communication sérielle](../fabrication/arduino/code/serial/)
   * [Atelier : Synchroniser sans communication](../creation/interactivite/ateliers/synchronisation/)
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
-  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
-  * [Communication sérielle](../fabrication/arduino/code/serial/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serie/)
+* COMPORT
+  * [Pd : comport](../logiciels/pd/serie/comport/)
 * COMPOSANT
   * [Composant : résistance](../fabrication/electronique/composants/resistance/)
 * COMPRESSEUR
@@ -347,7 +351,7 @@
 * DEUX
   * [Deux systèmes de pensée](../culture/education/sytemes_pensee/)
 * DILEMME
-  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
+  * [Dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * DIODE
   * [Diode électroluminescente (DEL)](../fabrication/electronique/composants/del/)
 * DIRECTE
@@ -618,8 +622,6 @@
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
   * [Jeu L’année de la veille](../jeu/annee_de_la_veille/)
   * [Jeu Wonder Wander](../jeu/wonder_wander/)
-* JEUX
-  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 
 ## K
 * KEY
@@ -933,7 +935,7 @@
 * PRIORITÉ
   * [Configurer les priorités](../logiciels/git/github/projects/priorites/)
 * PRISONNIER
-  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
+  * [Dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * PROCESSU
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
 * PRODUCTION
@@ -962,12 +964,14 @@
   * [Esthétique et public cible de DOOM Eternal](../creation/esthetique/doom/)
   * [Public cible](../creation/interactivite/public/)
 * PURE DATA
-  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serie/)
   * [Copier-coller avec Pd](../logiciels/plugdata/copier-coller/)
   * [Créer des messages OSC dans Pd avec oscformat](../logiciels/pd/osc/oscformat/)
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
   * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : ASCII sérielle](../logiciels/pd/serie/ascii/)
+  * [Pd : comport](../logiciels/pd/serie/comport/)
   * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [Pd : Basculer (flip-flop/toggle) une valeur](../logiciels/pd/traitement/basculement/)
   * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](../logiciels/pd/traitement/plage/)
@@ -1048,14 +1052,16 @@
 * SCHÉMA
   * [Schémas de circuits](../fabrication/electronique/circuits/schemas/)
 * SERIAL
+  * [Arduino Serial : communication sérielle](../fabrication/arduino/code/serial/)
   * [Tutoriel: M5 Angle et Serial Plotter](../_hidden/exemples/angle-monitor.md)
   * [Tutoriel : Bouton, M5 Angle et Serial Monitor/Plotter](../_hidden/exemples/angle-button-monitor.md)
 * SÉRIE
   * [Communication série UART avec AtomS3](../fabrication/m5stack/atomS3/uart/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
 * SÉRIELLE
-  * [Communication sérielle dans Pure Data](../logiciels/pd/serial/)
-  * [Communication sérielle](../fabrication/arduino/code/serial/)
+  * [Arduino Serial : communication sérielle](../fabrication/arduino/code/serial/)
+  * [Communication sérielle dans Pure Data](../logiciels/pd/serie/)
+  * [Pd : ASCII sérielle](../logiciels/pd/serie/ascii/)
 * SIDECHAIN
   * [Compression *sidechain* dans Reaper](../logiciels/reaper/compression/sidechain/)
 * SIGNAL
@@ -1127,8 +1133,6 @@
   * [Tutoriel: le code test «Blink»](../_hidden/exemples/blink.md)
 * TÊTE
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
-* THÉORIE
-  * [Théorie des jeux : le dilemme du prisonnier](../jeu/theorie_des_jeux/dilemne_prisonnier/)
 * THREE.JS
   * [Fond transparent avec Three.js](../logiciels/threejs/fond_transparent/)
 * TOF
