@@ -28,7 +28,7 @@
   /* Light mode sidebar active text color */
   --sidebar-width: 200px;
   --sidebar-slide: -200px;
-  --bracket-arm-length: 40px; 
+  --bracket-arm-length: 40px;
   --bracket-thickness: 1px;
   --bracket-color: #f00;
 }
@@ -469,12 +469,14 @@ body.sticky .sidebar-toggle {
 }
 
 .markdown-section table {
-  margin: 1rem auto;  /* top/bottom 1rem, left/right auto = centers table */
-  display: table;     /* ensures table layout works properly */
+  margin: 1rem auto;
+  /* top/bottom 1rem, left/right auto = centers table */
+  display: table;
+  /* ensures table layout works properly */
 
   border-collapse: collapse;
   border-spacing: 0;
-/*   display: block;
+  /*   display: block;
   margin-top: 2rem;
   margin-bottom: 1rem; */
   overflow: auto;
@@ -825,6 +827,7 @@ body {
   font-style: italic;
   font-weight: bold;
 }
+
 .markdown-section code,
 .markdown-section output:after,
 .markdown-section pre {
@@ -1105,13 +1108,13 @@ h3::after {
 
 
 figure {
-display: table;
+  display: table;
   text-align: center;
   margin: 2em auto 0px auto;
   max-width: 90%;
   background-color: #fff;
   padding: 20px 20px 0px 20px;
-  
+
   /* 1. Define the border thickness */
   border-left: 1px solid #aaa;
   border-right: 1px solid #aaa;
@@ -1119,16 +1122,14 @@ display: table;
   border-bottom: 1px solid #aaa;
 
   /* 2. Apply the gradient mask to the borders */
-border-image-source: linear-gradient(
-    to bottom, 
-    var(--bracket-color) 0%, 
-    var(--bracket-color) var(--bracket-arm-length), 
-    transparent var(--bracket-arm-length), 
-    transparent calc(100% - var(--bracket-arm-length)), 
-    var(--bracket-color) calc(100% - var(--bracket-arm-length)), 
-    var(--bracket-color) 100%
-  );
-  
+  border-image-source: linear-gradient(to bottom,
+      var(--bracket-color) 0%,
+      var(--bracket-color) var(--bracket-arm-length),
+      transparent var(--bracket-arm-length),
+      transparent calc(100% - var(--bracket-arm-length)),
+      var(--bracket-color) calc(100% - var(--bracket-arm-length)),
+      var(--bracket-color) 100%);
+
   /* 3. This tells the border to stretch the gradient across the edges */
   border-image-slice: 1;
 }
@@ -1141,7 +1142,7 @@ figcaption {
   /* Makes figcaption take up the full width of its parent (figure) */
   background-color: #fff;
   color: #000;
-  font:  sans-serif;
+  font: sans-serif;
   padding: 20px 5px 5px 5px;
   margin: 0px;
   text-align: center;
@@ -1266,14 +1267,94 @@ figcaption {
 
 .inline_toc {
   text-align: center;
-   width: 75%;         /* 75% of parent width */
-  margin: 0 auto;     /* horizontally center the div */
+  width: 75%;
+  /* 75% of parent width */
+  margin: 0 auto;
+  /* horizontally center the div */
 }
 
 .inline_toc_title {
-  font-weight: bold;  /* standard bold */
+  font-weight: bold;
+  /* standard bold */
 }
 
 .sidebar p {
   margin-bottom: 0;
+}
+
+/* 1. Hide the sidebar completely and expand content to full width */
+.sidebar {
+  display: none !important;
+}
+
+.markdown-section {
+  margin: 0 auto !important;
+  max-width: 900px !important;
+  padding: 40px 20px;
+}
+
+/* 2. Style the Top Search Bar Header */
+.top-search-container {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eaecef;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.top-search-container input {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.top-search-container input:focus {
+  border-color: #42b983;
+}
+
+/* 3. Search Results Dropdown Styling */
+.search-results-dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  max-width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  display: none;
+  z-index: 1000;
+}
+
+.search-results-dropdown a {
+  display: block;
+  padding: 12px 20px;
+  color: #374151;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 15px;
+}
+
+.search-results-dropdown a:hover {
+  background: #f9fafb;
+  color: #42b983;
+}
+
+.search-message {
+  padding: 12px 20px;
+  color: #6b7280;
+  font-size: 15px;
 }
