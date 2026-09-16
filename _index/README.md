@@ -18,6 +18,8 @@
   * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](../fabrication/m5stack/atomS3/mpu6886/)
 * ACTION
   * [Actions émergentes](../creation/interactivite/emergence/)
+* ACTIVATION
+  * [Pd : Activation de l'audio](../logiciels/pd/audio/activation/)
 * ACTIVER
   * [Activer l'OSC dans Reaper](../logiciels/reaper/osc/activation/)
   * [Attendre un certain temps avant d'activer](../logiciels/pd/traitement/retarder/)
@@ -117,6 +119,7 @@
   * [millis() : Attendre sans *delay()*](../fabrication/arduino/code/millis/remplacer_delay/attendre/)
 * AUDIO
   * [Audio : galerie](../creation/audio/galerie/)
+  * [Pd : Activation de l'audio](../logiciels/pd/audio/activation/)
   * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
 * AUDIOVISUEL
@@ -970,6 +973,7 @@
   * [Effectuer un glissement entre des valeurs avec Pd](../logiciels/pd/traitement/glissement/)
   * [OSC SLIP dans Pd](../logiciels/pd/osc/slip/)
   * [OSC UDP : Pure Data](../logiciels/pd/osc/udp/)
+  * [Pd : Activation de l'audio](../logiciels/pd/audio/activation/)
   * [Pd : ASCII sérielle](../logiciels/pd/serie/ascii/)
   * [Pd : comport](../logiciels/pd/serie/comport/)
   * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)

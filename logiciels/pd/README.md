@@ -85,14 +85,14 @@ Pour concevoir rapidement une interface et structurer un patch, Pure Data met à
 | **Sauvegarder** | ⌘ + S | Ctrl + S |
 | **Zoom avant / arrière** | ⌘ + / ⌘ - | Ctrl + / Ctrl - |
 
-## Activation de l'audio (DSP)
-
-Contrairement à d'autres environnements où le moteur sonore est actif en continu, Pure Data nécessite d'activer manuellement le traitement du signal numérique (DSP) pour que les objets audio (générateurs, filtres, entrées/sorties de carte son) émettent ou traitent du son.
-
-- **Procédure** : Allez dans le menu supérieur **Media** et sélectionnez **DSP On** (ou utilisez le raccourci global **⌘ + /** sur macOS / **Ctrl + /** sur Windows/Linux, ou encore en cliquant directement sur l'indicateur textuel "DSP" situé en bas de la fenêtre principale ou du patch).
-- **Indicateur** : Lorsque le DSP est actif, l'état s'affiche clairement, et le processeur commence à calculer les flux audio en temps réel. Pensez à le désactiver (*DSP Off*) lorsque vous modifiez de lourds routages pour éviter les saturations ou les pics de charge CPU.
-
 
 ## La fonction d'aide (Help)
 
 Pure Data intègre un système d'aide contextuelle extrêmement puissant et interactif, basé entièrement sur des patchs d'exemple exécutables. Faites un **clic droit** sur n'importe quel objet existant dans un patch, puis choisissez l'option **Help** dans le menu contextuel. Cela ouvre immédiatement un patch `.pd`. Ce patch d'aide contient des descriptions textuelles, mais surtout des exemples pratiques câblés que l'on peut manipuler, modifier, tester et même copier-coller directement dans ses propres créations.
+
+## Activation de l'audio (DSP)
+
+Voir la section sur [l'activation de l'audio](./audio/activation).
+
+
+
