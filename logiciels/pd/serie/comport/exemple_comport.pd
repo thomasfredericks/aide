@@ -1,4 +1,4 @@
-#N canvas 1077 222 673 416 12;
+#N canvas 61 166 633 342 12;
 #X obj 49 206 comport;
 #X msg 48 51 devices;
 #X text 108 51 Lister les ports dans la fenêtre Pd;
@@ -6,9 +6,9 @@
 #X text 91 253 Les données reçues sont imprimées dans la fenêtre Pd;
 #X msg 139 174 close;
 #X text 189 175 Fermer et libérer le port;
-#X text 122 118 Choisir le bon débit \, fermer le port précédent et ouvrir le port indiqué;
-#X msg 121 96 baud 115200 \, close \, open 4;
+#X msg 111 99 close \, open 6 \, baud 115200 \, dtr 1;
+#X text 123 121 Fermer le port précédent \, ouvrir le port indiqué \, choisir la bonne vitese et activer le dtr;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 5 0 0 0;
-#X connect 8 0 0 0;
+#X connect 7 0 0 0;
