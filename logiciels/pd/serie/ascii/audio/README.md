@@ -19,25 +19,7 @@ flowchart TD
 
 L'Arduino détecte les appuis sur les boutons et envoie des messages texte (ASCII) à Pure Data via le port série USB. Pure Data reçoit ces messages, les interprète et déclenche les sons correspondants.
 
-Lorsqu'un bouton est actionné, Arduino envoie un message sous la forme :
-
-```text
-bouton0 1
-```
-
-ou
-
-```text
-bouton1 1
-```
-
-ou
-
-```text
-bouton1 0
-```
-
-où :
+Lorsqu'un bouton est actionné, Arduino envoie un des messages suivants :
 
 - `bouton0 1` déclenche la lecture du son *clap* ;
 - `bouton1 1` démarre la lecture en boucle du son *break* ;
