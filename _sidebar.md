@@ -142,7 +142,6 @@
     - [mac](/fabrication/esp32/mac/)
     - [modeles](/fabrication/esp32/modeles/)
   - [m5stack](/fabrication/m5stack/)
-    - [atom-poe](/fabrication/m5stack/atom-poe/)
     - [atom](/fabrication/m5stack/atom/)
       - [arduino-ide](/fabrication/m5stack/atom/arduino-ide/)
       - [bouton](/fabrication/m5stack/atom/bouton/)
@@ -156,6 +155,7 @@
       - *tutoriels*
         - *microosc*
           - [slip](/fabrication/m5stack/atom/tutoriels/microosc/slip/)
+    - [atom-poe](/fabrication/m5stack/atom-poe/)
     - [atomS3](/fabrication/m5stack/atomS3/)
       - [midi](/fabrication/m5stack/atomS3/midi/)
       - [mpu6886](/fabrication/m5stack/atomS3/mpu6886/)
@@ -237,6 +237,7 @@
     - [pdchoco](/logiciels/pd/pdchoco/)
     - [serie](/logiciels/pd/serie/)
       - [ascii](/logiciels/pd/serie/ascii/)
+        - [audio](/logiciels/pd/serie/ascii/audio/)
       - [comport](/logiciels/pd/serie/comport/)
     - *traitement*
       - [basculement](/logiciels/pd/traitement/basculement/)
@@ -260,10 +261,9 @@
     - *osc*
       - [activation](/logiciels/reaper/osc/activation/)
       - [defaut](/logiciels/reaper/osc/defaut/)
-        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
         - [general](/logiciels/reaper/osc/defaut/general/)
         - [piste](/logiciels/reaper/osc/defaut/piste/)
-      - *exemples*
+        - [VMK](/logiciels/reaper/osc/defaut/VMK/)
     - *plugiciel*
       - [midi](/logiciels/reaper/plugiciel/midi/)
       - [osc](/logiciels/reaper/plugiciel/osc/)

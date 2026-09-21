@@ -68,6 +68,7 @@
   * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](../fabrication/arduino/nano/atmega/plaftformio/)
   * [Le code Arduino](../fabrication/arduino/code/)
   * [Nano : Arduino Terminals](../fabrication/arduino/terminals/)
+  * [Tutoriel : Arduino, Pd, ASCII et audio](../logiciels/pd/serie/ascii/audio/)
   * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
 * ARDUINO IDE
   * [Installer Arduino IDE](../fabrication/arduino/ide/)
@@ -79,6 +80,7 @@
 * ASCII
   * [Pd : ASCII sérielle](../logiciels/pd/serie/ascii/)
   * [Réception série ASCII dans Max](../logiciels/max/ascii/)
+  * [Tutoriel : Arduino, Pd, ASCII et audio](../logiciels/pd/serie/ascii/audio/)
 * ASPECT
   * [TouchDesigner : Aspect](../logiciels/touchdesigner/aspect/)
 * ATELIER
@@ -122,6 +124,7 @@
   * [Pd : Activation de l'audio](../logiciels/pd/audio/activation/)
   * [Pd : Lecture de fichiers audio avec Pdchoco](../logiciels/pd/audio/fichiers/)
   * [TouchDesigner : Mixer de l'audio](../logiciels/touchdesigner/audio/mixer/)
+  * [Tutoriel : Arduino, Pd, ASCII et audio](../logiciels/pd/serie/ascii/audio/)
 * AUDIOVISUEL
   * [Audiovisuel : galerie](../creation/audiovisuel/galerie/)
   * [Audiovisuel : Processus de travail](../creation/audiovisuel/processus/)
@@ -983,6 +986,7 @@
   * [Pd : Incrémenter (ou décrémenter) une valeur](../logiciels/pd/traitement/incrementation/)
   * [Pd : Relais OSC SLIP ⇄ UDP](../logiciels/pd/osc/relais/)
   * [Pure Data (Pd)](../logiciels/pd/)
+  * [Tutoriel : Arduino, Pd, ASCII et audio](../logiciels/pd/serie/ascii/audio/)
   * [WebSockets dans Pd](../logiciels/pd/websocket/)
 * PYTHON
   * [TD : Aide mémoire Python](../logiciels/touchdesigner/python/aide-memoire/)
@@ -1187,6 +1191,7 @@
 * TUNNEL
   * [Tunnel réseau ngrok](../logiciels/ngrok/)
 * TUTORIEL
+  * [Tutoriel : Arduino, Pd, ASCII et audio](../logiciels/pd/serie/ascii/audio/)
   * [Tutoriel Arduino clignotement Chrono Bounce2](../fabrication/arduino/tutoriels/clignotement/)
   * [Tutoriel: Clignoter sans bloquer](../_hidden/exemples/clignoter-sans-bloquer.md)
   * [Tutoriel: Lampe torche avec relation d'etat](../_hidden/exemples/lampe-torche-etat.md)
