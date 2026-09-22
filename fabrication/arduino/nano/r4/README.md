@@ -31,22 +31,7 @@ Dimensions : **18 mm × 45 mm**.
 
 ### Configuration pour PlatformIO
 
-### 0. Préalable(s)
-
-- Suivre les instructions pour [démarrer un nouveau projet dans PlatformIO](/fabrication/platformio/nouveau/). 
-
-### 1. Contenu à ajouter au fichier `platformio.ini`
-
-Contenu à ajouter au fichier `platformio.ini` :
-
-```ini
-[env:nano_r4]
-platform = renesas-ra
-board = nano_r4
-framework = arduino
-monitor_speed = 115200
-lib_deps =
-```
+Voir cette page : [Configuration Nano R4 PlatformIO](./platformio/).
 
 
 ## Fonctionnalités
