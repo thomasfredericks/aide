@@ -53,5 +53,29 @@ lib_deps =
 
 Informations complètes sur ce modèle : [Nano R4 User Manual | Arduino Documentation](https://docs.arduino.cc/tutorials/nano-r4/user-manual/)
 
-
 ![Broches du Arduino Nano R4](./arduino_nano_r4_pins.png)
+
+### DEL orange intégrée
+
+Le Nano R4 dispose d'une DEL orange intégrée, qui peut être utilisée pour des indications d'état de base et des opérations de débogage.
+
+La DEL utilisateur intégrée est accessible via la constante suivante :
+
+| DEL intégrée | Constante | 
+| --- | --- |
+| DEL utilisateur orange | `LED_BUILTIN` |
+
+### DEL RVB (RGB LED) intégrée 
+
+Le Nano R4 est doté d'une DEL RVB intégrée qui peut être utilisée comme indicateur de retour visuel pour l'utilisateur.
+
+> [!WARNING]
+> Pour allumer chaque couleur de la DEL RVB intégrée du Nano R4, il faut relier la broche correspondante à la masse (GND). Cela signifie qu'un niveau de tension LOW allumera la couleur correspondante de la DEL, tandis qu'un niveau de tension HIGH l'éteindra.
+
+Plutôt que des numéros de broches, utiliser les constantes suivantes pour accéder aux broches correspondantes :
+
+| DEL intégrée | Constante | 
+| --- | --- |
+| DEL rouge | `LEDR` | 
+| DEL verte | `LEDG` | 
+| DEL bleue | `LEDB` | 
