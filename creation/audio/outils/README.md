@@ -31,5 +31,5 @@ Cette liste non exhaustive présente des outils de création sonore recommandés
     - [CHAIR](https://github.com/chairaudio)
 - [“tickle” – CHAIR](https://www.chair.audio/?s=tickle)
 - [Soundplant: computer keyboard sample triggering for Windows & Mac](https://soundplant.org/)
-
+- [bathROOMs — free bathroom reverb plugin (VST3, AU, AAX)](https://hotshoweraudio.com/bathrooms)
 
