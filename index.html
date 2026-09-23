@@ -24,14 +24,16 @@
 
 <body>
 
- <!-- Top Search Header -->
+    <!-- Top Search Header -->
     <div class="top-search-container">
+        <span class="app-name">
+            <a class="app-name-link" data-nosearch="" href="/">AidE</a>
+        </span>
         <div class="search-input-wrapper">
             <input type="text" id="search-input" placeholder="Rechercher..." autocomplete="off">
             <span class="search-shortcut-badge">Entrée ↵</span>
         </div>
     </div>
-
     <div id="app"></div>
 
     <div id="search-overlay" class="search-overlay">
@@ -50,7 +52,7 @@
             <div class="search-overlay-footer">
 
                 <div class="search-keys">
-                     <kbd>Esc</kbd> pour fermer
+                    <kbd>Esc</kbd> pour fermer
                 </div>
             </div>
         </div>
@@ -125,7 +127,6 @@
 
     <!-- Import Mermaid -->
     <script src="./_libs/mermaid.min.js"></script>
-    <script src="./_libs/docsify-sidebar-collapse.min.js"></script>
     <script src="./_libs/docsify-mermaid.js"></script>
     <script src="./_libs/docsify-copy-code.min.js"></script>
     <script src="./_libs_modified/docsify-alerts.js"></script>

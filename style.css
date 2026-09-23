@@ -409,6 +409,7 @@ main.hidden {
   width: 284px;
   z-index: 30;
   cursor: pointer;
+  display: none !important;
 }
 
 /*
@@ -416,13 +417,7 @@ main.hidden {
   opacity: .4;
 }
 */
-.sidebar-toggle span {
-  background-color: var(--theme-highlight);
-  display: block;
-  margin-bottom: 4px;
-  width: 16px;
-  height: 2px;
-}
+
 
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
@@ -436,7 +431,7 @@ body.sticky .sidebar-toggle {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 300px;
+  left: 0;
   transition: left .25s ease;
 }
 
@@ -761,7 +756,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--theme-link);
-  white-space: nowrap;
+  white-space: normal ;
   max-width: fit-content;
 }
 
@@ -1298,63 +1293,111 @@ figcaption {
 /* MODERN SEARCH & OVERLAY STYLING                      */
 /* ===================================================== */
 
-/* Top Search Header Bar */
+/* =====================================================
+   TOP SEARCH HEADER (Mobile-First : Colonne par défaut)
+   ================================================     */
 .top-search-container {
-  background: #ffffff;
-  padding: 16px 20px;
-  text-align: center;
-  border-bottom: 1px solid #eaecef;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;              
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+/* Style du titre AidE */
+.app-name {
+    margin: 0;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.app-name-link {
+    font-family: 'Metal Mania', system-ui, -apple-system, sans-serif;
+    text-decoration: none;
+    color: var(--theme-highlight, #ff0000);
+    letter-spacing: 1px;
+}
+
+/* Wrapper et champ de recherche sur mobile */
 .search-input-wrapper {
-  position: relative;
-  max-width: 650px;
-  margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 
 .top-search-container input {
-  width: 100%;
-  padding: 14px 20px 14px 48px;
-  font-size: 16px;
-  font-family: inherit;
-  color: #2c3e50;
-  background: #f8fafc;
-  border: 1.5px solid #e2e8f0;
-  border-radius: 12px;
-  outline: none;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none; 
+    padding: 14px 20px 14px 14px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #2c3e50;
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-search-container input::placeholder {
-  color: #94a3b8;
+    color: #94a3b8;
 }
 
 .top-search-container input:focus {
-  background: #ffffff;
-  border-color: var(--theme-highlight, #ff0000);
-  box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.1);
+    background: #ffffff;
+    border-color: var(--theme-highlight, #ff0000);
+    box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.1);
 }
-
-
 
 /* Shortcut badge inside the input */
 .search-shortcut-badge {
-  position: absolute;
-  right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #e2e8f0;
-  color: #64748b;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 6px;
-  border-radius: 6px;
-  pointer-events: none;
-  border: 1px solid #cbd5e1;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e2e8f0;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 6px;
+    pointer-events: none;
+    border: 1px solid #cbd5e1;
+}
+
+
+/* =====================================================
+   RESPONSIVE DESKTOP (Écrans larges >= 768px)
+   AidE collé à gauche, Recherche centrée (max 900px)
+   ================================================     */
+@media (min-width: 768px) {
+    .top-search-container {
+        flex-direction: row;        /* Ligne horizontale */
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;                /* Occupe toute la largeur */
+        max-width: none;            /* Supprime toute limite globale pour s'étendre aux bords */
+        margin: 0;                  /* Supprime le centrage global */
+        padding: 15px 30px;         /* Ajustez le padding latéral selon vos préférences (ex: 30px) */
+    }
+
+    .app-name {
+        text-align: left;
+        flex-shrink: 0;             
+    }
+
+    .search-input-wrapper {
+        flex: 1;                    
+        max-width: 900px;           /* Limite maximale de la barre à 900px */
+        margin: 0 auto;             /* Centre la barre de recherche dans l'espace restant */
+    }
+
+    .top-search-container input {
+        max-width: 900px;           
+    }
 }
 
 /* Gorgeous Modal Overlay */
@@ -1542,3 +1585,10 @@ figcaption {
   box-shadow: 0 1px 1px rgba(0,0,0,0.05);
   margin: 0 2px;
 }
+
+
+/* 1. Masquer complètement la sidebar si elle est présente dans le DOM */
+.sidebar {
+    display: none !important;
+}
+
