@@ -1319,42 +1319,140 @@ figcaption {
 .top-search-container input:focus {
   border-color: #42b983;
 }
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
 
-/* 3. Search Results Dropdown Styling */
-.search-results-dropdown {
-  position: absolute;
-  background: white;
-  border: 1px solid #d1d5db;
-  width: 100%;
-  max-width: 600px;
-  left: 50%;
-  transform: translateX(-50%);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  margin-top: 5px;
-  max-height: 300px;
-  overflow-y: auto;
-  text-align: left;
   display: none;
-  z-index: 1000;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 80px;
 }
 
-.search-results-dropdown a {
-  display: block;
+.search-overlay.active {
+  display: flex;
+}
+
+.search-overlay-panel {
+  position: relative;
+
+  background: white;
+
+  width: min(900px, 90vw);
+
+  max-height: 80vh;
+
+  overflow-y: auto;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  border: 1px solid #d1d5db;
+}
+
+.search-overlay {
+  position: fixed;
+  inset: 0;
+
+  background:
+    rgba(0,0,0,.45);
+
+  z-index: 10000;
+
+  display: none;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 60px;
+}
+
+.search-overlay.active {
+  display: flex;
+}
+
+.search-overlay-panel {
+
+  width: min(900px,95vw);
+
+  background: #fff;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.25);
+
+  overflow: hidden;
+
+  max-height: 85vh;
+
+  overflow-y: auto;
+}
+
+.search-close-btn {
+
+  position: sticky;
+
+  top: 0;
+
+  float: right;
+
+  z-index: 2;
+
+  border: none;
+
+  background: white;
+
+  cursor: pointer;
+
+  font-size: 24px;
+
+  padding: 10px 14px;
+}
+
+.search-overlay h1 {
+
+  margin: 0;
+  padding: 20px;
+}
+
+.search-overlay-content {
+  padding: 0;
+}
+
+.search-overlay-message {
+
   padding: 12px 20px;
-  color: #374151;
-  text-decoration: none;
-  border-bottom: 1px solid #f3f4f6;
-  font-size: 15px;
-}
 
-.search-results-dropdown a:hover {
   background: #f9fafb;
-  color: #42b983;
+
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
-.search-message {
+.search-result-link {
+
+  display: block;
+
   padding: 12px 20px;
-  color: #6b7280;
-  font-size: 15px;
+
+  text-decoration: none;
+
+  color: #374151;
+
+  border-bottom:
+    1px solid #f3f4f6;
+}
+
+.search-result-link:hover {
+
+  background: #f9fafb;
+
+  color: #42b983;
 }

@@ -27,10 +27,27 @@
     <!-- Top Search Header -->
     <div class="top-search-container">
         <input type="text" id="search-input" placeholder="Type a search term and press Enter..." autocomplete="off">
-        <div id="search-results" class="search-results-dropdown"></div>
+
     </div>
 
     <div id="app"></div>
+
+    <div id="search-overlay" class="search-overlay">
+
+        <div class="search-overlay-panel">
+
+            <button id="search-close-btn" class="search-close-btn">
+                ✕
+            </button>
+
+            <h1>Résultats de recherche</h1>
+
+            <div id="search-overlay-content" class="search-overlay-content">
+            </div>
+
+        </div>
+
+    </div>
 
     <script>
         window.$docsify = {
@@ -120,61 +137,7 @@
     <script src="./_libs/docsify-route-normalizer.js"></script>
 
     <!-- Custom Search Index & Submission Logic -->
-    <script>
-        const autoRedirectSingleResult = false;
-        let siteIndex = [];
-
-        // Chargement du JSON optimisé
-        fetch('search_index.json')
-            .then(response => response.json())
-            .then(data => {
-                siteIndex = data;
-            })
-            .catch(error => console.error("Erreur de chargement de l'index :", error));
-
-        const input = document.getElementById('search-input');
-        const resultsContainer = document.getElementById('search-results');
-
-        input.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                const query = input.value.toLowerCase().trim();
-                if (!query || siteIndex.length === 0) return;
-
-                // Découpe la recherche en mots individuels (ex: "Sérielle Arduino" -> ["sérielle", "arduino"])
-                const queryWords = query.split(/\s+/).filter(Boolean);
-
-                // Filtre : retourne les items qui contiennent TOUS les mots recherchés (peu importe l'ordre)
-                const matches = siteIndex.filter(item =>
-                    queryWords.every(word => item.l.includes(word) || item.u.toLowerCase().includes(word))
-                );
-
-                if (matches.length === 1 && autoRedirectSingleResult) {
-                    window.location.hash = matches[0].u.replace('#', '');
-                    resultsContainer.style.display = 'none';
-                    input.value = '';
-                } else if (matches.length >= 1) {
-                    resultsContainer.innerHTML = matches.map(m => `<a href="${m.u}">${m.t}</a>`).join('');
-                    resultsContainer.style.display = 'block';
-                } else {
-                    resultsContainer.innerHTML = '<div class="search-message">No matching pages found.</div>';
-                    resultsContainer.style.display = 'block';
-                }
-            }
-        });
-
-        resultsContainer.addEventListener('click', function (e) {
-            if (e.target.tagName === 'A') {
-                resultsContainer.style.display = 'none';
-                input.value = '';
-            }
-        });
-
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('.top-search-container')) {
-                resultsContainer.style.display = 'none';
-            }
-        });
-    </script>
+    <script src="./search.js"></script>
 
 </body>
 
