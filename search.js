@@ -124,7 +124,35 @@ async function performSearch(query) {
 }
 
 async function showSearchResults(query) {
-    const matches = await performSearch(query);
+    let matches = await performSearch(query);
+
+    // =========================================================================
+    // FILTRAGE DÉDUPLICATION DES SOUS-TITRES :
+    // Si la page de base est présente dans les résultats, on retire les sous-titres 
+    // de cette même page pour éviter les doublons tout en gardant les mots-clés.
+    // =========================================================================
+    const basePathsWithMainPage = new Set();
+    
+    // 1. Identifier toutes les pages principales présentes (celles qui se terminent par '/' ou sans '#')
+    matches.forEach(item => {
+        let rawUrl = (item.u || item.url || '').trim();
+        if (!rawUrl.includes('/#') && !rawUrl.includes('#/')) {
+            // C'est une page principale
+            basePathsWithMainPage.add(rawUrl.split('#')[0]);
+        }
+    });
+
+    // 2. Filtrer les sous-titres (ceux qui contiennent une ancre) si leur page principale est là
+    matches = matches.filter(item => {
+        let rawUrl = (item.u || item.url || '').trim();
+        if (rawUrl.includes('/#') || (rawUrl.includes('#') && !rawUrl.endsWith('/'))) {
+            const basePath = rawUrl.split('/#')[0].split('#')[0];
+            if (basePathsWithMainPage.has(basePath)) {
+                return false; // On masque le sous-titre car la page principale est déjà affichée
+            }
+        }
+        return true;
+    });
 
     // 1 seul résultat -> Redirection immédiate
     if (matches.length === 1) {

@@ -17,7 +17,6 @@ def load_external_configs():
         try:
             with open(ALIASES_FILE, 'r', encoding='utf-8') as f:
                 raw_aliases = json.load(f)
-                # Normaliser les clés et valeurs en minuscules sans accents
                 aliases = {unicodedata.normalize('NFD', k.lower()).encode('ascii', 'ignore').decode('utf-8'): 
                            unicodedata.normalize('NFD', v.lower()).encode('ascii', 'ignore').decode('utf-8') 
                            for k, v in raw_aliases.items()}
@@ -47,7 +46,6 @@ def normalize_text(text, aliases, skip_words):
     text_lower = text.lower()
     text_clean = ''.join(c for c in unicodedata.normalize('NFD', text_lower) if unicodedata.category(c) != 'Mn')
     
-    # Remplacement des alias multi-mots d'abord
     sorted_aliases = sorted(aliases.keys(), key=len, reverse=True)
     for alias in sorted_aliases:
         if alias in text_clean:
@@ -71,10 +69,9 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
     heading_regex = re.compile(rf'^(#{{1,{MAX_HEADING_LEVEL}}})\s+(.*)')
 
     for root, dirs, files in os.walk(docs_dir):
-        if os.path.abspath(root) == os.path.abspath(docs_dir):
-            continue 
-            
+        # 1. FILTRE PRIORITAIRE : Supprimer de la liste tous les dossiers commençant par '_'
         dirs[:] = [d for d in dirs if not d.startswith('_')]
+
         for file in files:
             if file.endswith('.md'):
                 full_path = os.path.join(root, file)
@@ -87,7 +84,28 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                 
                 try:
                     with open(full_path, 'r', encoding='utf-8') as f:
+                        in_code_block = False
+                        code_fence_char = None
+                        
                         for line in f:
+                            stripped_line = line.strip()
+                            
+                            # Détection ouverture/fermeture bloc de code (3 ou 4 backticks ou tildes)
+                            if stripped_line.startswith('```') or stripped_line.startswith('~~~~'):
+                                fence = stripped_line[:4] if stripped_line.startswith('~~~~') else stripped_line[:3]
+                                if not in_code_block:
+                                    in_code_block = True
+                                    code_fence_char = fence
+                                elif code_fence_char and stripped_line.startswith(code_fence_char):
+                                    in_code_block = False
+                                    code_fence_char = None
+                                continue
+                            
+                            # Ignorer le contenu des blocs de code
+                            if in_code_block:
+                                continue
+                            
+                            # Analyse des titres valides hors blocs de code
                             match = heading_regex.match(line)
                             if match:
                                 raw_title = match.group(2).strip()
@@ -109,15 +127,15 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                                     "l": searchable_content,
                                     "u": url
                                 })
-                except Exception:
+                except Exception as e:
+                    print(f"⚠️ Erreur de lecture sur {full_path}: {e}")
                     continue
     return data
 
 if __name__ == "__main__":
     search_index = get_headings_and_path(DOCS_DIR, ALIASES, SKIP_WORDS)
     
-    # indent=4 rend le JSON human-readable (lisible et bien indenté)
     with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, ensure_ascii=False, indent=4)
         
-    print(f"✅ {OUTPUT_JSON_FILE} généré avec succès (Human-readable).")
+    print(f"✅ {OUTPUT_JSON_FILE} régénéré avec succès en ignorant les dossiers en '_' et les blocs de code.")
