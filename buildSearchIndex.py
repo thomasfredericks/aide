@@ -3,10 +3,38 @@ import re
 import json
 import unicodedata
 
-# --- Configuration ---
 DOCS_DIR = './'
 OUTPUT_JSON_FILE = os.path.join(DOCS_DIR, 'search_index.json')
-MAX_HEADING_LEVEL = 2  # 1 = juste les # (H1), 2 = H1 et ## (H2), 3 = jusqu'aux H3, etc.
+ALIASES_FILE = os.path.join(DOCS_DIR, 'aliases.json')
+SKIP_WORDS_FILE = os.path.join(DOCS_DIR, 'skip_words.json')
+MAX_HEADING_LEVEL = 2
+
+def load_external_configs():
+    aliases = {}
+    skip_words = set()
+    
+    if os.path.exists(ALIASES_FILE):
+        try:
+            with open(ALIASES_FILE, 'r', encoding='utf-8') as f:
+                raw_aliases = json.load(f)
+                # Normaliser les clés et valeurs en minuscules sans accents
+                aliases = {unicodedata.normalize('NFD', k.lower()).encode('ascii', 'ignore').decode('utf-8'): 
+                           unicodedata.normalize('NFD', v.lower()).encode('ascii', 'ignore').decode('utf-8') 
+                           for k, v in raw_aliases.items()}
+        except Exception as e:
+            print(f"⚠️ Erreur chargement aliases.json : {e}")
+            
+    if os.path.exists(SKIP_WORDS_FILE):
+        try:
+            with open(SKIP_WORDS_FILE, 'r', encoding='utf-8') as f:
+                words = json.load(f)
+                skip_words = {unicodedata.normalize('NFD', w.lower()).encode('ascii', 'ignore').decode('utf-8') for w in words}
+        except Exception as e:
+            print(f"⚠️ Erreur chargement skip_words.json : {e}")
+            
+    return aliases, skip_words
+
+ALIASES, SKIP_WORDS = load_external_configs()
 
 def slugify(text):
     text = text.lower()
@@ -15,9 +43,31 @@ def slugify(text):
     text = re.sub(r'\s+', '-', text.strip())
     return text
 
-def get_headings_and_path(docs_dir):
+def normalize_text(text, aliases, skip_words):
+    text_lower = text.lower()
+    text_clean = ''.join(c for c in unicodedata.normalize('NFD', text_lower) if unicodedata.category(c) != 'Mn')
+    
+    # Remplacement des alias multi-mots d'abord
+    sorted_aliases = sorted(aliases.keys(), key=len, reverse=True)
+    for alias in sorted_aliases:
+        if alias in text_clean:
+            canonical = aliases[alias]
+            text_clean = text_clean.replace(alias, canonical)
+
+    words = text_clean.split()
+    processed_words = []
+    
+    for word in words:
+        clean_w = word.strip('.,;:!?()[]{}""\'')
+        if clean_w in skip_words:
+            continue
+        resolved = aliases.get(clean_w, clean_w)
+        processed_words.append(resolved)
+        
+    return ' '.join(processed_words)
+
+def get_headings_and_path(docs_dir, aliases, skip_words):
     data = []
-    # Création dynamique de la regex selon le niveau max choisi (ex: #{1,1} ou #{1,2})
     heading_regex = re.compile(rf'^(#{{1,{MAX_HEADING_LEVEL}}})\s+(.*)')
 
     for root, dirs, files in os.walk(docs_dir):
@@ -47,15 +97,16 @@ def get_headings_and_path(docs_dir):
                                 slug = slugify(clean_title)
                                 level = len(match.group(1))
                                 
-                                # URL construction
                                 if base_path == "":
                                     url = f"#/{slug}" if level > 1 else "#/"
                                 else:
                                     url = f"#/{base_path}/" if level == 1 else f"#/{base_path}/#{slug}"
                                 
+                                searchable_content = normalize_text(clean_title, aliases, skip_words)
+                                
                                 data.append({
                                     "t": clean_title,
-                                    "l": clean_title.lower(),
+                                    "l": searchable_content,
                                     "u": url
                                 })
                 except Exception:
@@ -63,9 +114,10 @@ def get_headings_and_path(docs_dir):
     return data
 
 if __name__ == "__main__":
-    search_index = get_headings_and_path(DOCS_DIR)
+    search_index = get_headings_and_path(DOCS_DIR, ALIASES, SKIP_WORDS)
     
+    # indent=4 rend le JSON human-readable (lisible et bien indenté)
     with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
-        json.dump(search_index, f, ensure_ascii=False, separators=(',', ':'))
+        json.dump(search_index, f, ensure_ascii=False, indent=4)
         
-    print(f"✅ {OUTPUT_JSON_FILE} généré avec succès (Niveau max de titre : {MAX_HEADING_LEVEL}).")
+    print(f"✅ {OUTPUT_JSON_FILE} généré avec succès (Human-readable).")

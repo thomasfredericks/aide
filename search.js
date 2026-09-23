@@ -1,38 +1,63 @@
 // =====================================================
-// Recherche basée sur le fichier search_index.json
+// Recherche basée sur le fichier search_index.json, aliases et skip_words
 // =====================================================
 
 let cachedSearchIndex = null;
+let cachedAliases = {};
+let cachedSkipWords = new Set();
 
-// Charger le fichier search_index.json
-async function loadSearchIndex() {
-    if (cachedSearchIndex) return cachedSearchIndex;
-
-    try {
-        const response = await fetch('./search_index.json');
-        if (!response.ok) throw new Error('Erreur de chargement du fichier index');
-        
-        const data = await response.json();
-        
-        // Le format de search_index.json de docsify est souvent un objet { "url": { title, content } } 
-        // ou un tableau selon la configuration. On normalise le tout en tableau :
-        if (Array.isArray(data)) {
-            cachedSearchIndex = data;
-        } else if (typeof data === 'object' && data !== null) {
-            cachedSearchIndex = Object.keys(data).map(url => ({
-                u: url,
-                t: data[url].title || url,
-                c: data[url].content || ''
-            }));
-        } else {
-            cachedSearchIndex = [];
-        }
-    } catch (e) {
-        console.warn("Impossible de charger search_index.json, repli sur le localStorage/liens:", e);
-        cachedSearchIndex = [];
+// Charger les configurations externes
+async function loadSearchAssets() {
+    if (cachedSearchIndex && cachedAliases && cachedSkipWords.size > 0) {
+        return { index: cachedSearchIndex, aliases: cachedAliases, skipWords: cachedSkipWords };
     }
 
-    return cachedSearchIndex;
+    try {
+        const [indexRes, aliasesRes, skipRes] = await Promise.all([
+            fetch('./search_index.json').catch(() => null),
+            fetch('./aliases.json').catch(() => null),
+            fetch('./skip_words.json').catch(() => null)
+        ]);
+
+        if (indexRes && indexRes.ok) {
+            const data = await indexRes.json();
+            if (Array.isArray(data)) {
+                cachedSearchIndex = data;
+            } else if (typeof data === 'object' && data !== null) {
+                cachedSearchIndex = Object.keys(data).map(url => ({
+                    u: url,
+                    t: data[url].title || url,
+                    l: (data[url].title || url).toLowerCase(),
+                    c: data[url].content || ''
+                }));
+            } else {
+                cachedSearchIndex = [];
+            }
+        }
+
+        if (aliasesRes && aliasesRes.ok) {
+            const rawAliases = await aliasesRes.json();
+            cachedAliases = {};
+            for (let [k, v] of Object.entries(rawAliases)) {
+                cachedAliases[k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")] = 
+                    v.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
+        }
+
+        if (skipRes && skipRes.ok) {
+            const skipArray = await skipRes.json();
+            cachedSkipWords = new Set(skipArray.map(w => w.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")));
+        }
+
+    } catch (e) {
+        console.warn("Erreur lors du chargement des ressources de recherche:", e);
+    }
+
+    return {
+        index: cachedSearchIndex || [],
+        aliases: cachedAliases,
+        skipWords: cachedSkipWords
+    };
 }
 
 function getOverlay() {
@@ -53,33 +78,46 @@ function closeSearchOverlay() {
     }
 }
 
-// =====================================================
-// Option de configuration de la recherche
-// =====================================================
 const SEARCH_CONFIG = {
-    searchInPath: false // Mettez à true si vous voulez inclure le chemin dans la recherche
+    searchInPath: false
 };
 
 async function performSearch(query) {
     query = (query || '').toLowerCase().trim();
     if (!query) return [];
 
-    const queryWords = query.split(/\s+/).filter(Boolean);
-    const index = await loadSearchIndex();
+    const { index, aliases, skipWords } = await loadSearchAssets();
 
-    const matches = index.filter(item => {
-        const title = (item.t || item.title || '').toLowerCase();
-        const content = (item.c || item.content || '').toLowerCase();
-        const url = (item.u || item.url || '').toLowerCase();
-        
-        // Construction du texte de recherche selon l'option choisie
-        let searchableText = `${title} ${content}`;
-        
-        if (SEARCH_CONFIG.searchInPath) {
-            searchableText += ` ${url}`;
+    let queryClean = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Remplacement des alias multi-mots d'abord
+    const sortedAliases = Object.keys(aliases).sort((a, b) => b.length - a.length);
+    for (const alias of sortedAliases) {
+        if (queryClean.includes(alias)) {
+            queryClean = queryClean.replace(alias, aliases[alias]);
         }
-        
-        return queryWords.every(word => searchableText.includes(word));
+    }
+
+    const rawWords = queryClean.split(/\s+/).filter(Boolean);
+    const queryWords = [];
+
+    for (let word of rawWords) {
+        const cleanW = word.replace(/^[^\w]+|[^\w]+$/g, '');
+        if (skipWords.has(cleanW)) continue;
+
+        const resolved = aliases[cleanW] || cleanW;
+        resolved.split(/\s+/).forEach(w => {
+            if (!skipWords.has(w)) queryWords.push(w);
+        });
+    }
+
+    const uniqueQueryWords = [...new Set(queryWords)];
+    if (uniqueQueryWords.length === 0) return [];
+
+    // Filtrage des résultats
+    const matches = index.filter(item => {
+        const searchableText = `${item.l || ''} ${item.c || ''}`.toLowerCase();
+        return uniqueQueryWords.every(word => searchableText.includes(word));
     });
 
     return matches;
@@ -130,7 +168,6 @@ async function showSearchResults(query) {
             link.innerHTML = `
                 <div class="search-result-title">
                     <span>${titleText}</span>
-                    
                 </div>
                 <div class="search-result-path">${cleanPath}</div>
             `;
