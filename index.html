@@ -24,29 +24,36 @@
 
 <body>
 
-    <!-- Top Search Header -->
+ <!-- Top Search Header -->
     <div class="top-search-container">
-        <input type="text" id="search-input" placeholder="Type a search term and press Enter..." autocomplete="off">
-
+        <div class="search-input-wrapper">
+            <input type="text" id="search-input" placeholder="Rechercher..." autocomplete="off">
+            <span class="search-shortcut-badge">Entrée ↵</span>
+        </div>
     </div>
 
     <div id="app"></div>
 
     <div id="search-overlay" class="search-overlay">
-
         <div class="search-overlay-panel">
-
-            <button id="search-close-btn" class="search-close-btn">
-                ✕
-            </button>
-
-            <h1>Résultats de recherche</h1>
-
-            <div id="search-overlay-content" class="search-overlay-content">
+            <div class="search-overlay-header">
+                <h1>Résultats de recherche</h1>
+                <button id="search-close-btn" class="search-close-btn" title="Fermer (ESC)">
+                    ✕
+                </button>
             </div>
 
-        </div>
+            <div id="search-overlay-content" class="search-overlay-content">
+                <!-- Results injected here -->
+            </div>
 
+            <div class="search-overlay-footer">
+
+                <div class="search-keys">
+                     <kbd>Esc</kbd> pour fermer
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>

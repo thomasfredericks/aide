@@ -1,38 +1,39 @@
 // =====================================================
-// Search Index
+// Recherche basée sur le fichier search_index.json
 // =====================================================
 
-let siteIndex = [];
+let cachedSearchIndex = null;
 
-// =====================================================
-// Recherche
-// =====================================================
+// Charger le fichier search_index.json
+async function loadSearchIndex() {
+    if (cachedSearchIndex) return cachedSearchIndex;
 
-function searchPages(query) {
-
-    query = (query || '')
-        .toLowerCase()
-        .trim();
-
-    if (!query || siteIndex.length === 0) {
-        return [];
+    try {
+        const response = await fetch('./search_index.json');
+        if (!response.ok) throw new Error('Erreur de chargement du fichier index');
+        
+        const data = await response.json();
+        
+        // Le format de search_index.json de docsify est souvent un objet { "url": { title, content } } 
+        // ou un tableau selon la configuration. On normalise le tout en tableau :
+        if (Array.isArray(data)) {
+            cachedSearchIndex = data;
+        } else if (typeof data === 'object' && data !== null) {
+            cachedSearchIndex = Object.keys(data).map(url => ({
+                u: url,
+                t: data[url].title || url,
+                c: data[url].content || ''
+            }));
+        } else {
+            cachedSearchIndex = [];
+        }
+    } catch (e) {
+        console.warn("Impossible de charger search_index.json, repli sur le localStorage/liens:", e);
+        cachedSearchIndex = [];
     }
 
-    const queryWords = query
-        .split(/\s+/)
-        .filter(Boolean);
-
-    return siteIndex.filter(item =>
-        queryWords.every(word =>
-            item.l.includes(word) ||
-            item.u.toLowerCase().includes(word)
-        )
-    );
+    return cachedSearchIndex;
 }
-
-// =====================================================
-// Overlay helpers
-// =====================================================
 
 function getOverlay() {
     return document.getElementById('search-overlay');
@@ -42,275 +43,161 @@ function getOverlayContent() {
     return document.getElementById('search-overlay-content');
 }
 
-// =====================================================
-// Fermeture
-// =====================================================
-
 function closeSearchOverlay() {
-
     const overlay = getOverlay();
-
-    if (!overlay) {
-        return;
-    }
-
+    if (!overlay) return;
     overlay.classList.remove('active');
+    
+    if (location.hash.startsWith('#/?q=')) {
+        location.hash = '#/';
+    }
 }
 
-// =====================================================
-// Affichage résultats
-// =====================================================
+async function performSearch(query) {
+    query = (query || '').toLowerCase().trim();
+    if (!query) return [];
 
-function showSearchResults(query) {
+    const queryWords = query.split(/\s+/).filter(Boolean);
+    const index = await loadSearchIndex();
 
-    const matches = searchPages(query);
+    // Recherche dans l'index JSON
+    const matches = index.filter(item => {
+        const title = (item.t || item.title || '').toLowerCase();
+        const content = (item.c || item.content || '').toLowerCase();
+        const url = (item.u || item.url || '').toLowerCase();
+        
+        const searchableText = `${title} ${content} ${url}`;
+        return queryWords.every(word => searchableText.includes(word));
+    });
 
-    // 1 seul résultat
+    return matches;
+}
+
+async function showSearchResults(query) {
+    const matches = await performSearch(query);
+
+    // 1 seul résultat -> Redirection immédiate
     if (matches.length === 1) {
-
         closeSearchOverlay();
-
-        location.hash =
-            matches[0].u.replace(/^#/, '');
-
+        let rawUrl = (matches[0].u || matches[0].url || '').trim();
+        rawUrl = rawUrl.replace(/^[#\/]+/, '');
+        location.hash = '#/' + rawUrl.replace(/\/+/g, '/');
         return;
     }
 
     const overlay = getOverlay();
     const content = getOverlayContent();
 
-    if (!overlay || !content) {
-        return;
-    }
+    if (!overlay || !content) return;
 
-    // Vide complètement le contenu
     content.innerHTML = '';
 
-    // Message
     const message = document.createElement('div');
-
-    message.className =
-        'search-overlay-message';
+    message.className = 'search-overlay-message';
 
     if (matches.length === 0) {
-
-        message.innerHTML = `
-            Aucun résultat trouvé pour
-            <strong>${query}</strong>
-        `;
-
+        message.innerHTML = `Aucun résultat trouvé pour <strong>"${query}"</strong>.`;
         content.appendChild(message);
-
     } else {
-
-        message.innerHTML = `
-            ${matches.length} résultat(s) pour
-            <strong>${query}</strong>
-        `;
-
+        message.innerHTML = `<strong>${matches.length}</strong> résultat(s) trouvé(s) pour <strong>"${query}"</strong>`;
         content.appendChild(message);
 
-        matches.forEach(item => {
+        matches.forEach((item, index) => {
+            const link = document.createElement('a');
+            link.className = 'search-result-link';
+            if (index === 0) link.classList.add('selected');
+            
+            let rawUrl = (item.u || item.url || '').trim();
+            rawUrl = rawUrl.replace(/^[#\/]+/, '');
+            const targetUrl = '#/' + rawUrl.replace(/\/+/g, '/');
+            link.href = targetUrl;
 
-            const link =
-                document.createElement('a');
+            const titleText = item.t || item.title || rawUrl;
+            const cleanPath = targetUrl.replace(/^#\/?/, '');
 
-            link.className =
-                'search-result-link';
+            link.innerHTML = `
+                <div class="search-result-title">
+                    <span>${titleText}</span>
+                    
+                </div>
+                <div class="search-result-path">${cleanPath}</div>
+            `;
 
-            link.href = item.u;
-
-            link.textContent =
-                item.t || item.u;
+            link.addEventListener('click', () => {
+                closeSearchOverlay();
+            });
 
             content.appendChild(link);
-
         });
     }
 
     overlay.classList.add('active');
 }
 
-// =====================================================
-// URL
-// =====================================================
-
+// Gestion des routes par Hash (?q=...)
 function getSearchQueryFromHash() {
-
     const hash = location.hash || '';
-
-    const match =
-        hash.match(/^#\/\?q=(.+)$/i);
-
-    if (!match) {
-        return null;
-    }
-
-    return decodeURIComponent(
-        match[1]
-    ).trim();
+    const match = hash.match(/^#\/\?q=(.+)$/i);
+    if (!match) return null;
+    return decodeURIComponent(match[1]).trim();
 }
 
-// =====================================================
-// Gestion route
-// =====================================================
-
-function handleSearchRoute() {
-
-    const query =
-        getSearchQueryFromHash();
-
+async function handleSearchRoute() {
+    const query = getSearchQueryFromHash();
     if (!query) {
-
         closeSearchOverlay();
-
         return;
     }
-
-    showSearchResults(query);
+    await showSearchResults(query);
 }
 
-// =====================================================
-// Recherche
-// =====================================================
+// Initialisation des écouteurs d'événements
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search-input');
+    const closeBtn = document.getElementById('search-close-btn');
+    const overlay = document.getElementById('search-overlay');
 
-function goToSearch(query) {
-
-    query = (query || '').trim();
-
-    if (!query) {
-        return;
+    if (searchInput) {
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const val = searchInput.value.trim();
+                if (val.length > 0) {
+                    location.hash = `/?q=${encodeURIComponent(val)}`;
+                }
+            } else if (e.key === 'Escape') {
+                closeSearchOverlay();
+                searchInput.blur();
+            }
+        });
     }
 
-    const newHash =
-        '/?q=' + encodeURIComponent(query);
-
-    if (location.hash === '#' + newHash) {
-
-        showSearchResults(query);
-        return;
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeSearchOverlay);
     }
 
-    location.hash = newHash;
-}
-
-// =====================================================
-// Chargement index
-// =====================================================
-
-fetch('search_index.json')
-    .then(response => response.json())
-    .then(data => {
-
-        siteIndex = data;
-
-        console.log(
-            `[Search] ${siteIndex.length} entrées chargées`
-        );
-
-        handleSearchRoute();
-    })
-    .catch(error => {
-
-        console.error(
-            'Erreur de chargement de l\'index :',
-            error
-        );
-    });
-
-// =====================================================
-// DOM Ready
-// =====================================================
-
-document.addEventListener(
-    'DOMContentLoaded',
-    () => {
-
-        const input =
-            document.getElementById(
-                'search-input'
-            );
-
-        const overlay =
-            document.getElementById(
-                'search-overlay'
-            );
-
-        const closeButton =
-            document.getElementById(
-                'search-close-btn'
-            );
-
-        if (input) {
-
-            input.addEventListener(
-                'keydown',
-                e => {
-
-                    if (e.key !== 'Enter') {
-                        return;
-                    }
-
-                    const query =
-                        input.value.trim();
-
-                    if (!query) {
-                        return;
-                    }
-
-                    goToSearch(query);
-                }
-            );
-        }
-
-        if (closeButton) {
-
-            closeButton.addEventListener(
-                'click',
-                closeSearchOverlay
-            );
-        }
-
-        if (overlay) {
-
-            overlay.addEventListener(
-                'click',
-                e => {
-
-                    if (e.target === overlay) {
-                        closeSearchOverlay();
-                    }
-
-                }
-            );
-        }
-
-        document.addEventListener(
-            'click',
-            e => {
-
-                const link =
-                    e.target.closest(
-                        '.search-result-link'
-                    );
-
-                if (!link) {
-                    return;
-                }
-
+    if (overlay) {
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) {
                 closeSearchOverlay();
             }
-        );
-
-        handleSearchRoute();
+        });
     }
-);
 
-// =====================================================
-// Route change
-// =====================================================
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeSearchOverlay();
+            if (searchInput) searchInput.blur();
+        }
+        if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+            e.preventDefault();
+            if (searchInput) {
+                searchInput.focus();
+                searchInput.select();
+            }
+        }
+    });
 
-window.addEventListener(
-    'hashchange',
-    handleSearchRoute
-);
+    window.addEventListener('hashchange', handleSearchRoute);
+    handleSearchRoute();
+});
