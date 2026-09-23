@@ -206,6 +206,7 @@
 * CARTE
   * [Alimenter un *breadboard* avec une carte Arduino](../fabrication/electronique/platine/alimenter/carte/)
   * [Carte Arduino Nano](../fabrication/arduino/nano/)
+  * [Exemple : normes graphiques pour paquet de cartes](../creation/visuel/guide/cartes/)
 * CAT
   * [Jeu Chat sur ta tête (Cat on Yer Head)](../jeu/chat_sur_ta_tete/)
 * CAUSÉ
@@ -441,6 +442,8 @@
   * [Exécuter du code à un certain intervalle](../fabrication/arduino/code/millis/intervalle/)
 * EXÉCUTION
   * [Unity : Exécution en arrière-plan](../logiciels/unity/execution_arriere-plan/)
+* EXEMPLE
+  * [Exemple : normes graphiques pour paquet de cartes](../creation/visuel/guide/cartes/)
 * EXPÉRIENCE
   * [Expérience multimédia interactive](../creation/interactivite/experience/)
   * [Qualités d’une bonne expérience interactive](../creation/interactivite/qualites/)
@@ -528,6 +531,7 @@
   * [Intelligence artificielle (IA/AI)](../culture/ia/)
 * GRAPHIQUE
   * [Atelier graphique : 10x10](../creation/visuel/ateliers/10x10/)
+  * [Exemple : normes graphiques pour paquet de cartes](../creation/visuel/guide/cartes/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * GROVE
   * [Grove Hub](../fabrication/m5stack/units/grove_hub/)
@@ -801,6 +805,7 @@
 * NOMBRE
   * [Générer un nombre aléatoire](../fabrication/arduino/code/random/)
 * NORME
+  * [Exemple : normes graphiques pour paquet de cartes](../creation/visuel/guide/cartes/)
   * [Guide de normes graphiques](../creation/visuel/guide/)
 * NOTE
   * [Convertir les messages OSC en MIDI (notes et CC)](../logiciels/pd/osc/midi/)
@@ -864,6 +869,8 @@
   * [Outils (logiciels et plugiciels) pour la création sonore](../creation/audio/outils/)
 
 ## P
+* PAQUET
+  * [Exemple : normes graphiques pour paquet de cartes](../creation/visuel/guide/cartes/)
 * PARAMÈTRE
   * [Contrôler un paramètre d'effet ou d'instrument par OSC avec plugdata](../_hidden/plugdata/)
 * PATTERN
