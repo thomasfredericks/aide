@@ -1,154 +1,160 @@
-// =====================================================
-// Recherche basée sur le fichier search_index.json, aliases et skip_words
-// =====================================================
+    // =====================================================
+    // Recherche basée sur le fichier search_index.json, aliases et skip_words
+    // =====================================================
 
-let cachedSearchIndex = null;
-let cachedAliases = {};
-let cachedSkipWords = new Set();
+    let cachedSearchIndex = null;
+    let cachedAliases = {};
+    let cachedSkipWords = new Set();
 
-// Charger les configurations externes
-async function loadSearchAssets() {
-    if (cachedSearchIndex && cachedAliases && cachedSkipWords.size > 0) {
-        return { index: cachedSearchIndex, aliases: cachedAliases, skipWords: cachedSkipWords };
+    // Charger les configurations externes
+    async function loadSearchAssets() {
+        if (cachedSearchIndex && cachedAliases && cachedSkipWords.size > 0) {
+            return { index: cachedSearchIndex, aliases: cachedAliases, skipWords: cachedSkipWords };
+        }
+
+        try {
+            const [indexRes, aliasesRes, skipRes] = await Promise.all([
+                fetch('./search_index.json').catch(() => null),
+                fetch('./aliases.json').catch(() => null),
+                fetch('./skip_words.json').catch(() => null)
+            ]);
+
+            if (indexRes && indexRes.ok) {
+                const data = await indexRes.json();
+                if (Array.isArray(data)) {
+                    cachedSearchIndex = data;
+                } else if (typeof data === 'object' && data !== null) {
+                    cachedSearchIndex = Object.keys(data).map(url => ({
+                        u: url,
+                        t: data[url].title || url,
+                        l: (data[url].title || url).toLowerCase(),
+                        c: data[url].content || ''
+                    }));
+                } else {
+                    cachedSearchIndex = [];
+                }
+            }
+
+            if (aliasesRes && aliasesRes.ok) {
+                const rawAliases = await aliasesRes.json();
+                cachedAliases = {};
+                for (let [k, v] of Object.entries(rawAliases)) {
+                    cachedAliases[k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")] = 
+                        v.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                }
+            }
+
+            if (skipRes && skipRes.ok) {
+                const skipArray = await skipRes.json();
+                cachedSkipWords = new Set(skipArray.map(w => w.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")));
+            }
+
+        } catch (e) {
+            console.warn("Erreur lors du chargement des ressources de recherche:", e);
+        }
+
+        return {
+            index: cachedSearchIndex || [],
+            aliases: cachedAliases,
+            skipWords: cachedSkipWords
+        };
     }
 
-    try {
-        const [indexRes, aliasesRes, skipRes] = await Promise.all([
-            fetch('./search_index.json').catch(() => null),
-            fetch('./aliases.json').catch(() => null),
-            fetch('./skip_words.json').catch(() => null)
-        ]);
-
-        if (indexRes && indexRes.ok) {
-            const data = await indexRes.json();
-            if (Array.isArray(data)) {
-                cachedSearchIndex = data;
-            } else if (typeof data === 'object' && data !== null) {
-                cachedSearchIndex = Object.keys(data).map(url => ({
-                    u: url,
-                    t: data[url].title || url,
-                    l: (data[url].title || url).toLowerCase(),
-                    c: data[url].content || ''
-                }));
-            } else {
-                cachedSearchIndex = [];
-            }
-        }
-
-        if (aliasesRes && aliasesRes.ok) {
-            const rawAliases = await aliasesRes.json();
-            cachedAliases = {};
-            for (let [k, v] of Object.entries(rawAliases)) {
-                cachedAliases[k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")] = 
-                    v.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            }
-        }
-
-        if (skipRes && skipRes.ok) {
-            const skipArray = await skipRes.json();
-            cachedSkipWords = new Set(skipArray.map(w => w.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")));
-        }
-
-    } catch (e) {
-        console.warn("Erreur lors du chargement des ressources de recherche:", e);
+    function getOverlay() {
+        return document.getElementById('search-overlay');
     }
 
-    return {
-        index: cachedSearchIndex || [],
-        aliases: cachedAliases,
-        skipWords: cachedSkipWords
+    function getOverlayContent() {
+        return document.getElementById('search-overlay-content');
+    }
+
+    function closeSearchOverlay() {
+        const overlay = getOverlay();
+        if (!overlay) return;
+        overlay.classList.remove('active');
+        
+        if (location.hash.startsWith('#/?q=')) {
+            location.hash = '#/';
+        }
+    }
+
+    const SEARCH_CONFIG = {
+        searchInPath: false
     };
-}
 
-function getOverlay() {
-    return document.getElementById('search-overlay');
-}
+    async function performSearch(query) {
+        query = (query || '').toLowerCase().trim();
+        if (!query) return [];
 
-function getOverlayContent() {
-    return document.getElementById('search-overlay-content');
-}
+        const { index, aliases, skipWords } = await loadSearchAssets();
 
-function closeSearchOverlay() {
-    const overlay = getOverlay();
-    if (!overlay) return;
-    overlay.classList.remove('active');
-    
-    if (location.hash.startsWith('#/?q=')) {
-        location.hash = '#/';
-    }
-}
+        let queryClean = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
-const SEARCH_CONFIG = {
-    searchInPath: false
-};
-
-async function performSearch(query) {
-    query = (query || '').toLowerCase().trim();
-    if (!query) return [];
-
-    const { index, aliases, skipWords } = await loadSearchAssets();
-
-    let queryClean = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-    // Remplacement des alias multi-mots d'abord
-    const sortedAliases = Object.keys(aliases).sort((a, b) => b.length - a.length);
-    for (const alias of sortedAliases) {
-        if (queryClean.includes(alias)) {
-            queryClean = queryClean.replace(alias, aliases[alias]);
+        // Remplacement des alias multi-mots d'abord
+        const sortedAliases = Object.keys(aliases).sort((a, b) => b.length - a.length);
+        for (const alias of sortedAliases) {
+            if (queryClean.includes(alias)) {
+                queryClean = queryClean.replace(alias, aliases[alias]);
+            }
         }
-    }
 
-    const rawWords = queryClean.split(/\s+/).filter(Boolean);
-    const queryWords = [];
+        const rawWords = queryClean.split(/\s+/).filter(Boolean);
+        const queryWords = [];
 
-    for (let word of rawWords) {
-        const cleanW = word.replace(/^[^\w]+|[^\w]+$/g, '');
-        if (skipWords.has(cleanW)) continue;
+        for (let word of rawWords) {
+            const cleanW = word.replace(/^[^\w]+|[^\w]+$/g, '');
+            if (skipWords.has(cleanW)) continue;
 
-        const resolved = aliases[cleanW] || cleanW;
-        resolved.split(/\s+/).forEach(w => {
-            if (!skipWords.has(w)) queryWords.push(w);
+            const resolved = aliases[cleanW] || cleanW;
+            resolved.split(/\s+/).forEach(w => {
+                if (!skipWords.has(w)) queryWords.push(w);
+            });
+        }
+
+        const uniqueQueryWords = [...new Set(queryWords)];
+        if (uniqueQueryWords.length === 0) return [];
+
+        // Filtrage des résultats
+        const matches = index.filter(item => {
+            const searchableText = `${item.l || ''} ${item.c || ''}`.toLowerCase();
+            return uniqueQueryWords.every(word => searchableText.includes(word));
         });
+
+        return matches;
     }
 
-    const uniqueQueryWords = [...new Set(queryWords)];
-    if (uniqueQueryWords.length === 0) return [];
-
-    // Filtrage des résultats
-    const matches = index.filter(item => {
-        const searchableText = `${item.l || ''} ${item.c || ''}`.toLowerCase();
-        return uniqueQueryWords.every(word => searchableText.includes(word));
-    });
-
-    return matches;
-}
-
-async function showSearchResults(query) {
+   async function showSearchResults(query) {
     let matches = await performSearch(query);
 
     // =========================================================================
     // FILTRAGE DÉDUPLICATION DES SOUS-TITRES :
-    // Si la page de base est présente dans les résultats, on retire les sous-titres 
-    // de cette même page pour éviter les doublons tout en gardant les mots-clés.
     // =========================================================================
+    const getBasePath = (url) => {
+        if (!url) return '';
+        let clean = url.includes('//#') ? url.split('//#')[0] : url;
+        return clean.replace(/^[#\/]+/, '').replace(/\/+$/, '');
+    };
+
     const basePathsWithMainPage = new Set();
     
-    // 1. Identifier toutes les pages principales présentes (celles qui se terminent par '/' ou sans '#')
+    // 1. Identifier les pages principales
     matches.forEach(item => {
-        let rawUrl = (item.u || item.url || '').trim();
-        if (!rawUrl.includes('/#') && !rawUrl.includes('#/')) {
-            // C'est une page principale
-            basePathsWithMainPage.add(rawUrl.split('#')[0]);
+        let rawUrl = item.u || item.url || '';
+        if (!rawUrl.includes('//#')) {
+            const base = getBasePath(rawUrl);
+            if (base !== '') {
+                basePathsWithMainPage.add(base);
+            }
         }
     });
 
-    // 2. Filtrer les sous-titres (ceux qui contiennent une ancre) si leur page principale est là
+    // 2. Filtrer les sous-titres si leur page principale est présente
     matches = matches.filter(item => {
-        let rawUrl = (item.u || item.url || '').trim();
-        if (rawUrl.includes('/#') || (rawUrl.includes('#') && !rawUrl.endsWith('/'))) {
-            const basePath = rawUrl.split('/#')[0].split('#')[0];
-            if (basePathsWithMainPage.has(basePath)) {
-                return false; // On masque le sous-titre car la page principale est déjà affichée
+        let rawUrl = item.u || item.url || '';
+        if (rawUrl.includes('//#')) {
+            const base = getBasePath(rawUrl);
+            if (basePathsWithMainPage.has(base)) {
+                return false; // On retire le sous-titre
             }
         }
         return true;
@@ -211,70 +217,70 @@ async function showSearchResults(query) {
     overlay.classList.add('active');
 }
 
-// Gestion des routes par Hash (?q=...)
-function getSearchQueryFromHash() {
-    const hash = location.hash || '';
-    const match = hash.match(/^#\/\?q=(.+)$/i);
-    if (!match) return null;
-    return decodeURIComponent(match[1]).trim();
-}
-
-async function handleSearchRoute() {
-    const query = getSearchQueryFromHash();
-    if (!query) {
-        closeSearchOverlay();
-        return;
-    }
-    await showSearchResults(query);
-}
-
-// Initialisation des écouteurs d'événements
-document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('search-input');
-    const closeBtn = document.getElementById('search-close-btn');
-    const overlay = document.getElementById('search-overlay');
-
-    if (searchInput) {
-        searchInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                const val = searchInput.value.trim();
-                if (val.length > 0) {
-                    location.hash = `/?q=${encodeURIComponent(val)}`;
-                }
-            } else if (e.key === 'Escape') {
-                closeSearchOverlay();
-                searchInput.blur();
-            }
-        });
+    // Gestion des routes par Hash (?q=...)
+    function getSearchQueryFromHash() {
+        const hash = location.hash || '';
+        const match = hash.match(/^#\/\?q=(.+)$/i);
+        if (!match) return null;
+        return decodeURIComponent(match[1]).trim();
     }
 
-    if (closeBtn) {
-        closeBtn.addEventListener('click', closeSearchOverlay);
-    }
-
-    if (overlay) {
-        overlay.addEventListener('click', (e) => {
-            if (e.target === overlay) {
-                closeSearchOverlay();
-            }
-        });
-    }
-
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
+    async function handleSearchRoute() {
+        const query = getSearchQueryFromHash();
+        if (!query) {
             closeSearchOverlay();
-            if (searchInput) searchInput.blur();
+            return;
         }
-        if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-            e.preventDefault();
-            if (searchInput) {
-                searchInput.focus();
-                searchInput.select();
-            }
-        }
-    });
+        await showSearchResults(query);
+    }
 
-    window.addEventListener('hashchange', handleSearchRoute);
-    handleSearchRoute();
-});
+    // Initialisation des écouteurs d'événements
+    document.addEventListener('DOMContentLoaded', () => {
+        const searchInput = document.getElementById('search-input');
+        const closeBtn = document.getElementById('search-close-btn');
+        const overlay = document.getElementById('search-overlay');
+
+        if (searchInput) {
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const val = searchInput.value.trim();
+                    if (val.length > 0) {
+                        location.hash = `/?q=${encodeURIComponent(val)}`;
+                    }
+                } else if (e.key === 'Escape') {
+                    closeSearchOverlay();
+                    searchInput.blur();
+                }
+            });
+        }
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeSearchOverlay);
+        }
+
+        if (overlay) {
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    closeSearchOverlay();
+                }
+            });
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeSearchOverlay();
+                if (searchInput) searchInput.blur();
+            }
+            if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+                e.preventDefault();
+                if (searchInput) {
+                    searchInput.focus();
+                    searchInput.select();
+                }
+            }
+        });
+
+        window.addEventListener('hashchange', handleSearchRoute);
+        handleSearchRoute();
+    });
