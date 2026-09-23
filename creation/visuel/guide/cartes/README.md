@@ -19,9 +19,10 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
 *   **Introduction et concept :** Une description narrative de 5 à 10 lignes de l'univers thématique choisi et de l'ambiance recherchée.
 *   **Plusieurs planches d'inspirations (moodboard)** pour chacun des éléments suivants :
     - Thématique.
+    - Typographies.
+    - Dispositions.
     - Dos des cartes.
     - Figures.
-    - Typographies et dispositions.
     - Jokers.
 
 ### Couleurs
@@ -39,19 +40,19 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
     * **Police des valeurs :** Nom de la police utilisée pour les valeurs (ex : As, 2, 10).
         - Taille en points pour les indices 
         - Taille en points lorsque le texte est au milieu de la carte.
-    * **Texte des figures :** Indiquer les valeurs pour les figures, c'est-à-dire les trois valeurs qui suivent le 10.
+    * **Texte des figures :** Indiquer les valeurs pour les figures, c'est-à-dire les trois valeurs qui suivent le 10 (cela peut être des nombres ou autre chose tant que c'est clair).
     * **Éléments textuels artistiques ou thématiques (si utilisé) :** Nom de la police secondaire pour les éléments textuels artistiques ou thématiques si utilisés.
-
 
 
 ### Éléments de jeu
 
 Vous devez présenter les gabarits visuels préliminaires pour prouver la faisabilité du projet :
 
-*   **Le dos de carte :** Croquis du dos, en vérifiant qu'il respecte la symétrie (non orienté).
-*   **Les enseignes :** Présentation graphique des symboles de vos 4 familles, adaptées à votre thème.
+*  **Le dos de carte :** Croquis ou maquette du dos, en vérifiant qu'il respecte la symétrie (non orienté).
+*  **Les enseignes :** Présentation graphique des symboles de vos 4 familles, adaptées à votre thème.
     *   Distinction des enseignes : Ne vous basez pas uniquement sur la couleur pour différencier les familles (ex : le rouge pour Cœur/Carreau et le noir pour Pique/Trèfle).
-*   **Les figures :** Croquis ou maquette d'au moins une figure (ex: la Dame) démontrant l'intégration de la thématique tout en conservant la structure traditionnelle.
+*  **Figure :** Croquis ou maquette rapide d'au moins une figure (ex : la Dame) démontrant l'intégration de la thématique.
+*  **Joker :** Croquis ou maquette rapide d'un joker.
 
 ### Contraintes techniques d'impression
 
