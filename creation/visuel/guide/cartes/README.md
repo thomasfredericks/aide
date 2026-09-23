@@ -24,6 +24,7 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
     - Dos des cartes.
     - Figures.
     - Jokers.
+* **Esthétique :** préciser les 4 domaines de l'esthétique.
 
 ### Couleurs
 
@@ -53,6 +54,7 @@ Vous devez présenter les gabarits visuels préliminaires pour prouver la faisab
     *   Distinction des enseignes : Ne vous basez pas uniquement sur la couleur pour différencier les familles (ex : le rouge pour Cœur/Carreau et le noir pour Pique/Trèfle).
 *  **Figure :** Croquis ou maquette rapide d'au moins une figure (ex : la Dame) démontrant l'intégration de la thématique.
 *  **Joker :** Croquis ou maquette rapide d'un joker.
+* **Lisibilité :** La valeur et la famille de la carte doivent être clairs à distance.
 
 ### Contraintes techniques d'impression
 
