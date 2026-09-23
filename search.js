@@ -53,6 +53,13 @@ function closeSearchOverlay() {
     }
 }
 
+// =====================================================
+// Option de configuration de la recherche
+// =====================================================
+const SEARCH_CONFIG = {
+    searchInPath: false // Mettez à true si vous voulez inclure le chemin dans la recherche
+};
+
 async function performSearch(query) {
     query = (query || '').toLowerCase().trim();
     if (!query) return [];
@@ -60,13 +67,18 @@ async function performSearch(query) {
     const queryWords = query.split(/\s+/).filter(Boolean);
     const index = await loadSearchIndex();
 
-    // Recherche dans l'index JSON
     const matches = index.filter(item => {
         const title = (item.t || item.title || '').toLowerCase();
         const content = (item.c || item.content || '').toLowerCase();
         const url = (item.u || item.url || '').toLowerCase();
         
-        const searchableText = `${title} ${content} ${url}`;
+        // Construction du texte de recherche selon l'option choisie
+        let searchableText = `${title} ${content}`;
+        
+        if (SEARCH_CONFIG.searchInPath) {
+            searchableText += ` ${url}`;
+        }
+        
         return queryWords.every(word => searchableText.includes(word));
     });
 

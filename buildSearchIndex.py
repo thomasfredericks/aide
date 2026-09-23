@@ -6,7 +6,7 @@ import unicodedata
 # --- Configuration ---
 DOCS_DIR = './'
 OUTPUT_JSON_FILE = os.path.join(DOCS_DIR, 'search_index.json')
-MAX_HEADING_LEVEL = 1  # 1 = juste les # (H1), 2 = H1 et ## (H2), 3 = jusqu'aux H3, etc.
+MAX_HEADING_LEVEL = 2  # 1 = juste les # (H1), 2 = H1 et ## (H2), 3 = jusqu'aux H3, etc.
 
 def slugify(text):
     text = text.lower()
