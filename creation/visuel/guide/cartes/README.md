@@ -17,6 +17,11 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
 
 *   **Page couverture :** Titre du paquet de cartes, nom de la thématique et nom(s) des créateurs et visuel inspirant.
 *   **Introduction et concept :** Une description narrative de 5 à 10 lignes de l'univers thématique choisi et de l'ambiance recherchée.
+* **Esthétique :** préciser les [4 domaines de l'esthétique](/creation/esthetique/banque/).
+    * **L'émotion** : ce que l'expérience fait ressentir.
+    * **Le timbre** : la qualité sensible et perceptuelle de l'expérience.
+    * **La structure** : la manière dont l'expérience se déploie et évolue.
+    * **Les références** : les univers, styles et imaginaires évoqués par l'expérience.
 *   **Plusieurs planches d'inspirations (moodboard)** pour chacun des éléments suivants :
     - Thématique.
     - Typographies.
@@ -24,7 +29,10 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
     - Dos des cartes.
     - Figures.
     - Jokers.
-* **Esthétique :** préciser les 4 domaines de l'esthétique.
+
+> [!NOTE]
+> Il faut une planche d'inspirations pour chacun des éléments et chaque planche
+> doit présenter plusieurs inspirations !
 
 ### Couleurs
 
@@ -36,7 +44,7 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
 *   **Codes de couleur :** Indication obligatoire des valeurs **RVB** (pour l'écran/web) ainsi que les codes hexadécimaux (**HEX**).
 * **Accessibilité visuelle et contrastes :**
     *   **Contraste texte/fond :** Le ratio de contraste entre la couleur des indices/chiffres et le fond de la carte doit respecter les normes minimales d'accessibilité. Évitez le texte clair sur fond clair ou le texte sombre sur fond sombre.
-    *   **Validation des contrastes :** Indiquez dans votre document les outils utilisés pour tester vos contrastes (ex: WebAIM Contrast Checker ou l'analyseur intégré de votre suite logicielle de design).
+    *   **Validation des contrastes :** Indiquez dans votre document les outils utilisés pour tester vos contrastes (ex: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) ou l'analyseur intégré de votre suite logicielle de design).
 * **Typographie** :
     * **Police des valeurs :** Nom de la police utilisée pour les valeurs (ex : As, 2, 10).
         - Taille en points pour les indices 
