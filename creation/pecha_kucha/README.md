@@ -1,4 +1,4 @@
-# Pecha Kucha**
+# Pecha Kucha
 
 Le format Pecha Kucha est une façon très particulière de faire une présentation orale. Il est couramment utilisé pour des :
 

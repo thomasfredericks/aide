@@ -35,7 +35,7 @@
     * [Qualités d’une bonne expérience interactive](/creation/interactivite/qualites/)
     * [Interactivité : scénarisation](/creation/interactivite/scenarisation/)
     * [Types d'interaction](/creation/interactivite/types/)
-  * [Pecha Kucha**](/creation/pecha_kucha/)
+  * [Pecha Kucha](/creation/pecha_kucha/)
   * [Production](/creation/production/)
     * [Démo de faisabilité](/creation/production/faisabilite/)
     * [Production > Maquettage > Technique](/creation/production/planification/)
