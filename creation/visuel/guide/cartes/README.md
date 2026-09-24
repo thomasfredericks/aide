@@ -74,3 +74,15 @@ Pour valider que votre projet est techniquement viable, incluez les paramètres 
 - **Zone de sécurité textuelle :** Garder les textes et indices à l'intérieur d'une marge sécurisée (1/8 po de chaque côté) pour éviter qu'ils ne soient coupés. 
 
 Voici un exemple de l'application des contraintes techniques : [American-poker-size.pdf de makeplayingcards.com](American-poker-size.pdf)
+
+## Notes sur l'impression
+
+![Une carte avec un fond noir dans le logiciel de dessin avec bleed et zone de sécurité](./carte_affinity.png)
+
+![Une carte pour l'impression avec lignes de coupe](./carte_impression.png)
+
+![Configuration pour l'impression dans macOS](./impression_macos.png)
+
+![Configuration de la page l'impression dans Windows](./impression_windows_page.png)
+
+![Configuration des marques d'impression dans Windows](./impression_windows_marques.png)
