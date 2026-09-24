@@ -28,7 +28,7 @@
   /* Light mode sidebar active text color */
   --sidebar-width: 200px;
   --sidebar-slide: -200px;
-  --bracket-arm-length: 40px; 
+  --bracket-arm-length: 40px;
   --bracket-thickness: 1px;
   --bracket-color: #f00;
 }
@@ -409,6 +409,7 @@ main.hidden {
   width: 284px;
   z-index: 30;
   cursor: pointer;
+  display: none !important;
 }
 
 /*
@@ -416,13 +417,7 @@ main.hidden {
   opacity: .4;
 }
 */
-.sidebar-toggle span {
-  background-color: var(--theme-highlight);
-  display: block;
-  margin-bottom: 4px;
-  width: 16px;
-  height: 2px;
-}
+
 
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
@@ -436,7 +431,7 @@ body.sticky .sidebar-toggle {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 300px;
+  left: 0;
   transition: left .25s ease;
 }
 
@@ -469,12 +464,14 @@ body.sticky .sidebar-toggle {
 }
 
 .markdown-section table {
-  margin: 1rem auto;  /* top/bottom 1rem, left/right auto = centers table */
-  display: table;     /* ensures table layout works properly */
+  margin: 1rem auto;
+  /* top/bottom 1rem, left/right auto = centers table */
+  display: table;
+  /* ensures table layout works properly */
 
   border-collapse: collapse;
   border-spacing: 0;
-/*   display: block;
+  /*   display: block;
   margin-top: 2rem;
   margin-bottom: 1rem; */
   overflow: auto;
@@ -759,7 +756,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--theme-link);
-  white-space: nowrap;
+  white-space: normal ;
   max-width: fit-content;
 }
 
@@ -825,6 +822,7 @@ body {
   font-style: italic;
   font-weight: bold;
 }
+
 .markdown-section code,
 .markdown-section output:after,
 .markdown-section pre {
@@ -1105,13 +1103,13 @@ h3::after {
 
 
 figure {
-display: table;
+  display: table;
   text-align: center;
   margin: 2em auto 0px auto;
   max-width: 90%;
   background-color: #fff;
   padding: 20px 20px 0px 20px;
-  
+
   /* 1. Define the border thickness */
   border-left: 1px solid #aaa;
   border-right: 1px solid #aaa;
@@ -1119,16 +1117,14 @@ display: table;
   border-bottom: 1px solid #aaa;
 
   /* 2. Apply the gradient mask to the borders */
-border-image-source: linear-gradient(
-    to bottom, 
-    var(--bracket-color) 0%, 
-    var(--bracket-color) var(--bracket-arm-length), 
-    transparent var(--bracket-arm-length), 
-    transparent calc(100% - var(--bracket-arm-length)), 
-    var(--bracket-color) calc(100% - var(--bracket-arm-length)), 
-    var(--bracket-color) 100%
-  );
-  
+  border-image-source: linear-gradient(to bottom,
+      var(--bracket-color) 0%,
+      var(--bracket-color) var(--bracket-arm-length),
+      transparent var(--bracket-arm-length),
+      transparent calc(100% - var(--bracket-arm-length)),
+      var(--bracket-color) calc(100% - var(--bracket-arm-length)),
+      var(--bracket-color) 100%);
+
   /* 3. This tells the border to stretch the gradient across the edges */
   border-image-slice: 1;
 }
@@ -1141,7 +1137,7 @@ figcaption {
   /* Makes figcaption take up the full width of its parent (figure) */
   background-color: #fff;
   color: #000;
-  font:  sans-serif;
+  font: sans-serif;
   padding: 20px 5px 5px 5px;
   margin: 0px;
   text-align: center;
@@ -1266,14 +1262,333 @@ figcaption {
 
 .inline_toc {
   text-align: center;
-   width: 75%;         /* 75% of parent width */
-  margin: 0 auto;     /* horizontally center the div */
+  width: 75%;
+  /* 75% of parent width */
+  margin: 0 auto;
+  /* horizontally center the div */
 }
 
 .inline_toc_title {
-  font-weight: bold;  /* standard bold */
+  font-weight: bold;
+  /* standard bold */
 }
 
 .sidebar p {
   margin-bottom: 0;
 }
+
+/* 1. Hide the sidebar completely and expand content to full width */
+.sidebar {
+  display: none !important;
+}
+
+.markdown-section {
+  margin: 0 auto !important;
+  max-width: 900px !important;
+  padding: 40px 20px;
+}
+
+
+/* ===================================================== */
+/* MODERN SEARCH & OVERLAY STYLING                      */
+/* ===================================================== */
+
+/* =====================================================
+   TOP SEARCH HEADER (Mobile-First : Colonne par défaut)
+   ================================================     */
+.top-search-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;              
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style du titre AidE */
+.app-name {
+    margin: 0;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.app-name-link {
+    font-family: 'Metal Mania', system-ui, -apple-system, sans-serif;
+    text-decoration: none;
+    color: var(--theme-highlight, #ff0000);
+    letter-spacing: 1px;
+}
+
+/* Wrapper et champ de recherche sur mobile */
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.top-search-container input {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none; 
+    padding: 14px 20px 14px 14px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #2c3e50;
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.top-search-container input::placeholder {
+    color: #94a3b8;
+}
+
+.top-search-container input:focus {
+    background: #ffffff;
+    border-color: var(--theme-highlight, #ff0000);
+    box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.1);
+}
+
+/* Shortcut badge inside the input */
+.search-shortcut-badge {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e2e8f0;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 6px;
+    pointer-events: none;
+    border: 1px solid #cbd5e1;
+}
+
+
+/* =====================================================
+   RESPONSIVE DESKTOP (Écrans larges >= 768px)
+   AidE collé à gauche, Recherche centrée (max 900px)
+   ================================================     */
+@media (min-width: 768px) {
+    .top-search-container {
+        flex-direction: row;        /* Ligne horizontale */
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;                /* Occupe toute la largeur */
+        max-width: none;            /* Supprime toute limite globale pour s'étendre aux bords */
+        margin: 0;                  /* Supprime le centrage global */
+        padding: 15px 30px;         /* Ajustez le padding latéral selon vos préférences (ex: 30px) */
+    }
+
+    .app-name {
+        text-align: left;
+        flex-shrink: 0;             
+    }
+
+    .search-input-wrapper {
+        flex: 1;                    
+        max-width: 900px;           /* Limite maximale de la barre à 900px */
+        margin: 0 auto;             /* Centre la barre de recherche dans l'espace restant */
+    }
+
+    .top-search-container input {
+        max-width: 900px;           
+    }
+}
+
+/* Gorgeous Modal Overlay */
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px 16px 20px 16px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.search-overlay.active {
+  display: flex;
+  opacity: 1;
+  animation: overlayIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes overlayIn {
+  from {
+    transform: translateY(-15px) scale(0.98);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.search-overlay-panel {
+  position: relative;
+  background: #ffffff;
+  width: min(760px, 100%);
+  max-height: min(75vh, 650px);
+  border-radius: 16px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header section in overlay */
+.search-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid #f1f5f9;
+  background: #fafafa;
+}
+
+.search-overlay-header h1 {
+  font-size: 1.25rem !important;
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  color: #1e293b !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  white-space: normal !important;
+  border: none !important; text-decoration: none !important;
+}
+
+.search-close-btn {
+  background: #f1f5f9;
+  border: none;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #64748b;
+  transition: all 0.2s;
+  position: static;
+  float: none;
+}
+
+.search-close-btn:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+/* Results Content Area */
+.search-overlay-content {
+  padding: 12px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.search-overlay-message {
+  padding: 16px 20px;
+  color: #64748b;
+  font-size: 14px;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.search-overlay-message strong {
+  color: #0f172a;
+}
+
+/* Individual Result Item Cards */
+.search-result-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 18px;
+  text-decoration: none;
+  color: #334155;
+  background: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  transition: all 0.15s ease;
+  position: relative;
+}
+
+.search-result-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  background: transparent;
+  border-radius: 0 4px 4px 0;
+  transition: background 0.15s;
+}
+
+.search-result-link:hover, 
+.search-result-link.selected {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  color: #0f172a;
+  transform: translateX(2px);
+}
+
+.search-result-link:hover::before,
+.search-result-link.selected::before {
+  background: var(--theme-highlight, #ff0000);
+}
+
+.search-result-title {
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-result-path {
+  font-size: 12px;
+  color: #94a3b8;
+  font-family: monospace;
+}
+
+/* Modal Footer / Navigation hint */
+.search-overlay-footer {
+  padding: 10px 20px;
+  background: #f8fafc;
+  border-top: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.search-keys kbd {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 11px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  margin: 0 2px;
+}
+
+
+/* 1. Masquer complètement la sidebar si elle est présente dans le DOM */
+.sidebar {
+    display: none !important;
+}
+

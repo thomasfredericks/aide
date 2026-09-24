@@ -1,4 +1,3 @@
 #!/bin/bash
- ./buildSiderbar.sh 
-python buildIndex.py
-python checkLinks.py
+python check_links.py
+python build_index.py

@@ -8,11 +8,6 @@
         content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="description" content="AIDE*TOF : Centre d'aide par Thomas O Fredericks">
 
-
-
-    <link rel="stylesheet" href="docsify-lightbox.css">
-    <!-- Custom Styles -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="MetalManiaFont.css" rel="stylesheet">
@@ -25,12 +20,43 @@
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
     <link rel="manifest" href="./site.webmanifest" />
-
-
 </head>
 
 <body>
+
+    <!-- Top Search Header -->
+    <div class="top-search-container">
+        <span class="app-name">
+            <a class="app-name-link" data-nosearch="" href="/">AidE</a>
+        </span>
+        <div class="search-input-wrapper">
+            <input type="text" id="search-input" placeholder="Rechercher..." autocomplete="off">
+            <span class="search-shortcut-badge">Entrée ↵</span>
+        </div>
+    </div>
     <div id="app"></div>
+
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-overlay-panel">
+            <div class="search-overlay-header">
+                <h1>Résultats de recherche</h1>
+                <button id="search-close-btn" class="search-close-btn" title="Fermer (ESC)">
+                    ✕
+                </button>
+            </div>
+
+            <div id="search-overlay-content" class="search-overlay-content">
+                <!-- Results injected here -->
+            </div>
+
+            <div class="search-overlay-footer">
+
+                <div class="search-keys">
+                    <kbd>Esc</kbd> pour fermer
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         window.$docsify = {
@@ -40,7 +66,7 @@
             unhashtagLinkExtensions: ['.pdf', '.html', '.docx', '.pd', '.maxpat', '.vcv', '.zip'],  // Override file types here
             auto2top: true,
             sidebarDisplayLevel: 0, // set sidebar display level
-            loadSidebar: true,    // Enable sidebar loading
+            loadSidebar: false,    // Enable sidebar loading
 
             copyCode: {
                 buttonText: '📄',
@@ -56,7 +82,7 @@
             toc: {
                 tocMaxLevel: 3,
                 target: 'h2, h3',
-                insertBefore: false   
+                insertBefore: false
             }
             ,
             alertStyles: `
@@ -69,12 +95,6 @@
             plugins: [
                 function (hook, vm) {
                     hook.doneEach(() => {
-                        import('./_libs/docsify-lightbox.js').then(module => {
-                            const images = document.querySelectorAll('img');
-                            const lightbox = new module.default();
-                            lightbox.initialize(images);
-                        }).catch(err => console.error('Failed to load Lightbox plugin', err));
-
                         // Site Name
                         let siteName = window.$docsify.name;  // Use the defined name
 
@@ -95,9 +115,6 @@
                             }
                         }
 
-                        document.querySelector('.sidebar-nav').addEventListener('click', function (event) {
-                            event.stopPropagation();
-                        });
 
                     });
                 }
@@ -110,7 +127,6 @@
 
     <!-- Import Mermaid -->
     <script src="./_libs/mermaid.min.js"></script>
-    <script src="./_libs/docsify-sidebar-collapse.min.js"></script>
     <script src="./_libs/docsify-mermaid.js"></script>
     <script src="./_libs/docsify-copy-code.min.js"></script>
     <script src="./_libs_modified/docsify-alerts.js"></script>
@@ -128,6 +144,8 @@
     <script src="./toc.js"></script>
     <script src="./_libs/docsify-route-normalizer.js"></script>
 
+    <!-- Custom Search Index & Submission Logic -->
+    <script src="./search.js"></script>
 
 </body>
 
