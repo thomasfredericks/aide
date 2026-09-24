@@ -46,7 +46,7 @@
       * [Logo collectif](/creation/visuel/ateliers/logo/)
       * [Typographie fait d'objets](/creation/visuel/ateliers/typoobjekto/)
     * [Guide de normes graphiques](/creation/visuel/guide/)
-      * [Exemple : normes graphiques pour cartes](/creation/visuel/guide/cartes/)
+      * [Exemple : Guide de normes graphiques pour cartes](/creation/visuel/guide/cartes/)
     * Iu
       * [IU : Couleur](/creation/visuel/iu/couleur/)
       * [IU : Espacer les éléments](/creation/visuel/iu/espace/)
