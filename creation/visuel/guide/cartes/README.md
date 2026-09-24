@@ -1,4 +1,4 @@
-# Exemple : normes graphiques pour cartes
+# Exemple : Guide de normes graphiques pour cartes
 
 Cette page détaille la rédaction d'un guide normes graphiques pour la réalisation d'un jeu de cartes standard thématique de 54 cartes :
 
