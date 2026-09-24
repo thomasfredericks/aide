@@ -650,6 +650,21 @@
         "u": "#/creation/visuel/guide//#exemples"
     },
     {
+        "t": "Exemple : Guide de normes graphiques pour cartes",
+        "l": "exemplugiciele  interface utilisateurde normes graphiques cartes",
+        "u": "#/creation/visuel/guide/cartes//"
+    },
+    {
+        "t": "Structure du document",
+        "l": "structure document",
+        "u": "#/creation/visuel/guide/cartes//#structure-du-document"
+    },
+    {
+        "t": "Notes sur l'impression",
+        "l": "notes l'impression",
+        "u": "#/creation/visuel/guide/cartes//#notes-sur-limpression"
+    },
+    {
         "t": "IU : Couleur",
         "l": "interface utilisateur  couleur",
         "u": "#/creation/visuel/iu/couleur//"
@@ -3200,6 +3215,16 @@
         "u": "#/logiciels/pd/serie/ascii//"
     },
     {
+        "t": "Tutoriel : Arduino, Pd, ASCII et audio",
+        "l": "tutoriel  arduino pure data ascii audio",
+        "u": "#/logiciels/pd/serie/ascii/audio//"
+    },
+    {
+        "t": "Envoi d'Arduino",
+        "l": "envoi d'arduino",
+        "u": "#/logiciels/pd/serie/ascii/audio//#envoi-darduino"
+    },
+    {
         "t": "Pd : comport",
         "l": "pure data  comport",
         "u": "#/logiciels/pd/serie/comport//"
@@ -4000,14 +4025,14 @@
         "u": "#/logiciels/vnc//"
     },
     {
-        "t": "VNC pour Windows",
-        "l": "vnc windows",
-        "u": "#/logiciels/vnc//#vnc-pour-windows"
+        "t": "Client VNC",
+        "l": "client vnc",
+        "u": "#/logiciels/vnc//#client-vnc"
     },
     {
-        "t": "VNC pour macOS",
-        "l": "vnc macos",
-        "u": "#/logiciels/vnc//#vnc-pour-macos"
+        "t": "Serveur VNC",
+        "l": "serveur vnc",
+        "u": "#/logiciels/vnc//#serveur-vnc"
     },
     {
         "t": "Clavier États-Unis international dans Windows",
@@ -4033,10 +4058,5 @@
         "t": "Oak",
         "l": "oak",
         "u": "#/materiel/oak//"
-    },
-    {
-        "t": "Search",
-        "l": "search",
-        "u": "#/search//"
     }
 ]
