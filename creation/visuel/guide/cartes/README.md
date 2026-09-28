@@ -1,12 +1,15 @@
 # Exemple : Guide de normes graphiques pour cartes
 
-Cette page détaille la rédaction d'un guide normes graphiques pour la réalisation d'un jeu de cartes standard thématique de 54 cartes :
+Cette page détaille la rédaction d'un guide normes graphiques pour la réalisation d'un jeu de cartes standardde taille poker thématique de 54 cartes :
 
 - 4 familles d'enseigne de 4 couleurs, mais réparties en deux groupes
-- 3 figures et 1 as par enseigne
+- cartes 2 à 9 dans les 4 familles
+- 3 figures et 1 as par famille
 - 2 jokers différents
 
 *Préparez ce document avec soin : il servira de référence absolue pour toute la durée de la production de votre jeu de cartes.*
+
+![Les 4 enseignes de famille traditionnelles](./familles_traditionnelles.png)
 
 
 ## Structure du document
@@ -55,6 +58,8 @@ Le document doit être livré sous format numérique (exportation **pdf** d'un d
 
 ### Éléments de jeu
 
+![Des enseignes de famille thématiques (thème de donjon)](./familles_thematiques.png)
+
 Vous devez présenter les gabarits visuels préliminaires pour prouver la faisabilité du projet :
 
 *  **Le dos de carte :** Croquis ou maquette du dos, en vérifiant qu'il respecte la symétrie (non orienté).
@@ -63,6 +68,8 @@ Vous devez présenter les gabarits visuels préliminaires pour prouver la faisab
 *  **Figure :** Croquis ou maquette rapide d'au moins une figure (ex : la Dame) démontrant l'intégration de la thématique.
 *  **Joker :** Croquis ou maquette rapide d'un joker.
 * **Lisibilité :** La valeur et la famille de la carte doivent être clairs à distance.
+
+![Correspondances entres enseignes](./familles_correspondances.png)
 
 ### Contraintes techniques d'impression
 
@@ -77,7 +84,7 @@ Voici un exemple de l'application des contraintes techniques : [American-poker-s
 
 ## Notes sur l'impression
 
-![Une carte avec un fond noir dans le logiciel de dessin avec bleed et zone de sécurité](./carte_affinity.png)
+![Une carte avec un fond noir dans le logiciel de dessin avec (ligne mauve) et zone de sécurité (lignes vertes)](./carte_affinity.png)
 
 ![Une carte pour l'impression avec lignes de coupe](./carte_impression.png)
 
