@@ -70,7 +70,7 @@
     * [Guides d'utilisation des GML](/culture/ia/guides/)
     * [Propagande sur les GML](/culture/ia/propagande/)
     * [Effets sur la santé psychologique des GML](/culture/ia/sante/)
-    * [Types d'apprentissage automatique (IA, GML, IA générale)](/culture/ia/types/)
+    * [Types d'intelligence artificielle](/culture/ia/types/)
   * [Manipulation : Dark Patterns](/culture/manipulations/)
   * [Merdification ( Enshittification )](/culture/merdification/)
   * Pouvoir

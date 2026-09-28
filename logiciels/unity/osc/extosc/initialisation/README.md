@@ -27,7 +27,7 @@ Importez tous les *assets* : 
 Vous devriez maintenant voir *extOSC* dans vos *assets* :  
 ![« extOSC » dans les Assets du projet](./extosc_install7.png)
 
-## Intégration de l’objet de contrôle OSC
+## Initialisation de l’objet de contrôle OSC
 
 > [!Note]
 > Effectuez les étapes suivantes une seule fois par scène.

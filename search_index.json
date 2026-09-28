@@ -905,14 +905,44 @@
         "u": "#/culture/ia/sante//"
     },
     {
-        "t": "Types d'apprentissage automatique (IA, GML, IA générale)",
-        "l": "types d'apprentissage automatique intelligence artificielle grand modele langage intelligence artificielle generale",
+        "t": "Types d'intelligence artificielle",
+        "l": "types d'intelligence artificielle",
         "u": "#/culture/ia/types//"
     },
     {
-        "t": "Comparatif",
-        "l": "comparatif",
-        "u": "#/culture/ia/types//#comparatif"
+        "t": "La confusion autour du terme \"IA\"",
+        "l": "confusion autour terme intelligence artificielle",
+        "u": "#/culture/ia/types//#la-confusion-autour-du-terme-ia"
+    },
+    {
+        "t": "Tableau comparatif",
+        "l": "tabibliotheque logicielleeau comparatif",
+        "u": "#/culture/ia/types//#tableau-comparatif"
+    },
+    {
+        "t": "Grand modèle de langage (GML)",
+        "l": "grand modele langage grand modele langage",
+        "u": "#/culture/ia/types//#grand-modele-de-langage-gml"
+    },
+    {
+        "t": "Générateur d'image",
+        "l": "generateur d'image",
+        "u": "#/culture/ia/types//#generateur-dimage"
+    },
+    {
+        "t": "IA générale (AGI) hypothétique",
+        "l": "intelligence artificielle generale agi hypothetique",
+        "u": "#/culture/ia/types//#ia-generale-agi-hypothetique"
+    },
+    {
+        "t": "IA pour jeux de stratégie (Échecs, Go, etc)",
+        "l": "intelligence artificielle jeux strategie echecs go etc",
+        "u": "#/culture/ia/types//#ia-pour-jeux-de-strategie-echecs-go-etc"
+    },
+    {
+        "t": "IA traditionnelle dans les jeux vidéo",
+        "l": "intelligence artificielle traditionnelle jeux video",
+        "u": "#/culture/ia/types//#ia-traditionnelle-dans-les-jeux-video"
     },
     {
         "t": "Manipulation : Dark Patterns",
@@ -3840,9 +3870,9 @@
         "u": "#/logiciels/unity/osc/extosc/initialisation//#installation-de-extosc"
     },
     {
-        "t": "Intégration de l’objet de contrôle OSC",
-        "l": "integration l’objet controle open sound control",
-        "u": "#/logiciels/unity/osc/extosc/initialisation//#integration-de-lobjet-de-controle-osc"
+        "t": "Initialisation de l’objet de contrôle OSC",
+        "l": "initintelligence artificiellelisation l’objet controle open sound control",
+        "u": "#/logiciels/unity/osc/extosc/initialisation//#initialisation-de-lobjet-de-controle-osc"
     },
     {
         "t": "Réception d'OSC dans Unity avec extOSC",
@@ -3855,14 +3885,34 @@
         "u": "#/logiciels/unity/osc/extosc/reception//#prealables"
     },
     {
-        "t": "Principe général de réception",
-        "l": "principe general reception",
-        "u": "#/logiciels/unity/osc/extosc/reception//#principe-general-de-reception"
+        "t": "Configuration globale lobale (à faire UNE SEULE FOIS)",
+        "l": "configuration globale lobale fintelligence artificiellere seule fois",
+        "u": "#/logiciels/unity/osc/extosc/reception//#configuration-globale-lobale-a-faire-une-seule-fois"
     },
     {
-        "t": "Exemple de réception d’un message OSC",
-        "l": "exemplugiciele reception d’un message open sound control",
-        "u": "#/logiciels/unity/osc/extosc/reception//#exemple-de-reception-dun-message-osc"
+        "t": "Configuration Par Adresse OSC (à répéter pour CHAQUE adresse)",
+        "l": "configuration adresse open sound control repeter chaque adresse",
+        "u": "#/logiciels/unity/osc/extosc/reception//#configuration-par-adresse-osc-a-repeter-pour-chaque-adresse"
+    },
+    {
+        "t": "Lier l'adresse OSC à une fonction dans Start()",
+        "l": "lier l'adresse open sound control fonction start",
+        "u": "#/logiciels/unity/osc/extosc/reception//#lier-ladresse-osc-a-une-fonction-dans-start"
+    },
+    {
+        "t": "Structure Complète du Script",
+        "l": "structure complugicielete script",
+        "u": "#/logiciels/unity/osc/extosc/reception//#structure-complete-du-script"
+    },
+    {
+        "t": "4. Tableau Récapitulatif",
+        "l": "4 tabibliotheque logicielleeau recapitulatif",
+        "u": "#/logiciels/unity/osc/extosc/reception//#4-tableau-recapitulatif"
+    },
+    {
+        "t": "5. Points Clés à Retenir",
+        "l": "5 points cles retenir",
+        "u": "#/logiciels/unity/osc/extosc/reception//#5-points-cles-a-retenir"
     },
     {
         "t": "Unity : OSC UDP avec oscjackvs",
