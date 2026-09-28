@@ -84,7 +84,7 @@ Voici un exemple de l'application des contraintes techniques : [American-poker-s
 
 ## Notes sur l'impression
 
-![Une carte avec un fond noir dans le logiciel de dessin avec (ligne mauve) et zone de sécurité (lignes vertes)](./carte_affinity.png)
+![Une carte avec un fond noir avec fond perdu (ligne mauve), zone de sécurité (lignes vertes) et taille finale (lignes grises)](./carte_affinity.png)
 
 ![Une carte pour l'impression avec lignes de coupe](./carte_impression.png)
 
