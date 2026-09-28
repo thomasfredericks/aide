@@ -7,30 +7,21 @@
 > Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. 
 > Il existe en réalité plusieurs types d'IA vastement différents. Dans aucun cas, le système est réellement intelligent ou conscient.
 
-
-
-## Des catégories distinctes
-
-| Catégorie | Exemples |
-|-----------|----------|
-| **Grand modèle de langage (GML)** | ChatGPT, Claude | 
-| **Générateur d'image** | Stable Diffusion, DALL-E 3, Midjourney v5+ |
-| **IA générale (AGI)** | Hypothétique : **N'existe pas et n'existera peut être jamais**  | 
-| **IA pour jeux de stratégie** | AlphaGo, Deep Blue |
-| **IA de jeux vidéo** | PNJ, pathfinding |  
-
-
 ## Tableau comparatif 
 
-| Critère | GML (LLM) | Échecs/Go AI | IA Vidéo-classique | IA Générale |
-|---------|-----------|--------------|-------------------|-------------|
-| **Spécialité** | Texte, langage naturel | Un jeu spécifique | Comportements de PNJ | Tous domaines |
-| **Apprentissage** | Données textuelles massives | Auto-play / renforcement | Scripté par humains | Hypothétique |
-| **Flexibilité** | Multi-tâches (superficiel) | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
-| **Transparence** | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
-| **Conscience** | Aucun | Aucun | Aucun | Hypothétique |
-| **État** | Disponible | Disponible | Disponible | N'existe pas |
-| **Métaphore clé** | Reconnaissance de motifs | Base de données des possibilités | Scripts de concepteurs | — |
+| Critère | GML (LLM) | Générateur d'images | IA pour Échecs/Go | IA jeu vidéo | IA Générale |
+|---------|-----------|--------------|-------------------|-------------|-------------|
+| **Spécialité** | Texte, langage naturel | Générer des images | Un jeu **spécifique** | Comportements de PNJ | Remplacer un humain |
+| **Fonctionnement** | Reconnaissance de motifs | Reconstitue une image à partir de bruit (diffusion) | Simulation des coups possibles | Scripts de concepteurs | — |
+| **Apprentissage** | Données textuelles massives | Corpus d'images + débruitage itératif | Auto-play / renforcement | Scripté par humains | Hypothétique |
+| **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
+| **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
+| **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
+| **État** | Disponible | Disponible | Disponible | Disponible | N'existe pas |
+| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N'existe pas |
+| **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
+
+
 
 ## Grand modèle de langage (GML)
 
@@ -102,12 +93,12 @@ L'**IA générale** désigne une intelligence artificielle hypothétique capable
 > Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
 > **Cette technologie n'existe pas aujourd'hui.**  Elle reste de la science-fiction.
 
-##  IA pour jeux de stratégie (Échecs, Go, Poker)
+##  IA pour jeux de stratégie (Échecs, Go, etc)
 
 
 L'IA de stratégie fonctionne comme une **base de données de toutes les possibilités** combinée à une simulation des alternatives.  Elle calcule systématiquement les coupes futures ou consulte une bibliothèque exhaustive de positions connues pour choisir le mouvement optimal.
 
-Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs environnements fermés. Pour les jeux aux règles simples comme les échecs, le nombre de combinaisons reste gérable par force brute assistée. Pour des jeux plus complexes comme le Go, ils combinent recherche arborescente et apprentissage profond pour évaluer les positions sans avoir mémorisé toutes les parties.
+Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs environnements fermés. Pour les jeux aux règles simples comme les échecs, le nombre de combinaisons reste gérable par force brute assistée. Pour des jeux plus complexes comme le Go, ils combinent recherche arborescente et apprentissage profond pour évaluer les positions sans avoir une mémoire de toutes les parties.
 
 ### Explication technique
 
@@ -146,7 +137,7 @@ Il existe deux approches principales :
 
 
 
-## IA dans les Jeux Vidéo Traditionnels
+## IA traditionnelle dans les jeux vidéo 
 
 L'IA de jeu vidéo est **scriptée par les concepteurs**. Chaque comportement est prémédité et codé explicitement, sans aucune capacité d'apprentissage autonome.
 
