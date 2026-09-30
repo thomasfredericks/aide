@@ -8,7 +8,8 @@ Intégration de l’OSC UDP dans Unity avec **extOSC**.
 
 ### Préalables
 
-* [Activer l’exécution en arrière-plan](../../execution_arriere-plan/)
+- [Ajouter le bon `.gitignore` au projet Unity](../../git/) s'il n'y en a pas
+- [Activer l’exécution en arrière-plan](../../execution_arriere-plan/)
 
 ### Installation de extOSC
 
@@ -156,6 +157,7 @@ flowchart LR
 
 - Suivre les instructions pour l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
 - Cloner le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
+- [Ajouter le bon `.gitignore` au projet Unity](../../git/) s'il n'y en a pas
 - Suivre les instructions pour l’intégration d’extOSC ci-haut.
 
 ### Investiguer le code Unity
