@@ -57,13 +57,13 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 
 ####  Tableau récapitulatif
 
-| Étape | Configuration unique | Par adresse de message OSC |
-|----|-----------|---------|
-| Importer `using extOSC;` | ✅ | ❌ |
-| Déclarer `oscReceiver` | ✅ | ❌ |
-| Relier le GameObject OSC dans l’inspecteur | ✅ | ❌ |
-| Créer une fonction de traitement (`TraiterMessage...()`) | ❌ | ✅ |
-| Ajouter `oscReceiver.Bind()` dans `Start()` | ❌ | ✅ |
+| Étape | Configuration |
+|----|-----------|
+| Importer `using extOSC;` | 1️⃣ Une seule fois |
+| Déclarer `oscReceiver` | 1️⃣ Une seule fois |
+| Relier le GameObject `OSC` dans l’inspecteur | 1️⃣ Une seule fois |
+| Créer une fonction de traitement (`TraiterMessage...`) | ♻️ Pour chaque adresse |
+| Ajouter `oscReceiver.Bind()` dans `Start()` | ♻️ Pour chaque adresse |
 
 ### Configuration globale (à faire UNE SEULE FOIS)
 
@@ -143,6 +143,14 @@ void TraiterMessageBut0(OSCMessage message)
 ## Exemple Flappy Bird Unity et Arduino Nano avec bouton d’arcade par OSC
 
 Quand on appuie sur un bouton d’Arcade, cela envoie le message OSC SLIP `/but0 1` à Pd qui le relaye par UDP à Unity.
+
+```mermaid
+flowchart LR
+
+    A[Arduino] -- OSC SLIP --> Pd
+    
+    Pd -- OSC UDP --> C[Unity]
+```
 
 ### Préalables
 
@@ -227,6 +235,19 @@ Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pd
 
 Les messages OSC SLIP sont envoyés à Pure Data qui les relaye à Unity en OSC UDP.
 
+```mermaid
+flowchart LR
+
+    A[Arduino] -- OSC SLIP --> comport
+    
+    subgraph Pd
+        direction LR
+        comport --> deslip[SLIP parse] 
+        deslip ---> netsend
+    end
+    
+    netsend -- OSC UDP --> C[Unity]
+```
 <!--
 ### Tester avec des messages OSC
 

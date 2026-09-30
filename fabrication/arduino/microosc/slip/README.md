@@ -67,6 +67,21 @@ monOsc.sendInt( "/beta" , maLectureAnalogique);
 
 ## Exemple MicroOsc d’envoi OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd
 
+
+```mermaid
+flowchart LR
+
+    A[Arduino] -- OSC SLIP --> comport
+    
+    subgraph Pd
+        direction LR
+        comport --> deslip[SLIP parse] 
+        deslip ---> oscparse[OSC parse]
+        oscparse ---> route
+        route -- but0 ---> audio
+    end
+```
+
 Branchement sur Arduino Terminals :
 
 | Bouton d’arcade | Arduino Terminals |
