@@ -41,7 +41,7 @@
 
 - Farnell, Andy. *Designing Sound*. MIT Press, 2010. ISBN: 9780262014410
 - Bjørn, K. (2021). *PUSH TURN MOVE*
-- Bardiot, C., Derobert, L., Farcet, C., et Guillois, P. (n.d.). *La neige n"a pas de sens - Adrien M et Claire B*
+- Bardiot, C., Derobert, L., Farcet, C., et Guillois, P. (n.d.). *La neige n'a pas de sens - Adrien M et Claire B*
 - [Commencer à fabriquer des sons par Ableton](https://learningsynths.ableton.com/fr)
 - [Premiers pas en création musicale par Ableton](https://learningmusic.ableton.com/fr/)
 - Shepard, Brian K. *Refining Sound: A Practical Guide to Synthesis and Synthesizers*. Oxford University Press, 2013. ISBN: 9780199922963

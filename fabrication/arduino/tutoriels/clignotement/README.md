@@ -209,7 +209,7 @@ Ainsi que ces méthodes d’interaction :
  | Instruction | Signification |
 |--|--|
 | `bouton.update()` | **IMPORTANT**! Met à jour l’état du bouton. Doit être appelée à chaque passage dans `loop()` |
-| `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n"est pas actuellement appuyé |
+| `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n'est pas actuellement appuyé |
 
 Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
 
@@ -308,14 +308,14 @@ La méthode `pressed()` permet de savoir si une pression sur le bouton vient d�
 | Instruction | Valeur retournée | Signification |
 |--|--|--|
 | `bouton.pressed()` | `true` | Une pression vient d’être détectée |
-| `bouton.pressed()` | `false` | Aucune nouvelle pression n"a été détectée |
+| `bouton.pressed()` | `false` | Aucune nouvelle pression n'a été détectée |
 
 La méthode `released()` permet de savoir si un relâchement du bouton vient d’être détecté :
 
 | Instruction | Valeur retournée | Signification |
 |--|--|--|
 | `bouton.released()` | `true` | Un relâchement vient d’être détecté |
-| `bouton.released()` | `false` | Aucun nouveau relâchement n"a été détecté |
+| `bouton.released()` | `false` | Aucun nouveau relâchement n'a été détecté |
 
 
 Différence entre `isPressed()` et `pressed()` :

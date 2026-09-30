@@ -45,7 +45,7 @@ Les symboles suivants représentent les deux pôles d’une seule et même alime
 
 ## «Net»
 
-Parfois, pour rendre les schémas plus lisibles, nous donnons un nom à un «net» et l’étiquetons, plutôt que de faire passer un fil sur tout le schéma. Les «nets» portant le même nom sont supposés être connectés, même s’il n"y a pas de fil visible les reliant. Les noms peuvent soit être écrits directement sur le dessus du «net», soit ils peuvent être des «tags», accrochés au fil.
+Parfois, pour rendre les schémas plus lisibles, nous donnons un nom à un «net» et l’étiquetons, plutôt que de faire passer un fil sur tout le schéma. Les «nets» portant le même nom sont supposés être connectés, même s’il n'y a pas de fil visible les reliant. Les noms peuvent soit être écrits directement sur le dessus du «net», soit ils peuvent être des «tags», accrochés au fil.
 
 ![Les «nets» sont des connexions «sans-fil» (JIMBLOM, s. d.)](./net.png)
 

@@ -31,4 +31,4 @@ Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un i
 
 ### Limites d’un GML à extrapoler
 
-![Dans cette séquence, il est clair que l’IA générative n"arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)
+![Dans cette séquence, il est clair que l’IA générative n'arrive pas à générer un verre de vin à rabord](./verre_de_vin.svg)

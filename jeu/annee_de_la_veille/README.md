@@ -32,7 +32,7 @@ S’il existe une question avec laquelle vous êtes aux prises dans votre propre
 
 
 > [!IMPORTANT]
-> La communauté n"est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne font pas partie de la communauté. 
+> La communauté n'est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne font pas partie de la communauté. 
 
 ## L’évènement de la veille
 
@@ -64,7 +64,7 @@ Ce qui est à l’intérieur de ce périmètre appartient à la communauté et t
 
 ### Situation de la communauté
 
-Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C’est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
+Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C’est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n'est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
 Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
@@ -323,7 +323,7 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 | # | Option A | ou | Option B |
 |----|-----|--|-----|
 | 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d’accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d’autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
-| 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n"est réduit cette semaine.** |
+| 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n'est réduit cette semaine.** |
 | 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c’est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
 | 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu’est-ce que c’est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu’est-ce que c’est ? Qui la découvre ? |
 | 5 | En préparation de l’année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |

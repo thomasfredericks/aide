@@ -62,13 +62,13 @@ git push -u origin main
 ```
 
 > [!WARNING]
-> Seulement si la commande `git push` précédente n"a pas fonctionné (parce que le dépôt distant contient un README.md par exemple), exécuter la commande `git merge origin/main -allow-unrelated-histories -m "Fusion"` et ensuite refaire le `git push` précédent.
+> Seulement si la commande `git push` précédente n'a pas fonctionné (parce que le dépôt distant contient un README.md par exemple), exécuter la commande `git merge origin/main -allow-unrelated-histories -m "Fusion"` et ensuite refaire le `git push` précédent.
 
 Une fois ces étapes complétées, le projet est versionné localement *et* synchronisé avec le dépôt distant.
 
 ## Visual Studio Source Control
 
-Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l’ordinateur. Dans l’image suivante, on constate que Git n"est pas configuré :
+Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l’ordinateur. Dans l’image suivante, on constate que Git n'est pas configuré :
 
 ![](./erreur_source_control.png)
 

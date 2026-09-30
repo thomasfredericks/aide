@@ -97,14 +97,14 @@ void TraiterMessageBut0(OSCMessage message)
     // Validez qu’il y a bien le nombre attendu d’arguments (1 dans l’exemple) :
     if (message.Values.Count != 1)
     {
-        Debug.Log("Le message " + message.Address  + " n"a pas le bon nombre d’arguments");
+        Debug.Log("Le message " + message.Address  + " n'a pas le bon nombre d’arguments");
         return; // Quitte la fonction sans exécuter la suite
     }
 
     // Vérifiez que l’argument est du type attendu (`int` dans l’exemple) :
     if (message.Values[0].Type != OSCValueType.Int)
     {
-        Debug.Log("Le premier argument du message " + message.Address  + "n"est pas un entier");
+        Debug.Log("Le premier argument du message " + message.Address  + "n'est pas un entier");
         return; // Quitte la fonction sans exécuter la suite
     }
 
