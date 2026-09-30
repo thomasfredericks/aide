@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 const val = searchInput.value.trim();
                 if (val.length > 0) {
-                    location.hash = `/?q=${encodeURIComponent(val)}`;
+                    showSearchResults(val);
                 }
             } else if (e.key === 'Escape') {
                 closeSearchOverlay();
