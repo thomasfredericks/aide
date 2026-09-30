@@ -93,14 +93,12 @@ async function performSearch(query) {
     // Remplacement des alias multi-mots d'abord
     const sortedAliases = Object.keys(aliases).sort((a, b) => b.length - a.length);
     for (const alias of sortedAliases) {
-        // Escape special regex characters in the alias
-        const escapedAlias = alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // Use word boundaries for whole-word matching only
-        const pattern = new RegExp('\\b' + escapedAlias + '\\b', 'gi');
-        if (pattern.test(queryClean)) {
-            queryClean = queryClean.replace(pattern, aliases[alias]);
-        }
+    const escapedAlias = alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp('\\b' + escapedAlias + '\\b', 'gi');
+    if (pattern.test(queryClean)) {
+        queryClean = queryClean.replace(pattern, aliases[alias]);  // ✅ Whole-word only
     }
+}
 
     const rawWords = queryClean.split(/\s+/).filter(Boolean);
     const queryWords = [];
@@ -121,12 +119,7 @@ async function performSearch(query) {
     // Filtrage des résultats
     const matches = index.filter(item => {
         const searchableText = `${item.l || ''} ${item.c || ''}`.toLowerCase();
-        return uniqueQueryWords.every(word => {
-            // Create word boundary regex pattern
-            const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const pattern = new RegExp('\\b' + escapedWord + '\\b', 'i');
-            return pattern.test(searchableText);  // ✅ Whole-word matching
-        });
+        return uniqueQueryWords.every(word => searchableText.includes(word));  // ✅ Keep this - allows partial match
     });
 
     return matches;
