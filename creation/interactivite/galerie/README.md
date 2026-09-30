@@ -8,7 +8,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## Mots-clés
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
-- **COLLECTIF** : expérience qui s'effectue à plus de 2 interacteurs.
+- **COLLECTIF** : expérience qui s’effectue à plus de 2 interacteurs.
 - **CORPORALITÉ** : expérience qui concerne le corps physique.
 - **EXPÉRIMENTAL** : une approche qui déconstruit la forme pour mieux la réinventer.
 - **CONSÉQUENCES** : expérience qui entraîne des conséquences réelles.
@@ -19,7 +19,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - **WEB** : expérience sur le Web.
 - **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
 - **IU** : recherche sur l’interface utilisateur
-- **INSTRUMENT** : recherche sur ce qu"est un instrument
+- **INSTRUMENT** : recherche sur ce qu’est un instrument
 
 ## Entrer dans un autre monde
 

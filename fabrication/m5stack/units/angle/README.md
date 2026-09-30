@@ -11,7 +11,7 @@ Page officielle : [Unit Angle](https://docs.m5stack.com/en/unit/angle).
 
 Connecter l’unité **M5Stack Angle** au connecteur Grove blanc du contrôleur.
 
-La lecture de la rotation s'effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l’unité **M5Stack Angle** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l’angle :
+La lecture de la rotation s’effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l’unité **M5Stack Angle** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l’angle :
 
 ![La connectique du M5Stack Angle](angle-to-atom.png)
 

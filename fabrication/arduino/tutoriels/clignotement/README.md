@@ -48,10 +48,10 @@ Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 
 | Méthode | Signification |
 |--|--|
-| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s'est écoulée |
+| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s’est écoulée |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
-En combinant ces méthodes nous pouvons produire un bloc de code qui s'exécute à chaque `INTERVALLE` : 
+En combinant ces méthodes nous pouvons produire un bloc de code qui s’exécute à chaque `INTERVALLE` : 
 
 ```cpp
   if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l’INTERVALLE
@@ -61,7 +61,7 @@ En combinant ces méthodes nous pouvons produire un bloc de code qui s'exécute 
     }
 ```
 
-La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s'écoule.
+La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s’écoule.
 
 ### Schéma 
 
@@ -480,7 +480,7 @@ void loop()
 }
 ```
 
-Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu"elle s'allume lorsque le clignotement est actif, modifiez la condition du bouton :
+Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu’elle s’allume lorsque le clignotement est actif, modifiez la condition du bouton :
 
 ```cpp
   if (bouton.pressed())

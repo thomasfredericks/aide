@@ -3395,9 +3395,9 @@
         "u": "#/logiciels/max/osc/relais/?id=installation-de-cnmat"
     },
     {
-        "t": "Patcher Pure Data pour le relais des messages OSC SLIP -> UDP",
-        "l": "patcher pure data relintelligence artificielles messages open sound control slip -> udp",
-        "u": "#/logiciels/max/osc/relais/?id=patcher-pure-data-pour-le-relais-des-messages-osc-slip---udp"
+        "t": "Patcher Pure Data pour le relais des messages OSC SLIP --> UDP",
+        "l": "patcher pure data relintelligence artificielles messages open sound control slip --> udp",
+        "u": "#/logiciels/max/osc/relais/?id=patcher-pure-data-pour-le-relais-des-messages-osc-slip----udp"
     },
     {
         "t": "Navigateur dans OBS",

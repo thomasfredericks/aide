@@ -18,7 +18,7 @@ Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer de
 ![Photo de l’avant et l’arrière du M5Stack Unit TOF](./unit_tof.png)
 ## Connexion
 
-**Le Unit TOF est de type I²C tel qu"identifié par son connecteur rouge.**
+**Le Unit TOF est de type I²C tel qu’identifié par son connecteur rouge.**
 
 Il peut être branché à un connecteur **grove blanc** ou à une connecteur **grove rouge**.
 
@@ -98,7 +98,7 @@ sensor.setMeasurementTimingBudget(200000);
 
 ### Code à utiliser dans `loop()`
 
-À noter qu"une mesure prend par défaut 33 millisecondes !
+À noter qu’une mesure prend par défaut 33 millisecondes !
 
 Obtenir la mesure en millimètres :
 ```cpp
@@ -108,7 +108,7 @@ int mesure = myTOF.readRangeSingleMillimeters();
 > [!NOTE] 
 > Récupérer les erreurs seulement si nécessaire.
 
-**Optionnellement**, déterminer s'il y a eu une erreur de communication avec le TOF :
+**Optionnellement**, déterminer s’il y a eu une erreur de communication avec le TOF :
 ```cpp
 int erreur = myTOF.timeoutOccurred();
 ```

@@ -1,8 +1,8 @@
 # Les délires causés par les GML
 
-Les GML ont tendance à créer des délires parce qu"ils sont conçus pour être flagorneurs et pour développer la dépendance. Travailler avec un GML, donne l’impression de collaborer avec quelqu"un qui est amoureux avec toi. Un GML trouve son utilisateur toujours incroyable.
+Les GML ont tendance à créer des délires parce qu’ils sont conçus pour être flagorneurs et pour développer la dépendance. Travailler avec un GML, donne l’impression de collaborer avec quelqu"un qui est amoureux avec toi. Un GML trouve son utilisateur toujours incroyable.
 
- > Le GML utilise des phrases comme « Super intuition ici » ou « Excellente idée » sans jamais trouver qu"une idée est « nulle ». Et après quelques heures de ça, après qu’une entité, qui semble plus intelligente que quiconque, ait passé tout un après-midi à te dire que tout ce que tu fais est génial, tu commences réellement à le croire. Tu te dis alors : « Je suis vraiment doué ! »
+ > Le GML utilise des phrases comme « Super intuition ici » ou « Excellente idée » sans jamais trouver qu’une idée est « nulle ». Et après quelques heures de ça, après qu’une entité, qui semble plus intelligente que quiconque, ait passé tout un après-midi à te dire que tout ce que tu fais est génial, tu commences réellement à le croire. Tu te dis alors : « Je suis vraiment doué ! »
 
 - Le **délire de la connaissance** : renforcement de la surestimation de ses connaissances par des retours trop positifs du modèle.
     - Renforcement de l’effet Dunning-Kruger par la flagornerie des GLM

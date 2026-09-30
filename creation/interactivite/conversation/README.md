@@ -19,13 +19,13 @@ Par exemple, une installation réactive qui détecte une personne et allume une 
 
 Une installation interactive pourrait faire :
 
-> présence → lumière → la personne s'approche → la lumière recule → la personne la suit → la lumière change de comportement → etc.
+> présence → lumière → la personne s’approche → la lumière recule → la personne la suit → la lumière change de comportement → etc.
 
-Le système *entretient une relation* plutôt qu"il ne déclenche simplement un effet.
+Le système *entretient une relation* plutôt qu’il ne déclenche simplement un effet.
 
 ## La conversation implique une forme d’écoute
 
-Pour qu"il y ait conversation, le système doit avoir quelque chose qui ressemble à une *capacité d’écoute*.
+Pour qu’il y ait conversation, le système doit avoir quelque chose qui ressemble à une *capacité d’écoute*.
 
 Cela ne veut pas nécessairement dire comprendre le langage. Le système peut « écouter » :
 
@@ -40,11 +40,11 @@ Cela ne veut pas nécessairement dire comprendre le langage. Le système peut «
 
 La question devient alors :
 
-> Qu"est-ce que votre système est capable d’écouter chez la personne visiteuse ?
+> Qu’est-ce que votre système est capable d’écouter chez la personne visiteuse ?
 
 Et surtout, parce que capter une donnée n"est pas encore interagir :
 
-> Qu"est-ce que le système fait de ce qu"il a entendu? 
+> Qu’est-ce que le système fait de ce qu’il a entendu? 
 
 
 
@@ -58,7 +58,7 @@ Un exemple de faible interactivité :
 
 Un exemple d’une interactivité plus forte :
 
-> La personne bouge → le système interprète son mouvement → la personne saute → son image s'envole dans l’écran.
+> La personne bouge → le système interprète son mouvement → la personne saute → son image s’envole dans l’écran.
 
 Dans le deuxième cas, la personne peut commencer à se dire :
 

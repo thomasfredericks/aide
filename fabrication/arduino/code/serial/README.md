@@ -31,7 +31,7 @@ Chaque lettre est convertie en une succession de signaux courts (**points**) et 
 
 ![Le code Morse](./code_morse.png)
 
-En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son code ASCII, c"est-à-dire le nombre décimal `65`, qui s'écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l’un après l’autre, sur le fil de transmission. 
+En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son code ASCII, c"est-à-dire le nombre décimal `65`, qui s’écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l’un après l’autre, sur le fil de transmission. 
 
 Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l’octet `01000001`, et consulte la table ASCII pour comprendre que cette valeur correspond au caractère `A`.
 
@@ -131,6 +131,6 @@ Voici le résultat en ASCII (le retour à la ligne est invisible) :
 TEMP 23
 ``` 
 
--  Le descripteur donne un contexte à la donnée. Si l’ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s'il s'agit d’une température, d’une humidité ou d’une distance. Le descripteur permet au récepteur d’identifier immédiatement la nature de l’information.
+-  Le descripteur donne un contexte à la donnée. Si l’ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s’il s’agit d’une température, d’une humidité ou d’une distance. Le descripteur permet au récepteur d’identifier immédiatement la nature de l’information.
 - L’espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l’analyse beaucoup plus complexe pour isoler la valeur numérique.
-- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C"est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s'arrête un message et où commence le suivant.
+- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C"est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s’arrête un message et où commence le suivant.

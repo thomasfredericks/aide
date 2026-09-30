@@ -21,7 +21,7 @@ Illustration rapide - prenons *La chaise musicale* : 
 
 ### Concevoir l’interactivité, c’est travailler **à rebours** :  
 
-La conception s'effectue **à rebours** : 
+La conception s’effectue **à rebours** : 
 - **3. Expérience :** Que veux-tu que les joueurs ressentent ?  
 - **2. Système :** Quels dynamiques et motifs produisent ce ressenti ?  
 - **1. Règles :** Quelles instructions simples vont générer ce système ?  

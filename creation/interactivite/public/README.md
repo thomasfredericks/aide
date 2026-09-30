@@ -14,7 +14,7 @@ Le public cible n’est donc pas nécessairement l’ensemble des personnes qui 
 
 - Certains interacteurs vont se désintéresser si l’expérience est trop simple. 
 - Et d’autres qui fuient la complexité. 
-- D'autres recherchent le conflit.
+- D’autres recherchent le conflit.
 - Et aussi certains qui recherchent le calme.
 
 

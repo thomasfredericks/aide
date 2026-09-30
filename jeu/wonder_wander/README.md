@@ -44,7 +44,7 @@ Les 21 résultats possibles sont :
 > 11, 12, 13, 14, 15, 16, 22, 23, 24, 25, 26, 33, 34, 35, 36, 44, 45, 46, 55, 56, 66
 
 > [!NOTE]
-> Avec D66↗, les probabilités ne sont pas uniformes. Chaque double (11, 22, 33, 44, 55, 66) n"a qu"une seule façon d’être obtenu. Chaque double à 2,78 % de probabilité d’être obtenu. Chaque autre valeur à 5,56 % de probabilité d’être obtenu.
+> Avec D66↗, les probabilités ne sont pas uniformes. Chaque double (11, 22, 33, 44, 55, 66) n"a qu’une seule façon d’être obtenu. Chaque double à 2,78 % de probabilité d’être obtenu. Chaque autre valeur à 5,56 % de probabilité d’être obtenu.
 
 ## La carte
 
@@ -257,7 +257,7 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 
 | D66↗ | Description du lieu particulier |
 |---|-------------|
-| 11 | Les restes d’un véhicule écrasé. Il peut être petit ou aussi grand qu"une ville. |
+| 11 | Les restes d’un véhicule écrasé. Il peut être petit ou aussi grand qu’une ville. |
 | 12 | Dessinez une structure de plusieurs pierres énormes dont vous ignorez l’utilité. |
 | 13 | Vous découvrez une énorme porte que vous n"arrivez pas à franchir. Dessinez la porte et lancez un dé de moins au prochain tour. |
 | 14 | Une structure abritant un signal lumineux. Quel avertissement ce signal transmet-il ? |
@@ -265,18 +265,18 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 | 16 | Vous apercevez un monstre marin le large de la côte. |
 | 22 | Le campement d’une petite armée. Réduisez en ruine la communauté la plus proche |
 | 23 | Dessiner une épave à proximité de la côte |
-| 24 | Une lente procession de personnes transportant quelque chose de gigantesque. Dessinez ce qu"ils transportent ou trainent.|
+| 24 | Une lente procession de personnes transportant quelque chose de gigantesque. Dessinez ce qu’ils transportent ou trainent.|
 | 25 | Des collines verdoyantes s’étendent jusqu’à l’horizon |
 | 26 | Une modeste ferme entourée de champs cultivés. Dessinez la ferme. Les habitants vous parlent d’un lieu : roulez 1 dé de plus sur la carte seulement au prochain tour |
 | 33 | Un volcan entre en éruption. Dessinez le volcan. Les cendres emportées par le vent réduisent à la ruine la communauté la plus proche |
 | 34 | Une auberge au bord de la route accueillant des voyageurs fatigués. Lancez 1 dé de plus au prochain tour |
 | 35 | Une tente spectaculaire remplie de toutes sortes d’artistes. Dessinez la tente et la compétence qu’ils vous enseignent pendant votre séjour.|
 | 36 | Une haute tour de guet dominant le paysage. Dessinez avec un cône ce qui est observé |
-| 44 | Un ancien site lié à une arme d’une puissance redoutable. Dessinez l’arme. Dessiner plus loin la marque permanente qu"elle a laissée sur la nature.  |
+| 44 | Un ancien site lié à une arme d’une puissance redoutable. Dessinez l’arme. Dessiner plus loin la marque permanente qu’elle a laissée sur la nature.  |
 | 45 | Un trou très profond. Qui l’a creusé ? Où mène-t-il |
 | 46 | Un marais avec des arbres pétrifiés s’entrelacent comme des membres noueux. |
 | 55 | Un poste frontalier animé et débordant d’activité. Dessiner un mur avec un passage entre deux biomes. Vous devez remplir des formulaires, lancez 1 dé de moins au prochain tour |
-| 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s'y baigne |
+| 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s’y baigne |
 | 66 | Un immense œuf dormant. Quelle créature est censée grandir à l’intérieur ? |
 
 

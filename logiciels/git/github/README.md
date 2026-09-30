@@ -1,6 +1,6 @@
 # GitHub
 
-GitHub permet de synchroniser un projet sur un ordinateur, avec un clone en ligne ainsi qu"un clone avec des tierces personnes. 
+GitHub permet de synchroniser un projet sur un ordinateur, avec un clone en ligne ainsi qu’un clone avec des tierces personnes. 
 
 ## Ne pas utiliser GitHub pour archiver un projet
 

@@ -62,7 +62,7 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
 
 Vous devez présenter les gabarits visuels préliminaires pour prouver la faisabilité du projet :
 
-*  **Le dos de carte :** Croquis ou maquette du dos, en vérifiant qu"il respecte la symétrie (non orienté).
+*  **Le dos de carte :** Croquis ou maquette du dos, en vérifiant qu’il respecte la symétrie (non orienté).
 *  **Les enseignes :** Présentation graphique des symboles de vos 4 familles, adaptées à votre thème.
     *   Distinction des enseignes : Ne vous basez pas uniquement sur la couleur pour différencier les familles (ex : le rouge pour Cœur/Carreau et le noir pour Pique/Trèfle).
 *  **Figure :** Croquis ou maquette rapide d’au moins une figure (ex : la Dame) démontrant l’intégration de la thématique.
@@ -78,7 +78,7 @@ Pour valider que votre projet est techniquement viable, incluez les paramètres 
 - **Résolution d’image de chaque carte :** Minimum 300 dpi.
 - **Format de la carte :** Dimensions standard Poker : 63 x 88 mm ou 2,28 x 3,46 po.
 - **Fonds perdus (bleed) :** Veuillez prévoir 1/8 po pour les fonds perdus. 
-- **Zone de sécurité textuelle :** Garder les textes et indices à l’intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu"ils ne soient coupés. 
+- **Zone de sécurité textuelle :** Garder les textes et indices à l’intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu’ils ne soient coupés. 
 
 Voici un exemple de l’application des contraintes techniques : [American-poker-size.pdf de makeplayingcards.com](American-poker-size.pdf)
 

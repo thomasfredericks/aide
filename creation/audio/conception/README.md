@@ -21,7 +21,7 @@ Les caractéristiques recherchées sont :
 Chaque son doit avoir un rôle clair dans l’expérience.  
 
 - **Feedback d’une action de l’utilisateur**  
-    - Confirmer qu"une action a eu lieu  
+    - Confirmer qu’une action a eu lieu  
     - Récompenser un comportement  
     - Indiquer la qualité d’une action  
         - Créer un lien sensoriel joueur–machine  

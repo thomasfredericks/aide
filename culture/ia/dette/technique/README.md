@@ -13,7 +13,7 @@ Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stac
 - *Le code presque correct* :
     - Passe la revue de code
     - Part en production
-    - Reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu"il est erroné
+    - Reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu’il est erroné
 
 Et lorsque le code *presque correct* est découvert, **les coûts de correction ont explosé** et n"ont pas été budgétés. 
 

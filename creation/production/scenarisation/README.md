@@ -2,7 +2,7 @@
 
 ## Scénarisation de l’interactivité
 
-En interactivité, la scénarisation s'effectue principalement par le découpage de l’expérience en **scènes** subdivisées en **règles**. Les règles sont les instructions explicites qui définissent le fonctionnement. Rappel : Règles --> Système --> Expérience.
+En interactivité, la scénarisation s’effectue principalement par le découpage de l’expérience en **scènes** subdivisées en **règles**. Les règles sont les instructions explicites qui définissent le fonctionnement. Rappel : Règles --> Système --> Expérience.
 
 Pour chaque **scène**, créer un tableau :
 - 1 règle par ligne 
@@ -12,7 +12,7 @@ Pour chaque **scène**, créer un tableau :
     - Effet **visuel**
     - Effet **sonore**
     - Effet **interactif** 
-- Indiquer comment le passage s'effectue d’une scène à l’autre
+- Indiquer comment le passage s’effectue d’une scène à l’autre
 
 Voici des exemples :
 
@@ -21,7 +21,7 @@ Voici des exemples :
 | Verbe action | Condition de déclenchement | Effet visuel | Effet sonore | Effet interactif |
 |--------|--------------|--------|--------|---------|
 | Entrer | Le visiteur franchit la zone de détection principale | Une lueur douce se répand autour de lui, révélant l’espace | Une nappe sonore légère, presque respiratoire, se déclenche | Activation du système de suivi de mouvement |
-| Se déplacer| S'approche du capteur de proximité activé à moins d’1 mètre | L’élément réagit par une pulsation lumineuse | Un son cristallin accompagne la pulsation | L’installation “reconnaît” la présence du visiteur et **passe à la scène 2**|
+| Se déplacer| S’approche du capteur de proximité activé à moins d’1 mètre | L’élément réagit par une pulsation lumineuse | Un son cristallin accompagne la pulsation | L’installation “reconnaît” la présence du visiteur et **passe à la scène 2**|
 
 ### Scène 2 
 

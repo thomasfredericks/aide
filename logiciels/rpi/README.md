@@ -44,7 +44,7 @@ Documentation additionnelle :
 
 ### Raspi-config 
 
-Une fois que le système sur le Raspberry Pi s'est initialisé, lancer un terminal (ou une connexion SSH) et exécuter la commande suivante :
+Une fois que le système sur le Raspberry Pi s’est initialisé, lancer un terminal (ou une connexion SSH) et exécuter la commande suivante :
 ```
 sudo raspi-config
 ```

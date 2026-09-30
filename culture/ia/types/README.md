@@ -85,7 +85,7 @@ Le générateur apprend à reconstruire des images en partant d’un bruit aléa
 L’**IA générale** désigne une intelligence artificielle hypothétique capable de :
 - Remplacer un humain
 - Comprendre, apprendre et appliquer ses connaissances à travers tous les domaines
-- S'adapter contextuellement
+- S’adapter contextuellement
 - Prendre des décisions autonomes dans des situations inédites
 
 

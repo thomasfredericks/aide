@@ -31,7 +31,7 @@ if ( M5.Btn.isReleased() ) {
 }
 ```
 
-3) Combiner les deux conditionnelles avec `else` parce qu"elles sont exclusives (une ou l’autre peut avoir effet, mais pas les deux en même temps) :
+3) Combiner les deux conditionnelles avec `else` parce qu’elles sont exclusives (une ou l’autre peut avoir effet, mais pas les deux en même temps) :
 ```cpp
 if ( M5.Btn.isPressed() ) {
     pixel = CRGB(255,255,255); // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference

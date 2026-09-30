@@ -2,7 +2,7 @@
 
 La carte **Nano R4** représente la dernière évolution de la famille Nano. Elle combine le puissant microcontrôleur **RA4M1 de Renesas** avec le format compact et familier des cartes Nano. 
 
-La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3CFM)**, une connectivité étendue grâce à un connecteur **Qwiic** intégré, ainsi que des fonctionnalités avancées telles qu"un **DAC**, le **CAN** et des **amplificateurs opérationnels (OpAmp)**.
+La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3CFM)**, une connectivité étendue grâce à un connecteur **Qwiic** intégré, ainsi que des fonctionnalités avancées telles qu’un **DAC**, le **CAN** et des **amplificateurs opérationnels (OpAmp)**.
 
 Dimensions : **18 mm × 45 mm**.
 
@@ -55,7 +55,7 @@ La DEL utilisateur intégrée est accessible via la constante suivante :
 Le Nano R4 est doté d’une DEL RVB intégrée qui peut être utilisée comme indicateur de retour visuel pour l’utilisateur.
 
 > [!WARNING]
-> Pour allumer chaque couleur de la DEL RVB intégrée du Nano R4, il faut relier la broche correspondante à la masse (GND). Cela signifie qu"un niveau de tension LOW allumera la couleur correspondante de la DEL, tandis qu"un niveau de tension HIGH l’éteindra.
+> Pour allumer chaque couleur de la DEL RVB intégrée du Nano R4, il faut relier la broche correspondante à la masse (GND). Cela signifie qu’un niveau de tension LOW allumera la couleur correspondante de la DEL, tandis qu’un niveau de tension HIGH l’éteindra.
 
 Plutôt que des numéros de broches, utiliser les constantes suivantes pour accéder aux broches correspondantes :
 

@@ -1,10 +1,10 @@
 # Open Sound Control (OSC)
 
-L’*Open Sound Control* (OSC) est un protocole de communication inter-applications. Contrairement à ce qu"indique son nom, il ne concerne pas uniquement le son, mais offre un système d’organisation générique mais uniformisé de l’information pertinent au contrôle de n"importe quel système, multimédia ou pas. L’OSC a été développé à UC Berkeley Center for New Music and Audio Technology (CNMAT).
+L’*Open Sound Control* (OSC) est un protocole de communication inter-applications. Contrairement à ce qu’indique son nom, il ne concerne pas uniquement le son, mais offre un système d’organisation générique mais uniformisé de l’information pertinent au contrôle de n"importe quel système, multimédia ou pas. L’OSC a été développé à UC Berkeley Center for New Music and Audio Technology (CNMAT).
 
 ## Pourquoi l’OSC? 
 
-La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d’organiser les données, et s'appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L’OSC impose une structure particulière de l’information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
+La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d’organiser les données, et s’appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L’OSC impose une structure particulière de l’information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
 
 L’OSC fournit également une vérification (primitive) des erreurs de transmission, ce qui est très important lorsque l’on travaille avec flux susceptibles au bruit!
 
@@ -57,12 +57,12 @@ Quelques exemples:
 ```
 
 Voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
-* Essayer de réduire le nombre d’arguments au profit d’un adressage plus complet. Cela respecte mieux la hiérarchie de l’adressage et plusieurs serveurs OSC ne supportent qu"un seul argument à la fois. Par exemple, utiliser `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
+* Essayer de réduire le nombre d’arguments au profit d’un adressage plus complet. Cela respecte mieux la hiérarchie de l’adressage et plusieurs serveurs OSC ne supportent qu’un seul argument à la fois. Par exemple, utiliser `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
 * Utiliser autant que possible des nombres réels normalisés entre `0.` et `1.` pour plus de compatibilité.
 
 ## Composition d’un bundle OSC
 
-Un bundle OSC contient plusieurs messages OSC. Il sert surtout à s'assurer que plusieurs messages arrivent simultanément au destinataire. 
+Un bundle OSC contient plusieurs messages OSC. Il sert surtout à s’assurer que plusieurs messages arrivent simultanément au destinataire. 
 
 ## Paquetage
 
@@ -74,7 +74,7 @@ Les deux types de paquets les plus communs sont:
 
 ### Par SLIP
 
-Le *SLIP* ne permet pas d’adresser les messages à des destinataires spécifiques. Seule l’application qui est connectée au port série peut envoyer et recevoir des messages (qu"elle peut relayer par la suite par UDP si nécessaire).
+Le *SLIP* ne permet pas d’adresser les messages à des destinataires spécifiques. Seule l’application qui est connectée au port série peut envoyer et recevoir des messages (qu’elle peut relayer par la suite par UDP si nécessaire).
 
 ### Par UDP
 

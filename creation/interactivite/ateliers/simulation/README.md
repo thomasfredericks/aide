@@ -32,7 +32,7 @@
 Choisir une idée et définir :  
 - **Règles :** Que peuvent faire les joueurs ?  
 - **Système :** Comment les joueurs interagissent-ils ? Quelles ressources sont utilisées (jetons, temps, espace, attention) ? 
-- **Expérience :** Que cherchent à accomplir les joueurs ? Qu"elle expérience est-ce qu"on veut qu"ils vivent?
+- **Expérience :** Que cherchent à accomplir les joueurs ? Qu’elle expérience est-ce qu’on veut qu’ils vivent?
 - **Condition de victoire / de fin :** Quand le jeu se termine-t-il ? 
 - Concevoir un **système interactif** avec papier, symboles et objets simples.  
 - Imaginer un **faux dispositif** (panneau de contrôle, application fictive, rituel). 

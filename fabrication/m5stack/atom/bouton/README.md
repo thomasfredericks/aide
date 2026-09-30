@@ -15,7 +15,7 @@ Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’util
 
 ### Dans *setup()*
 
-S'assurer que la broche reliée au bouton est en mode entrée :
+S’assurer que la broche reliée au bouton est en mode entrée :
 ```cpp
 pinMode( BROCHE_ATOM_BOUTON , INPUT );
 ```

@@ -93,7 +93,7 @@ while ( millis() - chronoDepart <= 3000 ) {  // boucler entre 0 et 3000 millisec
     atomPixel = CRGB(0,255,0); // vert
   }
   FastLED.show();
-  delay(1); // OPTIONNEL! libérer le cpu pour qu"il fasse d’autres choses comme gérer le wifi
+  delay(1); // OPTIONNEL! libérer le cpu pour qu’il fasse d’autres choses comme gérer le wifi
 }
 // ----------------------|
 ```

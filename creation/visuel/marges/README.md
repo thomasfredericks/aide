@@ -5,7 +5,7 @@ Les marges doivent suivre une logique proportionnelle pour l’équilibre visuel
 
 ## Marge de contenu de premier plan
 
-Cette marge délimite la zone intérieure où doivent se trouver les textes et les logos pour garantir une lisibilité optimale et éviter qu"ils ne paraissent « écrasés » contre le bord.
+Cette marge délimite la zone intérieure où doivent se trouver les textes et les logos pour garantir une lisibilité optimale et éviter qu’ils ne paraissent « écrasés » contre le bord.
 
 **Unité de mesure typographique :** Nous utilisons comme référence une lettre majuscule du titre comme unité de mesure. La distance entre le contenu de premier plan et le bord du document (la marge) doit être égale à la dimension la plus grande entre la hauteur et la largeur de cette majuscule.
 

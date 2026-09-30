@@ -8,12 +8,12 @@ Grâce à sa gratuité, sa grande légèreté et sa portabilité (il fonctionne 
 
 ## Installation
 
-L’installation de la version officielle de Pure Data (dite *vanilla*) s'effectue directement depuis  le site officiel de référence : [Software by Miller Puckette](https://msp.ucsd.edu/software.html) ou via [PureData.info](https://puredata.info/downloads/pure-data).
+L’installation de la version officielle de Pure Data (dite *vanilla*) s’effectue directement depuis  le site officiel de référence : [Software by Miller Puckette](https://msp.ucsd.edu/software.html) ou via [PureData.info](https://puredata.info/downloads/pure-data).
 
 Sur certaines versions de déploiement (notamment en décompressant des archives binaires), l’exécutable principal, nommé simplement `pd` (ou `pd.exe`), se trouve directement à l’intérieur du dossier `bin`.
 
 > [!WARNING]
-> À l’ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s'il doit créer le dossier **Documents > Pd**... répondre **oui!**
+> À l’ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s’il doit créer le dossier **Documents > Pd**... répondre **oui!**
 
 ![Répondre OUI à la création du dossier des documents pour Pd](pd_dossiers-defaut.png)
 

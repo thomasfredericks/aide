@@ -36,7 +36,7 @@ M5_PbHub myPbHub;
 > [!IMPORTANT] 
 > Ajouter les extraits de code suivants après votre code de démarrage dans `setup()`.
 
-#### 3.1) S'assurer que `Wire` est initialisé dans `setup()`
+#### 3.1) S’assurer que `Wire` est initialisé dans `setup()`
  
 Initialiser Wire :
 ```cpp

@@ -8,7 +8,7 @@ Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/e
 
 Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capteur de rotation infinie équipé de 2 pixels RGB.
 
-C"est un *Unit* de type I²C tel qu"identifié par son connecteur rouge.
+C"est un *Unit* de type I²C tel qu’identifié par son connecteur rouge.
 
 > [!NOTE]
 > Il doit être connecté au M5Stack Grove HUB, au M5Stack PaHub ou directement au microcontrôleur!
@@ -44,7 +44,7 @@ M5_Encoder myEncoder;
 
 ### Code obligatoire à ajouter à `setup()`
 
-S'assurer que `Wire` est initialisé : 
+S’assurer que `Wire` est initialisé : 
 ```cpp
   Wire.begin();
 ```
@@ -92,7 +92,7 @@ Le changement de rotation est un entier qui peut être :
  - Négatif : L’encodeur a tourné de N crans dans le sens anti-horaire depuis le dernier appel à `myEncoder.update()`.
  - Zéro : L’encodeur est resté immobile (ou est revenu exactement à sa position précédente).
 
-La méthode `getEncoderChange()` fournit la vitesse angulaire effective (exprimée en crans par intervalle de mise à jour) qui s'est produite depuis le dernier rafraîchissement.
+La méthode `getEncoderChange()` fournit la vitesse angulaire effective (exprimée en crans par intervalle de mise à jour) qui s’est produite depuis le dernier rafraîchissement.
 
 Obtenir le changement de rotation de l’encodeur :
 ```cpp

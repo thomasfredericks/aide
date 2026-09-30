@@ -23,7 +23,7 @@ Ensuite, nous pouvons accéder aux méthodes suivantes :
 | `minuterieDel.hasPassed(INTERVALLE)` | Retourne `true` lorsque `INTERVALLE` millisecondes se sont écoulées |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
-La minuterie fonctionne indépendamment du reste du programme. Le processeur peut donc continuer à exécuter `loop()` pendant que le temps s'écoule.
+La minuterie fonctionne indépendamment du reste du programme. Le processeur peut donc continuer à exécuter `loop()` pendant que le temps s’écoule.
 
 Cela permet de réaliser des temporisations **non bloquantes**, sans utiliser `delay()`.
 

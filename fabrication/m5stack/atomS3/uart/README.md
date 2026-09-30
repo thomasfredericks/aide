@@ -2,7 +2,7 @@
 
 ## Activer la communication `UART` pour communiquer avec des modules/périphériques
 
-S'il est nécessaire de communiquer par série UART (ne pas confondre avec la version USB) avec d’autres périphériques, ces ports doivent être activés manuellement selon les instructions suivantes.
+S’il est nécessaire de communiquer par série UART (ne pas confondre avec la version USB) avec d’autres périphériques, ces ports doivent être activés manuellement selon les instructions suivantes.
 
 ### Dans l’espace global
 

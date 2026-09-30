@@ -36,7 +36,7 @@ Ici, `compteur` est une variable de type `int` dont la valeur initiale est `0`.
 
 ## Les instructions
 
-Les instructions sont des lignes de code qui indiquent au programme ce qu"il doit faire.
+Les instructions sont des lignes de code qui indiquent au programme ce qu’il doit faire.
 
 Il est très important de respecter exactement la syntaxe du langage. Une erreur de syntaxe empêchera la compilation du programme.
 
@@ -168,7 +168,7 @@ if (valeurCapteur > seuil)
 
 ### `while`
 
-La structure `while` permet de répéter un bloc de code tant qu"une condition est vraie.
+La structure `while` permet de répéter un bloc de code tant qu’une condition est vraie.
 
 ```cpp
 while (valeurCapteur > 250)
@@ -179,7 +179,7 @@ while (valeurCapteur > 250)
 digitalWrite(5, LOW);
 ```
 
-> Dans un programme interactif, il faut être prudent avec `while`. Une boucle qui attend qu"une condition change peut empêcher le reste du programme de s'exécuter.
+> Dans un programme interactif, il faut être prudent avec `while`. Une boucle qui attend qu’une condition change peut empêcher le reste du programme de s’exécuter.
 
 ### `for`
 

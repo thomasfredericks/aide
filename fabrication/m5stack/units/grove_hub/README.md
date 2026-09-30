@@ -17,7 +17,7 @@ Le **Grove Hub** permet de relier 3 modules **I2C/Wire** (qui sont reconnaissabl
 
 ## Gestion des Adresses I2C
 
-Si des modules **I2C/Wire** sont connectés au **Grove Hub**, ils doivent impérativement avoir des **adresses I2C différentes**. Le Hub n"est qu"un simple répartiteur de câblage et ne gère pas de commutation d’adresses. 
+Si des modules **I2C/Wire** sont connectés au **Grove Hub**, ils doivent impérativement avoir des **adresses I2C différentes**. Le Hub n"est qu’un simple répartiteur de câblage et ne gère pas de commutation d’adresses. 
 
 > [!WARNING]
 > Les Units de même modèle ont la même adresse I2C/Wire par défaut.

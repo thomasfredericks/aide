@@ -1,6 +1,6 @@
 # TouchDesigner : Globales
 
-Les variables globales permettent de regrouper dans un endroit des valeurs qui sont utilisées ailleurs dans votre projet. Par exemple, il est pertinent d’avoir une variable pour la résolution finale d’affichage parce qu"elle risque de changer selon le contexte de présentation. En changeant la valeur de la variable, la nouvelle valeur est appliquée à l’ensemble du projet.
+Les variables globales permettent de regrouper dans un endroit des valeurs qui sont utilisées ailleurs dans votre projet. Par exemple, il est pertinent d’avoir une variable pour la résolution finale d’affichage parce qu’elle risque de changer selon le contexte de présentation. En changeant la valeur de la variable, la nouvelle valeur est appliquée à l’ensemble du projet.
 
 Pour avoir des variables globales dans votre projet TouchDesigner :
 - Créer un _COMP Base_

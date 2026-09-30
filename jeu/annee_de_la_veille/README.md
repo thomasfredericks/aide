@@ -125,7 +125,7 @@ Avant le début de la partie, nous devons établir la nature de ce qui a été p
 
 Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
 
-> « Que diriez-vous que le fils du chef a été enlevé parce qu"il portait des pierres précieuses ? »
+> « Que diriez-vous que le fils du chef a été enlevé parce qu’il portait des pierres précieuses ? »
 > … et que tout le monde acquiesce.
 
 Il est fort probable que ce qui a été pris soit l’une des ressources de la communauté. Dans ce cas, pourquoi cette ressource est-elle nécessaire à la survie de la communauté ? Par exemple :
@@ -325,13 +325,13 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 | 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d’accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d’autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
 | 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n"est réduit cette semaine.** |
 | 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c"est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
-| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu"est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu"est-ce que c"est ? Qui la découvre ? |
+| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu’est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu’est-ce que c"est ? Qui la découvre ? |
 | 5 | En préparation de l’année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
 | 6 | À quoi ressemble l’hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
 | 7 | Le moment est venu de consolider vos efforts et vos frontières. Les projets situés en dehors de la communauté échouent, et tous les projets restants voient leur dé réduit de 2 cette semaine. | ou | Quelqu"un commence à construire un endroit pour élever de jeunes membres de la communauté. **Commencez un Projet** pour refléter son entreprise. |
 | 8 | Un étranger infecté arrive en quête d’asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d’humain vous pille une ressource. Si c"était une abondance, elle est maintenant une pénurie. Si c"était une pénurie, comment son manque se fait-il encore plus ressentir ? |
 | 9 | C"est le moment d’économiser l’énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C"est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
-| 10 | Un personnage disparaît pendant la nuit. Tout ce que l’on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu"il a été sauvé ? Par qui ?|
+| 10 | Un personnage disparaît pendant la nuit. Tout ce que l’on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu’il a été sauvé ? Par qui ?|
 | 11 | Les rigueurs de l’hiver détruisent une source de nourriture. Si c"était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l’hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
 | 12 | Un rituel festif révèle un bon présage. Quel est le rituel ? Quel est le présage ? | | |
 | 13 | Les humains sont arrivés. La partie est terminée. | | |

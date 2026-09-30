@@ -25,7 +25,7 @@
     - [Alva Noto "Hadron Prototype" A L’ARME! Festival 2020 - YouTube](https://www.youtube.com/watch?v=PR8CRGI6oC4)
 - Glitch
     - [Datamosh Short Example - YouTube](https://www.youtube.com/watch?v=VEerMwhVAaQ)
-    - [Comment ça se danse un glitch ? | Gymnastique, la culture en s'amusant | ARTE - YouTube](https://www.youtube.com/watch?v=tJtSvZPmu0w)
+    - [Comment ça se danse un glitch ? | Gymnastique, la culture en s’amusant | ARTE - YouTube](https://www.youtube.com/watch?v=tJtSvZPmu0w)
     - [home | glitch.cool](https://www.glitch.cool/)
 -  [Light Music Studio "Prometheus", Kazan, USSR, TV Documentary - YouTube](https://www.youtube.com/watch?v=Gl5RUmS3_do)
 

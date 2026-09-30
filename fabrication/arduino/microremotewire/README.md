@@ -108,12 +108,12 @@ myMicroNet.begin(myName);
 ```
 
 > [!WARNING]
-> Après le téléversement du code, **ouvrir le moniteur série**. Le nom mDNS de l’ATOM POE ainsi que son adresse IP devraient s'y afficher.
+> Après le téléversement du code, **ouvrir le moniteur série**. Le nom mDNS de l’ATOM POE ainsi que son adresse IP devraient s’y afficher.
 
 Le pixel RGB de l’ATOM sert de témoin visuel pour indiquer différentes étapes de l’exécution du programme :
 
 - **Animation de démarrage (3 secondes)**  
-   - Signaler que l’appareil est en cours de démarrage et que les périphériques sont en train de s'initialiser.
+   - Signaler que l’appareil est en cours de démarrage et que les périphériques sont en train de s’initialiser.
 -  **Rouge (`CRGB(255, 0, 0)`)**  
    - Allumé juste après l’initialisation des LED et avant la configuration réseau.  
    - Indique que le programme a démarré et que le microcontrôleur est prêt à configurer le réseau et mDNS.

@@ -6,7 +6,7 @@ La plus importante des compétences d’un concepteur d’expériences interacti
 
 On pourrait penser aussi à la « logique » ou à la « pensée critique », puisque la conception d’expériences interactives est une affaire de prises de décisions.
 
-Si vous pensez à « communication », vous chauffez. Malheureusement, le mot *communication* a perdu de son sens originel. Alors qu"il était utilisé pour exprimer un échange d’idées, il n’est souvent plus utilisé que comme synonyme de transmission d’informations, ou dans le sens marketing du terme.
+Si vous pensez à « communication », vous chauffez. Malheureusement, le mot *communication* a perdu de son sens originel. Alors qu’il était utilisé pour exprimer un échange d’idées, il n’est souvent plus utilisé que comme synonyme de transmission d’informations, ou dans le sens marketing du terme.
 
 La vraie compétence, c’est **l’écoute**. Et l’écoute n’est pas passive.
 
