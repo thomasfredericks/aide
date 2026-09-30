@@ -31,7 +31,7 @@ if ( M5.Btn.isReleased() ) {
 }
 ```
 
-3) Combiner les deux conditionnelles avec `else` parce qu'elles sont exclusives (une ou l'autre peut avoir effet, mais pas les deux en même temps) :
+3) Combiner les deux conditionnelles avec `else` parce qu"elles sont exclusives (une ou l"autre peut avoir effet, mais pas les deux en même temps) :
 ```cpp
 if ( M5.Btn.isPressed() ) {
     pixel = CRGB(255,255,255); // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference
@@ -42,7 +42,7 @@ if ( M5.Btn.isPressed() ) {
 }
 ```
 
-4) Optimiser le code; `M5.Btn.isReleased()` est redondant parce que c'est le contraire de `M5.Btn.isPressed()`; la répétition de `FastLED.show()` peut être évitée :
+4) Optimiser le code; `M5.Btn.isReleased()` est redondant parce que c"est le contraire de `M5.Btn.isPressed()`; la répétition de `FastLED.show()` peut être évitée :
 ```cpp
 if ( M5.Btn.isPressed() ) {
     pixel = CRGB(255,255,255); // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference

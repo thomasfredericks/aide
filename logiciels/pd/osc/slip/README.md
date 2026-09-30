@@ -1,19 +1,19 @@
 #  OSC SLIP dans Pd
 
-Pour l'OSC SLIP dans Pd, il faut installer :
+Pour l"OSC SLIP dans Pd, il faut installer :
 * `comport`
 * `pdchoco`
 
 
-## Installation des objets additionnels pour l'OSC SLIP dans Pure Data
+## Installation des objets additionnels pour l"OSC SLIP dans Pure Data
 
 ### 1. Objet `comport`
 
-Suivre les instructions pour l'installation de `comport` dans Pd.
+Suivre les instructions pour l"installation de `comport` dans Pd.
 
 ### 2. Bibliothèque `pdchoco`
 
-Suivre les instructions pour l'installation de `pdchoco` : [pdchoco](../../pdchoco/)
+Suivre les instructions pour l"installation de `pdchoco` : [pdchoco](../../pdchoco/)
 
 ## Bloc de base
 
@@ -28,7 +28,7 @@ Envoi de SLIP :
 * `pdchoco/slip_pack` : cet objet convertit les listes de nombres en SLIP.
 * La conversion des messages OSC en liste de nombres n’est pas visible sur l’image.
 
-Réception d'OSC SLIP :
+Réception d’OSC SLIP :
 
 * `pdchoco/slip_parse` : cet objet convertit les données SLIP en liste de nombres.
 * `oscparse` : cet objet convertit la liste de nombres en message OSC.

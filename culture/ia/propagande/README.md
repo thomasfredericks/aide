@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L'objectif est d'influencer la population, voire de l'endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d'éliminer le pluralisme des points de vue et d'empêcher l'exercice de l'esprit critique.
+La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L’objectif est d’influencer la population, voire de l"endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d’éliminer le pluralisme des points de vue et d’empêcher l"exercice de l"esprit critique.
 
 En bref, les PDG de compagnies de GML voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels des GML :
 - Désinformation
@@ -15,7 +15,7 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 
 - **Les promoteurs de l’IA en éducation sont les mêmes qui ont introduit les téléphones intelligents et les réseaux sociaux.**  
   Or, nous avons vu **les impacts négatifs de ces technologies sur les jeunes** — isolement, détresse mentale, distraction permanente. Et maintenant, on nous dit : *« Cette fois-ci, ce sera différent ? »*
-- **Meta a enterré des preuves internes montrant que Facebook et Instagram nuisaient à la santé mentale des utilisateurs** : Une étude interne menée en 2020, nommée Project Mercury, a montré que les personnes qui se désactivaient des plateformes ressentaient moins de dépression, d’anxiété, de solitude et de comparaison sociale — ce qui suggère un lien causal entre l’usage des réseaux sociaux et des effets négatifs sur le bien-être mental. Plutôt que de publier ces résultats ou de poursuivre les recherches, Meta aurait arrêté le projet. Source : [Meta buried 'causal' evidence of social media harm, US court filings allege | Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/)
+- **Meta a enterré des preuves internes montrant que Facebook et Instagram nuisaient à la santé mentale des utilisateurs** : Une étude interne menée en 2020, nommée Project Mercury, a montré que les personnes qui se désactivaient des plateformes ressentaient moins de dépression, d’anxiété, de solitude et de comparaison sociale — ce qui suggère un lien causal entre l’usage des réseaux sociaux et des effets négatifs sur le bien-être mental. Plutôt que de publier ces résultats ou de poursuivre les recherches, Meta aurait arrêté le projet. Source : [Meta buried "causal" evidence of social media harm, US court filings allege | Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/)
 - **L’IA est un outil puissant, mais pas une transformation systémique en soi.**  
   L’exagération actuelle autour de l’IA rappelle les discours précédents sur le **bitcoin**, la **blockchain**, ou la **réalité virtuelle**. Il faut rester critique : **toute technologie n’est pas une panacée**.
 
@@ -33,11 +33,11 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 - [AI browsers can be tricked with malicious prompts hidden in URL fragments | CSO Online](https://www.csoonline.com/article/4097087/ai-browsers-can-be-tricked-with-malicious-prompts-hidden-in-url-fragments.html)
 
 
-## Droit d'auteur
+## Droit d’auteur
 
 - Le 8 mai 2025, le président Trump a congédié **Carla Hayden**, bibliothécaire du Congrès, **un jour après** la publication par l’US Copyright Office d’un rapport préliminaire sur **les GML et le droit d’auteur**.  Ce rapport indiquait que l’entraînement des GML sur des œuvres protégées **ne relève probablement pas du fair use**, ce qui **remet en cause la légalité** de nombreuses pratiques actuelles.
 - Contrairement à ce qui a été promis, les GML mémorisent des données comme a été dévoilé en janvier 2026 :
-  - [AI's Memorization Crisis - The Atlantic](https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/)
+  - [AI"s Memorization Crisis - The Atlantic](https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/)
   - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
   - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
 
@@ -61,11 +61,11 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 - **Le sentiment d’inévitabilité est une construction narrative.**  
   Silicon Valley cultive l’idée que « le futur est déjà écrit ». Mais **l’histoire des empires technologiques montre que tous peuvent s’effondrer** : IBM, les États-Unis, Yahoo, Nokia… Et bien d’autres.
 
-## L'âge d'or de l'IA est en 2025 et ça dégringole à partir de là
+## L’âge d’or de l"IA est en 2025 et ça dégringole à partir de là
 
 - **Le coût d’utilisation des GML est aujourd’hui artificiellement bas.**  
   Leur accès est **fortement subventionné** par le capital-risque, ce qui donne l’illusion qu’ils sont peu coûteux, voire gratuits. Mais ces subventions sont en train de s’évaporer...
-- Nous constatons le développement de  **Sycophant AI** : des GML conçues pour dire ce que l'utilisateur veut entendre, sans esprit critique.
+- Nous constatons le développement de  **Sycophant AI** : des GML conçues pour dire ce que l"utilisateur veut entendre, sans esprit critique.
   - [AI-Fueled Spiritual Delusions Are Destroying Human Relationships](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/)
 - Le **marketing** est au cœur du discours sur l’IA et prochainement de ses produits :  
   - **Kate Rouch**, ancienne de Meta, est aujourd’hui la première directrice du marketing d’OpenAI.
@@ -74,7 +74,7 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
   - [Therapy Chatbot Tells Recovering Addict to Have a Little Meth as a Treat](https://futurism.com/therapy-chatbot-addict-meth)
 - Les manipulations abondent :  
   - L’IA **Grok**, développée par xAI (Elon Musk), a été accusée de **diffuser de fausses informations**, comme la théorie du « génocide blanc » en Afrique du Sud.
-  - L’IA **Grok**, développée par xAI (Elon Musk), affirme qu'Elon Musk est plus athlétique que LeBron James et plus intelligent que Leonardo da Vinci : [Elon Musk’s Grok AI tells users he is fitter than LeBron James and smarter than Leonardo da Vinci | Elon Musk | The Guardian](https://www.theguardian.com/technology/2025/nov/21/elon-musk-grok-ai-bias-ranks-richest-man-fittest-smartest)
+  - L’IA **Grok**, développée par xAI (Elon Musk), affirme qu"Elon Musk est plus athlétique que LeBron James et plus intelligent que Leonardo da Vinci : [Elon Musk’s Grok AI tells users he is fitter than LeBron James and smarter than Leonardo da Vinci | Elon Musk | The Guardian](https://www.theguardian.com/technology/2025/nov/21/elon-musk-grok-ai-bias-ranks-richest-man-fittest-smartest)
 - **Atteinte du plafond du développement des GML**
   Le développement de l’IA générative a progressé à un rythme effréné, mais il pourrait exister une limite mathématique infranchissable — un plafond — qui marquerait la fin de son évolution fulgurante.
   Beaucoup misent sur l’idée de rendre l’IA générative toujours plus intelligente — mais que se passe-t-il si les données nécessaires à son développement n’existent tout simplement plus ? [AI Has a Fatal Flaw—And Nobody Can Fix It - YouTube](https://www.youtube.com/watch?v=_IOh0S_L3C4)
@@ -84,7 +84,7 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 ## Bonus
 
 - [SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc) Vidéo assez intéressante qui aborde ces mythes à propos des GML :
-  - Que jamais dans l'histoire de l'humanité une technologie a été développé aussi rapidement que les GML
+  - Que jamais dans l"histoire de l"humanité une technologie a été développé aussi rapidement que les GML
   - Que le développement des GML a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
   - Que les GML est plus dangereux que la bombe atomique
-- [ChatBots Explained: Not Conscious, No Revolution — Just Searching's Next Step - YouTube](https://www.youtube.com/watch?app=desktop&v=0qnZDMvJPh4)
+- [ChatBots Explained: Not Conscious, No Revolution — Just Searching"s Next Step - YouTube](https://www.youtube.com/watch?app=desktop&v=0qnZDMvJPh4)

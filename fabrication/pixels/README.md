@@ -12,7 +12,7 @@ Un ruban de pixels DEL regroupe plusieurs pixels pouvant être contrôlées à l
 Aussi connu sous le nom de **NeoPixel**, ce type de produit a été popularisé par la société Adafruit, qui propose [de nombreux modèles de NeoPixels](https://www.adafruit.com/category/168). Attention, les NeoPixels d’Adafruit fonctionnent en 5 volts.
 
 | Fonction / Puce           | **WS2801**              | **WS2811**                | **WS2818**                | **WS2812**               | **SK6812**            | **APA102**               |
-| ------------------------- | ----------------------- | ------------------------- | ------------------------- | ------------------------ | --------------------- | ------------------------ |
+| ------------- | ------------ | ------------- | ------------- | ------------ | ----------- | ------------ |
 | **Protocole**             | SPI (données + horloge) | Monofil (une seule ligne) | Monofil                   | Monofil                  | Monofil               | SPI (données + horloge)  |
 | **Fils requis**           | 4 (VCC, GND, CLK, DATA) | 3 (VCC, GND, DATA)        | 4 (VCC, GND, DATA, BACKUP)| 3 (VCC, GND, DATA)       | 3 (VCC, GND, DATA)    | 4 (VCC, GND, DATA, CLK)  |                  | 8 bits                | 8 bits                   |
 | **Débit de données**      | Rapide (jusqu’à MHz)    | 800 kHz                   | 800 kHz                   | 800 kHz                  | 800 kHz               | Jusqu’à 20 MHz           |                   | ✅ Oui                 | ❌ Non                    |
@@ -39,7 +39,7 @@ Certains modèles ont ces broches additionnelles :
 
 ## Branchement
 
-Dans l'exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec une tension d’alimentation de 12 V.
+Dans l"exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec une tension d’alimentation de 12 V.
 
 ![Couper un segment de ruban DEL](./Diapositive1.SVG)  
 

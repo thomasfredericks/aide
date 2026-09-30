@@ -1,4 +1,4 @@
-# Petite histoire de l'installation interactive​
+# Petite histoire de l"installation interactive​
 
 ## Ada Lovelace (1842)
 
@@ -7,12 +7,12 @@
 
 **Augusta Ada King, comtesse de Lovelace** (1815–1852) est considérée comme **la première programmeuse informatique** de l’histoire.
 
-En 1843, Ada traduit du français à l'anglais un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage** et y ajoute des **notes personnelles** brillantes :
+En 1843, Ada traduit du français à l"anglais un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage** et y ajoute des **notes personnelles** brillantes :
 
 - Elle y décrit **le premier algorithme informatique** (pour les **nombres de Bernoulli**)
 - Elle comprend que la machine pourrait **traiter autre chose que des chiffres** (musique, texte, etc.)
 
-> la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n'importe quelle longueur ou degré de complexité.
+> la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n"importe quelle longueur ou degré de complexité.
 
 ## Hilma af Klint (1906)
 
@@ -33,7 +33,7 @@ Son travail était **profondément influencé par la spiritualité**, notamment 
 
 Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
-> « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n'avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
+> « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n"avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
 
 ![](./hilma.png)
 
@@ -43,33 +43,33 @@ Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 ## Marcel Duchamp (1969)
 
-Duchamp ne s'intéresse pas à ce qu'il appelle « l'art rétinien ». Un art qui n'est que visuel — et cherche d'autres modes d'expression. ​
+Duchamp ne s"intéresse pas à ce qu"il appelle « l"art rétinien ». Un art qui n"est que visuel — et cherche d’autres modes d’expression. ​
 
-Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu'ils n'ont pas été réalisés par l'artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l'art et le rôle de l'artiste, et plus spécifiquement les notions d'original, de savoir-faire, de virtuosité et d'œuvre. ​
+Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu"ils n"ont pas été réalisés par l"artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l"art et le rôle de l"artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
 
-Pour Marcel Duchamp, « c'est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
+Pour Marcel Duchamp, « c"est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
 
 ![](./marcel.png)
 
 ## Jean Tinguely (1950-60)
 
-Dans les années 1950-1960, l'**art cinétique** apporte une autre étape importante.
+Dans les années 1950-1960, l"**art cinétique** apporte une autre étape importante.
 
-Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu'on interagit avec elles. L'œuvre commence alors à être pensée comme un **système**.
+Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu"on interagit avec elles. L’œuvre commence alors à être pensée comme un **système**.
 
 [Jean Tinguely Museum, Basel Switzerland - YouTube](https://www.youtube.com/watch?v=ZiNnTY3sMmU)
 
 ## GRAV (1963)
 
-Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Morellet, Francisco Sobrino, Joël Stein, Yvaral se sont réunis dans un collectif, le Groupe de recherche d'art visuel (GRAV) avec pour but de permettre à tous de pouvoir approcher leur art. Ils distribuent leur manifeste lors de la 3e biennale de Paris en octobre 1963 sous forme de tract s’intitulant « Assez de mystifications » et contenant les lignes suivantes :  
+Les artistes opto-cinétiques Horacio Garcia Rossi, Julio Le Parc, François Morellet, Francisco Sobrino, Joël Stein, Yvaral se sont réunis dans un collectif, le Groupe de recherche d’art visuel (GRAV) avec pour but de permettre à tous de pouvoir approcher leur art. Ils distribuent leur manifeste lors de la 3e biennale de Paris en octobre 1963 sous forme de tract s’intitulant « Assez de mystifications » et contenant les lignes suivantes :  
 
 > Nous voulons intéresser le spectateur, le sortir des inhibitions, le décontracter.  
 > Nous voulons le faire participer.  
-> Nous voulons le placer dans une situation qu'il déclenche et qu'il transforme.  
-> Nous voulons qu'il s'oriente vers une interaction avec d'autres spectateurs.  
-> Nous voulons développer chez le spectateur une forte capacité de perception et d'action.  
+> Nous voulons le placer dans une situation qu"il déclenche et qu"il transforme.  
+> Nous voulons qu"il s"oriente vers une interaction avec d’autres spectateurs.  
+> Nous voulons développer chez le spectateur une forte capacité de perception et d’action.  
 
-Source : Le GRAV sur le site d'Artmag [archive](http://www.artmag.com/galeries/c_frs/mordoch/grav/grav.html).
+Source : Le GRAV sur le site d’Artmag [archive](http://www.artmag.com/galeries/c_frs/mordoch/grav/grav.html).
 
 ## Ivan Sutherland (1963, 1965)
 

@@ -10,11 +10,11 @@
 // Le code de base pour le M5Stack Atom
 #include <M5Atom.h> // Inclure la librairie M5 (version pour M5Atom) https://github.com/m5stack/M5Atom
 CRGB pixel; // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference
-unsigned long monChronoMessages; // Utilisé dans loop() plus bas pour limiter la vitesse d'envoi des messages
+unsigned long monChronoMessages; // Utilisé dans loop() plus bas pour limiter la vitesse d’envoi des messages
 
 void setup() {
   M5.begin(false, false, false); // Démarrer la libraire M5 avec toutes les options désactivées
-  Serial.begin(115200); // Démarrer la connexion sérielle avec l'ordinateur
+  Serial.begin(115200); // Démarrer la connexion sérielle avec l"ordinateur
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1); // Ajouter le pixel du M5Atom à FastLED
 
   // Animation de démarrage

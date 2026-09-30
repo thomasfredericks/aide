@@ -11,9 +11,9 @@
 
 ## Le nouveau code à ajouter
 
-### Dans _l'espace global_
+### Dans _l"espace global_
 
-1) Ajouter une variable  **globale**  pour conserver l'état du pixel :
+1) Ajouter une variable  **globale**  pour conserver l"état du pixel :
 ```cpp
 bool monEtatPixel;
 ```
@@ -25,9 +25,9 @@ unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 
 ### Dans _setup()_
 
-Ajouter le code suivant après l'animation de démarrage.
+Ajouter le code suivant après l"animation de démarrage.
 
-1) Initialiser la variable d'état :
+1) Initialiser la variable d’état :
 ```cpp
 monEtatPixel = false;
 ```
@@ -41,7 +41,7 @@ monChronoDepart = millis(); // TEMPS DE DÉPART
 
 On ajoute le code suivant après `M5.update()`.
 
-1) Ajuster la valeur du pixel selon l'etat :
+1) Ajuster la valeur du pixel selon l"etat :
 ```cpp
 if ( monEtatPixel ) {
     pixel = CRGB(255,255,255); 

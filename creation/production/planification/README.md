@@ -26,7 +26,7 @@ Préciser les logiciels et systèmes nécessaires au bon fonctionnement de l’i
 - traitements vidéo
 - serveurs
 - logiciels de projection
-- gestion d'éclairage
+- gestion d’éclairage
 - traitements de capteurs
 - gestion du son
 - etc
@@ -66,7 +66,7 @@ La disposition des dispositifs multimédias (projecteurs, capteurs, caméras, ha
 
 Enfin, la circulation des visiteurs doit être anticipée : les déplacements doivent rester fluides et intuitifs, tout en favorisant la découverte progressive des points d’interaction et des effets visuels et sonores de l’installation.
 
-**Le plan d'implantation doit être à l'échelle !**
+**Le plan d’implantation doit être à l"échelle !**
 
 Exemples :
 - [Objets-monde - Implantation](https://sr-expo.gitlab.io/2025-mm/#/1_oeuvres/1_om/?id=plantation)
@@ -77,4 +77,4 @@ Exemples :
 ## Budget
 
 
-Comptabiliser dans une liste **facile à mettre à jour** l'estimation des coûts : Calculer les coûts associés à l'acquisition de matériel, de logiciels, au développement et à la maintenance.  
+Comptabiliser dans une liste **facile à mettre à jour** l"estimation des coûts : Calculer les coûts associés à l"acquisition de matériel, de logiciels, au développement et à la maintenance.  

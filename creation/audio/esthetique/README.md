@@ -1,4 +1,4 @@
-# Qualifier l'esthétique sonore
+# Qualifier l"esthétique sonore
 
 
 <!-- toc -->
@@ -6,7 +6,7 @@
 ## Banque de mots pour qualifier une esthétique sonore
 
 | Émotion | Timbre | Structure | Référence |
-|---|---|---|---|
+|--|--|--|--|
 | joyeux / triste | scintillant / sombre | musical / chaotique | mécanique / organique |
 | mélancolique / euphorique | granuleux / soyeux | harmonieux / dissonant | cartoonesque / crédible |
 | plaisant / intimidant  | saturé / épuré (réduction maitrisée) | rythmé / chaotique | narratif / fonctionnel |
@@ -20,12 +20,12 @@
 | (situation) épique | physique / intangible | fragile / solide | futuriste |
 | optimiste / pessimiste | précis / diffus | évolutif  | guerrier / pacifiste |
 
-N.B. : la référence *jeu-vidéo rétro* (ou *8 bit*) est à éviter parce qu'elle couvre plus de 80 ans d'histoire. Il est nécessaire d'être plus spécifique en faisant référence plutôt au terminal, aux écrans à deux couleurs, débuts de l'intégration de la vidéo, etc.
+N.B. : la référence *jeu-vidéo rétro* (ou *8 bit*) est à éviter parce qu"elle couvre plus de 80 ans d’histoire. Il est nécessaire d’être plus spécifique en faisant référence plutôt au terminal, aux écrans à deux couleurs, débuts de l"intégration de la vidéo, etc.
 
 ## Conception sonore de Star Wars VS Star Trek
 
 | Aspect        | Star Wars                  | Star Trek                   |
-| ------------- | -------------------------- | --------------------------- |
+| ------- | ------------- | -------------- |
 | **Émotion**   | Épique, héroïque           | Serein, optimiste           |
 | **Timbre**    | Puissant, saturé, spectre complexe    | Pur, minimal |
 | **Structure** | Pulsatif, rythmé, évolutif | Fluide, progressif          |

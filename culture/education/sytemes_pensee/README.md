@@ -2,7 +2,7 @@
 
 La plupart des informations ici sont tirées de cette vidéo : [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains - YouTube](https://www.youtube.com/watch?v=0xS68sl2D70)
 
-Dans «Thinking, Fast and Slow» de Daniel Kahneman. l'auteur décrit nos deux systèmes de pensée — deux types de processus qui se déroulent en même temps dans notre cerveau.
+Dans «Thinking, Fast and Slow» de Daniel Kahneman. l"auteur décrit nos deux systèmes de pensée — deux types de processus qui se déroulent en même temps dans notre cerveau.
 - Le processus de pensée rapide : le système 1,
 - Le processus de pensée lent : le système 2
 
@@ -10,13 +10,13 @@ Dans «Thinking, Fast and Slow» de Daniel Kahneman. l'auteur décrit nos deux s
 
 Le système 1, lui, fonctionne automatiquement et rapidement, en arrière-plan, sans que l’on en ait conscience. Il trie les informations sensorielles pour ne garder que l’essentiel et s’appuie sur la mémoire à long terme pour répondre vite et efficacement. Il donne des réponses immédiates, souvent sans vérification, parce que le système 2 est paresseux et n’intervient que si nécessaire.
 
-Le système 1 traite beaucoup d'information en parralèle.
+Le système 1 traite beaucoup d’information en parralèle.
 
 ## Le système 2 : le raisonnement
 
 Le système 2 correspond à la pensée consciente, lente et méthodique, celle que l’on associe à la réflexion volontaire. Il demande de l’effort et peut vérifier les erreurs, suivre des étapes logiques, et réfléchir à sa propre pensée. Par exemple, il peut calculer 13 x 17 en plusieurs étapes, même si ce n’est pas très motivant.
 
-Le système 2 traite l'information de façon sérielle. De plus, il est limité à sa capacité de traitement à 7  7 plus ou moins 2 éléments en mémoire.
+Le système 2 traite l"information de façon sérielle. De plus, il est limité à sa capacité de traitement à 7  7 plus ou moins 2 éléments en mémoire.
 
 Le concept du « 7 plus ou moins 2 » fait référence à une théorie en psychologie cognitive selon laquelle une personne peut retenir en moyenne environ sept éléments en mémoire à court terme, avec une plage allant de cinq à neuf éléments.
 Cette idée a été popularisée par George A. Miller dans son article de 1956 intitulé « The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information ».
@@ -46,8 +46,8 @@ C’est la clé pour améliorer la performance : développer de plus en plus d
 
 Si on ne parvient jamais à ce niveau de maîtrise, chaque nouvel apprentissage devient plus difficile, car on doit continuellement mobiliser une mémoire de travail déjà encombrée par des bases non automatisées. Résultat : la charge cognitive augmente.
 
-| **Étape**  |  **Description**  | **Impact sur l'apprentissage**   |
-| ------------------------- | ---------------------------- | ----------------|
+| **Étape**  |  **Description**  | **Impact sur l"apprentissage**   |
+| ------------- | -------------- | --------|
 | 🚫 **Sans maîtrise**      | Chaque nouvelle tâche demande encore de réfléchir aux bases                                       | Surcharge cognitive, erreurs, lenteur, blocage de l’apprentissage |
 | 🔄 **Pratique répétée**   | Utilisation volontaire du **Système 2** (lent, conscient, exigeant) pour apprendre une compétence | Haute charge cognitive, effort soutenu                            |
 | 🎯 **Maîtrise atteinte**  | La compétence devient **automatique** et passe dans le **Système 1**. Le Système 1 fournit l’information de base sans effort  | Réduction de l’effort, exécution rapide, sans surcharge mentale. Le **Système 2** peut se concentrer sur des tâches plus complexes   |

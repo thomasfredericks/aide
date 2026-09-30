@@ -10,7 +10,7 @@
 unsigned long chronoDepart = millis();
 ```
 
-2) Utiliser un opérateur conditionnel pour mesurer si le temps dépasse un intervalle, 5 secondes dans l'extrait suivant :
+2) Utiliser un opérateur conditionnel pour mesurer si le temps dépasse un intervalle, 5 secondes dans l"extrait suivant :
 
 ```cpp
 ( millis() - chronoDepart <= 5000 )

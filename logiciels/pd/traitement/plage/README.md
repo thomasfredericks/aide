@@ -1,4 +1,4 @@
-# Pd : Déterminer si une valeur est à l'intérieur d'une plage
+# Pd : Déterminer si une valeur est à l"intérieur d’une plage
 
 
 - Installer [pdchoco](../../pdchoco/)

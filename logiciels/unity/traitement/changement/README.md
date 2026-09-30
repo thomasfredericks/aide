@@ -63,7 +63,7 @@ Cette implémentation utilise une variable simple pour stocker l’état précé
 La variable suivante doit être déclarée comme **variable membre** de la classe (c’est-à-dire dans la classe, mais en dehors de toute méthode) :
 
 ```csharp
-private int etatEnMemoire = 1; // L'état initial est défini comme "bouton relâché"
+private int etatEnMemoire = 1; // L’état initial est défini comme "bouton relâché"
 ```
 
 Cette variable conserve en mémoire le dernier état connu du bouton. Elle est essentielle pour pouvoir détecter les changements.

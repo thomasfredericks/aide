@@ -1,4 +1,4 @@
-# Activer l'OSC dans Reaper
+# Activer l"OSC dans Reaper
 
 ![](control_osc.png)
 

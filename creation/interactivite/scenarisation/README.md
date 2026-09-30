@@ -19,12 +19,12 @@ Voici le modèle à utiliser :
 
 ### Tableau des automatisations
 | Déclenchement | Effet visuel | Effet sonore | Effet interactif |
-| --- | --- | --- | --- |
+| -- | -- | -- | -- |
 |     |     |     |     |
 
 ### Tableau des actions
 | Verbe d’action | Condition / contexte | Effet visuel | Effet sonore | Effet interactif |
-| --- | --- | --- | --- | --- |
+| -- | -- | -- | -- | -- |
 |     |     |     |     |     |
 ```
 
@@ -38,15 +38,15 @@ Voici le modèle à utiliser :
 > 
 > ### Tableau des automatisations
 > | Déclenchement | Effet visuel | Effet sonore | Effet interactif |
-> | --- | --- | --- | --- |
+> | -- | -- | -- | -- |
 > |     |     |     |     |
 > 
 > ### Tableau des actions
 > | Verbe d’action | Condition / contexte | Effet visuel | Effet sonore | Effet interactif |
-> | --- | --- | --- | --- | --- |
+> | -- | -- | -- | -- | -- |
 > |     |     |     |     |     |
 
-## Exemples de verbes d'action
+## Exemples de verbes d’action
 
 
 - Appuie / Presse / 

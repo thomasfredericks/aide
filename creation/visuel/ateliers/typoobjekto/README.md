@@ -1,4 +1,4 @@
-# Typographie fait d'objets
+# Typographie fait d’objets
 
 - Créer une typographie composée d’éléments provenant du monde environnant. 
 - Assembler un alphabet de vingt-six caractères en utilisant uniquement des objets trouvés ou des éléments du paysage. 

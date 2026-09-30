@@ -2,16 +2,16 @@
 
 ## Installation de `comport`
 
-Pour recevoir et envoyer sur le port série, il est nécessaire d'ajouter l'object **comport** à Pure Data.
+Pour recevoir et envoyer sur le port série, il est nécessaire d’ajouter l"object **comport** à Pure Data.
 
-![Ouvrir le menu d'installation des objets supplémentaires](./installer_objets_supplementaires.png)
+![Ouvrir le menu d’installation des objets supplémentaires](./installer_objets_supplementaires.png)
 
 ![Installer comport](./pd_installation_comport.svg)
 
-![Installation de comport réussie (parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_comport_reussie.svg)
+![Installation de comport réussie (parfois le logiciel ne confirme pas l"installation réussie)](./pd_installation_comport_reussie.svg)
 
-## Exemple d'utilisation 
+## Exemple d’utilisation 
 
 ![](./exemple_comport_pd.png)
 
-Télécharger l'exemple ici : [exemple_comport.pd](./exemple_comport.pd)
+Télécharger l"exemple ici : [exemple_comport.pd](./exemple_comport.pd)

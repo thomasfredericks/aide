@@ -11,6 +11,11 @@
     var path = parts[0];
     var query = parts[1] ? '?' + parts[1] : '';
 
+    // SKIP normalization if there's an anchor (#) in path
+    if (path.indexOf('#') > 0) {
+      return;  // <-- Don't touch anchor URLs!
+    }
+
     if (
       path === '/' ||
       path.charAt(path.length - 1) === '/' ||

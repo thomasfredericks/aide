@@ -22,7 +22,7 @@
 - [Wendy Carlos demonstrates her Moog Synthesizer in 1970 - YouTube](https://www.youtube.com/watch?app=desktop&v=4SBDH5uhs4Q)
 - [Sarah Belle Reid - Sonder III (Official Video) - YouTube](https://www.youtube.com/watch?v=D2AO1NzGHa0)
 - Père de la synthèse FM : [John Chowning - Stria (1977) - YouTube](https://www.youtube.com/watch?v=988jPjs1gao)
-- Version électronique d'Annette Vande Gorne. *Édition Musiques & Recherches - Revue LIEN VIII – 2017*. [Lien](https://sites.inagrm.com/avdg/index.xhtml#Xh6RxXVPWKkWzOBtBoJUwj)
+- Version électronique d’Annette Vande Gorne. *Édition Musiques & Recherches - Revue LIEN VIII – 2017*. [Lien](https://sites.inagrm.com/avdg/index.xhtml#Xh6RxXVPWKkWzOBtBoJUwj)
 - Augoyard, J. F. et Torgue, H. (1995). *À l’écoute de l’environnement: répertoire des effets sonores*. Collection Habitat/ressources. Marseille : Parenthèses. ISBN BF353.5.N6 A85 1995
 - Elsea, Peter (2007). *Electronic Music in Performance*. [PDF](http://peterelsea.com/Maxtuts_basic/Electronic%20Performance.pdf)
 - Elsea, Peter (2011). *Notes on Program Design with Max*. [PDF](http://peterelsea.com/Maxtuts_basic/Notes_on_Program_Design.pdf)
@@ -41,7 +41,7 @@
 
 - Farnell, Andy. *Designing Sound*. MIT Press, 2010. ISBN: 9780262014410
 - Bjørn, K. (2021). *PUSH TURN MOVE*
-- Bardiot, C., Derobert, L., Farcet, C., et Guillois, P. (n.d.). *La neige n'a pas de sens - Adrien M et Claire B*
+- Bardiot, C., Derobert, L., Farcet, C., et Guillois, P. (n.d.). *La neige n"a pas de sens - Adrien M et Claire B*
 - [Commencer à fabriquer des sons par Ableton](https://learningsynths.ableton.com/fr)
 - [Premiers pas en création musicale par Ableton](https://learningmusic.ableton.com/fr/)
 - Shepard, Brian K. *Refining Sound: A Practical Guide to Synthesis and Synthesizers*. Oxford University Press, 2013. ISBN: 9780199922963
@@ -58,7 +58,7 @@
 - Trueman, D. (2007). “Why a Laptop Orchestra?.” *Organised Sound*, 12(2): pp. 171-179
 - Wanderley, M. M. and N. Orio (2002). “Evaluation of Input Devices for Musical Expression: Borrowing Tools from HCI.” *Computer Music Journal*, 26(3): pp. 62-76
 - Holmes, T. (2008). “Live Electronic Music and Ambient Music.” In T. Holmes, ed. *Electronic and Experimental Music*, 3rd ed. New York: Routledge, pp. 376-406
-- Mars, Roman. "99% Invisible—Episode 15: The Sound of the Artificial World." Podcast, 2011. 4'54"
+- Mars, Roman. "99% Invisible—Episode 15: The Sound of the Artificial World." Podcast, 2011. 4"54"
 - Westerkamp, Hildegard. "Soundwalking." In *Autumn Leaves. Sound and the Environment in Artistic Practice.* Double Entendre, 2007, pp. 49–54. ISBN: 9780954807436
 
 
@@ -66,7 +66,7 @@
 ## Modulaire et DIY
 
 - [This is the modular synth Aphex Twin is using in his DJ sets](https://www.factmag.com/2017/06/12/aphex-twin-eurorack-modular-synth-field-day/)
-- [SynTesla Giorgio III, a monster modular Synthesizer custom-built for Hans Zimmer's Next Level Tour - SYNTH ANATOMY](https://synthanatomy.com/2025/10/syntesla-giorgio-iii-a-monster-modular-synthesizer-custom-built-for-hans-zimmers-next-level-tour.html)
+- [SynTesla Giorgio III, a monster modular Synthesizer custom-built for Hans Zimmer"s Next Level Tour - SYNTH ANATOMY](https://synthanatomy.com/2025/10/syntesla-giorgio-iii-a-monster-modular-synthesizer-custom-built-for-hans-zimmers-next-level-tour.html)
 - [MODULAR VOYAGE #4 - Modulate TV 1 year anniversary - YouTube](https://www.youtube.com/watch?v=aImVRd9-8Mc)
 - [Caterina Barbieri Immersive Modular Live Set | Boiler Room x Genelec - YouTube](https://www.youtube.com/watch?v=W25FTlO42VY)
 - [Julia Bondar (2022). Dramatique Waters](https://www.youtube.com/watch?v=6OLk_6DTVE4)
@@ -122,9 +122,9 @@
 
 - [Horror ASMR Sound Design | Immersive FX for Film & Games - YouTube](https://www.youtube.com/watch?v=Dw37c2AkC-g)
 - [The Secret To The Gruesome Sounds In Mortal Kombat Is Exploding Vegetables - YouTube](https://www.youtube.com/watch?v=IYS0rPYjW28&t=6s)
-- [Microphonic Soundbox - LeafAudio's Website!](https://www.leaf-audio.com/diy-machines/microphonic-soundbox/)
+- [Microphonic Soundbox - LeafAudio"s Website!](https://www.leaf-audio.com/diy-machines/microphonic-soundbox/)
     - [Discover The World Of Sound Design With The Leafaudio Soundbox Mk2 Field Amp - YouTube](https://www.youtube.com/watch?v=pOkW2kLacYw)
-    - [Little Improvisation with Leaf Audio's Microphonic Soundbox mk2 - YouTube](https://www.youtube.com/watch?v=EAQu_Ks__dk)
+    - [Little Improvisation with Leaf Audio"s Microphonic Soundbox mk2 - YouTube](https://www.youtube.com/watch?v=EAQu_Ks__dk)
     - [The instrument used to make sounds for horror movies - YouTube](https://www.youtube.com/watch?v=m2netu-GGr0)
     - [Sounds of the Nightmare Machine - YouTube](https://www.youtube.com/watch?v=1lTYPvArbGo)
     - [Did I just find the most unsettling sound ever? #scarysong #sounddesign #horrormusicsoundeffect - YouTube](https://www.youtube.com/shorts/neZlh6fhHtg)

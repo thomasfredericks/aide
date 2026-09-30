@@ -18,7 +18,7 @@ Le module **cvOSCcv** est disponible dans [VCV Library](https://library.vcvrack.
 
 ![Configuration de la réception du messages numérique](./cvosccv_configurer_reception_message_numerique.svg)
 
-![Configuration de l'envoi de messages](./cvosccv_configurer_envoi_messages.svg)
+![Configuration de l"envoi de messages](./cvosccv_configurer_envoi_messages.svg)
 
 ![Démarrer la connexion OSC](./cvosccv_demarrer.svg)
 

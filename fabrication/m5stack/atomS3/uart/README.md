@@ -2,14 +2,14 @@
 
 ## Activer la communication `UART` pour communiquer avec des modules/périphériques
 
-S'il est nécessaire de communiquer par série UART (ne pas confondre avec la version USB) avec d'autres périphériques, ces ports doivent être activés manuellement selon les instructions suivantes.
+S"il est nécessaire de communiquer par série UART (ne pas confondre avec la version USB) avec d’autres périphériques, ces ports doivent être activés manuellement selon les instructions suivantes.
 
-### Dans l'espace global
+### Dans l"espace global
 
 ```cpp
 #include <HardwareSerial.h>
 
-// Création d'objets HardwareSerial pour UART1 et UART2
+// Création d’objets HardwareSerial pour UART1 et UART2
 HardwareSerial MySerial1(1);  // UART1
 HardwareSerial MySerial2(2);  // UART2
 ```

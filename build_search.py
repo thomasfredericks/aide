@@ -2,6 +2,7 @@ import os
 import re
 import json
 import unicodedata
+from urllib.parse import quote
 
 DOCS_DIR = './'
 OUTPUT_JSON_FILE = os.path.join(DOCS_DIR, 'search_index.json')
@@ -36,11 +37,20 @@ def load_external_configs():
 ALIASES, SKIP_WORDS = load_external_configs()
 
 def slugify(text):
+    """Remove accents, replace apostrophe with 39, keep only ASCII alphanumeric"""
     text = text.lower()
     text = ''.join(c for c in unicodedata.normalize('NFD', text) if unicodedata.category(c) != 'Mn')
+    text = text.replace("'", "39")
     text = re.sub(r'[^a-z0-9\s-]', '', text)
     text = re.sub(r'\s+', '-', text.strip())
     return text
+
+def slugify_for_id(text):
+    """Preserve accented chars, replace spaces with hyphens, then URL-encode"""
+    text = text.lower()
+    text = re.sub(r'\s+', '-', text.strip())
+    text = re.sub(r'[^a-zàâäéèêëîïôöùûüç0-9-]', '', text)
+    return quote(text, safe='-')
 
 def normalize_text(text, aliases, skip_words):
     text_lower = text.lower()
@@ -69,7 +79,6 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
     heading_regex = re.compile(rf'^(#{{1,{MAX_HEADING_LEVEL}}})\s+(.*)')
 
     for root, dirs, files in os.walk(docs_dir):
-        # 1. FILTRE PRIORITAIRE : Supprimer de la liste tous les dossiers commençant par '_'
         dirs[:] = [d for d in dirs if not d.startswith('_')]
 
         for file in files:
@@ -78,9 +87,9 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                 rel_path = os.path.relpath(full_path, docs_dir).replace('\\', '/')
                 
                 if rel_path.endswith('README.md'):
-                    base_path = rel_path[:-9]
+                    base_path = rel_path[:-9].rstrip('/')  # FIX: Remove trailing /
                 else:
-                    base_path = rel_path[:-3]
+                    base_path = rel_path[:-3].rstrip('/')   # FIX: Remove trailing /
                 
                 try:
                     with open(full_path, 'r', encoding='utf-8') as f:
@@ -90,7 +99,6 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                         for line in f:
                             stripped_line = line.strip()
                             
-                            # Détection ouverture/fermeture bloc de code (3 ou 4 backticks ou tildes)
                             if stripped_line.startswith('```') or stripped_line.startswith('~~~~'):
                                 fence = stripped_line[:4] if stripped_line.startswith('~~~~') else stripped_line[:3]
                                 if not in_code_block:
@@ -101,11 +109,9 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                                     code_fence_char = None
                                 continue
                             
-                            # Ignorer le contenu des blocs de code
                             if in_code_block:
                                 continue
                             
-                            # Analyse des titres valides hors blocs de code
                             match = heading_regex.match(line)
                             if match:
                                 raw_title = match.group(2).strip()
@@ -113,12 +119,16 @@ def get_headings_and_path(docs_dir, aliases, skip_words):
                                 clean_title = re.sub(r'[*_`]', '', clean_title)
                                 
                                 slug = slugify(clean_title)
+                                id_slug = slugify_for_id(clean_title)
                                 level = len(match.group(1))
                                 
                                 if base_path == "":
                                     url = f"#/{slug}" if level > 1 else "#/"
                                 else:
-                                    url = f"#/{base_path}/" if level == 1 else f"#/{base_path}/#{slug}"
+                                    if level == 1:
+                                        url = f"#/{base_path}"
+                                    else:
+                                        url = f"#/{base_path}/?id={id_slug}"
                                 
                                 searchable_content = normalize_text(clean_title, aliases, skip_words)
                                 
@@ -138,4 +148,4 @@ if __name__ == "__main__":
     with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, ensure_ascii=False, indent=4)
         
-    print(f"✅ {OUTPUT_JSON_FILE} régénéré avec succès en ignorant les dossiers en '_' et les blocs de code.")
+    print(f"✅ {OUTPUT_JSON_FILE} régénéré avec succès.")

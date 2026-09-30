@@ -1,4 +1,4 @@
-# OSC UDP : Cycling '74 Max
+# OSC UDP : Cycling "74 Max
 
 ![Exemple «osc_udp_maxpat»](osc_udp_maxpat.png)
 

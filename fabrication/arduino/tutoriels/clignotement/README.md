@@ -5,17 +5,17 @@
 ## Introduction
 
 
-Ce tutoriel présente progressivement la création d'un système Arduino interactif composé d'une DEL et d'un bouton. 
+Ce tutoriel présente progressivement la création d’un système Arduino interactif composé d’une DEL et d’un bouton. 
 
 Il présente :
-- l'utilisation de la bibliothèque `Chrono` 
+- l"utilisation de la bibliothèque `Chrono` 
 - introduit les fonctions `pinMode()` et `digitalWrite()` afin de commander la DEL
-- l'utilisation de la bibliothèque `Bounce2` et sa classe `Bounce2::Button` 
+- l"utilisation de la bibliothèque `Bounce2` et sa classe `Bounce2::Button` 
 
 
 ## Circuit
 
-![Broches de l'Arduino Nano R4](./arduino_nano_r4_pins.png)
+![Broches de l"Arduino Nano R4](./arduino_nano_r4_pins.png)
 
 ![Schéma du circuit](./schema.png)
 
@@ -32,7 +32,7 @@ lib_deps =
     https://github.com/SofaPirate/Chrono.git#v1.2.1
 ```
 
-L'instruction `#include <Chrono.h>` permet d'inclure la bibliothèque **Chrono** dans le programme.
+L’instruction `#include <Chrono.h>` permet d’inclure la bibliothèque **Chrono** dans le programme.
 
 ```cpp
 #include <Chrono.h>
@@ -47,35 +47,35 @@ Chrono minuterieDel;
 Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 
 | Méthode | Signification |
-|---|---|
-| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s'est écoulée |
+|--|--|
+| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s"est écoulée |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
-En combinant ces méthodes nous pouvons produire un bloc de code qui s'exécute à chaque `INTERVALLE` : 
+En combinant ces méthodes nous pouvons produire un bloc de code qui s"exécute à chaque `INTERVALLE` : 
 
 ```cpp
-  if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l'INTERVALLE
+  if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l"INTERVALLE
     {
         minuterieDel.restart(); // REPARTIR LA MINUTERIE
         // FAIRE QQCH ICI
     }
 ```
 
-La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s'écoule.
+La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s"écoule.
 
 ### Schéma 
 
 ```mermaid
 flowchart TD
-    A[Démarrage] --> B[setup]
-    B --> C[loop]
+    A[Démarrage] -> B[setup]
+    B -> C[loop]
 
 
-C --> D{Intervalle en millisecondes écoulé ?}
+C -> D{Intervalle en millisecondes écoulé ?}
 
-D -- Non --> C
-D -- Oui --> E[Redémarrer minuterieDel]
-E --> C
+D - Non -> C
+D - Oui -> E[Redémarrer minuterieDel]
+E -> C
 ```
 
 ### Code
@@ -115,15 +115,15 @@ void loop()
 La fonction `pinMode()` permet de configurer une broche :
 
 | Instruction | Signification |
-|---|---|
+|--|--|
 | `pinMode(BROCHE,INPUT)` | Configure la broche `BROCHE` comme entrée |
 | `pinMode(BROCHE, INPUT_PULLUP)` | Configure la broche `BROCHE` comme entrée avec la résistance pull-up interne activée |
 | `pinMode(BROCHE, OUTPUT)` | Configure la broche `BROCHE` comme sortie |
 
-La fonction `digitalWrite()` permet d'envoyer une tension électrique sur une broche.
+La fonction `digitalWrite()` permet d’envoyer une tension électrique sur une broche.
 
 | Instruction | Signification |
-|---|---|
+|--|--|
 | `digitalWrite(BROCHE, LOW)` | Envoie 0 volts à la broche `BROCHE` |
 | `digitalWrite(BROCHE, HIGH)` | Envoie 5 volts à la  broche `BROCHE`  |
 
@@ -132,14 +132,14 @@ La fonction `digitalWrite()` permet d'envoyer une tension électrique sur une br
 
 ```mermaid
 flowchart TD
-    A[Démarrage] --> B[Configurer la DEL]
-    B --> C[Boucle loop]
-    C --> D{Intervalle écoulé ?}
-    D -- Non --> C
-    D -- Oui --> E[Redémarrer Chrono]
-    E --> F[Inverser étatDel]
-    F --> G[Modifier la DEL]
-    G --> C
+    A[Démarrage] -> B[Configurer la DEL]
+    B -> C[Boucle loop]
+    C -> D{Intervalle écoulé ?}
+    D - Non -> C
+    D - Oui -> E[Redémarrer Chrono]
+    E -> F[Inverser étatDel]
+    F -> G[Modifier la DEL]
+    G -> C
 ```
 
 ### Code
@@ -201,16 +201,16 @@ Bounce2::Button bouton = Bounce2::Button();
 Ensuite, nous pouvons accéder aux méthodes de configuration suivantes :
 
 | Instruction | Signification |
-|---|---|
+|--|--|
 | `bouton.attach(BROCHE_BOUTON, INPUT_PULLUP)` | Associe le bouton à la broche `BROCHE_BOUTON` configurée comme entrée avec la résistance pull-up interne activée |
 | `bouton.setPressedState(LOW)` | Considère que le bouton est appuyé lorsque la broche est à `LOW` |
 
-Ainsi que ces méthodes d'interaction :
+Ainsi que ces méthodes d’interaction :
 
  | Instruction | Signification |
-|---|---|
-| `bouton.update()` | **IMPORTANT**! Met à jour l'état du bouton. Doit être appelée à chaque passage dans `loop()` |
-| `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n'est pas actuellement appuyé |
+|--|--|
+| `bouton.update()` | **IMPORTANT**! Met à jour l"état du bouton. Doit être appelée à chaque passage dans `loop()` |
+| `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n"est pas actuellement appuyé |
 
 Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
 
@@ -226,18 +226,18 @@ Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
 
 ```mermaid
 flowchart TD
-    A[Démarrage] --> B[Configurer la DEL]
-    B --> C[Configurer le bouton]
-    C --> D[Boucle loop]
+    A[Démarrage] -> B[Configurer la DEL]
+    B -> C[Configurer le bouton]
+    C -> D[Boucle loop]
 
-    D --> E[bouton.update]
-    E --> F{bouton.isPressed ?}
+    D -> E[bouton.update]
+    E -> F{bouton.isPressed ?}
 
-    F -- Oui --> G[Allumer la DEL]
-    F -- Non --> H[Éteindre la DEL]
+    F - Oui -> G[Allumer la DEL]
+    F - Non -> H[Éteindre la DEL]
 
-    G --> D
-    H --> D
+    G -> D
+    H -> D
 ```
 
 ### Code
@@ -271,7 +271,7 @@ void loop()
     // Mise à jour du bouton
     bouton.update();
 
-    // La DEL suit l'état physique du bouton
+    // La DEL suit l"état physique du bouton
     if (bouton.isPressed())
     {
         digitalWrite(BROCHE_DEL, HIGH);
@@ -292,7 +292,7 @@ void loop()
 
 ## Basculer
 
-On passe maintenant d'une logique basée sur un **état** à une logique basée sur un **événement**.
+On passe maintenant d’une logique basée sur un **état** à une logique basée sur un **événement**.
 
 Une pression :
 ```text
@@ -304,43 +304,43 @@ Une autre pression :
 DEL allumée → DEL éteinte
 ```
 
-La méthode `pressed()` permet de savoir si une pression sur le bouton vient d'être détectée :
+La méthode `pressed()` permet de savoir si une pression sur le bouton vient d’être détectée :
 
 | Instruction | Valeur retournée | Signification |
-|---|---|---|
-| `bouton.pressed()` | `true` | Une pression vient d'être détectée |
-| `bouton.pressed()` | `false` | Aucune nouvelle pression n'a été détectée |
+|--|--|--|
+| `bouton.pressed()` | `true` | Une pression vient d’être détectée |
+| `bouton.pressed()` | `false` | Aucune nouvelle pression n"a été détectée |
 
-La méthode `released()` permet de savoir si un relâchement du bouton vient d'être détecté :
+La méthode `released()` permet de savoir si un relâchement du bouton vient d’être détecté :
 
 | Instruction | Valeur retournée | Signification |
-|---|---|---|
-| `bouton.released()` | `true` | Un relâchement vient d'être détecté |
-| `bouton.released()` | `false` | Aucun nouveau relâchement n'a été détecté |
+|--|--|--|
+| `bouton.released()` | `true` | Un relâchement vient d’être détecté |
+| `bouton.released()` | `false` | Aucun nouveau relâchement n"a été détecté |
 
 
 Différence entre `isPressed()` et `pressed()` :
 
 | Méthode | Signification | Méthode | Signification |
-|---|---|---|---|
-| `bouton.isPressed()` | Le bouton est actuellement appuyé | `bouton.pressed()` | Une pression vient d'être détectée |
-| `bouton.isReleased()` | Le bouton est actuellement relâché | `bouton.released()` | Un relâchement vient d'être détecté |
+|--|--|--|--|
+| `bouton.isPressed()` | Le bouton est actuellement appuyé | `bouton.pressed()` | Une pression vient d’être détectée |
+| `bouton.isReleased()` | Le bouton est actuellement relâché | `bouton.released()` | Un relâchement vient d’être détecté |
 
 
 ### Schéma
 
 ```mermaid
 flowchart TD
-    A[Démarrage] --> B[Configurer bouton et DEL]
-    B --> C[Boucle loop]
+    A[Démarrage] -> B[Configurer bouton et DEL]
+    B -> C[Boucle loop]
 
-    C --> D[bouton.update]
-    D --> E{bouton.pressed ?}
+    C -> D[bouton.update]
+    D -> E{bouton.pressed ?}
 
-    E -- Non --> C
-    E -- Oui --> F[Inverser etatDel]
-    F --> G[Appliquer etatDel à la DEL]
-    G --> C
+    E - Non -> C
+    E - Oui -> F[Inverser etatDel]
+    F -> G[Appliquer etatDel à la DEL]
+    G -> C
 ```
 
 ### Code
@@ -394,28 +394,28 @@ void loop()
 
 Une pression démarre le clignotement.
 
-Une deuxième pression l'arrête.
+Une deuxième pression l"arrête.
 
 ### Schéma
 
 ```mermaid
 flowchart TD
-    A[Démarrage] --> B[Configurer la DEL]
-    B --> C[Configurer le bouton]
-    C --> D[Boucle loop]
+    A[Démarrage] -> B[Configurer la DEL]
+    B -> C[Configurer le bouton]
+    C -> D[Boucle loop]
 
-D --> E[bouton.update]
-E --> F{bouton.pressed ?}
-F -- Oui --> G{Gestion du clignotement}
-F -- Non --> K{clignotementActif ?}
-G --> K
-K -- Non --> D
-K -- Oui --> L{Intervalle écoulé ?}
-L -- Non --> D
-L -- Oui --> M[Redémarrer minuterieDel]
-M --> N[Inverser etatDel]
-N --> O[Modifier l'état de la DEL]
-O --> D
+D -> E[bouton.update]
+E -> F{bouton.pressed ?}
+F - Oui -> G{Gestion du clignotement}
+F - Non -> K{clignotementActif ?}
+G -> K
+K - Non -> D
+K - Oui -> L{Intervalle écoulé ?}
+L - Non -> D
+L - Oui -> M[Redémarrer minuterieDel]
+M -> N[Inverser etatDel]
+N -> O[Modifier l"état de la DEL]
+O -> D
 ```
 
 ### Code
@@ -452,7 +452,7 @@ void loop()
     // Mise à jour du bouton
     bouton.update();
 
-    // Gestion de l'événement de pression
+    // Gestion de l"événement de pression
     if (bouton.pressed())
     {
         if (clignotementActif) {
@@ -481,7 +481,7 @@ void loop()
 }
 ```
 
-Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu'elle s'allume lorsque le clignotement est actif, modifiez la condition du bouton :
+Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu"elle s"allume lorsque le clignotement est actif, modifiez la condition du bouton :
 
 ```cpp
   if (bouton.pressed())

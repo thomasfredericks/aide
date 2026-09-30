@@ -11,7 +11,7 @@ La virtuosité technique consiste à **maîtriser les aspects formels du son**, 
 Les caractéristiques recherchées sont :
 - **Dynamique sonore maîtrisée** : variations de volume cohérentes avec l’intention et le contexte  
 - **Volumes équilibrés** : éviter qu’un son masque ou soit masqué par d’autres
-- **Absence d'écrêtage (*clipping*) numérique** : éviter que le signal dépasse le niveau maximal (0 dBFS) dans un logiciel audio ou sur un circuit numérique, entraînant des coupures abruptes du signal, des craquements ou des bruits désagréables.  
+- **Absence d’écrêtage (*clipping*) numérique** : éviter que le signal dépasse le niveau maximal (0 dBFS) dans un logiciel audio ou sur un circuit numérique, entraînant des coupures abruptes du signal, des craquements ou des bruits désagréables.  
 - **Réduction du bruit indésirable** : minimiser les artefacts, bruits parasites ou saturation non désirée  
 - **Découpage approprié des éléments sonores** : transitions nettes et fluides, sans coupures abruptes  
 - **Absence de cliques (*click*) ou d’artefacts numériques** : garantir un rendu propre et professionnel  
@@ -20,15 +20,15 @@ Les caractéristiques recherchées sont :
 
 Chaque son doit avoir un rôle clair dans l’expérience.  
 
-- **Feedback d'une action de l'utilisateur**  
-    - Confirmer qu'une action a eu lieu  
+- **Feedback d’une action de l"utilisateur**  
+    - Confirmer qu"une action a eu lieu  
     - Récompenser un comportement  
-    - Indiquer la qualité d'une action  
+    - Indiquer la qualité d’une action  
         - Créer un lien sensoriel joueur–machine  
         - Faire du son un outil de performance  
     - Indiquer une action soutenue  
 
-- **Indication de l'émotion à ressentir**  
+- **Indication de l"émotion à ressentir**  
     - Présager un événement futur  
     - Contrôler la tension  
     - Renforcer une émotion (stresser ou calmer)  
@@ -37,12 +37,12 @@ Chaque son doit avoir un rôle clair dans l’expérience.
     - Servir de repère temporel (ex. temps restant, rythme de progression)  
 
 - **Navigation et orientation**  
-    - Guider à travers l'espace (localiser une source sonore)  
+    - Guider à travers l"espace (localiser une source sonore)  
     - Installer une routine en favorisant le calme et la continuité  
     - Indiquer le lieu ou la zone d’intérêt  
 
 - **Renforcement physique ou sensoriel**  
-    - Renforcer la crédibilité physique de l'environnement virtuel  
+    - Renforcer la crédibilité physique de l"environnement virtuel  
     - Donner du poids et de l’impact à une action  
 
 
@@ -78,7 +78,7 @@ La cohérence garantit que les sons sont **perçus comme appartenant au même un
 ## Grille d’auto-évaluation
 
 | Critère | Description | Indicateurs |
-|---------|-------------|-------------|
+|-----|-------|-------|
 | **Empilage de couches** | Mélange de synthèse / enregistrements et combinaison de plusieurs couches sonores pour profondeur et nuance | Profondeur et lisibilité des couches ; diversité des sources ; richesse et hybridité ; superposition équilibrée sans surcharge |
 | **Micro-variations** | Légères fluctuations, dynamique et micro-irrégularités qui donnent vie au son | Sons perçus comme vivants ou mécaniques ; variations perceptibles mais naturelles ; absence de répétition monotone |
 | **Virtuosité technique** | Maîtrise du volume, du découpage et de la qualité sonore | Dynamique sonore cohérente ; volumes équilibrés ; bruit indésirable réduit ; absence de glitches ou artefacts |

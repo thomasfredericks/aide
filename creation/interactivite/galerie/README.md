@@ -2,13 +2,13 @@
 
 Une **expérience multimédia interactive** est une œuvre qui intègre différents types de médias et propose une progression à suivre. Cette progression peut être très courte, possiblement seulement deux étapes, mais elle nécessite toutefois un déclencheur externe.
 
-Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des conditions de victoire et d'échec. 
+Un **jeu** est un ensemble de règles, que les joueurs doivent suivre, avec des conditions de victoire et d’échec. 
 
 Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable du maintien des règles.
 
 ## Mots-clés
 - **ENJEUX-SOCIAUX** : expérience qui aborde des enjeux liés à la politique, à la guerre, au racisme ou au sexisme.
-- **COLLECTIF** : expérience qui s'effectue à plus de 2 interacteurs.
+- **COLLECTIF** : expérience qui s"effectue à plus de 2 interacteurs.
 - **CORPORALITÉ** : expérience qui concerne le corps physique.
 - **EXPÉRIMENTAL** : une approche qui déconstruit la forme pour mieux la réinventer.
 - **CONSÉQUENCES** : expérience qui entraîne des conséquences réelles.
@@ -18,8 +18,8 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
 - **WEB** : expérience sur le Web.
 - **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
-- **IU** : recherche sur l'interface utilisateur
-- **INSTRUMENT** : recherche sur ce qu'est un instrument
+- **IU** : recherche sur l"interface utilisateur
+- **INSTRUMENT** : recherche sur ce qu"est un instrument
 
 ## Entrer dans un autre monde
 
@@ -27,7 +27,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## Augmenter le monde réel
 
-- [Hand from Above - Chris O'Shea](https://www.chrisoshea.org/portfolio/hand-from-above)
+- [Hand from Above - Chris O"Shea](https://www.chrisoshea.org/portfolio/hand-from-above)
 - [Scott Made This: Still Life](https://scottmadethis.net/interactive/still_life)
 - [Data Chromesthesia | Felipe Pantone](https://www.acuteart.com/discover/felipe-pantone)
 - [4th Wall — AR Public Art by Nancy Baker Cahill](https://www.4thwallapp.org/)
@@ -37,18 +37,18 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ## Se voir transformé.e
 
 - [Daniel Rozin Interactive Art](https://www.smoothware.com/danny/index.html)
-- [Body Swap - Chris O'Shea](https://www.chrisoshea.org/portfolio/body-swap)
+- [Body Swap - Chris O"Shea](https://www.chrisoshea.org/portfolio/body-swap)
 - [Pointer Pointer](https://pointerpointer.com/)  **COLLECTE WEB**
 - [Bone VS steel - YouTube](https://www.youtube.com/watch?v=WMt9G4GD-mw)
 
 ## Agir avec son corps
 
 - [Jump! de Yacine Sebti](https://legacy.imal.org/en/project/jump)
-- [Big Screen Quiz - Chris O'Shea](https://www.chrisoshea.org/portfolio/big-screen-quiz)
-- [Dash Dodge Dive - Chris O'Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
+- [Big Screen Quiz - Chris O"Shea](https://www.chrisoshea.org/portfolio/big-screen-quiz)
+- [Dash Dodge Dive - Chris O"Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
 - [Marie Sester: ACCESS, 2003](https://sester.net/access/)
 - [The Treachery of Sanctuary - CHRIS MILK](http://milk.co/treachery)
-- [La légèreté de l'être | Videos & Movies on Vimeo](https://vimeo.com/333354293)
+- [La légèreté de l"être | Videos & Movies on Vimeo](https://vimeo.com/333354293)
 - [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
 - [La femme dans la chambre (extrait), Andrée-Anne Roussel on Vimeo](https://vimeo.com/240049017)
 
@@ -64,7 +64,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **CORPORALITÉ MALIN COLLECTIF JOUABLE**
 	- [Johann Sebastian Joust at MagFest 2016](https://www.youtube.com/watch?v=YUDEi2dZUV8)
 
-## Transformer l'espace
+## Transformer l"espace
 
 - [Rain Room, 2012 — RANDOM INTERNATIONAL](https://www.random-international.com/rain-room?utm_source=chatgpt.com)
 - [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
@@ -126,7 +126,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ## Société
 
 - [The Marriage](https://kyrie.pe/the_marriage/) **JOUABLE EXPÉRIMENTAL RELATIONS**
-- [WHACK-A--HOLE: Shout! Smack! Fight back!](https://catodot.github.io/d/) **JOUABLE ENJEUX-SOCIAUX**
+- [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/d/) **JOUABLE ENJEUX-SOCIAUX**
 - [Loser Lane](https://marieflanagan.com/loserlanepark/) **JOUABLE ENJEUX-SOCIAUX**
 
 ## Pollution
@@ -138,7 +138,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
 
 
-## Études sur l'interface utilisateur
+## Études sur l"interface utilisateur
 
 - [10k Drum Machines](https://10kdrummachines.com/)
 
@@ -198,7 +198,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ### Expérience utilisateur
 
 - Crawford, Chris. "The Computer as a Game Technology." In *The Art of Computer Game Design*, Osborne / McGraw-Hill, 1984, pp. 35–44. ISBN: 9780881341171
-- Schell, J. (2022). *L'art du game design - Nouvelle édition: Se focaliser sur les fondamentaux*
+- Schell, J. (2022). *L’art du game design - Nouvelle édition: Se focaliser sur les fondamentaux*
 - Albinet, M. (2022). *Concevoir un Jeu Video*
 - Le Breton, R. (2017). *Design Narratif: Scénario et expérience de jeu*
 - Kholeif, O. (2023). *Internet_Art: From the Birth of the Web to the Rise of NFTs*
@@ -237,12 +237,12 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Fantasy name generators. Names for all your fantasy characters.](https://www.fantasynamegenerators.com/)
 - [Inkarnate - Create Fantasy Maps Online](https://inkarnate.com/)
 - [Hero Forge Custom Miniatures](https://www.heroforge.com/)
-- [Kobold Plus Fight Club - The first rule of Kobold Fight Club is 'Yip Yip!'](https://koboldplus.club/)
+- [Kobold Plus Fight Club - The first rule of Kobold Fight Club is "Yip Yip!"](https://koboldplus.club/)
 - [Reroll](https://app.reroll.co/select-character)
 
 ## Jeux de société/de table
 
 - [Freedom: The Underground Railroad | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/119506/freedom-the-underground-railroad) Au début de l’histoire des États-Unis, l’esclavage apparaissait comme une institution inébranlable. Pourtant, grâce aux efforts de femmes et d’hommes à travers tout le pays, il a fini par être renversé. Dans Freedom: The Underground Railroad, les joueurs œuvrent pour renforcer le mouvement abolitionniste. En mobilisant le soutien populaire et en aidant des esclaves à gagner leur liberté au Canada, ils peuvent faire évoluer les mentalités et contribuer à faire tomber l’institution de l’esclavage. Freedom est un jeu coopératif, basé sur des cartes, pour un à quatre joueurs. **ENJEUX-SOCIAUX**
-- [Mai '68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **ENJEUX-SOCIAUX**
+- [Mai "68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **ENJEUX-SOCIAUX**
 - [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **ENJEUX-SOCIAUX**
 - [Slay the Spire: The Board Game | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game) Une adaptation extrêmement fidèle du jeu vidéo [Slay the Spire](https://www.megacrit.com/games/) **MATÉRIALISATION**

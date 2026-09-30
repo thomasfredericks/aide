@@ -2,7 +2,7 @@
 
 ## .gitignore
 
-Il est très important d'ajouter un `.gitignore` dans le **dossier de projet Unity**. 
+Il est très important d’ajouter un `.gitignore` dans le **dossier de projet Unity**. 
 
 Coller le contenu suivant dans ce fichier `.gitignore` :
 ```ignore

@@ -4,37 +4,37 @@
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
-    * [Qualifier l'esthétique sonore](/creation/audio/esthetique/)
+    * [Qualifier l"esthétique sonore](/creation/audio/esthetique/)
     * [Audio : galerie](/creation/audio/galerie/)
     * [Outils (logiciels et plugiciels) pour la création sonore](/creation/audio/outils/)
   * Audiovisuel
     * [Audiovisuel : galerie](/creation/audiovisuel/galerie/)
     * [Audiovisuel : Processus de travail](/creation/audiovisuel/processus/)
   * Esthetique
-    * [Banque de mots pour l'esthétique](/creation/esthetique/banque/)
+    * [Banque de mots pour l"esthétique](/creation/esthetique/banque/)
     * [Esthétique et public cible de DOOM Eternal](/creation/esthetique/doom/)
   * [Gestalt : Psychologie de la forme](/creation/gestalt/)
   * Interactivite
-    * [Analyse d'une œuvre interactive](/creation/interactivite/analyse/)
+    * [Analyse d’une œuvre interactive](/creation/interactivite/analyse/)
     * Ateliers
       * [Atelier : affordance en 1 minute](/creation/interactivite/ateliers/affordance/)
       * [Atelier : Effondrement par contrainte](/creation/interactivite/ateliers/contrainte/)
-      * [Atelier : Modification d'une règle](/creation/interactivite/ateliers/modification/)
-      * [Atelier : Simulation d'un jeu](/creation/interactivite/ateliers/simulation/)
+      * [Atelier : Modification d’une règle](/creation/interactivite/ateliers/modification/)
+      * [Atelier : Simulation d’un jeu](/creation/interactivite/ateliers/simulation/)
       * [Atelier : Règle supprimée](/creation/interactivite/ateliers/suppression/)
       * [Atelier : Synchroniser sans communication](/creation/interactivite/ateliers/synchronisation/)
-    * [Continuum de l'interactivité](/creation/interactivite/continuum/)
-    * [L'interactivité est une conversation](/creation/interactivite/conversation/)
-    * [Design de l'interactivité](/creation/interactivite/design/)
+    * [Continuum de l"interactivité](/creation/interactivite/continuum/)
+    * [L’interactivité est une conversation](/creation/interactivite/conversation/)
+    * [Design de l"interactivité](/creation/interactivite/design/)
     * [Écoute](/creation/interactivite/ecoute/)
     * [Actions émergentes](/creation/interactivite/emergence/)
     * [Expérience multimédia interactive](/creation/interactivite/experience/)
     * [Interactivité : galerie](/creation/interactivite/galerie/)
-    * [Petite histoire de l'installation interactive​](/creation/interactivite/histoire/)
+    * [Petite histoire de l"installation interactive​](/creation/interactivite/histoire/)
     * [Public cible](/creation/interactivite/public/)
     * [Qualités d’une bonne expérience interactive](/creation/interactivite/qualites/)
     * [Interactivité : scénarisation](/creation/interactivite/scenarisation/)
-    * [Types d'interaction](/creation/interactivite/types/)
+    * [Types d’interaction](/creation/interactivite/types/)
   * [Pecha Kucha](/creation/pecha_kucha/)
   * [Production](/creation/production/)
     * [Démo de faisabilité](/creation/production/faisabilite/)
@@ -44,7 +44,7 @@
     * Ateliers
       * [Atelier graphique : 10x10](/creation/visuel/ateliers/10x10/)
       * [Logo collectif](/creation/visuel/ateliers/logo/)
-      * [Typographie fait d'objets](/creation/visuel/ateliers/typoobjekto/)
+      * [Typographie fait d’objets](/creation/visuel/ateliers/typoobjekto/)
     * [Guide de normes graphiques](/creation/visuel/guide/)
       * [Exemple : Guide de normes graphiques pour cartes](/creation/visuel/guide/cartes/)
     * Iu
@@ -52,25 +52,25 @@
       * [IU : Espacer les éléments](/creation/visuel/iu/espace/)
       * [IU : Hiérarchie visuelle](/creation/visuel/iu/hierarchie/)
       * [IU : Rétroaction (feedback)](/creation/visuel/iu/retroaction/)
-      * [IU : Signifiants de l'interface utilisateur](/creation/visuel/iu/signifiants/)
+      * [IU : Signifiants de l"interface utilisateur](/creation/visuel/iu/signifiants/)
       * [IU : Typographie](/creation/visuel/iu/typographie/)
     * [Marges](/creation/visuel/marges/)
 * Culture
-  * [Autorat : droit d'auteur](/culture/autorat/)
+  * [Autorat : droit d’auteur](/culture/autorat/)
   * [Bibliographie Montmorency](/culture/biblio_momo/)
   * Education
     * [Manifeste pour une éducation résiliente](/culture/education/manifeste/)
     * [Deux systèmes de pensée](/culture/education/sytemes_pensee/)
   * [Intelligence artificielle (IA/AI)](/culture/ia/)
-    * [Création de code ou d'images avec un GML](/culture/ia/creation/)
+    * [Création de code ou d’images avec un GML](/culture/ia/creation/)
     * [Les délires causés par les GML](/culture/ia/delires/)
     * Dette
       * [Dette technique causée par les GML](/culture/ia/dette/technique/)
-    * [Impacts des GML sur l'enseignement](/culture/ia/enseignement/)
-    * [Guides d'utilisation des GML](/culture/ia/guides/)
+    * [Impacts des GML sur l"enseignement](/culture/ia/enseignement/)
+    * [Guides d’utilisation des GML](/culture/ia/guides/)
     * [Propagande sur les GML](/culture/ia/propagande/)
     * [Effets sur la santé psychologique des GML](/culture/ia/sante/)
-    * [Types d'intelligence artificielle](/culture/ia/types/)
+    * [Types d’intelligence artificielle](/culture/ia/types/)
   * [Manipulation : Dark Patterns](/culture/manipulations/)
   * [Merdification ( Enshittification )](/culture/merdification/)
   * Pouvoir
@@ -96,11 +96,9 @@
     * [Installer Arduino IDE](/fabrication/arduino/ide/)
     * [MicroNet](/fabrication/arduino/micronet/)
     * [MicroOsc](/fabrication/arduino/microosc/)
-      * [MicroOsc : Envoi](/fabrication/arduino/microosc/envoi/)
-      * [Initialisation de MicroOsc](/fabrication/arduino/microosc/initialisation/)
-        * [MicroOsc *SLIP* : Initialisation](/fabrication/arduino/microosc/initialisation/SLIP/)
-        * [MicroOscUDP : Initialisation](/fabrication/arduino/microosc/initialisation/UDP/)
-      * [MicroOsc : réception d'OSC](/fabrication/arduino/microosc/reception/)
+      * [MicroOsc : réception d’OSC](/fabrication/arduino/microosc/reception/)
+      * [MicroOsc SLIP](/fabrication/arduino/microosc/slip/)
+      * [MicroOscUDP](/fabrication/arduino/microosc/udp/)
     * [MicroRemoteWire](/fabrication/arduino/microremotewire/)
     * [Carte Arduino Nano](/fabrication/arduino/nano/)
       * [Arduino Nano ATmega168 et ATmega32](/fabrication/arduino/nano/atmega/)
@@ -130,10 +128,10 @@
       * [Diode électroluminescente (DEL)](/fabrication/electronique/composants/del/)
       * [Potentiomètre](/fabrication/electronique/composants/potentiometre/)
       * [Composant : résistance](/fabrication/electronique/composants/resistance/)
-    * [L'électricité](/fabrication/electronique/electricite/)
+    * [L’électricité](/fabrication/electronique/electricite/)
     * [Erreur fatale : court circuit](/fabrication/electronique/fatalites/)
     * [Multimètre](/fabrication/electronique/multimetre/)
-    * [Platine d'expérimentation (breadboard)](/fabrication/electronique/platine/)
+    * [Platine d’expérimentation (breadboard)](/fabrication/electronique/platine/)
       * Alimenter
         * [Alimenter un *breadboard* avec une carte Arduino](/fabrication/electronique/platine/alimenter/carte/)
       * [Alimenter une DEL](/fabrication/electronique/platine/del/)
@@ -164,7 +162,7 @@
     * Units
       * [Unit 3.96](/fabrication/m5stack/units/396/)
         * Bouton
-          * [M5Stack Unit 3.96 et bouton d'arcade](/fabrication/m5stack/units/396/bouton/arcade/)
+          * [M5Stack Unit 3.96 et bouton d’arcade](/fabrication/m5stack/units/396/bouton/arcade/)
         * [M5Stack Unit 3.96 et photorésistance](/fabrication/m5stack/units/396/photoresistance/)
         * [M5Stack Unit 3.96 et potentiomètre](/fabrication/m5stack/units/396/potentiometre/)
       * [M5Stack Angle Unit](/fabrication/m5stack/units/angle/)
@@ -201,8 +199,8 @@
   * [GameStream](/logiciels/gamestream/)
   * [Manette de projecteurs : gd-pjlink](/logiciels/gd-pjlink/)
   * [Git](/logiciels/git/)
-    * [Ajout d'un projet à un dépôt Git](/logiciels/git/ajout/)
-    * [Configuration de l'identité Git](/logiciels/git/configuration/)
+    * [Ajout d’un projet à un dépôt Git](/logiciels/git/ajout/)
+    * [Configuration de l"identité Git](/logiciels/git/configuration/)
     * [GitHub](/logiciels/git/github/)
       * Projects
         * [Configurer les priorités](/logiciels/git/github/projects/priorites/)
@@ -213,7 +211,7 @@
     * [Réception série ASCII dans Max](/logiciels/max/ascii/)
     * Osc
       * [Max : Relais OSC SLIP ⇄ UDP](/logiciels/max/osc/relais/)
-      * [OSC UDP : Cycling '74 Max](/logiciels/max/osc/udp/)
+      * [OSC UDP : Cycling "74 Max](/logiciels/max/osc/udp/)
   * [Tunnel réseau ngrok](/logiciels/ngrok/)
   * Nodejs
     * [OSC SLIP : Node.js](/logiciels/nodejs/osc/)
@@ -226,7 +224,7 @@
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](/logiciels/oscmo-lidar/)
   * [Pure Data (Pd)](/logiciels/pd/)
     * Audio
-      * [Pd : Activation de l'audio](/logiciels/pd/audio/activation/)
+      * [Pd : Activation de l"audio](/logiciels/pd/audio/activation/)
       * [Pd : Lecture de fichiers audio avec Pdchoco](/logiciels/pd/audio/fichiers/)
     * Osc
       * [Convertir les messages OSC en MIDI (notes et CC)](/logiciels/pd/osc/midi/)
@@ -244,9 +242,9 @@
       * [Mesurer la durée](/logiciels/pd/traitement/duree/)
       * [Effectuer un glissement entre des valeurs avec Pd](/logiciels/pd/traitement/glissement/)
       * [Pd : Incrémenter (ou décrémenter) une valeur](/logiciels/pd/traitement/incrementation/)
-      * [Pd : Déterminer si une valeur est à l'intérieur d'une plage](/logiciels/pd/traitement/plage/)
+      * [Pd : Déterminer si une valeur est à l"intérieur d’une plage](/logiciels/pd/traitement/plage/)
       * [Pd : Établir une relation proportionnelle](/logiciels/pd/traitement/proportion/)
-      * [Attendre un certain temps avant d'activer](/logiciels/pd/traitement/retarder/)
+      * [Attendre un certain temps avant d’activer](/logiciels/pd/traitement/retarder/)
     * [WebSockets dans Pd](/logiciels/pd/websocket/)
   * Plugdata
     * [Copier-coller avec Pd](/logiciels/plugdata/copier-coller/)
@@ -259,14 +257,15 @@
     * [Reaper : Configuration](/logiciels/reaper/configuration/)
     * [Reaper : Échantillonneur](/logiciels/reaper/echantillonneur/)
     * Osc
-      * [Activer l'OSC dans Reaper](/logiciels/reaper/osc/activation/)
+      * [Activer l"OSC dans Reaper](/logiciels/reaper/osc/activation/)
       * [Reaper : OSC par défaut](/logiciels/reaper/osc/defaut/)
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
-      * [Reaper : contrôle d'un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)
+      * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)
     * [Virtual MIDI Keyboard](/logiciels/reaper/virtual_midi_keyboard/)
   * [Raspberry Pi](/logiciels/rpi/)
   * Threejs
@@ -274,16 +273,16 @@
   * Touchdesigner
     * [TouchDesigner : Aspect](/logiciels/touchdesigner/aspect/)
     * Audio
-      * [TouchDesigner : Mixer de l'audio](/logiciels/touchdesigner/audio/mixer/)
+      * [TouchDesigner : Mixer de l"audio](/logiciels/touchdesigner/audio/mixer/)
     * [*Feedback* avec TouchDesigner](/logiciels/touchdesigner/feedback/)
     * [Bonnes pratiques *git* pour TouchDesigner](/logiciels/touchdesigner/git/)
     * [TouchDesigner : Globales](/logiciels/touchdesigner/globales/)
     * [TD : L-Systems](/logiciels/touchdesigner/l-systems/)
-    * [Modularisation d'un projet TouchDesigner](/logiciels/touchdesigner/modularisation/)
+    * [Modularisation d’un projet TouchDesigner](/logiciels/touchdesigner/modularisation/)
     * [TouchDesigner : _Null_ et _Trail_](/logiciels/touchdesigner/null_et_trail/)
     * Osc
       * [Envoi OSC dans TouchDesigner](/logiciels/touchdesigner/osc/envoi/)
-      * [Réception de l'OSC dans TouchDesigner](/logiciels/touchdesigner/osc/reception/)
+      * [Réception de l"OSC dans TouchDesigner](/logiciels/touchdesigner/osc/reception/)
     * [TouchDesigner : Perform](/logiciels/touchdesigner/performance/)
     * Python
       * [TD : Aide mémoire Python](/logiciels/touchdesigner/python/aide-memoire/)
@@ -299,7 +298,7 @@
       * [TouchDesigner : Proportion](/logiciels/touchdesigner/traitement/proportion/)
       * [TD : Variation contrôlée](/logiciels/touchdesigner/traitement/variation/)
     * Video
-      * [TouchDesigner : Lecture d'une vidéo par index](/logiciels/touchdesigner/video/index/)
+      * [TouchDesigner : Lecture d’une vidéo par index](/logiciels/touchdesigner/video/index/)
   * Unity
     * [Colliders dans Unity](/logiciels/unity/colliders/)
     * [Unity : Exécution en arrière-plan](/logiciels/unity/execution_arriere-plan/)
@@ -307,8 +306,6 @@
     * Osc
       * [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/)
         * [Envoi OSC avec extOSC  dans Unity](/logiciels/unity/osc/extosc/envoi/)
-        * [Initialisation d'extOSC dans Unity](/logiciels/unity/osc/extosc/initialisation/)
-        * [Réception d'OSC dans Unity avec extOSC](/logiciels/unity/osc/extosc/reception/)
       * [Unity : OSC UDP avec oscjackvs](/logiciels/unity/osc/oscjackvs/)
     * [Spout dans Unity](/logiciels/unity/spout/)
     * [Unity : Traitement de messages](/logiciels/unity/traitement/)

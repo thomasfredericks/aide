@@ -1,21 +1,21 @@
 # Arduino Serial : communication sérielle
 
-La **communication sérielle** est une méthode qui permet à votre carte Arduino d'échanger des données avec un autre appareil (comme votre ordinateur, un module Bluetooth ou un autre microcontrôleur) **bit par bit**.  C'est un peu comme envoyer un message texte mot par mot à la place d'un message entier en un bloc.
+La **communication sérielle** est une méthode qui permet à votre carte Arduino d’échanger des données avec un autre appareil (comme votre ordinateur, un module Bluetooth ou un autre microcontrôleur) **bit par bit**.  C"est un peu comme envoyer un message texte mot par mot à la place d’un message entier en un bloc.
 
 
 
 ## `Serial`
 
-La classe `Serial` permet de communiquer avec l'ordinateur ou un autre appareil par une liaison série.
+La classe `Serial` permet de communiquer avec l"ordinateur ou un autre appareil par une liaison série.
 
 Voici la méthode de configuration :
 
 | Syntaxe | Description |
-|---|---|
+|--|--|
 | `Serial.begin(VITESSE)` | À utiliser dans `setup()` habituellement. Initialise la communication série avec une vitesse de `VITESSE` bauds. Privilégier la vitesse `115200` (la vitesse `9600` est désuète depuis longtemps) |
 
 
-Ensuite, il existe plusieurs façons d'encoder l'information :
+Ensuite, il existe plusieurs façons d’encoder l"information :
 
 - En ASCII
 - En binaire
@@ -24,19 +24,19 @@ Ensuite, il existe plusieurs façons d'encoder l'information :
 
 ## Encodage ASCII
 
-Arduino fournit des méthodes de base pour encoder et décoder **ASCII** (*American Standard Code for Information Interchange*). C'est une table de correspondance universelle où chaque caractère (lettre, chiffre, symbole, ponctuation) est associé à un nombre décimal précis (de 0 à 127).
+Arduino fournit des méthodes de base pour encoder et décoder **ASCII** (*American Standard Code for Information Interchange*). C"est une table de correspondance universelle où chaque caractère (lettre, chiffre, symbole, ponctuation) est associé à un nombre décimal précis (de 0 à 127).
 
 Pour bien comprendre ce principe, on peut faire le lien avec le **code Morse** :
-Chaque lettre est convertie en une succession de signaux courts (**points**) et longs (**traits**), envoyés rigoureusement dans un ordre précis.  L'opérateur de l'autre côté doit décoder le flux temporel pour reformer les lettres et les mots.
+Chaque lettre est convertie en une succession de signaux courts (**points**) et longs (**traits**), envoyés rigoureusement dans un ordre précis.  L’opérateur de l"autre côté doit décoder le flux temporel pour reformer les lettres et les mots.
 
 ![Le code Morse](./code_morse.png)
 
-En ASCII, pour envoyer la lettre `A`, l'Arduino convertit ce caractère en son code ASCII, c'est-à-dire le nombre décimal `65`, qui s'écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l'un après l'autre, sur le fil de transmission. 
+En ASCII, pour envoyer la lettre `A`, l"Arduino convertit ce caractère en son code ASCII, c"est-à-dire le nombre décimal `65`, qui s"écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l"un après l"autre, sur le fil de transmission. 
 
-Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l'octet `01000001`, et consulte la table ASCII pour comprendre que cette valeur correspond au caractère `A`.
+Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l"octet `01000001`, et consulte la table ASCII pour comprendre que cette valeur correspond au caractère `A`.
 
 | Déc | ASCII | Déc | ASCII | Déc | ASCII | Déc | ASCII |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 0 | NUL | **32** | **(espace)** | 64 | @ | 96 | \` |
 | 1 | SOH | 33 | ! | 65 | A | 97 | a |
 | 2 | STX | 34 | " | 66 | B | 98 | b |
@@ -44,7 +44,7 @@ Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l'octet
 | 4 | EOT | 36 | $ | 68 | D | 100 | d |
 | 5 | ENQ | 37 | % | 69 | E | 101 | e |
 | 6 | ACK | 38 | & | 70 | F | 102 | f |
-| 7 | BEL | 39 | ' | 71 | G | 103 | g |
+| 7 | BEL | 39 | " | 71 | G | 103 | g |
 | 8 | BS | 40 | ( | 72 | H | 104 | h |
 | 9 | TAB | 41 | ) | 73 | I | 105 | i |
 | **10** | **LF** | 42 | * | 74 | J | 106 | j |
@@ -70,19 +70,19 @@ Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l'octet
 | 30 | RS | 62 | > | 94 | ^ | 126 | ~ |
 | 31 | US | 63 | ? | 95 | _ | 127 | DEL |
 
-Un point crucial est que les nombres manipulés sont convertis en leur représentation textuelle ASCII (caractère par caractère) lors de l'envoi. Par exemple, le nombre `123` est envoyé sous forme de trois caractères distincts : `'1'`, `'2'` et `'3'`.
+Un point crucial est que les nombres manipulés sont convertis en leur représentation textuelle ASCII (caractère par caractère) lors de l"envoi. Par exemple, le nombre `123` est envoyé sous forme de trois caractères distincts : `"1"`, `"2"` et `"3"`.
 
-Voici les méthodes pour envoyer de l'ASCII :
+Voici les méthodes pour envoyer de l"ASCII :
 
 | Syntaxe | Description |
-|---|---|
+|--|--|
 | `Serial.print(VALEUR)` | Envoie `VALEUR` convertie en sa représentation ASCII sur la liaison série |
-| `Serial.println(VALEUR)` | Envoie `VALEUR` convertie en sa représentation ASCII sur la liaison série suivi d'un saut de ligne (code 13 suivi du code 10 en ASCII) |
+| `Serial.println(VALEUR)` | Envoie `VALEUR` convertie en sa représentation ASCII sur la liaison série suivi d’un saut de ligne (code 13 suivi du code 10 en ASCII) |
 
-Voici les méthodes pour recevoir de l'ASCII :
+Voici les méthodes pour recevoir de l"ASCII :
 
 | Syntaxe | Description |
-|---|---|
+|--|--|
 | `Serial.available()` | Retourne le nombre de caractères ASCII disponibles à lire |
 | `Serial.read()` | Lit un caractère ASCII reçu sur la liaison série |
 
@@ -103,7 +103,7 @@ Pour fermer le moniteur série :
 
 ## La structure [descripteur] [espace] [valeur] [saut de ligne (ln)]
 
-Lorsque l'on souhaite envoyer des données structurées de l'Arduino vers l'ordinateur en ASCII, nous allons respecter cette règle de formatage précise : 
+Lorsque l"on souhaite envoyer des données structurées de l"Arduino vers l"ordinateur en ASCII, nous allons respecter cette règle de formatage précise : 
 - un descripteur
 - un espace
 - une valeur
@@ -131,6 +131,6 @@ Voici le résultat en ASCII (le retour à la ligne est invisible) :
 TEMP 23
 ``` 
 
--  Le descripteur donne un contexte à la donnée. Si l'ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s'il s'agit d'une température, d'une humidité ou d'une distance. Le descripteur permet au récepteur d'identifier immédiatement la nature de l'information.
-- L'espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l'analyse beaucoup plus complexe pour isoler la valeur numérique.
-- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C'est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s'arrête un message et où commence le suivant.
+-  Le descripteur donne un contexte à la donnée. Si l"ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s"il s"agit d’une température, d’une humidité ou d’une distance. Le descripteur permet au récepteur d’identifier immédiatement la nature de l"information.
+- L’espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l"analyse beaucoup plus complexe pour isoler la valeur numérique.
+- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C"est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s"arrête un message et où commence le suivant.

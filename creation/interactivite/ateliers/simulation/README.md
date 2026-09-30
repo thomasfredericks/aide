@@ -1,4 +1,4 @@
-# Atelier : Simulation d'un jeu
+# Atelier : Simulation d’un jeu
 
 **Consigne :** 
 - Concevoir une expérience interactive basée sur des règles, jouable en classe (ou dans un studio) avec un minimum de matériel (papier, marqueurs, ruban adhésif, chaises, corps).  
@@ -9,9 +9,9 @@
 
 **Contraintes :**  
 - Aucun écran.   
-- Aucune communication verbale entre l'équipe de conception et les joueurs.
+- Aucune communication verbale entre l"équipe de conception et les joueurs.
 - Aucune communication écrite (les nombres sont permis).
-- Les interfaces et les automatisations sont simulées par l'équipe de conception.
+- Les interfaces et les automatisations sont simulées par l"équipe de conception.
 
 **Matériel :**  
 - Papier, marqueurs, post-it  
@@ -26,13 +26,13 @@
 - Définir l’objectif de l’expérience : Vouloir qu’elle soit tendue ? Ludique ? Injuste ? Stratégique ? Chaotique ? Méditative ? 
 
 > [!WARNING]
-> Ne pas choisir d'adapter un jeu de table ou social. Essayer d'adapter un système automatisé comme un jeu vidéo par exemple.
+> Ne pas choisir d’adapter un jeu de table ou social. Essayer d’adapter un système automatisé comme un jeu vidéo par exemple.
    
 ### Règles et système (20 min)
 Choisir une idée et définir :  
 - **Règles :** Que peuvent faire les joueurs ?  
 - **Système :** Comment les joueurs interagissent-ils ? Quelles ressources sont utilisées (jetons, temps, espace, attention) ? 
-- **Expérience :** Que cherchent à accomplir les joueurs ? Qu'elle expérience est-ce qu'on veut qu'ils vivent?
+- **Expérience :** Que cherchent à accomplir les joueurs ? Qu"elle expérience est-ce qu"on veut qu"ils vivent?
 - **Condition de victoire / de fin :** Quand le jeu se termine-t-il ? 
 - Concevoir un **système interactif** avec papier, symboles et objets simples.  
 - Imaginer un **faux dispositif** (panneau de contrôle, application fictive, rituel). 

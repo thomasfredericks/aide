@@ -1,16 +1,16 @@
-# MicroOscUDP : Initialisation
+# MicroOscUDP
 
 ## Préalables
 
-L'intégration de MicroOscUdp est assez simple. Ce qui est plus complexe, est le démarrage de la réseautique et de l'UDP. 
+L’intégration de MicroOscUdp est assez simple. Ce qui est plus complexe, est le démarrage de la réseautique et de l"UDP. 
 
-L'initialisation du réseau est un préalable à l'utilisation de MicroOscUdp. La bibliothèque logicielle MicroNet est recommandée pour réaliser cette tâche complexe.
+L’initialisation du réseau est un préalable à l"utilisation de MicroOscUdp. La bibliothèque logicielle MicroNet est recommandée pour réaliser cette tâche complexe.
 
 ## Installation de MicroOscUdp
 
 ### Arduino IDE
 
-Télécharger la bibliothèque logicielle `MicroOsc` dans le gestionnaire de bibliothèques d'Arduino.
+Télécharger la bibliothèque logicielle `MicroOsc` dans le gestionnaire de bibliothèques d’Arduino.
 
 ### PlatformIO
 
@@ -22,18 +22,18 @@ lib_deps =
 
 ## Intégration de MicroOscUdp
 
-### Dans l'espace global
+### Dans l"espace global
 
 Inclure et initaliser MicroOsc :
 ```cpp
 #include <MicroOscUdp.h>
 EthernetUDP monUdp; // ou pour le WiFi :  WiFiUDP myUdp; 
-MicroOscUdp<1024> monOsc(&monUdp); // <#> : nombre d'octets pour la réception de messages
+MicroOscUdp<1024> monOsc(&monUdp); // <#> : nombre d’octets pour la réception de messages
 ```
 
 ### Dans `setup()`
 
-Initialiser l'UDP :
+Initialiser l"UDP :
 ```cpp
 unsigned int myReceptionPort = 8001; // changer pour le bon port
 myUdp.begin(myReceptionPort);
@@ -61,7 +61,7 @@ void setup() {
 
     char myName[MICRO_NET_NAME_MAX_LENGTH] = "device-";
     myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
-    myMicroNet.begin(myName); // obtention d'une IP via DHCP et enregistrement mDNS
+    myMicroNet.begin(myName); // obtention d’une IP via DHCP et enregistrement mDNS
 
     unsigned int myReceptionPort = 8001;        // Port de réception
     unsigned int myDestinationPort = 8000;      // Port de destination
@@ -80,7 +80,7 @@ void loop() {
 
 Points importants :
 - `myMicroNet.update()` doit être appelé aussi souvent que possible pour maintenir la connexion réseau.
-- `monOsc.onOscMessageReceived()` lit et parse instantanément les messages OSC entrants. Voir la [réception de messages OSC](../../reception/)
+- `monOsc.onOscMessageReceived()` lit et parse instantanément les messages OSC entrants. Voir la réception de messages OSC.
 - Aucun `delay()` ne doit bloquer `loop()`.
 - MicroNet fournit DHCP, mDNS et la possibilité d’ajouter automatiquement une partie de l’adresse MAC au nom du périphérique pour garantir son unicité.
 
@@ -98,7 +98,7 @@ MicroOscUdp<1024> monOsc(&myUdp); // 1024 octets pour la réception
 void setup() {
     char myName[MICRO_NET_NAME_MAX_LENGTH] = "device-";
     myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3); // optionnel : ajout de MAC pour nom unique
-    myMicroNet.begin(myName); // connexion au réseau et obtention d'une IP via DHCP
+    myMicroNet.begin(myName); // connexion au réseau et obtention d’une IP via DHCP
 
     unsigned int myReceptionPort = 8001;        // Port de réception
     unsigned int myDestinationPort = 8000;      // Port de destination
@@ -116,6 +116,6 @@ void loop() {
 
 Points importants :
 - `myMicroNet.update()` doit être appelé aussi souvent que possible pour maintenir la connexion réseau.
-- `monOsc.onOscMessageReceived()` lit et parse instantanément les messages OSC entrants. Voir la [réception de messages OSC](../../reception/)
+- `monOsc.onOscMessageReceived()` lit et parse instantanément les messages OSC entrants. 
 - Aucun `delay()` ne doit bloquer `loop()`.
 - MicroNet fournit DHCP, mDNS et la possibilité d’ajouter automatiquement une partie de l’adresse MAC au nom du périphérique pour garantir son unicité.

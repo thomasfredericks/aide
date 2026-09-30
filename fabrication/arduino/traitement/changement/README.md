@@ -14,7 +14,7 @@ Le modèle de ce traitement :
 
 On compare la valeur actuelle à la valeur précédente.
 
-Dans l'exemple qui suit, le type de donnée est `int` et nous lisons une valeur analogique avec `analogRead(0)`. Ces deux éléments doivent être adaptés selon le contexte.
+Dans l"exemple qui suit, le type de donnée est `int` et nous lisons une valeur analogique avec `analogRead(0)`. Ces deux éléments doivent être adaptés selon le contexte.
 ```cpp
 
 int valeurPrecedente; // variable en mémoire

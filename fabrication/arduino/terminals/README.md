@@ -4,9 +4,9 @@
 
 [Arduino Terminals](https://codeberg.org/tim-montmorency/arduino_terminals) est un support pour cartes Arduino Nano doté de borniers à vis larges. Il permet un branchement simplifié du bus I2C, de 4 entrées analogiques et de 8 entrées/sorties numériques.
 
-![Photo d'un Arduino Terminals avec une carte Nano](./arduino_terminals.jpg)
+![Photo d’un Arduino Terminals avec une carte Nano](./arduino_terminals.jpg)
 
-## Broches d'entrée analogique
+## Broches d’entrée analogique
 
 Les broches analogiques disponibles sont :
 
@@ -21,7 +21,7 @@ Pour effectuer une lecture sur l’une de ces broches, il faut utiliser `analogR
 int valeur = analogRead(1); // Lire la broche A1
 ```
 
-## Broches d'entrée numérique
+## Broches d’entrée numérique
 
 Les broches d’entrée numérique sont :
 

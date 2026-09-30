@@ -15,7 +15,7 @@
 _Moonight_ prend en charge le clavier, la souris, l’écran tactile et jusqu’à 4 manettes de jeu.
 
 | **Fonction**                                                                 | **Raccourci clavier**              |
-|------------------------------------------------------------------------------|------------------------------------|
+|---------------------------------------|------------------|
 | Quitter la session de streaming (le jeu continue de tourner sur le PC hôte) | `Ctrl+Alt+Maj+Q`                   |
 | Activer/désactiver la capture du clavier et de la souris                    | `Ctrl+Alt+Maj+Z`                   |
 | Basculer entre le mode plein écran et fenêtré                               | `Ctrl+Alt+Maj+X`                   |

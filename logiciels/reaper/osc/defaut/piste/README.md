@@ -1,6 +1,6 @@
 # Reaper OSC default_pattern : piste 
 
-## Volume d'une piste
+## Volume d’une piste
 
 
 ```
@@ -9,7 +9,7 @@
 * `@` : numéro de la piste (commence à 1)
 * `n` : _float_ entre 0.0 et 1.0
 
-## Spatialisation (pan) d'une piste
+## Spatialisation (pan) d’une piste
 
 ```
 /track/@/pan n

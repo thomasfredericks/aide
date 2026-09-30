@@ -1,8 +1,8 @@
-# MicroOsc : réception d'OSC
+# MicroOsc : réception d’OSC
 
 ## Préalable(s)
 
-- [Initialisation de MicroOsc](../initialisation/)
+- Initialisation de MicroOsc
 - Cette documentation assume une instance de `MicroOsc` nommée `monOsc`
 
 ## Principe général
@@ -18,7 +18,7 @@ La réception d’un message OSC avec MicroOsc repose sur deux éléments :
 La réception OSC suit une logique événementielle : chaque message déclenche immédiatement un traitement. Cette structure permet de construire des systèmes interactifs réactifs, robustes et clairement organisés.
 
 La réception suit également un modèle structuré :
-- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l'envoi à la fonction de rappel.
+- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l"envoi à la fonction de rappel.
 - **CONDITION** : vérifier l’adresse OSC et les types d’arguments du `MicroOscMessage`.
     - **ACTION** : lire les arguments pour modifier le comportement du système.
 
@@ -42,7 +42,7 @@ Les arguments doivent toujours être lus dans l’ordre défini par les type tag
 Créer, au-dessus de la fonction `loop()` une **fonction de rappel** qui sera appelée chaque fois qu’un message OSC est reçu :
 
 ```cpp
-// FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
     // CONDITIONS ET ACTIONS ICI
 }
@@ -63,7 +63,7 @@ Cet appel :
 - appelle la fonction de rappel pour chaque message
 
 > [!WARNING]
-> L'appel à `onOscMessageReceived()` doit se faire le plus rapidement possible au début de la fonction `loop()`.
+> L’appel à `onOscMessageReceived()` doit se faire le plus rapidement possible au début de la fonction `loop()`.
 > Ne pas utiliser de `delay()` et ne pas ralentir les appels de `onOscMessageReceived()` en utilisant un chronomètre.
 
 ### Dans la fonction de rappel appelée par `onOscMessageReceived()`
@@ -85,7 +85,7 @@ La méthode `checkOscAddressAndTypeTags()` permet de vérifier simultanément :
 Cette vérification constitue la **CONDITION** du traitement.
 
 ```cpp
-// FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
    // CONDITION : vérifier adresse ET types
@@ -168,7 +168,7 @@ Il est donc essentiel que l’ordre et les types de lecture correspondent exacte
 ```cpp
 
 #include <MicroOscSlip.h>
-MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d'octets pour la réception de messages
+MicroOscSlip<128> monOsc(&Serial); // <#> : nombre d’octets pour la réception de messages
 
 #include <Chrono.h>
 Chrono monChrono;
@@ -177,7 +177,7 @@ void setup() {
     Serial.begin(115200);
 }
 
-// FONCTION APPELÉE LORSQU'UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
    // CONDITION : vérifier adresse ET types

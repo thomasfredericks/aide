@@ -10,12 +10,12 @@ Par exemple, un capteur peut fournir des valeurs comprises entre `0` et `1023`, 
 
 Flux d’entrée :
 ```
-0 -------- 512 -------- 1023
+0 ---- 512 ---- 1023
 ```
 
 Plage de sortie correspondante :
 ```
-0.0 ------ 0.5 -------- 1.0
+0.0 --- 0.5 ---- 1.0
 ```
 
 L’objectif est donc de convertir chaque valeur du flux d’entrée en une valeur proportionnelle dans la plage de sortie.
@@ -28,7 +28,7 @@ Le calcul repose sur trois étapes :
 2. **Mettre à l’échelle** cette valeur normalisée vers la plage de sortie
 3. **Limiter** le résultat pour éviter les dépassements (clamp)
 
-Formule générale de normalisation et de mise à l'échelle :
+Formule générale de normalisation et de mise à l"échelle :
 
 ```cpp
 (value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin
@@ -59,8 +59,8 @@ float valeurBrute = ... // REMPLACER ici les ... par la valeur reçue du flux
 
 float valeurProportionnelle = Proportion(
     valeurBrute,
-    0f,     // minimum du flux d'entrée
-    1023f,  // maximum du flux d'entrée
+    0f,     // minimum du flux d’entrée
+    1023f,  // maximum du flux d’entrée
     0f,     // minimum souhaité en sortie
     1f      // maximum souhaité en sortie
 );

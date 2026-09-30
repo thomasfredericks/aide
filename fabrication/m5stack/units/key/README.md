@@ -4,23 +4,23 @@
 
 Page officielle du produit : [Unit Key](https://docs.m5stack.com/en/unit/key)
 
-L'unité **M5Stack Key Unit** est une unité d'entrée à une touche mécanique tactile avec un pixel RGB intégré. 
+L’unité **M5Stack Key Unit** est une unité d’entrée à une touche mécanique tactile avec un pixel RGB intégré. 
 
 L’unité expose deux interfaces numériques : l’une pour la détection de l’état de la touche (`KEY` ou `IN`), l’autre pour le contrôle du pixel (`LED` ou `OUT`).
 
-![Photo de l'avant du Key Unit](./key_unit.png)
+![Photo de l"avant du Key Unit](./key_unit.png)
 
-![Photo de l'arrière du Key Unit](./key_unit_back.png)
+![Photo de l"arrière du Key Unit](./key_unit_back.png)
 
 ## Connexion
 
 ### Touche
-- La lecture de la touche s'effectue sur la broche identifiée par le texte *KEY* sur fond blanc, ce qui correspond au fil blanc du câble Grove. 
-- Si l'unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c'est la broche 32 (identifiée G32) qui permet d'effectuer la lecture numérique de la touche.
+- La lecture de la touche s"effectue sur la broche identifiée par le texte *KEY* sur fond blanc, ce qui correspond au fil blanc du câble Grove. 
+- Si l"unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture numérique de la touche.
 
 ### Pixel
-- Le contrôle du pixel s'effectue sur la broche identifiée par le texte *LED* sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
-- Si l'unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c'est la broche 26 (identifiée G26) qui permet de contrôler le pixel.
+- Le contrôle du pixel s"effectue sur la broche identifiée par le texte *LED* sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
+- Si l"unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c"est la broche 26 (identifiée G26) qui permet de contrôler le pixel.
 
 ## Bibliothèque logicielle
 
@@ -35,14 +35,14 @@ lib_deps =
 
 ## Code à intégrer
 
-### Dans l'espace global
+### Dans l"espace global
 
 Ajouter la bibliothèque logicielle FastLED:
 ```cpp
 #include <FastLED.h>
 ```
 
-Bien que cela ne soit pas absolument nécessaire, c'est une bonne idée d'utiliser des `#define` pour identifier les numéros de broches :
+Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser des `#define` pour identifier les numéros de broches :
 ```cpp
 #define BROCHE_ATOM_FIL_BLANC 32
 #define BROCHE_ATOM_FIL_JAUNE 26
@@ -60,7 +60,7 @@ Initialiser FastLED pour le pixel du **M5Stack Key Unit** :
   FastLED.addLeds< WS2812, BROCHE_ATOM_FIL_JAUNE , GRB >(&keyPixel, 1); 
 ```
 
-Initialiser l'entrée du **M5Stack Key Unit** :
+Initialiser l"entrée du **M5Stack Key Unit** :
 ```cpp
   pinMode( BROCHE_ATOM_FIL_BLANC , INPUT );
 ```

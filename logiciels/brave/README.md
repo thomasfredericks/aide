@@ -2,7 +2,7 @@
 
 Brave est disponible pour Windows, macOS, iOS et Android. Ses fonctionnalités particulières :
 - Bloqueur de publicité intégré
-- Sur cellulaire : Permet de télécharger des vidéos et de les lire l'écran éteint
+- Sur cellulaire : Permet de télécharger des vidéos et de les lire l"écran éteint
 
 ## Windows
 
@@ -10,7 +10,7 @@ De préférence, installer la [version officielle](https://brave.com/), mais en 
 
 
 
-Il se peut que le navigateur actuel refuse de télécharger ou d'exécuter la version portable de Brave. Il est possible de forcer son utilisation :
+Il se peut que le navigateur actuel refuse de télécharger ou d’exécuter la version portable de Brave. Il est possible de forcer son utilisation :
 
 ![Forcer Windows Edge à télécharger la version portable de Brave](./force_download.png)
 

@@ -7,8 +7,8 @@ Cette liste non exhaustive présente des outils de création sonore recommandés
 - **Synthétiseur avancé et gratuit** : [Surge XT](https://surge-synthesizer.github.io/)
 - **Synthétiseur avancé et fonctionnellement gratuit (basic)** : [Vital - Spectral Warping Wavetable Synth](https://vital.audio/)
 - **Synthétiseur simple et gratuit** : [Wavetable – SocaLabs](https://socalabs.com/synths/wavetable/)
-- **Programmation et contrôle du MIDI et de l'OSC** : [Pure Data (vanille)](https://puredata.info/downloads/pure-data)  
-  - Autre option (plus de fonctionnalités et permet de modifier l'audio, mais moins stable); [plugdata](https://plugdata.org/download.html)
+- **Programmation et contrôle du MIDI et de l"OSC** : [Pure Data (vanille)](https://puredata.info/downloads/pure-data)  
+  - Autre option (plus de fonctionnalités et permet de modifier l"audio, mais moins stable); [plugdata](https://plugdata.org/download.html)
 
 ## Compléments utiles
 

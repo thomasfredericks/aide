@@ -18,7 +18,7 @@ Ajouter un bloc de trente dernières minutes à la fin, où vous affinez vos cen
 
 ### Op art (art optique)
 
-Les œuvres d'op art sont essentiellement abstraites. Les pièces donnent l'impression de mouvement, d'éclat de lumière et de vibration ou de mouvements alternés.
+Les œuvres d’op art sont essentiellement abstraites. Les pièces donnent l"impression de mouvement, d’éclat de lumière et de vibration ou de mouvements alternés.
 
 Remplir les 100 cases avec des itérations uniques de noir et de blanc de formes géométriques.
 

@@ -1,6 +1,6 @@
 # Bibliographie Montmorency
 
-Bibliographie sélective d'ouvrages disponibles à la bibliothèque du collège Montmorency.
+Bibliographie sélective d’ouvrages disponibles à la bibliothèque du collège Montmorency.
 
 ### Practical digital preservation : a how-to guide for organizations of any size
 
@@ -10,9 +10,9 @@ Bibliographie sélective d'ouvrages disponibles à la bibliothèque du collège 
 
 - [La face cachée de la photo : prendre et diffuser des images en toute légalité](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=206226&data=05)
 
-### Adobe Photoshop CC 2019 : guide d'entraînement officiel d'Adobe
+### Adobe Photoshop CC 2019 : guide d’entraînement officiel d’Adobe
 
-- [Adobe Photoshop CC 2019 : guide d'entraînement officiel d'Adobe](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=209295&data=05)
+- [Adobe Photoshop CC 2019 : guide d’entraînement officiel d’Adobe](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=209295&data=05)
 
 ### Qui fait quoi, 2021 : 37e guide annuel
 
@@ -46,9 +46,9 @@ Bibliographie sélective d'ouvrages disponibles à la bibliothèque du collège 
 
 - [Concevoir un jeu vidéo : les méthodes et les outils des professionnels expliqués à tous !](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306847&data=05)
 
-### L'art du game design : se focaliser sur les fondamentaux
+### L’art du game design : se focaliser sur les fondamentaux
 
-- [L'art du game design : se focaliser sur les fondamentaux](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306848&data=05)
+- [L’art du game design : se focaliser sur les fondamentaux](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306848&data=05)
 
 ### Internet\_Art : from the birth of the web to the rise of NFTs
 
@@ -74,19 +74,19 @@ Bibliographie sélective d'ouvrages disponibles à la bibliothèque du collège 
 
 - [Plus de cinéma ! : images animées et effets spéciaux](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=333299&data=05)
 
-### Tracés de voyage : 20 ans d'allers-détours
+### Tracés de voyage : 20 ans d’allers-détours
 
-- [Tracés de voyage : 20 ans d'allers-détours](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=333300&data=05)
+- [Tracés de voyage : 20 ans d’allers-détours](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=333300&data=05)
 
-### Composing interactions : an artist's guide to building expressive interactive systems
+### Composing interactions : an artist"s guide to building expressive interactive systems
 
 
-- [Composing interactions : an artist's guide to building expressive interactive systems](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=592875&data=05)
+- [Composing interactions : an artist"s guide to building expressive interactive systems](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=592875&data=05)
 
 ### Strangers need strange moments together : designing interaction for public spaces
 
 - [Strangers need strange moments together : designing interaction for public spaces](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624110&data=05)
 
-### Guide de l'industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency
+### Guide de l"industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency
 
-- [Guide de l'industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624266&data=05)
+- [Guide de l"industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624266&data=05)

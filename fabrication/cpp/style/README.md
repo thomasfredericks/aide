@@ -46,7 +46,7 @@ struct TokenInfo;
 enum class ColorMode;
 ```
 
-## Membres (variables) privées d'une classe
+## Membres (variables) privées d’une classe
 
 - **snake_case_** (suffixe _ obligatoire)
 

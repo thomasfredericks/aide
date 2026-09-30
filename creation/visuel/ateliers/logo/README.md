@@ -1,6 +1,6 @@
 # Logo collectif
 
-Former des groupes d'environ 3 personnes.
+Former des groupes d’environ 3 personnes.
 
 Passer dix minutes à répondre aux questions suivantes :
 - « Quelles sont mes trois forces en tant que designer ? 

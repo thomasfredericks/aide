@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Le pixel est relié à la broche `27` de l'ESP32 du Atom Lite.
+Le pixel est relié à la broche `27` de l"ESP32 du Atom Lite.
 
 ## Bibliothèque logicielle
 
@@ -15,7 +15,7 @@ lib_deps =
     FastLED
 ```
 
-## À ajouter dans l'espace *global* 
+## À ajouter dans l"espace *global* 
 
 Ajouter la bibliothèque logicielle FastLED:
 ```cpp
@@ -29,7 +29,7 @@ CRGB atomPixel;
 
 ![](./code_creer_crgb.drawio.png)
 
-Bien que cela ne soit pas absolument nécessaire, c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche :
+Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
 #define BROCHE_ATOM_PIXEL 27
 ```
@@ -64,7 +64,7 @@ Pour changer la couleur du pixel:
 
 Mettre à la fin de `setup()` :
 ```cpp
-  // animation de démarrage de 3 secondes -------|
+  // animation de démarrage de 3 secondes ----|
   atomPixel = CRGB(255,0,0); // ROUGE
   FastLED.show();
   delay(1000); // PAUSE 1 SECONDE
@@ -76,12 +76,12 @@ Mettre à la fin de `setup()` :
   delay(1000); // PAUSE 1 SECONDE
   atomPixel = CRGB(0,0,0);
   FastLED.show(); 
-  // --------------------------------------------|
+  // ----------------------|
 ```
 
 ### Sans `delay()`
 ```cpp
-// animation de démarrage de 3 secondes -------|
+// animation de démarrage de 3 secondes ----|
 unsigned long chronoDepart = millis(); // temps de depart
 while ( millis() - chronoDepart <= 3000 ) {  // boucler entre 0 et 3000 millisecondes 
   unsigned long duree = millis() - chronoDepart; 
@@ -93,7 +93,7 @@ while ( millis() - chronoDepart <= 3000 ) {  // boucler entre 0 et 3000 millisec
     atomPixel = CRGB(0,255,0); // vert
   }
   FastLED.show();
-  delay(1); // OPTIONNEL! libérer le cpu pour qu'il fasse d'autres choses comme gérer le wifi
+  delay(1); // OPTIONNEL! libérer le cpu pour qu"il fasse d’autres choses comme gérer le wifi
 }
-// --------------------------------------------|
+// ----------------------|
 ```

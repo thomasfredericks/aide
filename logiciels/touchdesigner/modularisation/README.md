@@ -1,4 +1,4 @@
-# Modularisation d'un projet TouchDesigner
+# Modularisation d’un projet TouchDesigner
 
 ## Exemple
 
@@ -8,19 +8,19 @@ Tous les fichiers (*principal.toe*, *alpha.toe*, *beta.toe* ainsi que les fichie
 
 ![](./fileview.png)
 
-L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_dans_toe_par_tox.zip)
+L’exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_dans_toe_par_tox.zip)
 
 ### Ouvrir *alpha.toe* et accéder à sa configuration
 
-![Configuration du projet d'alpha.toe](./alpha_zoom_out.svg)
+![Configuration du projet d’alpha.toe](./alpha_zoom_out.svg)
 
 ### Exporter le contenu de *alpha.toe* en tant que *.tox*
 
-![Exportation d'alpha.toe en tant que .tox](./alpha_toe_to_tox.png)
+![Exportation d’alpha.toe en tant que .tox](./alpha_toe_to_tox.png)
 
 ### Dans *principal.toe*, ajouter un *container* et y charger *alpha.tox*
 
-![Ajout d'un container](./container_add.png)
+![Ajout d’un container](./container_add.png)
 
 ![Charger alpha.tox dans le container](./container_configure_alpha.png)
 
@@ -31,14 +31,14 @@ L'exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](to
 
 ### Intégrer les deux patchs
 
-![Capture d'écran de principal.toe qui encapsule les deux .toe](./alpha_et_beta_dans_principal.png)
+![Capture d’écran de principal.toe qui encapsule les deux .toe](./alpha_et_beta_dans_principal.png)
 
 ### Mises à jour
 
 > [!WARNING]  
 > Les modifications effectuées aux composants dans « principal.toe » ne seront pas sauvegardées !
 
-Chaque fois que vous voulez mettre à jour les composants *alpha* et *beta* dans *principal*, vous devez refaire l'exportation des *.toe* en *.tox* et rédémarrer *principal.toe*.
+Chaque fois que vous voulez mettre à jour les composants *alpha* et *beta* dans *principal*, vous devez refaire l"exportation des *.toe* en *.tox* et rédémarrer *principal.toe*.
 
 ## AVANCÉ! Script pour la (sauvegarde) automatique des COMP externes
 

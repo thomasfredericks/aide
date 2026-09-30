@@ -25,7 +25,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC par défaut, s�
 ```
 * `n` : _float_ entre 0.0 et 1.0
 
-#### Volume d'une piste
+#### Volume d’une piste
 
 
 ```
@@ -34,7 +34,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC par défaut, s�
 * `@` : numéro de la piste (commence à 1)
 * `n` : _float_ entre 0.0 et 1.0
 
-#### Spatialisation (pan) d'une piste
+#### Spatialisation (pan) d’une piste
 
 ```
 /track/@/pan n
@@ -66,7 +66,7 @@ Pour ouvrir le dossier contenant le fichier de configuration OSC par défaut, s�
 # For basic information about OSC and REAPER, see 
 # http://www.cockos.com/reaper/sdk/osc/osc.php .
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # Default settings for how this device displays information.
 
@@ -96,7 +96,7 @@ DEVICE_FX_INST_PARAM_COUNT 16
 DEVICE_MARKER_COUNT 0
 DEVICE_REGION_COUNT 0
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # Default values for how this device behaves. The device has a selected track, bank 
 # of tracks, and FX, which are not necessarily the same as the selected track or FX 
@@ -139,20 +139,20 @@ DEVICE_EQ INSERT
 
 DEVICE_ROTARY_CENTER 0
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # Each line below is an action description in all caps, followed by a number of OSC
 # message patterns. You can add, remove, or change patterns, delete lines, or comment 
-# out lines by adding '#', but do not change the action descriptions.
+# out lines by adding "#", but do not change the action descriptions.
 
 # The patterns following the action are the messages that REAPER will send and receive
 # to and from the OSC device. An action can have no patterns (and will be ignored), 
 # one pattern, or many patterns.
 
-# The patterns may contain the wildcard character '@'. (This is REAPER-only, not part
-# of the OSC specification.) The '@' wildcard is used to specify the action target.
+# The patterns may contain the wildcard character "@". (This is REAPER-only, not part
+# of the OSC specification.) The "@" wildcard is used to specify the action target.
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # The OSC device sends patterns to trigger actions, and REAPER sends patterns to the
 # device as feedback.  OSC patterns can include arguments, which are be interpreted
@@ -247,7 +247,7 @@ DEVICE_ROTARY_CENTER 0
 # a message like /track/1/volume as targeting the volume for track 9, and  REAPER 
 # will only send the device feedback messages for tracks 9-16.
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # Note: the default configuration includes a lot of feedback messages, which can
 # flood the device. Avoid flooding by removing messages (by deleting the patterns, 
@@ -267,7 +267,7 @@ DEVICE_ROTARY_CENTER 0
 # Note: multiple patterns for a given action can all be listed on the same line, 
 # or split onto separate lines.
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # The default REAPER OSC pattern configuration follows. To create a custom 
 # configuration, copy this file and edit the copy.
@@ -313,7 +313,7 @@ SCRUB r/scrub
 PLAY_RATE n/playrate f/playrate/raw r/playrate/rotary s/playrate/str
 TEMPO n/tempo f/tempo/raw r/tempo/rotary s/tempo/str
 
-# writing a marker or region time may change its index -- you should use the *ID_ versions below if needed
+# writing a marker or region time may change its index - you should use the *ID_ versions below if needed
 MARKER_NAME s/marker/@/name
 MARKER_NUMBER s/marker/@/number/str
 MARKER_TIME f/marker/@/time
@@ -330,7 +330,7 @@ LAST_REGION_TIME f/lastregion/time
 LAST_REGION_LENGTH f/lastregion/length
 
 
-# these are write-only, ID is the "NUMBER" field from above -- if not found, creates the marker/region
+# these are write-only, ID is the "NUMBER" field from above - if not found, creates the marker/region
 MARKERID_NAME s/marker_id/@/name
 MARKERID_TIME f/marker_id/@/time
 MARKERID_NUMBER i/marker_id/@/number
@@ -529,7 +529,7 @@ ACTION_RELATIVE f/action/@/cc/relative
 MIDIACTION i/midiaction t/midiaction/@
 MIDILISTACTION i/midilistaction t/midilistaction/@
 
-# ----------------------------------------------------------------
+# --------------------------------
 
 # The following messages are sent from the device, to inform REAPER
 # of a change in the device state, behavior, or display capabilities.

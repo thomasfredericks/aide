@@ -9,7 +9,7 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 ### Composants embarqués
 
 | **ESP32-PICO-D4** | **Composant** |
-|------------------|----------------|
+|---------|--------|
 | **27**           | Pixel RGB      |
 | **39**           | Bouton         |
 | **12**           | IR             |
@@ -19,7 +19,7 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 ![](./grove_connector.jpg)
 
 | **ESP32-PICO-D4** | **I2C**  | **Analogique** | **Câble HY2.0-4P Grove** |
-|------------------|----------|------------------|---------------------------|
+|---------|-----|---------|--------------|
 | **26**           | SDA(2)   | DAC              | Jaune                     |
 | **32**           | SCL(2)   | ADC              | Blanc                     |
 | **5V**           |          |                  | Rouge                     |
@@ -30,7 +30,7 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 ### Broches sous le module
 
 | **ESP32-PICO-D4** | **I2C**  | **Analogique** | 
-|------------------|----------|------------------|
+|---------|-----|---------|
 | **21**           | SCL(1)   |                  |
 | **25**           | SDA(1)   | DAC              |
 | **22**           |          |                  |

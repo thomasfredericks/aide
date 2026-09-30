@@ -15,13 +15,13 @@ Le montage comprend :
   - `GND` : masse / 0 V
   - `DI` : signal de données
 
-L'alimentation doit être raccordée au connecteur de distribution. Respecter impérativement la polarité.
+L’alimentation doit être raccordée au connecteur de distribution. Respecter impérativement la polarité.
 
 La bande de LED possède trois connexions :
 
 | Bande de LED | Fonction |
-|---|---|
-| `GND` | GND commun entre l'alimentation et l'Atom |
+|--|--|
+| `GND` | GND commun entre l"alimentation et l"Atom |
 | `DI` | Signal de données |
 | `+12V` | Alimentation 12 V |
 
@@ -29,14 +29,14 @@ Le câblage doit être :
 
 ```mermaid
 flowchart LR
-    A["+12V"] -->|+12V| LED["+12V"]
-    G["GND"] -->|GND| LEDG["GND"]
-    G -->|GND commun| ATG["GND"]
-    AT["GPIO26 / G26"] -->|DI| DI["DI"]
+    A["+12V"] ->|+12V| LED["+12V"]
+    G["GND"] ->|GND| LEDG["GND"]
+    G ->|GND commun| ATG["GND"]
+    AT["GPIO26 / G26"] ->|DI| DI["DI"]
 
 
-LEDG --- LED
-DI --- LED
+LEDG -- LED
+DI -- LED
 
 subgraph ALIM["Alimentation 12 V"]
     A
@@ -55,10 +55,10 @@ subgraph ATOM["Atom"]
 end
 ````
 
-Le `GND` de l'Atom et le `GND` de la bande LED doivent être **communs** afin que le signal de données ait la même référence électrique.
+Le `GND` de l"Atom et le `GND` de la bande LED doivent être **communs** afin que le signal de données ait la même référence électrique.
 
 > [!WARNING]
-> Ne jamais appliquer directement 12 V sur une entrée GPIO. Vérifier la tension d'alimentation réellement acceptée par le modèle exact d'Atom utilisé avant de raccorder son alimentation.
+> Ne jamais appliquer directement 12 V sur une entrée GPIO. Vérifier la tension d’alimentation réellement acceptée par le modèle exact d’Atom utilisé avant de raccorder son alimentation.
 
 
  

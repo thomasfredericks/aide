@@ -2,7 +2,7 @@
 
 La carte **Nano R4** représente la dernière évolution de la famille Nano. Elle combine le puissant microcontrôleur **RA4M1 de Renesas** avec le format compact et familier des cartes Nano. 
 
-La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3CFM)**, une connectivité étendue grâce à un connecteur **Qwiic** intégré, ainsi que des fonctionnalités avancées telles qu'un **DAC**, le **CAN** et des **amplificateurs opérationnels (OpAmp)**.
+La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3CFM)**, une connectivité étendue grâce à un connecteur **Qwiic** intégré, ainsi que des fonctionnalités avancées telles qu"un **DAC**, le **CAN** et des **amplificateurs opérationnels (OpAmp)**.
 
 Dimensions : **18 mm × 45 mm**.
 
@@ -10,22 +10,22 @@ Dimensions : **18 mm × 45 mm**.
 
 ## Principaux composants de la carte
 
-* **Microcontrôleur** : au cœur de la Nano R4 se trouve un microcontrôleur de la famille **Renesas RA4M1 (R7FA4M1AB3CFM)**. Ce microcontrôleur monopuce, reconnu comme l'un des microcontrôleurs les plus économes en énergie du secteur, est basé sur un cœur **Arm Cortex-M4 cadencé à 48 MHz**. Il dispose de jusqu'à **256 Ko de mémoire Flash** et **32 Ko de mémoire SRAM**.
+* **Microcontrôleur** : au cœur de la Nano R4 se trouve un microcontrôleur de la famille **Renesas RA4M1 (R7FA4M1AB3CFM)**. Ce microcontrôleur monopuce, reconnu comme l"un des microcontrôleurs les plus économes en énergie du secteur, est basé sur un cœur **Arm Cortex-M4 cadencé à 48 MHz**. Il dispose de jusqu"à **256 Ko de mémoire Flash** et **32 Ko de mémoire SRAM**.
 
-* **Connecteur USB-C** : la Nano R4 possède un connecteur USB-C moderne utilisé pour la **programmation**, l'**alimentation électrique** et la **communication série** avec des appareils externes.
+* **Connecteur USB-C** : la Nano R4 possède un connecteur USB-C moderne utilisé pour la **programmation**, l"**alimentation électrique** et la **communication série** avec des appareils externes.
 
-* **Connecteur Qwiic** : la Nano R4 comprend également un connecteur Qwiic intégré permettant d'étendre ses capacités de communication via **I²C**. Il facilite la connexion à une grande variété de cartes, de capteurs, d'actionneurs et d'autres périphériques.
+* **Connecteur Qwiic** : la Nano R4 comprend également un connecteur Qwiic intégré permettant d’étendre ses capacités de communication via **I²C**. Il facilite la connexion à une grande variété de cartes, de capteurs, d’actionneurs et d’autres périphériques.
 
 * **LED RGB programmable** : la Nano R4 possède une **DEL rouge-vert-bleue programmable** intégrée, permettant de fournir des indications visuelles sur différents états de fonctionnement.
 
-* **LED_BUILTIN** : en plus de la DEL RGB programmable, la carte possède une **DEL orange programmable** supplémentaire destinée à fournir des indications d'état simples.
+* **LED_BUILTIN** : en plus de la DEL RGB programmable, la carte possède une **DEL orange programmable** supplémentaire destinée à fournir des indications d’état simples.
 
 * **Fonctionnalités avancées du microcontrôleur** : le microcontrôleur **R7FA4M1AB3CFM** intègre plusieurs périphériques avancés, notamment :
 
   * un **convertisseur numérique-analogique (DAC) 12 bits** ;
   * un **bus CAN** destiné notamment aux communications industrielles ;
   * des **amplificateurs opérationnels (OpAmp) intégrés** ;
-  * des capacités d'**émulation HID**, permettant notamment de simuler un **clavier ou une souris USB**.
+  * des capacités d’**émulation HID**, permettant notamment de simuler un **clavier ou une souris USB**.
 
 ## Configuration
 
@@ -42,25 +42,25 @@ Informations complètes sur ce modèle : [Nano R4 User Manual | Arduino Document
 
 ### DEL orange intégrée
 
-Le Nano R4 dispose d'une DEL orange intégrée, qui peut être utilisée pour des indications d'état de base et des opérations de débogage.
+Le Nano R4 dispose d’une DEL orange intégrée, qui peut être utilisée pour des indications d’état de base et des opérations de débogage.
 
 La DEL utilisateur intégrée est accessible via la constante suivante :
 
 | DEL intégrée | Constante | 
-| --- | --- |
+| -- | -- |
 | DEL utilisateur orange | `LED_BUILTIN` |
 
 ### DEL RVB (RGB LED) intégrée 
 
-Le Nano R4 est doté d'une DEL RVB intégrée qui peut être utilisée comme indicateur de retour visuel pour l'utilisateur.
+Le Nano R4 est doté d’une DEL RVB intégrée qui peut être utilisée comme indicateur de retour visuel pour l"utilisateur.
 
 > [!WARNING]
-> Pour allumer chaque couleur de la DEL RVB intégrée du Nano R4, il faut relier la broche correspondante à la masse (GND). Cela signifie qu'un niveau de tension LOW allumera la couleur correspondante de la DEL, tandis qu'un niveau de tension HIGH l'éteindra.
+> Pour allumer chaque couleur de la DEL RVB intégrée du Nano R4, il faut relier la broche correspondante à la masse (GND). Cela signifie qu"un niveau de tension LOW allumera la couleur correspondante de la DEL, tandis qu"un niveau de tension HIGH l"éteindra.
 
 Plutôt que des numéros de broches, utiliser les constantes suivantes pour accéder aux broches correspondantes :
 
 | DEL intégrée | Constante | 
-| --- | --- |
+| -- | -- |
 | DEL rouge | `LEDR` | 
 | DEL verte | `LEDG` | 
 | DEL bleue | `LEDB` | 

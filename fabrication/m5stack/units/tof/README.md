@@ -9,30 +9,30 @@ Page officielle du produit : [Unit ToF](https://docs.m5stack.com/en/unit/TOF)
 
 
 
-Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer des distances jusqu'à 2 mètres avec la technologie *Time of Flight*. 
+Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer des distances jusqu"à 2 mètres avec la technologie *Time of Flight*. 
 
 > [!NOTE]
 > Le M5Stack Unit TOF fonctionne mieux en mode continu (le mode non continu est lent)
 
 
-![Photo de l'avant et l'arrière du M5Stack Unit TOF](./unit_tof.png)
+![Photo de l"avant et l"arrière du M5Stack Unit TOF](./unit_tof.png)
 ## Connexion
 
-**Le Unit TOF est de type I²C tel qu'identifié par son connecteur rouge.**
+**Le Unit TOF est de type I²C tel qu"identifié par son connecteur rouge.**
 
 Il peut être branché à un connecteur **grove blanc** ou à une connecteur **grove rouge**.
 
 ## Bibliothèque logicielle vl53l0x de Polulu 
 
-La bibliothèque logicielle [vl53l0x de Polulu](https://github.com/pololu/vl53l0x-arduino) permet d'interfacer avec le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof).
+La bibliothèque logicielle [vl53l0x de Polulu](https://github.com/pololu/vl53l0x-arduino) permet d’interfacer avec le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof).
 
 ###  Installation dans Arduino IDE
 
-La bibliothèque logicielle [vl53l0x-arduino](https://github.com/pololu/vl53l0x-arduino) est disponible dans le gestionnaire de bibliothèques d'Arduino.
+La bibliothèque logicielle [vl53l0x-arduino](https://github.com/pololu/vl53l0x-arduino) est disponible dans le gestionnaire de bibliothèques d’Arduino.
 
 ### Installation dans PlatformIO
 
-Ajouter `pololu/VL53L0X` à l'entrée `lib_deps` du fichier *platform.ini* :
+Ajouter `pololu/VL53L0X` à l"entrée `lib_deps` du fichier *platform.ini* :
 ```
 lib_deps =
      pololu/VL53L0X
@@ -40,7 +40,7 @@ lib_deps =
 
 ## Utilisation
 
-### Code à ajouter à l'espace global
+### Code à ajouter à l"espace global
 
 Importer la bibliothèque logicielle et créer une instance de la classe `VL53L0X` :
 ```cpp
@@ -50,7 +50,7 @@ VL53L0X  myTOF;
 
 ### Code à ajouter à `setup()`
 
-Dans `setup()`, démarrer la connexion I2C (si elle n'a pas déjà été démarrée) :
+Dans `setup()`, démarrer la connexion I2C (si elle n"a pas déjà été démarrée) :
 ```cpp
 Wire.begin();
 ```
@@ -66,11 +66,11 @@ Ensuite, initialiser le TOF :
 
 > [!NOTE] 
 > Appliquer les configurations optionnelles suivantes seulement si nécessaire. 
-> Si l'une est nécessaire, l'intégrer dans setup()
+> Si l"une est nécessaire, l"intégrer dans setup()
 
 #### Configuration optionnelle : Longue distance
 
-Cela augmente la sensibilité du capteur et étend sa portée potentielle, mais cela augmente également la probabilité d'obtenir une lecture inexacte en raison de réflexions provenant d'objets autres que la cible visée. Ce mode fonctionne mieux dans des conditions sombres.
+Cela augmente la sensibilité du capteur et étend sa portée potentielle, mais cela augmente également la probabilité d’obtenir une lecture inexacte en raison de réflexions provenant d’objets autres que la cible visée. Ce mode fonctionne mieux dans des conditions sombres.
 
 ```cpp
   // lower the return signal rate limit (default is 0.25 MCPS)
@@ -98,7 +98,7 @@ sensor.setMeasurementTimingBudget(200000);
 
 ### Code à utiliser dans `loop()`
 
-À noter qu'une mesure prend par défaut 33 millisecondes !
+À noter qu"une mesure prend par défaut 33 millisecondes !
 
 Obtenir la mesure en millimètres :
 ```cpp
@@ -108,7 +108,7 @@ int mesure = myTOF.readRangeSingleMillimeters();
 > [!NOTE] 
 > Récupérer les erreurs seulement si nécessaire.
 
-**Optionnellement**, déterminer s'il y a eu une erreur de communication avec le TOF :
+**Optionnellement**, déterminer s"il y a eu une erreur de communication avec le TOF :
 ```cpp
 int erreur = myTOF.timeoutOccurred();
 ```

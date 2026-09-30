@@ -3,9 +3,9 @@
 ## Préalable(s)
 
 - [Configurer Arduino IDE pour M5Stack Atom](../../../arduino-ide/)
-- Se familiariser avec l'envoi d'OSC avec MicroOsc
-- Télécharger la bibliothèque logicielle **MicroOsc** dans le gestionnaire de bibliothèques d'Arduino.
-- Télécharger la dernière version d'OscBridge : [OscBridge Latest Release](https://github.com/thomasfredericks/OscBridge/releases/latest)
+- Se familiariser avec l"envoi d’OSC avec MicroOsc
+- Télécharger la bibliothèque logicielle **MicroOsc** dans le gestionnaire de bibliothèques d’Arduino.
+- Télécharger la dernière version d’OscBridge : [OscBridge Latest Release](https://github.com/thomasfredericks/OscBridge/releases/latest)
 
 ## Le code OSC de base
 

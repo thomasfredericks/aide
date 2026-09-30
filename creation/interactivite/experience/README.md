@@ -6,7 +6,7 @@ Une expérience multimédia **interactive** est une expérience multimédia dont
 
 Il existe toutefois différents **degrés d’interactivité**. Il est possible de les situer sur un [continuum](../continuum/) selon l’influence que les actions de l’utilisateur ont sur l’expérience.
 
-Ceci étant dit, il est possible d'établir les [qualités](../qualites/) d’une bonne expérience interactive.
+Ceci étant dit, il est possible d’établir les [qualités](../qualites/) d’une bonne expérience interactive.
 
 Pour vivre une expérience, le spectateur doit la parcourir. Pour mieux comprendre la progression dans une expérience interactive, abordons-la dans deux autres types de création :
 
@@ -21,7 +21,7 @@ Le cinéma consiste à organiser des images et des sons dans le temps afin de pr
 * Le temps consacré à l’œuvre est généralement laissé au choix du spectateur.
 * L’œuvre se traverse par le temps.
 
-## Le parcours du spectateur face à de l'art plastique
+## Le parcours du spectateur face à de l"art plastique
 
 Une expérience plastique est principalement organisée par la présence de formes dans l’espace. Elle laisse au spectateur la liberté de déterminer son point de vue, son parcours et le temps qu’il lui consacre.
 
@@ -43,7 +43,7 @@ Le sens n’est pas entièrement prescrit : il se construit dans la perception, 
 * L’expérience se construit par l’action, dans l’espace et dans le temps.
 
 |  | Cinéma | Arts plastiques | Expérience multimédia interactive (jeux vidéo) |
-|---|---|---|---|
+|--|--|--|--|
 | **Temps** | Déroulement imposé dans le temps. | Durée libre. | Déroulement variable selon les actions. |
 | **Espace** | Espace principalement représenté à l’écran. | Espace librement exploré. | Espace exploré et manipulé. |
 | **Progression dans l’expérience** | Déterminée par le créateur. | Construite par le spectateur. | Construite par les actions et les choix de l’utilisateur. |

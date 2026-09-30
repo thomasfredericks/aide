@@ -4,15 +4,15 @@
 
 ![Ouvrir les préférences et trouver la section «Additional boards manager URLs» en bas](ajouter_m5stack1.SVG)
 
-## Ajouter l'URL du gestionnaire de carte d'ESP32
+## Ajouter l"URL du gestionnaire de carte d’ESP32
 
-Voici l'URL à ajouter : 
+Voici l"URL à ajouter : 
 ```
 https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
-![Ajouter l'URL «https://espressif.github.io/arduino-esp32/package_esp32_index.json»](ajouter_m5stack2.SVG)
+![Ajouter l"URL «https://espressif.github.io/arduino-esp32/package_esp32_index.json»](ajouter_m5stack2.SVG)
 
-## Trouver et installer le gestionnaire de carte d'ESP32
+## Trouver et installer le gestionnaire de carte d’ESP32
 
 ![Installer le gestionnaire de carte ESP32](ajouter_m5stack3.SVG)
 
@@ -30,9 +30,9 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ## Identifier le port
 
-![Identifier le bon port (le numéro de COM risque d'être différent)](trouver_port.svg)
+![Identifier le bon port (le numéro de COM risque d’être différent)](trouver_port.svg)
 
 ## Choisir le port
 
-![Configurer pour le bon port (le numéro de COM risque d'être différent)](configurer_port.png)
+![Configurer pour le bon port (le numéro de COM risque d’être différent)](configurer_port.png)
 

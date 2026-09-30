@@ -21,9 +21,9 @@ Brancher les Units Angle, Motion, Light et Key au PbHub. Noter les canaux utilis
 
 ###  1) Installation
 
-La bibliothèque logicielle [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est disponible dans le gestionnaire de bibliothèques d'Arduino.
+La bibliothèque logicielle [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est disponible dans le gestionnaire de bibliothèques d’Arduino.
 
-### 2) Code à ajouter à l'espace global (i.e. avant `setup()` )
+### 2) Code à ajouter à l"espace global (i.e. avant `setup()` )
 
 Nous créons une instance de la classe `M5_PbHub` nommée `myPbHub`:
 ```cpp
@@ -36,7 +36,7 @@ M5_PbHub myPbHub;
 > [!IMPORTANT] 
 > Ajouter les extraits de code suivants après votre code de démarrage dans `setup()`.
 
-#### 3.1) S'assurer que `Wire` est initialisé dans `setup()`
+#### 3.1) S"assurer que `Wire` est initialisé dans `setup()`
  
 Initialiser Wire :
 ```cpp
@@ -66,7 +66,7 @@ myPbHub.setPixelCount( channel ,  1);
 
 ###  Angle Unit
 
-Pour effectuer la lecture de l'angle, utiliser la méthode suivante en remplaçant `channel` par le canal du Angle Unit:
+Pour effectuer la lecture de l"angle, utiliser la méthode suivante en remplaçant `channel` par le canal du Angle Unit:
 ```cpp
 int angle = myPbHub.analogRead(channel);
 ```

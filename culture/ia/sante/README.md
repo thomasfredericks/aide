@@ -5,6 +5,6 @@
 - [Deaths linked to chatbots - Wikipedia](https://en.wikipedia.org/wiki/Deaths_linked_to_chatbots)
 - [ChatGPT Killed a Man After OpenAI Brought Back "Inherently Dangerous" GPT-4o, Lawsuit Claims](https://futurism.com/artificial-intelligence/chatgpt-suicide-openai-gpt4o)
 
-![Extrait de l'article de Wikipedia](./wikipedia.png)
+![Extrait de l"article de Wikipedia](./wikipedia.png)
 
-![Extrait de l'article de Futurism](./futurism.png)
+![Extrait de l"article de Futurism](./futurism.png)

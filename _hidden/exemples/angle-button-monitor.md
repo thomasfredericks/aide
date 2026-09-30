@@ -11,7 +11,7 @@
 
 ## Code à ajouter au bloc de message
 
-1) Pour envoyer la valeur du bouton en plus de la valeur du M5 Angle, nous devons modifier l'instruction `Serial.println( maLectureAngle )` pour la remplacer par le bloc de code suivant:
+1) Pour envoyer la valeur du bouton en plus de la valeur du M5 Angle, nous devons modifier l"instruction `Serial.println( maLectureAngle )` pour la remplacer par le bloc de code suivant:
 ```cpp
     Serial.print( maLectureAngle );
     Serial.print(" ");
@@ -39,7 +39,7 @@ void loop() {
 
 ## Serial Monitor/Plotter
 
-À noter, que dans `setup()`, l'instruction `Serial.begin(115200)` démarre la communication à la vitesse de 115200 baud. Il faudra inscrire cette valeur dans la fenêtre du _Serial Monitor_ ou du _Serial Plotter_.
+À noter, que dans `setup()`, l"instruction `Serial.begin(115200)` démarre la communication à la vitesse de 115200 baud. Il faudra inscrire cette valeur dans la fenêtre du _Serial Monitor_ ou du _Serial Plotter_.
 
 
 ![](angle_button_serial-plotter.png)

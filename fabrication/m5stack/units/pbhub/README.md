@@ -3,14 +3,14 @@
 ## Introduction
 Page officielle du produit : [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1)
 
-Le M5Stack PbHub v1.1 permet de brancher jusqu'à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur **noir**). Il nécessite une utilisation d'une bibliothèque logicielle (voir plus bas).
+Le M5Stack PbHub v1.1 permet de brancher jusqu"à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur **noir**). Il nécessite une utilisation d’une bibliothèque logicielle (voir plus bas).
 
 ![](pbhub_front.png)
 
 ![](pbhub_back.jpg)
 
 > [!WARNING]
-> La version 1.1 du PbHub a un bogue majeur qui ne permet de contrôler qu'un seul pixel par canal (plutôt qu'un nombre arbitraire)
+> La version 1.1 du PbHub a un bogue majeur qui ne permet de contrôler qu"un seul pixel par canal (plutôt qu"un nombre arbitraire)
 > La version 2 semble régler ce problème : [m5stack/M5Unit-PbHub-Internal-FW](https://github.com/m5stack/M5Unit-PbHub-Internal-FW) 
 
 ## Bibliothèque logicielle M5_PbHub
@@ -19,7 +19,7 @@ Le M5Stack PbHub v1.1 permet de brancher jusqu'à 6 capteurs numériques ou anal
 
 #### Arduino IDE
 
-La bibliothèque logicielle [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est disponible dans le gestionnaire de bibliothèques d'Arduino.
+La bibliothèque logicielle [M5_PbHub](https://github.com/thomasfredericks/M5_PbHub) est disponible dans le gestionnaire de bibliothèques d’Arduino.
 
 #### PlatformIO
 
@@ -35,10 +35,10 @@ lib_deps =
 ```
 
 > [!WARNING]
-> Il est important de respecter la disposition et l'indentation de la section lib_deps!
+> Il est important de respecter la disposition et l"indentation de la section lib_deps!
 
 
-### Code à ajouter à **l'espace global**
+### Code à ajouter à **l"espace global**
 
 Importer et créer une instance de la classe `M5_PbHub` (nommée `myPbHub` dans cet exemple) :
 ```cpp
@@ -47,14 +47,14 @@ M5_PbHub myPbHub;
 ```
 
 | Unit | Sans PbHub | Avec PbHub | 
-| --- | --- | --- |
+| -- | -- | -- |
 | [Light Unit](../light/) | | `#include <M5_PbHub.h>` et `M5_PbHub myPbHub` |
 | [Angle Unit](../angle/) |  | `#include <M5_PbHub.h>` et `M5_PbHub myPbHub` |
 | [Key Unit](../key/) | `#include <FastLED.h>` et `CRGB keyPixel` | `#include <M5_PbHub.h>` et `M5_PbHub myPbHub` |
 
 ### Code à ajouter à `setup()`
 
-S'assurer que `Wire` est initialisé : 
+S"assurer que `Wire` est initialisé : 
 ```cpp
 Wire.begin();
 ```
@@ -72,7 +72,7 @@ myPbHub.begin();
 myPbHub.setPixelCount( uint8_t channel ,  uint16_t count );
 ```
 | Unit | Sans PbHub | Avec PbHub | 
-| --- | --- | --- |
+| -- | -- | -- |
 | [Light Unit](../light/) | | `Wire.begin()` et `myPbHub.begin()` |
 | [Angle Unit](../angle/) |  | `Wire.begin()` et `myPbHub.begin()`  |
 | [Key Unit](../key/) | `FastLED.addLeds< WS2812, BROCHE , GRB >(&keyPixel, 1)` et `pinMode( BROCHE , INPUT_PULLUP )` | `Wire.begin()` et `myPbHub.begin()`  et `myPbHub.setPixelCount( CANAL , 1)` |
@@ -82,7 +82,7 @@ myPbHub.setPixelCount( uint8_t channel ,  uint16_t count );
 #### Lecture
 
 | Unit | Sans PbHub | Avec PbHub | 
-| --- | --- | --- |
+| -- | -- | -- |
 | [Light Unit](../light/) | `analogRead( BROCHE )` | `myPbHub.analogRead( CANAL )` |
 | [Angle Unit](../angle/) | `analogRead( BROCHE )` | `myPbHub.analogRead( CANAL )` |
 | [Key Unit](../key/) | `digitalRead( BROCHE )` | `myPbHub.digitalRead( CANAL )` |
@@ -114,7 +114,7 @@ myPbHub.analogWrite(uint8_t channel, uint8_t pin, uint8_t  pwm);
 #### Pixels 
 
 | Unit | Sans PbHub | Avec PbHub | 
-| --- | --- | --- |
+| -- | -- | -- |
 | [Key Unit](../key/) | `keyPixel = CRGB(R,G,B)` et `FastLED.show()` | `myPbHub.setPixelColor( CANAL , 0 , R,G,B );` |
 
 Définir la couleur r, g, b du pixel à cet index du canal spécifié :

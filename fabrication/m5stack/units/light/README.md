@@ -4,22 +4,22 @@
 
 Page officielle du produit : [Unit Light](https://docs.m5stack.com/en/unit/LIGHT)
 
-L'unité **M5Stack Light** permet de mesurer une quantité de lumière à l'aide d'une photorésistance.
+L’unité **M5Stack Light** permet de mesurer une quantité de lumière à l"aide d’une photorésistance.
 
 ![](./light_sensor.svg)
 
 ## Connexion
 
-Connecter l'unité **M5Stack Light** au connecteur Grove blanc du contrôleur.
+Connecter l"unité **M5Stack Light** au connecteur Grove blanc du contrôleur.
 
-La lecture de lumière s'effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l'unité **M5Stack Light** est connectée au connecteur blanc du Atom Lite, c'est la broche 32 (identifiée G32) qui permet d'effectuer la lecture analogique de l'angle.
+La lecture de lumière s"effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l"unité **M5Stack Light** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l"angle.
 
 
 ## Code à intégrer
 
-### Dans l'espace global
+### Dans l"espace global
 
-Bien que cela ne soit pas absolument nécessaire, c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche :
+Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
 #define MA_BROCHE_LUMIERE 32
 ```

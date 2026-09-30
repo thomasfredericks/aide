@@ -3,7 +3,7 @@
 
 ![SLAMTEC Slamtec](./slamtec-rplidar-c1-360-dtof-laser-scanner-1b.webp)
 
-**OSCMO-LiDAR** (*Open Sound Control* Montmorency - LiDAR) assure la gestion et l'exploitation de données LiDAR, en particulier le [SLAMTEC C1 Scanner Laser DTOF 360°](https://ca.robotshop.com/fr/products/rp-lidar-360-tof-lidar), pour des environnements mobiles et interactifs en temps réel. 
+**OSCMO-LiDAR** (*Open Sound Control* Montmorency - LiDAR) assure la gestion et l"exploitation de données LiDAR, en particulier le [SLAMTEC C1 Scanner Laser DTOF 360°](https://ca.robotshop.com/fr/products/rp-lidar-360-tof-lidar), pour des environnements mobiles et interactifs en temps réel. 
 
 Fonctionnalités du logiciel **OSCMO-LiDAR** :
 - Transforme les mesures brutes de distance en regroupements interprétés comme des entités spatiales distinctes.

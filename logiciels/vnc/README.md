@@ -4,7 +4,7 @@
 
 * [TigerVNC](https://github.com/TigerVNC/tigervnc/releases) est un client simple, sécuritaire et fiable. En date du 2025-12-08 cliquer sur le lien vers les *binaires* qui sont hébergés sur SourceForge et choisir :
 - Pour Windows : le téléchargement 64 bits dont le nom ressemble à **vncviewer64-#.#.#.exe**
-- Pour macOS : le téléchargement avec l'extension `.dmg`.
+- Pour macOS : le téléchargement avec l"extension `.dmg`.
 
 ## Serveur VNC
 

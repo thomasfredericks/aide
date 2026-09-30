@@ -12,7 +12,7 @@ De plus, il faut :
 - Des crayons, des gommes à effacer.
 - Six dés.
 
-*L’année de la veille* est un jeu de narration et de création collective. Il est essentiellement une traduction en français des jeux *The Quiet Year* d'Avery Alder et *The Deep Forest* de Mark Diaz Truman et Avery Alder Mcdaldno. Il reprend les thèmes de *The Deep Forest* mais y rajoutent les ressources de *The Quiet Year*. 
+*L’année de la veille* est un jeu de narration et de création collective. Il est essentiellement une traduction en français des jeux *The Quiet Year* d’Avery Alder et *The Deep Forest* de Mark Diaz Truman et Avery Alder Mcdaldno. Il reprend les thèmes de *The Deep Forest* mais y rajoutent les ressources de *The Quiet Year*. 
 
 Les joueuses et joueurs y incarnent à la fois les membres d’une communauté en survie et les forces qui façonnent son destin. À travers des décisions partagées, des dessins sur une carte et des événements imprévus, le groupe raconte ensemble une année charnière, marquée par la pénurie, les tensions et les espoirs. Le jeu ne cherche pas la victoire, mais l’exploration d’une communauté en transformation.
 
@@ -32,7 +32,7 @@ S’il existe une question avec laquelle vous êtes aux prises dans votre propre
 
 
 > [!IMPORTANT]
-> La communauté n'est pas humaine. La communauté peut être composée d'un type d'être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L'important est d'avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l'histoire et ne font pas partie de la communauté. 
+> La communauté n"est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l"histoire et ne font pas partie de la communauté. 
 
 ## L’évènement de la veille
 
@@ -40,7 +40,7 @@ Le jeu débute le lendemain d’un évènement traumatisant pour la communauté 
 
 > « La veille, un homme humain a pris quelque chose d’important pour notre communauté. Avant de partir, il a promis de revenir accompagné dans un an pour en réclamer davantage, mettant en péril notre avenir. Le jeu se termine au retour des humains. »
 
-À nous de décider si la communauté vivait sous occupation humaine, si c'était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
+À nous de décider si la communauté vivait sous occupation humaine, si c"était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
 
 ## Esquissons l’espace de jeu
 
@@ -64,7 +64,7 @@ Ce qui est à l’intérieur de ce périmètre appartient à la communauté et t
 
 ### Situation de la communauté
 
-Nous devons situer la communauté dans le temps et dans l'espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C'est à nous d'en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n'est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
+Nous devons situer la communauté dans le temps et dans l"espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C"est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
 Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
@@ -72,10 +72,10 @@ Nous dessinons ensuite, au milieu de la feuille, une structure qui représente c
 
 Nous serons invités à incarner différents membres de la communauté au fil de la partie. En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
 
-Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, même s’il s’agit d’une ou d'une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
+Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, même s’il s’agit d’une ou d’une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
 
 > [!IMPORTANT]
-> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l'histoire et ne sont pas natifs à notre territoire.
+> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l"histoire et ne sont pas natifs à notre territoire.
 
 À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son nid ou de son lieu de vie. Nous esquissons ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
 
@@ -121,11 +121,11 @@ Par exemple :
 
 ## Ce qui a été pris
 
-Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l'homme.
+Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l"homme.
 
 Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
 
-> « Que diriez-vous que le fils du chef a été enlevé parce qu'il portait des pierres précieuses ? »
+> « Que diriez-vous que le fils du chef a été enlevé parce qu"il portait des pierres précieuses ? »
 > … et que tout le monde acquiesce.
 
 Il est fort probable que ce qui a été pris soit l’une des ressources de la communauté. Dans ce cas, pourquoi cette ressource est-elle nécessaire à la survie de la communauté ? Par exemple :
@@ -138,13 +138,13 @@ Ensuite, nous choisissons une personne qui dessinera, à l’extérieur du péri
 
 L’unité de temps de base est la semaine. Chaque semaine représente un tour de jeu pour l’un des joueurs, en procédant dans le sens des aiguilles d’une montre. Nous devons prévoir deux ou trois minutes de temps réel pour terminer une semaine.
 
-En jouant à ce jeu, nous devons nous retenir de trop discuter d'avance de ce que nous allons faire par la suite. Il existe des mécanismes spécifiques dans le jeu pour aborder les problèmes de la communauté et manifester notre mécontentement. Lorsque nous jouons, nous ne parlons pas en dehors de notre tour et n’essayons pas de contourner ces mécanismes.
+En jouant à ce jeu, nous devons nous retenir de trop discuter d’avance de ce que nous allons faire par la suite. Il existe des mécanismes spécifiques dans le jeu pour aborder les problèmes de la communauté et manifester notre mécontentement. Lorsque nous jouons, nous ne parlons pas en dehors de notre tour et n’essayons pas de contourner ces mécanismes.
 
 Ces règles tentent de montrer à quel point il est difficile de donner la parole à la communauté dans son intégralité, et comment les tensions et les mécontentements tendent à subsister au fil des semaines, voire des mois.
 
 ## Le tour d’une joueuse ou d’un joueur
 
-Chaque tour d’une joueuse ou d’un joueur équivaut à une semaine de temps dans le jeu. Il est composé de trois actions. Il faut compléter les deux premières et choisir l'une des trois dernières.
+Chaque tour d’une joueuse ou d’un joueur équivaut à une semaine de temps dans le jeu. Il est composé de trois actions. Il faut compléter les deux premières et choisir l"une des trois dernières.
 
 1. Tirer un évènement.
 2. Travailler sur les projets.
@@ -160,9 +160,9 @@ La plupart des évènements comportent deux options parmi lesquelles nous devons
 L’évènement peut poser une question, apporter de mauvaises nouvelles ou créer de nouvelles occasions. C’est à la personne qui a tiré l’évènement qu’il revient de prendre les décisions.
 
 > [!TIP]
-> Quand l'évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
+> Quand l"évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
 
-Si un évènement mentionne des éléments non présents sur la cart, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d'utiliser du texte.
+Si un évènement mentionne des éléments non présents sur la cart, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d’utiliser du texte.
 
 > [!IMPORTANT]
 > Si l’évènement mentionne l’endroit où dorment les membres de la communauté, la joueuse ou le joueur actif pourrait dessiner une série de tentes près de la lisière de la forêt.
@@ -173,7 +173,7 @@ Travailler sur les projets consiste à réduire de `1` chaque dé de projet pré
 
 Si le texte de l’évènement vient de nous faire placer un dé de projet sur la carte, ce dé n’est pas réduit durant cette semaine.
 
-Si le dé d'un projet arrive à `0`, nous retirons le dé et le projet est terminé. La personne qui a commencé le projet est chargée d’expliquer aux autres comment il s’est déroulé et de mettre à jour la carte pour refléter son achèvement.
+Si le dé d’un projet arrive à `0`, nous retirons le dé et le projet est terminé. La personne qui a commencé le projet est chargée d’expliquer aux autres comment il s’est déroulé et de mettre à jour la carte pour refléter son achèvement.
 
 Si un projet se termine plus tôt que prévu à cause d’un évènement, c’est à la joueuse ou au joueur actif — et non à la personne qui l’a initié — de raconter comment il s’est déroulé et de mettre à jour la carte.
 
@@ -187,7 +187,7 @@ La fin d’un projet doit être ressentie comme un pas en avant, pas comme un pa
 ### 3.A Découvrir quelque chose de vieux
 
 
-L’une des actions possibles est **Découvrir quelque chose de vieux**. Elle consiste à révéler quelque chose provenant d’avant le début du jeu ou d'il y a très longtemps. Cela peut poser un problème, offrir une opportunité ou un mélange des deux. Dessinez-le sur la carte. Les dessins doivent être petits et simples : plus petits qu’un pouce et réalisés en moins de trente secondes.
+L’une des actions possibles est **Découvrir quelque chose de vieux**. Elle consiste à révéler quelque chose provenant d’avant le début du jeu ou d’il y a très longtemps. Cela peut poser un problème, offrir une opportunité ou un mélange des deux. Dessinez-le sur la carte. Les dessins doivent être petits et simples : plus petits qu’un pouce et réalisés en moins de trente secondes.
 
 Nous pouvons utiliser cette action pour introduire des questions non résolues et des dilemmes, faisant resurgir l’histoire de la communauté. Il peut même s’agir de quelque chose de familier pour les membres de la communauté, mais surprenant pour nous en tant que joueuses et joueurs. Lorsque des membres de la communauté individuels sont introduits par cette action, nous les inscrivons dans la section « Personnages » de la carte.
 
@@ -256,7 +256,7 @@ Chaque mort a le potentiel de transformer radicalement la communauté. Lorsqu’
 
 Si c’était la dernière ou le dernier membre de la communauté impliqué dans un projet, nous pouvons décider que ce projet est abandonné. Dans ce cas, nous retirons le dé de projet de la carte. Si d’autres continuent à y travailler, le projet se poursuit comme avant.
 
-La mort d’une ou d'un membre de la communauté peut également avoir un impact sur nos **Abondances** et nos **Pénuries**. 
+La mort d’une ou d’un membre de la communauté peut également avoir un impact sur nos **Abondances** et nos **Pénuries**. 
 
 ## Retenue
 
@@ -269,7 +269,7 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 ### Printemps
 
 | # | Option A | ou | Option B |
-|--------|----------|----|----------|
+|----|-----|--|-----|
 | 1 | Après l’occupation, vous avez tous été à jamais transformés. Accordez-vous sur quelque chose concernant la manière dont les humains vous ont changés. | ou | L’un d’entre vous commence à manifester de nouvelles mutations. Lesquelles ? |
 | 2 | Quel rituel ou pratique culturelle unifie votre communauté ? | ou | Il existe un personnage qui n’a pas participé à la résistance aux humains. Où se trouve-t-il sur la carte ? Qu’est-ce qui le rend différent ? |
 | 3 | Quelqu’un découvre un trésor d’objets rituels cachés laissé par les humains. Quels sont-ils ? Ajoutez-les à la carte. | ou | Une ancienne langue refait surface parmi vous, une langue que vous n’avez pas entendue depuis des âges. Pourquoi a-t-elle été réduite au silence ? Pourquoi est-elle revenue ? |
@@ -286,7 +286,7 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 
 ### Été
 | # | Option A | ou | Option B |
-|--------|----------|----|----------|
+|----|-----|--|-----|
 | 1 | Quelque chose tourne mal et les réserves sont perdues. Créez une nouvelle Pénurie. | ou | L’un des plus grands membres de la communauté commence à consommer des membres de la communauté plus petits. Pourquoi ? Comment la communauté réagit-elle ? |
 | 2 | Le plus âgé d’entre vous meurt. Quelle est la cause de sa mort ? | ou | Le plus âgé d’entre vous est gravement malade. Prendre soin de lui et chercher un remède nécessite l’aide de toute la communauté. Ne réduisez pas les dés de projet cette semaine. |
 | 3 | Quelqu’un commence à répondre à un besoin personnel urgent, quel qu’en soit le coût. Lancez un projet qui aliène certains membres de la communauté. | ou | Quelqu’un tente de prendre le contrôle de la communauté par la force. Réussit-il ? Pourquoi agit-il ainsi ? |
@@ -304,10 +304,10 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 ### Automne
 
 | # | Option A | ou | Option B |
-|--------|----------|----|----------|
+|----|-----|--|-----|
 | 1 | Une grande fête empêche de travailler sur les projets. Ne pas réduire les dés de projets cette semaine. | ou | Une ou un membre exige la perfection pour un projet : ajoutez 3 à un dé. |
 | 2 | Quelqu’un jure de récupérer ce que les humains ont pris. Qui est-ce ? Lancez un projet pour refléter leurs efforts. | ou | Les vents froids de l’automne chassent vos ennemis. Retirez une force menaçante de la carte et de la région. |
-| 3 | Un groupe d’humains arrive, blessés et effrayés. Ils cherchent refuge et appartenance. Comment sont-ils accueillis ? | ou | Plusieurs petits membres de la communauté reviennent d'une sortie avec des rapports d’humains à proximité. |
+| 3 | Un groupe d’humains arrive, blessés et effrayés. Ils cherchent refuge et appartenance. Comment sont-ils accueillis ? | ou | Plusieurs petits membres de la communauté reviennent d’une sortie avec des rapports d’humains à proximité. |
 | 4 | Un nouveau personnage naît. Qui sont ses parents ? Quels espoirs représente-t-il pour la communauté ? | ou | Un petit personnage meurt d’une maladie. Qui s’en occupait ? Comment la communauté réagit-elle ? |
 | 5 | Un projet ne se déroule tout simplement pas comme prévu. Changez radicalement la nature de ce projet (ne modifiez pas le dé du projet). Lorsqu’il sera achevé, vous serez responsable de raconter à la communauté comment cela s’est passé. | ou | Quelque chose tourne mal et les réserves sont perdues. Créez une nouvelle Pénurie. |
 | 6 | Le plus fort d’entre vous meurt. Qu’est-ce qui a causé sa mort ? | ou | Le plus faible d’entre vous meurt. Qui est responsable de sa mort ? |
@@ -321,17 +321,17 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 
 ### Hiver
 | # | Option A | ou | Option B |
-|--------|----------|----|----------|
-| 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d'accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d'autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
-| 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n'est réduit cette semaine.** |
-| 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d'accord sur quelque chose** concernant la raison pour laquelle c'est une bonne ou une mauvaise idée. | ou | L'un d'entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
-| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu'est-ce que c'est ? | ou | Une grande atrocité est révélée du temps de l'occupation. Qu'est-ce que c'est ? Qui la découvre ? |
-| 5 | En préparation de l'année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
-| 6 | À quoi ressemble l'hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
-| 7 | Le moment est venu de consolider vos efforts et vos frontières. Les projets situés en dehors de la communauté échouent, et tous les projets restants voient leur dé réduit de 2 cette semaine. | ou | Quelqu'un commence à construire un endroit pour élever de jeunes membres de la communauté. **Commencez un Projet** pour refléter son entreprise. |
-| 8 | Un étranger infecté arrive en quête d'asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d'humain vous pille une ressource. Si c'était une abondance, elle est maintenant une pénurie. Si c'était une pénurie, comment son manque se fait-il encore plus ressentir ? |
-| 9 | C'est le moment d'économiser l'énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C'est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
-| 10 | Un personnage disparaît pendant la nuit. Tout ce que l'on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu'il a été sauvé ? Par qui ?|
-| 11 | Les rigueurs de l'hiver détruisent une source de nourriture. Si c'était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l'hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
+|----|-----|--|-----|
+| 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d’accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d’autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
+| 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n"est réduit cette semaine.** |
+| 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c"est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
+| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu"est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l"occupation. Qu"est-ce que c"est ? Qui la découvre ? |
+| 5 | En préparation de l"année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
+| 6 | À quoi ressemble l"hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
+| 7 | Le moment est venu de consolider vos efforts et vos frontières. Les projets situés en dehors de la communauté échouent, et tous les projets restants voient leur dé réduit de 2 cette semaine. | ou | Quelqu"un commence à construire un endroit pour élever de jeunes membres de la communauté. **Commencez un Projet** pour refléter son entreprise. |
+| 8 | Un étranger infecté arrive en quête d’asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d’humain vous pille une ressource. Si c"était une abondance, elle est maintenant une pénurie. Si c"était une pénurie, comment son manque se fait-il encore plus ressentir ? |
+| 9 | C"est le moment d’économiser l"énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C"est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
+| 10 | Un personnage disparaît pendant la nuit. Tout ce que l"on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu"il a été sauvé ? Par qui ?|
+| 11 | Les rigueurs de l"hiver détruisent une source de nourriture. Si c"était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l"hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
 | 12 | Un rituel festif révèle un bon présage. Quel est le rituel ? Quel est le présage ? | | |
 | 13 | Les humains sont arrivés. La partie est terminée. | | |

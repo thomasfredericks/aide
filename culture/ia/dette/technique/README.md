@@ -4,7 +4,7 @@
 
 Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-complex-ai-complex) : 
 * Plus de 66 % des développeurs disent que leur principale frustration avec les outils de code basés sur un GML, c’est *le code presque correct, mais pas tout à fait*.
-* Ce qui mène souvent à la deuxième plus grande frustration : *Déboguer du code généré par l'IA prend plus de temps* (45 %)
+* Ce qui mène souvent à la deuxième plus grande frustration : *Déboguer du code généré par l"IA prend plus de temps* (45 %)
 
 ![Principales frustrations avec les outils de code basés sur un GML](./ai_tool_frustrations.png)
 
@@ -13,9 +13,9 @@ Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stac
 - *Le code presque correct* :
     - Passe la revue de code
     - Part en production
-    - Reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu'il est erroné
+    - Reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu"il est erroné
 
-Et lorsque le code *presque correct* est découvert, **les coûts de correction ont explosé** et n'ont pas été budgétés. 
+Et lorsque le code *presque correct* est découvert, **les coûts de correction ont explosé** et n"ont pas été budgétés. 
 
 Selon, [AI-Generated Code Is Creating a New Kind of Technical Debt - YouTube](https://www.youtube.com/watch?v=S5kQRgJ-iug):
 - **la confusion est à la racine de toute dette technique** 
@@ -39,7 +39,7 @@ Si la réponse est négative à l’une de ces questions, il est probable qu’u
 > Elle permet surtout d’aller plus vite dans la mauvaise direction.  
  
 
-L'enquête [AI | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-complex-ai-complex) révèle un phénomène étrange. La confiance accordée aux outils de codage par GML a chuté à 33 %, contre 43 % l'an dernier :
-- C'est la première fois que la méfiance (46 %) dépasse la confiance (33 %). L'opinion favorable, quant à elle, a glissé de 72 % au début de l'année 2024 à 60 % aujourd'hui.
+L’enquête [AI | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/ai#developer-tools-ai-complex-ai-complex) révèle un phénomène étrange. La confiance accordée aux outils de codage par GML a chuté à 33 %, contre 43 % l"an dernier :
+- C"est la première fois que la méfiance (46 %) dépasse la confiance (33 %). L’opinion favorable, quant à elle, a glissé de 72 % au début de l"année 2024 à 60 % aujourd"hui.
 - On observe également un fossé générationnel. Les développeurs en début de carrière utilisent un GML quotidiennement à hauteur de 55,5 %, tandis que les développeurs expérimentés affichent des taux de méfiance élevés atteignant 20,7 %.
-- C'est là tout le paradoxe : les développeurs font état de gains de productivité de 81 % avec GitHub Copilot, et pourtant, leur niveau de confiance ne cesse de baisser.
+- C"est là tout le paradoxe : les développeurs font état de gains de productivité de 81 % avec GitHub Copilot, et pourtant, leur niveau de confiance ne cesse de baisser.

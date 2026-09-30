@@ -16,7 +16,7 @@ La broche centrale doit être reliée à une entrée analogique.
 Le branchement se fait selon la logique suivante :
 
 | Potentiomètre | Microcontrôleur |
-|---------------|-----------------|
+|--------|---------|
 | Broche extérieure | 5 volts (ou 3.3 volts) |
 | Broche centrale (curseur) | Entrée analogique |
 | Autre broche extérieure | GND |
@@ -24,7 +24,7 @@ Le branchement se fait selon la logique suivante :
 Exemple de branchement sur Arduino Terminals :
 
 | Potentiomètre | Arduino Terminals |
-|---------------|------------------|
+|--------|---------|
 | Broche extérieure | 5V |
 | Broche centrale (curseur) | A2 |
 | Autre broche extérieure | GND |

@@ -1,10 +1,10 @@
 # Actions émergentes
 
-Les **actions émergentes** sont des comportements ou stratégies non prévus explicitement par les concepteurs, mais rendus possibles par l'interaction entre les règles et les éléments d’un système (souvent interactif comme un jeu ou une simulation).
+Les **actions émergentes** sont des comportements ou stratégies non prévus explicitement par les concepteurs, mais rendus possibles par l"interaction entre les règles et les éléments d’un système (souvent interactif comme un jeu ou une simulation).
 
-Créer un système qui encourage ce type d’interaction enrichit l'expérience utilisateur et favorise l’exploration, l’expérimentation et la créativité.
+Créer un système qui encourage ce type d’interaction enrichit l"expérience utilisateur et favorise l’exploration, l’expérimentation et la créativité.
 
----
+--
 
 ## 🎯 Comment encourager les actions émergentes ?
 
@@ -28,7 +28,7 @@ On pourrait ajouter :
 
 Mais cela n’est utile **que si ces verbes permettent de découvrir de nouvelles interactions intéressantes**.
 
----
+--
 
 ### 2. Des verbes pouvant agir sur plusieurs objets
 
@@ -53,7 +53,7 @@ Mais si le même verbe permet aussi :
 
 Alors le **potentiel d’émergence devient énorme**.
 
----
+--
 
 ### 3. Une progression avec plusieurs chemins
 
@@ -73,7 +73,7 @@ Plutôt que d’imposer une seule solution pour sortir d’une pièce fermée :
 
 Ce genre de liberté pousse les joueurs à **tester le système** et à découvrir des solutions émergentes.
 
----
+--
 
 ### 4. Démultiplication : plusieurs objets simples qui interagissent
 
@@ -91,18 +91,18 @@ Dans un jeu bac à sable :
 - Avoir 20 objets très simples qui peuvent être combinés (brûlés, gelés, assemblés, catapultés, etc.)  
 - Donne plus de potentiel que 5 objets complexes mais isolés
 
----
+--
 
 ## 🧪 En Résumé
 
 | Principe                  | Objectif                                 | Risque à éviter                         |
-|---------------------------|------------------------------------------|-----------------------------------------|
-| ➕ Ajouter des verbes      | Offrir plus d'options d’action           | Trop d’actions mal pensées              |
+|--------------|---------------------|---------------------|
+| ➕ Ajouter des verbes      | Offrir plus d’options d’action           | Trop d’actions mal pensées              |
 | 🔄 Verbes multi-objets     | Maximiser l’usage d’une action           | Actions sans impact                     |
 | 🌱 Progression ouverte     | Encourager l’exploration                 | Linéarité rigide                        |
 | ♟️ Démultiplication        | Créer de la profondeur avec des éléments simples | Objets inutiles ou non combinables |
 
----
+--
 
 ## 💡 Conclusion
 

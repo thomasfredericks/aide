@@ -17,7 +17,7 @@ Nous ajoutons dans _setup()_ une boucle qui se répette pendant 5 secondes :
   }
 ```
 
-Noude __déplaçons__ le code du clignotement qui est dans _loop()_ dans l'animation de démarrage :
+Noude __déplaçons__ le code du clignotement qui est dans _loop()_ dans l"animation de démarrage :
 
 
 ```cpp
@@ -49,7 +49,7 @@ unsigned long interactionChrono;
 
 void setup() {
   M5.begin(false, false, false);  // Démarrer la libraire M5 avec toutes les options désactivées
-  Serial.begin(115200);  // Démarrer la connexion sérielle avec l'ordinateur
+  Serial.begin(115200);  // Démarrer la connexion sérielle avec l"ordinateur
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1);  // Ajouter le pixel du M5Atom à FastLED
 
   // Animation de démarrage

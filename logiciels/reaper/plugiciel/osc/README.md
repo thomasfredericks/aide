@@ -1,20 +1,20 @@
 
-# Reaper : contrôle d'un plugiciel par OSC
+# Reaper : contrôle d’un plugiciel par OSC
 
 ## Préalable(s)
 
-- [Activation de l'OSC dans Reaper](../../osc/activation/)
+- [Activation de l"OSC dans Reaper](../../osc/activation/)
 - Utilisation du [Virtual MIDI Keyboard](../../virtual_midi_keyboard/)
-- Configuration [MIDI d'un plugiciel](../midi/)
+- Configuration [MIDI d’un plugiciel](../midi/)
 
 ### Pour contrôler un plugiciel par OSC, il faut passer par le Virtual MIDI Keyboard
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] --> Control[OSC Control Panel]
+    OSC[OSC UDP] -> Control[OSC Control Panel]
     subgraph Reaper
-    Control --> VKB[Virtual MIDI Keyboard]
-    VKB --> Plugiciel
+    Control -> VKB[Virtual MIDI Keyboard]
+    VKB -> Plugiciel
     end
 ```
 
@@ -24,10 +24,10 @@ graph LR
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] --> Control[OSC Control Panel]
+    OSC[OSC UDP] -> Control[OSC Control Panel]
     subgraph Reaper
-    Control --> VKB[Virtual MIDI Keyboard]
-    VKB -->|MIDI Note| Plugiciel
+    Control -> VKB[Virtual MIDI Keyboard]
+    VKB ->|MIDI Note| Plugiciel
     end
 ```
 
@@ -43,11 +43,11 @@ Si le [défaut](../../osc/defaut/) est utilisé, voici le format du message OSC 
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] --> Control[OSC Control Panel]
+    OSC[OSC UDP] -> Control[OSC Control Panel]
     subgraph Reaper
-    Control --> VK[Virtual MIDI Keyboard]
-    VK -->|MIDI CC| LINK[MIDI Link]
-    LINK --> VST
+    Control -> VK[Virtual MIDI Keyboard]
+    VK ->|MIDI CC| LINK[MIDI Link]
+    LINK -> VST
     end
 ```
 

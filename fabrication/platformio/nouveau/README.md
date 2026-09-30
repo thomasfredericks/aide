@@ -2,17 +2,17 @@
 
 ## 0. Installation de PlatformIO dans Visual Studio Code
 
-![Étapes pour l'installation de PlatformIO dans Visual Studio Code](./installation.svg)
+![Étapes pour l"installation de PlatformIO dans Visual Studio Code](./installation.svg)
 
 
-## 1. Créer d'un Git
+## 1. Créer d’un Git
 
 - Créer un dépôt Git (avec un README.md) dont le nom :
-    - ne contient pas d'espaces ou de caractères spéciaux sauf `_` ou `-`.
+    - ne contient pas d’espaces ou de caractères spéciaux sauf `_` ou `-`.
 
 
 
-## 2. Cloner le dépôt Git l'ordinateur
+## 2. Cloner le dépôt Git l"ordinateur
 
 ![Option de menu pour cloner un dépôt Git](./vscode_git_clone.png)
 
@@ -90,10 +90,10 @@ Suivre ces instructions suivantes pour le modèle indiqué :
 
 ## 4. Git commit
 
-Ne pas oublier de faire un *commit* des modifications. Si nécessaire [configurer](/logiciels/git/configuration/) Git sur l'ordinateur.
+Ne pas oublier de faire un *commit* des modifications. Si nécessaire [configurer](/logiciels/git/configuration/) Git sur l"ordinateur.
 
 ## 5. Rouvrir le projet dans  *Visual Studio Code*
 
 Pour que *Visual Studio Code* charge le dossier en tant que projet *PlatformIO* il faut le rouvrir.
 
-![La barre d'outils de PlatformIO devrait apparaître après la réouverture du dossier de projet](./vscode_platformio.png)
+![La barre d’outils de PlatformIO devrait apparaître après la réouverture du dossier de projet](./vscode_platformio.png)
