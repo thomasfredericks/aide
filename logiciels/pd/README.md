@@ -88,7 +88,7 @@ Pour concevoir rapidement une interface et structurer un patch, Pure Data met à
 
 ## La fonction d’aide (Help)
 
-Pure Data intègre un système d’aide contextuelle extrêmement puissant et interactif, basé entièrement sur des patchs d’exemple exécutables. Faites un **clic droit** sur n'importe quel objet existant dans un patch, puis choisissez l’option **Help** dans le menu contextuel. Cela ouvre immédiatement un patch `.pd`. Ce patch d’aide contient des descriptions textuelles, mais surtout des exemples pratiques câblés que l’on peut manipuler, modifier, tester et même copier-coller directement dans ses propres créations.
+Pure Data intègre un système d’aide contextuelle extrêmement puissant et interactif, basé entièrement sur des patchs d’exemple exécutables. Faites un **clic droit** sur n’importe quel objet existant dans un patch, puis choisissez l’option **Help** dans le menu contextuel. Cela ouvre immédiatement un patch `.pd`. Ce patch d’aide contient des descriptions textuelles, mais surtout des exemples pratiques câblés que l’on peut manipuler, modifier, tester et même copier-coller directement dans ses propres créations.
 
 ## Activation de l’audio (DSP)
 

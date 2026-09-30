@@ -6,7 +6,7 @@ Il montre une situation dans laquelle **deux personnes prennent des décisions s
 
 Deux criminels, **A** et **B**, sont arrêtés par la police.
 
-La police n'a pas suffisamment de preuves pour les condamner lourdement. Elle leur propose donc un marché :
+La police n’a pas suffisamment de preuves pour les condamner lourdement. Elle leur propose donc un marché :
 
 - **Si les deux gardent le silence** : chacun reçoit **1 an de prison**.
 - **Si A avoue et B garde le silence** : A est libéré et B reçoit **5 ans**.

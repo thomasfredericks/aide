@@ -98,7 +98,7 @@ MicroRemoteWireController remote[] = {
 const char * nameToResolve = "CM585787"; // Ne pas utiliser le suffixe ".local" / Do not append ".local"
 ``` 
 
-L’Atom POE doit aussi être attibué un nom mDNS. **Il n'est pas nécessaire de le modifier ; les informations suivantes sont fournies à titre indicatif** : dans cet exemple, le nom est généré automatiquement grâce au bloc de code ci-dessous. Ce code crée le nom mDNS de l’ATOM POE en utilisant le préfixe `"atom-"` suivi de trois codes hexadécimaux extraits de l’adresse MAC de l’ESP32 :
+L’Atom POE doit aussi être attibué un nom mDNS. **Il n’est pas nécessaire de le modifier ; les informations suivantes sont fournies à titre indicatif** : dans cet exemple, le nom est généré automatiquement grâce au bloc de code ci-dessous. Ce code crée le nom mDNS de l’ATOM POE en utilisant le préfixe `"atom-"` suivi de trois codes hexadécimaux extraits de l’adresse MAC de l’ESP32 :
 ```cpp
 // Créer le nom de l’appareil pour mDNS
 char myName[MICRO_NET_NAME_MAX_LENGTH] = "atom-"; // préfixe du nom

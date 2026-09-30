@@ -3825,14 +3825,9 @@
         "u": "#/logiciels/unity/osc/extosc/?id=initialisation-de-lobjet-de-contr%C3%B4le-osc"
     },
     {
-        "t": "Réception d’OSC dans Unity avec extOSC",
-        "l": "reception d’open sound control unity extosc",
-        "u": "#/logiciels/unity/osc/extosc/?id=r%C3%A9ception-dosc-dans-unity-avec-extosc"
-    },
-    {
-        "t": "Exemple Flappy Bird Unity et Arduino Nano avec bouton d’arcade par OSC",
-        "l": "exemple flappy bird unity arduino nano bouton d’arcade open sound control",
-        "u": "#/logiciels/unity/osc/extosc/?id=exemple-flappy-bird-unity-et-arduino-nano-avec-bouton-darcade-par-osc"
+        "t": "Exemple Flappy Bird Unity, Pd et Arduino Nano avec bouton d’arcade par OSC",
+        "l": "exemple flappy bird unity pure data arduino nano bouton d’arcade open sound control",
+        "u": "#/logiciels/unity/osc/extosc/?id=exemple-flappy-bird-unity-pd-et-arduino-nano-avec-bouton-darcade-par-osc"
     },
     {
         "t": "Fonction utilitaire ChangerPlageDeValeurs()",

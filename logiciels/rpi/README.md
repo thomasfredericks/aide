@@ -144,7 +144,7 @@ sudo make install
 
 ### PlugData
 
-[PlugData](https://plugdata.org/) n'est pas disponible via le gestionnaire de paquets par défaut. Il faut l’ajouter au gestionnaire de paquets.
+[PlugData](https://plugdata.org/) n’est pas disponible via le gestionnaire de paquets par défaut. Il faut l’ajouter au gestionnaire de paquets.
 
 #### Ajouter plugdata au gestionnaire de paquets
 ```

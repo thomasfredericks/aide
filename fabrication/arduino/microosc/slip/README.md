@@ -29,7 +29,7 @@ MicroOscSlip<128> monOsc(&Serial);
 
 ### Dans `setup()`
 
-Dans `setup()`, n'oubliez pas de démarrer la communication série :
+Dans `setup()`, n’oubliez pas de démarrer la communication série :
 ```cpp
   Serial.begin(115200);
 ```

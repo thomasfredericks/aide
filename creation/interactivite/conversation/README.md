@@ -42,7 +42,7 @@ La question devient alors :
 
 > Qu’est-ce que votre système est capable d’écouter chez la personne visiteuse ?
 
-Et surtout, parce que capter une donnée n'est pas encore interagir :
+Et surtout, parce que capter une donnée n’est pas encore interagir :
 
 > Qu’est-ce que le système fait de ce qu’il a entendu? 
 

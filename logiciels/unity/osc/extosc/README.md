@@ -48,7 +48,7 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 
 
 
-### Script de gestion de l'OSC (à faire UNE SEULE FOIS)
+### Script de gestion de l’OSC (à faire UNE SEULE FOIS)
 
 Créer un script nommé `OscProcess`. Effectuer les étapes suivantes dans ce script.
 
@@ -97,14 +97,14 @@ void TraiterMessageBut0(OSCMessage message)
     // Validez qu’il y a bien le nombre attendu d’arguments (1 dans l’exemple) :
     if (message.Values.Count != 1)
     {
-        Debug.Log("Le message " + message.Address  + " n'a pas le bon nombre d’arguments");
+        Debug.Log("Le message " + message.Address  + " n’a pas le bon nombre d’arguments");
         return; // Quitte la fonction sans exécuter la suite
     }
 
     // Vérifiez que l’argument est du type attendu (`int` dans l’exemple) :
     if (message.Values[0].Type != OSCValueType.Int)
     {
-        Debug.Log("Le premier argument du message " + message.Address  + "n'est pas un entier");
+        Debug.Log("Le premier argument du message " + message.Address  + "n’est pas un entier");
         return; // Quitte la fonction sans exécuter la suite
     }
 
@@ -130,7 +130,7 @@ void TraiterMessageBut0(OSCMessage message)
 | Étape | Configuration |
 |----|-----------|
 | Importer `using extOSC;` | 1️⃣ Une seule fois |
-| Créer un script de gestion de l'OSC  ()`OscProcess`) | 1️⃣ Une seule fois |
+| Créer un script de gestion de l’OSC  ()`OscProcess`) | 1️⃣ Une seule fois |
 | Déclarer `oscReceiver` | 1️⃣ Une seule fois |
 | Relier le GameObject `OSC` dans l’inspecteur | 1️⃣ Une seule fois |
 | Créer une fonction de traitement (`TraiterMessage...`) | ♻️ Pour chaque adresse |
