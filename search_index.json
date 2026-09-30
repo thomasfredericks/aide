@@ -1,7 +1,7 @@
 [
     {
         "t": "Centre d’aide TOF",
-        "l": "centre d’intelligence artificiellede tof",
+        "l": "centre d’aide tof",
         "u": "#/"
     },
     {
@@ -101,7 +101,7 @@
     },
     {
         "t": "Modulaire et DIY",
-        "l": "modulintelligence artificiellere diy",
+        "l": "modulaire diy",
         "u": "#/creation/audio/galerie/?id=modulaire-et-diy"
     },
     {
@@ -176,7 +176,7 @@
     },
     {
         "t": "Audiovisuel : Processus de travail",
-        "l": "audiovisuel  processus travintelligence artificiellel",
+        "l": "audiovisuel  processus travail",
         "u": "#/creation/audiovisuel/processus"
     },
     {
@@ -226,7 +226,7 @@
     },
     {
         "t": "Atelier : Effondrement par contrainte",
-        "l": "atelier  effondrement contrintelligence artificiellente",
+        "l": "atelier  effondrement contrainte",
         "u": "#/creation/interactivite/ateliers/contrainte"
     },
     {
@@ -276,7 +276,7 @@
     },
     {
         "t": "La réponse doit être signifiante",
-        "l": "reponse doit etre signifintelligence artificiellente",
+        "l": "reponse doit etre signifiante",
         "u": "#/creation/interactivite/conversation/?id=la-r%C3%A9ponse-doit-%C3%AAtre-signifiante"
     },
     {
@@ -316,7 +316,7 @@
     },
     {
         "t": "Expérience multimédia interactive",
-        "l": "experience multimedintelligence artificielle interactive",
+        "l": "experience multimedia interactive",
         "u": "#/creation/interactivite/experience"
     },
     {
@@ -391,7 +391,7 @@
     },
     {
         "t": "Laisser une trace",
-        "l": "lintelligence artificiellesser trace",
+        "l": "laisser trace",
         "u": "#/creation/interactivite/galerie/?id=laisser-une-trace"
     },
     {
@@ -426,7 +426,7 @@
     },
     {
         "t": "Bataille",
-        "l": "batintelligence artificiellelle",
+        "l": "bataille",
         "u": "#/creation/interactivite/galerie/?id=bataille"
     },
     {
@@ -446,7 +446,7 @@
     },
     {
         "t": "Artistes montréalais du numérique",
-        "l": "artistes montrealintelligence artificielles numerique",
+        "l": "artistes montrealais numerique",
         "u": "#/creation/interactivite/galerie/?id=artistes-montr%C3%A9alais-du-num%C3%A9rique"
     },
     {
@@ -576,7 +576,7 @@
     },
     {
         "t": "Démo de faisabilité",
-        "l": "demo fintelligence artificiellesabilite",
+        "l": "demo faisabilite",
         "u": "#/creation/production/faisabilite"
     },
     {
@@ -636,12 +636,12 @@
     },
     {
         "t": "Typographie fait d’objets",
-        "l": "typographie fintelligence artificiellet d’objets",
+        "l": "typographie fait d’objets",
         "u": "#/creation/visuel/ateliers/typoobjekto"
     },
     {
         "t": "Guide de normes graphiques",
-        "l": "interface utilisateurde normes graphiques",
+        "l": "guide normes graphiques",
         "u": "#/creation/visuel/guide"
     },
     {
@@ -651,7 +651,7 @@
     },
     {
         "t": "Exemple : Guide de normes graphiques pour cartes",
-        "l": "exemple  interface utilisateurde normes graphiques cartes",
+        "l": "exemple  guide normes graphiques cartes",
         "u": "#/creation/visuel/guide/cartes"
     },
     {
@@ -711,7 +711,7 @@
     },
     {
         "t": "IU : Signifiants de l’interface utilisateur",
-        "l": "interface utilisateur  signifintelligence artificiellents l’interface utilisateur",
+        "l": "interface utilisateur  signifiants l’interface utilisateur",
         "u": "#/creation/visuel/iu/signifiants"
     },
     {
@@ -781,7 +781,7 @@
     },
     {
         "t": "Le système 2 : le raisonnement",
-        "l": "systeme 2  rintelligence artificiellesonnement",
+        "l": "systeme 2  raisonnement",
         "u": "#/culture/education/sytemes_pensee/?id=le-syst%C3%A8me-2--le-raisonnement"
     },
     {
@@ -846,7 +846,7 @@
     },
     {
         "t": "Guides d’utilisation des GML",
-        "l": "interface utilisateurdes d’utilisation grand modele langage",
+        "l": "guides d’utilisation grand modele langage",
         "u": "#/culture/ia/guides"
     },
     {
@@ -886,7 +886,7 @@
     },
     {
         "t": "Quel futur nous propose-t-on vraiment ?",
-        "l": "quel futur nous propose-t-on vrintelligence artificiellement ",
+        "l": "quel futur nous propose-t-on vraiment ",
         "u": "#/culture/ia/propagande/?id=quel-futur-nous-propose-t-on-vraiment-"
     },
     {
@@ -996,7 +996,7 @@
     },
     {
         "t": "Surveillance cellulaire",
-        "l": "surveillance cellulintelligence artificiellere",
+        "l": "surveillance cellulaire",
         "u": "#/culture/surveillance/cellulaire"
     },
     {
@@ -1011,12 +1011,12 @@
     },
     {
         "t": "Surveillance volontaire",
-        "l": "surveillance volontintelligence artificiellere",
+        "l": "surveillance volontaire",
         "u": "#/culture/surveillance/video/?id=surveillance-volontaire"
     },
     {
         "t": "Surveillance involontaire",
-        "l": "surveillance involontintelligence artificiellere",
+        "l": "surveillance involontaire",
         "u": "#/culture/surveillance/video/?id=surveillance-involontaire"
     },
     {
@@ -1086,7 +1086,7 @@
     },
     {
         "t": "Serial",
-        "l": "serintelligence artificiellel",
+        "l": "serial",
         "u": "#/fabrication/arduino/code/?id=serial"
     },
     {
@@ -1106,7 +1106,7 @@
     },
     {
         "t": "Attendre un certain temps avec millis() et while()",
-        "l": "attendre certintelligence artificiellen temps millis while",
+        "l": "attendre temps millis while",
         "u": "#/fabrication/arduino/code/millis/attendre"
     },
     {
@@ -1116,7 +1116,7 @@
     },
     {
         "t": "Exécuter du code à un certain intervalle",
-        "l": "executer code certintelligence artificiellen intervalle",
+        "l": "executer code intervalle",
         "u": "#/fabrication/arduino/code/millis/intervalle"
     },
     {
@@ -1156,12 +1156,12 @@
     },
     {
         "t": "Arduino Serial : communication sérielle",
-        "l": "arduino serintelligence artificiellel  communication serielle",
+        "l": "arduino serial  communication serielle",
         "u": "#/fabrication/arduino/code/serial"
     },
     {
         "t": "Serial",
-        "l": "serintelligence artificiellel",
+        "l": "serial",
         "u": "#/fabrication/arduino/code/serial/?id=serial"
     },
     {
@@ -1236,12 +1236,12 @@
     },
     {
         "t": "MicroOsc",
-        "l": "microopen sound control",
+        "l": "microosc",
         "u": "#/fabrication/arduino/microosc"
     },
     {
         "t": "MicroOsc : réception d’OSC",
-        "l": "microopen sound control  reception d’open sound control",
+        "l": "microosc  reception d’open sound control",
         "u": "#/fabrication/arduino/microosc/reception"
     },
     {
@@ -1271,7 +1271,7 @@
     },
     {
         "t": "MicroOsc SLIP",
-        "l": "microopen sound control slip",
+        "l": "microosc slip",
         "u": "#/fabrication/arduino/microosc/slip"
     },
     {
@@ -1291,12 +1291,12 @@
     },
     {
         "t": "Exemple MicroOsc d’envoi OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd",
-        "l": "exemple microopen sound control d’envoi open sound control slip d’un arduino nano bouton d’arcade vers pure data",
+        "l": "exemple microosc d’envoi open sound control slip d’un arduino nano bouton d’arcade vers pure data",
         "u": "#/fabrication/arduino/microosc/slip/?id=exemple-microosc-denvoi-osc-slip-dun-arduino-nano-avec-un-bouton-darcade-vers-pd"
     },
     {
         "t": "MicroOscUDP",
-        "l": "microopen sound controludp",
+        "l": "microoscudp",
         "u": "#/fabrication/arduino/microosc/udp"
     },
     {
@@ -1306,12 +1306,12 @@
     },
     {
         "t": "Installation de MicroOscUdp",
-        "l": "installation microopen sound controludp",
+        "l": "installation microoscudp",
         "u": "#/fabrication/arduino/microosc/udp/?id=installation-de-microoscudp"
     },
     {
         "t": "Intégration de MicroOscUdp",
-        "l": "integration microopen sound controludp",
+        "l": "integration microoscudp",
         "u": "#/fabrication/arduino/microosc/udp/?id=int%C3%A9gration-de-microoscudp"
     },
     {
@@ -1451,17 +1451,17 @@
     },
     {
         "t": "Arduino : Traitement",
-        "l": "arduino  trintelligence artificielletement",
+        "l": "arduino  traitement",
         "u": "#/fabrication/arduino/traitement"
     },
     {
         "t": "Traitements",
-        "l": "trintelligence artificielletements",
+        "l": "traitements",
         "u": "#/fabrication/arduino/traitement/?id=traitements"
     },
     {
         "t": "Arduino : traiter le changement",
-        "l": "arduino  trintelligence artificielleter changement",
+        "l": "arduino  traiter changement",
         "u": "#/fabrication/arduino/traitement/changement"
     },
     {
@@ -1476,12 +1476,12 @@
     },
     {
         "t": "Arduino : traitement en flux continu",
-        "l": "arduino  trintelligence artificielletement flux continu",
+        "l": "arduino  traitement flux continu",
         "u": "#/fabrication/arduino/traitement/flux"
     },
     {
         "t": "Exemple de traitement en flux",
-        "l": "exemple trintelligence artificielletement flux",
+        "l": "exemple traitement flux",
         "u": "#/fabrication/arduino/traitement/flux/?id=exemple-de-traitement-en-flux"
     },
     {
@@ -1531,7 +1531,7 @@
     },
     {
         "t": "Créer une variable",
-        "l": "creer varintelligence artificielleble",
+        "l": "creer variable",
         "u": "#/fabrication/cpp/code/?id=cr%C3%A9er-une-variable"
     },
     {
@@ -1556,7 +1556,7 @@
     },
     {
         "t": "Les opérateurs de comparaison",
-        "l": "operateurs comparintelligence artificielleson",
+        "l": "operateurs comparaison",
         "u": "#/fabrication/cpp/code/?id=les-op%C3%A9rateurs-de-comparaison"
     },
     {
@@ -1566,7 +1566,7 @@
     },
     {
         "t": "Arduino : Guide de style",
-        "l": "arduino  interface utilisateurde style",
+        "l": "arduino  guide style",
         "u": "#/fabrication/cpp/style"
     },
     {
@@ -1581,7 +1581,7 @@
     },
     {
         "t": "Variables globales ou arguments de fonctions",
-        "l": "varintelligence artificiellebles globales arguments fonctions",
+        "l": "variables globales arguments fonctions",
         "u": "#/fabrication/cpp/style/?id=variables-globales-ou-arguments-de-fonctions"
     },
     {
@@ -1591,7 +1591,7 @@
     },
     {
         "t": "Membres (variables) privées d’une classe",
-        "l": "membres varintelligence artificiellebles privees d’une classe",
+        "l": "membres variables privees d’une classe",
         "u": "#/fabrication/cpp/style/?id=membres-variables-priv%C3%A9es-dune-classe"
     },
     {
@@ -1751,7 +1751,7 @@
     },
     {
         "t": "Vidéo complémentaire",
-        "l": "video complementintelligence artificiellere",
+        "l": "video complementaire",
         "u": "#/fabrication/electronique/electricite/?id=vid%C3%A9o-compl%C3%A9mentaire"
     },
     {
@@ -1771,7 +1771,7 @@
     },
     {
         "t": "Quoi faire en cas d’erreur fatale?",
-        "l": "quoi fintelligence artificiellere cas d’erreur fatale",
+        "l": "quoi faire cas d’erreur fatale",
         "u": "#/fabrication/electronique/fatalites"
     },
     {
@@ -1866,7 +1866,7 @@
     },
     {
         "t": "Informations complémentaires",
-        "l": "informations complementintelligence artificielleres",
+        "l": "informations complementaires",
         "u": "#/fabrication/electronique/soudure/?id=informations-compl%C3%A9mentaires"
     },
     {
@@ -1886,7 +1886,7 @@
     },
     {
         "t": "Tableau de comparaison entre l’ESP32 et l’ESP32-S3",
-        "l": "tableau comparintelligence artificielleson entre l’esp32 l’esp32-s3",
+        "l": "tableau comparaison entre l’esp32 l’esp32-s3",
         "u": "#/fabrication/esp32/modeles/?id=tableau-de-comparaison-entre-lesp32-et-lesp32-s3"
     },
     {
@@ -1911,17 +1911,17 @@
     },
     {
         "t": "Ouvrir le gestionnaire de carte",
-        "l": "ouvrir gestionnintelligence artificiellere carte",
+        "l": "ouvrir gestionnaire carte",
         "u": "#/fabrication/m5stack/atom/arduino-ide/?id=ouvrir-le-gestionnaire-de-carte"
     },
     {
         "t": "Ajouter l’URL du gestionnaire de carte d’ESP32",
-        "l": "ajouter l’url gestionnintelligence artificiellere carte d’esp32",
+        "l": "ajouter l’url gestionnaire carte d’esp32",
         "u": "#/fabrication/m5stack/atom/arduino-ide/?id=ajouter-lurl-du-gestionnaire-de-carte-desp32"
     },
     {
         "t": "Trouver et installer le gestionnaire de carte d’ESP32",
-        "l": "trouver installer gestionnintelligence artificiellere carte d’esp32",
+        "l": "trouver installer gestionnaire carte d’esp32",
         "u": "#/fabrication/m5stack/atom/arduino-ide/?id=trouver-et-installer-le-gestionnaire-de-carte-desp32"
     },
     {
@@ -2141,7 +2141,7 @@
     },
     {
         "t": "AtomS3 : accéléromètre et de gyroscope (mpu6886)",
-        "l": "atoms3  accelerometre gyropen sound controlope mpu6886",
+        "l": "atoms3  accelerometre gyroscope mpu6886",
         "u": "#/fabrication/m5stack/atomS3/mpu6886"
     },
     {
@@ -2486,7 +2486,7 @@
     },
     {
         "t": "Initialisation dans le code",
-        "l": "initintelligence artificiellelisation code",
+        "l": "initialisation code",
         "u": "#/fabrication/pixels/fastled/?id=initialisation-dans-le-code"
     },
     {
@@ -2511,7 +2511,7 @@
     },
     {
         "t": "Initialisation typique",
-        "l": "initintelligence artificiellelisation typique",
+        "l": "initialisation typique",
         "u": "#/fabrication/pixels/neopixel/?id=initialisation-typique"
     },
     {
@@ -2536,7 +2536,7 @@
     },
     {
         "t": "Comparaison entre Arduino IDE et PlatformIO",
-        "l": "comparintelligence artificielleson entre arduino ide platformio",
+        "l": "comparaison entre arduino ide platformio",
         "u": "#/fabrication/platformio/?id=comparaison-entre-arduino-ide-et-platformio"
     },
     {
@@ -2676,7 +2676,7 @@
     },
     {
         "t": "Version avancée (fromages et portails)",
-        "l": "version avancee fromages portintelligence artificiellels",
+        "l": "version avancee fromages portails",
         "u": "#/jeu/chat_sur_ta_tete/?id=version-avanc%C3%A9e-fromages-et-portails"
     },
     {
@@ -2731,7 +2731,7 @@
     },
     {
         "t": "Générer le nom d’une chaîne de montagnes",
-        "l": "generer nom d’une chintelligence artificiellene montagnes",
+        "l": "generer nom d’une chaine montagnes",
         "u": "#/jeu/wonder_wander/?id=g%C3%A9n%C3%A9rer-le-nom-dune-cha%C3%AEne-de-montagnes"
     },
     {
@@ -2836,7 +2836,7 @@
     },
     {
         "t": "Initialiser Git",
-        "l": "initintelligence artificielleliser git",
+        "l": "initialiser git",
         "u": "#/logiciels/git/ajout/?id=initialiser-git"
     },
     {
@@ -2876,7 +2876,7 @@
     },
     {
         "t": "Travailler directement dans le répertoire du projet",
-        "l": "travintelligence artificielleller directement repertoire projet",
+        "l": "travailler directement repertoire projet",
         "u": "#/logiciels/git/github/?id=travailler-directement-dans-le-r%C3%A9pertoire-du-projet"
     },
     {
@@ -2946,7 +2946,7 @@
     },
     {
         "t": "Aiguillage des messages selon leur identifiant",
-        "l": "intelligence artificielleinterface utilisateurllage messages selon leur identifintelligence artificiellent",
+        "l": "aiguillage messages selon leur identifiant",
         "u": "#/logiciels/max/ascii/?id=aiguillage-des-messages-selon-leur-identifiant"
     },
     {
@@ -2956,7 +2956,7 @@
     },
     {
         "t": "Max : Relais OSC SLIP ⇄ UDP",
-        "l": "max  relintelligence artificielles open sound control slip ⇄ udp",
+        "l": "max  relais open sound control slip ⇄ udp",
         "u": "#/logiciels/max/osc/relais"
     },
     {
@@ -2966,7 +2966,7 @@
     },
     {
         "t": "Patcher Pure Data pour le relais des messages OSC SLIP --> UDP",
-        "l": "patcher pure data relintelligence artificielles messages open sound control slip --> udp",
+        "l": "patcher pure data relais messages open sound control slip --> udp",
         "u": "#/logiciels/max/osc/relais/?id=patcher-pure-data-pour-le-relais-des-messages-osc-slip----udp"
     },
     {
@@ -3041,7 +3041,7 @@
     },
     {
         "t": "OSCMO-LiDAR pour scanner laser LiDAR Slamtec",
-        "l": "open sound controlmo-lidar scanner laser lidar slamtec",
+        "l": "oscmo-lidar scanner laser lidar slamtec",
         "u": "#/logiciels/oscmo-lidar"
     },
     {
@@ -3086,7 +3086,7 @@
     },
     {
         "t": "La fonction d’aide (Help)",
-        "l": "fonction d’intelligence artificiellede help",
+        "l": "fonction d’aide help",
         "u": "#/logiciels/pd/?id=la-fonction-daide-help"
     },
     {
@@ -3101,7 +3101,7 @@
     },
     {
         "t": "Pd : Lecture de fichiers audio avec Pdchoco",
-        "l": "pure data  lecture fichiers audio pure datachoco",
+        "l": "pure data  lecture fichiers audio pdchoco",
         "u": "#/logiciels/pd/audio/fichiers"
     },
     {
@@ -3111,7 +3111,7 @@
     },
     {
         "t": "Initialisation et chargement des sons",
-        "l": "initintelligence artificiellelisation chargement sons",
+        "l": "initialisation chargement sons",
         "u": "#/logiciels/pd/audio/fichiers/?id=initialisation-et-chargement-des-sons"
     },
     {
@@ -3131,7 +3131,7 @@
     },
     {
         "t": "Créer des messages OSC dans Pd avec oscformat",
-        "l": "creer messages open sound control pure data open sound controlformat",
+        "l": "creer messages open sound control pure data oscformat",
         "u": "#/logiciels/pd/osc/oscformat"
     },
     {
@@ -3156,7 +3156,7 @@
     },
     {
         "t": "Pd : Relais OSC SLIP ⇄ UDP",
-        "l": "pure data  relintelligence artificielles open sound control slip ⇄ udp",
+        "l": "pure data  relais open sound control slip ⇄ udp",
         "u": "#/logiciels/pd/osc/relais"
     },
     {
@@ -3166,12 +3166,12 @@
     },
     {
         "t": "Patcher Pure Data pour le relais des messages OSC SLIP vers UDP (unidirectionnel)",
-        "l": "patcher pure data relintelligence artificielles messages open sound control slip vers udp unidirectionnel",
+        "l": "patcher pure data relais messages open sound control slip vers udp unidirectionnel",
         "u": "#/logiciels/pd/osc/relais/?id=patcher-pure-data-pour-le-relais-des-messages-osc-slip-vers-udp-unidirectionnel"
     },
     {
         "t": "Patcher Pure Data pour le relais des messages OSC SLIP vers UDP bidirectionnel",
-        "l": "patcher pure data relintelligence artificielles messages open sound control slip vers udp bidirectionnel",
+        "l": "patcher pure data relais messages open sound control slip vers udp bidirectionnel",
         "u": "#/logiciels/pd/osc/relais/?id=patcher-pure-data-pour-le-relais-des-messages-osc-slip-vers-udp-bidirectionnel"
     },
     {
@@ -3201,7 +3201,7 @@
     },
     {
         "t": "pdchoco",
-        "l": "pure datachoco",
+        "l": "pdchoco",
         "u": "#/logiciels/pd/pdchoco"
     },
     {
@@ -3291,7 +3291,7 @@
     },
     {
         "t": "Attendre un certain temps avant d’activer",
-        "l": "attendre certintelligence artificiellen temps avant d’activer",
+        "l": "attendre temps avant d’activer",
         "u": "#/logiciels/pd/traitement/retarder"
     },
     {
@@ -3346,7 +3346,7 @@
     },
     {
         "t": "Contrôleur éclairage QLC+",
-        "l": "controleur eclintelligence artificiellerage qlc+",
+        "l": "controleur eclairage qlc+",
         "u": "#/logiciels/qlc+"
     },
     {
@@ -3356,7 +3356,7 @@
     },
     {
         "t": "Compression sidechain dans Reaper",
-        "l": "compression sidechintelligence artificiellen reaper",
+        "l": "compression sidechain reaper",
         "u": "#/logiciels/reaper/compression/sidechain"
     },
     {
@@ -3461,7 +3461,7 @@
     },
     {
         "t": "Spatialisation (pan) d’une piste",
-        "l": "spatintelligence artificiellelisation pan d’une piste",
+        "l": "spatialisation pan d’une piste",
         "u": "#/logiciels/reaper/osc/defaut/piste/?id=spatialisation-pan-dune-piste"
     },
     {
@@ -3576,7 +3576,7 @@
     },
     {
         "t": "Désactiver les sauvegardes supplémentaires",
-        "l": "desactiver sauvegardes supplementintelligence artificielleres",
+        "l": "desactiver sauvegardes supplementaires",
         "u": "#/logiciels/touchdesigner/git/?id=d%C3%A9sactiver-les-sauvegardes-suppl%C3%A9mentaires"
     },
     {
@@ -3616,7 +3616,7 @@
     },
     {
         "t": "TouchDesigner : Null et Trail",
-        "l": "touchdesigner  null trintelligence artificiellel",
+        "l": "touchdesigner  null trail",
         "u": "#/logiciels/touchdesigner/null_et_trail"
     },
     {
@@ -3626,7 +3626,7 @@
     },
     {
         "t": "Le CHOP Trail",
-        "l": "chop trintelligence artificiellel",
+        "l": "chop trail",
         "u": "#/logiciels/touchdesigner/null_et_trail/?id=le-chop-trail"
     },
     {
@@ -3661,7 +3661,7 @@
     },
     {
         "t": "Traitement des signaux reçus",
-        "l": "trintelligence artificielletement signaux recus",
+        "l": "traitement signaux recus",
         "u": "#/logiciels/touchdesigner/osc/reception/?id=traitement-des-signaux-re%C3%A7us"
     },
     {
@@ -3671,7 +3671,7 @@
     },
     {
         "t": "TD : Aide mémoire Python",
-        "l": "touchdesigner  intelligence artificiellede memoire python",
+        "l": "touchdesigner  aide memoire python",
         "u": "#/logiciels/touchdesigner/python/aide-memoire"
     },
     {
@@ -3686,7 +3686,7 @@
     },
     {
         "t": "Travailler avec des Opérateurs",
-        "l": "travintelligence artificielleller operateurs",
+        "l": "travailler operateurs",
         "u": "#/logiciels/touchdesigner/python/aide-memoire/?id=travailler-avec-des-op%C3%A9rateurs"
     },
     {
@@ -3701,12 +3701,12 @@
     },
     {
         "t": "Travailler avec des données DAT",
-        "l": "travintelligence artificielleller donnees dat",
+        "l": "travailler donnees dat",
         "u": "#/logiciels/touchdesigner/python/aide-memoire/?id=travailler-avec-des-donn%C3%A9es-dat"
     },
     {
         "t": "Le module TDU : Une variété d’utilitaires Python utiles",
-        "l": "module touchdesigneru  variete d’utilitintelligence artificielleres python utiles",
+        "l": "module tdu  variete d’utilitaires python utiles",
         "u": "#/logiciels/touchdesigner/python/aide-memoire/?id=le-module-tdu--une-vari%C3%A9t%C3%A9-dutilitaires-python-utiles"
     },
     {
@@ -3746,7 +3746,7 @@
     },
     {
         "t": "TD : Traitement de signaux",
-        "l": "touchdesigner  trintelligence artificielletement signaux",
+        "l": "touchdesigner  traitement signaux",
         "u": "#/logiciels/touchdesigner/traitement"
     },
     {
@@ -3776,7 +3776,7 @@
     },
     {
         "t": "TD : Variation contrôlée",
-        "l": "touchdesigner  varintelligence artificielletion controlee",
+        "l": "touchdesigner  variation controlee",
         "u": "#/logiciels/touchdesigner/traitement/variation"
     },
     {
@@ -3811,22 +3811,22 @@
     },
     {
         "t": "Unity : OSC UDP avec extOSC",
-        "l": "unity  open sound control udp extopen sound control",
+        "l": "unity  open sound control udp extosc",
         "u": "#/logiciels/unity/osc/extosc"
     },
     {
         "t": "Initialisation d’extOSC dans Unity",
-        "l": "initintelligence artificiellelisation d’extopen sound control unity",
+        "l": "initialisation d’extosc unity",
         "u": "#/logiciels/unity/osc/extosc/?id=initialisation-dextosc-dans-unity"
     },
     {
         "t": "Initialisation de l’objet de contrôle OSC",
-        "l": "initintelligence artificiellelisation l’objet controle open sound control",
+        "l": "initialisation l’objet controle open sound control",
         "u": "#/logiciels/unity/osc/extosc/?id=initialisation-de-lobjet-de-contr%C3%B4le-osc"
     },
     {
         "t": "Réception d’OSC dans Unity avec extOSC",
-        "l": "reception d’open sound control unity extopen sound control",
+        "l": "reception d’open sound control unity extosc",
         "u": "#/logiciels/unity/osc/extosc/?id=r%C3%A9ception-dosc-dans-unity-avec-extosc"
     },
     {
@@ -3836,12 +3836,12 @@
     },
     {
         "t": "Fonction utilitaire ChangerPlageDeValeurs()",
-        "l": "fonction utilitintelligence artificiellere changerplagedevaleurs",
+        "l": "fonction utilitaire changerplagedevaleurs",
         "u": "#/logiciels/unity/osc/extosc/?id=fonction-utilitaire-changerplagedevaleurs"
     },
     {
         "t": "Envoi OSC avec extOSC  dans Unity",
-        "l": "envoi open sound control extopen sound control unity",
+        "l": "envoi open sound control extosc unity",
         "u": "#/logiciels/unity/osc/extosc/envoi"
     },
     {
@@ -3861,7 +3861,7 @@
     },
     {
         "t": "Unity : OSC UDP avec oscjackvs",
-        "l": "unity  open sound control udp open sound controljackvs",
+        "l": "unity  open sound control udp oscjackvs",
         "u": "#/logiciels/unity/osc/oscjackvs"
     },
     {
@@ -3871,7 +3871,7 @@
     },
     {
         "t": "Intégration d’OSCJackVS",
-        "l": "integration d’open sound controljackvs",
+        "l": "integration d’oscjackvs",
         "u": "#/logiciels/unity/osc/oscjackvs/?id=int%C3%A9gration-doscjackvs"
     },
     {
@@ -3906,7 +3906,7 @@
     },
     {
         "t": "Configurer la taille de la Render Texture et la renommer Spout Render Texture",
-        "l": "configurer tintelligence artificiellelle render texture renommer spout render texture",
+        "l": "configurer taille render texture renommer spout render texture",
         "u": "#/logiciels/unity/spout/?id=configurer-la-taille-de-la-render-texture-et-la-renommer-spout-render-texture"
     },
     {
@@ -3926,7 +3926,7 @@
     },
     {
         "t": "Unity : Traitement de messages",
-        "l": "unity  trintelligence artificielletement messages",
+        "l": "unity  traitement messages",
         "u": "#/logiciels/unity/traitement"
     },
     {
@@ -3946,7 +3946,7 @@
     },
     {
         "t": "Principe général du traitement de changement",
-        "l": "principe general trintelligence artificielletement changement",
+        "l": "principe general traitement changement",
         "u": "#/logiciels/unity/traitement/changement/?id=principe-g%C3%A9n%C3%A9ral-du-traitement-de-changement"
     },
     {
@@ -3996,7 +3996,7 @@
     },
     {
         "t": "cvOSCcv",
-        "l": "cvopen sound controlcv",
+        "l": "cvosccv",
         "u": "#/logiciels/vcv_rack/osc/?id=cvosccv"
     },
     {

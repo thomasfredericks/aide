@@ -58,9 +58,10 @@ def normalize_text(text, aliases, skip_words):
     
     sorted_aliases = sorted(aliases.keys(), key=len, reverse=True)
     for alias in sorted_aliases:
-        if alias in text_clean:
-            canonical = aliases[alias]
-            text_clean = text_clean.replace(alias, canonical)
+        canonical = aliases[alias]
+        # Use word boundaries to match whole words only
+        pattern = r'\b' + re.escape(alias) + r'\b'
+        text_clean = re.sub(pattern, canonical, text_clean)
 
     words = text_clean.split()
     processed_words = []
