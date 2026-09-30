@@ -8,7 +8,6 @@ Intégration de l’OSC UDP dans Unity avec **extOSC**.
 
 ### Préalables
 
-- [Ajouter le bon `.gitignore` au projet Unity](../../git/) s’il n’y en a pas
 - [Activer l’exécution en arrière-plan](../../execution_arriere-plan/)
 
 ### Installation de extOSC
@@ -49,24 +48,7 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 
 
 
-## Réception d’OSC dans Unity avec extOSC 
-
-
-### Préalable(s)
-
-* Avoir suivi les instructions sur l’initialisation d’extOSC.
-
-####  Tableau récapitulatif
-
-| Étape | Configuration |
-|----|-----------|
-| Importer `using extOSC;` | 1️⃣ Une seule fois |
-| Déclarer `oscReceiver` | 1️⃣ Une seule fois |
-| Relier le GameObject `OSC` dans l’inspecteur | 1️⃣ Une seule fois |
-| Créer une fonction de traitement (`TraiterMessage...`) | ♻️ Pour chaque adresse |
-| Ajouter `oscReceiver.Bind()` dans `Start()` | ♻️ Pour chaque adresse |
-
-### Configuration globale (à faire UNE SEULE FOIS)
+### Script de gestion de l'OSC (à faire UNE SEULE FOIS)
 
 Créer un script nommé `OscProcess`. Effectuer les étapes suivantes dans ce script.
 
@@ -94,9 +76,11 @@ public extOSC.OSCReceiver oscReceiver;
 > [!IMPORTANT] 
 > Pour chaque adresse OSC différente (`/but0`, `/but1`, `/angle`, `/lumiere`, etc.), vous devez créer **une fonction dédiée** et **un Bind() séparé**.
 
-#### Retourner dans le script `OscProcess`
 
 #### Lier l’adresse OSC à une fonction dans Start()
+
+Retourner dans le script `OscProcess`.
+
 Dans la méthode `Start()`, associez chaque adresse OSC à sa fonction via `Bind()`. Par exemple, ici nous indiquons que lors que le message `"/but0"` est reçu, nous déclenchons la méthode `TraiterMessageBut0` (que nous définissons par après) :
 ```csharp
 oscReceiver.Bind("/but0", TraiterMessageBut0);
@@ -141,7 +125,18 @@ void TraiterMessageBut0(OSCMessage message)
 
 ```
 
-## Exemple Flappy Bird Unity et Arduino Nano avec bouton d’arcade par OSC
+###  Tableau récapitulatif
+
+| Étape | Configuration |
+|----|-----------|
+| Importer `using extOSC;` | 1️⃣ Une seule fois |
+| Créer un script de gestion de l'OSC  ()`OscProcess`) | 1️⃣ Une seule fois |
+| Déclarer `oscReceiver` | 1️⃣ Une seule fois |
+| Relier le GameObject `OSC` dans l’inspecteur | 1️⃣ Une seule fois |
+| Créer une fonction de traitement (`TraiterMessage...`) | ♻️ Pour chaque adresse |
+| Ajouter `oscReceiver.Bind()` dans `Start()` | ♻️ Pour chaque adresse |
+
+## Exemple Flappy Bird Unity, Pd et Arduino Nano avec bouton d’arcade par OSC
 
 Quand on appuie sur un bouton d’Arcade, cela envoie le message OSC SLIP `/but0 1` à Pd qui le relaye par UDP à Unity.
 
@@ -156,9 +151,10 @@ flowchart LR
 ### Préalables
 
 - Suivre les instructions pour l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
-- Cloner le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
-- [Ajouter le bon `.gitignore` au projet Unity](../../git/) s’il n’y en a pas
-- Suivre les instructions pour l’intégration d’extOSC ci-haut.
+- Télécharger ou *forker* (ne pas cloner) le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
+- Extraire et mettre le projet avec le code Arduino (dans le même dossier par exemple).
+- [Ajouter un `.gitignore` au projet Unity](../../git/) s’il n’y en a pas déjà
+- Suivre les instructions pour l’intégration d’extOSC plus haut.
 
 ### Investiguer le code Unity
 
