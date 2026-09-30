@@ -171,7 +171,8 @@ async function showSearchResults(query) {
         const baseUrl = window.location.origin; 
         const destinationUrl = baseUrl+"/"+url;
         console.log(destinationUrl);
-        window.location.href = destinationUrl;
+        document.location.href = destinationUrl;
+        location.reload();
    
         return;
     }
