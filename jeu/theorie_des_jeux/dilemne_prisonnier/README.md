@@ -37,4 +37,4 @@ Résultat :
 * **Les deux avouent et reçoivent 3 ans chacun.**
 * Pourtant, ils auraient été **mieux tous les deux en gardant le silence**, puisqu"ils auraient reçu seulement 1 an chacun.
 
-Le dilemme du prisonnier montre que des décisions rationnelles prises individuellement peuvent produire un résultat moins favorable pour tout le monde. C"est une idée importante de la **théorie des jeux**, car les décisions d’une personne dépendent des décisions qu’elle pense que les autres vont prendre.
+Le dilemme du prisonnier montre que des décisions rationnelles prises individuellement peuvent produire un résultat moins favorable pour tout le monde. C’est une idée importante de la **théorie des jeux**, car les décisions d’une personne dépendent des décisions qu’elle pense que les autres vont prendre.

@@ -26,7 +26,7 @@ Serial.begin(115200);
 
 ## Rappels
 
-Ne pas oublier que comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c"est une bonne idée d’utiliser un `#define` dans **l’espace global** pour identifier le numéro de la broche du *M5 Angle Unit*:
+Ne pas oublier que comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c’est une bonne idée d’utiliser un `#define` dans **l’espace global** pour identifier le numéro de la broche du *M5 Angle Unit*:
 ```cpp
 #define MA_BROCHE_ANGLE 32
 ```

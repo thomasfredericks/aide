@@ -87,7 +87,7 @@ void LateUpdate()
         float myPositionX = transform.position.x;
         
         // Ajout de la valeur au message
-        // Ici le float est converti en Int mais on pourrait aussi envoyer un float si c"est ce qui est attendu
+        // Ici le float est converti en Int mais on pourrait aussi envoyer un float si c’est ce qui est attendu
         myOscMessage.AddValue( OSCValue.Int( (int) myScaledPositionX) ); 
 
         // Envoyer le message

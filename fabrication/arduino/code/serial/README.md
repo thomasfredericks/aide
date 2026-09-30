@@ -1,6 +1,6 @@
 # Arduino Serial : communication sérielle
 
-La **communication sérielle** est une méthode qui permet à votre carte Arduino d’échanger des données avec un autre appareil (comme votre ordinateur, un module Bluetooth ou un autre microcontrôleur) **bit par bit**.  C"est un peu comme envoyer un message texte mot par mot à la place d’un message entier en un bloc.
+La **communication sérielle** est une méthode qui permet à votre carte Arduino d’échanger des données avec un autre appareil (comme votre ordinateur, un module Bluetooth ou un autre microcontrôleur) **bit par bit**.  C’est un peu comme envoyer un message texte mot par mot à la place d’un message entier en un bloc.
 
 
 
@@ -24,14 +24,14 @@ Ensuite, il existe plusieurs façons d’encoder l’information :
 
 ## Encodage ASCII
 
-Arduino fournit des méthodes de base pour encoder et décoder **ASCII** (*American Standard Code for Information Interchange*). C"est une table de correspondance universelle où chaque caractère (lettre, chiffre, symbole, ponctuation) est associé à un nombre décimal précis (de 0 à 127).
+Arduino fournit des méthodes de base pour encoder et décoder **ASCII** (*American Standard Code for Information Interchange*). C’est une table de correspondance universelle où chaque caractère (lettre, chiffre, symbole, ponctuation) est associé à un nombre décimal précis (de 0 à 127).
 
 Pour bien comprendre ce principe, on peut faire le lien avec le **code Morse** :
 Chaque lettre est convertie en une succession de signaux courts (**points**) et longs (**traits**), envoyés rigoureusement dans un ordre précis.  L’opérateur de l’autre côté doit décoder le flux temporel pour reformer les lettres et les mots.
 
 ![Le code Morse](./code_morse.png)
 
-En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son code ASCII, c"est-à-dire le nombre décimal `65`, qui s’écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l’un après l’autre, sur le fil de transmission. 
+En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son code ASCII, c’est-à-dire le nombre décimal `65`, qui s’écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l’un après l’autre, sur le fil de transmission. 
 
 Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l’octet `01000001`, et consulte la table ASCII pour comprendre que cette valeur correspond au caractère `A`.
 
@@ -133,4 +133,4 @@ TEMP 23
 
 -  Le descripteur donne un contexte à la donnée. Si l’ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s’il s’agit d’une température, d’une humidité ou d’une distance. Le descripteur permet au récepteur d’identifier immédiatement la nature de l’information.
 - L’espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l’analyse beaucoup plus complexe pour isoler la valeur numérique.
-- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C"est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s’arrête un message et où commence le suivant.
+- La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C’est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s’arrête un message et où commence le suivant.

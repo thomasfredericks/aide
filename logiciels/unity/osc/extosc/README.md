@@ -147,7 +147,6 @@ Quand on appuie sur un bouton d’Arcade, cela envoie le message OSC SLIP `/but0
 ### Préalables
 
 - Suivre les instructions pour l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
-- Télécharger le [patcher Pure Data pour le relais des messages OSC SLIP vers UDP (unidirectionnel)](/logiciels/pd/osc/relais/) (qui remplace le patcher de l’exemple du bouton d’Arcade)
 - Cloner le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
 - Suivre les instructions pour l’intégration d’extOSC ci-haut.
 
@@ -204,10 +203,18 @@ Nous modifions aussi notre méthode `TraiterMesageBut0` du script `OscProcess` :
 
 ### Le patcher Pd
 
-> [!WARNING]
-> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s’assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c"est le bon ?
+Le patcher Pd `relais_osc_slip_vers_udp.pd` permet :
+- D’envoyer des messages OSC UDP à Unity.
+- De relayer les messages OSC SLIP reçus par `comport` en OSC UDP à Unity.
 
-Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pdchoco/osc_formatter`. Y entre les informations suivantes et appuyer sur `send` :
+![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.png)
+
+Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd)
+
+> [!WARNING]
+> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s’assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c’est le bon ?
+
+Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pdchoco/osc_formatter`. Y entrer les informations suivantes et appuyer sur `send` :
 - **address** : `but0` (ce qui correspond en OSC à /but0)
 - **format** : `i` (un entier)
 - **arguments** : `1`

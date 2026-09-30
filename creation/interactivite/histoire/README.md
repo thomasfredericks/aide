@@ -47,7 +47,7 @@ Duchamp ne s’intéresse pas à ce qu’il appelle « l’art rétinien ». Un 
 
 Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu’ils n"ont pas été réalisés par l’artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l’art et le rôle de l’artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
 
-Pour Marcel Duchamp, « c"est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
+Pour Marcel Duchamp, « c’est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
 
 ![](./marcel.png)
 

@@ -29,7 +29,7 @@ CRGB atomPixel;
 
 ![](./code_creer_crgb.drawio.png)
 
-Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
+Bien que cela ne soit pas absolument nécessaire, c’est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
 #define BROCHE_ATOM_PIXEL 27
 ```

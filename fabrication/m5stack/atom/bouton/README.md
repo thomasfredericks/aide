@@ -8,7 +8,7 @@ Le bouton est relié à la broche `39` de l’ESP32 du Atom Lite.
 
 ### Dans l’espace global
 
-Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
+Bien que cela ne soit pas absolument nécessaire, c’est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
 #define BROCHE_ATOM_BOUTON 39
 ```

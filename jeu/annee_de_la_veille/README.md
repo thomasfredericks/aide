@@ -40,7 +40,7 @@ Le jeu débute le lendemain d’un évènement traumatisant pour la communauté 
 
 > « La veille, un homme humain a pris quelque chose d’important pour notre communauté. Avant de partir, il a promis de revenir accompagné dans un an pour en réclamer davantage, mettant en péril notre avenir. Le jeu se termine au retour des humains. »
 
-À nous de décider si la communauté vivait sous occupation humaine, si c"était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
+À nous de décider si la communauté vivait sous occupation humaine, si c’était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
 
 ## Esquissons l’espace de jeu
 
@@ -64,7 +64,7 @@ Ce qui est à l’intérieur de ce périmètre appartient à la communauté et t
 
 ### Situation de la communauté
 
-Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C"est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
+Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C’est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
 Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
@@ -324,14 +324,14 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 |----|-----|--|-----|
 | 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d’accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d’autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
 | 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n"est réduit cette semaine.** |
-| 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c"est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
-| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu’est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu’est-ce que c"est ? Qui la découvre ? |
+| 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c’est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
+| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu’est-ce que c’est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu’est-ce que c’est ? Qui la découvre ? |
 | 5 | En préparation de l’année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
 | 6 | À quoi ressemble l’hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
 | 7 | Le moment est venu de consolider vos efforts et vos frontières. Les projets situés en dehors de la communauté échouent, et tous les projets restants voient leur dé réduit de 2 cette semaine. | ou | Quelqu"un commence à construire un endroit pour élever de jeunes membres de la communauté. **Commencez un Projet** pour refléter son entreprise. |
-| 8 | Un étranger infecté arrive en quête d’asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d’humain vous pille une ressource. Si c"était une abondance, elle est maintenant une pénurie. Si c"était une pénurie, comment son manque se fait-il encore plus ressentir ? |
-| 9 | C"est le moment d’économiser l’énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C"est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
+| 8 | Un étranger infecté arrive en quête d’asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d’humain vous pille une ressource. Si c’était une abondance, elle est maintenant une pénurie. Si c’était une pénurie, comment son manque se fait-il encore plus ressentir ? |
+| 9 | C’est le moment d’économiser l’énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C’est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
 | 10 | Un personnage disparaît pendant la nuit. Tout ce que l’on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu’il a été sauvé ? Par qui ?|
-| 11 | Les rigueurs de l’hiver détruisent une source de nourriture. Si c"était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l’hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
+| 11 | Les rigueurs de l’hiver détruisent une source de nourriture. Si c’était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l’hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
 | 12 | Un rituel festif révèle un bon présage. Quel est le rituel ? Quel est le présage ? | | |
 | 13 | Les humains sont arrivés. La partie est terminée. | | |

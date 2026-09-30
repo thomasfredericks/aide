@@ -8,7 +8,7 @@ Les GML ont tendance à créer des délires parce qu’ils sont conçus pour êt
     - Renforcement de l’effet Dunning-Kruger par la flagornerie des GLM
     - Effet Dunning-Kruger : Les débutants dans un domaine ont tendance à surestimer leurs compétences parce qu’ils ne savent pas encore tout ce qu’ils ignorent
 - Le **délire de pertinence** : tendance à attribuer une importance excessive aux échanges avec un GML (le GML qui considère que toutes les idées de l’utilisateur sont brillantes)
-- Le **délire d’optimalité** : croyance que sa solution est la meilleure, renforcée par l’absence de mesures réelles ou de comparaison. C"est aussi lié à la croyance de l’inévitabilité. 
+- Le **délire d’optimalité** : croyance que sa solution est la meilleure, renforcée par l’absence de mesures réelles ou de comparaison. C’est aussi lié à la croyance de l’inévitabilité. 
 
 Les entreprises de GLM entraînent constamment leurs modèles pour les rendre aussi addictifs que possible.
 Elles utilisent quelque chose appelé *apprentissage par renforcement à partir de rétroaction humaine* (l’acronyme RLHF en anglais). Cet apprentissage montre au modèle des milliers de façons différentes de répondre. Les humains choisissent celles qui le font se sentir le mieux. La séquence exacte de mots la plus susceptible de faire qu’un humain se sente bien dans sa peau est ainsi littéralement synthétisée de manière scientifique et mathématique. L’humain peut développer une résistance à force d’exposition, mais le modèle est ré-entrainé pour le rendre différent tout en étant de nouveau addictif. 

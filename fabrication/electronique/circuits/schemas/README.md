@@ -11,7 +11,7 @@ Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter d
 
 ![Symbole pour une jonction (JIMBLOM, s. d.)](./jonction.png)
 
-Les points de jonction  permettent d’indique que "les fils traversant cette jonction sont connectés". L’absence d’un point de jonction signifie que deux fils superposés ne font que passer, ne formant aucune sorte de connexion. Lors de la conception de schémas, il est généralement recommandé d’éviter ces chevauchements non connectés dans la mesure du possible, mais c"est parfois inévitable.
+Les points de jonction  permettent d’indique que "les fils traversant cette jonction sont connectés". L’absence d’un point de jonction signifie que deux fils superposés ne font que passer, ne formant aucune sorte de connexion. Lors de la conception de schémas, il est généralement recommandé d’éviter ces chevauchements non connectés dans la mesure du possible, mais c’est parfois inévitable.
 
 ![Les jonctions indiquent quels fils sont connectés (JIMBLOM, s. d.)](./jonction_connection.png)
 

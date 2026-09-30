@@ -92,7 +92,7 @@ Le module TDU est un fourre-tout de fonctions utiles. Pour plus de détails, con
 | Description | Expression Python | Exemple de Résultat |
 | :-- | :-- | :-- |
 | Retourne une valeur aléatoire reproductible | `tdu.rand(seed)` | 1. `tdu.rand(me)` - *résulte en 0.749...* <br> 2. `tdu.rand(5)` - *résulte en 0.184...* <br> 3. `tdu.rand(absTime.frame)` - *résulte en 0.174... et changera à chaque trame* |
-| Clampe une valeur entre min et max. | `tdu.clamp(valeur_input, min, max)` | 1. `tdu.clamp(7.35, 0, 6)` - *résulte en 6* <br> 2. `tdu.clamp("c", "a", "b")` - *résulte en "b"* <br> 3. `tdu.clamp(6, 5, 5.55)` - *résulte en 5.55* |
+| Clampe une valeur entre min et max. | `tdu.clamp(valeur_input, min, max)` | 1. `tdu.clamp(7.35, 0, 6)` - *résulte en 6* <br> 2. `tdu.clamp("c’, "a", "b")` - *résulte en "b"* <br> 3. `tdu.clamp(6, 5, 5.55)` - *résulte en 5.55* |
 | Remap une valeur d’entrée d’une plage initiale à une nouvelle plage | `tdu.remap(valeur_input, deMin, deMax, aMin, aMax)` | `tdu.remap(0.75, 0, 1, -180, 180)` - *résulte en 90.0* |
 | Formate une chaîne pour qu’elle soit adaptée à un nom d’opérateur. Convertit les caractères illégaux en underscores. | `tdu.validName(str)` | `tdu.validName("text-dat$%JSON?")` - *retourne "text_dat__JSON_"* |
 

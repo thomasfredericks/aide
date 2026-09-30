@@ -16,11 +16,11 @@ L’unité expose deux interfaces numériques : l’une pour la détection de 
 
 ### Touche
 - La lecture de la touche s’effectue sur la broche identifiée par le texte *KEY* sur fond blanc, ce qui correspond au fil blanc du câble Grove. 
-- Si l’unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture numérique de la touche.
+- Si l’unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c’est la broche 32 (identifiée G32) qui permet d’effectuer la lecture numérique de la touche.
 
 ### Pixel
 - Le contrôle du pixel s’effectue sur la broche identifiée par le texte *LED* sur fond jaune, ce qui correspond au fil jaune du câble Grove. 
-- Si l’unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c"est la broche 26 (identifiée G26) qui permet de contrôler le pixel.
+- Si l’unité **M5Stack Key Unit** est connectée au connecteur blanc du Atom Lite, c’est la broche 26 (identifiée G26) qui permet de contrôler le pixel.
 
 ## Bibliothèque logicielle
 
@@ -42,7 +42,7 @@ Ajouter la bibliothèque logicielle FastLED:
 #include <FastLED.h>
 ```
 
-Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser des `#define` pour identifier les numéros de broches :
+Bien que cela ne soit pas absolument nécessaire, c’est une bonne idée d’utiliser des `#define` pour identifier les numéros de broches :
 ```cpp
 #define BROCHE_ATOM_FIL_BLANC 32
 #define BROCHE_ATOM_FIL_JAUNE 26

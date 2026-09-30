@@ -42,7 +42,7 @@ if ( M5.Btn.isPressed() ) {
 }
 ```
 
-4) Optimiser le code; `M5.Btn.isReleased()` est redondant parce que c"est le contraire de `M5.Btn.isPressed()`; la répétition de `FastLED.show()` peut être évitée :
+4) Optimiser le code; `M5.Btn.isReleased()` est redondant parce que c’est le contraire de `M5.Btn.isPressed()`; la répétition de `FastLED.show()` peut être évitée :
 ```cpp
 if ( M5.Btn.isPressed() ) {
     pixel = CRGB(255,255,255); // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference

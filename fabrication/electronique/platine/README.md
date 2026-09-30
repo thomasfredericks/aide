@@ -20,7 +20,7 @@ Certains des trous de la platine d’expérimentation sont connectés entre eux.
 
 ## Bien placer les composants sur la platine d’expérimentation
 
-Les broches (pattes) des composants doivent être insérées dans des trous qui sont **non reliés électriquement**, c"est à dire **isolés** électriquement. 
+Les broches (pattes) des composants doivent être insérées dans des trous qui sont **non reliés électriquement**, c’est à dire **isolés** électriquement. 
 
 Dans la figure suivante :
 * Le **X** indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.

@@ -10,7 +10,7 @@ L’OSC fournit également une vérification (primitive) des erreurs de transmis
 
 ## Pas de client et serveur
 
-Il n"y a pas d’architecture client/serveur en OSC. N"importe qui peut envoyer n"importe où! L’envoi et la réception se font séparemment. C"est à dire que si nous désirons une communication bidirectionnelle, il faut créer deux connexions unidirectionnelles.
+Il n"y a pas d’architecture client/serveur en OSC. N"importe qui peut envoyer n"importe où! L’envoi et la réception se font séparemment. C’est à dire que si nous désirons une communication bidirectionnelle, il faut créer deux connexions unidirectionnelles.
 
 
 ## Unité de transmission

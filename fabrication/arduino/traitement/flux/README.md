@@ -3,7 +3,7 @@
 Le traitement en flux consiste à produire une action de manière régulière, à intervalle fixe, même si la valeur lue ne change pas. Ce modèle est utile pour l’envoi continu de données, la mise à jour d’affichages ou le contrôle périodique d’un système.  
 
 Le modèle de ce traitement :
-- **CONDITION** : vérifier si c"est le temps d’envoyer la ou les données
+- **CONDITION** : vérifier si c’est le temps d’envoyer la ou les données
     - **ACQUISITION** : si oui, lire la ou les valeurs 
     - **ACTION** : effectuer une ou plusieurs actions
 

@@ -52,7 +52,7 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
     * **Police des valeurs :** Nom de la police utilisée pour les valeurs (ex : As, 2, 10).
         - Taille en points pour les indices 
         - Taille en points lorsque le texte est au milieu de la carte.
-    * **Texte des figures :** Indiquer les valeurs pour les figures, c"est-à-dire les trois valeurs qui suivent le 10 (cela peut être des nombres ou autre chose tant que c"est clair).
+    * **Texte des figures :** Indiquer les valeurs pour les figures, c’est-à-dire les trois valeurs qui suivent le 10 (cela peut être des nombres ou autre chose tant que c’est clair).
     * **Éléments textuels artistiques ou thématiques (si utilisé) :** Nom de la police secondaire pour les éléments textuels artistiques ou thématiques si utilisés.
 
 

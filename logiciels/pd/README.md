@@ -21,7 +21,7 @@ Sur certaines versions de déploiement (notamment en décompressant des archives
 
 L’interface de Pure Data repose sur des environnements de travail graphiques et modulaires où les éléments textuels et visuels interagissent entre eux pour traiter des flux de données et du son :
 
-- **Patchs** : Un patch est le fichier de travail principal (enregistré avec l’extension `.pd`). C"est la feuille de canevas interactive sur laquelle on dispose et relie les différents composants de programmation.
+- **Patchs** : Un patch est le fichier de travail principal (enregistré avec l’extension `.pd`). C’est la feuille de canevas interactive sur laquelle on dispose et relie les différents composants de programmation.
 - **Objets** : Représentés par des boîtes rectangulaires, ce sont les moteurs fonctionnels de Pure Data (ex. : oscillateurs, filtres, opérations mathématiques). Ils exécutent des actions ou du traitement de signal (DSP) en fonction de ce qui y est écrit à l’intérieur.
 - **Messages** : Des boîtes interactives spécifiques qui contiennent du texte ou des instructions numériques. Lorsque l’on clique dessus, elles envoient immédiatement leur contenu sous forme de données pour piloter d’autres objets.
 - **Commentaires** : Simples boîtes de texte libre non exécutables, indispensables pour documenter, structurer et annoter le fonctionnement d’un patch.
@@ -33,7 +33,7 @@ L’interface de Pure Data repose sur des environnements de travail graphiques e
 Le comportement de la souris et des boîtes change selon le mode actif dans Pure Data :
 
 - **Edit Mode (Mode Édition)** : Indispensable pour concevoir et structurer le patch. Il permet de créer de nouveaux objets, de les déplacer, de modifier leur texte ou de tracer/effacer les cordons de câblage qui les relient.
-- **Run Mode (Mode Exécution)** : Permet d’utiliser le patch de manière interactive. C"est dans ce mode que l’on clique sur les boutons (*bangs*), que l’on actionne les interrupteurs (*toggles*) et que l’on manipule les curseurs sans risquer de modifier accidentellement la structure du patch.
+- **Run Mode (Mode Exécution)** : Permet d’utiliser le patch de manière interactive. C’est dans ce mode que l’on clique sur les boutons (*bangs*), que l’on actionne les interrupteurs (*toggles*) et que l’on manipule les curseurs sans risquer de modifier accidentellement la structure du patch.
 
 Raccourci de bascule : 
 

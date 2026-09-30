@@ -60,4 +60,4 @@ Inverser la merdification nécessite une **réforme structurelle**. La solution 
 Ces mesures forceraient les entreprises à rivaliser sur la **qualité du produit** plutôt que sur le verrouillage et la manipulation.
 
 ## Conclusion
-La technologie elle-même n"est pas le problème ; c"est l’environnement qui régit son utilisation. La lutte pour un internet sain est désormais la lutte pour l’intégrité de la vie quotidienne. Seul le rétablissement de la **concurrence**, de l’**interopérabilité** et de l’**agence humaine** peut empêcher la technologie de poursuivre sa trajectoire d’« enshittification ».
+La technologie elle-même n"est pas le problème ; c’est l’environnement qui régit son utilisation. La lutte pour un internet sain est désormais la lutte pour l’intégrité de la vie quotidienne. Seul le rétablissement de la **concurrence**, de l’**interopérabilité** et de l’**agence humaine** peut empêcher la technologie de poursuivre sa trajectoire d’« enshittification ».

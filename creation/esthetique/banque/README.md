@@ -15,7 +15,7 @@ La banque de mots suivante propose des qualificatifs qui peuvent servir à préc
 
 Par exemple, plutôt que de dire :
 
-> C"est une expérience qui fait un peu peur.
+> C’est une expérience qui fait un peu peur.
 
 On peut en préciser 4 dimensions :
 

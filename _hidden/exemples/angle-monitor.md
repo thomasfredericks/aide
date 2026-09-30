@@ -14,7 +14,7 @@
 
 ### Dans l’espace global
 
-Comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche du *M5 Angle Unit*:
+Comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c’est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche du *M5 Angle Unit*:
 ```cpp
 #define MA_BROCHE_ANGLE 32
 ```

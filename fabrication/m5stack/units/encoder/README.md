@@ -8,12 +8,12 @@ Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/e
 
 Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capteur de rotation infinie équipé de 2 pixels RGB.
 
-C"est un *Unit* de type I²C tel qu’identifié par son connecteur rouge.
+C’est un *Unit* de type I²C tel qu’identifié par son connecteur rouge.
 
 > [!NOTE]
 > Il doit être connecté au M5Stack Grove HUB, au M5Stack PaHub ou directement au microcontrôleur!
 
-Un cran (Ticks / Pulses) est l’unité de mesure fondamentale d’un encodeur rotatif. C"est le plus petit mouvement angulaire que l’encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
+Un cran (Ticks / Pulses) est l’unité de mesure fondamentale d’un encodeur rotatif. C’est le plus petit mouvement angulaire que l’encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
 
 ## Bibliothèque logicielle M5_Encoder
 
