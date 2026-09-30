@@ -48,10 +48,10 @@ Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 
 | Méthode | Signification |
 |--|--|
-| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s"est écoulée |
+| `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s'est écoulée |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
-En combinant ces méthodes nous pouvons produire un bloc de code qui s"exécute à chaque `INTERVALLE` : 
+En combinant ces méthodes nous pouvons produire un bloc de code qui s'exécute à chaque `INTERVALLE` : 
 
 ```cpp
   if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l’INTERVALLE
@@ -61,21 +61,20 @@ En combinant ces méthodes nous pouvons produire un bloc de code qui s"exécute 
     }
 ```
 
-La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s"écoule.
+La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s'écoule.
 
 ### Schéma 
 
 ```mermaid
 flowchart TD
-    A[Démarrage] -> B[setup]
-    B -> C[loop]
-
-
-C -> D{Intervalle en millisecondes écoulé ?}
-
-D - Non -> C
-D - Oui -> E[Redémarrer minuterieDel]
-E -> C
+    A[Démarrage] ---> B[setup]
+    B ---> C[loop]
+    
+    C ---> D{Intervalle en millisecondes écoulé ?}
+    
+    D -->|Non| C
+    D -->|Oui| E[Redémarrer minuterieDel]
+    E ---> C
 ```
 
 ### Code
@@ -132,14 +131,14 @@ La fonction `digitalWrite()` permet d’envoyer une tension électrique sur une 
 
 ```mermaid
 flowchart TD
-    A[Démarrage] -> B[Configurer la DEL]
-    B -> C[Boucle loop]
-    C -> D{Intervalle écoulé ?}
-    D - Non -> C
-    D - Oui -> E[Redémarrer Chrono]
-    E -> F[Inverser étatDel]
-    F -> G[Modifier la DEL]
-    G -> C
+    A[Démarrage] --> B[Configurer la DEL]
+    B --> C[Boucle loop]
+    C --> D{Intervalle écoulé ?}
+    D -- Non --> C
+    D -- Oui --> E[Redémarrer Chrono]
+    E --> F[Inverser étatDel]
+    F --> G[Modifier la DEL]
+    G --> C
 ```
 
 ### Code
@@ -226,18 +225,18 @@ Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
 
 ```mermaid
 flowchart TD
-    A[Démarrage] -> B[Configurer la DEL]
-    B -> C[Configurer le bouton]
-    C -> D[Boucle loop]
+    A[Démarrage] --> B[Configurer la DEL]
+    B --> C[Configurer le bouton]
+    C --> D[Boucle loop]
 
-    D -> E[bouton.update]
-    E -> F{bouton.isPressed ?}
+    D --> E[bouton.update]
+    E --> F{bouton.isPressed ?}
 
-    F - Oui -> G[Allumer la DEL]
-    F - Non -> H[Éteindre la DEL]
+    F -- Oui --> G[Allumer la DEL]
+    F -- Non --> H[Éteindre la DEL]
 
-    G -> D
-    H -> D
+    G --> D
+    H --> D
 ```
 
 ### Code
@@ -331,16 +330,16 @@ Différence entre `isPressed()` et `pressed()` :
 
 ```mermaid
 flowchart TD
-    A[Démarrage] -> B[Configurer bouton et DEL]
-    B -> C[Boucle loop]
+    A[Démarrage] --> B[Configurer bouton et DEL]
+    B --> C[Boucle loop]
 
-    C -> D[bouton.update]
-    D -> E{bouton.pressed ?}
+    C --> D[bouton.update]
+    D --> E{bouton.pressed ?}
 
-    E - Non -> C
-    E - Oui -> F[Inverser etatDel]
-    F -> G[Appliquer etatDel à la DEL]
-    G -> C
+    E -- Non --> C
+    E -- Oui --> F[Inverser etatDel]
+    F --> G[Appliquer etatDel à la DEL]
+    G --> C
 ```
 
 ### Code
@@ -400,22 +399,22 @@ Une deuxième pression l’arrête.
 
 ```mermaid
 flowchart TD
-    A[Démarrage] -> B[Configurer la DEL]
-    B -> C[Configurer le bouton]
-    C -> D[Boucle loop]
+    A[Démarrage] --> B[Configurer la DEL]
+    B --> C[Configurer le bouton]
+    C --> D[Boucle loop]
 
-D -> E[bouton.update]
-E -> F{bouton.pressed ?}
-F - Oui -> G{Gestion du clignotement}
-F - Non -> K{clignotementActif ?}
-G -> K
-K - Non -> D
-K - Oui -> L{Intervalle écoulé ?}
-L - Non -> D
-L - Oui -> M[Redémarrer minuterieDel]
-M -> N[Inverser etatDel]
-N -> O[Modifier l’état de la DEL]
-O -> D
+D --> E[bouton.update]
+E --> F{bouton.pressed ?}
+F -- Oui --> G{Gestion du clignotement}
+F -- Non --> K{clignotementActif ?}
+G --> K
+K -- Non --> D
+K -- Oui --> L{Intervalle écoulé ?}
+L -- Non --> D
+L -- Oui --> M[Redémarrer minuterieDel]
+M --> N[Inverser etatDel]
+N --> O[Modifier l’état de la DEL]
+O --> D
 ```
 
 ### Code
@@ -481,7 +480,7 @@ void loop()
 }
 ```
 
-Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu"elle s"allume lorsque le clignotement est actif, modifiez la condition du bouton :
+Si vous voulez vous assurer que la DEL est éteinte lorsque le clignotement est inactif et qu"elle s'allume lorsque le clignotement est actif, modifiez la condition du bouton :
 
 ```cpp
   if (bouton.pressed())

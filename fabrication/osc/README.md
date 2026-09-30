@@ -4,7 +4,7 @@ L’*Open Sound Control* (OSC) est un protocole de communication inter-applicati
 
 ## Pourquoi l’OSC? 
 
-La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d’organiser les données, et s"appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L’OSC impose une structure particulière de l’information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
+La plupart des protocoles (COBS, JSON, FUDI, etc.) permettent une trop grande latitude dans la manière d’organiser les données, et s'appuient donc sur des architectures personnalisées spécifiques à chaque développeur. L’OSC impose une structure particulière de l’information que toutes les applications doivent supporter ce qui rend toute communication plus universelle : tout le monde parle la même langue!
 
 L’OSC fournit également une vérification (primitive) des erreurs de transmission, ce qui est très important lorsque l’on travaille avec flux susceptibles au bruit!
 
@@ -62,7 +62,7 @@ Voici quelques recommandations à suivre lorsque vous concevez votre propre serv
 
 ## Composition d’un bundle OSC
 
-Un bundle OSC contient plusieurs messages OSC. Il sert surtout à s"assurer que plusieurs messages arrivent simultanément au destinataire. 
+Un bundle OSC contient plusieurs messages OSC. Il sert surtout à s'assurer que plusieurs messages arrivent simultanément au destinataire. 
 
 ## Paquetage
 
@@ -88,15 +88,15 @@ Pour recevoir un message , il faut simplement spécifier le port de réception.
 
 #### Exemples d’architectures
 
-##### Un client sur une machine -> un serveur sur une autre machine
+##### Un client sur une machine --> un serveur sur une autre machine
 
 ![Un client qui envoie des message à un serveur](OSC_unidirectionnel.png)
 
-##### Une machine <-> une autre machine
+##### Une machine <--> une autre machine
 
 ![Deux clients/serveurs](OSC_bidirectionnel.png)
 
-##### Un client -> un serveur sur la même machine
+##### Un client --> un serveur sur la même machine
 
 L’architecture suivante  permet d’envoyer un message entre deux applications différentes sur la même machine (ou à l’intérieur de la même application). L’adresse IP  **localhost** ou **127.0.0.1** veut dire «la machine elle-même».
 

@@ -7,7 +7,7 @@ Source : [TouchDesigner Python Cheat Sheet for Developers - The Interactive & 
 Les **f-strings** permettent de formater rapidement des chaînes. Préfixez une chaîne avec `f` ou `F`, puis ajoutez des expressions entre accolades `{}`. Vous pouvez utiliser un spécificateur de format (comme `:.2f` pour deux décimales) après un `:` suivant la variable.
 
 
-La variable `piStr` s"évalue à _π est environ 3.14_ dans l’exemple suivant :
+La variable `piStr` s'évalue à _π est environ 3.14_ dans l’exemple suivant :
 ```python
 pi = 3.14159
 piStr = f"π est environ {pi:.2f}" 

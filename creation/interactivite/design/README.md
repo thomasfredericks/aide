@@ -6,8 +6,8 @@ Concevoir l’interactivité implique de penser à **trois niveaux**, étroiteme
 
 ```mermaid
 graph LR
-    Règles -> Système
-    Système -> Expérience
+    Règles --> Système
+    Système --> Expérience
 ```
 
 1. **Les règles sont les briques de base.**  
@@ -21,18 +21,18 @@ Illustration rapide - prenons *La chaise musicale* : 
 
 ### Concevoir l’interactivité, c’est travailler **à rebours** :  
 
-La conception s"effectue **à rebours** : 
+La conception s'effectue **à rebours** : 
 - **3. Expérience :** Que veux-tu que les joueurs ressentent ?  
 - **2. Système :** Quels dynamiques et motifs produisent ce ressenti ?  
 - **1. Règles :** Quelles instructions simples vont générer ce système ?  
 
 ```mermaid
 graph LR
-    1 -> Expérience
-    2 -> Système
-    3 -> Règles
-    Règles -> Système
-    Système -> Expérience
+    1 --> Expérience
+    2 --> Système
+    3 --> Règles
+    Règles --> Système
+    Système --> Expérience
 ```
 
 ### Règles 

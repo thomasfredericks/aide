@@ -12,7 +12,7 @@
 
 ## Ajouter l’intégration de MicroOsc
 
-S"assurer que *MicroOsc* est inclu et instancié dans **l’espace global**; ici l’instance est nommée `monOsc` :
+S'assurer que *MicroOsc* est inclu et instancié dans **l’espace global**; ici l’instance est nommée `monOsc` :
 ```cpp
 #include <MicroOscSlip.h>
 // Le 128 entre < > below est le nombre d’octets réservés à la réception de messages.

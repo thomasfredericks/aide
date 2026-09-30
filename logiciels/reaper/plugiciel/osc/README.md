@@ -11,10 +11,10 @@
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] -> Control[OSC Control Panel]
+    OSC[OSC UDP] --> Control[OSC Control Panel]
     subgraph Reaper
-    Control -> VKB[Virtual MIDI Keyboard]
-    VKB -> Plugiciel
+    Control --> VKB[Virtual MIDI Keyboard]
+    VKB --> Plugiciel
     end
 ```
 
@@ -24,9 +24,9 @@ graph LR
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] -> Control[OSC Control Panel]
+    OSC[OSC UDP] --> Control[OSC Control Panel]
     subgraph Reaper
-    Control -> VKB[Virtual MIDI Keyboard]
+    Control --> VKB[Virtual MIDI Keyboard]
     VKB ->|MIDI Note| Plugiciel
     end
 ```
@@ -43,11 +43,11 @@ Si le [défaut](../../osc/defaut/) est utilisé, voici le format du message OSC 
 
 ```mermaid
 graph LR
-    OSC[OSC UDP] -> Control[OSC Control Panel]
+    OSC[OSC UDP] --> Control[OSC Control Panel]
     subgraph Reaper
-    Control -> VK[Virtual MIDI Keyboard]
+    Control --> VK[Virtual MIDI Keyboard]
     VK ->|MIDI CC| LINK[MIDI Link]
-    LINK -> VST
+    LINK --> VST
     end
 ```
 

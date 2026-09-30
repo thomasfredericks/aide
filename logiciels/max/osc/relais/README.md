@@ -9,7 +9,7 @@
 ![](./cnmat.png)
 
 
-## Patcher Pure Data pour le relais des messages OSC SLIP -> UDP 
+## Patcher Pure Data pour le relais des messages OSC SLIP --> UDP 
 
 ![](./relais_osc_slip_udp.png)
 

@@ -88,7 +88,7 @@ def onProjectPreSave():
 		if comp.par.externaltox and comp.par.externaltox.eval():
 			tox_path = comp.par.externaltox.eval()
 			comp.save(tox_path)  # Save the component to its external .tox file
-			print(f"Saved: {comp.name} -> {tox_path}")
+			print(f"Saved: {comp.name} --> {tox_path}")
 	return
 
 def onProjectPostSave():

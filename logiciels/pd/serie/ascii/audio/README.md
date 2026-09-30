@@ -5,14 +5,14 @@ Dans cet exemple, l’Arduino agit comme une interface entre des boutons physiqu
 ```mermaid
 flowchart TD
 
-    A[Bouton 0 appuyé] -> B["Arduino envoie : bouton0 1"]
-    B -> C[Lecture du son clap]
+    A[Bouton 0 appuyé] --> B["Arduino envoie : bouton0 1"]
+    B --> C[Lecture du son clap]
 
-    D[Bouton 1 appuyé] -> E["Arduino envoie : bouton1 1"]
-    E -> F[Démarrage de la boucle break]
+    D[Bouton 1 appuyé] --> E["Arduino envoie : bouton1 1"]
+    E --> F[Démarrage de la boucle break]
 
-    G[Bouton 1 appuyé de nouveau] -> H["Arduino envoie : bouton1 0"]
-    H -> I[Arrêt de la boucle break]
+    G[Bouton 1 appuyé de nouveau] --> H["Arduino envoie : bouton1 0"]
+    H --> I[Arrêt de la boucle break]
 ```
 
 ## Envoi d’Arduino

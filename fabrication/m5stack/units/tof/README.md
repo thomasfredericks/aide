@@ -108,7 +108,7 @@ int mesure = myTOF.readRangeSingleMillimeters();
 > [!NOTE] 
 > Récupérer les erreurs seulement si nécessaire.
 
-**Optionnellement**, déterminer s"il y a eu une erreur de communication avec le TOF :
+**Optionnellement**, déterminer s'il y a eu une erreur de communication avec le TOF :
 ```cpp
 int erreur = myTOF.timeoutOccurred();
 ```

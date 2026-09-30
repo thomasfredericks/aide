@@ -205,7 +205,7 @@ Nous modifions aussi notre méthode `TraiterMesageBut0` du script `OscProcess` :
 ### Le patcher Pd
 
 > [!WARNING]
-> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s"assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c"est le bon ?
+> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s'assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c"est le bon ?
 
 Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pdchoco/osc_formatter`. Y entre les informations suivantes et appuyer sur `send` :
 - **address** : `but0` (ce qui correspond en OSC à /but0)

@@ -179,7 +179,7 @@ while (valeurCapteur > 250)
 digitalWrite(5, LOW);
 ```
 
-> Dans un programme interactif, il faut être prudent avec `while`. Une boucle qui attend qu"une condition change peut empêcher le reste du programme de s"exécuter.
+> Dans un programme interactif, il faut être prudent avec `while`. Une boucle qui attend qu"une condition change peut empêcher le reste du programme de s'exécuter.
 
 ### `for`
 

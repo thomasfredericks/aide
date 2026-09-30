@@ -54,7 +54,7 @@ M5_PbHub myPbHub;
 
 ### Code à ajouter à `setup()`
 
-S"assurer que `Wire` est initialisé : 
+S'assurer que `Wire` est initialisé : 
 ```cpp
 Wire.begin();
 ```

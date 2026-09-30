@@ -276,7 +276,7 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 | 45 | Un trou très profond. Qui l’a creusé ? Où mène-t-il |
 | 46 | Un marais avec des arbres pétrifiés s’entrelacent comme des membres noueux. |
 | 55 | Un poste frontalier animé et débordant d’activité. Dessiner un mur avec un passage entre deux biomes. Vous devez remplir des formulaires, lancez 1 dé de moins au prochain tour |
-| 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s"y baigne |
+| 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s'y baigne |
 | 66 | Un immense œuf dormant. Quelle créature est censée grandir à l’intérieur ? |
 
 

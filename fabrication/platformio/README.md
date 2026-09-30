@@ -9,7 +9,7 @@ Elle permet notamment de développer des programmes pour des cartes comme **Ardu
 - **Compiler et téléverser** du code sur des microcontrôleurs.
 - **Gérer automatiquement les bibliothèques** et leurs dépendances.
 - **Gérer plusieurs cartes et frameworks** (Arduino, ESP-IDF, Zephyr, etc.).
-- S"intègre avec **Visual Studio Code** grâce à l’extension PlatformIO.
+- S'intègre avec **Visual Studio Code** grâce à l’extension PlatformIO.
 
 ## Comparaison entre Arduino IDE et PlatformIO  
 

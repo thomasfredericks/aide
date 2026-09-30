@@ -19,7 +19,7 @@ Par exemple, une installation réactive qui détecte une personne et allume une 
 
 Une installation interactive pourrait faire :
 
-> présence → lumière → la personne s"approche → la lumière recule → la personne la suit → la lumière change de comportement → etc.
+> présence → lumière → la personne s'approche → la lumière recule → la personne la suit → la lumière change de comportement → etc.
 
 Le système *entretient une relation* plutôt qu"il ne déclenche simplement un effet.
 
@@ -58,7 +58,7 @@ Un exemple de faible interactivité :
 
 Un exemple d’une interactivité plus forte :
 
-> La personne bouge → le système interprète son mouvement → la personne saute → son image s"envole dans l’écran.
+> La personne bouge → le système interprète son mouvement → la personne saute → son image s'envole dans l’écran.
 
 Dans le deuxième cas, la personne peut commencer à se dire :
 

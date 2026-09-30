@@ -7,7 +7,7 @@ Source : [The Ensh*ttification of Everything with Cory Doctorow - YouTube](htt
 
 
 ## Vue d’ensemble
-Dans cette interview, **Adam Conover** s"entretient avec l’écrivain et activiste **Cory Doctorow** sur le concept d’« **enshittification** » (que l’on pourrait traduire par **« dégradation »** ou **« merdification »**), un terme inventé par Doctorow pour décrire la dégradation systématique des plateformes numériques. La discussion examine comment des plateformes autrefois utiles deviennent exploitantes, pourquoi ce schéma est devenu omnipérant et quels changements structurels pourraient l’inverser.
+Dans cette interview, **Adam Conover** s'entretient avec l’écrivain et activiste **Cory Doctorow** sur le concept d’« **enshittification** » (que l’on pourrait traduire par **« dégradation »** ou **« merdification »**), un terme inventé par Doctorow pour décrire la dégradation systématique des plateformes numériques. La discussion examine comment des plateformes autrefois utiles deviennent exploitantes, pourquoi ce schéma est devenu omnipérant et quels changements structurels pourraient l’inverser.
 
 ## Le concept de merdification
 Doctorow définit la merdification comme un cycle de vie prévisible des plateformes numériques, motivé par des incitations monopolistiques. Il se déroule en trois étapes :

@@ -4,7 +4,7 @@
 
 * Installer plugdata
 
-## S"assurer que plugdata est dans la chaine avant l’instrument ou l’effet
+## S'assurer que plugdata est dans la chaine avant l’instrument ou l’effet
 
 ![](ordre_fx.png)
 
@@ -14,4 +14,4 @@
 
 ## Convertir les messages OSC en MIDI (CC et notes) dans plugdata
 
-* S"inspirer du patcher qui démontre comment [convertir les messages OSC en MIDI (notes et CC)](/pd/osc/midi/)
+* S'inspirer du patcher qui démontre comment [convertir les messages OSC en MIDI (notes et CC)](/pd/osc/midi/)
