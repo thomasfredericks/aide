@@ -14,7 +14,7 @@ unsigned long monChronoMessages; // Utilisé dans loop() plus bas pour limiter l
 
 void setup() {
   M5.begin(false, false, false); // Démarrer la libraire M5 avec toutes les options désactivées
-  Serial.begin(115200); // Démarrer la connexion sérielle avec l"ordinateur
+  Serial.begin(115200); // Démarrer la connexion sérielle avec l’ordinateur
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1); // Ajouter le pixel du M5Atom à FastLED
 
   // Animation de démarrage

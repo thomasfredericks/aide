@@ -6,7 +6,7 @@
 
 ![](./code_creation_variable.drawio.png)
 
-Une variable permet de stocker une valeur en mémoire afin de pouvoir l"utiliser ou la modifier dans le programme.
+Une variable permet de stocker une valeur en mémoire afin de pouvoir l’utiliser ou la modifier dans le programme.
 
 La syntaxe générale est :
 
@@ -119,14 +119,14 @@ void clignote(int broche, int intervalle)
 }
 ```
 
-Les valeurs des paramètres peuvent alors être précisées lors de l"appel de la fonction :
+Les valeurs des paramètres peuvent alors être précisées lors de l’appel de la fonction :
 
 ```cpp
 clignote(5, 1000);
 clignote(3, 250);
 ```
 
-Dans cet exemple, `5` correspond à la broche et `1000` à l"intervalle.
+Dans cet exemple, `5` correspond à la broche et `1000` à l’intervalle.
 
 ## Les opérateurs logiques
 

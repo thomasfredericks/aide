@@ -20,7 +20,7 @@ Les caractéristiques recherchées sont :
 
 Chaque son doit avoir un rôle clair dans l’expérience.  
 
-- **Feedback d’une action de l"utilisateur**  
+- **Feedback d’une action de l’utilisateur**  
     - Confirmer qu"une action a eu lieu  
     - Récompenser un comportement  
     - Indiquer la qualité d’une action  
@@ -28,7 +28,7 @@ Chaque son doit avoir un rôle clair dans l’expérience.
         - Faire du son un outil de performance  
     - Indiquer une action soutenue  
 
-- **Indication de l"émotion à ressentir**  
+- **Indication de l’émotion à ressentir**  
     - Présager un événement futur  
     - Contrôler la tension  
     - Renforcer une émotion (stresser ou calmer)  
@@ -37,12 +37,12 @@ Chaque son doit avoir un rôle clair dans l’expérience.
     - Servir de repère temporel (ex. temps restant, rythme de progression)  
 
 - **Navigation et orientation**  
-    - Guider à travers l"espace (localiser une source sonore)  
+    - Guider à travers l’espace (localiser une source sonore)  
     - Installer une routine en favorisant le calme et la continuité  
     - Indiquer le lieu ou la zone d’intérêt  
 
 - **Renforcement physique ou sensoriel**  
-    - Renforcer la crédibilité physique de l"environnement virtuel  
+    - Renforcer la crédibilité physique de l’environnement virtuel  
     - Donner du poids et de l’impact à une action  
 
 

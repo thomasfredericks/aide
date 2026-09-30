@@ -1,4 +1,4 @@
-# Pd : Activation de l"audio
+# Pd : Activation de l’audio
 
 Pure Data nécessite d’activer manuellement le traitement du signal numérique (DSP) pour que les objets audio (générateurs, filtres, entrées/sorties de carte son) émettent ou traitent du son.
 

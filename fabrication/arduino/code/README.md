@@ -28,12 +28,12 @@ La fonction `digitalWrite()` permet d’envoyer un niveau électrique sur une br
 
 ## `digitalRead()`
 
-La fonction `digitalRead()` permet de lire l"état logique d’une broche configurée comme entrée :
+La fonction `digitalRead()` permet de lire l’état logique d’une broche configurée comme entrée :
 
 | Syntaxe | Valeur retournée | Signification |
 |--|--|--|
-| `digitalRead(BROCHE)` | `LOW` | La broche est à l"état logique bas |
-| `digitalRead(BROCHE)` | `HIGH` | La broche est à l"état logique haut |
+| `digitalRead(BROCHE)` | `LOW` | La broche est à l’état logique bas |
+| `digitalRead(BROCHE)` | `HIGH` | La broche est à l’état logique haut |
 
 ## `analogRead()`
 
@@ -51,7 +51,7 @@ La fonction `delay()` permet d’attendre pendant une durée exprimée en millis
 
 | Syntaxe | Signification |
 |--|--|
-| `delay(DUREE)` | Bloque l"exécution du programme pendant `DUREE` millisecondes |
+| `delay(DUREE)` | Bloque l’exécution du programme pendant `DUREE` millisecondes |
 
 > [!WARNING]
 > Il faut éviter d’utiliser `delay()`.
@@ -69,7 +69,7 @@ Documentation supplémentaire : [millis()](./millis/)
 
 ## `Serial`
 
-La classe `Serial` permet de communiquer avec l"ordinateur ou un autre appareil par une liaison série. Consulter la documentation à la page qui y est dédiée  : [serial()](./serial/)
+La classe `Serial` permet de communiquer avec l’ordinateur ou un autre appareil par une liaison série. Consulter la documentation à la page qui y est dédiée  : [serial()](./serial/)
 
 ## `random()`
 

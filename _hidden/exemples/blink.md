@@ -10,7 +10,7 @@
 
 ## Le code à ajouter
 
-### Dans l"espace global
+### Dans l’espace global
 
 Noud déclarons une variable  `pixel` :
 ```cpp
@@ -55,7 +55,7 @@ unsigned long interactionChrono;
 
 void setup() {
   M5.begin(false, false, false);  // Démarrer la libraire M5 avec toutes les options désactivées
-  Serial.begin(115200);  // Démarrer la connexion sérielle avec l"ordinateur
+  Serial.begin(115200);  // Démarrer la connexion sérielle avec l’ordinateur
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1);  // Ajouter le pixel du M5Atom à FastLED
 }
 

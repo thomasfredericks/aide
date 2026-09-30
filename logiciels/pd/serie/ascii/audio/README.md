@@ -1,6 +1,6 @@
 # Tutoriel : Arduino, Pd, ASCII et audio
 
-Dans cet exemple, l"Arduino agit comme une interface entre des boutons physiques et le moteur audio de Pure Data. Chaque interaction avec un bouton est convertie en un message texte (ASCII) envoyé par le port série. Pure Data reçoit ensuite ces messages et exécute l"action sonore correspondante. 
+Dans cet exemple, l’Arduino agit comme une interface entre des boutons physiques et le moteur audio de Pure Data. Chaque interaction avec un bouton est convertie en un message texte (ASCII) envoyé par le port série. Pure Data reçoit ensuite ces messages et exécute l’action sonore correspondante. 
 
 ```mermaid
 flowchart TD
@@ -27,7 +27,7 @@ Lorsqu"un bouton est actionné, Arduino envoie un des messages suivants :
 
 Le caractère de fin de ligne ajouté par `Serial.println()` permet à Pure Data de savoir où se termine chaque message.
 
-Le bouton 1 utilise une variable booléenne (`lectureBoucle`) pour mémoriser l"état de la boucle. À chaque nouvel appui, la variable change d’état :
+Le bouton 1 utilise une variable booléenne (`lectureBoucle`) pour mémoriser l’état de la boucle. À chaque nouvel appui, la variable change d’état :
 
 ```text
 false → true  → envoi de "bouton1 1"

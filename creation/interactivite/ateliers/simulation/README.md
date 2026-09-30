@@ -9,9 +9,9 @@
 
 **Contraintes :**  
 - Aucun écran.   
-- Aucune communication verbale entre l"équipe de conception et les joueurs.
+- Aucune communication verbale entre l’équipe de conception et les joueurs.
 - Aucune communication écrite (les nombres sont permis).
-- Les interfaces et les automatisations sont simulées par l"équipe de conception.
+- Les interfaces et les automatisations sont simulées par l’équipe de conception.
 
 **Matériel :**  
 - Papier, marqueurs, post-it  

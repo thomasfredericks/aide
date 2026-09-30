@@ -11,7 +11,7 @@ Elle fournit :
 
 Code source de la bibliothèque logicielle : [git de MicroNet](https://github.com/thomasfredericks/MicroNet)
 
-Pour l"ajouter dans PlatformIO, ajouter à `lib_deps` dans `plarformio.ini` :
+Pour l’ajouter dans PlatformIO, ajouter à `lib_deps` dans `plarformio.ini` :
 ```cpp
 lib_deps = 
     https://github.com/thomasfredericks/MicroNet

@@ -87,6 +87,6 @@ Bibliographie sélective d’ouvrages disponibles à la bibliothèque du collèg
 
 - [Strangers need strange moments together : designing interaction for public spaces](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624110&data=05)
 
-### Guide de l"industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency
+### Guide de l’industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency
 
-- [Guide de l"industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624266&data=05)
+- [Guide de l’industrie numérique 2025. › Catalogue en ligne Bibliothèque Collège Montmorency](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624266&data=05)

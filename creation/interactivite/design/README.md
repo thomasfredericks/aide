@@ -1,4 +1,4 @@
-# Design de l"interactivité
+# Design de l’interactivité
 
 ## Règles → Système → Expérience
 

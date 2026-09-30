@@ -21,7 +21,7 @@ La bande de LED possède trois connexions :
 
 | Bande de LED | Fonction |
 |--|--|
-| `GND` | GND commun entre l"alimentation et l"Atom |
+| `GND` | GND commun entre l’alimentation et l’Atom |
 | `DI` | Signal de données |
 | `+12V` | Alimentation 12 V |
 
@@ -55,7 +55,7 @@ subgraph ATOM["Atom"]
 end
 ````
 
-Le `GND` de l"Atom et le `GND` de la bande LED doivent être **communs** afin que le signal de données ait la même référence électrique.
+Le `GND` de l’Atom et le `GND` de la bande LED doivent être **communs** afin que le signal de données ait la même référence électrique.
 
 > [!WARNING]
 > Ne jamais appliquer directement 12 V sur une entrée GPIO. Vérifier la tension d’alimentation réellement acceptée par le modèle exact d’Atom utilisé avant de raccorder son alimentation.

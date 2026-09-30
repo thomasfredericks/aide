@@ -1,8 +1,8 @@
 # Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5
 
-## Documentation de l"API du bouton du M5Stack Atom Lite
+## Documentation de l’API du bouton du M5Stack Atom Lite
 
-La documentation complète de l"API du bouton du M5Stack Atom Lite se trouve ici : [https://docs.m5stack.com/en/api/atom/button](https://docs.m5stack.com/en/api/atom/button)
+La documentation complète de l’API du bouton du M5Stack Atom Lite se trouve ici : [https://docs.m5stack.com/en/api/atom/button](https://docs.m5stack.com/en/api/atom/button)
 
 ## Code à intégrer dans *setup()*
 
@@ -10,7 +10,7 @@ Le bouton du M5Stack Atom Lite ne nécessite aucune configuration à ajouter dan
 
 ## Code à intégrer dans la boucle de mise à jour de *loop()*
 
-Utiliser l"une des variantes suivantes selon vos besoins. 
+Utiliser l’une des variantes suivantes selon vos besoins. 
 
 
 ### Valider si le bouton est **présentement** relâché

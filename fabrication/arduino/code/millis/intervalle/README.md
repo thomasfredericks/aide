@@ -2,9 +2,9 @@
 
 Cette page présente un algorithme qui permet de contrôler la vitesse à laquelle un bout de code se répète. Il est particulièrement utile pour remplacer `delay()`.
 
-## Implémenter l"algorithme
+## Implémenter l’algorithme
 
-### À ajouter dans l"espace global (au début du code)
+### À ajouter dans l’espace global (au début du code)
 
 Créer une variable **globale** pour mettre en mémoire le temps de départ du chronomètre :
 ```cpp
@@ -21,13 +21,13 @@ monChronoDepart = millis(); // TEMPS DE DÉPART
 
 #### Temps écoulé
 
-Pour calculer le temps écoulé on utilise l"extrait suivant : 
+Pour calculer le temps écoulé on utilise l’extrait suivant : 
 ```cpp
 ( millis() - monChronoDepart ) // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```
 
 #### Temps écoulé dépasse un intervalle
-On peut vérifier si le temps écoulé dépasse 50 millisecondes avec l"extrait suivant :
+On peut vérifier si le temps écoulé dépasse 50 millisecondes avec l’extrait suivant :
 ```cpp
 if ( millis() - monChronoDepart >= 50 ) {
 
@@ -43,7 +43,7 @@ monChronoDepart = millis(); // REDÉMARRER LE CHRONOMÈTRE
 
 ## Remplacer le *delay()* dans *loop()* pour ralentir la vitesse de la boucle
 
-Un `delay()` est souvent utilisé pour ralentir l"exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
+Un `delay()` est souvent utilisé pour ralentir l’exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
 
 Par exemple, dans cet extrait de code, un `delay()` est utilisé pour ralentir la vitesse de la boucle :
 ```cpp
@@ -55,7 +55,7 @@ void loop() {
 }
 ```
 
-Dans cette version optimisée, le `delay()` a été remplacé par l"algorithme d’intervalle :
+Dans cette version optimisée, le `delay()` a été remplacé par l’algorithme d’intervalle :
 ```cpp
 unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autres variables globales
 

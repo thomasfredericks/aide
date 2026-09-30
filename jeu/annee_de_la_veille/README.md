@@ -32,7 +32,7 @@ S’il existe une question avec laquelle vous êtes aux prises dans votre propre
 
 
 > [!IMPORTANT]
-> La communauté n"est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l"histoire et ne font pas partie de la communauté. 
+> La communauté n"est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne font pas partie de la communauté. 
 
 ## L’évènement de la veille
 
@@ -64,7 +64,7 @@ Ce qui est à l’intérieur de ce périmètre appartient à la communauté et t
 
 ### Situation de la communauté
 
-Nous devons situer la communauté dans le temps et dans l"espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C"est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
+Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C"est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n"est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
 Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
@@ -75,7 +75,7 @@ Nous serons invités à incarner différents membres de la communauté au fil de
 Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, même s’il s’agit d’une ou d’une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
 
 > [!IMPORTANT]
-> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l"histoire et ne sont pas natifs à notre territoire.
+> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne sont pas natifs à notre territoire.
 
 À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son nid ou de son lieu de vie. Nous esquissons ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
 
@@ -121,7 +121,7 @@ Par exemple :
 
 ## Ce qui a été pris
 
-Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l"homme.
+Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l’homme.
 
 Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
 
@@ -144,7 +144,7 @@ Ces règles tentent de montrer à quel point il est difficile de donner la parol
 
 ## Le tour d’une joueuse ou d’un joueur
 
-Chaque tour d’une joueuse ou d’un joueur équivaut à une semaine de temps dans le jeu. Il est composé de trois actions. Il faut compléter les deux premières et choisir l"une des trois dernières.
+Chaque tour d’une joueuse ou d’un joueur équivaut à une semaine de temps dans le jeu. Il est composé de trois actions. Il faut compléter les deux premières et choisir l’une des trois dernières.
 
 1. Tirer un évènement.
 2. Travailler sur les projets.
@@ -160,7 +160,7 @@ La plupart des évènements comportent deux options parmi lesquelles nous devons
 L’évènement peut poser une question, apporter de mauvaises nouvelles ou créer de nouvelles occasions. C’est à la personne qui a tiré l’évènement qu’il revient de prendre les décisions.
 
 > [!TIP]
-> Quand l"évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
+> Quand l’évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
 
 Si un évènement mentionne des éléments non présents sur la cart, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d’utiliser du texte.
 
@@ -325,13 +325,13 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 | 1 | Un émissaire humain arrive à la communauté pour proposer du commerce. Comment la communauté réagit-elle ? **Mettez-vous d’accord sur quelque chose** concernant cette personne. | ou | Un soldat humain est capturé à proximité de la communauté avec des cartes et d’autres outils de reconnaissance. **Commencez un Projet** basé sur la réaction de la communauté. |
 | 2 | Un personnage entêté décide de mener un groupe de pillage pour prendre des ressources à un établissement humain voisin. **Un projet échoue** par manque de membres de la communauté disposés à y travailler. | ou | Un personnage entêté insiste pour que tous les membres de la communauté soient entraînés à repousser les humains. **Aucun dé de projet n"est réduit cette semaine.** |
 | 3 | Un personnage appelle à la paix avec les humains. **Mettez-vous d’accord sur quelque chose** concernant la raison pour laquelle c"est une bonne ou une mauvaise idée. | ou | L’un d’entre vous commence à manifester de nouvelles qualités humaines. Quelles sont-elles ? |
-| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu"est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l"occupation. Qu"est-ce que c"est ? Qui la découvre ? |
-| 5 | En préparation de l"année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
-| 6 | À quoi ressemble l"hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
+| 4 | Une relique humaine se réveille, effrayant ceux qui vivent à proximité. Qu"est-ce que c"est ? | ou | Une grande atrocité est révélée du temps de l’occupation. Qu"est-ce que c"est ? Qui la découvre ? |
+| 5 | En préparation de l’année à venir, la communauté entreprend une œuvre colossale. Lancez un projet qui prendra au moins 5 semaines à accomplir. | | |
+| 6 | À quoi ressemble l’hiver dans cette région ? Quelle est la réaction la plus courante face à cette météo ? | ou | Une partie des membres de la communauté entre en hibernation ou en métamorphose. Comment la communauté doit-elle se démener pour compenser son absence ? |
 | 7 | Le moment est venu de consolider vos efforts et vos frontières. Les projets situés en dehors de la communauté échouent, et tous les projets restants voient leur dé réduit de 2 cette semaine. | ou | Quelqu"un commence à construire un endroit pour élever de jeunes membres de la communauté. **Commencez un Projet** pour refléter son entreprise. |
 | 8 | Un étranger infecté arrive en quête d’asile. Il apporte avec lui des ressources dont vous avez grand besoin. Accueillez-le dans la communauté. Retirez une Pénurie, mais introduisez également une infection dans la communauté. | ou | Un groupe d’humain vous pille une ressource. Si c"était une abondance, elle est maintenant une pénurie. Si c"était une pénurie, comment son manque se fait-il encore plus ressentir ? |
-| 9 | C"est le moment d’économiser l"énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C"est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
-| 10 | Un personnage disparaît pendant la nuit. Tout ce que l"on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu"il a été sauvé ? Par qui ?|
-| 11 | Les rigueurs de l"hiver détruisent une source de nourriture. Si c"était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l"hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
+| 9 | C"est le moment d’économiser l’énergie et les ressources. Un projet échoue, mais gagnez une Abondance. | ou | C"est le moment des derniers efforts et du travail précipité. Un projet se termine plus tôt que prévu, mais gagnez une Pénurie. |
+| 10 | Un personnage disparaît pendant la nuit. Tout ce que l’on trouve est un corps, manifestement assassiné par des armes humaines. | ou | Un personnage disparaît dans les éléments hivernaux. La communauté organise des équipes de recherche constantes et le personnage est finalement retrouvé sain et sauf, manifestement sauvé par la gentillesse humaine. Où est-ce qu"il a été sauvé ? Par qui ?|
+| 11 | Les rigueurs de l’hiver détruisent une source de nourriture. Si c"était votre seule source de nourriture, ajoutez une Pénurie. | ou | Les rigueurs de l’hiver laissent tout le monde transi de froid, épuisé et misérable. Les dés de projet ne sont pas réduits cette semaine. |
 | 12 | Un rituel festif révèle un bon présage. Quel est le rituel ? Quel est le présage ? | | |
 | 13 | Les humains sont arrivés. La partie est terminée. | | |

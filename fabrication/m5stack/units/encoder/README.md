@@ -4,7 +4,7 @@
 
 Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
 
-![Photo de l"avant et l"arrière du M5Stack Unit Encoder](./unit_encoder.png)
+![Photo de l’avant et l’arrière du M5Stack Unit Encoder](./unit_encoder.png)
 
 Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capteur de rotation infinie équipé de 2 pixels RGB.
 
@@ -13,7 +13,7 @@ C"est un *Unit* de type I²C tel qu"identifié par son connecteur rouge.
 > [!NOTE]
 > Il doit être connecté au M5Stack Grove HUB, au M5Stack PaHub ou directement au microcontrôleur!
 
-Un cran (Ticks / Pulses) est l"unité de mesure fondamentale d’un encodeur rotatif. C"est le plus petit mouvement angulaire que l"encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
+Un cran (Ticks / Pulses) est l’unité de mesure fondamentale d’un encodeur rotatif. C"est le plus petit mouvement angulaire que l’encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
 
 ## Bibliothèque logicielle M5_Encoder
 
@@ -31,9 +31,9 @@ lib_deps =
 ```
 
 > [!WARNING]
-> Il est important de respecter la disposition et l"indentation de la section lib_deps!
+> Il est important de respecter la disposition et l’indentation de la section lib_deps!
 
-### Code obligatoire à ajouter à **l"espace global**
+### Code obligatoire à ajouter à **l’espace global**
 
 Importer et créer une instance de la classe `M5_Encoder` (nommée `myEncoder` dans cet exemple) :
 ```cpp
@@ -59,9 +59,9 @@ Démarrer `myEncoder` : 
 
 ### Code obligatoire à mettre dans `loop()`
 
-Il est nécessaire de mettre à jour les valeurs de l"encodeur avant de les récupérer. Il faut ainsi appeler la méthode `myEncoder.update()` à chaque `loop()`.
+Il est nécessaire de mettre à jour les valeurs de l’encodeur avant de les récupérer. Il faut ainsi appeler la méthode `myEncoder.update()` à chaque `loop()`.
 ```cpp
-    // Mise à jour des valeurs de l"encodeur. 
+    // Mise à jour des valeurs de l’encodeur. 
     // Doit être appelé régulièrement.
     // Doit être appelé avant de lire les valeurs.
     myEncoder.update();
@@ -69,19 +69,19 @@ Il est nécessaire de mettre à jour les valeurs de l"encodeur avant de les réc
 
 ### Lecture de la rotation
 
-La rotation représente la somme de tous les crans accumulés par l"encodeur depuis le démarrage du programme :
- - Si l"encodeur est tourné dans le sens horaire, la valeur augmente.
- - Si l"encodeur est tourné dans le sens anti-horaire, la valeur diminue.
+La rotation représente la somme de tous les crans accumulés par l’encodeur depuis le démarrage du programme :
+ - Si l’encodeur est tourné dans le sens horaire, la valeur augmente.
+ - Si l’encodeur est tourné dans le sens anti-horaire, la valeur diminue.
   
 
 
 Une note à propos des valeurs limites : 
- - Si l"encodeur continue de tourner dans le sens horaire, rendue à 32 767, elle tombe à -32 768 à la prochaine rotation
- - Si l"encodeur continue de tourner dans le sens anti-horaire, rendue à -32 768, elle va déborder et passer à sa valeur maximale 32 767 à la prochaine rotation.
+ - Si l’encodeur continue de tourner dans le sens horaire, rendue à 32 767, elle tombe à -32 768 à la prochaine rotation
+ - Si l’encodeur continue de tourner dans le sens anti-horaire, rendue à -32 768, elle va déborder et passer à sa valeur maximale 32 767 à la prochaine rotation.
 
-Obtenir la rotation accumulée de l"encodeur :
+Obtenir la rotation accumulée de l’encodeur :
 ```cpp
-    // Lecture de la rotation de l"encodeur
+    // Lecture de la rotation de l’encodeur
     int valeurEncodeur = myEncoder.getEncoderRotation();
 ```
 
@@ -94,7 +94,7 @@ Le changement de rotation est un entier qui peut être :
 
 La méthode `getEncoderChange()` fournit la vitesse angulaire effective (exprimée en crans par intervalle de mise à jour) qui s"est produite depuis le dernier rafraîchissement.
 
-Obtenir le changement de rotation de l"encodeur :
+Obtenir le changement de rotation de l’encodeur :
 ```cpp
    // Lecture du changement depuis la dernière lecture
     int changementEncodeur = myEncoder.getEncoderChange();
@@ -102,7 +102,7 @@ Obtenir le changement de rotation de l"encodeur :
 
 ### Lecture du bouton
 
-Obtenir l"état du bouton :
+Obtenir l’état du bouton :
 ```cpp
      // Lecture du bouton 
     int etatBouton = myEncoder.getButtonState();

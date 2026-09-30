@@ -1,6 +1,6 @@
 # Reaper : Échantillonneur
 
-La lecture d’échantillons (_samples_ en anglais) se fait avec un _échantillonneur_ (_sampler_ en anglais). Reaper est distribué avec l"_échantillonneur_ **ReaSamplOmatic5000** qui peut être ajouté à une piste et être contrôlé par MIDI ou par OSC (avec  le Virtual Midi Keyboard).
+La lecture d’échantillons (_samples_ en anglais) se fait avec un _échantillonneur_ (_sampler_ en anglais). Reaper est distribué avec l’_échantillonneur_ **ReaSamplOmatic5000** qui peut être ajouté à une piste et être contrôlé par MIDI ou par OSC (avec  le Virtual Midi Keyboard).
 
 ![Ajout du VST ReaSamplOmatic5000 à une piste](./ajout_reasamplomatic5000.png)
 
@@ -11,7 +11,7 @@ La lecture d’échantillons (_samples_ en anglais) se fait avec un _échantillo
 
 > [!NOTE]
 > Peu importe le mode utilisé, il ne faut oublier de copier les échantillons dans votre dossier de projet Reaper.
-> Il faut ensuite glisser l"échantillon dans ReaSamplOmatic5000.
+> Il faut ensuite glisser l’échantillon dans ReaSamplOmatic5000.
 
 ## ReaSamplOmatic5000 mode hauteur (_pitched_)
 
@@ -24,7 +24,7 @@ La lecture d’échantillons (_samples_ en anglais) se fait avec un _échantillo
 ## ReaSamplOmatic5000 mode multiple
 
 - Ce mode permet de jouer plusieurs échantillons différents.
-- La valeur de la note MIDI sélectionne l"échantillon.
+- La valeur de la note MIDI sélectionne l’échantillon.
 - Ce mode nécessite **un** ReaSamplOmatic5000 **pour chaque échantillon**!
 
 ![Configuration de 3x ReaSamplOmatic5000 pour jouer des échantillons différents selon les notes 60,61 et 62](./ReaSamplOmatic5000_mode_mult.png)   

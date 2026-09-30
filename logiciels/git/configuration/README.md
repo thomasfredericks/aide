@@ -1,4 +1,4 @@
-# Configuration de l"identité Git
+# Configuration de l’identité Git
 
 L’identité Git (nom et adresse e-mail) peut être configurée à l’échelle globale, ce qui est pratique, car cela évite de la redéfinir pour chaque dépôt. Cependant, dans certains cas, on préfère la configurer à l’échelle locale (dans un dépôt spécifique), par exemple si l’on utilise différentes identités pour le travail, les projets personnels ou différentes plateformes comme GitHub et Codeberg.
 

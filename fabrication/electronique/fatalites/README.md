@@ -1,7 +1,7 @@
 
 # Erreur fatale : court circuit
 
-Ici, le pôle positif (+) et le pôle négatif (-) sont connectés dans la même colonne d’alimentation; cette erreur fatale risque d’endommager l"alimentation USB de l"ordinateur! 
+Ici, le pôle positif (+) et le pôle négatif (-) sont connectés dans la même colonne d’alimentation; cette erreur fatale risque d’endommager l’alimentation USB de l’ordinateur! 
 
 ![Erreur fatale : court circuit](./erreur_fatale_1.SVG)
 
@@ -14,4 +14,4 @@ Ici, le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur 
 
 # Quoi faire en cas d’erreur fatale?
 
-![Débrancher l"USB en cas d’erreur fatale](./erreur_fatale_quoi_faire.SVG) 
+![Débrancher l’USB en cas d’erreur fatale](./erreur_fatale_quoi_faire.SVG) 

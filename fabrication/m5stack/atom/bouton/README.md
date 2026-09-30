@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Le bouton est relié à la broche `39` de l"ESP32 du Atom Lite.
+Le bouton est relié à la broche `39` de l’ESP32 du Atom Lite.
 
 ## Code à intégrer
 
-### Dans l"espace global
+### Dans l’espace global
 
 Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp

@@ -13,7 +13,7 @@
 
 ## Configuration et démarrage de «slipWebDemo
 
-![Démarrez l"invite de commande](./Diapositive1.SVG)
+![Démarrez l’invite de commande](./Diapositive1.SVG)
 
 ![Démarrez le script Node.js «slipDemo.js»](./Diapositive2.SVG)
 

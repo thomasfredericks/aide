@@ -28,7 +28,7 @@ Le calcul repose sur trois étapes :
 2. **Mettre à l’échelle** cette valeur normalisée vers la plage de sortie
 3. **Limiter** le résultat pour éviter les dépassements (clamp)
 
-Formule générale de normalisation et de mise à l"échelle :
+Formule générale de normalisation et de mise à l’échelle :
 
 ```cpp
 (value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin

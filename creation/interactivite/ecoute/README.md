@@ -1,6 +1,6 @@
 # Écoute
 
-Source de l"information sur cette page : p41-24 de L’art du Game Design de Jesse Schell, 2020.
+Source de l’information sur cette page : p41-24 de L’art du Game Design de Jesse Schell, 2020.
 
 La plus importante des compétences d’un concepteur d’expériences interactives pourrait paraître un peu étrange pour certains. Beaucoup vont sans doute penser à la « créativité », mais je la placerais plutôt en deuxième position.
 

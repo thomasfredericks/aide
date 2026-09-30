@@ -2,9 +2,9 @@
 
 ## Préalables
 
-L’intégration de MicroOscUdp est assez simple. Ce qui est plus complexe, est le démarrage de la réseautique et de l"UDP. 
+L’intégration de MicroOscUdp est assez simple. Ce qui est plus complexe, est le démarrage de la réseautique et de l’UDP. 
 
-L’initialisation du réseau est un préalable à l"utilisation de MicroOscUdp. La bibliothèque logicielle MicroNet est recommandée pour réaliser cette tâche complexe.
+L’initialisation du réseau est un préalable à l’utilisation de MicroOscUdp. La bibliothèque logicielle MicroNet est recommandée pour réaliser cette tâche complexe.
 
 ## Installation de MicroOscUdp
 
@@ -22,7 +22,7 @@ lib_deps =
 
 ## Intégration de MicroOscUdp
 
-### Dans l"espace global
+### Dans l’espace global
 
 Inclure et initaliser MicroOsc :
 ```cpp
@@ -33,7 +33,7 @@ MicroOscUdp<1024> monOsc(&monUdp); // <#> : nombre d’octets pour la récepti
 
 ### Dans `setup()`
 
-Initialiser l"UDP :
+Initialiser l’UDP :
 ```cpp
 unsigned int myReceptionPort = 8001; // changer pour le bon port
 myUdp.begin(myReceptionPort);

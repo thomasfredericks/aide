@@ -4,7 +4,7 @@
 
 * Installer plugdata
 
-## S"assurer que plugdata est dans la chaine avant l"instrument ou l"effet
+## S"assurer que plugdata est dans la chaine avant l’instrument ou l’effet
 
 ![](ordre_fx.png)
 

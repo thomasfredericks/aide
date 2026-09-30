@@ -18,7 +18,7 @@ lib_deps =
 
 ## Intégration 
 
-### Dans l"espace global
+### Dans l'espace global
 
 ```cpp
 #include <MicroOscSlip.h>
@@ -50,17 +50,17 @@ monOsc.sendInt(adresse, valeur);
 ```
 
 Les arguments de `sendInt()` sont :
-- `adresse` : une chaîne de caractères (`const char *`) comme `"/but0"`, `"/apha"` ou `"/beta"` qui défini l"adresse OSC du message.
+- `adresse` : une chaîne de caractères (`const char *`) comme `"/but0"`, `"/apha"` ou `"/beta"` qui défini l'adresse OSC du message.
 - `valeur` : un entier (`int32_t`) qui est la valeur à envoyer.
 
 ![](microosc_sendInt.drawio.png)
 
-Par exemple, pour envoyer la valeur de la variable `maVariable` à l"adresse OSC `/alpha` :
+Par exemple, pour envoyer la valeur de la variable `maVariable` à l'adresse OSC `/alpha` :
 ```cpp
 monOsc.sendInt( "/alpha" , maVariable);
 ```
 
-Un autre exemple qui envoie la valeur de la variable `maLectureAnalogique` à l"adresse OSC `/beta` :
+Un autre exemple qui envoie la valeur de la variable `maLectureAnalogique` à l'adresse OSC `/beta` :
 ```cpp
 monOsc.sendInt( "/beta" , maLectureAnalogique);
 ```

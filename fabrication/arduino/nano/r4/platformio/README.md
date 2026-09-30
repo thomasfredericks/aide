@@ -20,7 +20,7 @@ lib_deps =
 Sous Windows, parfois les pilotes ne sont pas installés automatiquement et doivent être installés manuellement :
 
 - Télécharger les pilotes : [drivers_renesas.zip](drivers_renesas.zip)
-- Décompresser l"archive. 
+- Décompresser l’archive. 
 - Installer le pilote avec un clic droit sur le fichier `renesas.inf`.
 
 ![Installation du pilote sous Windows](./installer_pilotes_windows.png)

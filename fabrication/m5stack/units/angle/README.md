@@ -9,16 +9,16 @@ Page officielle : [Unit Angle](https://docs.m5stack.com/en/unit/angle).
 
 ## Connexion
 
-Connecter l"unité **M5Stack Angle** au connecteur Grove blanc du contrôleur.
+Connecter l’unité **M5Stack Angle** au connecteur Grove blanc du contrôleur.
 
-La lecture de la rotation s"effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l"unité **M5Stack Angle** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l"angle :
+La lecture de la rotation s"effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l’unité **M5Stack Angle** est connectée au connecteur blanc du Atom Lite, c"est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l’angle :
 
 ![La connectique du M5Stack Angle](angle-to-atom.png)
 
 
 ## Code à intégrer
 
-### Dans l"espace global
+### Dans l’espace global
 
 Bien que cela ne soit pas absolument nécessaire, c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
@@ -61,7 +61,7 @@ int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 #### Rappel sur comment changer une couleur
 
 ```cpp
-pixelAtom = CRGB( 255 , 255 , 255 ); // pixelAtom a été déclaré dans l"espace global
+pixelAtom = CRGB( 255 , 255 , 255 ); // pixelAtom a été déclaré dans l’espace global
 FastLED.show();
 ```
 ![](./code_crgb.drawio.png)
@@ -70,7 +70,7 @@ FastLED.show();
 
 ```cpp
 int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
-pixelAtom = CRGB( maLectureAngle * 255 / 4095 , 0 , 0 ); // pixelAtom a été déclaré dans l"espace global
+pixelAtom = CRGB( maLectureAngle * 255 / 4095 , 0 , 0 ); // pixelAtom a été déclaré dans l’espace global
 FastLED.show();
 ```
 
@@ -81,7 +81,7 @@ FastLED.show();
 ```cpp
 int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 int rouge = maLectureAngle * 255 / 4095; // règle de 3 
-pixelAtom = CRGB( rouge , 0 , 0 ); // pixelAtom a été défini dans l"espace global
+pixelAtom = CRGB( rouge , 0 , 0 ); // pixelAtom a été défini dans l’espace global
 FastLED.show();
 ```
 

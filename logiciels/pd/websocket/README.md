@@ -2,11 +2,11 @@
 
 ## Installation
 
-### Installer l"externe *webserver*
+### Installer l’externe *webserver*
 
 ![](./install_webserver.png)
 
-### Installer l"externe *websocketserver*
+### Installer l’externe *websocketserver*
 
 ![](./install_websocketserver.png)
 

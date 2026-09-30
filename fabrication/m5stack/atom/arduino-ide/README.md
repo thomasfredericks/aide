@@ -4,13 +4,13 @@
 
 ![Ouvrir les préférences et trouver la section «Additional boards manager URLs» en bas](ajouter_m5stack1.SVG)
 
-## Ajouter l"URL du gestionnaire de carte d’ESP32
+## Ajouter l’URL du gestionnaire de carte d’ESP32
 
-Voici l"URL à ajouter : 
+Voici l’URL à ajouter : 
 ```
 https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
-![Ajouter l"URL «https://espressif.github.io/arduino-esp32/package_esp32_index.json»](ajouter_m5stack2.SVG)
+![Ajouter l’URL «https://espressif.github.io/arduino-esp32/package_esp32_index.json»](ajouter_m5stack2.SVG)
 
 ## Trouver et installer le gestionnaire de carte d’ESP32
 

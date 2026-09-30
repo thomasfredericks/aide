@@ -16,7 +16,7 @@ En date du 2025-12-08, voici le support fourni par les deux versions stables des
 Le dépôt **espressif32** est donc en retard d’un version complète du _framework_ Arduino comparativement au dépôt **pioarduino-espressif32**.
 
 > [!WARNING]
-> Si le dépôt non-officiel **pioarduino-espressif32** est utilisé dans un projet avec `platform = pioarduino-espressif32`, le dépôt sera téléchargé localement (dans le dossier `.platformio` de l"utilisateur).  
+> Si le dépôt non-officiel **pioarduino-espressif32** est utilisé dans un projet avec `platform = pioarduino-espressif32`, le dépôt sera téléchargé localement (dans le dossier `.platformio` de l’utilisateur).  
 > Ensuite, **tout projet** qui voudrait utiliser la version officielle avec `platform = espressif32`  (**sans préciser de version**) basculera automatiquement sur **pioarduino-espressif32** au lieu de la plateforme officielle **espressif32** qui est désirée!  
 > Cela arrive parce que **pioarduino-espressif32** possède un **numéro de version plus élevé**, et PlatformIO choisit la version la plus récente téléchargée ou disponible.
 
@@ -25,7 +25,7 @@ Le dépôt **espressif32** est donc en retard d’un version complète du _frame
 
 
 
-Pour utiliser la plateforme `pioarduino-espressif32`, il faut changer l"entrée `platform` du fichier `platformio.ini`.
+Pour utiliser la plateforme `pioarduino-espressif32`, il faut changer l’entrée `platform` du fichier `platformio.ini`.
 
 Utiliser la dernière version stable :
 ```ini

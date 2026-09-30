@@ -6,19 +6,19 @@ GitHub permet de synchroniser un projet sur un ordinateur, avec un clone en lign
 
 ![Ici on voit une ERREUR : GitHub est utilisé pour archiver un projet](./demo_projet_error_online.png)
 
-![Ici on voit le même projet ERRONÉ mais sur l"ordinateur](./demo_projet_error.png)
+![Ici on voit le même projet ERRONÉ mais sur l’ordinateur](./demo_projet_error.png)
 
 ## Travailler directement dans le répertoire du projet
 
 ![Le clone d’un projet en ligne](./demo_projet_online.png)
 
-![Le clone du même projet sur l"ordinateur](./demo_project.png)
+![Le clone du même projet sur l’ordinateur](./demo_project.png)
 
 ![Le même clone, ouvert dans Visual Studio Code](./demo_projet_in_visual_studio_code.png)
 
-## Pour cloner un projet qui est en ligne vers l"ordinateur
+## Pour cloner un projet qui est en ligne vers l’ordinateur
 
-![Choisir l"option «Open with GitHub Desktop pour cloner un projet qui est en ligne](./demo_projet_online_open_in_github.png)
+![Choisir l’option «Open with GitHub Desktop pour cloner un projet qui est en ligne](./demo_projet_online_open_in_github.png)
 
 ## Après avoir modifié un projet, effectuer un «Commit» et un «Push
 

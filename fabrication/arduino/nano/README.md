@@ -2,7 +2,7 @@
 
 La carte Arduino Nano est disponible en trois modèles :
 - [Arduino Nano ATmega168](./atmega/).
-- [Arduino Nano ATmega328](./atmega/) est très similaire au modèle précédent, mais porte l"inscription `328` sur la puce principale.
+- [Arduino Nano ATmega328](./atmega/) est très similaire au modèle précédent, mais porte l’inscription `328` sur la puce principale.
 - [Arduino Nano R4](./r4/) dont la puce principale a beaucoup plus de broches que les deux autres modèles.
 
 Il est important d’identifier le modèle avant de poursuivre.

@@ -36,7 +36,7 @@ Pour téléverser le code, il faut maintenir le bouton de réinitialisation au m
 
 ![](./atoms3_upload_mode.png)
 
-Après avoir téléversé le code, appuyer une fois rapidement sur le bouton pour lancer l"exécution du code.
+Après avoir téléversé le code, appuyer une fois rapidement sur le bouton pour lancer l’exécution du code.
 
 ## Autres modes USB
 

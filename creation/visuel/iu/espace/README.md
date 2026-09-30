@@ -18,7 +18,7 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://w
 
 ![](./en_tete_finale_espacement_variation_b.png)
 
-![Marge intérieure verticale d’un bouton est la moitié de l"espacement horizontal](./padding_bouton_vertical.png)
+![Marge intérieure verticale d’un bouton est la moitié de l’espacement horizontal](./padding_bouton_vertical.png)
 
 
-![Marge intérieure horizontale d’un bouton est le double de l"espacement vertical](./padding_bouton_horizontal.png)
+![Marge intérieure horizontale d’un bouton est le double de l’espacement vertical](./padding_bouton_horizontal.png)

@@ -41,7 +41,7 @@ Cette URL devrait ressembler à celle-ci :
  https://github.com/mon-nom/projet.git
 ```
 
-Dans le terminal, connecter le dépôt local au dépôt distant `origin` en remplaçant `https://github.com/mon-nom/projet.git` par l"adresse URL HTTPS du dépôt distant copiée juste plus haut :
+Dans le terminal, connecter le dépôt local au dépôt distant `origin` en remplaçant `https://github.com/mon-nom/projet.git` par l’adresse URL HTTPS du dépôt distant copiée juste plus haut :
 ```bash
 git remote add origin https://github.com/mon-nom/projet.git
 ```
@@ -68,8 +68,8 @@ Une fois ces étapes complétées, le projet est versionné localement *et* sync
 
 ## Visual Studio Source Control
 
-Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l"ordinateur. Dans l"image suivante, on constate que Git n"est pas configuré :
+Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l’ordinateur. Dans l’image suivante, on constate que Git n"est pas configuré :
 
 ![](./erreur_source_control.png)
 
-Pour régler le problème, il suffit de configurer l"identité de l"utilisateur Git : [Configuration de l"identité Git](../configuration/)
+Pour régler le problème, il suffit de configurer l’identité de l’utilisateur Git : [Configuration de l’identité Git](../configuration/)

@@ -15,7 +15,7 @@ Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer de
 > Le M5Stack Unit TOF fonctionne mieux en mode continu (le mode non continu est lent)
 
 
-![Photo de l"avant et l"arrière du M5Stack Unit TOF](./unit_tof.png)
+![Photo de l’avant et l’arrière du M5Stack Unit TOF](./unit_tof.png)
 ## Connexion
 
 **Le Unit TOF est de type I²C tel qu"identifié par son connecteur rouge.**
@@ -32,7 +32,7 @@ La bibliothèque logicielle [vl53l0x-arduino](https://github.com/pololu/vl53l0x-
 
 ### Installation dans PlatformIO
 
-Ajouter `pololu/VL53L0X` à l"entrée `lib_deps` du fichier *platform.ini* :
+Ajouter `pololu/VL53L0X` à l’entrée `lib_deps` du fichier *platform.ini* :
 ```
 lib_deps =
      pololu/VL53L0X
@@ -40,7 +40,7 @@ lib_deps =
 
 ## Utilisation
 
-### Code à ajouter à l"espace global
+### Code à ajouter à l’espace global
 
 Importer la bibliothèque logicielle et créer une instance de la classe `VL53L0X` :
 ```cpp
@@ -66,7 +66,7 @@ Ensuite, initialiser le TOF :
 
 > [!NOTE] 
 > Appliquer les configurations optionnelles suivantes seulement si nécessaire. 
-> Si l"une est nécessaire, l"intégrer dans setup()
+> Si l’une est nécessaire, l’intégrer dans setup()
 
 #### Configuration optionnelle : Longue distance
 

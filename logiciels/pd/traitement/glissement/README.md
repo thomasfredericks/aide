@@ -11,5 +11,5 @@ Télécharger ici : [slide.pd](./slide.pd)
 
 ### Configuration du glissement
 
-![Double cliquer sur «pd slide» pour l"ouvrir et le modifier](./slide_configuration.svg)
+![Double cliquer sur «pd slide» pour l’ouvrir et le modifier](./slide_configuration.svg)
 

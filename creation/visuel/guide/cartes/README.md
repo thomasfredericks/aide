@@ -19,12 +19,12 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
 ### Général
 
 *   **Page couverture :** Titre du paquet de cartes, nom de la thématique et nom(s) des créateurs et visuel inspirant.
-*   **Introduction et concept :** Une description narrative de 5 à 10 lignes de l"univers thématique choisi et de l"ambiance recherchée.
-* **Esthétique :** préciser les [4 domaines de l"esthétique](/creation/esthetique/banque/).
-    * **L’émotion** : ce que l"expérience fait ressentir.
-    * **Le timbre** : la qualité sensible et perceptuelle de l"expérience.
-    * **La structure** : la manière dont l"expérience se déploie et évolue.
-    * **Les références** : les univers, styles et imaginaires évoqués par l"expérience.
+*   **Introduction et concept :** Une description narrative de 5 à 10 lignes de l’univers thématique choisi et de l’ambiance recherchée.
+* **Esthétique :** préciser les [4 domaines de l’esthétique](/creation/esthetique/banque/).
+    * **L’émotion** : ce que l’expérience fait ressentir.
+    * **Le timbre** : la qualité sensible et perceptuelle de l’expérience.
+    * **La structure** : la manière dont l’expérience se déploie et évolue.
+    * **Les références** : les univers, styles et imaginaires évoqués par l’expérience.
 *   **Plusieurs planches d’inspirations (moodboard)** pour chacun des éléments suivants :
     - Thématique.
     - Typographies.
@@ -44,10 +44,10 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
     - Couleur de fond des indices.
     - Présentation des 4 couleurs principales et 4 couleurs secondaires utilisées.
     - Préciser comment la couleur est utilisé pour le texte.
-*   **Codes de couleur :** Indication obligatoire des valeurs **RVB** (pour l"écran/web) ainsi que les codes hexadécimaux (**HEX**).
+*   **Codes de couleur :** Indication obligatoire des valeurs **RVB** (pour l’écran/web) ainsi que les codes hexadécimaux (**HEX**).
 * **Accessibilité visuelle et contrastes :**
     *   **Contraste texte/fond :** Le ratio de contraste entre la couleur des indices/chiffres et le fond de la carte doit respecter les normes minimales d’accessibilité. Évitez le texte clair sur fond clair ou le texte sombre sur fond sombre.
-    *   **Validation des contrastes :** Indiquez dans votre document les outils utilisés pour tester vos contrastes (ex: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) ou l"analyseur intégré de votre suite logicielle de design).
+    *   **Validation des contrastes :** Indiquez dans votre document les outils utilisés pour tester vos contrastes (ex: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) ou l’analyseur intégré de votre suite logicielle de design).
 * **Typographie** :
     * **Police des valeurs :** Nom de la police utilisée pour les valeurs (ex : As, 2, 10).
         - Taille en points pour les indices 
@@ -65,7 +65,7 @@ Vous devez présenter les gabarits visuels préliminaires pour prouver la faisab
 *  **Le dos de carte :** Croquis ou maquette du dos, en vérifiant qu"il respecte la symétrie (non orienté).
 *  **Les enseignes :** Présentation graphique des symboles de vos 4 familles, adaptées à votre thème.
     *   Distinction des enseignes : Ne vous basez pas uniquement sur la couleur pour différencier les familles (ex : le rouge pour Cœur/Carreau et le noir pour Pique/Trèfle).
-*  **Figure :** Croquis ou maquette rapide d’au moins une figure (ex : la Dame) démontrant l"intégration de la thématique.
+*  **Figure :** Croquis ou maquette rapide d’au moins une figure (ex : la Dame) démontrant l’intégration de la thématique.
 *  **Joker :** Croquis ou maquette rapide d’un joker.
 * **Lisibilité :** La valeur et la famille de la carte doivent être clairs à distance.
 
@@ -78,18 +78,18 @@ Pour valider que votre projet est techniquement viable, incluez les paramètres 
 - **Résolution d’image de chaque carte :** Minimum 300 dpi.
 - **Format de la carte :** Dimensions standard Poker : 63 x 88 mm ou 2,28 x 3,46 po.
 - **Fonds perdus (bleed) :** Veuillez prévoir 1/8 po pour les fonds perdus. 
-- **Zone de sécurité textuelle :** Garder les textes et indices à l"intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu"ils ne soient coupés. 
+- **Zone de sécurité textuelle :** Garder les textes et indices à l’intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu"ils ne soient coupés. 
 
-Voici un exemple de l"application des contraintes techniques : [American-poker-size.pdf de makeplayingcards.com](American-poker-size.pdf)
+Voici un exemple de l’application des contraintes techniques : [American-poker-size.pdf de makeplayingcards.com](American-poker-size.pdf)
 
-## Notes sur l"impression
+## Notes sur l’impression
 
 ![Une carte avec un fond noir avec fond perdu (ligne mauve), zone de sécurité (lignes vertes) et taille finale (lignes grises)](./carte_affinity.png)
 
-![Une carte pour l"impression avec lignes de coupe](./carte_impression.png)
+![Une carte pour l’impression avec lignes de coupe](./carte_impression.png)
 
-![Configuration pour l"impression dans macOS](./impression_macos.png)
+![Configuration pour l’impression dans macOS](./impression_macos.png)
 
-![Configuration de la page l"impression dans Windows](./impression_windows_page.png)
+![Configuration de la page l’impression dans Windows](./impression_windows_page.png)
 
 ![Configuration des marques d’impression dans Windows](./impression_windows_marques.png)

@@ -12,7 +12,7 @@
 
 ## Code à ajouter
 
-### Dans l"espace global
+### Dans l’espace global
 
 Comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c"est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche du *M5 Angle Unit*:
 ```cpp
@@ -26,7 +26,7 @@ Comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c"est un
 Serial.println( maLectureAngle );
 ```
 
-2) Placer cet appel dans le block pour l"envoi des messages. Le contenune de la fonction `loop()` devrait ressembler à ceci :
+2) Placer cet appel dans le block pour l’envoi des messages. Le contenune de la fonction `loop()` devrait ressembler à ceci :
 ```cpp
 void loop() {
     M5.update();  // Toujours inclure M5.update() au début de loop()
@@ -43,7 +43,7 @@ void loop() {
 
 ## Serial Monitor/Plotter
 
-À noter, que dans `setup()`, l"instruction `Serial.begin(115200)` démarre la communication à la vitesse de 115200 baud. Il faudra inscrire cette valeur dans la fenêtre du _Serial Monitor_ ou du _Serial Plotter_.
+À noter, que dans `setup()`, l’instruction `Serial.begin(115200)` démarre la communication à la vitesse de 115200 baud. Il faudra inscrire cette valeur dans la fenêtre du _Serial Monitor_ ou du _Serial Plotter_.
 
 ![](angle_serial-monitor.png)
 

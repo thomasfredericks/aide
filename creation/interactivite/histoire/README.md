@@ -1,4 +1,4 @@
-# Petite histoire de l"installation interactive​
+# Petite histoire de l’installation interactive​
 
 ## Ada Lovelace (1842)
 
@@ -7,7 +7,7 @@
 
 **Augusta Ada King, comtesse de Lovelace** (1815–1852) est considérée comme **la première programmeuse informatique** de l’histoire.
 
-En 1843, Ada traduit du français à l"anglais un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage** et y ajoute des **notes personnelles** brillantes :
+En 1843, Ada traduit du français à l’anglais un article sur l’**Analytical Engine**, une machine à calculer imaginé par **Charles Babbage** et y ajoute des **notes personnelles** brillantes :
 
 - Elle y décrit **le premier algorithme informatique** (pour les **nombres de Bernoulli**)
 - Elle comprend que la machine pourrait **traiter autre chose que des chiffres** (musique, texte, etc.)
@@ -43,9 +43,9 @@ Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 ## Marcel Duchamp (1969)
 
-Duchamp ne s"intéresse pas à ce qu"il appelle « l"art rétinien ». Un art qui n"est que visuel — et cherche d’autres modes d’expression. ​
+Duchamp ne s"intéresse pas à ce qu"il appelle « l’art rétinien ». Un art qui n"est que visuel — et cherche d’autres modes d’expression. ​
 
-Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu"ils n"ont pas été réalisés par l"artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l"art et le rôle de l"artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
+Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu"ils n"ont pas été réalisés par l’artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l’art et le rôle de l’artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
 
 Pour Marcel Duchamp, « c"est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
 
@@ -53,7 +53,7 @@ Pour Marcel Duchamp, « c"est le regardeur qui fait le tableau ».​ [Rotary Gl
 
 ## Jean Tinguely (1950-60)
 
-Dans les années 1950-1960, l"**art cinétique** apporte une autre étape importante.
+Dans les années 1950-1960, l’**art cinétique** apporte une autre étape importante.
 
 Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu"on interagit avec elles. L’œuvre commence alors à être pensée comme un **système**.
 

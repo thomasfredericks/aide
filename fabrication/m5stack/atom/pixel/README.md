@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Le pixel est relié à la broche `27` de l"ESP32 du Atom Lite.
+Le pixel est relié à la broche `27` de l’ESP32 du Atom Lite.
 
 ## Bibliothèque logicielle
 
@@ -15,7 +15,7 @@ lib_deps =
     FastLED
 ```
 
-## À ajouter dans l"espace *global* 
+## À ajouter dans l’espace *global* 
 
 Ajouter la bibliothèque logicielle FastLED:
 ```cpp

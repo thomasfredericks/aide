@@ -7,7 +7,7 @@ Un schéma de circuit est une représentation schématique de la connectique d�
 
 ## Jonctions
 
-Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter des dizaines. Lorsqu"un fil se divise en deux directions, on indique jonction. Nous représentons les jonctions sur des schémas avec des petits points placés à l"intersection des fils.
+Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter des dizaines. Lorsqu"un fil se divise en deux directions, on indique jonction. Nous représentons les jonctions sur des schémas avec des petits points placés à l’intersection des fils.
 
 ![Symbole pour une jonction (JIMBLOM, s. d.)](./jonction.png)
 
@@ -19,7 +19,7 @@ Les points de jonction  permettent d’indique que "les fils traversant cette jo
 
 L’alimentation est souvent représentée sous une forme abstraite. Vous pouvez connecter des termineux à ces symboles, et ils seront directement liés à 5V, 3,3V, VCC ou GND (masse). 
 
-Chaque alimentation est composée de deux pôles. L’un positif et l"autre négatif.
+Chaque alimentation est composée de deux pôles. L’un positif et l’autre négatif.
 
 Les nœuds de tension positive sont généralement indiqués par une flèche pointant vers le haut.
 
@@ -45,7 +45,7 @@ Les symboles suivants représentent les deux pôles d’une seule et même alime
 
 ## «Net»
 
-Parfois, pour rendre les schémas plus lisibles, nous donnons un nom à un «net» et l"étiquetons, plutôt que de faire passer un fil sur tout le schéma. Les «nets» portant le même nom sont supposés être connectés, même s"il n"y a pas de fil visible les reliant. Les noms peuvent soit être écrits directement sur le dessus du «net», soit ils peuvent être des «tags», accrochés au fil.
+Parfois, pour rendre les schémas plus lisibles, nous donnons un nom à un «net» et l’étiquetons, plutôt que de faire passer un fil sur tout le schéma. Les «nets» portant le même nom sont supposés être connectés, même s"il n"y a pas de fil visible les reliant. Les noms peuvent soit être écrits directement sur le dessus du «net», soit ils peuvent être des «tags», accrochés au fil.
 
 ![Les «nets» sont des connexions «sans-fil» (JIMBLOM, s. d.)](./net.png)
 

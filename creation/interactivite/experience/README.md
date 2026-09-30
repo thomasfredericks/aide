@@ -21,7 +21,7 @@ Le cinéma consiste à organiser des images et des sons dans le temps afin de pr
 * Le temps consacré à l’œuvre est généralement laissé au choix du spectateur.
 * L’œuvre se traverse par le temps.
 
-## Le parcours du spectateur face à de l"art plastique
+## Le parcours du spectateur face à de l’art plastique
 
 Une expérience plastique est principalement organisée par la présence de formes dans l’espace. Elle laisse au spectateur la liberté de déterminer son point de vue, son parcours et le temps qu’il lui consacre.
 

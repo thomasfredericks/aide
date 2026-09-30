@@ -1,6 +1,6 @@
 # La bibliothèque Chrono
 
-La bibliothèque `Chrono` permet de mesurer des durées sans bloquer l"exécution du programme.
+La bibliothèque `Chrono` permet de mesurer des durées sans bloquer l’exécution du programme.
 
 Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). 
 

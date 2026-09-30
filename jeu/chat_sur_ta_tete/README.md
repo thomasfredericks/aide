@@ -45,7 +45,7 @@ La souris doit récupérer des fromages (ballons jaunes) et survivre au chat pen
 ### Règles  
 - Le chat poursuit la souris et doit la toucher pour lui transmettre son rôle.  
 - La souris doit récupérer tous les fromages ou en collecter un nombre défini.  
-- La souris peut utiliser les portails pour échapper au chat. Lorsqu’un joueur touche un ballon noir (portail), il est immédiatement téléporté vers l"autre portail.  
+- La souris peut utiliser les portails pour échapper au chat. Lorsqu’un joueur touche un ballon noir (portail), il est immédiatement téléporté vers l’autre portail.  
 - Le chat ne peut pas utiliser les portails.
 
 ### Conditions de victoire  

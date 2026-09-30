@@ -14,12 +14,12 @@ La DEL a deux pôles :
 
 ![Anode et cathode d’une DEL ](./del_anode_cathode.svg)
 
-## Limiter l"intensité du courant
+## Limiter l’intensité du courant
 
-**Attention** : il faut limiter l"intensité du courant qui traverse la DEL. 
+**Attention** : il faut limiter l’intensité du courant qui traverse la DEL. 
 
 Pour une DEL rouge standard :
 * La DEL crée une chute de tension (*voltage drop*) d’environ 2.1 Volts.
 * L’intensité qui traverse la DEL doit être d’environ 0.02 Ampères (20 mA). 
-* L’utilisation d’une résistance est obligatoire pour réduire l"intensité et ne pas griller la DEL.
+* L’utilisation d’une résistance est obligatoire pour réduire l’intensité et ne pas griller la DEL.
 

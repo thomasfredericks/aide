@@ -285,8 +285,8 @@
         "u": "#/fabrication/electronique/composants/del"
     },
     {
-        "t": "Limiter l\"intensité du courant",
-        "l": "limiter l\"intensite courant",
+        "t": "Limiter l’intensité du courant",
+        "l": "limiter l’intensite courant",
         "u": "#/fabrication/electronique/composants/del/?id=limiter-lintensit%C3%A9-du-courant"
     },
     {
@@ -405,8 +405,8 @@
         "u": "#/fabrication/electronique/electricite/?id=principales-grandeurs-%C3%A9lectriques"
     },
     {
-        "t": "Analogie de l\"eau",
-        "l": "analogie l\"eau",
+        "t": "Analogie de l’eau",
+        "l": "analogie l’eau",
         "u": "#/fabrication/electronique/electricite/?id=analogie-de-leau"
     },
     {
@@ -455,8 +455,8 @@
         "u": "#/fabrication/osc"
     },
     {
-        "t": "Pourquoi l\"OSC?",
-        "l": "pourquoi l\"open sound control",
+        "t": "Pourquoi l’OSC?",
+        "l": "pourquoi l’open sound control",
         "u": "#/fabrication/osc/?id=pourquoi-losc"
     },
     {
@@ -500,8 +500,8 @@
         "u": "#/fabrication/esp32/modeles"
     },
     {
-        "t": "Tableau de comparaison entre l\"ESP32 et l\"ESP32-S3",
-        "l": "tabibliotheque logicielleeau comparintelligence artificielleson entre l\"esp32 l\"esp32-s3",
+        "t": "Tableau de comparaison entre l’ESP32 et l’ESP32-S3",
+        "l": "tabibliotheque logicielleeau comparintelligence artificielleson entre l’esp32 l’esp32-s3",
         "u": "#/fabrication/esp32/modeles/?id=tableau-de-comparaison-entre-lesp32-et-lesp32-s3"
     },
     {
@@ -745,8 +745,8 @@
         "u": "#/fabrication/arduino/code/millis/intervalle"
     },
     {
-        "t": "Implémenter l\"algorithme",
-        "l": "implugicielementer l\"algorithme",
+        "t": "Implémenter l’algorithme",
+        "l": "implugicielementer l’algorithme",
         "u": "#/fabrication/arduino/code/millis/intervalle/?id=impl%C3%A9menter-lalgorithme"
     },
     {
@@ -1040,8 +1040,8 @@
         "u": "#/fabrication/platformio/nouveau/?id=1-cr%C3%A9er-dun-git"
     },
     {
-        "t": "2. Cloner le dépôt Git l\"ordinateur",
-        "l": "2 cloner depot git l\"ordinateur",
+        "t": "2. Cloner le dépôt Git l’ordinateur",
+        "l": "2 cloner depot git l’ordinateur",
         "u": "#/fabrication/platformio/nouveau/?id=2-cloner-le-d%C3%A9p%C3%B4t-git-lordinateur"
     },
     {
@@ -1115,8 +1115,8 @@
         "u": "#/fabrication/m5stack/atom/arduino-ide/?id=ouvrir-le-gestionnaire-de-carte"
     },
     {
-        "t": "Ajouter l\"URL du gestionnaire de carte d’ESP32",
-        "l": "ajouter l\"url gestionnintelligence artificiellere carte d’esp32",
+        "t": "Ajouter l’URL du gestionnaire de carte d’ESP32",
+        "l": "ajouter l’url gestionnintelligence artificiellere carte d’esp32",
         "u": "#/fabrication/m5stack/atom/arduino-ide/?id=ajouter-lurl-du-gestionnaire-de-carte-desp32"
     },
     {
@@ -1170,8 +1170,8 @@
         "u": "#/fabrication/m5stack/atom/bouton/m5lib"
     },
     {
-        "t": "Documentation de l\"API du bouton du M5Stack Atom Lite",
-        "l": "documentation l\"api bouton m5stack atom lite",
+        "t": "Documentation de l’API du bouton du M5Stack Atom Lite",
+        "l": "documentation l’api bouton m5stack atom lite",
         "u": "#/fabrication/m5stack/atom/bouton/m5lib/?id=documentation-de-lapi-du-bouton-du-m5stack-atom-lite"
     },
     {
@@ -1245,8 +1245,8 @@
         "u": "#/fabrication/m5stack/atom/pixel/?id=biblioth%C3%A8que-logicielle"
     },
     {
-        "t": "À ajouter dans l\"espace global",
-        "l": "ajouter l\"espace global",
+        "t": "À ajouter dans l’espace global",
+        "l": "ajouter l’espace global",
         "u": "#/fabrication/m5stack/atom/pixel/?id=%C3%A0-ajouter-dans-lespace-global"
     },
     {
@@ -1345,8 +1345,8 @@
         "u": "#/fabrication/m5stack/units/396/bouton/arcade/?id=branchement-g%C3%A9n%C3%A9rique"
     },
     {
-        "t": "Dans le cas d’un Unit 3.96 branché directement à l\"Arduino",
-        "l": "cas d’un unit 3.96 branche directement l\"arduino",
+        "t": "Dans le cas d’un Unit 3.96 branché directement à l’Arduino",
+        "l": "cas d’un unit 3.96 branche directement l’arduino",
         "u": "#/fabrication/m5stack/units/396/bouton/arcade/?id=dans-le-cas-dun-unit-396-branch%C3%A9-directement-%C3%A0-larduino"
     },
     {
@@ -1755,8 +1755,8 @@
         "u": "#/creation/esthetique/doom"
     },
     {
-        "t": "Banque de mots pour l\"esthétique",
-        "l": "banque mots l\"esthetique",
+        "t": "Banque de mots pour l’esthétique",
+        "l": "banque mots l’esthetique",
         "u": "#/creation/esthetique/banque"
     },
     {
@@ -1825,8 +1825,8 @@
         "u": "#/creation/interactivite/experience/?id=le-parcours-du-spectateur-au-cin%C3%A9ma"
     },
     {
-        "t": "Le parcours du spectateur face à de l\"art plastique",
-        "l": "parcours spectateur face l\"art plugicielastique",
+        "t": "Le parcours du spectateur face à de l’art plastique",
+        "l": "parcours spectateur face l’art plugicielastique",
         "u": "#/creation/interactivite/experience/?id=le-parcours-du-spectateur-face-%C3%A0-de-lart-plastique"
     },
     {
@@ -1835,8 +1835,8 @@
         "u": "#/creation/interactivite/experience/?id=le-parcours-du-spectateur-en-interactivit%C3%A9"
     },
     {
-        "t": "Design de l\"interactivité",
-        "l": "design l\"interactivite",
+        "t": "Design de l’interactivité",
+        "l": "design l’interactivite",
         "u": "#/creation/interactivite/design"
     },
     {
@@ -1895,8 +1895,8 @@
         "u": "#/creation/interactivite/galerie/?id=agir-avec-un-objet"
     },
     {
-        "t": "Transformer l\"espace",
-        "l": "transformer l\"espace",
+        "t": "Transformer l’espace",
+        "l": "transformer l’espace",
         "u": "#/creation/interactivite/galerie/?id=transformer-lespace"
     },
     {
@@ -1950,8 +1950,8 @@
         "u": "#/creation/interactivite/galerie/?id=bataille"
     },
     {
-        "t": "Études sur l\"interface utilisateur",
-        "l": "etudes l\"interface utilisateur",
+        "t": "Études sur l’interface utilisateur",
+        "l": "etudes l’interface utilisateur",
         "u": "#/creation/interactivite/galerie/?id=%C3%A9tudes-sur-linterface-utilisateur"
     },
     {
@@ -2060,8 +2060,8 @@
         "u": "#/creation/interactivite/ecoute"
     },
     {
-        "t": "Petite histoire de l\"installation interactive​",
-        "l": "petite histoire l\"installation interactive​",
+        "t": "Petite histoire de l’installation interactive​",
+        "l": "petite histoire l’installation interactive​",
         "u": "#/creation/interactivite/histoire"
     },
     {
@@ -2105,8 +2105,8 @@
         "u": "#/creation/interactivite/histoire/?id=intelligence-artificielle-1940"
     },
     {
-        "t": "Continuum de l\"interactivité",
-        "l": "continuum l\"interactivite",
+        "t": "Continuum de l’interactivité",
+        "l": "continuum l’interactivite",
         "u": "#/creation/interactivite/continuum"
     },
     {
@@ -2170,8 +2170,8 @@
         "u": "#/creation/pecha_kucha/?id=comment-automatiser-le-d%C3%A9filement-dune-pr%C3%A9sentation-powerpoint"
     },
     {
-        "t": "Qualifier l\"esthétique sonore",
-        "l": "qualifier l\"esthetique sonore",
+        "t": "Qualifier l’esthétique sonore",
+        "l": "qualifier l’esthetique sonore",
         "u": "#/creation/audio/esthetique"
     },
     {
@@ -2320,8 +2320,8 @@
         "u": "#/creation/production/scenarisation"
     },
     {
-        "t": "Scénarisation de l\"interactivité",
-        "l": "scenarisation l\"interactivite",
+        "t": "Scénarisation de l’interactivité",
+        "l": "scenarisation l’interactivite",
         "u": "#/creation/production/scenarisation/?id=sc%C3%A9narisation-de-linteractivit%C3%A9"
     },
     {
@@ -2380,13 +2380,13 @@
         "u": "#/creation/visuel/guide/cartes/?id=structure-du-document"
     },
     {
-        "t": "Notes sur l\"impression",
-        "l": "notes l\"impression",
+        "t": "Notes sur l’impression",
+        "l": "notes l’impression",
         "u": "#/creation/visuel/guide/cartes/?id=notes-sur-limpression"
     },
     {
-        "t": "IU : Signifiants de l\"interface utilisateur",
-        "l": "interface utilisateur  signifintelligence artificiellents l\"interface utilisateur",
+        "t": "IU : Signifiants de l’interface utilisateur",
+        "l": "interface utilisateur  signifintelligence artificiellents l’interface utilisateur",
         "u": "#/creation/visuel/iu/signifiants"
     },
     {
@@ -2450,8 +2450,8 @@
         "u": "#/creation/visuel/marges/?id=marge-de-contenu-de-premier-plan"
     },
     {
-        "t": "Préparation pour l\"impression",
-        "l": "preparation l\"impression",
+        "t": "Préparation pour l’impression",
+        "l": "preparation l’impression",
         "u": "#/creation/visuel/marges/?id=pr%C3%A9paration-pour-limpression"
     },
     {
@@ -2535,8 +2535,8 @@
         "u": "#/logiciels/pd/?id=la-fonction-daide-help"
     },
     {
-        "t": "Activation de l\"audio (DSP)",
-        "l": "activation l\"audio dsp",
+        "t": "Activation de l’audio (DSP)",
+        "l": "activation l’audio dsp",
         "u": "#/logiciels/pd/?id=activation-de-laudio-dsp"
     },
     {
@@ -2570,8 +2570,8 @@
         "u": "#/logiciels/pd/osc/slip"
     },
     {
-        "t": "Installation des objets additionnels pour l\"OSC SLIP dans Pure Data",
-        "l": "installation objets additionnels l\"open sound control slip pure data",
+        "t": "Installation des objets additionnels pour l’OSC SLIP dans Pure Data",
+        "l": "installation objets additionnels l’open sound control slip pure data",
         "u": "#/logiciels/pd/osc/slip/?id=installation-des-objets-additionnels-pour-losc-slip-dans-pure-data"
     },
     {
@@ -2615,8 +2615,8 @@
         "u": "#/logiciels/pd/osc/oscformat/?id=d%C3%A9terminer-les-arguments-du-message-osc"
     },
     {
-        "t": "Déterminer l\"adresse du message OSC",
-        "l": "determiner l\"adresse message open sound control",
+        "t": "Déterminer l’adresse du message OSC",
+        "l": "determiner l’adresse message open sound control",
         "u": "#/logiciels/pd/osc/oscformat/?id=d%C3%A9terminer-ladresse-du-message-osc"
     },
     {
@@ -2680,8 +2680,8 @@
         "u": "#/logiciels/pd/serie/comport/?id=exemple-dutilisation"
     },
     {
-        "t": "Pd : Activation de l\"audio",
-        "l": "pure data  activation l\"audio",
+        "t": "Pd : Activation de l’audio",
+        "l": "pure data  activation l’audio",
         "u": "#/logiciels/pd/audio/activation"
     },
     {
@@ -2730,8 +2730,8 @@
         "u": "#/logiciels/pd/traitement/retarder/?id=patch"
     },
     {
-        "t": "Pd : Déterminer si une valeur est à l\"intérieur d’une plage",
-        "l": "pure data  determiner si valeur l\"interieur d’une plugicielage",
+        "t": "Pd : Déterminer si une valeur est à l’intérieur d’une plage",
+        "l": "pure data  determiner si valeur l’interieur d’une plugicielage",
         "u": "#/logiciels/pd/traitement/plage"
     },
     {
@@ -3075,8 +3075,8 @@
         "u": "#/logiciels/rpi/?id=installation-de-raspberry-pi-os"
     },
     {
-        "t": "Applications pour l\"électronique",
-        "l": "applugicielications l\"electronique",
+        "t": "Applications pour l’électronique",
+        "l": "applugicielications l’electronique",
         "u": "#/logiciels/rpi/?id=applications-pour-l%C3%A9lectronique"
     },
     {
@@ -3085,8 +3085,8 @@
         "u": "#/logiciels/rpi/?id=applications-pour-la-programmation"
     },
     {
-        "t": "Applications pour l\"audio",
-        "l": "applugicielications l\"audio",
+        "t": "Applications pour l’audio",
+        "l": "applugicielications l’audio",
         "u": "#/logiciels/rpi/?id=applications-pour-laudio"
     },
     {
@@ -3200,8 +3200,8 @@
         "u": "#/logiciels/touchdesigner/python/aide-memoire/?id=le-module-tdu--une-vari%C3%A9t%C3%A9-dutilitaires-python-utiles"
     },
     {
-        "t": "Réception de l\"OSC dans TouchDesigner",
-        "l": "reception l\"open sound control touchdesigner",
+        "t": "Réception de l’OSC dans TouchDesigner",
+        "l": "reception l’open sound control touchdesigner",
         "u": "#/logiciels/touchdesigner/osc/reception"
     },
     {
@@ -3270,8 +3270,8 @@
         "u": "#/logiciels/touchdesigner/feedback"
     },
     {
-        "t": "TouchDesigner : Mixer de l\"audio",
-        "l": "touchdesigner  mixer l\"audio",
+        "t": "TouchDesigner : Mixer de l’audio",
+        "l": "touchdesigner  mixer l’audio",
         "u": "#/logiciels/touchdesigner/audio/mixer"
     },
     {
@@ -3590,8 +3590,8 @@
         "u": "#/logiciels/reaper/osc/defaut/VMK/?id=message-osc-pour-envoyer-un-midi-cc-au-virtual-midi-keyboard"
     },
     {
-        "t": "Activer l\"OSC dans Reaper",
-        "l": "activer l\"open sound control reaper",
+        "t": "Activer l’OSC dans Reaper",
+        "l": "activer l’open sound control reaper",
         "u": "#/logiciels/reaper/osc/activation"
     },
     {
@@ -3670,8 +3670,8 @@
         "u": "#/logiciels/git"
     },
     {
-        "t": "Configuration de l\"identité Git",
-        "l": "configuration l\"identite git",
+        "t": "Configuration de l’identité Git",
+        "l": "configuration l’identite git",
         "u": "#/logiciels/git/configuration"
     },
     {
@@ -3700,8 +3700,8 @@
         "u": "#/logiciels/git/github/?id=travailler-directement-dans-le-r%C3%A9pertoire-du-projet"
     },
     {
-        "t": "Pour cloner un projet qui est en ligne vers l\"ordinateur",
-        "l": "cloner projet ligne vers l\"ordinateur",
+        "t": "Pour cloner un projet qui est en ligne vers l’ordinateur",
+        "l": "cloner projet ligne vers l’ordinateur",
         "u": "#/logiciels/git/github/?id=pour-cloner-un-projet-qui-est-en-ligne-vers-lordinateur"
     },
     {
@@ -3850,8 +3850,8 @@
         "u": "#/culture/ia/types/?id=ia-traditionnelle-dans-les-jeux-vid%C3%A9o"
     },
     {
-        "t": "Impacts des GML sur l\"enseignement",
-        "l": "impacts grand modele langage l\"enseignement",
+        "t": "Impacts des GML sur l’enseignement",
+        "l": "impacts grand modele langage l’enseignement",
         "u": "#/culture/ia/enseignement"
     },
     {
@@ -3915,8 +3915,8 @@
         "u": "#/culture/ia/propagande/?id=quel-futur-nous-propose-t-on-vraiment-"
     },
     {
-        "t": "L’âge d’or de l\"IA est en 2025 et ça dégringole à partir de là",
-        "l": "l’age d’or l\"intelligence artificielle 2025 ca degringole partir",
+        "t": "L’âge d’or de l’IA est en 2025 et ça dégringole à partir de là",
+        "l": "l’age d’or l’intelligence artificielle 2025 ca degringole partir",
         "u": "#/culture/ia/propagande/?id=l%C3%A2ge-dor-de-lia-est-en-2025-et-%C3%A7a-d%C3%A9gringole-%C3%A0-partir-de-l%C3%A0"
     },
     {

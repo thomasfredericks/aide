@@ -4,14 +4,14 @@
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
-    * [Qualifier l"esthétique sonore](/creation/audio/esthetique/)
+    * [Qualifier l’esthétique sonore](/creation/audio/esthetique/)
     * [Audio : galerie](/creation/audio/galerie/)
     * [Outils (logiciels et plugiciels) pour la création sonore](/creation/audio/outils/)
   * Audiovisuel
     * [Audiovisuel : galerie](/creation/audiovisuel/galerie/)
     * [Audiovisuel : Processus de travail](/creation/audiovisuel/processus/)
   * Esthetique
-    * [Banque de mots pour l"esthétique](/creation/esthetique/banque/)
+    * [Banque de mots pour l’esthétique](/creation/esthetique/banque/)
     * [Esthétique et public cible de DOOM Eternal](/creation/esthetique/doom/)
   * [Gestalt : Psychologie de la forme](/creation/gestalt/)
   * Interactivite
@@ -23,14 +23,14 @@
       * [Atelier : Simulation d’un jeu](/creation/interactivite/ateliers/simulation/)
       * [Atelier : Règle supprimée](/creation/interactivite/ateliers/suppression/)
       * [Atelier : Synchroniser sans communication](/creation/interactivite/ateliers/synchronisation/)
-    * [Continuum de l"interactivité](/creation/interactivite/continuum/)
+    * [Continuum de l’interactivité](/creation/interactivite/continuum/)
     * [L’interactivité est une conversation](/creation/interactivite/conversation/)
-    * [Design de l"interactivité](/creation/interactivite/design/)
+    * [Design de l’interactivité](/creation/interactivite/design/)
     * [Écoute](/creation/interactivite/ecoute/)
     * [Actions émergentes](/creation/interactivite/emergence/)
     * [Expérience multimédia interactive](/creation/interactivite/experience/)
     * [Interactivité : galerie](/creation/interactivite/galerie/)
-    * [Petite histoire de l"installation interactive​](/creation/interactivite/histoire/)
+    * [Petite histoire de l’installation interactive​](/creation/interactivite/histoire/)
     * [Public cible](/creation/interactivite/public/)
     * [Qualités d’une bonne expérience interactive](/creation/interactivite/qualites/)
     * [Interactivité : scénarisation](/creation/interactivite/scenarisation/)
@@ -52,7 +52,7 @@
       * [IU : Espacer les éléments](/creation/visuel/iu/espace/)
       * [IU : Hiérarchie visuelle](/creation/visuel/iu/hierarchie/)
       * [IU : Rétroaction (feedback)](/creation/visuel/iu/retroaction/)
-      * [IU : Signifiants de l"interface utilisateur](/creation/visuel/iu/signifiants/)
+      * [IU : Signifiants de l’interface utilisateur](/creation/visuel/iu/signifiants/)
       * [IU : Typographie](/creation/visuel/iu/typographie/)
     * [Marges](/creation/visuel/marges/)
 * Culture
@@ -66,7 +66,7 @@
     * [Les délires causés par les GML](/culture/ia/delires/)
     * Dette
       * [Dette technique causée par les GML](/culture/ia/dette/technique/)
-    * [Impacts des GML sur l"enseignement](/culture/ia/enseignement/)
+    * [Impacts des GML sur l’enseignement](/culture/ia/enseignement/)
     * [Guides d’utilisation des GML](/culture/ia/guides/)
     * [Propagande sur les GML](/culture/ia/propagande/)
     * [Effets sur la santé psychologique des GML](/culture/ia/sante/)
@@ -200,7 +200,7 @@
   * [Manette de projecteurs : gd-pjlink](/logiciels/gd-pjlink/)
   * [Git](/logiciels/git/)
     * [Ajout d’un projet à un dépôt Git](/logiciels/git/ajout/)
-    * [Configuration de l"identité Git](/logiciels/git/configuration/)
+    * [Configuration de l’identité Git](/logiciels/git/configuration/)
     * [GitHub](/logiciels/git/github/)
       * Projects
         * [Configurer les priorités](/logiciels/git/github/projects/priorites/)
@@ -224,7 +224,7 @@
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](/logiciels/oscmo-lidar/)
   * [Pure Data (Pd)](/logiciels/pd/)
     * Audio
-      * [Pd : Activation de l"audio](/logiciels/pd/audio/activation/)
+      * [Pd : Activation de l’audio](/logiciels/pd/audio/activation/)
       * [Pd : Lecture de fichiers audio avec Pdchoco](/logiciels/pd/audio/fichiers/)
     * Osc
       * [Convertir les messages OSC en MIDI (notes et CC)](/logiciels/pd/osc/midi/)
@@ -242,7 +242,7 @@
       * [Mesurer la durée](/logiciels/pd/traitement/duree/)
       * [Effectuer un glissement entre des valeurs avec Pd](/logiciels/pd/traitement/glissement/)
       * [Pd : Incrémenter (ou décrémenter) une valeur](/logiciels/pd/traitement/incrementation/)
-      * [Pd : Déterminer si une valeur est à l"intérieur d’une plage](/logiciels/pd/traitement/plage/)
+      * [Pd : Déterminer si une valeur est à l’intérieur d’une plage](/logiciels/pd/traitement/plage/)
       * [Pd : Établir une relation proportionnelle](/logiciels/pd/traitement/proportion/)
       * [Attendre un certain temps avant d’activer](/logiciels/pd/traitement/retarder/)
     * [WebSockets dans Pd](/logiciels/pd/websocket/)
@@ -257,7 +257,7 @@
     * [Reaper : Configuration](/logiciels/reaper/configuration/)
     * [Reaper : Échantillonneur](/logiciels/reaper/echantillonneur/)
     * Osc
-      * [Activer l"OSC dans Reaper](/logiciels/reaper/osc/activation/)
+      * [Activer l’OSC dans Reaper](/logiciels/reaper/osc/activation/)
       * [Reaper : OSC par défaut](/logiciels/reaper/osc/defaut/)
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
@@ -273,7 +273,7 @@
   * Touchdesigner
     * [TouchDesigner : Aspect](/logiciels/touchdesigner/aspect/)
     * Audio
-      * [TouchDesigner : Mixer de l"audio](/logiciels/touchdesigner/audio/mixer/)
+      * [TouchDesigner : Mixer de l’audio](/logiciels/touchdesigner/audio/mixer/)
     * [*Feedback* avec TouchDesigner](/logiciels/touchdesigner/feedback/)
     * [Bonnes pratiques *git* pour TouchDesigner](/logiciels/touchdesigner/git/)
     * [TouchDesigner : Globales](/logiciels/touchdesigner/globales/)
@@ -282,7 +282,7 @@
     * [TouchDesigner : _Null_ et _Trail_](/logiciels/touchdesigner/null_et_trail/)
     * Osc
       * [Envoi OSC dans TouchDesigner](/logiciels/touchdesigner/osc/envoi/)
-      * [Réception de l"OSC dans TouchDesigner](/logiciels/touchdesigner/osc/reception/)
+      * [Réception de l’OSC dans TouchDesigner](/logiciels/touchdesigner/osc/reception/)
     * [TouchDesigner : Perform](/logiciels/touchdesigner/performance/)
     * Python
       * [TD : Aide mémoire Python](/logiciels/touchdesigner/python/aide-memoire/)

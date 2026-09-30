@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-Intégration de l"OSC UDP dans Unity avec **extOSC**.
+Intégration de l’OSC UDP dans Unity avec **extOSC**.
 
 ## Initialisation d’extOSC dans Unity 
 
@@ -53,7 +53,7 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 
 ### Préalable(s)
 
-* Avoir suivi les instructions sur l"initialisation d’extOSC.
+* Avoir suivi les instructions sur l’initialisation d’extOSC.
 
 ####  Tableau récapitulatif
 
@@ -61,7 +61,7 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 |----|-----------|---------|
 | Importer `using extOSC;` | ✅ | ❌ |
 | Déclarer `oscReceiver` | ✅ | ❌ |
-| Relier le GameObject OSC dans l"inspecteur | ✅ | ❌ |
+| Relier le GameObject OSC dans l’inspecteur | ✅ | ❌ |
 | Créer une fonction de traitement (`TraiterMessage...()`) | ❌ | ✅ |
 | Ajouter `oscReceiver.Bind()` dans `Start()` | ❌ | ✅ |
 
@@ -81,10 +81,10 @@ Dans la classe `OscProcess` et avant les méthodes, déclarer une référence au
 public extOSC.OSCReceiver oscReceiver;
 ```
 
-#### De retour dans l"éditeur Unity lier les propriétés
+#### De retour dans l’éditeur Unity lier les propriétés
 
 - Glisser le script `OscProcess` sur le GameObject `OSC`.
-- Dans l"Inspecteur, glisser-déposer le GameObject  `OSC` sur la variable publique `oscReceiver` du script.
+- Dans l’Inspecteur, glisser-déposer le GameObject  `OSC` sur la variable publique `oscReceiver` du script.
 
 ![Assignation de OscProcess et d’OSCReceiver dans Unity](./assigner_oscprocess.png)
 
@@ -95,7 +95,7 @@ public extOSC.OSCReceiver oscReceiver;
 
 #### Retourner dans le script `OscProcess`
 
-#### Lier l"adresse OSC à une fonction dans Start()
+#### Lier l’adresse OSC à une fonction dans Start()
 Dans la méthode `Start()`, associez chaque adresse OSC à sa fonction via `Bind()`. Par exemple, ici nous indiquons que lors que le message `"/but0"` est reçu, nous déclenchons la méthode `TraiterMessageBut0` (que nous définissons par après) :
 ```csharp
 oscReceiver.Bind("/but0", TraiterMessageBut0);
@@ -109,21 +109,21 @@ Chaque adresse nécessite sa propre fonction avec un nom explicite. Ici nous ajo
 ```csharp
 void TraiterMessageBut0(OSCMessage message)
 {
-    // Validez qu"il y a bien le nombre attendu d’arguments (1 dans l"exemple) :
+    // Validez qu"il y a bien le nombre attendu d’arguments (1 dans l’exemple) :
     if (message.Values.Count != 1)
     {
         Debug.Log("Le message " + message.Address  + " n"a pas le bon nombre d’arguments");
         return; // Quitte la fonction sans exécuter la suite
     }
 
-    // Vérifiez que l"argument est du type attendu (`int` dans l"exemple) :
+    // Vérifiez que l’argument est du type attendu (`int` dans l’exemple) :
     if (message.Values[0].Type != OSCValueType.Int)
     {
         Debug.Log("Le premier argument du message " + message.Address  + "n"est pas un entier");
         return; // Quitte la fonction sans exécuter la suite
     }
 
-    // Récupérer la valeur de l"argument :
+    // Récupérer la valeur de l’argument :
     int valeur = message.Values[0].IntValue;
 
     // Deboguer
@@ -146,10 +146,10 @@ Quand on appuie sur un bouton d’Arcade, cela envoie le message OSC SLIP `/but0
 
 ### Préalables
 
-- Suivre les instructions pour l"exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
-- Télécharger le [patcher Pure Data pour le relais des messages OSC SLIP vers UDP (unidirectionnel)](/logiciels/pd/osc/relais/) (qui remplace le patcher de l"exemple du bouton d’Arcade)
+- Suivre les instructions pour l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
+- Télécharger le [patcher Pure Data pour le relais des messages OSC SLIP vers UDP (unidirectionnel)](/logiciels/pd/osc/relais/) (qui remplace le patcher de l’exemple du bouton d’Arcade)
 - Cloner le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
-- Suivre les instructions pour l"intégration d’extOSC ci-haut.
+- Suivre les instructions pour l’intégration d’extOSC ci-haut.
 
 ### Investiguer le code Unity
 
@@ -205,9 +205,9 @@ Nous modifions aussi notre méthode `TraiterMesageBut0` du script `OscProcess` :
 ### Le patcher Pd
 
 > [!WARNING]
-> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s"assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l"image plus bas, mais est-ce que c"est le bon ?
+> Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s"assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c"est le bon ?
 
-Il est possible de tester la réception de l"OSC dans Unity à l"aide de `pdchoco/osc_formatter`. Y entre les informations suivantes et appuyer sur `send` :
+Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pdchoco/osc_formatter`. Y entre les informations suivantes et appuyer sur `send` :
 - **address** : `but0` (ce qui correspond en OSC à /but0)
 - **format** : `i` (un entier)
 - **arguments** : `1`
@@ -242,9 +242,9 @@ public static float ChangerPlageDeValeurs(float value, float inputMin, float inp
 
 ### Lors de la réception des valeurs dans TraiterMessage...
 
-Appliquez vos transformations et actions sur l"objet :
+Appliquez vos transformations et actions sur l’objet :
 ```csharp
-// Récupérer la valeur de l"argument :
+// Récupérer la valeur de l’argument :
 int valeur = message.Values[0].IntValue;
 
 // Exemple : adapter proportionnellement la valeur reçue

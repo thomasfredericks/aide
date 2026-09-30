@@ -5,16 +5,16 @@ Une platine d’expérimentation (*breadboard* en anglais) permet de réaliser d
 ![L’utilisation de la platine d’expérimentation pour tester des circuits](./allumer_del_arduino_sans_platine.svg)
 
 
-À gauche, dans l"image ci-haut, nous trouvons le circuit électrique pour allumer une lumière DEL à partir de la carte Arduino. Par contre, il est impossible de relier les composants sans faire de soudure. C’est pour cela que nous utilisons la platine d’expérimentation. 
+À gauche, dans l’image ci-haut, nous trouvons le circuit électrique pour allumer une lumière DEL à partir de la carte Arduino. Par contre, il est impossible de relier les composants sans faire de soudure. C’est pour cela que nous utilisons la platine d’expérimentation. 
 
 ## Connexions
 
-Certains des trous de la platine d’expérimentation sont connectés entre eux. Ces connexions sont indiquées par des lignes dans l"illustration suivante.
+Certains des trous de la platine d’expérimentation sont connectés entre eux. Ces connexions sont indiquées par des lignes dans l’illustration suivante.
 
 ![Connexions internes de la platine d’expérimentation](./platine_experimentation_connexions_internes.svg)
 
 * Tous les trous dans une rangée intérieure de 5 sont reliés entre eux. 
-* Les trous des colonnes extérieures sont reliés entre eux. Ils sont réservés à l"alimentation :
+* Les trous des colonnes extérieures sont reliés entre eux. Ils sont réservés à l’alimentation :
 	* Colonne rouge pour le pôle positif (+).
 	* Colonne bleue pour le pôle négatif (-).
 

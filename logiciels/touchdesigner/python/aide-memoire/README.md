@@ -7,7 +7,7 @@ Source : [TouchDesigner Python Cheat Sheet for Developers - The Interactive & 
 Les **f-strings** permettent de formater rapidement des chaînes. Préfixez une chaîne avec `f` ou `F`, puis ajoutez des expressions entre accolades `{}`. Vous pouvez utiliser un spécificateur de format (comme `:.2f` pour deux décimales) après un `:` suivant la variable.
 
 
-La variable `piStr` s"évalue à _π est environ 3.14_ dans l"exemple suivant :
+La variable `piStr` s"évalue à _π est environ 3.14_ dans l’exemple suivant :
 ```python
 pi = 3.14159
 piStr = f"π est environ {pi:.2f}" 
@@ -22,7 +22,7 @@ piStr = f"π est environ {pi:.2f}"
 | Obtenir le dernier chiffre (ou chiffres) dans le nom d’un OP | `op("json8Fmt24").digits` | `24` |
 | Obtenir la partie de base du nom d’un OP avant le(s) dernier(s) chiffre(s) | `op("json8Fmt24").base` | `json8Fmt` |
 | Interroger la valeur d’un paramètre d’OP | `op("noise1").par.seed.eval()` | `1.0` |
-| Accéder au parent de l"opérateur | `op("noise1").parent()` | `/project1` |
+| Accéder au parent de l’opérateur | `op("noise1").parent()` | `/project1` |
 
 
 ## Travailler avec des Opérateurs
@@ -59,12 +59,12 @@ Le **Temps Absolu** est le temps écoulé depuis le démarrage de TouchDesigner.
 | Description | Expression Python | Exemple de Résultat |
 | :-- | :-- | :-- |
 | Évaluer le canal `chan1` à la trame actuelle | `op("noise1")["chan1"].eval()` | `0.21917423605918884` |
-| Obtenir l"échantillon 2 du canal `chan1` | `op("noise1")["chan1"].eval(2)` | `0.2202223539352417` |
+| Obtenir l’échantillon 2 du canal `chan1` | `op("noise1")["chan1"].eval(2)` | `0.2202223539352417` |
 | Obtenir le nombre de canaux CHOP | `op("noise1").numChans` | `5` |
 | Obtenir la longueur du CHOP (nombre d’échantillons) | `op("noise1").numSamples` | `600` |
 | Obtenir le troisième échantillon du premier canal | `op("noise1")[0][2]` | `0.2202223539352417` |
 | Obtenir le nom du 2ème canal | `op("noise1")[2].name` | `chan3` |
-| Obtenir l"index du canal `chan5` | `op("noise1")["chan5"].index` | `4` |
+| Obtenir l’index du canal `chan5` | `op("noise1")["chan5"].index` | `4` |
 
 ## Travailler avec des données DAT
 

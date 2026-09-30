@@ -1,10 +1,10 @@
-# Traiter l"état du bouton
+# Traiter l’état du bouton
 
 ## Préalable(s)
 
-- [Tutoriel : Réception de l"OSC dans TouchDesigner](/touchdesigner/tutoriel/reception.md)
+- [Tutoriel : Réception de l’OSC dans TouchDesigner](/touchdesigner/tutoriel/reception.md)
 
-## Alterner l"état du bouton
+## Alterner l’état du bouton
 
 ### Ajouter des CHOP _Logic_ et _Null_
 
@@ -14,7 +14,7 @@
 
 ![](bouton_logic-etat_parameters.png)
 
-## Optionnel : ajouter un fondu à l"état du bouton
+## Optionnel : ajouter un fondu à l’état du bouton
 
 ### Ajouter un CHOP _Filter_ entre les CHOP _Logic_ et _Null_
 

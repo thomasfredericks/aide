@@ -18,7 +18,7 @@ La réception d’un message OSC avec MicroOsc repose sur deux éléments :
 La réception OSC suit une logique événementielle : chaque message déclenche immédiatement un traitement. Cette structure permet de construire des systèmes interactifs réactifs, robustes et clairement organisés.
 
 La réception suit également un modèle structuré :
-- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l"envoi à la fonction de rappel.
+- **ACQUISITION** : `MicroOsc` reçoit le message OSC et l’envoi à la fonction de rappel.
 - **CONDITION** : vérifier l’adresse OSC et les types d’arguments du `MicroOscMessage`.
     - **ACTION** : lire les arguments pour modifier le comportement du système.
 

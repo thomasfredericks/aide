@@ -5,7 +5,7 @@
 
 Il faut souder 2 paires de fils (donc 4 au total) au bouton d’arcade :
 - Première paire : positif(+) et négatif(-) de la DEL. Il est important de distinguer le positif du négatif.
-- Deuxième paire : les 2 broches de l"interrupteur. Ces deux broches sont interchangeables.
+- Deuxième paire : les 2 broches de l’interrupteur. Ces deux broches sont interchangeables.
 
 Les points de soudure et les étiquettes diffèrent selon chaque modèle. Voici un exemple avec 
 le [bouton Arcade Button with LED – 30mm Translucent Red d’Adafruit ](https://www.adafruit.com/product/3489)
@@ -16,18 +16,18 @@ le [bouton Arcade Button with LED – 30mm Translucent Red d’Adafruit ](https:
 
 ## Branchement générique
 
-Les broches du bouton doivent être branchés à l"Arduino selon la logique suivante :
+Les broches du bouton doivent être branchés à l’Arduino selon la logique suivante :
 
 | Bouton d’arcade | Arduino |
 | -- | -- |
 | positif(+) | sortie analogique |
 | négatif(-) | GND |
-| une broche de l"interrupteur | entrée numérique |
-| l"autre broche de l"interrupteur | GND |
+| une broche de l’interrupteur | entrée numérique |
+| l’autre broche de l’interrupteur | GND |
 
 À noter que les deux GND peuvent être branchés ensemble.
 
-## Dans le cas d’un Unit 3.96 branché directement à l"Arduino
+## Dans le cas d’un Unit 3.96 branché directement à l’Arduino
 
 ### Branchement
 
@@ -37,8 +37,8 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 | -- | -- |
 | positif(+) | #2 / Jaune |
 | négatif(-) |  #4 / Noir / GND |
-| une broche de l"interrupteur |  #1 / Blanc |
-| l"autre broche de l"interrupteur |  #4 / Noir / GND |
+| une broche de l’interrupteur |  #1 / Blanc |
+| l’autre broche de l’interrupteur |  #4 / Noir / GND |
 
 À noter que les deux GND sont branchés ensemble.
 
@@ -48,7 +48,7 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 
 Nous devons définir deux broches :
 - Une broche `ARCADE_LED_PIN` qui indique la broche à laquelle est branché le positif(+) du bouton d’arcade.
-- Une broche `ARCADE_SWITCH_PIN` qui indique la broche à laquelle est branché une broche de l"interrupteur du bouton d’arcade.
+- Une broche `ARCADE_SWITCH_PIN` qui indique la broche à laquelle est branché une broche de l’interrupteur du bouton d’arcade.
 
 Voici les # de broches pour un Unit 3.96 branché directement à un Atom Lite :
 ```cpp
@@ -99,13 +99,13 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 | -- | -- | -- | 
 | positif(+) | #2 / Jaune |  |
 | négatif(-) |  #4 / Noir / GND | |
-| une broche de l"interrupteur |  #1 / Blanc | Une broche de la résistance |
-| l"autre broche de l"interrupteur |  #4 / Noir / GND | |
+| une broche de l’interrupteur |  #1 / Blanc | Une broche de la résistance |
+| l’autre broche de l’interrupteur |  #4 / Noir / GND | |
 |                                  | #3 / Rouge |  Autre broche de la résistance   | 
 
 À noter que :
 - Les deux GND sont branchés ensemble.
-- Une broche de l"interrupteur, le #1/blanc du 3.96 et une broche de la résistance sont branchés ensemble.
+- Une broche de l’interrupteur, le #1/blanc du 3.96 et une broche de la résistance sont branchés ensemble.
 
 ![Connexion du bouton au Unit 3.96 avec une résistance](./unit_396_bouton_arcade_pull-up.jpg)
 
@@ -118,7 +118,7 @@ Lorsqu"un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas 
 
 #### Code d’initialisation
 
-Aucune configuration particulière autre que l"initialisation du PbHub.
+Aucune configuration particulière autre que l’initialisation du PbHub.
 
 #### Code d’utilisation
 

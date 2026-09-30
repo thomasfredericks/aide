@@ -2,11 +2,11 @@
 
 ## Préalables
 
-* [Activer l"exécution en arrière-plan](../execution_arriere-plan/)
+* [Activer l’exécution en arrière-plan](../execution_arriere-plan/)
 
 ## Ajouter le régistre de Keijiro qui a créé KlakSpout dans Unity
 
-Voici l"information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
+Voici l’information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
 * Name: `Keijiro`
 * URL: `https://registry.npmjs.com`
 * Scope: `jp.keijiro`

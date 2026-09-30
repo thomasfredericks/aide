@@ -16,7 +16,7 @@ Qualités à développer chez les étudiants :
 
 Les élèves doivent avoir le temps et les outils pour réfléchir à ce qu’ils apprennent, découvrir ce qui les intéresse et acquérir les compétences nécessaires pour aller plus loin.
 
-Apprendre à **résoudre des problèmes**, pas seulement à répondre à des questions. Développer l’**esprit critique**, la **créativité**, l’**initiative**. Trop souvent, les notes ne reflètent ni l"engagement, ni la curiosité, ni la profondeur de réflexion.
+Apprendre à **résoudre des problèmes**, pas seulement à répondre à des questions. Développer l’**esprit critique**, la **créativité**, l’**initiative**. Trop souvent, les notes ne reflètent ni l’engagement, ni la curiosité, ni la profondeur de réflexion.
 
 ## Vivre ensemble
 
@@ -34,7 +34,7 @@ L’école est un lieu d’**apprentissage social** : **coopération**, **resp
 
 Le [Projet Aristotle](https://www.leaderfactor.com/learn/project-aristotle-psychological-safety) lancée par Google vers 2012, visait à comprendre pourquoi certaines équipes fonctionnent mieux que d’autres. L’étude a analysé plus de 180 équipes internes, en combinant entretiens, données comportementales et métriques de performance. Le résultat ? La composition des membres importe peu : c’est la nature des interactions au sein de l’équipe qui détermine son efficacité. Google a identifié que le premier prédicteur de réussite d’une équipe est **la sécurité psychologique**. Ce facteur se trouve bien au-dessus de la simple intelligence etdes compétences techniques individuelles ou des dynamiques démographiques.
 
-**La sécurité psychologique** est la croyance partagée que chaque membre de l"équipe peut :
+**La sécurité psychologique** est la croyance partagée que chaque membre de l’équipe peut :
 - s’exprimer librement,
 - poser des questions,
 - prendre des risques,
@@ -55,7 +55,7 @@ Les équipes affichant une forte sécurité psychologique obtiennent :
 
 #### Anita Williams Woolley de Carnegie Mellon
 
-Anita Williams Woolley, professeure en comportement organisationnel à l’université Carnegie Mellon, est une spécialiste reconnue de l’intelligence collective. Dans [Evidence of a Collective Intelligence Factor in the Performance of Human Groups](https://www.researchgate.net/publication/47369848_Evidence_of_a_Collective_Intelligence_Factor_in_the_Performance_of_Human_Groups), elle a démontré que l’intelligence collective d’un groupe est un indicateur mesurable de sa performance. Et que plus le groupe démontrait de l"empathie et une sensibilité sociale, plus il avait une intelligence collecitve.
+Anita Williams Woolley, professeure en comportement organisationnel à l’université Carnegie Mellon, est une spécialiste reconnue de l’intelligence collective. Dans [Evidence of a Collective Intelligence Factor in the Performance of Human Groups](https://www.researchgate.net/publication/47369848_Evidence_of_a_Collective_Intelligence_Factor_in_the_Performance_of_Human_Groups), elle a démontré que l’intelligence collective d’un groupe est un indicateur mesurable de sa performance. Et que plus le groupe démontrait de l’empathie et une sensibilité sociale, plus il avait une intelligence collecitve.
 
 Woolley souligne que la performance d’un groupe dépend surtout :
 - d’une répartition équitable de la parole,

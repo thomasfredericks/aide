@@ -16,7 +16,7 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://w
 
 Utiliser les couleurs avec intention, et non seulement pour de la décoration.
 
-![Attirer l"attention](./attirer_attention.png)
+![Attirer l’attention](./attirer_attention.png)
 
 ![Mettre en évidence l’élément actif](./focus.png)
 

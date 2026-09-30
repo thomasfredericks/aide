@@ -3,7 +3,7 @@
 
 ## Préalable(s)
 
-- [Activation de l"OSC dans Reaper](../../osc/activation/)
+- [Activation de l’OSC dans Reaper](../../osc/activation/)
 - Utilisation du [Virtual MIDI Keyboard](../../virtual_midi_keyboard/)
 - Configuration [MIDI d’un plugiciel](../midi/)
 

@@ -1,7 +1,7 @@
 # ESP32 : modèles
 
 
-## Tableau de comparaison entre l"ESP32 et l"ESP32-S3
+## Tableau de comparaison entre l’ESP32 et l’ESP32-S3
 | name | title | ESP32 (ESP32-PICO-D4) | ESP32-S3 |
 | -- | -- | -- | -- |
 | Overview | Series | ESP32 | ESP32-S3 |

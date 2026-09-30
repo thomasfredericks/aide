@@ -18,7 +18,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - **MALIN** : expérience qui exige de penser en dehors des sentiers battus (« think out of the box »).
 - **WEB** : expérience sur le Web.
 - **SUBVERSIF** : une expérience qui détourne les conventions ou les normes.
-- **IU** : recherche sur l"interface utilisateur
+- **IU** : recherche sur l’interface utilisateur
 - **INSTRUMENT** : recherche sur ce qu"est un instrument
 
 ## Entrer dans un autre monde
@@ -48,7 +48,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Dash Dodge Dive - Chris O"Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
 - [Marie Sester: ACCESS, 2003](https://sester.net/access/)
 - [The Treachery of Sanctuary - CHRIS MILK](http://milk.co/treachery)
-- [La légèreté de l"être | Videos & Movies on Vimeo](https://vimeo.com/333354293)
+- [La légèreté de l’être | Videos & Movies on Vimeo](https://vimeo.com/333354293)
 - [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
 - [La femme dans la chambre (extrait), Andrée-Anne Roussel on Vimeo](https://vimeo.com/240049017)
 
@@ -64,7 +64,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Johann Sebastian Joust](http://www.jsjoust.com/) **CORPORALITÉ MALIN COLLECTIF JOUABLE**
 	- [Johann Sebastian Joust at MagFest 2016](https://www.youtube.com/watch?v=YUDEi2dZUV8)
 
-## Transformer l"espace
+## Transformer l’espace
 
 - [Rain Room, 2012 — RANDOM INTERNATIONAL](https://www.random-international.com/rain-room?utm_source=chatgpt.com)
 - [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
@@ -138,7 +138,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
 
 
-## Études sur l"interface utilisateur
+## Études sur l’interface utilisateur
 
 - [10k Drum Machines](https://10kdrummachines.com/)
 

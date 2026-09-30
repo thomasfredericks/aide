@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L’objectif est d’influencer la population, voire de l"endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d’éliminer le pluralisme des points de vue et d’empêcher l"exercice de l"esprit critique.
+La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L’objectif est d’influencer la population, voire de l’endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d’éliminer le pluralisme des points de vue et d’empêcher l’exercice de l’esprit critique.
 
 En bref, les PDG de compagnies de GML voudraient que la population craigne un futur imaginé et hypothétique plutôt que de se concentrer sur les réels problèmes actuels des GML :
 - Désinformation
@@ -61,11 +61,11 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 - **Le sentiment d’inévitabilité est une construction narrative.**  
   Silicon Valley cultive l’idée que « le futur est déjà écrit ». Mais **l’histoire des empires technologiques montre que tous peuvent s’effondrer** : IBM, les États-Unis, Yahoo, Nokia… Et bien d’autres.
 
-## L’âge d’or de l"IA est en 2025 et ça dégringole à partir de là
+## L’âge d’or de l’IA est en 2025 et ça dégringole à partir de là
 
 - **Le coût d’utilisation des GML est aujourd’hui artificiellement bas.**  
   Leur accès est **fortement subventionné** par le capital-risque, ce qui donne l’illusion qu’ils sont peu coûteux, voire gratuits. Mais ces subventions sont en train de s’évaporer...
-- Nous constatons le développement de  **Sycophant AI** : des GML conçues pour dire ce que l"utilisateur veut entendre, sans esprit critique.
+- Nous constatons le développement de  **Sycophant AI** : des GML conçues pour dire ce que l’utilisateur veut entendre, sans esprit critique.
   - [AI-Fueled Spiritual Delusions Are Destroying Human Relationships](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/)
 - Le **marketing** est au cœur du discours sur l’IA et prochainement de ses produits :  
   - **Kate Rouch**, ancienne de Meta, est aujourd’hui la première directrice du marketing d’OpenAI.
@@ -84,7 +84,7 @@ En bref, les PDG de compagnies de GML voudraient que la population craigne un fu
 ## Bonus
 
 - [SciShow Is Lying to You about AI. Here are the receipts. - YouTube](https://www.youtube.com/watch?app=desktop&v=1IQ9IbJVZnc) Vidéo assez intéressante qui aborde ces mythes à propos des GML :
-  - Que jamais dans l"histoire de l"humanité une technologie a été développé aussi rapidement que les GML
+  - Que jamais dans l’histoire de l’humanité une technologie a été développé aussi rapidement que les GML
   - Que le développement des GML a progressé plus rapidement que le développement de la bombe atomique/énergie nucléaire
   - Que les GML est plus dangereux que la bombe atomique
 - [ChatBots Explained: Not Conscious, No Revolution — Just Searching"s Next Step - YouTube](https://www.youtube.com/watch?app=desktop&v=0qnZDMvJPh4)

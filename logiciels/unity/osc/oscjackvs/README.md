@@ -1,16 +1,16 @@
 #  Unity : OSC UDP avec oscjackvs
 
-Intégration de l"OSC UDP dans Unity avec **oscjackvs**.
+Intégration de l’OSC UDP dans Unity avec **oscjackvs**.
 
 ## Préalables
 
-* [Activer l"exécution en arrière-plan](../../execution_arriere-plan/)
+* [Activer l’exécution en arrière-plan](../../execution_arriere-plan/)
 
 ## Intégration d’OSCJackVS
 
 Nous utilisons [OSCJackVS](https://github.com/keijiro/OscJackVS) de Keijiro pour traiter les messages OSC UDP dans Unity.
 
-Voici l"information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
+Voici l’information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
 * Name: `Keijiro`
 * URL: `https://registry.npmjs.com`
 * Scope: `jp.keijiro`
@@ -30,4 +30,4 @@ Voici l"information à inscrire dans les paramètres du gestionnaire de paquets 
 
 ![Créez un cylindre et un nouveau Script Graph](./Diapositive5.SVG)
 
-![Ajoutez le code pour recevoir le message /pot et l"assigner à la rotation du cylindre](./Diapositive6.SVG)
+![Ajoutez le code pour recevoir le message /pot et l’assigner à la rotation du cylindre](./Diapositive6.SVG)

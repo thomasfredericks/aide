@@ -1,7 +1,7 @@
 
 # millis() : Ralentir *loop()* sans *delay()*
 
-Un `delay()` est souvent utilisé pour ralentir l"exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
+Un `delay()` est souvent utilisé pour ralentir l’exécution de la boucle `loop()`. Cela a cependant pour effet de ralentir tout le code.
 
 😔 Voici par exemple un extrait de code qui utilise un `delay()` pour ralentir la vitesse de la boucle :
 ```cpp
@@ -13,7 +13,7 @@ void loop() {
 }
 ```
 
-😀 Dans cette version optimisée, le `delay()` a été remplacé par l"algorithme d’intervalle :
+😀 Dans cette version optimisée, le `delay()` a été remplacé par l’algorithme d’intervalle :
 ```cpp
 unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autres variables globales
 

@@ -35,10 +35,10 @@ lib_deps =
 ```
 
 > [!WARNING]
-> Il est important de respecter la disposition et l"indentation de la section lib_deps!
+> Il est important de respecter la disposition et l’indentation de la section lib_deps!
 
 
-### Code à ajouter à **l"espace global**
+### Code à ajouter à **l’espace global**
 
 Importer et créer une instance de la classe `M5_PbHub` (nommée `myPbHub` dans cet exemple) :
 ```cpp

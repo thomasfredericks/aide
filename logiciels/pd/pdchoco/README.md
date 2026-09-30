@@ -8,7 +8,7 @@
 
 ### Télécharger
 
-Téléchargez l"archive de la bibliothèque directement à partir du dépôt officiel : [thomasofredericks/pdchoco sur Codeberg.org](https://codeberg.org/thomasofredericks/pdchoco).
+Téléchargez l’archive de la bibliothèque directement à partir du dépôt officiel : [thomasofredericks/pdchoco sur Codeberg.org](https://codeberg.org/thomasofredericks/pdchoco).
 
 ![pdchoco sur Codeberg.org](./pdchoco_codeberg.png)
 

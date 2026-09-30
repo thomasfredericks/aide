@@ -14,14 +14,14 @@ Pour créer cette différence de potentiel, on utilise une **alimentation élect
 
 ![Illustration du débalancement des électrons dans une batterie AA (JIMBLOM, s. d.)](batterie_aa_electrons.svg)  
 
-Une alimentation possède deux pôles. L’un **positif** (avec un potentiel *haut*) et l"autre **négatif** (avec un potentiel *bas*). 
+Une alimentation possède deux pôles. L’un **positif** (avec un potentiel *haut*) et l’autre **négatif** (avec un potentiel *bas*). 
 
 ![Une alimentation 12V à courant continu (CC)](alimentation_12v.svg)  
 
 
 ## Boucle électrique
 
-Pour circuler, le courant doit suivre une boucle entre les deux pôles de l"alimentation.
+Pour circuler, le courant doit suivre une boucle entre les deux pôles de l’alimentation.
 
 ![Les électrons voyagent en se tirant les uns derrières les autres comme les wagons d’un train (JIMBLOM, s. d.)](circuit_electrons.svg)  
 
@@ -34,19 +34,19 @@ Pour circuler, le courant doit suivre une boucle entre les deux pôles de l"alim
 | Résistance  | R | Ohms (Ω) | Réduit la circulation des électrons (réduit la pression et la quantité) |
 | Puissance  | P | Watts (W) | La puissance résultant de la *pression* multipliée par la *quantité*  |
 
-## Analogie de l"eau
-### Pression de l"eau ≈ tension électrique
+## Analogie de l’eau
+### Pression de l’eau ≈ tension électrique
 
-![La pression de l"eau est similaire à la tension électrique (CTAYLOR, s. d.)](./analogie_eau_tension.svg)
+![La pression de l’eau est similaire à la tension électrique (CTAYLOR, s. d.)](./analogie_eau_tension.svg)
 
 ### Quantité d’eau ≈ intensité électrique
 
-![La quantité d’eau est similaire à l"intensité électrique (CTAYLOR, s. d.)](./analogie_eau_intensite.svg)
+![La quantité d’eau est similaire à l’intensité électrique (CTAYLOR, s. d.)](./analogie_eau_intensite.svg)
 
 
 ### Étranglement de tuyau ≈ intensité électrique
 
-![Un étranglement dans le tuyau est similaire à l"intensité électrique (CTAYLOR, s. d.)](./analogie_eau_resistance.svg)
+![Un étranglement dans le tuyau est similaire à l’intensité électrique (CTAYLOR, s. d.)](./analogie_eau_resistance.svg)
 
 
 

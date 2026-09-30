@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Wonder Wander est un portant sur la création de mondes à travers l"apprentissage d’un territoire. 
+Wonder Wander est un portant sur la création de mondes à travers l’apprentissage d’un territoire. 
 
 Ce jeu est une version extrêmement simplifié de [Cartograph - Atlas Edition](https://the-ravensridge-press.itch.io/cartograph-atlas-edition) de Brandon Lee.
 
@@ -56,7 +56,7 @@ Vous devriez dessiner votre carte au crayon, car vous serez amené·e à effacer
 
 Si l’on vous demande de prolonger un littoral, vous devez d’abord repérer le littoral existant que vous avez déjà indiqué sur votre carte. Prolongez ce littoral en dessinant quelques centimètres supplémentaires de côte qui lui sont reliés. Si l’on vous demande d’effacer un littoral, vous ne devez effacer que quelques centimètres de côte, et non l’ensemble du littoral. Chaque fois que vous indiquez, prolongez ou effacez un littoral, vous ne devez pas intervenir sur plus de quelques centimètres. Toutefois, si un littoral se trouve exceptionnellement près d’un autre, n’hésitez pas à les relier.
 
-Si vous étendez le littoral autour d’un dé, vous pourriez l"entourer complètement, ce qui représente alors une île !
+Si vous étendez le littoral autour d’un dé, vous pourriez l’entourer complètement, ce qui représente alors une île !
 
 ## Votre point de départ
 
@@ -85,7 +85,7 @@ Un à la fois, enlevez les dés de la carte à mesure que vous dessinez chaque �
 | 5 | 🌳 | Une forêt (corridor forestier si 2 dés ou plus) |
 | 6 | ? | Étendre le littoral autour du dé et ajouter un lieu particulier | 
 
-Si vous avez déjà établi une ligne côtière et qu’un dé de biome ⛰️/🌳 tombe au milieu de l’océan, vous pourriez l"ignorer. Optionnellement, il pourrait révéler un aspect intéressant de votre monde. Par exemple, vous pourriez dessiner un arbre solitaire géant qui émerge de la surface dans le cas d’une forêt dans l"eau. Ou un récif dans le cas d’une montagne dans l"eau.
+Si vous avez déjà établi une ligne côtière et qu’un dé de biome ⛰️/🌳 tombe au milieu de l’océan, vous pourriez l’ignorer. Optionnellement, il pourrait révéler un aspect intéressant de votre monde. Par exemple, vous pourriez dessiner un arbre solitaire géant qui émerge de la surface dans le cas d’une forêt dans l’eau. Ou un récif dans le cas d’une montagne dans l’eau.
 
 ### Doubles ou triples (lancers identiques)
 
@@ -134,7 +134,7 @@ Lancez deux fois D66↗ :
 - Le premier résultat détermine le **préfixe**.
 - Le second résultat détermine le **suffixe**.
 - Assemblez ensuite les deux éléments pour former le nom.
-- Vous devez ajuster l"accord grammatical en fonction du résultat final pour obtenir un nom naturel et cohérent en français.
+- Vous devez ajuster l’accord grammatical en fonction du résultat final pour obtenir un nom naturel et cohérent en français.
 
 Exemple :
 
@@ -177,14 +177,14 @@ Lancez deux fois D66↗ :
 - Le premier résultat détermine le **préfixe**.
 - Le second résultat détermine le **suffixe**.
 - Assemblez ensuite les deux éléments pour former le nom.
-- Vous devez ajuster l"accord grammatical en fonction du résultat final pour obtenir un nom naturel et cohérent en français.
+- Vous devez ajuster l’accord grammatical en fonction du résultat final pour obtenir un nom naturel et cohérent en français.
 
 Exemple :
 
 > - Premier jet : 6 et 1 → **16** → **MASSIF**
 > - Second jet : 5 et 1 → **15** → **SACRÉE**
 >
-> Nom obtenu : **MASSIF SACRÉ** (changez l"accord)
+> Nom obtenu : **MASSIF SACRÉ** (changez l’accord)
 
 ## Réduire en ruine
 
@@ -248,7 +248,7 @@ Exemple :
 | 2 | La même nation que la communauté la plus proche | - | 
 | 3 | La nation des étoiles | ⭐️ |
 | 4 | La nation du feu | ▲ |
-| 5 | La nation de l"air | 🌀 |
+| 5 | La nation de l’air | 🌀 |
 | 6 | La nation de la terre | ⦿ |
 
 ## Visiter un lieu particulier (?)
@@ -258,7 +258,7 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 | D66↗ | Description du lieu particulier |
 |---|-------------|
 | 11 | Les restes d’un véhicule écrasé. Il peut être petit ou aussi grand qu"une ville. |
-| 12 | Dessinez une structure de plusieurs pierres énormes dont vous ignorez l"utilité. |
+| 12 | Dessinez une structure de plusieurs pierres énormes dont vous ignorez l’utilité. |
 | 13 | Vous découvrez une énorme porte que vous n"arrivez pas à franchir. Dessinez la porte et lancez un dé de moins au prochain tour. |
 | 14 | Une structure abritant un signal lumineux. Quel avertissement ce signal transmet-il ? |
 | 15 | Vous apercevez un navire au large de la côte. |
@@ -272,8 +272,8 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 | 34 | Une auberge au bord de la route accueillant des voyageurs fatigués. Lancez 1 dé de plus au prochain tour |
 | 35 | Une tente spectaculaire remplie de toutes sortes d’artistes. Dessinez la tente et la compétence qu’ils vous enseignent pendant votre séjour.|
 | 36 | Une haute tour de guet dominant le paysage. Dessinez avec un cône ce qui est observé |
-| 44 | Un ancien site lié à une arme d’une puissance redoutable. Dessinez l"arme. Dessiner plus loin la marque permanente qu"elle a laissée sur la nature.  |
-| 45 | Un trou très profond. Qui l"a creusé ? Où mène-t-il |
+| 44 | Un ancien site lié à une arme d’une puissance redoutable. Dessinez l’arme. Dessiner plus loin la marque permanente qu"elle a laissée sur la nature.  |
+| 45 | Un trou très profond. Qui l’a creusé ? Où mène-t-il |
 | 46 | Un marais avec des arbres pétrifiés s’entrelacent comme des membres noueux. |
 | 55 | Un poste frontalier animé et débordant d’activité. Dessiner un mur avec un passage entre deux biomes. Vous devez remplir des formulaires, lancez 1 dé de moins au prochain tour |
 | 56 | Une source chaude bouillonnante et curative parsème cet endroit. Dessinez le bassin et peut-être qui s"y baigne |

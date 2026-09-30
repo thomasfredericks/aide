@@ -31,7 +31,7 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 
 
 > [!NOTE]
-> Contrairement à ce que l"on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
+> Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
 
 
 ### Caractéristiques principales
@@ -57,7 +57,7 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 
 ## Générateur d’image
 
-Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l"entraînement pour débruiter progressivement jusqu"à obtenir une image cohérente correspondant au prompt texte.
+Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu"à obtenir une image cohérente correspondant au prompt texte.
 
 ### Caractéristiques principales
 
@@ -104,9 +104,9 @@ Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs 
 
 Il existe deux approches principales :
 
-1. **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l"IA consulte directement cette base.
+1. **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
 
-2. **Simulation des alternatives** : Arbres de décision où l"algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
+2. **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
 
 ### Architecture technique
 
@@ -141,7 +141,7 @@ Il existe deux approches principales :
 
 L’IA de jeu vidéo est **scriptée par les concepteurs**. Chaque comportement est prémédité et codé explicitement, sans aucune capacité d’apprentissage autonome.
 
-L’IA de jeu vidéo n"est **pas de l"apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n"y a pas d’adaptation autonome.
+L’IA de jeu vidéo n"est **pas de l’apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n"y a pas d’adaptation autonome.
 
 ### Techniques utilisées
 
@@ -154,7 +154,7 @@ L’IA de jeu vidéo n"est **pas de l"apprentissage**. Chaque comportement est s
 
 ### Objectifs de conception
 
-1. **Créer l"illusion** d’intelligence pour l"expérience joueur
+1. **Créer l’illusion** d’intelligence pour l’expérience joueur
 2. **Maintenir le contrôle** des développeurs sur le gameplay
 3. **Assurer la performance temps réel** (60 FPS+)
 4. **Garantir la reproductibilité** du comportement

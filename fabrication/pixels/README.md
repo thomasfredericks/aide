@@ -39,7 +39,7 @@ Certains modèles ont ces broches additionnelles :
 
 ## Branchement
 
-Dans l"exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec une tension d’alimentation de 12 V.
+Dans l’exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec une tension d’alimentation de 12 V.
 
 ![Couper un segment de ruban DEL](./Diapositive1.SVG)  
 

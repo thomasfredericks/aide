@@ -10,13 +10,13 @@ Pour éviter les conflits lorsque plusieurs fenêtres ou patchs similaires sont 
 
 ## Initialisation et chargement des sons
 
-Dès l"ouverture du fichier, des objets `loadbang` déclenchent indépendamment le chargement des fichiers audio dans leurs abstractions de stockage respectives grâce à la commande `read` : le fichier `clap.wav` est chargé dans l"espace `$0-clap`, et le fichier `break.wav` est chargé dans l"espace `$0-break`.
+Dès l’ouverture du fichier, des objets `loadbang` déclenchent indépendamment le chargement des fichiers audio dans leurs abstractions de stockage respectives grâce à la commande `read` : le fichier `clap.wav` est chargé dans l’espace `$0-clap`, et le fichier `break.wav` est chargé dans l’espace `$0-break`.
 
 ## Lecture simple et en boucle
 
 Le patch propose deux comportements distincts basés sur des abstractions dédiées :
-* **La lecture simple :** Un déclencheur active l"abstraction `pdchoco/sample_play~ $0-clap`, qui lit ponctuellement le son de claquement de mains. Le signal traverse ensuite l"abstraction de contrôle `pdchoco/volume~` pour ajuster son niveau.
-* **La lecture en boucle :** Des commandes d’activation et d’arrêt pilotent l"abstraction `pdchoco/sample_loop~ $0-break 1000 1000`, qui répète continuellement le rythme de batterie avec des temps de fondu d’une seconde (1000 ms). Son niveau est également géré par sa propre abstraction `pdchoco/volume~`.
+* **La lecture simple :** Un déclencheur active l’abstraction `pdchoco/sample_play~ $0-clap`, qui lit ponctuellement le son de claquement de mains. Le signal traverse ensuite l’abstraction de contrôle `pdchoco/volume~` pour ajuster son niveau.
+* **La lecture en boucle :** Des commandes d’activation et d’arrêt pilotent l’abstraction `pdchoco/sample_loop~ $0-break 1000 1000`, qui répète continuellement le rythme de batterie avec des temps de fondu d’une seconde (1000 ms). Son niveau est également géré par sa propre abstraction `pdchoco/volume~`.
 
 ## Mixage et sortie audio
 

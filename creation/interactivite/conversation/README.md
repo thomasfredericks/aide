@@ -1,16 +1,16 @@
 # L’interactivité est une conversation
 
-La notion de *conversation* permet de mieux définir l"interactivité : on ne cherche plus seulement à faire  *réagir* un système, mais à construire **un échange dans lequel chacune des actions modifie les possibilités de l"action suivante**.
+La notion de *conversation* permet de mieux définir l’interactivité : on ne cherche plus seulement à faire  *réagir* un système, mais à construire **un échange dans lequel chacune des actions modifie les possibilités de l’action suivante**.
 
 Dans une vraie conversation :
 
 > Je parle → tu interprètes → tu réponds → ta réponse influence ce que je dis ensuite.
 
-Il y a donc une *mémoire minimale de l"échange*. Si je répète exactement la même phrase à quelqu"un, sa réponse peut être différente selon ce qui vient de se passer.
+Il y a donc une *mémoire minimale de l’échange*. Si je répète exactement la même phrase à quelqu"un, sa réponse peut être différente selon ce qui vient de se passer.
 
 On peut transposer cela à une expérience interactive :
 
-> Action de la personne → interprétation par le système → réponse → transformation de l"état du système → nouvelle possibilité d’action
+> Action de la personne → interprétation par le système → réponse → transformation de l’état du système → nouvelle possibilité d’action
 
 
 Par exemple, une installation réactive qui détecte une personne et allume une lumière fait :
@@ -50,15 +50,15 @@ Et surtout, parce que capter une donnée n"est pas encore interagir :
 
 ## La réponse doit être signifiante
 
-Une conversation devient intéressante lorsque la réponse du système *donne du sens à l"action précédente*.
+Une conversation devient intéressante lorsque la réponse du système *donne du sens à l’action précédente*.
 
 Un exemple de faible interactivité :
 
-> La personne bouge → une vidéo de son mouvement apparaît à l"écran.
+> La personne bouge → une vidéo de son mouvement apparaît à l’écran.
 
 Un exemple d’une interactivité plus forte :
 
-> La personne bouge → le système interprète son mouvement → la personne saute → son image s"envole dans l"écran.
+> La personne bouge → le système interprète son mouvement → la personne saute → son image s"envole dans l’écran.
 
 Dans le deuxième cas, la personne peut commencer à se dire :
 

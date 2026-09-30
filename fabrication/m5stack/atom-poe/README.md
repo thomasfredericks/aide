@@ -9,7 +9,7 @@ Documentation officielle : [Atom PoE](https://docs.m5stack.com/en/atom/atom_po
 
 ## Bibliothèque logicielle `MicroNet` (recommandée)
 
-Pour utiliser l"Atom POE, il est recommandé d’utiliser [MicroNet](https://github.com/thomasfredericks/MicroNet). Il suffit de suivre les instructions et exemples qui y sont fournis.
+Pour utiliser l’Atom POE, il est recommandé d’utiliser [MicroNet](https://github.com/thomasfredericks/MicroNet). Il suffit de suivre les instructions et exemples qui y sont fournis.
 
 S"il n"est pas possible ou désiré d’utiliser cette bibliothèque logicielle, Atom POE peut-être intégré manuellement en suivant les instructions ci-bas.
 
@@ -17,15 +17,15 @@ S"il n"est pas possible ou désiré d’utiliser cette bibliothèque logicielle,
 
 ### Bibliothèque logicielle `arduino-libraries/Ethernet` pour PlatformIO
 
-Pour PlatformIO, il faut ajouter la bibliothèque logicielle `arduino-libraries/Ethernet` à l"entrée `lib_deps` du fichier de configuration `platformio`  :
+Pour PlatformIO, il faut ajouter la bibliothèque logicielle `arduino-libraries/Ethernet` à l’entrée `lib_deps` du fichier de configuration `platformio`  :
 ```ini
 lib_deps=
   https://github.com/arduino-libraries/Ethernet
 ```
 
-### Initialisation de l"Ethernet
+### Initialisation de l’Ethernet
 
-Broches de l"Atom :
+Broches de l’Atom :
 
 | Ethernet | CLK	| CS	| MISO | MOSI |
 | -- |  -- |  -- |  -- |  -- | 
@@ -33,18 +33,18 @@ Broches de l"Atom :
 | AtomS3 |	5 |	6 |	7 |	8 |
 
 
-#### Code à ajouter à l"espace *global*
+#### Code à ajouter à l’espace *global*
 
 ```cpp
 #include <SPI.h>
 #include <Ethernet.h>
 #include <esp_mac.h>
 
-// L’IP du microcontrolleur doit avoir les mêmes trois premiers nombres que l"IP de destination 
+// L’IP du microcontrolleur doit avoir les mêmes trois premiers nombres que l’IP de destination 
 IPAddress myLocalIp(192, 168, 1, 101);
 ```
 
-#### Code à ajouter à *l"initialisation*
+#### Code à ajouter à *l’initialisation*
 
 
 ```cpp
@@ -58,7 +58,7 @@ IPAddress myLocalIp(192, 168, 1, 101);
   Ethernet.begin(myMac, myLocalIp);
 ```
 
-Optionnellement, afficher l"information de connexion :
+Optionnellement, afficher l’information de connexion :
 ```cpp
   Serial.begin(115200);
   Serial.println();

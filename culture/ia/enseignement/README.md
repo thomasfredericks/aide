@@ -1,6 +1,6 @@
-# Impacts des GML sur l"enseignement 
+# Impacts des GML sur l’enseignement 
 
-- **Utiliser ChatGPT pendant l"apprentissage pourrait nuire aux capacités de pensée critique**
+- **Utiliser ChatGPT pendant l’apprentissage pourrait nuire aux capacités de pensée critique**
   Une équipe de neurologues et spécialistes en IA du Media Lab du MIT a mené une étude sur l’impact des grands modèles de langage (GML), comme ChatGPT, sur le cerveau des utilisateurs lors de tâches d’écriture, un groupe utilisant ChatGPT, un autre utilisant Google Search, et un dernier sans aucun outil. Les résultats montrent que le groupe sans assitance présentait la plus forte activité cérébrale et engagement mental, le groupe Google était intermédiaire, et le groupe ChatGPT avait la connectivité cérébrale la plus faible. Après plusieurs mois, ceux qui avaient utilisé ChatGPT précédemment ont montré une activité cérébrale plus faible et une mémoire moins performante. Ils ressentaient moins de sentiment de propriété sur leurs essais et avaient plus de difficultés à s’en souvenir ou à les citer. [Using ChatGPT to write essays may be eroding critical thinking skills](https://phys.org/news/2025-06-chatgpt-essays-eroding-critical-skills.html)
 
 - **La personne qui utilise ou « prompte » un GML doit avoir une solide expertise du métier.**  
@@ -30,7 +30,7 @@ Voici des témoignages d’étudiants recueillis par [The Chronicle of Higher Ed
 - « Je suis devenu plus paresseux. L’IA rend la lecture plus facile, mais elle fait lentement perdre à mon cerveau la capacité de penser de manière critique ou de comprendre chaque mot. »
 - « C’est utile, mais j’ai peur qu’un jour, on préfère lire uniquement des résumés générés par l’IA plutôt que les nôtres, et qu’on devienne très dépendants de l’IA. »
 
-Lorsqu"elle est utilisée dans un contexte académique, l"IA générative est comme une dépendance, qui réduit graduellement notre capacité intelectuelle.
+Lorsqu"elle est utilisée dans un contexte académique, l’IA générative est comme une dépendance, qui réduit graduellement notre capacité intelectuelle.
 
 ### Recherches corporatives
 
@@ -53,7 +53,7 @@ Cela va aussi éliminer beaucoup d’emplois… ainsi que ceux qui les occupent.
   - Refuser de laisser l’IA générative penser à ta place te rend plus résistant aux effets d’affaiblissement cognitif liés à l’IA générative.
 
 - ✊  **Un conseil simple aux étudiants** 
-  - Tu veux dépasser tous ceux qui utilisent l"IA générative pour faire leurs travaux, surtout quand vous serez sur le marché du travail (pour faire plus d’argent 🤑) ?
+  - Tu veux dépasser tous ceux qui utilisent l’IA générative pour faire leurs travaux, surtout quand vous serez sur le marché du travail (pour faire plus d’argent 🤑) ?
   - Alors n’utilise pas de GML pour faire tes travaux!
 
 - 🏋️ **Oui, ce sera dur... comme aller à la salle de sport...**

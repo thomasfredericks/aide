@@ -8,14 +8,14 @@
 Ce tutoriel présente progressivement la création d’un système Arduino interactif composé d’une DEL et d’un bouton. 
 
 Il présente :
-- l"utilisation de la bibliothèque `Chrono` 
+- l’utilisation de la bibliothèque `Chrono` 
 - introduit les fonctions `pinMode()` et `digitalWrite()` afin de commander la DEL
-- l"utilisation de la bibliothèque `Bounce2` et sa classe `Bounce2::Button` 
+- l’utilisation de la bibliothèque `Bounce2` et sa classe `Bounce2::Button` 
 
 
 ## Circuit
 
-![Broches de l"Arduino Nano R4](./arduino_nano_r4_pins.png)
+![Broches de l’Arduino Nano R4](./arduino_nano_r4_pins.png)
 
 ![Schéma du circuit](./schema.png)
 
@@ -54,7 +54,7 @@ Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 En combinant ces méthodes nous pouvons produire un bloc de code qui s"exécute à chaque `INTERVALLE` : 
 
 ```cpp
-  if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l"INTERVALLE
+  if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l’INTERVALLE
     {
         minuterieDel.restart(); // REPARTIR LA MINUTERIE
         // FAIRE QQCH ICI
@@ -209,7 +209,7 @@ Ainsi que ces méthodes d’interaction :
 
  | Instruction | Signification |
 |--|--|
-| `bouton.update()` | **IMPORTANT**! Met à jour l"état du bouton. Doit être appelée à chaque passage dans `loop()` |
+| `bouton.update()` | **IMPORTANT**! Met à jour l’état du bouton. Doit être appelée à chaque passage dans `loop()` |
 | `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n"est pas actuellement appuyé |
 
 Nous pouvons contrôler un bloc de code selon une détection de pression ainsi :
@@ -271,7 +271,7 @@ void loop()
     // Mise à jour du bouton
     bouton.update();
 
-    // La DEL suit l"état physique du bouton
+    // La DEL suit l’état physique du bouton
     if (bouton.isPressed())
     {
         digitalWrite(BROCHE_DEL, HIGH);
@@ -394,7 +394,7 @@ void loop()
 
 Une pression démarre le clignotement.
 
-Une deuxième pression l"arrête.
+Une deuxième pression l’arrête.
 
 ### Schéma
 
@@ -414,7 +414,7 @@ K - Oui -> L{Intervalle écoulé ?}
 L - Non -> D
 L - Oui -> M[Redémarrer minuterieDel]
 M -> N[Inverser etatDel]
-N -> O[Modifier l"état de la DEL]
+N -> O[Modifier l’état de la DEL]
 O -> D
 ```
 
@@ -452,7 +452,7 @@ void loop()
     // Mise à jour du bouton
     bouton.update();
 
-    // Gestion de l"événement de pression
+    // Gestion de l’événement de pression
     if (bouton.pressed())
     {
         if (clignotementActif) {

@@ -38,7 +38,7 @@ L’exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](
 > [!WARNING]  
 > Les modifications effectuées aux composants dans « principal.toe » ne seront pas sauvegardées !
 
-Chaque fois que vous voulez mettre à jour les composants *alpha* et *beta* dans *principal*, vous devez refaire l"exportation des *.toe* en *.tox* et rédémarrer *principal.toe*.
+Chaque fois que vous voulez mettre à jour les composants *alpha* et *beta* dans *principal*, vous devez refaire l’exportation des *.toe* en *.tox* et rédémarrer *principal.toe*.
 
 ## AVANCÉ! Script pour la (sauvegarde) automatique des COMP externes
 
