@@ -69,7 +69,7 @@ def walk_directory(docs_dir):
     
     # print("-" * 60)
     # print(f"✅ Fichiers analysés: {files_processed}")
-    print(f"✅ Frenchification : {total_replacements} fichiers modifiés")
+    print(f"✅ Frenchification : {total_replacements} remplacement(s)")
 
 if __name__ == "__main__":
     # print("=" * 60)
