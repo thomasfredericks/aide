@@ -78,7 +78,7 @@ Pour valider que votre projet est techniquement viable, incluez les paramètres 
 - **Résolution d’image de chaque carte :** Minimum 300 dpi.
 - **Format de la carte :** Dimensions standard Poker : 63 x 88 mm ou 2,48 x 3,46 po.
 - **Fonds perdus (bleed) :** Veuillez prévoir 1/8 po pour les fonds perdus. 
-- **Zone de sécurité textuelle :** Garder les textes et indices à l’intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu’ils ne soient coupés. 
+- **Marges de sécurité :** Garder les textes et indices à l’intérieur d’une marge sécurisée (1/8 po de chaque côté) pour éviter qu’ils ne soient coupés. 
 
 Voici un exemple de l’application des contraintes techniques : [American-poker-size.pdf de makeplayingcards.com](American-poker-size.pdf)
 
