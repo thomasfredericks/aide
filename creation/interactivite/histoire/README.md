@@ -12,7 +12,7 @@ En 1843, Ada traduit du français à l’anglais un article sur l’**Analytical
 - Elle y décrit **le premier algorithme informatique** (pour les **nombres de Bernoulli**)
 - Elle comprend que la machine pourrait **traiter autre chose que des chiffres** (musique, texte, etc.)
 
-> la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n"importe quelle longueur ou degré de complexité.
+> la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n’importe quelle longueur ou degré de complexité.
 
 ## Hilma af Klint (1906)
 
@@ -33,7 +33,7 @@ Son travail était **profondément influencé par la spiritualité**, notamment 
 
 Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
-> « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n"avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
+> « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n’avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
 
 ![](./hilma.png)
 
@@ -43,9 +43,9 @@ Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 ## Marcel Duchamp (1969)
 
-Duchamp ne s’intéresse pas à ce qu’il appelle « l’art rétinien ». Un art qui n"est que visuel — et cherche d’autres modes d’expression. ​
+Duchamp ne s’intéresse pas à ce qu’il appelle « l’art rétinien ». Un art qui n’est que visuel — et cherche d’autres modes d’expression. ​
 
-Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu’ils n"ont pas été réalisés par l’artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l’art et le rôle de l’artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
+Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu’ils n’ont pas été réalisés par l’artiste, ils rendent problématiques un certain nombre de concepts, voire de certitudes, concernant la définition de l’art et le rôle de l’artiste, et plus spécifiquement les notions d’original, de savoir-faire, de virtuosité et d’œuvre. ​
 
 Pour Marcel Duchamp, « c’est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
 

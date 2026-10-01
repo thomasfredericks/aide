@@ -1,6 +1,6 @@
 # Open Sound Control (OSC)
 
-L’*Open Sound Control* (OSC) est un protocole de communication inter-applications. Contrairement à ce qu’indique son nom, il ne concerne pas uniquement le son, mais offre un système d’organisation générique mais uniformisé de l’information pertinent au contrôle de n"importe quel système, multimédia ou pas. L’OSC a été développé à UC Berkeley Center for New Music and Audio Technology (CNMAT).
+L’*Open Sound Control* (OSC) est un protocole de communication inter-applications. Contrairement à ce qu’indique son nom, il ne concerne pas uniquement le son, mais offre un système d’organisation générique mais uniformisé de l’information pertinent au contrôle de n’importe quel système, multimédia ou pas. L’OSC a été développé à UC Berkeley Center for New Music and Audio Technology (CNMAT).
 
 ## Pourquoi l’OSC? 
 
@@ -10,13 +10,13 @@ L’OSC fournit également une vérification (primitive) des erreurs de transmis
 
 ## Pas de client et serveur
 
-Il n"y a pas d’architecture client/serveur en OSC. N"importe qui peut envoyer n"importe où! L’envoi et la réception se font séparemment. C’est à dire que si nous désirons une communication bidirectionnelle, il faut créer deux connexions unidirectionnelles.
+Il n’y a pas d’architecture client/serveur en OSC. N’importe qui peut envoyer n’importe où! L’envoi et la réception se font séparemment. C’est à dire que si nous désirons une communication bidirectionnelle, il faut créer deux connexions unidirectionnelles.
 
 
 ## Unité de transmission
 
 * L’unité de transmission de l’OSC est le **message** ou le **bundle**. Un **bundle** contient un ou plusieurs messages et un **timetag**.
-* L’OSC est unidirectionnel et n"offre pas d’accusé de réception (on ne sait pas si le destinataire a reçu le message).
+* L’OSC est unidirectionnel et n’offre pas d’accusé de réception (on ne sait pas si le destinataire a reçu le message).
 
 ## Composition d’un message OSC
 
@@ -26,7 +26,7 @@ Un message OSC est composé des éléments suivants:
 
 ### Adresse
 
-L’adresse indique quel est le paramètre que l’on veut modifier. Elle peut être composée de n"importe mot. Par contre, voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
+L’adresse indique quel est le paramètre que l’on veut modifier. Elle peut être composée de n’importe mot. Par contre, voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
 * Toujours commencer une adresse par `/` (attention, dans certains logiciels comme Pure Data ou TouchDesigner, le `/`  est implicite).
 * Chaque `/` subdivise l’adresse en hiérarchie symbolique. Plus une subdivision se trouve au début, plus est elle haute dans hiérarchie. Prenons comme exemple `/A/B` : `A` englobe `B` et `B` fait partie de `A`.
 * Remplacer les *espaces* par des `_`.
@@ -47,7 +47,7 @@ Chaque argument possède un type. Il existe quatre types de base :
 * *string* : chaîne de caractères.
 * *blob* : un tableau d’octets (byte).
 
-Un message OSC peut mélanger plusieurs types d’arguments différents et peut contenir n"importe quel nombre d’arguments. 
+Un message OSC peut mélanger plusieurs types d’arguments différents et peut contenir n’importe quel nombre d’arguments. 
 
 Quelques exemples: 
 ```

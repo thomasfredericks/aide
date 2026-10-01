@@ -50,7 +50,7 @@ VL53L0X  myTOF;
 
 ### Code à ajouter à `setup()`
 
-Dans `setup()`, démarrer la connexion I2C (si elle n"a pas déjà été démarrée) :
+Dans `setup()`, démarrer la connexion I2C (si elle n’a pas déjà été démarrée) :
 ```cpp
 Wire.begin();
 ```

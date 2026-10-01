@@ -44,7 +44,7 @@ Les 21 résultats possibles sont :
 > 11, 12, 13, 14, 15, 16, 22, 23, 24, 25, 26, 33, 34, 35, 36, 44, 45, 46, 55, 56, 66
 
 > [!NOTE]
-> Avec D66↗, les probabilités ne sont pas uniformes. Chaque double (11, 22, 33, 44, 55, 66) n"a qu’une seule façon d’être obtenu. Chaque double à 2,78 % de probabilité d’être obtenu. Chaque autre valeur à 5,56 % de probabilité d’être obtenu.
+> Avec D66↗, les probabilités ne sont pas uniformes. Chaque double (11, 22, 33, 44, 55, 66) n’a qu’une seule façon d’être obtenu. Chaque double à 2,78 % de probabilité d’être obtenu. Chaque autre valeur à 5,56 % de probabilité d’être obtenu.
 
 ## La carte
 
@@ -259,7 +259,7 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 |---|-------------|
 | 11 | Les restes d’un véhicule écrasé. Il peut être petit ou aussi grand qu’une ville. |
 | 12 | Dessinez une structure de plusieurs pierres énormes dont vous ignorez l’utilité. |
-| 13 | Vous découvrez une énorme porte que vous n"arrivez pas à franchir. Dessinez la porte et lancez un dé de moins au prochain tour. |
+| 13 | Vous découvrez une énorme porte que vous n’arrivez pas à franchir. Dessinez la porte et lancez un dé de moins au prochain tour. |
 | 14 | Une structure abritant un signal lumineux. Quel avertissement ce signal transmet-il ? |
 | 15 | Vous apercevez un navire au large de la côte. |
 | 16 | Vous apercevez un monstre marin le large de la côte. |
@@ -284,4 +284,4 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 
 Si vous parvenez à nommer **10 lieux sur votre carte** et à tracer **au moins une côte complète**, vous pouvez prendre votre retraite et votre voyage s’achève.
 
-Si ce n"est pas la fin de la partie, relancez les dés sur la carte !
+Si ce n’est pas la fin de la partie, relancez les dés sur la carte !

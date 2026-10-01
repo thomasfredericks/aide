@@ -41,7 +41,7 @@ Voici l’information à inscrire dans les paramètres du gestionnaire de paquet
 > Ajouter une deuxième caméra pour afficher le rendu dans la Game Window. 
 
 > [!WARNING] 
-> Si vous ajoutez une deuxième caméra pour afficher le rendu dans la Game Window, n"oubliez pas de retirer le deuxième Audio Listener! Il ne peut avoir qu’un seul Audio Listener par scène!
+> Si vous ajoutez une deuxième caméra pour afficher le rendu dans la Game Window, n’oubliez pas de retirer le deuxième Audio Listener! Il ne peut avoir qu’un seul Audio Listener par scène!
 
 ## Configurer votre logiciel pour recevoir le flux Spout
 

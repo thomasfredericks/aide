@@ -17,8 +17,8 @@
 | **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
 | **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
 | **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
-| **État** | Disponible | Disponible | Disponible | Disponible | N"existe pas |
-| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N"existe pas |
+| **État** | Disponible | Disponible | Disponible | Disponible | N’existe pas |
+| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N’existe pas |
 | **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
 
 
@@ -91,7 +91,7 @@ L’**IA générale** désigne une intelligence artificielle hypothétique capab
 
 > [!IMPORTANT]
 > Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
-> **Cette technologie n"existe pas aujourd"hui.**  Elle reste de la science-fiction.
+> **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
 
 ##  IA pour jeux de stratégie (Échecs, Go, etc)
 
@@ -141,7 +141,7 @@ Il existe deux approches principales :
 
 L’IA de jeu vidéo est **scriptée par les concepteurs**. Chaque comportement est prémédité et codé explicitement, sans aucune capacité d’apprentissage autonome.
 
-L’IA de jeu vidéo n"est **pas de l’apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n"y a pas d’adaptation autonome.
+L’IA de jeu vidéo n’est **pas de l’apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n’y a pas d’adaptation autonome.
 
 ### Techniques utilisées
 

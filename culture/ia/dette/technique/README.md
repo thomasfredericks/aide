@@ -15,7 +15,7 @@ Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stac
     - Part en production
     - Reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu’il est erroné
 
-Et lorsque le code *presque correct* est découvert, **les coûts de correction ont explosé** et n"ont pas été budgétés. 
+Et lorsque le code *presque correct* est découvert, **les coûts de correction ont explosé** et n’ont pas été budgétés. 
 
 Selon, [AI-Generated Code Is Creating a New Kind of Technical Debt - YouTube](https://www.youtube.com/watch?v=S5kQRgJ-iug):
 - **la confusion est à la racine de toute dette technique** 

@@ -19,7 +19,7 @@ unsigned long monChronoDepart ; // À DÉPLACER au début du code avec les autre
 
 void loop() {
 
-    // ici le code n"est pas ralenti
+    // ici le code n’est pas ralenti
     // ... METTRE ici le code non-ralenti
 
     if ( millis() - monChronoDepart >= 20 ) { 
