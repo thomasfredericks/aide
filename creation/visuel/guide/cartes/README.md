@@ -46,8 +46,8 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
     - Préciser comment la couleur est utilisé pour le texte.
 *   **Codes de couleur :** Indication obligatoire des valeurs **RVB** (pour l’écran/web) ainsi que les codes hexadécimaux (**HEX**).
 * **Accessibilité visuelle et contrastes :**
-    *   **Contraste texte/fond :** Le ratio de contraste entre la couleur des indices/chiffres et le fond de la carte doit respecter les normes minimales d’accessibilité. Évitez le texte clair sur fond clair ou le texte sombre sur fond sombre.
-    *   **Validation des contrastes :** Indiquez dans votre document les outils utilisés pour tester vos contrastes (ex: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) ou l’analyseur intégré de votre suite logicielle de design).
+    *   **Contraste texte/fond :** Le ratio de contraste entre la couleur des indices/chiffres et le fond de la carte doit respecter les normes minimales d’accessibilité. Évitez le texte clair sur fond clair ou le texte sombre sur fond sombre. Validation des contrastes : [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) 
+    * **Daltonisme** : [Coblis — Color Blindness Simulator – Colblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 * **Typographie** :
     * **Police des valeurs :** Nom de la police utilisée pour les valeurs (ex : As, 2, 10).
         - Taille en points pour les indices 
