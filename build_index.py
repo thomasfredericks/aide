@@ -134,7 +134,7 @@ def update_index_file():
     new_file_content = content[:start_idx] + '\n' + new_index_content + '\n' + content[end_idx:]
     
     target_path.write_text(new_file_content, encoding='utf-8')
-    print("Success: _index/README.md has been successfully updated with absolute links and hierarchy!")
+    print("✅ _index/README.md mis à jour!")
 
 if __name__ == '__main__':
     update_index_file()

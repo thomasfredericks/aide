@@ -170,11 +170,8 @@ async function showSearchResults(query) {
         let url = '#/' + rawUrl.replace(/\/+/g, '/');
 
 
-        const baseUrl = window.location.origin;
-        const destinationUrl = url; //baseUrl + "/" + url;
-        console.log(destinationUrl);
-        document.location.href = destinationUrl;
-        location.reload();
+        document.location.href = url;
+        if ( url.includes('id=') ) location.reload();
 
         return;
     }

@@ -1,22 +1,22 @@
 # Nouveau projet PlatformIO
 
-## 0. Installation de PlatformIO dans Visual Studio Code
+## Installation de PlatformIO dans Visual Studio Code
 
 ![Étapes pour l’installation de PlatformIO dans Visual Studio Code](./installation.svg)
 
 
-## 1. Créer d’un Git
+## Créer d’un Git
 
 - Créer un dépôt Git (avec un README.md) dont le nom :
     - ne contient pas d’espaces ou de caractères spéciaux sauf `_` ou `-`.
 
 
 
-## 2. Cloner le dépôt Git l’ordinateur
+## Cloner le dépôt Git l’ordinateur
 
 ![Option de menu pour cloner un dépôt Git](./vscode_git_clone.png)
 
-## 3. Créer les fichiers
+## Créer les fichiers
 
 Créer les trois fichiers expliqués dans les prochaines sections :
 ```
@@ -27,7 +27,7 @@ Créer les trois fichiers expliqués dans les prochaines sections :
 
 ```
 
-### 3.1 Fichier `.gitignore`
+### Fichier `.gitignore`
 
 Créer un fichier `.gitignore`. 
 
@@ -44,7 +44,7 @@ Y copier ceci :
 .vscode/ipch
 ```
 
-### 3.2 Fichier `.ino`
+### Fichier `.ino`
 
 Créer un fichier `.ino` qui porte le même nom que le dossier. Par exemple, si le dépôt se nomme `mon_projet_arduino`, nommer le fichier `mon_projet_arduino.ino`
 
@@ -69,7 +69,7 @@ void loop() {
 
 
 
-### 3.3 Fichier `platformio.ini`
+### Fichier `platformio.ini`
 
 Créer un fichier `platformio.ini`. Y inclure cette section au début :
 ```ini
@@ -88,11 +88,11 @@ Suivre ces instructions suivantes pour le modèle indiqué :
 * M5Stack AtomS3 : [configuration](/fabrication/m5stack/atomS3/platformio/)
 
 
-## 4. Git commit
+## Git commit
 
 Ne pas oublier de faire un *commit* des modifications. Si nécessaire [configurer](/logiciels/git/configuration/) Git sur l’ordinateur.
 
-## 5. Rouvrir le projet dans  *Visual Studio Code*
+## Rouvrir le projet dans  *Visual Studio Code*
 
 Pour que *Visual Studio Code* charge le dossier en tant que projet *PlatformIO* il faut le rouvrir.
 

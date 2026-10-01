@@ -44,11 +44,11 @@ def walk_directory(docs_dir):
     total_replacements = 0
     files_processed = 0
     
-    print(f"📁 Dossier cible: {os.path.abspath(docs_dir)}")
-    print(f"📄 Extensions: {', '.join(FILE_EXTENSIONS)}")
-    print(f"🚫 Exclusions: {', '.join(EXCLUDED_DIRS)}")
-    print(f"🔄 Substitutions: {len(SUBSTITUTIONS)} règles")
-    print("-" * 60)
+    # print(f"📁 Dossier cible: {os.path.abspath(docs_dir)}")
+    # print(f"📄 Extensions: {', '.join(FILE_EXTENSIONS)}")
+    # print(f"🚫 Exclusions: {', '.join(EXCLUDED_DIRS)}")
+    # print(f"🔄 Substitutions: {len(SUBSTITUTIONS)} règles")
+    # print("-" * 60)
     
     for root, dirs, files in os.walk(docs_dir):
         # Filter excluded directories (same logic as build_search.py)
@@ -67,23 +67,23 @@ def walk_directory(docs_dir):
                 
                 files_processed += 1
     
-    print("-" * 60)
-    print(f"✅ Fichiers analysés: {files_processed}")
-    print(f"✅ Remplacements totaux: {total_replacements}")
+    # print("-" * 60)
+    # print(f"✅ Fichiers analysés: {files_processed}")
+    print(f"✅ Frenchification : {total_replacements} fichiers modifiés")
 
 if __name__ == "__main__":
-    print("=" * 60)
-    print("SCRIPT DE SUBSTITUTION DE CARACTÈRES")
-    print("=" * 60)
-    print()
+    # print("=" * 60)
+    # print("SCRIPT DE SUBSTITUTION DE CARACTÈRES")
+    # print("=" * 60)
+    # print()
     
-    # Show what will be replaced
-    print("Règles de substitution:")
-    for old, new in SUBSTITUTIONS.items():
-        print(f"  '{old}' → '{new}'")
-    print()
+    # # Show what will be replaced
+    # print("Règles de substitution:")
+    # for old, new in SUBSTITUTIONS.items():
+    #     print(f"  '{old}' → '{new}'")
+    # print()
     
     walk_directory(DOCS_DIR)
     
-    print()
-    print("✅ Terminé!")
+    # print()
+    # print("✅ Terminé!")

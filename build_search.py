@@ -149,4 +149,4 @@ if __name__ == "__main__":
     with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, ensure_ascii=False, indent=4)
         
-    print(f"✅ {OUTPUT_JSON_FILE} régénéré avec succès.")
+    print(f"✅ {OUTPUT_JSON_FILE} régénéré avec succès!")

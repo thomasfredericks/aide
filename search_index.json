@@ -1030,34 +1030,34 @@
         "u": "#/fabrication/platformio/nouveau"
     },
     {
-        "t": "0. Installation de PlatformIO dans Visual Studio Code",
-        "l": "0 installation platformio visual studio code",
-        "u": "#/fabrication/platformio/nouveau/?id=0-installation-de-platformio-dans-visual-studio-code"
+        "t": "Installation de PlatformIO dans Visual Studio Code",
+        "l": "installation platformio visual studio code",
+        "u": "#/fabrication/platformio/nouveau/?id=installation-de-platformio-dans-visual-studio-code"
     },
     {
-        "t": "1. Créer d’un Git",
-        "l": "1 creer d’un git",
-        "u": "#/fabrication/platformio/nouveau/?id=1-cr%C3%A9er-dun-git"
+        "t": "Créer d’un Git",
+        "l": "creer d’un git",
+        "u": "#/fabrication/platformio/nouveau/?id=cr%C3%A9er-dun-git"
     },
     {
-        "t": "2. Cloner le dépôt Git l’ordinateur",
-        "l": "2 cloner depot git l’ordinateur",
-        "u": "#/fabrication/platformio/nouveau/?id=2-cloner-le-d%C3%A9p%C3%B4t-git-lordinateur"
+        "t": "Cloner le dépôt Git l’ordinateur",
+        "l": "cloner depot git l’ordinateur",
+        "u": "#/fabrication/platformio/nouveau/?id=cloner-le-d%C3%A9p%C3%B4t-git-lordinateur"
     },
     {
-        "t": "3. Créer les fichiers",
-        "l": "3 creer fichiers",
-        "u": "#/fabrication/platformio/nouveau/?id=3-cr%C3%A9er-les-fichiers"
+        "t": "Créer les fichiers",
+        "l": "creer fichiers",
+        "u": "#/fabrication/platformio/nouveau/?id=cr%C3%A9er-les-fichiers"
     },
     {
-        "t": "4. Git commit",
-        "l": "4 git commit",
-        "u": "#/fabrication/platformio/nouveau/?id=4-git-commit"
+        "t": "Git commit",
+        "l": "git commit",
+        "u": "#/fabrication/platformio/nouveau/?id=git-commit"
     },
     {
-        "t": "5. Rouvrir le projet dans  Visual Studio Code",
-        "l": "5 rouvrir projet visual studio code",
-        "u": "#/fabrication/platformio/nouveau/?id=5-rouvrir-le-projet-dans-visual-studio-code"
+        "t": "Rouvrir le projet dans  Visual Studio Code",
+        "l": "rouvrir projet visual studio code",
+        "u": "#/fabrication/platformio/nouveau/?id=rouvrir-le-projet-dans-visual-studio-code"
     },
     {
         "t": "PlatformIO : pioarduino-espressif32",
