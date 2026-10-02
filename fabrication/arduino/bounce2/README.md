@@ -28,6 +28,6 @@ Ensuite, nous pouvons accéder aux méthodes suivantes :
 | `bouton.setPressedState(LOW)` | Considère que le bouton est appuyé lorsque la broche est à `LOW` |
 | `bouton.update()` | **IMPORTANT!** Met à jour l’état du bouton. Doit être appelée à chaque passage dans `loop()` |
 | `bouton.isPressed()` | Retourne `true` si le bouton est actuellement appuyé. Retourne `false` si le bouton n’est actuellement pas appuyé |
-| `bouton.pressed()` | Retourne `true` lorsqu"une pression vient d’être détectée |
-| `bouton.released()` | Retourne `true` lorsqu"un relâchement vient d’être détecté |
+| `bouton.pressed()` | Retourne `true` lorsqu’une pression vient d’être détectée |
+| `bouton.released()` | Retourne `true` lorsqu’un relâchement vient d’être détecté |
 | `bouton.changed()` | Retourne `true` lorsque l’état du bouton vient de changer |

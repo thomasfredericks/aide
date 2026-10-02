@@ -111,7 +111,7 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 
 ### Code
 
-Lorsqu"un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas si le Unit 3.96 est branché au canal `0` :
+Lorsqu’un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas si le Unit 3.96 est branché au canal `0` :
 ```cpp
 #define ARCADE_CHAN 0
 ```

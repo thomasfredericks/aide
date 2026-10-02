@@ -55,7 +55,7 @@ Pour Marcel Duchamp, « c’est le regardeur qui fait le tableau ».​ [Rotary 
 
 Dans les années 1950-1960, l’**art cinétique** apporte une autre étape importante.
 
-Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu"on interagit avec elles. L’œuvre commence alors à être pensée comme un **système**.
+Des artistes comme Jean Tinguely créent des machines et sculptures en mouvement. Certaines œuvres sont activées par le public ou changent lorsqu’on interagit avec elles. L’œuvre commence alors à être pensée comme un **système**.
 
 [Jean Tinguely Museum, Basel Switzerland - YouTube](https://www.youtube.com/watch?v=ZiNnTY3sMmU)
 

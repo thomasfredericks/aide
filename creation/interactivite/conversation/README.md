@@ -6,7 +6,7 @@ Dans une vraie conversation :
 
 > Je parle → tu interprètes → tu réponds → ta réponse influence ce que je dis ensuite.
 
-Il y a donc une *mémoire minimale de l’échange*. Si je répète exactement la même phrase à quelqu"un, sa réponse peut être différente selon ce qui vient de se passer.
+Il y a donc une *mémoire minimale de l’échange*. Si je répète exactement la même phrase à quelqu’un, sa réponse peut être différente selon ce qui vient de se passer.
 
 On peut transposer cela à une expérience interactive :
 

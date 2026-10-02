@@ -32,7 +32,7 @@ Utiliser la dernière version stable :
 platform = https://github.com/pioarduino/platform-espressif32/releases/download/stable/platform-espressif32.zip
 ```
 
-Utiliser une version spécifique (ce qui recommandé pour des projets à long terme lorsqu"une version a été choisie, la version 54.03.20 dans cet exemple) :
+Utiliser une version spécifique (ce qui recommandé pour des projets à long terme lorsqu’une version a été choisie, la version 54.03.20 dans cet exemple) :
 ```ini
 platform = https://github.com/pioarduino/platform-espressif32.git#54.03.20
 ```

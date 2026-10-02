@@ -42,7 +42,7 @@ Les arguments doivent toujours être lus dans l’ordre défini par les type tag
 Créer, au-dessus de la fonction `loop()` une **fonction de rappel** qui sera appelée chaque fois qu’un message OSC est reçu :
 
 ```cpp
-// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU’UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
     // CONDITIONS ET ACTIONS ICI
 }
@@ -85,7 +85,7 @@ La méthode `checkOscAddressAndTypeTags()` permet de vérifier simultanément :
 Cette vérification constitue la **CONDITION** du traitement.
 
 ```cpp
-// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU’UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
    // CONDITION : vérifier adresse ET types
@@ -177,7 +177,7 @@ void setup() {
     Serial.begin(115200);
 }
 
-// FONCTION APPELÉE LORSQU"UN MESSAGE OSC EST REÇU
+// FONCTION APPELÉE LORSQU’UN MESSAGE OSC EST REÇU
 void maFonctionRappelOsc(MicroOscMessage & message) {
 
    // CONDITION : vérifier adresse ET types

@@ -66,7 +66,7 @@ Pour concevoir rapidement une interface et structurer un patch, Pure Data met à
 
 | Élément IU | Méthode de création / Menu | Description détaillée |
 | :-- | :-- | :-- |
-| **Bang** | Menu *Put > Bang* | Bouton rond impulsionnel qui génère un signal déclencheur unique lorsqu"on clique dessus. |
+| **Bang** | Menu *Put > Bang* | Bouton rond impulsionnel qui génère un signal déclencheur unique lorsqu’on clique dessus. |
 | **Toggle** | Menu *Put > Toggle* | Interrupteur carré basculant alternativement entre les états 0 et 1 (marche/arrêt). |
 | **Slider (Glissière)** | Menu *Put > H/V Slider* | Curseur horizontal ou vertical permettant de faire varier une valeur continue dans une plage définie. |
 | **Radio (Boutons)** | Menu *Put > H/V Radio* | Groupe de boutons sélectifs mutuellement exclusifs pour choisir une option parmi plusieurs. |

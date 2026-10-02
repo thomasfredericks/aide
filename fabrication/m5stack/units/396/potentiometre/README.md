@@ -66,7 +66,7 @@ int valeur = analogRead(POTENTIOMETER_PIN);
 
 ## Code dans le cas d’un Unit 3.96 branché à un PbHub
 
-Lorsqu"un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas si le Unit 3.96 est branché au canal `1` :
+Lorsqu’un PbHub est utilisé il faut indiquer le numéro de canal. Voici le cas si le Unit 3.96 est branché au canal `1` :
 
 ```cpp
 #define POT_CHAN 1

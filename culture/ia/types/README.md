@@ -57,7 +57,7 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 
 ## Générateur d’image
 
-Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu"à obtenir une image cohérente correspondant au prompt texte.
+Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
 
 ### Caractéristiques principales
 

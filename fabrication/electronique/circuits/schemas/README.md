@@ -7,7 +7,7 @@ Un schéma de circuit est une représentation schématique de la connectique d�
 
 ## Jonctions
 
-Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter des dizaines. Lorsqu"un fil se divise en deux directions, on indique jonction. Nous représentons les jonctions sur des schémas avec des petits points placés à l’intersection des fils.
+Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter des dizaines. Lorsqu’un fil se divise en deux directions, on indique jonction. Nous représentons les jonctions sur des schémas avec des petits points placés à l’intersection des fils.
 
 ![Symbole pour une jonction (JIMBLOM, s. d.)](./jonction.png)
 

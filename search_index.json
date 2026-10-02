@@ -265,9 +265,39 @@
         "u": "#/fabrication/electronique/composants/resistance/?id=d%C3%A9coder-la-valeur-dune-r%C3%A9sistance"
     },
     {
-        "t": "Potentiomètre",
+        "t": "Le potentiomètre",
         "l": "potentiometre",
         "u": "#/fabrication/electronique/composants/potentiometre"
+    },
+    {
+        "t": "Symbole",
+        "l": "symbole",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=symbole"
+    },
+    {
+        "t": "Structure interne",
+        "l": "structure interne",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=structure-interne"
+    },
+    {
+        "t": "Résistance variable",
+        "l": "resistance variable",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=r%C3%A9sistance-variable"
+    },
+    {
+        "t": "Connexions et branchement",
+        "l": "connexions branchement",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=connexions-et-branchement"
+    },
+    {
+        "t": "Tension de sortie",
+        "l": "tension sortie",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=tension-de-sortie"
+    },
+    {
+        "t": "Différents types de potentiomètres",
+        "l": "differents types potentiometres",
+        "u": "#/fabrication/electronique/composants/potentiometre/?id=diff%C3%A9rents-types-de-potentiom%C3%A8tres"
     },
     {
         "t": "Bouton d’arcade",
@@ -2850,6 +2880,11 @@
         "u": "#/logiciels/unity/osc/extosc/?id=exemple-flappy-bird-unity-pd-et-arduino-nano-avec-bouton-darcade-par-osc"
     },
     {
+        "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
+        "l": "tutoriel pong  unity pure data open sound control arduino nano bouton d’arcade potentiometre",
+        "u": "#/logiciels/unity/osc/extosc/?id=tutoriel-pong--unity-pd-osc-et-arduino-nano-avec-bouton-darcade-et-potentiom%C3%A8tre"
+    },
+    {
         "t": "Fonction utilitaire ChangerPlageDeValeurs()",
         "l": "fonction utilitaire changerplagedevaleurs",
         "u": "#/logiciels/unity/osc/extosc/?id=fonction-utilitaire-changerplagedevaleurs"
@@ -3710,8 +3745,8 @@
         "u": "#/logiciels/git/github/?id=apr%C3%A8s-avoir-modifi%C3%A9-un-projet-effectuer-un-commit-et-un-push"
     },
     {
-        "t": "Si quelqu\"un d’autre modifie le projet, effectur un «Pull» pour récupérer les modifications",
-        "l": "si quelqu\"un d’autre modifie projet effectur «pull» recuperer modifications",
+        "t": "Si quelqu’un d’autre modifie le projet, effectur un «Pull» pour récupérer les modifications",
+        "l": "si quelqu’un d’autre modifie projet effectur «pull» recuperer modifications",
         "u": "#/logiciels/git/github/?id=si-quelquun-dautre-modifie-le-projet-effectur-un-pull-pour-r%C3%A9cup%C3%A9rer-les-modifications"
     },
     {

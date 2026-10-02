@@ -3,7 +3,7 @@
 ## Introduction
 Page officielle du produit : [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1)
 
-Le M5Stack PbHub v1.1 permet de brancher jusqu"à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur **noir**). Il nécessite une utilisation d’une bibliothèque logicielle (voir plus bas).
+Le M5Stack PbHub v1.1 permet de brancher jusqu’à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur **noir**). Il nécessite une utilisation d’une bibliothèque logicielle (voir plus bas).
 
 ![](pbhub_front.png)
 

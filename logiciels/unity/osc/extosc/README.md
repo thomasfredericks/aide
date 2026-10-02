@@ -114,12 +114,8 @@ void TraiterMessageBut0(OSCMessage message)
     // Deboguer
     // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
-    // FAIRE DE QUOI AVEC LA VARIABLE VALEUR ICI !
-    if ( valeur == 1 ) {
+    // TRAITER LA VALEUR ICI !
 
-    } else {
-
-    }
 
 }
 
@@ -151,9 +147,7 @@ flowchart LR
 ### Préalables
 
 - Suivre les instructions pour l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/).
-- Télécharger ou *forker* (ne pas cloner) le dépôt [github.com/thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
-- Extraire et mettre le projet avec le code Arduino (dans le même dossier par exemple).
-- [Ajouter un `.gitignore` au projet Unity](../../git/) s’il n’y en a pas déjà
+- Fourcer (*forker*) le dépôt [thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
 - Suivre les instructions pour l’intégration d’extOSC plus haut.
 
 ### Investiguer le code Unity
@@ -191,7 +185,7 @@ Il faut ajouter les propriétés suivantes dans la classe de notre script `OscPr
 
 Nous modifions aussi notre méthode `TraiterMesageBut0` du script `OscProcess` :
 ```csharp
-    // FAIRE DE QUOI AVEC LA VARIABLE VALEUR ICI !
+    // TRAITER LA VALEUR ICI !
     if (valeur == 1)
     {
         gameManager.StartGame(); // Ignored if game is already playing, handled in GameManager
@@ -246,6 +240,126 @@ flowchart LR
     
     netsend -- OSC UDP --> C[Unity]
 ```
+
+## Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre
+
+Dans ce tutoriel, nous voulons contrôler le jeu [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong) avec le comportement suivant :
+
+- Quand on appuie sur un bouton d’Arcade :
+    - Arduino envoie le message OSC SLIP `/but0 1` à Pd.
+    - Pd le relaye par UDP à Unity.
+    - Unity lance la balle de Pong.
+
+```mermaid
+flowchart LR
+    Bouton --> Arduino
+    Arduino -- OSC SLIP --> Pd
+
+    subgraph Unity
+        direction LR
+        but0["/but0 1"] --> Démarrer
+    end
+
+    Pd -- OSC UDP --> but0
+```
+
+- Quand on tourne le potentiomètre :
+    - Arduino envoie le message OSC SLIP `/pot` suivi d’un argument entre `0` et `1023` à Pd.
+    - Pd le relaye par UDP à Unity.
+    - Unity contrôle la palette du joueur.
+
+
+
+```mermaid
+flowchart LR
+
+    Potentiomètre --> Arduino
+    Arduino -- OSC SLIP --> Pd
+    
+    subgraph Unity
+        direction LR
+        pot["/pot 0-1023"] --> pp[Position de la palette]
+    end
+
+    Pd -- OSC UDP --> pot
+    
+```
+
+### Préalables Arduino
+
+- Brancher le bouton et copier le code de l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/) (c’est le même circuit et même code que l’exemple ci-haut).
+
+#### Modifications au circuit et au code Arduino
+
+Ajouter un [potentiomètre](/fabrication/electronique/composants/potentiometre/) au circuit (le bouton d’Arcade n’est pas dans l’image).
+
+![Connexion du potentiomètre à ajouter](./arduino_terminals_pot.png)
+
+Ajouter la bibliothèque [Chrono](/fabrication/arduino/chrono/) au projet Arduino.
+
+Ensuite, créer un chronomètre pour le flux de données dans l’espace global :
+```cpp
+Chrono chronoPot;
+```
+
+Dans `loop()`, ajouter le code suivant pour envoyer la valeur du potentiomètre à chaque 20 millisecondes :
+```cpp
+if ( chronoPot.hasPassed(20)) { // SI LE CHRONO DÉPASSE 20 MILLISECONDES
+    chronoPot.restart(); // REPARTIR LE CHRONO
+
+    int valeur = analogRead(2); // LECTURE DE LA TENSION ENTRE 0 ET 1023
+
+    monOsc.sendInt("/pot", valeur); // ENVOYER LA VALEUR
+}
+```
+
+> [!NOTE]
+> Téléverser le code sur l’Arduino.
+
+### Pure Data
+
+Ouvrir le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd) et configurer [comport](/logiciels/pd/serie/comport).
+
+### Préalables Unity
+
+- Fourcher (*forker*) le dépôt [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong).
+- Jouer au jeu.
+- Suivre les instructions pour l’intégration d’extOSC en haut de cette page.
+
+> [!NOTE]
+> Il faut s’assurer que les # de ports OSC dans Pd et dans Unity sont les mêmes.
+
+### Modifications au code Unity
+
+#### Le bouton
+
+Cette étape est assez simple, elle est très similaire au tutoriel précédent.
+
+- Trouver dans le code Unity la fonction utilisée pour lancer la balle.
+- Effectuer un `Bind` dans `OscProcess` entre le message `/but0` et une nouvelle fonction de traitement de message (vous référer au tutoriel précédent).
+- Dans cette fonction, lorsqu’un `1` est reçu, appeler la fonction qui lance la balle (vous référer au tutoriel précédent).
+
+#### Le potentiomètre
+
+Le potentiomètre envoie des valeurs entre 0 et 1023. Nous devons ajuster la plage de ces valeurs pour qu’elles correspondent aux coordonnées de position verticale de la palette.
+
+- Trouver dans le code Unity la fonction qui permet de déplacer la palette.
+- Effectuer un `Bind` dans `OscProcess` entre le message `/pot` et une nouvelle fonction de traitement de message.
+- Dans cette fonction, utiliser le code suivant pour le traitement de la variable `valeur` et ajuster sa plage de valeur :
+```cpp
+float ajuste = ((valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMax) + potOutMax);
+``` 
+- Utiliser la variable `ajuste` comme argument dans la fonction qui permet de déplacer la palette.
+- Nous devons aussi ajouter les variables suivantes en haut de la classe `OscProcess` :
+```csharp
+public int potInMin = 0;
+public int potInMax = 1023;
+public float potOutMin = 0.0f;
+public float potOutMax = 1.0f
+```
+- De retour dans l’éditeur Unity, **lancer le jeu** et ajuster les valeurs des variables `potOutMax` et `potOutMin` pour que lorsque le potentiomètre est tourné, la palette traverse de haut en bas.
+
+
 <!--
 ### Tester avec des messages OSC
 

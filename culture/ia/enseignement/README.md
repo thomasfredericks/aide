@@ -30,7 +30,7 @@ Voici des témoignages d’étudiants recueillis par [The Chronicle of Higher Ed
 - « Je suis devenu plus paresseux. L’IA rend la lecture plus facile, mais elle fait lentement perdre à mon cerveau la capacité de penser de manière critique ou de comprendre chaque mot. »
 - « C’est utile, mais j’ai peur qu’un jour, on préfère lire uniquement des résumés générés par l’IA plutôt que les nôtres, et qu’on devienne très dépendants de l’IA. »
 
-Lorsqu"elle est utilisée dans un contexte académique, l’IA générative est comme une dépendance, qui réduit graduellement notre capacité intelectuelle.
+Lorsqu’elle est utilisée dans un contexte académique, l’IA générative est comme une dépendance, qui réduit graduellement notre capacité intelectuelle.
 
 ### Recherches corporatives
 

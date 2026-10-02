@@ -24,6 +24,6 @@ GitHub permet de synchroniser un projet sur un ordinateur, avec un clone en lign
 
 ![L’option «Push» apparait après un «Commit»](./commit_and_push.png)
 
-## Si quelqu"un d’autre modifie le projet, effectur un «Pull» pour récupérer les modifications
+## Si quelqu’un d’autre modifie le projet, effectur un «Pull» pour récupérer les modifications
 
 ![L’option «Pull» apparait après un «Fetch»](./pull.png)

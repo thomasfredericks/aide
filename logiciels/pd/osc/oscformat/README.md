@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > Dans Pure Data, lors de la réception de messages OSC les `/` des adresses sont remplacées par des espaces.
-> Inversement, les espaces dans les adresses de messages OSC sont replacés par des `/` lorsqu"ils sont envoyés.
+> Inversement, les espaces dans les adresses de messages OSC sont replacés par des `/` lorsqu’ils sont envoyés.
 
 
 `[oscformat]` permet de créer un message OSC :

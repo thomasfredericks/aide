@@ -16,7 +16,7 @@ Cette marge délimite la zone intérieure où doivent se trouver les textes et l
 Pour l’impression, il est nécessaire d’ajouter une marge supplémentaire et il est nécessaire de placer l’image sur une feuille de la taille d’impression.
 
 * **Lignes de coupe :** Les lignes de coupe indiquent à l’imprimeur l’endroit précis où la feuille sera tranchée pour obtenir le format final.
-* **Fonds perdus (*Bleed*) :** Le fond doit dépasser légèrement les lignes de coupe. Cette partie du fond sera perdue lors de la coupe et garantie que le fond se poursuit jusqu"au bord du document final lorsqu"il sera coupé.
+* **Fonds perdus (*Bleed*) :** Le fond doit dépasser légèrement les lignes de coupe. Cette partie du fond sera perdue lors de la coupe et garantie que le fond se poursuit jusqu’au bord du document final lorsqu’il sera coupé.
 * **Support d’impression :** Le visuel doit être placé sur une feuille du format d’impression (lettre, tabloïd, etc.).
 ![Lignes de coupe et fonds perdus (bleed)](./marges_affiche_impression_coupe.png)
 

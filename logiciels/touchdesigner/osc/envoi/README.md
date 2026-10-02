@@ -14,7 +14,7 @@
   * Paramètre **Numeric Format** = `Int` ou `Float` selon le besoin
   * Paramètre **Data Format** = `Sample`
   * Paramètre **Send Rate** = `Off` 
-  * Paramètre **Send Events Every Cook** = `Off` pour envoyer la valeur seulement lorsqu"elle change
+  * Paramètre **Send Events Every Cook** = `Off` pour envoyer la valeur seulement lorsqu’elle change
 
 
 ## Code TouchDesigner pour envoyer 3 données
@@ -32,7 +32,7 @@
   * Paramètre **Numeric Format** = `Int` ou `Float` selon le besoin
   * Paramètre **Data Format** = `Transpose`
   * Paramètre **Send Rate** = `Off` 
-  * Paramètre **Send Events Every Cook** = `Off` pour envoyer la valeur seulement lorsqu"elle change
+  * Paramètre **Send Events Every Cook** = `Off` pour envoyer la valeur seulement lorsqu’elle change
 
 ### Exemple de code Arduino pour la réception de trois données avec l’adresse /rgb
 

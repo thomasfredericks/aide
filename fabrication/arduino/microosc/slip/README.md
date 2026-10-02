@@ -149,7 +149,7 @@ void loop()
 }
 ```
 
-Le code Arduino peut être combiné avec ce patcher pour déclencher la lecture d’un fichier audio lorsqu"on appuie sur le bouton d’arcade.
+Le code Arduino peut être combiné avec ce patcher pour déclencher la lecture d’un fichier audio lorsqu’on appuie sur le bouton d’arcade.
 
 ![Patcher arduino_pd_slip_audio.pd](./arduino_pd_slip_audio_pd.png)
 

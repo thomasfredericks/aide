@@ -10,7 +10,7 @@ Dimensions : **18 mm × 45 mm**.
 
 ## Principaux composants de la carte
 
-* **Microcontrôleur** : au cœur de la Nano R4 se trouve un microcontrôleur de la famille **Renesas RA4M1 (R7FA4M1AB3CFM)**. Ce microcontrôleur monopuce, reconnu comme l’un des microcontrôleurs les plus économes en énergie du secteur, est basé sur un cœur **Arm Cortex-M4 cadencé à 48 MHz**. Il dispose de jusqu"à **256 Ko de mémoire Flash** et **32 Ko de mémoire SRAM**.
+* **Microcontrôleur** : au cœur de la Nano R4 se trouve un microcontrôleur de la famille **Renesas RA4M1 (R7FA4M1AB3CFM)**. Ce microcontrôleur monopuce, reconnu comme l’un des microcontrôleurs les plus économes en énergie du secteur, est basé sur un cœur **Arm Cortex-M4 cadencé à 48 MHz**. Il dispose de jusqu’à **256 Ko de mémoire Flash** et **32 Ko de mémoire SRAM**.
 
 * **Connecteur USB-C** : la Nano R4 possède un connecteur USB-C moderne utilisé pour la **programmation**, l’**alimentation électrique** et la **communication série** avec des appareils externes.
 
