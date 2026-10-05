@@ -369,6 +369,7 @@ Ouvrir le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd) 
 Cette étape est assez simple, elle est très similaire au tutoriel précédent.
 
 - Trouver dans le code Unity la fonction utilisée pour lancer la balle. Astuce : regarder dans le script attaché au GameObjet `Game Manager`.
+- Ajouter à `OscProcess` les variables publiques nécessaire pour parler au script de lancer de la balle.
 - Effectuer un `Bind` dans `OscProcess` entre le message `/but0` et une nouvelle fonction de traitement de message (vous référer au tutoriel précédent).
 - Dans cette fonction, lorsqu’un `1` est reçu, appeler la fonction qui lance la balle (vous référer au tutoriel précédent).
 
@@ -377,8 +378,8 @@ Extrait de la fonction de traitement du message `/but0` :
     // TRAITER LA VALEUR ICI !
     if (valeur == 1)
     {
-        // METTRE ICI UN APPEL À LA FONCTION POUR LANCER LA BALLE
-
+        // METTRE ICI L'APPEL À LA FONCTION POUR LANCER LA BALLE
+        // COMME INDICE, C'EST QQCH COMME : gameState.Throw()
     } else {
 
     }
@@ -388,7 +389,8 @@ Extrait de la fonction de traitement du message `/but0` :
 
 La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajuster la plage de ces valeurs pour qu’elles correspondent aux coordonnées de position verticale de la palette.
 
-- Trouver dans le code Unity la fonction qui permet de déplacer la palette.  Astuce : regarder dans les scripts attachés au GameObjet `Player`.
+- Trouver dans le code Unity la fonction qui permet de déplacer la palette. Astuce : regarder dans les scripts attachés au GameObjet `Player`.
+- Ajouter  à `OscProcess` les variables publiques nécessaires pour référer à la palette.
 - Effectuer un `Bind` dans `OscProcess` entre le message `/pot` et une nouvelle fonction de traitement de message.
 - Dans cette fonction, nous n'utilisons **pas** le code à fonctionnement booléen précédent :
 ```csharp
@@ -403,7 +405,7 @@ La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajus
     // TRAITER LA VALEUR ICI !
     float ajuste = ((valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMax) + potOutMax);
     // AJOUTER À LA LIGNE SUIVANTE LE CODE POUR APPLIQUER LA VARIABLE ajuste AU DÉPLACEMENT DE LA PALETTE ICI !
-    // QQCH COMME : palette.setVercialPosition( ajuste);
+    // COMME INDICE C'EST QQCH COMME : palette.setVercialPosition( ajuste);
 ```
 
 - Nous devons aussi ajouter les variables (propriétés) suivantes en haut de la **classe** `OscProcess` pour qu'elles puissent être ajustées :
