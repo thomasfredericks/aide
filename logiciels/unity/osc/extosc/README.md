@@ -316,6 +316,7 @@ flowchart LR
 
 Nous partons du même code et du même circuit que le tutoriel précédent ci-haut.
 
+- Partir un nouveau projet Arduino nommé `pong_bouton_pot_arduino`. Pour *PlatformIO* suivre les instructions pour [partir un nouveau projet PlatformIO](/fabrication/platformio/nouveau/).
 - Brancher le bouton tel que montré dans l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/) 
 - Copier le code de l’exemple du bouton d’Arcade au bas de la page [MicroOsc SLIP](/fabrication/arduino/microosc/slip/) 
 
@@ -351,12 +352,17 @@ if ( chronoPot.hasPassed(20)) { // SI LE CHRONO DÉPASSE 20 MILLISECONDES
 
 ### Pure Data
 
-Ouvrir le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd) et configurer [comport](/logiciels/pd/serie/comport).
+Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd), le copier dans le dossier de projet Arduino `pong_bouton_pot_arduino` et configurer [comport](/logiciels/pd/serie/comport).
 
 ### Préalables Unity
 
 - Fourcher (*forker*) le dépôt [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong).
-- Jouer au jeu.
+- Renommer le projet `pong_bouton_pot_unity`.
+- Le cloner sur votre ordinateur.
+- Il y aura ainsi deux dépôts Git pour ce tutoriel :
+    - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
+    - `pong_bouton_pot_unity` : qui contient le code Unity.
+- Essayer de jouer au jeu **avant** de le modifier.
 - Suivre les instructions pour l’intégration d’extOSC en haut de cette page.
 
 > [!NOTE]
@@ -422,6 +428,10 @@ public float potOutMax = 1.0f;
 - Il faut ajuster les valeurs des variables `potOutMax` et `potOutMin` du script `OscProcess` que vous venez de créer pour que le minimum et le maximum de rotation du potentiomètre corresponde à la coordonnée de position verticale au minimum et maximum de hauteur du terrain.
     - Ajuster manuellement les valeurs `potOutMin` et `potOutMax` dans l'Inspecteur Unity (sans toucher au code).
 
+> [!WARNING]
+> Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
+> - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
+> - `pong_bouton_pot_unity` : qui contient le code Unity.
 
 <!--
 ### Tester avec des messages OSC
