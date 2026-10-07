@@ -1337,6 +1337,20 @@ figcaption {
   letter-spacing: 1px;
 }
 
+/* Style du titre Index */
+.app-index {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.app-index-link {
+  font-family: 'Metal Mania', system-ui, -apple-system, sans-serif;
+  text-decoration: none;
+  color: var(--theme-highlight, #ff0000);
+  letter-spacing: 1px;
+}
+
 /* Wrapper et champ de recherche sur mobile */
 .search-input-wrapper {
   position: relative;
