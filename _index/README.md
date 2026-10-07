@@ -234,7 +234,6 @@
     * [pdchoco](/logiciels/pd/pdchoco/)
     * [Communication sérielle dans Pure Data](/logiciels/pd/serie/)
       * [Pd : ASCII sérielle](/logiciels/pd/serie/ascii/)
-        * [Tutoriel : Arduino, Pd, ASCII et audio](/logiciels/pd/serie/ascii/audio/)
       * [Pd : comport](/logiciels/pd/serie/comport/)
     * Traitement
       * [Pd : Basculer (flip-flop/toggle) une valeur](/logiciels/pd/traitement/basculement/)
@@ -326,9 +325,10 @@
 * Tutoriels
   * Arcade
     * [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](/tutoriels/arcade/flappy/)
-    * [Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd](/tutoriels/arcade/pd/)
+    * [Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd](/tutoriels/arcade/pd/)
     * [Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/pong/)
     * [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)
   * Platine
+    * [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](/tutoriels/platine/audio/)
     * [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
 <!-- INDEX END -->

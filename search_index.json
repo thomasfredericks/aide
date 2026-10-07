@@ -2495,8 +2495,8 @@
         "u": "#/materiel/genelec/?id=iss-intelligent-signal-sensing"
     },
     {
-        "t": "Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd",
-        "l": "tutoriel pure data microosc slip  envoi d’open sound control slip d’un arduino nano bouton d’arcade vers pure data",
+        "t": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
+        "l": "tutoriel micoosc audio  envoi d’open sound control slip d’un arduino nano bouton d’arcade declencher l’audio pure data",
         "u": "#/tutoriels/arcade/pd"
     },
     {
@@ -2553,6 +2553,16 @@
         "t": "Alterner clignotement",
         "l": "alterner clignotement",
         "u": "#/tutoriels/platine/clignotement/?id=alterner-clignotement"
+    },
+    {
+        "t": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
+        "l": "tutoriel ascii audio  arduino ascii audio pure data",
+        "u": "#/tutoriels/platine/audio"
+    },
+    {
+        "t": "Envoi d’Arduino",
+        "l": "envoi d’arduino",
+        "u": "#/tutoriels/platine/audio/?id=envoi-darduino"
     },
     {
         "t": "Pure Data (Pd)",
@@ -2720,14 +2730,9 @@
         "u": "#/logiciels/pd/serie/ascii"
     },
     {
-        "t": "Tutoriel : Arduino, Pd, ASCII et audio",
-        "l": "tutoriel  arduino pure data ascii audio",
-        "u": "#/logiciels/pd/serie/ascii/audio"
-    },
-    {
-        "t": "Envoi d’Arduino",
-        "l": "envoi d’arduino",
-        "u": "#/logiciels/pd/serie/ascii/audio/?id=envoi-darduino"
+        "t": "Tutoriels",
+        "l": "tutoriels",
+        "u": "#/logiciels/pd/serie/ascii/?id=tutoriels"
     },
     {
         "t": "Pd : comport",

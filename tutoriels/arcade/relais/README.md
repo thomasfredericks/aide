@@ -13,7 +13,7 @@ flowchart LR
 
     A[Arduino] -- OSC SLIP --> Pd
     
-    Pd -- OSC UDP --> C[Autre logiciel (ex: Unity)]
+    Pd -- OSC UDP --> C[Autre logiciel comme Unity]
 ```
 
 

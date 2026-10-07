@@ -1,5 +1,5 @@
 
-# Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd
+# Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd
 
 Ce tutoriel montre comment utiliser [MicroOsc SLIP](/fabrication/arduino/microosc/slip/) pour envoyer les changements d’état d’un bouton vers Pd pour déclencher de l’audio.
 
