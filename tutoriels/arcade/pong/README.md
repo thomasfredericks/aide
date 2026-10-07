@@ -3,6 +3,8 @@
 
 Dans ce tutoriel, nous voulons contrôler le jeu [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong) avec un bouton pour le lancer de la balle et un [potentiomètre](/fabrication/electronique/composants/potentiometre/) pour la position de la palette.   
 
+![Jeu de Pong joué sur un téléviseur Magnavox Odyssey 3000. Source : https://commons.wikimedia.org/wiki/File:Pong_game_on_TV.jpg](./standard_Pong_game_on_TV.jpg)
+
 ### Comportement désiré du bouton
 
 - Quand on appuie sur un bouton d’Arcade :

@@ -1,0 +1,16 @@
+pdf-engine: xelatex
+toc: true
+number-sections: true
+
+variables:
+  geometry: margin=1in
+  mainfont: "Geist"
+  sansfont: "Geist"
+  monofont: "Geist Mono"
+  colorlinks: true
+  linkcolor: "blue"
+  urlcolor: "blue"
+  citecolor: "blue"
+
+toc: true
+number-sections: false
