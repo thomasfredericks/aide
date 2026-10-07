@@ -120,17 +120,20 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
     - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
     - `pong_bouton_pot_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
-- Suivre les instructions pour l’intégration d’extOSC en haut de cette page.
+
 
 > [!NOTE]
 > Il faut s’assurer que les # de ports OSC dans Pd et dans Unity sont les mêmes.
 
 ### Modifications au code Unity
 
+#### Général
+
+- Suivre les instructions pour l’intégration d’extOSC : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/).
+
 #### Le bouton
 
-Cette étape est assez simple, elle est très similaire au tutoriel précédent.
-
+- Référer au [tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](/tutoriels/arcade/flappy/) pour ces étapes.
 - Trouver dans le code Unity la fonction utilisée pour lancer la balle. Astuce : regarder dans le script attaché au GameObjet `Game Manager`.
 - Ajouter à `OscProcess` les variables publiques nécessaire pour parler au script de lancer de la balle.
 - Effectuer un `Bind` dans `OscProcess` entre le message `/but0` et une nouvelle fonction de traitement de message (vous référer au tutoriel précédent).
