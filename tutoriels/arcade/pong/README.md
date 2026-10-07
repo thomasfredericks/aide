@@ -171,7 +171,7 @@ La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajus
 - Nous allons plutôt utiliser le code suivant pour une plage de valeurs, qui transforme le flux brut d’une plage entre 0 et 1023 en coordonnées de jeu fluides (par exemple : -1.0 à 1.0). :
 ```csharp
     // TRAITER LA VALEUR ICI !
-    float ajuste = ((valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMax) + potOutMax);
+    float ajuste = (((float)valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMin) + potOutMin);
     // AJOUTER À LA LIGNE SUIVANTE LE CODE POUR APPLIQUER LA VARIABLE ajuste AU DÉPLACEMENT DE LA PALETTE ICI !
     // COMME INDICE C’EST QQCH COMME : palette.setVercialPosition( ajuste);
 ```
