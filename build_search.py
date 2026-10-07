@@ -8,7 +8,7 @@ DOCS_DIR = './'
 OUTPUT_JSON_FILE = os.path.join(DOCS_DIR, 'search_index.json')
 ALIASES_FILE = os.path.join(DOCS_DIR, 'aliases.json')
 SKIP_WORDS_FILE = os.path.join(DOCS_DIR, 'skip_words.json')
-MAX_HEADING_LEVEL = 2
+MAX_HEADING_LEVEL = 1
 
 def load_external_configs():
     aliases = {}
