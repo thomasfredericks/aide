@@ -1,4 +1,4 @@
-# Tutoriel Arduino clignotement Chrono Bounce2
+# Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2
 
 <!-- toc -->
 

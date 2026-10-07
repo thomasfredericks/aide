@@ -111,8 +111,6 @@
     * [Arduino : Traitement](/fabrication/arduino/traitement/)
       * [Arduino : traiter le changement](/fabrication/arduino/traitement/changement/)
       * [Arduino : traitement en flux continu](/fabrication/arduino/traitement/flux/)
-    * Tutoriels
-      * [Tutoriel Arduino clignotement Chrono Bounce2](/fabrication/arduino/tutoriels/clignotement/)
   * Cpp
     * [Le code C++ (cpp)](/fabrication/cpp/code/)
     * [Arduino : Guide de style](/fabrication/cpp/style/)
@@ -325,4 +323,12 @@
 * Materiel
   * [Haut-parleurs Genelec](/materiel/genelec/)
   * [Oak](/materiel/oak/)
+* Tutoriels
+  * Arcade
+    * [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](/tutoriels/arcade/flappy/)
+    * [Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd](/tutoriels/arcade/pd/)
+    * [Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/pong/)
+    * [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)
+  * Platine
+    * [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
 <!-- INDEX END -->

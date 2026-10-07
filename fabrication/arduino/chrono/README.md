@@ -27,3 +27,6 @@ La minuterie fonctionne indépendamment du reste du programme. Le processeur peu
 
 Cela permet de réaliser des temporisations **non bloquantes**, sans utiliser `delay()`.
 
+## Tutoriels
+
+- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)

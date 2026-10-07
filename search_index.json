@@ -635,6 +635,11 @@
         "u": "#/fabrication/arduino/chrono"
     },
     {
+        "t": "Tutoriels",
+        "l": "tutoriels",
+        "u": "#/fabrication/arduino/chrono/?id=tutoriels"
+    },
+    {
         "t": "Carte Arduino Nano",
         "l": "carte arduino nano",
         "u": "#/fabrication/arduino/nano"
@@ -950,49 +955,9 @@
         "u": "#/fabrication/arduino/microosc/slip/?id=envoi"
     },
     {
-        "t": "Exemple MicroOsc d’envoi OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd",
-        "l": "exemple microosc d’envoi open sound control slip d’un arduino nano bouton d’arcade vers pure data",
-        "u": "#/fabrication/arduino/microosc/slip/?id=exemple-microosc-denvoi-osc-slip-dun-arduino-nano-avec-un-bouton-darcade-vers-pd"
-    },
-    {
-        "t": "Tutoriel Arduino clignotement Chrono Bounce2",
-        "l": "tutoriel arduino clignotement chrono bounce2",
-        "u": "#/fabrication/arduino/tutoriels/clignotement"
-    },
-    {
-        "t": "Introduction",
-        "l": "introduction",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=introduction"
-    },
-    {
-        "t": "Circuit",
-        "l": "circuit",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=circuit"
-    },
-    {
-        "t": "Chrono",
-        "l": "chrono",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=chrono"
-    },
-    {
-        "t": "Clignotement",
-        "l": "clignotement",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=clignotement"
-    },
-    {
-        "t": "Bouton et DEL",
-        "l": "bouton del",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=bouton-et-del"
-    },
-    {
-        "t": "Basculer",
-        "l": "basculer",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=basculer"
-    },
-    {
-        "t": "Alterner clignotement",
-        "l": "alterner clignotement",
-        "u": "#/fabrication/arduino/tutoriels/clignotement/?id=alterner-clignotement"
+        "t": "Tutoriels",
+        "l": "tutoriels",
+        "u": "#/fabrication/arduino/microosc/slip/?id=tutoriels"
     },
     {
         "t": "Arduino : Traitement",
@@ -1038,6 +1003,11 @@
         "t": "Bounce2::Button",
         "l": "bounce2::button",
         "u": "#/fabrication/arduino/bounce2/?id=bounce2button"
+    },
+    {
+        "t": "Tutoriels",
+        "l": "tutoriels",
+        "u": "#/fabrication/arduino/bounce2/?id=tutoriels"
     },
     {
         "t": "PlatformIO",
@@ -2525,6 +2495,66 @@
         "u": "#/materiel/genelec/?id=iss-intelligent-signal-sensing"
     },
     {
+        "t": "Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd",
+        "l": "tutoriel pure data microosc slip  envoi d’open sound control slip d’un arduino nano bouton d’arcade vers pure data",
+        "u": "#/tutoriels/arcade/pd"
+    },
+    {
+        "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
+        "l": "tutoriel pong  unity pure data open sound control arduino nano bouton d’arcade potentiometre",
+        "u": "#/tutoriels/arcade/pong"
+    },
+    {
+        "t": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
+        "l": "tutoriel flappy bird  unity pure data open sound control arduino nano bouton d’arcade",
+        "u": "#/tutoriels/arcade/flappy"
+    },
+    {
+        "t": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
+        "l": "tutoriel relais microosc  envoi d’open sound control slip d’un arduino nano bouton d’arcade vers open sound control udp",
+        "u": "#/tutoriels/arcade/relais"
+    },
+    {
+        "t": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
+        "l": "tutoriel clignotement  arduino platine bouton del chrono bounce2",
+        "u": "#/tutoriels/platine/clignotement"
+    },
+    {
+        "t": "Introduction",
+        "l": "introduction",
+        "u": "#/tutoriels/platine/clignotement/?id=introduction"
+    },
+    {
+        "t": "Circuit",
+        "l": "circuit",
+        "u": "#/tutoriels/platine/clignotement/?id=circuit"
+    },
+    {
+        "t": "Chrono",
+        "l": "chrono",
+        "u": "#/tutoriels/platine/clignotement/?id=chrono"
+    },
+    {
+        "t": "Clignotement",
+        "l": "clignotement",
+        "u": "#/tutoriels/platine/clignotement/?id=clignotement"
+    },
+    {
+        "t": "Bouton et DEL",
+        "l": "bouton del",
+        "u": "#/tutoriels/platine/clignotement/?id=bouton-et-del"
+    },
+    {
+        "t": "Basculer",
+        "l": "basculer",
+        "u": "#/tutoriels/platine/clignotement/?id=basculer"
+    },
+    {
+        "t": "Alterner clignotement",
+        "l": "alterner clignotement",
+        "u": "#/tutoriels/platine/clignotement/?id=alterner-clignotement"
+    },
+    {
         "t": "Pure Data (Pd)",
         "l": "pure data pure data",
         "u": "#/logiciels/pd"
@@ -2875,14 +2905,9 @@
         "u": "#/logiciels/unity/osc/extosc/?id=initialisation-de-lobjet-de-contr%C3%B4le-osc"
     },
     {
-        "t": "Exemple Flappy Bird Unity, Pd et Arduino Nano avec bouton d’arcade par OSC",
-        "l": "exemple flappy bird unity pure data arduino nano bouton d’arcade open sound control",
-        "u": "#/logiciels/unity/osc/extosc/?id=exemple-flappy-bird-unity-pd-et-arduino-nano-avec-bouton-darcade-par-osc"
-    },
-    {
-        "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
-        "l": "tutoriel pong  unity pure data open sound control arduino nano bouton d’arcade potentiometre",
-        "u": "#/logiciels/unity/osc/extosc/?id=tutoriel-pong--unity-pd-osc-et-arduino-nano-avec-bouton-darcade-et-potentiom%C3%A8tre"
+        "t": "Tutoriels",
+        "l": "tutoriels",
+        "u": "#/logiciels/unity/osc/extosc/?id=tutoriels"
     },
     {
         "t": "Fonction utilitaire ChangerPlageDeValeurs()",
