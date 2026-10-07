@@ -120,6 +120,8 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
     - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
     - `pong_bouton_pot_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
+    - Cliquer et maintenir le bouton de la souris pour bouger la palette.
+    - La touche espace lance la balle. 
 
 
 > [!NOTE]
