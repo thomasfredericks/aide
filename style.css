@@ -1346,7 +1346,7 @@ figcaption {
 
 .app-index-link {
   font-family: 'Metal Mania', system-ui, -apple-system, sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--theme-highlight, #ff0000);
   letter-spacing: 1px;
 }
