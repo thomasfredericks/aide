@@ -2,15 +2,13 @@
 
 <!-- toc -->
 
-Intégration de l’OSC UDP dans Unity avec **extOSC**.
+Ces instructions présentent l’intégration de l’OSC UDP dans Unity avec **extOSC**.
 
-## Initialisation d’extOSC dans Unity 
+## Activer l’exécution en arrière-plan
 
-### Préalables
+Avant tout, il faut [activer l’exécution en arrière-plan](../../execution_arriere-plan/) pour que Unity reçoive les messages OSC quand une autre application est en avant plan. 
 
-- [Activer l’exécution en arrière-plan](../../execution_arriere-plan/)
-
-### Installation de extOSC
+## Installation d’extOSC dans Unity 
 
 Recherchez « extOSC » dans l’[Asset Store](https://assetstore.unity.com/) (assurez-vous d’être connecté à votre compte Unity avant) :  
 ![Recherche pour « extOSC » dans l’Asset Store](./extosc_install1.png)
@@ -35,7 +33,7 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 
 
 
-## Initialisation de l’objet de contrôle OSC
+## GameObject OSC
 
 > [!Note]
 > Effectuez les étapes suivantes une seule fois par scène.
@@ -47,90 +45,36 @@ Vous devriez maintenant voir *extOSC* dans vos *assets* : 
 ![Le GameObject OSC configuré](./extosc_gameobject_osc.png)
 
 
-### Script de gestion de l’OSC (à faire UNE SEULE FOIS)
+## Script OscProcess
 
 Créer un script nommé `OscProcess`. Effectuer les étapes suivantes dans ce script.
 
-#### Importer le namespace extOSC
+### Importer le namespace extOSC
 Au début du script immédiatement après les autres `using` :
 ```csharp
 using extOSC;
 ```
 
-#### Déclarer la variable du récepteur OSC
-Dans la classe `OscProcess` et avant les méthodes, déclarer une référence au `OSCReceiver` :
+### Déclarer la variable du récepteur OSC
+**Dans la classe** `OscProcess` (avant les méthodes pour la clarté), déclarer une référence au `OSCReceiver` :
 ```csharp
 public extOSC.OSCReceiver oscReceiver;
 ```
 
-#### De retour dans l’éditeur Unity lier les propriétés
+### De retour dans l’éditeur Unity lier les propriétés
 
 - Glisser le script `OscProcess` sur le GameObject `OSC`.
 - Dans l’Inspecteur, glisser-déposer le GameObject  `OSC` sur la variable publique `oscReceiver` du script.
 
 ![Assignation de OscProcess et d’OSCReceiver dans Unity](./assigner_oscprocess.png)
 
-### Configuration par adresse OSC (à répéter pour chaque adresse)
+## Réception de messages OSC : Bind dans OscProcess
 
-> [!IMPORTANT] 
-> Pour chaque adresse OSC différente (`/but0`, `/but1`, `/angle`, `/lumiere`, etc.), vous devez créer **une fonction dédiée** et **un Bind() séparé**.
+Pour chaque adresse OSC différente (`/but0`, `/but1`, `/angle`, `/lumiere`, etc.), vous devez créer **un Bind() différent** dans `OscProcess`.
 
-
-#### Lier l’adresse OSC à une fonction dans Start()
-
-Retourner dans le script `OscProcess`.
-
-Dans la méthode `Start()`, associez chaque adresse OSC à sa fonction via `Bind()`. Par exemple, ici nous indiquons que lors que le message `"/but0"` est reçu, nous déclenchons la méthode `TraiterMessageBut0` (que nous définissons par après) :
-```csharp
-oscReceiver.Bind("/but0", TraiterMessageBut0);
-```
-
-> [!WARNING]
-> Créez un `oscReceiver.Bind()` et une fonction de traitement différente pour **CHAQUE** adresse OSC à traiter.
-
-#### Créer une fonction de traitement dédiée
-Chaque adresse nécessite sa propre fonction avec un nom explicite. Ici nous ajoutons la méthode `TraiterMessageBut0` dans la classe `OscProcess` (à la fin) :
-```csharp
-void TraiterMessageBut0(OSCMessage message)
-{
-    // Validez qu’il y a bien le nombre attendu d’arguments (1 dans l’exemple) :
-    if (message.Values.Count != 1)
-    {
-        Debug.Log("Le message " + message.Address  + " n’a pas le bon nombre d’arguments");
-        return; // Quitte la fonction sans exécuter la suite
-    }
-
-    // Vérifiez que l’argument est du type attendu (`int` dans l’exemple) :
-    if (message.Values[0].Type != OSCValueType.Int)
-    {
-        Debug.Log("Le premier argument du message " + message.Address  + "n’est pas un entier");
-        return; // Quitte la fonction sans exécuter la suite
-    }
-
-    // Récupérer la valeur de l’argument :
-    int valeur = message.Values[0].IntValue;
-
-    // Deboguer
-    // Debug.Log("Reçu : " + message.Address + " " + valeur);
-
-    // TRAITER LA VALEUR ICI !
-
-
-}
-
-```
-
-###  Tableau récapitulatif
-
-| Étape | Configuration |
-|----|-----------|
-| Importer `using extOSC;` | 1️⃣ Une seule fois |
-| Créer un script de gestion de l’OSC  ()`OscProcess`) | 1️⃣ Une seule fois |
-| Déclarer `oscReceiver` | 1️⃣ Une seule fois |
-| Relier le GameObject `OSC` dans l’inspecteur | 1️⃣ Une seule fois |
-| Créer une fonction de traitement (`TraiterMessage...`) | ♻️ Pour chaque adresse |
-| Ajouter `oscReceiver.Bind()` dans `Start()` | ♻️ Pour chaque adresse |
-
+Voici comment effectuer deux types de `Bind()` :
+- [extOSC Bind : int traité dans un if](./bind/int_if/) pour exécuter une fonction selon la valeur de l'argument.
+- [extOSC Bind : int vers argument float d'une méthode](./bind/int_float/) pour lier la valeur de l'argument proportionnellement à un `float`
 
 ## Tutoriels
 

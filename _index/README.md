@@ -4,7 +4,6 @@
 * Cours
   * [COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA](/cours/582-531_conception_experience/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
-* Coverage
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
@@ -264,6 +263,7 @@
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)
@@ -306,6 +306,9 @@
     * [Unity : Bonnes pratiques Git](/logiciels/unity/git/)
     * Osc
       * [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/)
+        * Bind
+          * [extOSC Bind : int vers argument float de méthode](/logiciels/unity/osc/extosc/bind/int_float/)
+          * [extOSC Bind : int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/)
         * [Envoi OSC avec extOSC  dans Unity](/logiciels/unity/osc/extosc/envoi/)
       * [Unity : OSC UDP avec oscjackvs](/logiciels/unity/osc/oscjackvs/)
     * [Spout dans Unity](/logiciels/unity/spout/)
