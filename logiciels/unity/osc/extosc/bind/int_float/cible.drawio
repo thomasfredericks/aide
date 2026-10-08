@@ -25,7 +25,7 @@
         <mxCell id="RSdY9ZOemwKZ3WwNsIQ3-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Le GameObject «Player» contient le script «Player Paddle»&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="610" width="330" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="RSdY9ZOemwKZ3WwNsIQ3-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Le script «Game Manager» défini la classe «Game Manager» qui contient la méthode «StartGame()»&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RSdY9ZOemwKZ3WwNsIQ3-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Le script «Player Paddle» défini la classe «PlayerPaddle» qui contient la méthode «SetPosition()» qui nécessite un argument float&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="1310" width="330" height="170" as="geometry" />
         </mxCell>
       </root>
