@@ -855,6 +855,11 @@
         "u": "#/logiciels/unity/spout"
     },
     {
+        "t": "Unity : configuration",
+        "l": "unity  configuration",
+        "u": "#/logiciels/unity/configuration"
+    },
+    {
         "t": "Unity : OSC UDP avec oscjackvs",
         "l": "unity  open sound control udp oscjackvs",
         "u": "#/logiciels/unity/osc/oscjackvs"
@@ -870,8 +875,8 @@
         "u": "#/logiciels/unity/osc/extosc/bind/int_if"
     },
     {
-        "t": "extOSC Bind : int vers argument float de méthode",
-        "l": "extosc bind  int vers argument float methode",
+        "t": "extOSC Bind : int vers argument float d’une méthode",
+        "l": "extosc bind  int vers argument float d’une methode",
         "u": "#/logiciels/unity/osc/extosc/bind/int_float"
     },
     {

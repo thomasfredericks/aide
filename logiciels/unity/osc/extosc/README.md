@@ -73,8 +73,8 @@ public extOSC.OSCReceiver oscReceiver;
 Pour chaque adresse OSC différente (`/but0`, `/but1`, `/angle`, `/lumiere`, etc.), vous devez créer **un Bind() différent** dans `OscProcess`.
 
 Voici comment effectuer deux types de `Bind()` :
-- [extOSC Bind : int traité dans un if](./bind/int_if/) pour exécuter une fonction selon la valeur de l'argument.
-- [extOSC Bind : int vers argument float d'une méthode](./bind/int_float/) pour lier la valeur de l'argument proportionnellement à un `float`
+- [extOSC Bind : int traité dans un if](./bind/int_if/) pour exécuter une fonction selon la valeur de l’argument.
+- [extOSC Bind : int vers argument float d’une méthode](./bind/int_float/) pour lier la valeur de l’argument proportionnellement à un `float`
 
 ## Tutoriels
 

@@ -1,4 +1,4 @@
-# extOSC Bind : int vers argument float d'une méthode
+# extOSC Bind : int vers argument float d’une méthode
 
 <!-- toc -->
 

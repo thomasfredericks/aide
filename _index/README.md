@@ -302,12 +302,13 @@
       * [TouchDesigner : Lecture d’une vidéo par index](/logiciels/touchdesigner/video/index/)
   * Unity
     * [Colliders dans Unity](/logiciels/unity/colliders/)
+    * [Unity : configuration](/logiciels/unity/configuration/)
     * [Unity : Exécution en arrière-plan](/logiciels/unity/execution_arriere-plan/)
     * [Unity : Bonnes pratiques Git](/logiciels/unity/git/)
     * Osc
       * [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/)
         * Bind
-          * [extOSC Bind : int vers argument float de méthode](/logiciels/unity/osc/extosc/bind/int_float/)
+          * [extOSC Bind : int vers argument float d’une méthode](/logiciels/unity/osc/extosc/bind/int_float/)
           * [extOSC Bind : int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/)
         * [Envoi OSC avec extOSC  dans Unity](/logiciels/unity/osc/extosc/envoi/)
       * [Unity : OSC UDP avec oscjackvs](/logiciels/unity/osc/oscjackvs/)
