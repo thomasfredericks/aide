@@ -143,14 +143,17 @@ L’IA de jeu vidéo est **scriptée par les concepteurs**. Chaque comportement 
 
 L’IA de jeu vidéo n’est **pas de l’apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n’y a pas d’adaptation autonome.
 
-### Techniques utilisées
+Techniques utilisées :
 
 | Technique | Usage |
 |------|----|
 | Machines à états finis | Comportements de PNJ simples |
-| Arbres de comportement | Logique décisionnelle complexe |
+| Arbres de comportement (Behavior Trees) | Hiérarchie d’actions conditionnelles  |
 | Pathfinding (A*) | Navigation et déplacement |
-| Behavior Trees | Hiérarchie d’actions conditionnelles |
+
+![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.png)
+
+
 
 ### Objectifs de conception
 
