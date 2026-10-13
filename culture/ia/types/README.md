@@ -1,5 +1,6 @@
 # Types d’intelligence artificielle
 
+<!-- toc -->
 
 ## La confusion autour du terme "IA"
 
@@ -33,13 +34,20 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 > [!NOTE]
 > Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
 
+![Visualisation des couches d'IA - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./ai_field.webp)
+
+![Entrainement d'un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
+
+![Prédictions d'un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
 
 ### Caractéristiques principales
 
-- **Architecture** : Réseaux de neurones profonds (transformers)
+- **Architecture** : Réseaux de neurones profonds ; *transformers*
 - **Données d’entraînement** : Corpus textuels massifs (Internet, livres, articles)
 - **Mécanisme** : Reconnaissance de motifs
 - **Sorties** : Texte, code, traduction, résumé, dialogue
+
+
 
 ### Avantages
 
@@ -48,9 +56,7 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 ### Limites et risques
 
 ❌ Risques de biais, d’erreurs ou de dérives  
-❌ Moins contrôlable, comportements complexes et parfois imprévus  
-❌ Plus opaque, explicabilité partielle  
-❌ Élevé impact environnemental : modèles massifs, infrastructure lourde  
+❌ Impact environnemental très élevé : modèles massifs, infrastructure lourde  
 ❌ Moins durable, dépendance aux géants du cloud  
 ❌ Très élevés coûts : en données, calcul, maintenance  
 
@@ -58,6 +64,12 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 ## Générateur d’image
 
 Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
+
+Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des images réelles à des niveaux croissants, et le modèle apprend à prédire ce bruit en fonction de l'image bruitée, du niveau de bruit et d'une description textuelle. 
+
+Lors de la génération d'une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l'invite textuelle, jusqu'à ce qu'une image claire émerge.
+
+![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.png)
 
 ### Caractéristiques principales
 
@@ -80,19 +92,6 @@ Le générateur apprend à reconstruire des images en partant d’un bruit aléa
 ❌ Impact environnemental similaire aux GML  
 
 
-## IA générale (AGI) hypothétique
-
-L’**IA générale** désigne une intelligence artificielle hypothétique capable de :
-- Remplacer un humain
-- Comprendre, apprendre et appliquer ses connaissances à travers tous les domaines
-- S’adapter contextuellement
-- Prendre des décisions autonomes dans des situations inédites
-
-
-> [!IMPORTANT]
-> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
-> **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
-
 ##  IA pour jeux de stratégie (Échecs, Go, etc)
 
 
@@ -100,23 +99,14 @@ L’IA de stratégie fonctionne comme une **base de données de toutes les possi
 
 Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs environnements fermés. Pour les jeux aux règles simples comme les échecs, le nombre de combinaisons reste gérable par force brute assistée. Pour des jeux plus complexes comme le Go, ils combinent recherche arborescente et apprentissage profond pour évaluer les positions sans avoir une mémoire de toutes les parties.
 
-### Explication technique
-
 Il existe deux approches principales :
 
-1. **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
+- **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
+- **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
 
-2. **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
+Les **algorithmes principaux** sont Minimax, Monte Carlo Tree Search (MCTS). Une approche plus moderne consiste à combiner Monte Carlo Tree Search avec un réseaux de neurones profonds (comme dans AlphaGo).
 
-### Architecture technique
-
-- **Environnement** : Espace de règles fermé et parfaitement défini
-- **Algorithmes principaux** : Minimax, Monte Carlo Tree Search (MCTS)
-- **Approche moderne** : Combinaison de MCTS + réseaux de neurones profonds (AlphaGo)
-- **Apprentissage** : Apprentissage par renforcement par auto-play
-
-
-### Exemples emblématiques
+Exemples emblématiques :
 
 | Système | Jeu | Année | Organisme |
 |-----|---|----|------|
@@ -153,20 +143,58 @@ Techniques utilisées :
 
 ![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.png)
 
+![Exemple d'un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
 
+Exemple d'un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
+```csharp
+uint32 SomeEnemy::HandleEvent( const FSMEvent& Event ) override
+{
+	switch( Event.MakeSwitch(State) )
+	{
+	case FSM_ID( STANDING_STILL, ENTER ):
+	{
+		/* code for entering the standing-still state */
+		break;
+	}
+	case FSM_ID( STANDING_STILL, UPDATE ):
+	{
+		/* code for updating the standing-still state */
+		break;
+	}
+	case FSM_ID( STANDING_STILL, EXIT ):
+	{
+		/* code for leaving the standing-still state */
+		break;
+	}
+	case FSM_ID( MOVING, ENTER ):
+	{
+		/* code for entering the moving state */
+		break;
+	}
+	case FSM_ID( MOVING, UPDATE ):
+	{
+		/* code for updating the moving state */
+		break;
+	}
+	case FSM_ID( MOVING, EXIT ):
+	{
+		/* code for leaving the moving state */
+		break;
+	}
+	default:
+		break;
+	}
 
-### Objectifs de conception
-
-1. **Créer l’illusion** d’intelligence pour l’expérience joueur
-2. **Maintenir le contrôle** des développeurs sur le gameplay
-3. **Assurer la performance temps réel** (60 FPS+)
-4. **Garantir la reproductibilité** du comportement
+	return Super::HandleEvent( Event );
+}
+```
 
 ### Avantages
 
 ✅ Complètement transparente (code accessible)  
-✅ Prévisible et contrôlable  
-✅ Légère en ressources computationnelles  
+✅ Prévisible et contrôlable ; **maintenir le contrôle** des développeurs sur le gameplay  
+✅ Légère en ressources computationnelles; **assurer la performance temps réel** (60 FPS+)  
+✅ **Garantir la reproductibilité** du comportement  
 
 ### Limites
 
@@ -176,3 +204,15 @@ Techniques utilisées :
 
 
 
+## IA générale (AGI) hypothétique
+
+L’**IA générale** désigne une intelligence artificielle hypothétique capable de :
+- Remplacer un humain
+- Comprendre, apprendre et appliquer ses connaissances à travers tous les domaines
+- S’adapter contextuellement
+- Prendre des décisions autonomes dans des situations inédites
+
+
+> [!IMPORTANT]
+> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
+> **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
