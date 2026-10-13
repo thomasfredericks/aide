@@ -2,25 +2,25 @@
 
 <!-- toc -->
 
-## La confusion autour du terme "IA"
+## La confusion autour du terme «IA»
 
 > [!WARNING]
 > Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. 
 > Il existe en réalité plusieurs types d’IA vastement différents. Dans aucun cas, le système est réellement intelligent ou conscient.
 
-## Tableau comparatif 
+## Compétences humaines vs machines
 
-| Critère | GML (LLM) | Générateur d’images | IA pour Échecs/Go | IA jeu vidéo | IA Générale |
-|-----|------|-------|----------|-------|-------|
-| **Spécialité** | Texte, langage naturel | Générer des images | Un jeu **spécifique** | Comportements de PNJ | Remplacer un humain |
-| **Fonctionnement** | Reconnaissance de motifs | Reconstitue une image à partir de bruit (diffusion) | Simulation des coups possibles | Scripts de concepteurs | — |
-| **Apprentissage** | Données textuelles massives | Corpus d’images + débruitage itératif | Auto-play / renforcement | Scripté par humains | Hypothétique |
-| **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
-| **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
-| **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
-| **État** | Disponible | Disponible | Disponible | Disponible | N’existe pas |
-| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N’existe pas |
-| **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
+| **Compétences**                                           | **Humains** | **Machines** |
+|------------------------------|-------|---------|
+| Opérations mathématiques                                  |             | ✅              |
+| Mémoire et rappel                                         |             | ✅              |
+| Raisonnement général (tests de QI)                        |             | ✅              |
+| Programmation de base                                     |             | ✅              |
+| Bon sens                                                  | ✅          |                 |
+| Créativité                                                | ✅          |                 |
+| Prise de décision (dans le monde réel)                    | ✅          |                 |
+
+
 
 
 
@@ -30,15 +30,31 @@ Le GML sont constitués à partir de réseau neuronaux.
 **Les systèmes neuronaux fonctionnent comme un moteur de reconnaissance de motifs.**  
 Ils ne comprennent pas le sens, mais identifient des régularités statistiques dans les données d’entraînement pour prédire la suite la plus probable.
 
+Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit. L’humain y projette des intentions ou des capacités qu’il n’a pas réllement.
 
 > [!NOTE]
 > Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
 
-![Visualisation des couches d'IA - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./ai_field.webp)
+![Visualisation des couches d’IA - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./ai_field.webp)
 
-![Entrainement d'un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
+![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
 
-![Prédictions d'un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
+![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
+
+
+
+
+Capacité d’un GML pour jouer à un jeu :
+
+| Type de jeu                               | Performance d’un LLM | Remarques                                                               |
+| --------------------- | ------------- | ------------------------------------ |
+| **Échecs, Go, Shōgi**                     | ❌ Faible                  | Suit mal l’état du jeu, oublie les règles ou fait des coups illégaux    |
+| **Morpion (Tic-Tac-Toe)**                 | ✅ Bonne                   | Jeu simple, facile à suivre en texte                                    |
+| **Énigmes logiques**                      | 🤷 Moyenne                | Raisonnement souvent instable ou incohérent                             |
+| **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Peut simuler des dialogues ou des choix, mais sans planification réelle |
+| **Jeux avec grille (Connect Four, etc.)** | 😬 Limite                 | Possible sur quelques tours, mais perd le fil rapidement                |
+
+
 
 ### Caractéristiques principales
 
@@ -46,7 +62,6 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 - **Données d’entraînement** : Corpus textuels massifs (Internet, livres, articles)
 - **Mécanisme** : Reconnaissance de motifs
 - **Sorties** : Texte, code, traduction, résumé, dialogue
-
 
 
 ### Avantages
@@ -65,11 +80,14 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 
 Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
 
-Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des images réelles à des niveaux croissants, et le modèle apprend à prédire ce bruit en fonction de l'image bruitée, du niveau de bruit et d'une description textuelle. 
+Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des images réelles à des niveaux croissants, et le modèle apprend à prédire ce bruit en fonction de l’image bruitée, du niveau de bruit et d’une description textuelle. 
 
-Lors de la génération d'une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l'invite textuelle, jusqu'à ce qu'une image claire émerge.
+Lors de la génération d’une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l’invite textuelle, jusqu’à ce qu’une image claire émerge.
 
 ![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.png)
+
+
+
 
 ### Caractéristiques principales
 
@@ -91,6 +109,7 @@ Lors de la génération d'une image, le modèle commence par un bruit aléatoire
 ❌ Risque de deepfakes et désinformation visuelle  
 ❌ Impact environnemental similaire aux GML  
 
+![Dans cette séquence, il est clair que le générateur d’image n’arrive pas à générer un verre de vin à ras bord](./verre_de_vin.png)
 
 ##  IA pour jeux de stratégie (Échecs, Go, etc)
 
@@ -143,9 +162,9 @@ Techniques utilisées :
 
 ![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.png)
 
-![Exemple d'un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
+![Exemple d’un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
 
-Exemple d'un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
+Exemple d’un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
 ```csharp
 uint32 SomeEnemy::HandleEvent( const FSMEvent& Event ) override
 {
@@ -216,3 +235,17 @@ L’**IA générale** désigne une intelligence artificielle hypothétique capab
 > [!IMPORTANT]
 > Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
 > **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
+
+## Tableau récapitulatif
+
+| Critère | GML (LLM) | Générateur d’images | IA pour Échecs/Go | IA jeu vidéo | IA Générale |
+|-----|------|-------|----------|-------|-------|
+| **Spécialité** | Texte, langage naturel | Générer des images | Un jeu **spécifique** | Comportements de PNJ | Remplacer un humain |
+| **Fonctionnement** | Reconnaissance de motifs | Reconstitue une image à partir de bruit (diffusion) | Simulation des coups possibles | Scripts de concepteurs | — |
+| **Apprentissage** | Données textuelles massives | Corpus d’images + débruitage itératif | Auto-play / renforcement | Scripté par humains | Hypothétique |
+| **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
+| **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
+| **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
+| **État** | Disponible | Disponible | Disponible | Disponible | N’existe pas |
+| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N’existe pas |
+| **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
