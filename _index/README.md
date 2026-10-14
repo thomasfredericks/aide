@@ -188,6 +188,7 @@
   * [Simulation de microélectronique](/fabrication/simulation/)
 * Jeu
   * [Jeu L’année de la veille](/jeu/annee_de_la_veille/)
+  * [Règles du jeu de cartes Bartok](/jeu/bartok/)
   * [Jeu Chat sur ta tête (Cat on Yer Head)](/jeu/chat_sur_ta_tete/)
   * Theorie_Des_Jeux
     * [Dilemme du prisonnier](/jeu/theorie_des_jeux/dilemne_prisonnier/)

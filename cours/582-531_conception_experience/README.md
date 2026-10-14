@@ -179,7 +179,8 @@ Activités en classe :
 	- [Johann Sebastian Joust](http://www.jsjoust.com/)
 		- [Johann Sebastian Joust at MagFest 2016](https://www.youtube.com/watch?v=YUDEi2dZUV8)
 		- *JS Joust JS*.
-	
+
+
 ### Semaine 2 
 
 À préparer avant la classe :
@@ -216,7 +217,7 @@ Activités en classe :
 - Six [qualités](https://t-o-f.info/aide/#/creation/interactivite/qualites/) recherchées d’une expérience multimédia.
 - Trouver un modèle de PowerPoint pour le travail.
 	
-	
+
 ### Semaine 3
 
 À préparer avant la classe :
@@ -322,11 +323,41 @@ Activités en classe :
 Activités en classe :
 
 - **Évaluation**.
-- Concevoir des règles avec *Bortak*.
-- Design génératif :
-	- [alien language generator](https://codepen.io/p5art/details/XKWyob)
+	- Concevoir des règles avec [Bartok](/jeu/bartok/).
+- [Types d’IA](/culture/ia/types/)
+- Exemples de design génératif
+	- [Alien Language Generator](https://codepen.io/p5art/details/XKWyob)
 	- [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
-- *Wonder Wander*.
+- Générateur de drapeaux avec [p5.js](https://p5js.org/) à partir d’une requête. Le résultat est [ici](https://editor.p5js.org/tofredericks/full/k7URdhlBE) et la requête utilisée est la suivante :
+> Donne-moi un code qui utilise p5.js et qui va générer des dessins à partir d’une seed. 
+> - Je veux juste le code p5.js (pas de visualisation live).
+> - Ne désactive pas la boucle draw(). Applique le seed au début de chaque draw() pour que le dessin reste identique.
+> - À chaque clic de la souris, change la seed (utilise le temps pour générer les nouvelles seed).
+> - Garde l’arrière-plan blanc. 
+> - Pour chaque propriété et chaque élément dessiné crée une fonction avec des arguments (une fonction par propriété et par élément dessiné). Dessine ce qui est une multitude (comme deux yeux) avec des appels individuels de fonction. Les éléments doivent être relatifs à la taille de la forme de base.
+> - N’affiche pas d’instructions textuelles.
+> - Le code doit dessiner des drapeaux.
+> - Les propriétés :
+> 	- La taille du drapeau.
+> 	- Le nombre de bandes de couleur.
+> 	- Les couleurs.
+> 	- L’emblème si présent.
+- Générateur de visages avec [p5.js](https://p5js.org/) à partir d’une requête. Le résultat est [ici](https://editor.p5js.org/tofredericks/full/7EQ_aMKfv) et la requête utilisée est la suivante :
+> Donne-moi un code qui utilise p5.js et qui va générer des dessins à partir d’une seed. 
+> - Je veux juste le code p5.js (pas de visualisation live).
+> - Ne désactive pas la boucle draw(). Applique le seed au début de chaque draw() pour que le dessin reste identique.
+> - À chaque clic de la souris, change la seed (utilise le temps pour générer les nouvelles seed).
+> - Garde l’arrière-plan blanc. 
+> - Pour chaque propriété et chaque élément dessiné crée une fonction avec des arguments (une fonction par propriété et par élément dessiné). Dessine ce qui est une multitude (comme deux yeux) avec des appels individuels de fonction. Les éléments doivent être relatifs à la taille de la forme de base.
+> - N’affiche pas d’instructions textuelles.
+> - Le code doit dessiner des visages.
+> - Les propriétés :
+> 	- La couleur du visage
+>	- La taille du visage
+>	- La coiffe
+>	- La couleur des yeux
+- Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
+- [Wonder Wander](/jeu/wonder_wander/)
 
 
 
@@ -337,6 +368,7 @@ Activités en classe :
 - Rien.
 
 Activités en classe :
+
 
 - Développer son sens de communauté avec *L’année de la veille*.
 - Partage des histoires des communautés.
@@ -361,7 +393,6 @@ Activités en classe :
 
 - Détermination des valeurs de groupe.
 - Présentation des critères pour la prochaine évaluation.
-- Rétroaction en interactivité.
 - *Toolchain* pour la conception de projet :
 	- Environnement de développement principal (cerveau) :
 		- Unity (possiblement Godot ou Three.js)
@@ -409,6 +440,7 @@ Activités en classe :
 - Activités formatives sur l’esthétique :
 	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
 - Rédaction de la mission d’équipe.
+- Rétroaction en interactivité.
 	
 ### Semaine 13 : 30 novembre / 26 novembre
 

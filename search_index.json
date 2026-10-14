@@ -35,6 +35,11 @@
         "u": "#/jeu/theorie_des_jeux/dilemne_prisonnier"
     },
     {
+        "t": "Règles du jeu de cartes Bartok",
+        "l": "regles jeu cartes bartok",
+        "u": "#/jeu/bartok"
+    },
+    {
         "t": "Jeu Wonder Wander",
         "l": "jeu wonder wander",
         "u": "#/jeu/wonder_wander"
