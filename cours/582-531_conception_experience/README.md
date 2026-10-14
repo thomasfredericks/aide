@@ -328,6 +328,7 @@ Activités en classe :
 - Exemples de design génératif
 	- [Alien Language Generator](https://codepen.io/p5art/details/XKWyob)
 	- [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
+- [RandomSeed avec p5.js](https://editor.p5js.org/tofredericks/sketches/ExKaQF9RQ)
 - Générateur de drapeaux avec [p5.js](https://p5js.org/) à partir d’une requête. Le résultat est [ici](https://editor.p5js.org/tofredericks/full/k7URdhlBE) et la requête utilisée est la suivante :
 > Donne-moi un code qui utilise p5.js et qui va générer des dessins à partir d’une seed. 
 > - Je veux juste le code p5.js (pas de visualisation live).
