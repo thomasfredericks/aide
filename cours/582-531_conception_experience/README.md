@@ -359,6 +359,9 @@ Activités en classe :
 >	- La couleur des yeux
 - Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
 - [Wonder Wander](/jeu/wonder_wander/)
+- Aller plus loin :
+	- [OpenProcessing Generative Art](https://openprocessing.org/discover/#/generativeart)
+	- [Shader Park](https://shaderpark.com/)
 
 
 
