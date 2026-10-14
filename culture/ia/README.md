@@ -1,7 +1,5 @@
-# Intelligence artificielle (IA/AI)
+# Intelligence artificielle 
 
-- [Types d’apprentissage automatique](./types/)
-- [Propagande sur les GML](./propagande/)
-- [Création avec un GML](./creation/)
+- [Types d’intelligence artificielle](./types/)
+- [Dangers réels des intelligences artificielles](./dangers/)
 - [Guides d’utilisation des GML](./guides/)
-- [Impact des GML sur l’enseignement](./enseignement/)

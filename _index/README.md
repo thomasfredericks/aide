@@ -64,15 +64,9 @@
   * Education
     * [Manifeste pour une éducation résiliente](/culture/education/manifeste/)
     * [Deux systèmes de pensée](/culture/education/sytemes_pensee/)
-  * [Intelligence artificielle (IA/AI)](/culture/ia/)
-    * [Création de code ou d’images avec un GML](/culture/ia/creation/)
-    * [Les délires causés par les GML](/culture/ia/delires/)
-    * Dette
-      * [Dette technique causée par les GML](/culture/ia/dette/technique/)
-    * [Impacts des GML sur l’enseignement](/culture/ia/enseignement/)
+  * [Intelligence artificielle](/culture/ia/)
+    * [Dangers réels des intelligences artificielles](/culture/ia/dangers/)
     * [Guides d’utilisation des GML](/culture/ia/guides/)
-    * [Propagande sur les GML](/culture/ia/propagande/)
-    * [Effets sur la santé psychologique des GML](/culture/ia/sante/)
     * [Types d’intelligence artificielle](/culture/ia/types/)
   * [Manipulation : Dark Patterns](/culture/manipulations/)
   * [Merdification ( Enshittification )](/culture/merdification/)

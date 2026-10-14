@@ -1305,14 +1305,9 @@
         "u": "#/culture/surveillance/temoins"
     },
     {
-        "t": "Intelligence artificielle (IA/AI)",
-        "l": "intelligence artificielle intelligence artificielle/intelligence artificielle",
+        "t": "Intelligence artificielle",
+        "l": "intelligence artificielle",
         "u": "#/culture/ia"
-    },
-    {
-        "t": "Effets sur la santé psychologique des GML",
-        "l": "effets sante psychologique grand modele langage",
-        "u": "#/culture/ia/sante"
     },
     {
         "t": "Types d’intelligence artificielle",
@@ -1320,34 +1315,14 @@
         "u": "#/culture/ia/types"
     },
     {
-        "t": "Impacts des GML sur l’enseignement",
-        "l": "impacts grand modele langage l’enseignement",
-        "u": "#/culture/ia/enseignement"
-    },
-    {
-        "t": "Les délires causés par les GML",
-        "l": "delires causes grand modele langage",
-        "u": "#/culture/ia/delires"
-    },
-    {
-        "t": "Propagande sur les GML",
-        "l": "propagande grand modele langage",
-        "u": "#/culture/ia/propagande"
-    },
-    {
-        "t": "Création de code ou d’images avec un GML",
-        "l": "creation code d’images grand modele langage",
-        "u": "#/culture/ia/creation"
-    },
-    {
-        "t": "Dette technique causée par les GML",
-        "l": "dette technique causee grand modele langage",
-        "u": "#/culture/ia/dette/technique"
-    },
-    {
         "t": "Guides d’utilisation des GML",
         "l": "guides d’utilisation grand modele langage",
         "u": "#/culture/ia/guides"
+    },
+    {
+        "t": "Dangers réels des intelligences artificielles",
+        "l": "dangers reels intelligences artificielles",
+        "u": "#/culture/ia/dangers"
     },
     {
         "t": "Manifeste pour une éducation résiliente",

@@ -1,25 +1,26 @@
 # Types d’intelligence artificielle
 
+<!-- toc -->
 
-## La confusion autour du terme "IA"
+## La confusion autour du terme «IA»
 
 > [!WARNING]
 > Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. 
 > Il existe en réalité plusieurs types d’IA vastement différents. Dans aucun cas, le système est réellement intelligent ou conscient.
 
-## Tableau comparatif 
+## Compétences humaines vs machines
 
-| Critère | GML (LLM) | Générateur d’images | IA pour Échecs/Go | IA jeu vidéo | IA Générale |
-|-----|------|-------|----------|-------|-------|
-| **Spécialité** | Texte, langage naturel | Générer des images | Un jeu **spécifique** | Comportements de PNJ | Remplacer un humain |
-| **Fonctionnement** | Reconnaissance de motifs | Reconstitue une image à partir de bruit (diffusion) | Simulation des coups possibles | Scripts de concepteurs | — |
-| **Apprentissage** | Données textuelles massives | Corpus d’images + débruitage itératif | Auto-play / renforcement | Scripté par humains | Hypothétique |
-| **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
-| **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
-| **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
-| **État** | Disponible | Disponible | Disponible | Disponible | N’existe pas |
-| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N’existe pas |
-| **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
+| **Compétences**                                           | **Humains** | **Machines** |
+|------------------------------|-------|---------|
+| Opérations mathématiques                                  |             | ✅              |
+| Mémoire et rappel                                         |             | ✅              |
+| Raisonnement général (tests de QI)                        |             | ✅              |
+| Programmation de base                                     |             | ✅              |
+| Bon sens                                                  | ✅          |                 |
+| Créativité                                                | ✅          |                 |
+| Prise de décision (dans le monde réel)                    | ✅          |                 |
+
+
 
 
 
@@ -29,17 +30,39 @@ Le GML sont constitués à partir de réseau neuronaux.
 **Les systèmes neuronaux fonctionnent comme un moteur de reconnaissance de motifs.**  
 Ils ne comprennent pas le sens, mais identifient des régularités statistiques dans les données d’entraînement pour prédire la suite la plus probable.
 
+Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit. L’humain y projette des intentions ou des capacités qu’il n’a pas réllement.
 
 > [!NOTE]
 > Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
 
+![Visualisation des couches d’IA - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./ai_field.webp)
+
+![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
+
+![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
+
+
+
+
+Capacité d’un GML pour jouer à un jeu :
+
+| Type de jeu                               | Performance d’un LLM | Remarques                                                               |
+| --------------------- | ------------- | ------------------------------------ |
+| **Échecs, Go, Shōgi**                     | ❌ Faible                  | Suit mal l’état du jeu, oublie les règles ou fait des coups illégaux    |
+| **Morpion (Tic-Tac-Toe)**                 | ✅ Bonne                   | Jeu simple, facile à suivre en texte                                    |
+| **Énigmes logiques**                      | 🤷 Moyenne                | Raisonnement souvent instable ou incohérent                             |
+| **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Peut simuler des dialogues ou des choix, mais sans planification réelle |
+| **Jeux avec grille (Connect Four, etc.)** | 😬 Limite                 | Possible sur quelques tours, mais perd le fil rapidement                |
+
+
 
 ### Caractéristiques principales
 
-- **Architecture** : Réseaux de neurones profonds (transformers)
+- **Architecture** : Réseaux de neurones profonds ; *transformers*
 - **Données d’entraînement** : Corpus textuels massifs (Internet, livres, articles)
 - **Mécanisme** : Reconnaissance de motifs
 - **Sorties** : Texte, code, traduction, résumé, dialogue
+
 
 ### Avantages
 
@@ -48,9 +71,7 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 ### Limites et risques
 
 ❌ Risques de biais, d’erreurs ou de dérives  
-❌ Moins contrôlable, comportements complexes et parfois imprévus  
-❌ Plus opaque, explicabilité partielle  
-❌ Élevé impact environnemental : modèles massifs, infrastructure lourde  
+❌ Impact environnemental très élevé : modèles massifs, infrastructure lourde  
 ❌ Moins durable, dépendance aux géants du cloud  
 ❌ Très élevés coûts : en données, calcul, maintenance  
 
@@ -58,6 +79,15 @@ Ils ne comprennent pas le sens, mais identifient des régularités statistiques 
 ## Générateur d’image
 
 Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
+
+Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des images réelles à des niveaux croissants, et le modèle apprend à prédire ce bruit en fonction de l’image bruitée, du niveau de bruit et d’une description textuelle. 
+
+Lors de la génération d’une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l’invite textuelle, jusqu’à ce qu’une image claire émerge.
+
+![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.png)
+
+
+
 
 ### Caractéristiques principales
 
@@ -79,19 +109,7 @@ Le générateur apprend à reconstruire des images en partant d’un bruit aléa
 ❌ Risque de deepfakes et désinformation visuelle  
 ❌ Impact environnemental similaire aux GML  
 
-
-## IA générale (AGI) hypothétique
-
-L’**IA générale** désigne une intelligence artificielle hypothétique capable de :
-- Remplacer un humain
-- Comprendre, apprendre et appliquer ses connaissances à travers tous les domaines
-- S’adapter contextuellement
-- Prendre des décisions autonomes dans des situations inédites
-
-
-> [!IMPORTANT]
-> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
-> **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
+![Dans cette séquence, il est clair que le générateur d’image n’arrive pas à générer un verre de vin à ras bord](./verre_de_vin.png)
 
 ##  IA pour jeux de stratégie (Échecs, Go, etc)
 
@@ -100,23 +118,14 @@ L’IA de stratégie fonctionne comme une **base de données de toutes les possi
 
 Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs environnements fermés. Pour les jeux aux règles simples comme les échecs, le nombre de combinaisons reste gérable par force brute assistée. Pour des jeux plus complexes comme le Go, ils combinent recherche arborescente et apprentissage profond pour évaluer les positions sans avoir une mémoire de toutes les parties.
 
-### Explication technique
-
 Il existe deux approches principales :
 
-1. **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
+- **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
+- **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
 
-2. **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
+Les **algorithmes principaux** sont Minimax, Monte Carlo Tree Search (MCTS). Une approche plus moderne consiste à combiner Monte Carlo Tree Search avec un réseaux de neurones profonds (comme dans AlphaGo).
 
-### Architecture technique
-
-- **Environnement** : Espace de règles fermé et parfaitement défini
-- **Algorithmes principaux** : Minimax, Monte Carlo Tree Search (MCTS)
-- **Approche moderne** : Combinaison de MCTS + réseaux de neurones profonds (AlphaGo)
-- **Apprentissage** : Apprentissage par renforcement par auto-play
-
-
-### Exemples emblématiques
+Exemples emblématiques :
 
 | Système | Jeu | Année | Organisme |
 |-----|---|----|------|
@@ -143,27 +152,68 @@ L’IA de jeu vidéo est **scriptée par les concepteurs**. Chaque comportement 
 
 L’IA de jeu vidéo n’est **pas de l’apprentissage**. Chaque comportement est scripté et paramétré par les concepteurs. Il n’y a pas d’adaptation autonome.
 
-### Techniques utilisées
+Techniques utilisées :
 
 | Technique | Usage |
 |------|----|
 | Machines à états finis | Comportements de PNJ simples |
-| Arbres de comportement | Logique décisionnelle complexe |
+| Arbres de comportement (Behavior Trees) | Hiérarchie d’actions conditionnelles  |
 | Pathfinding (A*) | Navigation et déplacement |
-| Behavior Trees | Hiérarchie d’actions conditionnelles |
 
-### Objectifs de conception
+![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.png)
 
-1. **Créer l’illusion** d’intelligence pour l’expérience joueur
-2. **Maintenir le contrôle** des développeurs sur le gameplay
-3. **Assurer la performance temps réel** (60 FPS+)
-4. **Garantir la reproductibilité** du comportement
+![Exemple d’un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
+
+Exemple d’un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
+```csharp
+uint32 SomeEnemy::HandleEvent( const FSMEvent& Event ) override
+{
+	switch( Event.MakeSwitch(State) )
+	{
+	case FSM_ID( STANDING_STILL, ENTER ):
+	{
+		/* code for entering the standing-still state */
+		break;
+	}
+	case FSM_ID( STANDING_STILL, UPDATE ):
+	{
+		/* code for updating the standing-still state */
+		break;
+	}
+	case FSM_ID( STANDING_STILL, EXIT ):
+	{
+		/* code for leaving the standing-still state */
+		break;
+	}
+	case FSM_ID( MOVING, ENTER ):
+	{
+		/* code for entering the moving state */
+		break;
+	}
+	case FSM_ID( MOVING, UPDATE ):
+	{
+		/* code for updating the moving state */
+		break;
+	}
+	case FSM_ID( MOVING, EXIT ):
+	{
+		/* code for leaving the moving state */
+		break;
+	}
+	default:
+		break;
+	}
+
+	return Super::HandleEvent( Event );
+}
+```
 
 ### Avantages
 
 ✅ Complètement transparente (code accessible)  
-✅ Prévisible et contrôlable  
-✅ Légère en ressources computationnelles  
+✅ Prévisible et contrôlable ; **maintenir le contrôle** des développeurs sur le gameplay  
+✅ Légère en ressources computationnelles; **assurer la performance temps réel** (60 FPS+)  
+✅ **Garantir la reproductibilité** du comportement  
 
 ### Limites
 
@@ -173,3 +223,29 @@ L’IA de jeu vidéo n’est **pas de l’apprentissage**. Chaque comportement e
 
 
 
+## IA générale (AGI) hypothétique
+
+L’**IA générale** désigne une intelligence artificielle hypothétique capable de :
+- Remplacer un humain
+- Comprendre, apprendre et appliquer ses connaissances à travers tous les domaines
+- S’adapter contextuellement
+- Prendre des décisions autonomes dans des situations inédites
+
+
+> [!IMPORTANT]
+> Contrairement à la confusion véhiculée par le marketing techno-solutionniste, une IA générative (GML) **ne peut pas évoluer** en IA générale (AGI). Ce sont deux technologies fondamentalement distinctes, tant par leur architecture que par leur fonctionnement.
+> **Cette technologie n’existe pas aujourd"hui.**  Elle reste de la science-fiction.
+
+## Tableau récapitulatif
+
+| Critère | GML (LLM) | Générateur d’images | IA pour Échecs/Go | IA jeu vidéo | IA Générale |
+|-----|------|-------|----------|-------|-------|
+| **Spécialité** | Texte, langage naturel | Générer des images | Un jeu **spécifique** | Comportements de PNJ | Remplacer un humain |
+| **Fonctionnement** | Reconnaissance de motifs | Reconstitue une image à partir de bruit (diffusion) | Simulation des coups possibles | Scripts de concepteurs | — |
+| **Apprentissage** | Données textuelles massives | Corpus d’images + débruitage itératif | Auto-play / renforcement | Scripté par humains | Hypothétique |
+| **Flexibilité** | Multi-tâches (superficiel) | Une tâche (visuel), qualité variable | Une tâche, niveau super-humain | Tâche unique, limitée | Illimitée (si existait) |
+| **Transparence** | Boîte noire | Boîte noire | Partiellement traçable | Complètement transparente | Inconnue |
+| **Conscience** | Aucune | Aucune | Aucune | Aucune | Hypothétique |
+| **État** | Disponible | Disponible | Disponible | Disponible | N’existe pas |
+| **Exemples** | ChatGPT, Claude | Stable Diffusion, DALL-E 3, Midjourney | AlphaGo, Deep Blue | A*, FSM | N’existe pas |
+| **Architecture** | Transformers | Diffusion Models / GANs | MCTS + Réseaux neuronaux | FSM, Behavior Trees | — |
