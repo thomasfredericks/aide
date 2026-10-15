@@ -10,10 +10,11 @@ Continuum de l’interactivité :
 ```mermaid
 flowchart LR
     A["Dévoiler un contenu"]
-    B["Modifier l’œuvre (contenu ou comportement)"]
+    B["Modifier l'œuvre (contenu ou comportement)"]
     C["Faire émerger de nouvelles possibilités"]
 
-    A -- B -- C
+    A --> B
+    B --> C
 ```
 
 À une extrémité, l’interaction sert principalement à **dévoiler un contenu prédéterminé** : l’utilisateur choisit ce qu’il découvre, mais ne transforme pas réellement l’expérience.

@@ -595,12 +595,26 @@ Remise :
 | --- | --- | --- | --- | ---: |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
+Présenter devant la classe le pitch d'une expérience interactive dans laquelle les actions de la personne interactrice influencent le comportement du système. L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système.
+
+> Interactif : Je fais quelque chose → le système répond → cette réponse modifie ce que je peux ou veux faire ensuite.
+
+> Comme une conversation qui évolue : Personne → action → réponse du système → nouvelle situation → nouvelle action → …
+
+S'inspirer des [types d'interaction](/creation/interactivite/types/). Imaginer un projet qui est très interactif, i.e. à droite du [continuum de l'interactivité](/creation/interactivite/continuum/).
+
+Ne pas trop s'attarder sur la faisabilité du projet à cette étape.
+
+Exigences :
+
+- Le projet doit répondre à la thématique de **la communauté**. 
+- Il doit pouvoir accueillir d'une à plusieurs personnes simultanément.
+- Il doit adresser les [publics cibles](/creation/interactivite/public/) Tueurs, Accomplisseurs ou Sociables. Éviter le public cible Explorateurs.
+
 Savoirs essentiels et critères d’évaluation :
 
-- Concevoir et planifier la réalisation d’une vidéo pour projection architecturale.
+- Concevoir une expérience multimédia.
 - Développer le scénario et le scénarimage.
-- Planifier les médias nécessaires à la réalisation.
-- Adapter la conception aux contraintes de réalisation et de diffusion.
 - Démontrer une compréhension du public, du produit, de l’équipe et du contexte de diffusion.
 
 ### Évaluation 4 : Hypothèse (intégration des apprentissages)
@@ -609,20 +623,7 @@ Savoirs essentiels et critères d’évaluation :
 | --- | --- | --- | --- | ---: |
 | EVAL-4 | Exposé oral | Individuel au sein d’une équipe | Séance 15 | 28 % |
 
-Concevoir une expérience interactive dans laquelle les actions de la personne visiteuse influencent le comportement ou l’état du système, de manière à créer une relation évolutive entre la personne et l’œuvre. L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de participer à une forme de conversation avec le système.
 
-Le projet doit être non seulement réactif, mais interactif :
-
-- Réactif : Je fais quelque chose → le système me montre quelque chose.
-- Interactif : Je fais quelque chose → le système répond → cette réponse modifie ce que je peux ou veux faire ensuite.
-
-> Par exemple, une caméra qui filme la personne et affiche son image sur un écran est réactive, mais pas nécessairement interactive. Il manque notamment une conséquence qui transforme la suite de l’expérience.
-
-L’expérience interactive devrait idéalement créer une boucle qui donne l’impression d’une conversation :
-
-```
-Personne → action → réponse du système → nouvelle situation → nouvelle action → …
-```
 
 Savoirs essentiels et critères d’évaluation :
 
@@ -630,6 +631,8 @@ Savoirs essentiels et critères d’évaluation :
 - Identifier les ressources humaines nécessaires.
 - Identifier les ressources matérielles et logicielles disponibles.
 - Choisir les logiciels, équipements et techniques en fonction des exigences du projet.
+- Planifier les médias nécessaires à la réalisation.
+- Adapter la conception aux contraintes de réalisation et de diffusion.
 - Documenter la faisabilité technique à l’aide d’exemples et de preuves techniques.
 - Objectif d’apprentissage : **Vérifier la faisabilité technique d’une expérience multimédia.**
 
