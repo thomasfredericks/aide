@@ -577,6 +577,18 @@ Savoirs essentiels et critères d’évaluation :
 - Réaliser un jeu de cartes thématique qui permet de jouer à des jeux de carte traditionnels, l’imprimer et l’assembler.
 - Objectif d’apprentissage : **Planifier la stratégie d’intégration d’une expérience multimédia.**
 
+Remise : 
+
+- Déposer, dans le dossier de remise de votre groupe, un **dossier** qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*). Inclure dans ce dossier :
+	- Un PDF prêt pour l'impression qui regroupe toutes les cartes dans un seul document.
+	- Votre [guide de normes graphiques](/creation/visuel/guide/cartes/).
+- Remettre une copie imprimée en couleur sur papier standard et assemblée dans les pochettes de plastique (*sleeves*) fournies des 54 cartes avec leurs dos.
+- Critère d'évaluation principal : **cohérence**.
+	- Cohérence entre le design et l'utilisation d'un jeu de cartes.
+	- Cohérence des tailles et des dispositions d'éléments graphiques.
+	- Cohérence avec le guide de normes graphiques.
+
+
 ### Évaluation 3 : Pitch
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
