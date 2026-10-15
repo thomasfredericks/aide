@@ -520,7 +520,7 @@ Savoirs essentiels et critères d’évaluation :
 
 Directives :
 
-- Visitez **toutes** les œuvres suivantes du [parcours](https://village-numerique.mutek.org/fr/parcours) du Village numérique de MUTEK ([CARTE](https://drive.google.com/file/d/1rfLHU-OJuefqdz3NiOz-1ektID6X9z4y/view)) :
+- Visitez **toutes** les œuvres du [parcours](https://village-numerique.mutek.org/fr/parcours) du Village numérique de MUTEK ([CARTE](https://drive.google.com/file/d/1rfLHU-OJuefqdz3NiOz-1ektID6X9z4y/view)) :
 	- Jeu(x) de lumières par Marie LeBlanc Flanagan et Société des arts technologiques
 	- SOLSTICE par Ottomata
 	- Twenty Twenty-Five par Ghazal Majidi
@@ -532,13 +532,13 @@ Directives :
 	- Waves par BADANG
 	- Marche marche danse par Daily tous les jours
 - Prendre 1 selfie devant chaque projet (vous allez les remettre au professeur comme preuve).
-- Choisir une oeuvre.
-- Dans le document de choix ([groupe 1](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/tofredericks_cmontmorency_qc_ca/IQCp6lUcWePGRIC971ZlBypTAUQ4o1EPzxoq5wXu3kWxL6c?e=Q5akxb) du lundi, [groupe 2](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/tofredericks_cmontmorency_qc_ca/IQD7Fr-WKOLUQZjcbHJVnnEmAVmtdGGBWe0eF5jB-9Xg36k?e=tvxq0n) du jeudi), inscrire votre prénom et nom dans la rangée de l’oeuvre. Il ne peut y avoir plus que deux personnes par oeuvre.
+- Choisir une œuvre.
+- Dans le document de choix ([groupe 1](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/tofredericks_cmontmorency_qc_ca/IQCp6lUcWePGRIC971ZlBypTAUQ4o1EPzxoq5wXu3kWxL6c?e=Q5akxb) du lundi, [groupe 2](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/tofredericks_cmontmorency_qc_ca/IQD7Fr-WKOLUQZjcbHJVnnEmAVmtdGGBWe0eF5jB-9Xg36k?e=tvxq0n) du jeudi), inscrire votre prénom et nom dans la rangée de l’œuvre. Il ne peut y avoir plus que deux personnes par œuvre.
 - Réalisez un PowerPoint :
 	- Ne pas avoir trop de texte explicatif écrit. Le gros des explications se fait verbalement dans un enregistrement audio.
 	- Votre présentation doit :
 		- Être cohérent d’une diapositive à l’autre : être uniformes au niveau esthétique (même taille de texte, même fonte de texte, couleurs cohérentes, etc).
-		- Avoir un style visuel qui correspond à l’oeuvre.
+		- Avoir un style visuel qui correspond à l’œuvre.
 		- Utiliser 1 ou 2 polices différentes maximum.
 		- Se limiter à 2 tailles de polices différentes.
 	- Faire attention aux majuscules et à la ponctuation.
@@ -547,23 +547,23 @@ Directives :
 	- Les explications verbales sont de **20 secondes** pour chaque diapositive.
 	- Donnez un titre à chaque diapositive.
 - Les diapositives :
-    - 1 diapositive de titre avec votre nom, le nom du cours, l’oeuvre analysée et quand vous l’avez visitée.
-	- 1 à 2 diapositives qui présente la personne ou l’équipe derrière oeuvre. Indiquez si c’est une ouvre d’une personne artiste indépendante, ou si c’est une oeuvre d’une boîte de production. 
-	- 1 à 2 diapositive avec deux photos de vous qui interagi avec l’oeuvre. Racontez votre expérience. Décrivez comment vous avez vécu l’oeuvre et ce qui se passait. Comment le système détecte vos actions ? Comment est-ce qu’il réagit ? Ne parlez pas encore de votre appréciation. Restez sur le fonctionnement.
-	- 1 diapositive qui présente le [type](https://t-o-f.info/aide/#/creation/interactivite/types/) de cette oeuvre interactive. Démontrez pourquoi.
+    - 1 diapositive de titre avec votre nom, le nom du cours, l’œuvre analysée et quand vous l’avez visitée.
+	- 1 à 2 diapositives qui présente la personne ou l’équipe derrière œuvre. Indiquez si c’est une ouvre d’une personne artiste indépendante, ou si c’est une œuvre d’une boîte de production. 
+	- 1 à 2 diapositives avec deux photos de vous qui interagi avec l’œuvre. Racontez votre expérience. Décrivez comment vous avez vécu l’œuvre et ce qui se passait. Comment le système détecte vos actions ? Comment est-ce qu’il réagit ? Ne parlez pas encore de votre appréciation. Restez sur le fonctionnement.
+	- 1 diapositive qui présente le [type](https://t-o-f.info/aide/#/creation/interactivite/types/) de cette œuvre interactive. Démontrez pourquoi.
 	- 2 à 3 diapositives qui décrivent l’esthétique avec les 4 dimensions de 
 l’émotion, le timbre, la structure, les références en utilisant la [banque de mots pour l’esthétique](https://t-o-f.info/aide/#/creation/esthetique/banque/).
-	- 1 diapositive sur ce que vous croyez est le [public cible](https://t-o-f.info/aide/#/creation/interactivite/public/) de cette oeuvre. Expliquez pourquoi. Mettre un point sur le Graphique de la taxonomie de Richard Bartle qui représente ce public cible.
-	- 1 à 2 diapositive qui présente **visuellement** la disposition dans l’espace. Indiquez le plus d’éléments possible (à l’exception des câbles et des interconnexions). Indiquez le nombre de projecteurs et où ils se trouvent, où se trouvent les haut-parleurs,  la position des interfaces, etc.
-	- 2 à 3 diapositives qui présentent votre évaluation personnelles des 6 [qualités](https://t-o-f.info/aide/#/creation/interactivite/qualites/) recherchées d’une expérience multimédia. Expliquer pourquoi.
+	- 1 diapositive sur ce que vous croyez est le [public cible](https://t-o-f.info/aide/#/creation/interactivite/public/) de cette œuvre. Expliquez pourquoi. Mettre un point sur le Graphique de la taxonomie de Richard Bartle qui représente ce public cible.
+	- 1 à 2 diapositives qui présente **visuellement** la disposition dans l’espace. Indiquez le plus d’éléments possible (à l’exception des câbles et des interconnexions). Indiquez le nombre de projecteurs et où ils se trouvent, où se trouvent les hautparleurs, la position des interfaces, etc.
+	- 2 à 3 diapositives qui présentent votre évaluation personnelle des 6 [qualités](https://t-o-f.info/aide/#/creation/interactivite/qualites/) recherchées d’une expérience multimédia. Expliquer pourquoi.
 	- 2 à 4 diapositives sur 2 autres œuvres qui sont similaires. Montrez des images de ces œuvres. Expliquez en quoi ces œuvres sont similaires. Montrez des images en lien avec vos explications. Ces œuvres ne doivent **pas** avoir été présentées en classe et ne sont **pas** des créations des personnes étudiantes des années précédentes. 
 - Exportez le PowerPoint :
 	- Le PowerPoint doit être remis en format vidéo.
 	- Enregistrez avec un microphone de qualité votre présentation verbale (pas de voix générée par IA générative). Vous pouvez effectuer un montage de votre voix (dans Reaper par exemple).
-	- Portez attention aux volumes (garder le son fort mais éviter la saturation) et à la qualité du son.
+	- Portez attention aux volumes (garder le son fort, mais éviter la saturation) et à la qualité du son.
 	- Pas de bande sonore musicale. 
 	- Pas de vidéo autre que l’exportation du PowerPoint.
-- Remettez dans le dossier de remise, dans votre groupe et dans un dossier qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*) les selfie qui prouvent que vous avez visité les œuvres ainsi que votre vidéo de présentation.
+- Remettez dans le dossier de remise, dans votre groupe et dans un dossier qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*) les selfies qui prouvent que vous avez visité les œuvres ainsi que votre vidéo de présentation.
 
 ### Évaluation 2 : Jeu de cartes
 
@@ -582,7 +582,8 @@ Remise :
 - Déposer, dans le dossier de remise de votre groupe, un **dossier** qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*). Inclure dans ce dossier :
 	- Un PDF prêt pour l'impression qui regroupe toutes les cartes dans un seul document.
 	- Votre [guide de normes graphiques](/creation/visuel/guide/cartes/).
-- Remettre une copie imprimée en couleur sur papier standard et assemblée dans les pochettes de plastique (*sleeves*) fournies des 54 cartes avec leurs dos.
+	- Un autre dossier nommé « cartes individuelles » avec une exportation en PNG de chaque carte individuelle (54 cartes + 1 dos).
+- Remettre une copie imprimée en couleur sur papier standard (si voulu) et assemblée dans les pochettes de plastique (*sleeves*) fournies des 54 cartes avec leurs dos.
 - Critère d'évaluation principal : **cohérence**.
 	- Cohérence entre le design et l'utilisation d'un jeu de cartes.
 	- Cohérence des tailles et des dispositions d'éléments graphiques.

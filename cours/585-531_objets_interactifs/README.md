@@ -329,7 +329,12 @@ Activités en classe :
 
 Activités en classe :
 
-- Introduction à l’impression 3D.
+- Introduction à l’impression 3D avec :
+	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
+	- *Slicer* : [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/)
+	- Imprimantes 3D :
+		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
+		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
 
 ### Semaine 13 : 25 novembre
 
