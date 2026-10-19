@@ -318,51 +318,25 @@ Activités en classe :
 
 À préparer avant la classe :
 
-- Rien
+- Terminer son évaluation.
 
 Activités en classe :
 
 - **Évaluation**.
 	- Concevoir des règles avec [Bartok](/jeu/bartok/).
 - [Types d’IA](/culture/ia/types/)
-- Exemples de design génératif
+- Exemples de design génératif :
 	- [Alien Language Generator](https://codepen.io/p5art/details/XKWyob)
 	- [Universal LPC Sprite Sheet Character Generator](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator)
-- [RandomSeed avec p5.js](https://editor.p5js.org/tofredericks/sketches/ExKaQF9RQ)
-- Générateur de drapeaux avec [p5.js](https://p5js.org/) à partir d’une requête. Le résultat est [ici](https://editor.p5js.org/tofredericks/full/k7URdhlBE) et la requête utilisée est la suivante :
-> Donne-moi un code qui utilise p5.js et qui va générer des dessins à partir d’une seed. 
-> - Je veux juste le code p5.js (pas de visualisation live).
-> - Ne désactive pas la boucle draw(). Applique le seed au début de chaque draw() pour que le dessin reste identique.
-> - À chaque clic de la souris, change la seed (utilise le temps pour générer les nouvelles seed).
-> - Garde l’arrière-plan blanc. 
-> - Pour chaque propriété et chaque élément dessiné crée une fonction avec des arguments (une fonction par propriété et par élément dessiné). Dessine ce qui est une multitude (comme deux yeux) avec des appels individuels de fonction. Les éléments doivent être relatifs à la taille de la forme de base.
-> - N’affiche pas d’instructions textuelles.
-> - Le code doit dessiner des drapeaux.
-> - Les propriétés :
-> 	- La taille du drapeau.
-> 	- Le nombre de bandes de couleur.
-> 	- Les couleurs.
-> 	- L’emblème si présent.
-- Générateur de visages avec [p5.js](https://p5js.org/) à partir d’une requête. Le résultat est [ici](https://editor.p5js.org/tofredericks/full/7EQ_aMKfv) et la requête utilisée est la suivante :
-> Donne-moi un code qui utilise p5.js et qui va générer des dessins à partir d’une seed. 
-> - Je veux juste le code p5.js (pas de visualisation live).
-> - Ne désactive pas la boucle draw(). Applique le seed au début de chaque draw() pour que le dessin reste identique.
-> - À chaque clic de la souris, change la seed (utilise le temps pour générer les nouvelles seed).
-> - Garde l’arrière-plan blanc. 
-> - Pour chaque propriété et chaque élément dessiné crée une fonction avec des arguments (une fonction par propriété et par élément dessiné). Dessine ce qui est une multitude (comme deux yeux) avec des appels individuels de fonction. Les éléments doivent être relatifs à la taille de la forme de base.
-> - N’affiche pas d’instructions textuelles.
-> - Le code doit dessiner des visages.
-> - Les propriétés :
-> 	- La couleur du visage
->	- La taille du visage
->	- La coiffe
->	- La couleur des yeux
-- Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
-- [Wonder Wander](/jeu/wonder_wander/)
+- Tutoriels de design génératifs :
+	- [Tutoriel GML seed avec p5.js](/tutoriels/gml/seed/)
+	- [Tutoriel GML d’animation avec p5.js](/tutoriels/gml/animation/)
 - Aller plus loin :
 	- [OpenProcessing Generative Art](https://openprocessing.org/discover/#/generativeart)
 	- [Shader Park](https://shaderpark.com/)
-
+- Carte fantaisiste :
+	- Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
+	- [Wonder Wander](/jeu/wonder_wander/)
 
 
 ### Semaine 9 : 26 octobre / 29 octobre
@@ -580,13 +554,13 @@ Savoirs essentiels et critères d’évaluation :
 Remise : 
 
 - Déposer, dans le dossier de remise de votre groupe, un **dossier** qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*). Inclure dans ce dossier :
-	- Un PDF prêt pour l'impression qui regroupe toutes les cartes dans un seul document.
+	- Un PDF prêt pour l’impression qui regroupe toutes les cartes dans un seul document.
 	- Votre [guide de normes graphiques](/creation/visuel/guide/cartes/).
 	- Un autre dossier nommé « cartes individuelles » avec une exportation en PNG de chaque carte individuelle (54 cartes + 1 dos).
 - Remettre une copie imprimée en couleur sur papier standard (si voulu) et assemblée dans les pochettes de plastique (*sleeves*) fournies des 54 cartes avec leurs dos.
-- Critère d'évaluation principal : **cohérence**.
-	- Cohérence entre le design et l'utilisation d'un jeu de cartes.
-	- Cohérence des tailles et des dispositions d'éléments graphiques.
+- Critère d’évaluation principal : **cohérence**.
+	- Cohérence entre le design et l’utilisation d’un jeu de cartes.
+	- Cohérence des tailles et des dispositions d’éléments graphiques.
 	- Cohérence avec le guide de normes graphiques.
 
 
@@ -596,20 +570,20 @@ Remise :
 | --- | --- | --- | --- | ---: |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
-Présenter devant la classe le pitch d'une expérience interactive dans laquelle les actions de la personne interactrice influencent le comportement du système. L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système.
+Présenter devant la classe le pitch d’une expérience interactive dans laquelle les actions de la personne interactrice influencent le comportement du système. L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système.
 
 > Interactif : Je fais quelque chose → le système répond → cette réponse modifie ce que je peux ou veux faire ensuite.
 
 > Comme une conversation qui évolue : Personne → action → réponse du système → nouvelle situation → nouvelle action → …
 
-S'inspirer des [types d'interaction](/creation/interactivite/types/). Imaginer un projet qui est très interactif, i.e. à droite du [continuum de l'interactivité](/creation/interactivite/continuum/).
+S’inspirer des [types d’interaction](/creation/interactivite/types/). Imaginer un projet qui est très interactif, i.e. à droite du [continuum de l’interactivité](/creation/interactivite/continuum/).
 
-Ne pas trop s'attarder sur la faisabilité du projet à cette étape.
+Ne pas trop s’attarder sur la faisabilité du projet à cette étape.
 
 Exigences :
 
 - Le projet doit répondre à la thématique de **la communauté**. 
-- Il doit pouvoir accueillir d'une à plusieurs personnes simultanément.
+- Il doit pouvoir accueillir d’une à plusieurs personnes simultanément.
 - Il doit adresser les [publics cibles](/creation/interactivite/public/) Tueurs, Accomplisseurs ou Sociables. Éviter le public cible Explorateurs.
 
 Savoirs essentiels et critères d’évaluation :

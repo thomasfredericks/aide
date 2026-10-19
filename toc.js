@@ -6,7 +6,7 @@
 var defaultOptions = {
   headings: 'h2',      // which headers to include
   scope: '.markdown-section',   // container to search
-
+  title: 'Contenus'    // Optional title for the TOC
 };
 
 // -----------------------
@@ -18,7 +18,16 @@ var getHeaders = function (selector) {
 
 var aTag = function (src) {
   var a = document.createElement('a');
-  a.innerHTML = src.firstChild.innerHTML;
+  
+  // Create a span to hold the text
+  var span = document.createElement('span');
+  span.textContent = src.firstChild.textContent;
+  
+  // Apply CSS to prevent line breaks within the text
+  span.style.whiteSpace = 'nowrap';
+  
+  a.appendChild(span);
+  
   a.href = src.firstChild.href;
   //a.setAttribute('class', 'anchor');
   return a;
@@ -44,7 +53,7 @@ var buildInlineTOC = function (options) {
     // Add a line break after the title
     var br = document.createElement('br');
     container.appendChild(br);
-}
+  }
 
   headers.forEach(function (h, index) {
     // Make sure the header has an ID

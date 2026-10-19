@@ -10,7 +10,7 @@ Continuum de l’interactivité :
 ```mermaid
 flowchart LR
     A["Dévoiler un contenu"]
-    B["Modifier l'œuvre (contenu ou comportement)"]
+    B["Modifier l’œuvre (contenu ou comportement)"]
     C["Faire émerger de nouvelles possibilités"]
 
     A --> B

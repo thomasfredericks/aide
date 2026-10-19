@@ -725,6 +725,16 @@
         "u": "#/materiel/genelec"
     },
     {
+        "t": "Tutoriel GML seed avec p5.js",
+        "l": "tutoriel grand modele langage seed p5.js",
+        "u": "#/tutoriels/gml/seed"
+    },
+    {
+        "t": "Tutoriel GML d’animation avec p5.js",
+        "l": "tutoriel grand modele langage d’animation p5.js",
+        "u": "#/tutoriels/gml/animation"
+    },
+    {
         "t": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
         "l": "tutoriel micoosc audio  envoi d’open sound control slip d’un arduino nano bouton d’arcade declencher l’audio pure data",
         "u": "#/tutoriels/arcade/pd"

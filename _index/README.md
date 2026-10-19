@@ -330,6 +330,9 @@
     * [Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd](/tutoriels/arcade/pd/)
     * [Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/pong/)
     * [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)
+  * Gml
+    * [Tutoriel GML d’animation avec p5.js](/tutoriels/gml/animation/)
+    * [Tutoriel GML seed avec p5.js](/tutoriels/gml/seed/)
   * Platine
     * [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](/tutoriels/platine/audio/)
     * [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
