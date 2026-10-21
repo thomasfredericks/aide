@@ -6,7 +6,7 @@ Le but est de se débarrasser de toutes ses cartes.
 
 **Particularité :** Le gagnant de chaque ronde invente une nouvelle règle qui s’ajoute aux précédentes pour les rondes suivantes. Le jeu devient ainsi de plus en plus complexe jusqu’à ce qu’il soit impossible de continuer. 
 
-Ordre des cartes du plus fort au plus faible : Joker, as, roi, rêne, valet, 10, 9, 8, 7, 6, 5, 4, 3, 2.
+Le joker est un atout qui peut être joué sur n'importe quelle carte et n'importe quelle carte peut être jouée sur le joker.
 
 
 

@@ -55,16 +55,19 @@ Au début du script immédiatement après les autres `using` :
 using extOSC;
 ```
 
-### Déclarer la variable du récepteur OSC
-**Dans la classe** `OscProcess` (avant les méthodes pour la clarté), déclarer une référence au `OSCReceiver` :
+### Déclarer les propriétés du récepteur et de l'émetteur OSC
+**Dans la classe** `OscProcess` (avant les méthodes pour plus de clarté), déclarer des propriétés `OSCReceiver` et `OSCTransmitter`:
 ```csharp
-public extOSC.OSCReceiver oscReceiver;
+    public OSCReceiver oscReceiver;
+
+    public OSCTransmitter oscTransmitter;
 ```
 
 ### De retour dans l’éditeur Unity lier les propriétés
 
 - Glisser le script `OscProcess` sur le GameObject `OSC`.
-- Dans l’Inspecteur, glisser-déposer le GameObject  `OSC` sur la variable publique `oscReceiver` du script.
+- Dans l’Inspecteur, glisser-déposer le GameObject `OSC` sur la variable publique `oscReceiver` du script.
+- Dans l’Inspecteur, glisser-déposer le GameObject `OSC` sur la variable publique `oscTransmitter` du script.
 
 ![Assignation de OscProcess et d’OSCReceiver dans Unity](./assigner_oscprocess.png)
 
