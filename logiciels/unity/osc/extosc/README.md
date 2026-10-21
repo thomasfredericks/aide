@@ -55,7 +55,7 @@ Au début du script immédiatement après les autres `using` :
 using extOSC;
 ```
 
-### Déclarer les propriétés du récepteur et de l'émetteur OSC
+### Déclarer les propriétés du récepteur et de l’émetteur OSC
 **Dans la classe** `OscProcess` (avant les méthodes pour plus de clarté), déclarer des propriétés `OSCReceiver` et `OSCTransmitter`:
 ```csharp
     public OSCReceiver oscReceiver;

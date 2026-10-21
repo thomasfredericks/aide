@@ -37,10 +37,10 @@ Dans le jeu, il faut tourner la roulette pour trouver l’icône du cadenas et a
 
 ## Comportement désiré de la DEL
 
-- Quand l'utilisateur trouve la solution du jeu, la lumière du bouton s'illumine.
+- Quand l’utilisateur trouve la solution du jeu, la lumière du bouton s’illumine.
 
 > [!IMPORTANT]
-> Nous allons envoyer un message de Unity vers l'Arduino
+> Nous allons envoyer un message de Unity vers l’Arduino
 
 
 ## Circuit
@@ -61,13 +61,13 @@ Brancher un [potentiomètre](/fabrication/electronique/composants/potentiometre/
 
 - Créer un nouveau Git nommé `unlock_arduino`.
 - Le cloner et y démarrer un [nouveau projet PlatformIO](/fabrication/platformio/nouveau/) pour Arduino Nano.
-- Ajouter les bibliothèques [Chrono](/fabrication/arduino/chrono/) et [Bounce](/fabrication/arduino/bounce/) à `platormio.ini`.
+- Ajouter les bibliothèques [Chrono](/fabrication/arduino/chrono/) et [Bounce](/fabrication/arduino/bounce2/) à `platormio.ini`.
 - Ajouter la bibliothèque [MicroOsc](/fabrication/arduino/microosc/slip/).
 
 ### Initialiser MicroOsc
 
-- Ajouter `#include <MicroOscSlip.h>` dans l'espace global.
-- Dans l'espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+- Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
 ```cpp
 MicroOscSlip<128> monOsc(&Serial); 
 ```
@@ -76,10 +76,10 @@ MicroOscSlip<128> monOsc(&Serial);
 Serial.begin(115200);
 ```
 
-### Interrupteur du bouton d'arcade
+### Interrupteur du bouton d’arcade
 
-- Ajouter `#include <Bounce2.h>` dans l'espace global.
-- Dans l'espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+- Ajouter `#include <Bounce2.h>` dans l’espace global.
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
 ```cpp
 Bounce2::Button bouton;
 ```
@@ -103,8 +103,8 @@ Bounce2::Button bouton;
 
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur du potentiomètre à intervalles réguliers.
 
-- Ajouter `#include <Chrono.h>` dans l'espace global.
-- Dans l'espace global, instancier un `Chrono` nommé `chronoPot` : 
+- Ajouter `#include <Chrono.h>` dans l’espace global.
+- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
 ```cpp
 Chrono chronoPot;
 ```
@@ -128,16 +128,16 @@ if ( chronoPot.hasPassed(20)) { // SI LE CHRONO DÉPASSE 20 MILLISECONDES
 ```
 
 
-### Réception de l'OSC
+### Réception de l’OSC
 
-- Dans l'espace global, ajouter une fonction qui sera appelée lorsqu'un message OSC  :
+- Dans l’espace global, ajouter une fonction qui sera appelée lorsqu’un message OSC  :
 ```cpp
 // FONCTION APPELÉE LORSQU’UN MESSAGE OSC EST REÇU
 void traiterMessageOsc(MicroOscMessage & message) {
-    // SI L'ADRESSE DU MESSAGE EST "/lumiere" ET QUE LE MESSAGE CONTIENT UN ARGUMENT ENTIER ("i") :
+    // SI L’ADRESSE DU MESSAGE EST "/lumiere" ET QUE LE MESSAGE CONTIENT UN ARGUMENT ENTIER ("i") :
      if (message.checkOscAddressAndTypeTags("/lumiere", "i")) {  
 
-        int valeur = message.nextAsInt();  // RÉCUPÉRER L'ENTIER ("i")
+        int valeur = message.nextAsInt();  // RÉCUPÉRER L’ENTIER ("i")
 
         digitalWrite(3, valeur); // ASSIGNER LA VALEUR A LA DEL
    } 
@@ -165,7 +165,7 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
     - `unlock_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
     - Utiliser la glissière pour tourner la roulette.
-    - Lorsque l'image du cadenas ouvert est trouvé, appuyer sur le bouton `Valider`.
+    - Lorsque l’image du cadenas ouvert est trouvé, appuyer sur le bouton `Valider`.
 
 ## Modifications au code Unity
 
@@ -214,7 +214,7 @@ public bool isUnlocked() {
 
 Pointer vers le script `Unlock` du GameObject `Game Manager` :
 - Dans `OscProcess`, ajouter une variable de type `Unlock` nommée `unlock` dans la classe.
-- De retour dans l'inspecteur de l'éditeur Unity, lier le GameObject `Game Manager` à la propriété `unlock` du script `OscProcess` du GameObject `OSC`.
+- De retour dans l’inspecteur de l’éditeur Unity, lier le GameObject `Game Manager` à la propriété `unlock` du script `OscProcess` du GameObject `OSC`.
 
 
 ### Le potentiomètre
@@ -231,7 +231,7 @@ La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajus
 
 ### La DEL
 
-- Dans `OscProcess`, nous allons envoyer à Pd qui va effectuer le relais à l'Arduino, le message `/lumiere` à chaque `Update()`. Ajouter le code suivant à `Update()` :
+- Dans `OscProcess`, nous allons envoyer à Pd qui va effectuer le relais à l’Arduino, le message `/lumiere` à chaque `Update()`. Ajouter le code suivant à `Update()` :
 ```csharp
 if ( unlock.isUnlocked() ) {
     var oscMessage = new OSCMessage("/lumiere"); 

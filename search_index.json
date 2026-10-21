@@ -60,6 +60,11 @@
         "u": "#/fabrication/electronique/circuits/entrees_sorties"
     },
     {
+        "t": "Photorésistance",
+        "l": "photoresistance",
+        "u": "#/fabrication/electronique/composants/photoresistance"
+    },
+    {
         "t": "Composant : résistance",
         "l": "composant  resistance",
         "u": "#/fabrication/electronique/composants/resistance"

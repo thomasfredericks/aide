@@ -121,6 +121,7 @@
       * Bouton
         * [Bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/)
       * [Diode électroluminescente (DEL)](/fabrication/electronique/composants/del/)
+      * [Photorésistance](/fabrication/electronique/composants/photoresistance/)
       * [Le potentiomètre](/fabrication/electronique/composants/potentiometre/)
       * [Composant : résistance](/fabrication/electronique/composants/resistance/)
     * [L’électricité](/fabrication/electronique/electricite/)
