@@ -955,13 +955,13 @@
         "u": "#/logiciels/pd/osc/relais"
     },
     {
-        "t": "OSC SLIP dans Pd",
-        "l": "open sound control slip pure data",
+        "t": "Pd : OSC SLIP",
+        "l": "pure data  open sound control slip",
         "u": "#/logiciels/pd/osc/slip"
     },
     {
-        "t": "OSC UDP : Pure Data",
-        "l": "open sound control udp  pure data",
+        "t": "Pd : OSC UDP",
+        "l": "pure data  open sound control udp",
         "u": "#/logiciels/pd/osc/udp"
     },
     {
