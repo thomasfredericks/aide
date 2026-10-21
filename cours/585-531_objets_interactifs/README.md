@@ -283,7 +283,7 @@ Activités en classe :
 - Soudure de la [photorésistance](/fabrication/electronique/composants/photoresistance/).
 - Soudure du connecteur Grove.
 - Exercice  : 
-	- Modifier la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx) pour que le bouton d'Arcade et le potentiomètre, branchés à Arduino, contrôlent les mêmes paramètres que les équivalents dans l'UI.
+	- Modifier la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx) pour que le bouton d’Arcade et le potentiomètre, branchés à Arduino, contrôlent les mêmes paramètres que les équivalents dans l’UI.
 	- Nom des projets :
 		- PlatformIO : `videofx_bouton_pot_arduino`
 		- Unity : `videofx_bouton_pot_unity`
