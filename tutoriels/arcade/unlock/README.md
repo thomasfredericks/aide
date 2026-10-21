@@ -171,7 +171,7 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 
 ### extOSC
 
-- Suivre les instructions pour l’intégration d’extOSC : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/).
+- Suivre les instructions pour l’intégration d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/).
 
 > [!NOTE]
 > Il faut s’assurer que les # de ports OSC dans Pd et dans Unity se correspondent.

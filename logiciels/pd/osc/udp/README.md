@@ -12,7 +12,6 @@ Pd supporte nativement l’OSC UDP.
 | `oscparse` | Décode l’OSC (retire `/`) |
 | `netsend` | Envoie sur le réseau (UDP) |
 | `netreceive` | Reçoit du réseau (UDP) |
-| `route` | Trie selon l’adresse |
 
 
 ### netsend : pour ENVOYER
@@ -22,11 +21,11 @@ Pd supporte nativement l’OSC UDP.
 - `-u` : protocole **UDP** (rapide, sans confirmation)
 - `-b` : mode **binaire** (obligatoire pour OSC)
 
-Il faut se **connecter** à une adresse et un port :
+Il faut se **connecter** à une adresse et un port (en se déconnectant avant) : `[disconnect, connect 127.0.0.1 7001(`
 
-```
-[disconnect, connect 127.0.0.1 7001(
-```
+
+
+
 
 ### netreceive : pour RECEVOIR
 
@@ -55,7 +54,7 @@ Attention : `oscformat` **ajoute automatiquement le `/`** devant l’adresse.
 
 
 `[oscparse]` :
-Il prend une **liste d’octets OSC** et la retransforme en **message Pd**.
+Il prend une **liste d’octets OSC** et la transforme en **message Pd**.
 
 Attention : `oscparse` **retire le `/`** de l’adresse.
 
