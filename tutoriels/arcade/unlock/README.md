@@ -187,7 +187,7 @@ Sur le GameObject `Canvas > Slider` on trouve dans la section `On Value Changed`
 
 Sur le GameObject `Canvas > Button` on trouve dans la section `On Click` une référence à `Unlock.CheckSolution` qui est sur le GameObject `Game Manager`.
 
-![Observer On Click qui appelle Unlock.CheckSolution`](./button.png)
+![Observer On Click qui appelle Unlock.CheckSolution](./button.png)
 
 Si on ouvre le script `Unlock` qui est sur le GmeObject `Game Manager` on trouve les fonctions suivantes dans le code :
 ```csharp

@@ -280,9 +280,12 @@ Activités en classe :
 
 - Communication bidirectionnelle :
 	- [Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/unlock/)
-- Soudure de la photo-résistance.
+- Soudure de la [photorésistance](/fabrication/electronique/composants/photoresistance/).
 - Soudure du connecteur Grove.
-
+- Exercice : intégrer le bouton et le potentiomètre à la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx)
+	- Nom des projets :
+		- PlatformIO : `videofx_bouton_pot_arduino`
+		- Unity : `videofx_bouton_pot_unity`
 
 ### Semaine 9 : 28 octobre
 
