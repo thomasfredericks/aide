@@ -181,9 +181,13 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 
 Il faut identifier le code Unity pour trouver comment le jeu est contrôlé.
 
-Sur le GameObject `Canvas -> Slider` on trouve dans la section `On Value Changed` une référence à `Unlock.SetAngle` qui est sur le GameObject `GameManager`.
+Sur le GameObject `Canvas > Slider` on trouve dans la section `On Value Changed` une référence à `Unlock.SetAngle` qui est sur le GameObject `GameManager`.
 
-Sur le GameObject `Canvas -> Button` on trouve dans la section `On Click` une référence à `Unlock.CheckSolution` qui est sur le GameObject `Game Manager`.
+![Observer On Value Changed qui appelle Unlock.SetAngle](./slider.png)
+
+Sur le GameObject `Canvas > Button` on trouve dans la section `On Click` une référence à `Unlock.CheckSolution` qui est sur le GameObject `Game Manager`.
+
+![Observer On Click qui appelle Unlock.CheckSolution`](./button.png)
 
 Si on ouvre le script `Unlock` qui est sur le GmeObject `Game Manager` on trouve les fonctions suivantes dans le code :
 ```csharp
@@ -197,7 +201,7 @@ public void SetAngle(float normalizedValue)  {
 }
 //...
 ```
-Dans le script `Unlock`, il y existe cette méthode qui retourne vrai ou faux selon si le joueur a trouvé la solution :
+Aussi dans le script `Unlock`, il y existe cette méthode qui retourne vrai ou faux selon si le joueur a trouvé la solution :
 ```csharp
 //...
 public bool isUnlocked() {
@@ -208,7 +212,7 @@ public bool isUnlocked() {
 
 ### Pointer vers le script Unlock du GameObject GameManager
 
-Pointer vers le script `Unlock` du GameObject `Game Manager` avec la variable `unlock` que vous créez en :
+Pointer vers le script `Unlock` du GameObject `Game Manager` :
 - Dans `OscProcess`, ajouter une variable de type `Unlock` nommée `unlock` dans la classe.
 - De retour dans l'inspecteur de l'éditeur Unity, lier le GameObject `Game Manager` à la propriété `unlock` du script `OscProcess` du GameObject `OSC`.
 
@@ -235,7 +239,7 @@ if ( unlock.isUnlocked() ) {
     oscTransmitter.Send( oscMessage ) // Envoyer le message 
 } else {
     var oscMessage = new OSCMessage("/lumiere"); 
-    oscMessage.AddValue( OSCValue.Int(0) ); // Ajoute l’entier 1
+    oscMessage.AddValue( OSCValue.Int(0) ); // Ajoute l’entier 0
     oscTransmitter.Send( oscMessage ) // Envoyer le message 
 }
 ```
@@ -244,5 +248,5 @@ if ( unlock.isUnlocked() ) {
 
 > [!WARNING]
 > Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
-> - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
-> - `pong_bouton_pot_unity` : qui contient le code Unity.
+> - `unlock_arduino` : qui contient le code Arduino et Pure Data.
+> - `unlock_unity` : qui contient le code Unity.
