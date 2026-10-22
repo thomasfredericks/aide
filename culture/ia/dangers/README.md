@@ -2,6 +2,8 @@
 
 <!-- toc -->
 
+
+
 ## Propagande
 
 La propagande sur les GML est un ensemble de techniques de persuasion mises en œuvre pour propager une opinion ou une idéologie. L’objectif est d’influencer la population, voire de l’endoctriner. Elle se caractérise par une manipulation mentale qui mélange sciemment l’information et l’opinion, afin d’éliminer le pluralisme des points de vue et d’empêcher l’exercice de l’esprit critique.
@@ -32,8 +34,6 @@ Les promoteurs de l’IA en éducation sont les mêmes qui ont introduit les **t
 **Atteinte du plafond du développement des GML** : Le développement de l’IA générative a progressé, mais il pourrait exister une limite mathématique infranchissable — un plafond — qui marquerait la fin de son évolution fulgurante. Plusieurs misent sur l’idée de rendre l’IA générative toujours plus intelligente — mais que se passe-t-il si les données nécessaires à son développement n’existent tout simplement plus ? [AI Has a Fatal Flaw—And Nobody Can Fix It - YouTube](https://www.youtube.com/watch?v=_IOh0S_L3C4)
 
 Le 15 août 2025, Sam Altman (PDG d’OpenAI) a reconnu que nous traversons actuellement une bulle autour de l’IA — un engouement exagéré, mais fondé sur un noyau de réalité — tout en affirmant qu’il compte bien en tirer parti, notamment en investissant des **billions** de dollars dans de nouveaux centres de données pour rester aux commandes après l’éclatement. [Lire l’article original (The Register, 15 août 2025)](https://www.theregister.com/2025/08/15/boy_riding_bubble_realizes_what/)
-
-
 
 
 

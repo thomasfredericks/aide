@@ -6,7 +6,10 @@
 
 > [!WARNING]
 > Le terme « IA », sans qualificatif, est un **buzzword** marketing qui embrouille le public. 
-> Il existe en réalité plusieurs types d’IA vastement différents. Dans aucun cas, le système est réellement intelligent ou conscient.
+> Il existe en réalité plusieurs types d’IA différents. 
+> Dans aucun cas, le système est réellement intelligent ou conscient.
+
+
 
 ## Compétences humaines vs machines
 
@@ -18,42 +21,38 @@
 | Programmation de base                                     |             | ✅              |
 | Bon sens                                                  | ✅          |                 |
 | Créativité                                                | ✅          |                 |
-| Prise de décision (dans le monde réel)                    | ✅          |                 |
-
-
-
+| Prise de décision                   					    | ✅          |                 |
 
 
 ## Grand modèle de langage (GML)
 
-Le GML sont constitués à partir de réseau neuronaux. 
+Le GML sont constitués à partir de réseaux neuronaux. 
 **Les systèmes neuronaux fonctionnent comme un moteur de reconnaissance de motifs.**  
 Ils ne comprennent pas le sens, mais identifient des régularités statistiques dans les données d’entraînement pour prédire la suite la plus probable.
 
-Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit. L’humain y projette des intentions ou des capacités qu’il n’a pas réllement.
+Un GML, c’est un très bon imitateur qui peut parler comme un philosophe, un ingénieur ou un poète — mais qui ne comprend pas vraiment ce qu’il dit. L’humain y projette des intentions ou des capacités qu’il n’a pas réellement.
 
 > [!NOTE]
 > Contrairement à ce que l’on pourrait croire, les technologies d’IA ne sont pas récentes. Elles sont en développement depuis les années 1950.
-
-![Visualisation des couches d’IA - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./ai_field.webp)
-
-![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
-
-![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
-
-
 
 
 Capacité d’un GML pour jouer à un jeu :
 
 | Type de jeu                               | Performance d’un LLM | Remarques                                                               |
 | --------------------- | ------------- | ------------------------------------ |
-| **Échecs, Go, Shōgi**                     | ❌ Faible                  | Suit mal l’état du jeu, oublie les règles ou fait des coups illégaux    |
-| **Morpion (Tic-Tac-Toe)**                 | ✅ Bonne                   | Jeu simple, facile à suivre en texte                                    |
-| **Énigmes logiques**                      | 🤷 Moyenne                | Raisonnement souvent instable ou incohérent                             |
-| **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Peut simuler des dialogues ou des choix, mais sans planification réelle |
-| **Jeux avec grille (Connect Four, etc.)** | 😬 Limite                 | Possible sur quelques tours, mais perd le fil rapidement                |
+| **Échecs, Go, Shōgi**                     | Faible                  | Suit mal l’état du jeu, oublie les règles ou fait des coups illégaux    |
+| **Tic-Tac-Toe**                 | Bonne                   | Jeu simple, facile à suivre en texte                                    |
+| **Jeux de stratégie (Catan, Risk, etc.)** | 🤔 Inconstante            | Possible sur quelques tours, mais perd le fil rapidement. Peut simuler des dialogues ou des choix, mais sans planification réelle |
 
+### Financement
+
+![Argent dépensé pour le développement en IA](./money_spent_on_ai.webp)
+
+![Projections d'Open AI](./openai_money_burning_machine.jpg)
+
+### Dangers
+
+Il existe de nombreux [dangers](../dangers/) liés à l'utilisation des GML.
 
 
 ### Caractéristiques principales
@@ -75,18 +74,23 @@ Capacité d’un GML pour jouer à un jeu :
 ❌ Moins durable, dépendance aux géants du cloud  
 ❌ Très élevés coûts : en données, calcul, maintenance  
 
+### Fonctionnement
+
+![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
+
+![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
+
+
 
 ## Générateur d’image
 
-Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour débruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
+Le générateur apprend à reconstruire des images en partant d’un bruit aléatoire. Il utilise les motifs appris durant l’entraînement pour dé-bruiter progressivement jusqu’à obtenir une image cohérente correspondant au prompt texte.
 
 Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des images réelles à des niveaux croissants, et le modèle apprend à prédire ce bruit en fonction de l’image bruitée, du niveau de bruit et d’une description textuelle. 
 
 Lors de la génération d’une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l’invite textuelle, jusqu’à ce qu’une image claire émerge.
 
 ![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.png)
-
-
 
 
 ### Caractéristiques principales
@@ -109,12 +113,11 @@ Lors de la génération d’une image, le modèle commence par un bruit aléatoi
 ❌ Risque de deepfakes et désinformation visuelle  
 ❌ Impact environnemental similaire aux GML  
 
-![Dans cette séquence, il est clair que le générateur d’image n’arrive pas à générer un verre de vin à ras bord](./verre_de_vin.png)
 
 ##  IA pour jeux de stratégie (Échecs, Go, etc)
 
 
-L’IA de stratégie fonctionne comme une **base de données de toutes les possibilités** combinée à une simulation des alternatives.  Elle calcule systématiquement les coupes futures ou consulte une bibliothèque exhaustive de positions connues pour choisir le mouvement optimal.
+L’IA de stratégie fonctionne comme une **base de données de toutes les possibilités** combinée à une simulation des alternatives. Elle calcule systématiquement les coupes futures ou consulte une bibliothèque exhaustive de positions connues pour choisir le mouvement optimal.
 
 Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs environnements fermés. Pour les jeux aux règles simples comme les échecs, le nombre de combinaisons reste gérable par force brute assistée. Pour des jeux plus complexes comme le Go, ils combinent recherche arborescente et apprentissage profond pour évaluer les positions sans avoir une mémoire de toutes les parties.
 
