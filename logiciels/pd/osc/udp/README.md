@@ -77,15 +77,15 @@ Pour télécharger le patcher, cliquer ici : [osc_udp.pd](osc_udp.pd).
 
 Le patcher fait **deux choses opposées** :
 
-- **Gauche** : fabriquer un message OSC et l'envoyer.
+- **Gauche** : fabriquer un message OSC et l’envoyer.
 - **Droite** : recevoir un message OSC et le décoder.
 
 Points importants : 
 
-- Asymétrie des ports : envoie vers `7001`, écoute sur `7000`. Ce patcher parle donc à un autre programme qui fait l'inverse.
+- Asymétrie des ports : envoie vers `7001`, écoute sur `7000`. Ce patcher parle donc à un autre programme qui fait l’inverse.
 -  `oscformat` ajoute le `/`, `oscparse` le retire.
--  Toujours `-u -b` sur `netsend` et `netreceive` pour de l'OSC en UDP binaire.
--  `route` travaille sur l'adresse (le premier élément), pas sur les valeurs.
+-  Toujours `-u -b` sur `netsend` et `netreceive` pour de l’OSC en UDP binaire.
+-  `route` travaille sur l’adresse (le premier élément), pas sur les valeurs.
 - `list trim` est nécessaire pour retirer le mot `list` qui précède les données.
 
 ### route : trier les messages reçus

@@ -48,11 +48,11 @@ Capacité d’un GML pour jouer à un jeu :
 
 ![Argent dépensé pour le développement en IA](./money_spent_on_ai.webp)
 
-![Projections d'Open AI](./openai_money_burning_machine.jpg)
+![Projections d’Open AI](./openai_money_burning_machine.jpg)
 
 ### Dangers
 
-Il existe de nombreux [dangers](../dangers/) liés à l'utilisation des GML.
+Il existe de nombreux [dangers](../dangers/) liés à l’utilisation des GML.
 
 
 ### Caractéristiques principales
