@@ -266,6 +266,20 @@ document.addEventListener('DOMContentLoaded', () => {
         closeBtn.addEventListener('click', closeSearchOverlay);
     }
 
+    // Désactiver le scroll sur le document général quand le panel est ouvert
+    const isOverlayOpen = () => overlay && overlay.classList.contains('active');
+    document.addEventListener('wheel', (e) => {
+        if (!isOverlayOpen()) return;
+
+        const panel = document.querySelector('.search-overlay-panel');
+        // Si l'événement vient du panneau scrollable, on laisse faire (scroll interne)
+        if (panel && panel.contains(e.target)) return;
+
+        // Sinon, on annule tout effet sur la page derrière
+        e.preventDefault();
+    }, { passive: false });
+
+
     if (overlay) {
         overlay.addEventListener('click', (e) => {
             if (e.target === overlay) {

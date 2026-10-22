@@ -6,6 +6,10 @@
 
 ![Photo d’un Arduino Terminals avec une carte Nano](./arduino_terminals.jpg)
 
+## Soudure du connecteur Grove pour l’I2C/Wire
+
+Voir les instructions ici : [Arduino Terminals : connecteur Grove I2C/Wire](./grove/)
+
 ## Broches d’entrée analogique
 
 Les broches analogiques disponibles sont :

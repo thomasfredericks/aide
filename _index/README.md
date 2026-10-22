@@ -4,6 +4,7 @@
 * Cours
   * [COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA](/cours/582-531_conception_experience/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
+* Coverage
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
@@ -104,6 +105,7 @@
         * [Configuration Nano R4 PlatformIO](/fabrication/arduino/nano/r4/platformio/)
     * [Nano : Arduino Terminals](/fabrication/arduino/terminals/)
       * [Arduino Terminals : Bouton d’arcade](/fabrication/arduino/terminals/bouton_arcade/)
+      * [Arduino Terminals : connecteur Grove I2C/Wire](/fabrication/arduino/terminals/grove/)
       * [Arduino Terminals : Potentiomètre](/fabrication/arduino/terminals/potentiometre/)
     * [Arduino : Traitement](/fabrication/arduino/traitement/)
       * [Arduino : traiter le changement](/fabrication/arduino/traitement/changement/)
@@ -228,8 +230,8 @@
       * [Convertir les messages OSC en MIDI (notes et CC)](/logiciels/pd/osc/midi/)
       * [Créer des messages OSC dans Pd avec oscformat](/logiciels/pd/osc/oscformat/)
       * [Pd : Relais OSC SLIP ⇄ UDP](/logiciels/pd/osc/relais/)
-      * [OSC SLIP dans Pd](/logiciels/pd/osc/slip/)
-      * [OSC UDP : Pure Data](/logiciels/pd/osc/udp/)
+      * [Pd : OSC SLIP](/logiciels/pd/osc/slip/)
+      * [Pd : OSC UDP](/logiciels/pd/osc/udp/)
     * [pdchoco](/logiciels/pd/pdchoco/)
     * [Communication sérielle dans Pure Data](/logiciels/pd/serie/)
       * [Pd : ASCII sérielle](/logiciels/pd/serie/ascii/)
@@ -259,7 +261,6 @@
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
-      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)

@@ -1,11 +1,12 @@
-#  OSC SLIP dans Pd
+# Pd : OSC SLIP 
+
+<!-- toc -->
+
+## Installation des objets additionnels pour l’OSC SLIP dans Pure Data
 
 Pour l’OSC SLIP dans Pd, il faut installer :
 * `comport`
 * `pdchoco`
-
-
-## Installation des objets additionnels pour l’OSC SLIP dans Pure Data
 
 ### 1. Objet `comport`
 
@@ -34,6 +35,11 @@ Réception d’OSC SLIP :
 * `oscparse` : cet objet convertit la liste de nombres en message OSC.
 * `list trim` : cet objet supprime le sélecteur `list` afin que les données soient directement utilisables par les objets suivants.
 
+## Patcher pour tester l’OSC SLIP
+
+![Patcher osc_slip_test.pd](./osc_slip_test_pd.png)
+
+Télécharger le patcher [ osc_slip_test.pd](./osc_slip_test.pd).
 
 ## Exemple pour la réception de messages OSC SLIP 
 

@@ -47,7 +47,7 @@ void TraiterMessageBeta(OSCMessage message)
 
         // Ajustement de la valeur
         float ajustee = (
-            ((float)valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMin) + potOutMin
+            ((float)valeur - betaInMin) / (betaInMax - betaInMin) * (betaOutMax - betaOutMin) + betaOutMin
         );
         
         // DESTINATION
