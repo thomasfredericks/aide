@@ -510,11 +510,6 @@
         "u": "#/creation/esthetique/banque"
     },
     {
-        "t": "Gestalt : Psychologie de la forme",
-        "l": "gestalt  psychologie forme",
-        "u": "#/creation/gestalt"
-    },
-    {
         "t": "Audiovisuel : galerie",
         "l": "audiovisuel  galerie",
         "u": "#/creation/audiovisuel/galerie"
@@ -673,6 +668,11 @@
         "t": "Exemple : Guide de normes graphiques pour cartes",
         "l": "exemple  guide normes graphiques cartes",
         "u": "#/creation/visuel/guide/cartes"
+    },
+    {
+        "t": "CRAP : quatre (4) principes de design",
+        "l": "crap  quatre 4 principes design",
+        "u": "#/creation/visuel/crap"
     },
     {
         "t": "IU : Signifiants de l’interface utilisateur",

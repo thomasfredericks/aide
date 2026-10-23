@@ -16,7 +16,6 @@
   * Esthetique
     * [Banque de mots pour l’esthétique](/creation/esthetique/banque/)
     * [Esthétique et public cible de DOOM Eternal](/creation/esthetique/doom/)
-  * [Gestalt : Psychologie de la forme](/creation/gestalt/)
   * Interactivite
     * [Analyse d’une œuvre interactive](/creation/interactivite/analyse/)
     * Ateliers
@@ -48,6 +47,7 @@
       * [Atelier graphique : 10x10](/creation/visuel/ateliers/10x10/)
       * [Logo collectif](/creation/visuel/ateliers/logo/)
       * [Typographie fait d’objets](/creation/visuel/ateliers/typoobjekto/)
+    * [CRAP : quatre (4) principes de design](/creation/visuel/crap/)
     * [Guide de normes graphiques](/creation/visuel/guide/)
       * [Exemple : Guide de normes graphiques pour cartes](/creation/visuel/guide/cartes/)
     * Iu
