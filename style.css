@@ -426,7 +426,7 @@ body.sticky .sidebar-toggle {
 }
 
 .content {
-  padding-top: 60px;
+  padding-top: 0px;
   position: absolute;
   top: 0;
   right: 0;
@@ -1301,7 +1301,7 @@ figcaption {
 .markdown-section {
   margin: 0 auto !important;
 
-  padding: 40px 20px;
+  padding: 20px;
 }
 
 

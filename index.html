@@ -20,6 +20,8 @@
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
     <link rel="manifest" href="./site.webmanifest" />
+    <!-- Adds the default breadcrumb styling -->
+    <link rel="stylesheet" href="./_libstyles_modified/docsify-breadcrumbs.css">
 </head>
 
 <body>
@@ -66,7 +68,7 @@
             name: "AidE",
             repo: '',
             relativePath: true,
-            unhashtagLinkExtensions: ['.webp','.pdf', '.html', '.docx', '.pd', '.maxpat', '.vcv', '.zip'],  // Override file types here
+            unhashtagLinkExtensions: ['.webp', '.pdf', '.html', '.docx', '.pd', '.maxpat', '.vcv', '.zip'],  // Override file types here
             auto2top: true,
             sidebarDisplayLevel: 0, // set sidebar display level
             loadSidebar: false,    // Enable sidebar loading
@@ -86,6 +88,15 @@
                 tocMaxLevel: 3,
                 target: 'h2, h3',
                 insertBefore: false
+            }
+            ,
+            breadcrumb: {
+                showHome: false,
+                homeText: 'Accueil',
+                separator: ' &rsaquo;&rsaquo;  ',
+                casing: 'uppercase',
+                linkColor: 'var(--theme-color, #42b983)',
+                size: 'medium'
             }
             ,
             alertStyles: `
@@ -149,6 +160,8 @@
 
     <!-- Custom Search Index & Submission Logic -->
     <script src="./search.js"></script>
+    <!-- Adds the breadcrumb JavaScript -->
+    <script src="./_libs_modified/docsify-breadcrumbs.js"></script>
 
 </body>
 
