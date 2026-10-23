@@ -4,8 +4,9 @@
 Les principes **CRAP** (contraste, répétition, alignement et proximité), théorisés par Robin Williams, forment la base du design graphique et de la mise en page pour les non-designers. Ils permettent de structurer l’information de manière claire, esthétique et professionnelle.
 
 - [How to Use C.R.A.P. Design Principles For Better UX? | Wingify](https://wingify.com/blog/crap-design-principles/)
-- [Principes CRAP pour des présentations](crap_presentations.webp)
-- [Lewis University Writing Center CRAP](./crap-resource-revised-pub.pdf)
+- [Les principes CRAP — EduTech Wiki](https://edutechwiki.unige.ch/fr/Les_principes_CRAP)
+- [Clear and readable presentations](crap_presentations.webp)
+- [PDF Lewis University Writing Center CRAP](./crap-resource-revised-pub.pdf)
 
 ![](./crap.png)
 
