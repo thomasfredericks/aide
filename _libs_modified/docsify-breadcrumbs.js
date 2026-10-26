@@ -1,5 +1,5 @@
 const hasWindow = typeof window !== 'undefined'
-// &rsaquo;
+
 const options = {
   showHome: false,
   homeText: 'Home',
@@ -20,18 +20,16 @@ const options = {
  */
 function breadcrumbPlugin (hook, vm) {
   hook.afterEach(function (html, next) {
+    console.log('cacheTOC:', vm.compiler.cacheTOC);
     const url = vm.route.path
     const isHome = url.length < 2
+    const title = getPageTitle(vm.route, vm.compiler.cacheTOC)
 
     const urlParts = getUrlParts(url)
     const readableUrlParts = sanitizeUrlParts(urlParts)
     const homeLink = options.showHome || !isHome ? getHomeLink(isHome) : ''
 
-    // Pass vm.compiler.cacheTOC to getListItems
-    const ul = generateAccessibleBreadcrumb(
-      homeLink,
-      getListItems(readableUrlParts.slice(0, -1), urlParts.slice(0, -1), vm.compiler.cacheTOC)
-    )
+    const ul = generateAccessibleBreadcrumb(homeLink, getListItems(readableUrlParts, urlParts, title))
 
     next(ul + html)
   })
@@ -72,53 +70,20 @@ const sanitizeUrlParts = (urlParts) =>
  * 
  * @param {Array} readableUrlParts - The plain language URL parts
  * @param {Array} urlParts - The parts of the URL
+ * @param {String} title - The title of the current page
  * @returns {String} The collection of <li> for the breadcrumb
  */
-/**
- * Get the list items for the breadcrumb
- * 
- * @param {Array} readableUrlParts - The plain language URL parts
- * @param {Array} urlParts - The parts of the URL
- * @returns {String} The collection of <li> for the breadcrumb
- */
-/**
- * Get the list items for the breadcrumb
- * 
- * @param {Array} readableUrlParts - The plain language URL parts
- * @param {Array} urlParts - The parts of the URL
- * @param {Object} cacheTOC - The Docsify cacheTOC object
- * @returns {String} The collection of <li> for the breadcrumb
- */
-const getListItems = (readableUrlParts, urlParts, cacheTOC) => {
-  if (readableUrlParts.length === 0) return '';
+const getListItems = (readableUrlParts, urlParts, title) => readableUrlParts
+  .reduce((acc, part, i) => {
+    const link = getItemLink(urlParts, i + 1)
+    const isLastLink = i === readableUrlParts.length - 1
 
-  return readableUrlParts
-    .map((part, i) => {
-      const link = getItemLink(urlParts, i + 1);
-      
-      
-      // Construct the potential README path for this segment
-      // e.g., if segment is "articles", check "articles/README.md"
-      const potentialReadmePath = `${urlParts.slice(0, i + 1).join('/')}/README.md`;
-      
-      // Check if this file exists in the cache
-      const hasReadme = !!cacheTOC[potentialReadmePath];
+    const itemDom = !isLastLink
+      ? `<li><a href=${link} style="color: ${options.linkColor}">${part}</a>${options.separator}</li>`
+      : `<li class="active" aria-current="page">${title}</li>`
 
-      // Only add separator if it's NOT the last item
-      //const isLast = i === readableUrlParts.length - 1;
-      //const sep = isLast ? '' : options.separator;
-      const sep = options.separator;
-
-      if (hasReadme) {
-        // Create a link if README.md exists
-        return `<li><a href="${link}" style="color: ${options.linkColor}">${part}</a>${sep}</li>`;
-      } else {
-        // No README found: display as plain text (no link)
-        return `<li><span style="color: ${options.linkColor}">${part}</span>${sep}</li>`;
-      }
-    })
-    .join('');
-}
+    return acc + itemDom
+  }, '')
 
 /**
  * Get the link for the item

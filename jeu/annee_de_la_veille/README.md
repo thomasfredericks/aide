@@ -12,11 +12,13 @@ De plus, il faut :
 - Des crayons, des gommes à effacer.
 - Six dés.
 
-*L’année de la veille* est un jeu de narration et de création collective. Il est essentiellement une traduction en français des jeux *The Quiet Year* d’Avery Alder et *The Deep Forest* de Mark Diaz Truman et Avery Alder Mcdaldno. Il reprend les thèmes de *The Deep Forest* mais y rajoutent les ressources de *The Quiet Year*. 
+*L’année de la veille* est un jeu de narration et de création collective. Il est essentiellement une traduction en français des jeux [The Quiet Year](https://buriedwithoutceremony.com/the-quiet-year) d’Avery Alder et *The Deep Forest* de Mark Diaz Truman et Avery Alder Mcdaldno. Il reprend les thèmes de *The Deep Forest* mais y rajoutent les ressources de *The Quiet Year*. 
 
 Les joueuses et joueurs y incarnent à la fois les membres d’une communauté en survie et les forces qui façonnent son destin. À travers des décisions partagées, des dessins sur une carte et des événements imprévus, le groupe raconte ensemble une année charnière, marquée par la pénurie, les tensions et les espoirs. Le jeu ne cherche pas la victoire, mais l’exploration d’une communauté en transformation.
 
 Dans ce jeu, le mot **« veille »** porte un double sens. D’une part, il désigne **le jour précédent**, celui où des humains ont pris quelque chose d’essentiel à la communauté. D’autre part, la **veille** évoque l’état de vigilance, de garde ou de surveillance dans lequel la communauté est désormais plongée. Pendant toute l’année qui suit, ses membres vivent dans l’attente du retour annoncé, observant les signes du changement, se préparant à l’échéance et cherchant à préserver leur avenir malgré la menace. Ainsi, *L’année de la veille* est à la fois l’année qui suit **la veille du drame** et l’année passée **en état de veille**, dans l’attente inquiète de ce qui reviendra.
+
+![Exemples de parties complétées](./exemples.png)
 
 ## Qui nous sommes
 
@@ -29,32 +31,23 @@ Le jeu nous demandera de nous exprimer au nom de différents résidents de la co
 
 S’il existe une question avec laquelle vous êtes aux prises dans votre propre vie comme la possibilité qu’un espace soit réellement sûr ou qu’il y ait une place pour l’espoir, n’hésitez pas à introduire des situations qui la mettent à l’épreuve.
 
-
-
 > [!IMPORTANT]
 > La communauté n’est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne font pas partie de la communauté. 
-
-## L’évènement de la veille
-
-Le jeu débute le lendemain d’un évènement traumatisant pour la communauté :
-
-> « La veille, un homme humain a pris quelque chose d’important pour notre communauté. Avant de partir, il a promis de revenir accompagné dans un an pour en réclamer davantage, mettant en péril notre avenir. Le jeu se termine au retour des humains. »
-
-À nous de décider si la communauté vivait sous occupation humaine, si c’était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
 
 ## Esquissons l’espace de jeu
 
 Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 
-À gauche, nous dessinons une colonne avec deux rangées. Nous titrons la case supérieure « Abondances ». Nous titrons la case inférieure « Pénuries ».
+À gauche, nous identifions deux sections dans lesquelles nous allons inscrire des listes :  « Abondances » et « Pénuries ».
 
-À droite de la feuille, nous dessinons une colonne avec une seule rangée que nous titrons « Membres ».
+À droite de la feuille, nous tirons une grande section « Membres ».
 
+![Espace de jeu](./espace_de_jeu.png)
 
 ## Créer le monde
 
 > [!WARNING]
-> Nous pouvons utiliser des symboles ou des représentations symboliques, mais nous devons éviter les mots lorsque nous dessinons la carte.
+> Nous pouvons utiliser des symboles ou des représentations symboliques, mais nous devons éviter d'écrire des mots lorsque nous dessinons la carte.
 
 ### Les limites de la communauté
 
@@ -62,25 +55,50 @@ Dessinons les limites psychologiques de la communauté avec une ellipse dont le 
 
 Ce qui est à l’intérieur de ce périmètre appartient à la communauté et tout y est considéré comme étant à proximité. Ce qui est à l’extérieur est externe à la communauté et sa distance du périmètre indique son éloignement.
 
+## L’évènement de la veille
+
+Le jeu débute le lendemain d’un évènement traumatisant pour la communauté :
+
+> « La veille, un homme a pris quelque chose d’important pour notre communauté. Avant de partir, il a promis de revenir dans un an avec une armée pour en réclamer davantage ; ce qui met en péril notre avenir. Le jeu se termine au retour des humains. »
+
+À nous de décider si la communauté vivait sous occupation humaine, si c’était la première rencontre ou entre les deux. Peut-être étions-nous captifs et nous nous sommes libérés ?
+
 ### Situation de la communauté
 
 Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C’est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n’est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
-Nous dessinons ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
+Nous **dessinons** ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
+
+Voici des exemples de cartes préremplies : [Charted Areas](https://buriedwithoutceremony.com/wp-content/uploads/2017/01/charted-areas.pdf)
+
+> [!NOTE]
+> Imaginer que la communauté complète est composée d’environ 60 à 80 membres.
+
+## Ce qui a été pris
+
+Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l’homme.
+
+Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
+
+> « Que diriez-vous que le fils du chef a été enlevé parce qu’il portait des pierres précieuses ? »
+> … et que tout le monde acquiesce.
+
+Il est fort probable que ce qui a été pris soit l’une des ressources de la communauté. Dans ce cas, pourquoi cette ressource est-elle nécessaire à la survie de la communauté ? Par exemple :
+
+> « Les humains ont volé une pomme de l’arbre magique. »
+
+Ensuite, nous choisissons une personne qui dessinera, à l’extérieur du périmètre de la communauté, un lieu marquant laissé derrière par le voleur. Il peut s’agir d’un campement, d’un tas de déchets, d’un phare, d’une statue ou d’une église de fortune, etc. Il est préférable que ce dessin demeure petit et simple.
 
 ## Introduction des membres de la communauté
 
 Nous serons invités à incarner différents membres de la communauté au fil de la partie. En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
 
-Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Personnages » de l’espace de jeu, même s’il s’agit d’une ou d’une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
+Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Membres » de l’espace de jeu, même s’il s’agit d’une ou d’une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
 
 > [!IMPORTANT]
 > Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne sont pas natifs à notre territoire.
 
-À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son nid ou de son lieu de vie. Nous esquissons ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
-
-> [!NOTE]
-> La communauté est composée d’environ 60 à 80 membres.
+À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son lieu de vie. Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
 
 Par exemple, un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien :
 
@@ -90,7 +108,6 @@ Par exemple, un groupe pourrait décider de situer sa partie à l’ombre de la 
 > - Enfin, la dernière joueuse dit : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
 > 
 > Au fur et à mesure que des détails sont ajoutés, les joueurs les dessinent sur la carte. Notez les noms dans la section à droite de la carte.
-
 
 
 ## Ressources
@@ -119,20 +136,7 @@ Par exemple :
 > - Ils s’accordent tous à dire que la ferraille est de loin l’abondance la plus intéressante ; elle est donc dessinée sur la carte.
 > - Les pénuries d’eau courante et de moyens de transport sont également indiquées sur la carte.
 
-## Ce qui a été pris
 
-Avant le début de la partie, nous devons établir la nature de ce qui a été pris la veille par l’homme.
-
-Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
-
-> « Que diriez-vous que le fils du chef a été enlevé parce qu’il portait des pierres précieuses ? »
-> … et que tout le monde acquiesce.
-
-Il est fort probable que ce qui a été pris soit l’une des ressources de la communauté. Dans ce cas, pourquoi cette ressource est-elle nécessaire à la survie de la communauté ? Par exemple :
-
-> « Les humains ont volé une pomme de l’arbre magique. »
-
-Ensuite, nous choisissons une personne qui dessinera, à l’extérieur du périmètre de la communauté, un lieu marquant laissé derrière par le voleur. Il peut s’agir d’un campement, d’un tas de déchets, d’un phare, d’une statue ou d’une église de fortune, etc. Il est préférable que ce dessin demeure petit et simple.
 
 ## Le jeu commence
 
