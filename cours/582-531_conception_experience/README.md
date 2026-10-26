@@ -348,7 +348,7 @@ Activités en classe :
 Activités en classe :
 
 
-- Développer son sens de communauté avec *L’année de la veille*.
+- Développer son sens de communauté avec [L’année de la veille](/jeu/annee_de_la_veille/).
 - Partage des histoires des communautés.
 - Impression des jeux de carte :
 	- Au Canada : [theplayingcardfactory.com](https://shop.theplayingcardfactory.com/en/full-custom-deck-54-photos/)
