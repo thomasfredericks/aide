@@ -245,7 +245,6 @@ Activités en classe :
 - Bibliothèque [MicroOsc : SLIP](https://t-o-f.info/aide/#/fabrication/arduino/microosc/slip/)
 - [Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd](https://t-o-f.info/aide/#/tutoriels/arcade/pd/)
 - [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](https://t-o-f.info/aide/#/tutoriels/arcade/relais/)
-
 - [Unity : OSC UDP avec extOSC](https://t-o-f.info/aide/#/logiciels/unity/osc/extosc/) avec Unity 2022.3.62f3.
 - [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](https://t-o-f.info/aide/#/tutoriels/arcade/flappy/)
 
