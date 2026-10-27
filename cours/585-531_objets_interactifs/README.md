@@ -117,9 +117,7 @@ Exemple :
 
 - `boisvert-gilbert-hubert_polychromes_01_582-314MO`
 
-## Déroulement
-
-### Semaine 1 
+## Semaine 1 
 
 À préparer avant la classe :
 
@@ -141,7 +139,7 @@ Activités en classe :
 	- [Potentiomètre](https://t-o-f.info/aide/#/fabrication/electronique/composants/potentiometre/).
 	- [Bouton d’Arcade](https://t-o-f.info/aide/#/fabrication/electronique/composants/bouton/arcade/)
 
-### Semaine 2 
+## Semaine 2 
 
 À préparer avant la classe :
 
@@ -168,7 +166,7 @@ Activités en classe :
 	- [Configuration](https://t-o-f.info/aide/#/fabrication/nano/configuration/) pour un Arduino Nano R4.
 - [Coder en C++](https://t-o-f.info/aide/#/fabrication/cpp/code/)
 
-### Semaine 3 
+## Semaine 3 
 
 À préparer avant la classe :
 
@@ -191,7 +189,7 @@ Activités en classe :
 	- Ne pas oublier de faire le commit du git !
 - [Quiz sur l’audio dans Pd](https://t-o-f.info/quiz/pd/audio/fichiers/).
 
-### Semaine 4
+## Semaine 4
 
 À préparer avant la classe :
 
@@ -219,7 +217,7 @@ Activités en classe :
 	- [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](https://t-o-f.info/aide/#/tutoriels/platine/audio)
 
 
-### Semaine 5 
+## Semaine 5 
 
 À préparer avant la classe :
 
@@ -235,7 +233,7 @@ Matière non couverte :
 - Sélection du son.
 - Contrôle de vitesse de lecture.
 
-### Semaine 6 : 30 septembre
+## Semaine 6 : 30 septembre
 
 À préparer avant la classe :
 
@@ -252,7 +250,7 @@ Activités en classe :
 - [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](https://t-o-f.info/aide/#/tutoriels/arcade/flappy/)
 
 
-### Semaine 7 : 7 octobre
+## Semaine 7 : 7 octobre
 
 À préparer avant la classe :
 
@@ -270,7 +268,7 @@ Activités en classe :
 		- PlatformIO : `videofx_bouton_pot_arduino`
 		- Unity : `videofx_bouton_pot_unity`
 
-### Semaine 8 : 21 octobre
+## Semaine 8 : 21 octobre
 
 À préparer avant la classe :
 
@@ -282,26 +280,45 @@ Activités en classe :
 	- [Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/unlock/)
 - Soudure de la [photorésistance](/fabrication/electronique/composants/photoresistance/).
 - [Soudure du connecteur Grove](/fabrication/arduino/terminals/grove/).
-- Exercice  : 
-	- Modifier la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx) pour que le bouton d’Arcade change la vidéo (touche ESPACE dans le projet original) et le potentiomètre effectue le même effet que la glissière à l’écran.
-	- Nom des projets :
-		- PlatformIO : `videofx_bouton_pot_arduino`
-		- Unity : `videofx_bouton_pot_unity`
 
-### Semaine 9 : 28 octobre
+
+## Semaine 9 : 28 octobre
 
 À préparer avant la classe :
 
 - Soudure du connecteur Grove si non terminée.
-- Soudure de la photo-résistance si non terminée.
+- Soudure de la photorésistance si non terminée.
 
 Activités en classe :
 
+- La [photorésistance](/fabrication/electronique/composants/photoresistance/).
+- Tester la réception de données [OCS SLIP dans Pd](/logiciels/pd/osc/slip/)
+- Exercice [thomasfredericks/asteroid_unity/](https://github.com/thomasfredericks/asteroid_unity/)
+	- Nom des projets :
+		- PlatformIO : `asteroid_arduino`
+		- Unity : `asteroid_unity`
 - Glissement des valeurs.
-- Traitement de la photo-résistance.
+- Exercices supplémentaires :
+	- [thomasfredericks/videofx_unity](https://github.com/thomasfredericks/videofx_unity)
+		- Pour l'exercice, intégrer un bouton d'arcade et un potentiomètre.
+		- Utiliser Pd pour faire le relais entre l'Arduino et Unity.
+		- Ouvrir la scène `ScrubPitchGlitch` du projet Unity.
+		- Intégrer le code pour que le bouton d’Arcade change la vidéo (touche ESPACE dans le projet original) : déclencher la méthode `NextVideo()` du script `ScrubPitchGlitch.cs`.
+		- Intégrer le code pour que le potentiomètre effectue le même effet que la glissière à l’écran : utiliser la méthode `Set()` du script `ScrubPitchGlitch.cs`.
+		- Nom des projets :
+			- PlatformIO : `videofx_arduino`
+			- Unity : `videofx_unity`
+	- [thomasfredericks/reaction_unity](https://github.com/thomasfredericks/reaction_unity) : Un jeu de réaction rapide où il faut cliquer quand un cercle apparait à l'écran.
+		- Pour l'exercice, intégrer un bouton d'arcade.
+		- Utiliser Pd pour faire le relais entre l'Arduino et Unity.
+		- Ouvrir la scène `Blinker` du projet Unity.
+		- Intégrer le code pour que le bouton d’Arcade démarre le jeu et permette de jouer (le bouton doit déclencher la méthode `Trigger()` du script `GameManger.cs`).
+		- Intégrer le code pour que la lumière du bouton d'Arcade suive la visibilité des éléments de l'interface visuelle (utiliser la méthode `GetUIElementVisible()` qui retourne un `bool` pour savoir si un élément est visible à l'écran).
+		- Nom des projets :
+			- PlatformIO : `reaction_arduino`
+			- Unity : `reaction_unity`
 
-
-### Semaine 10 : 4 novembre
+## Semaine 10 : 4 novembre
 
 À préparer avant la classe :
 
@@ -311,7 +328,7 @@ Activités en classe :
 
 - **Évaluation**.
 
-### Semaine 11 : 11 novembre
+## Semaine 11 : 11 novembre
 
 À préparer avant la classe :
 
@@ -326,7 +343,7 @@ Activités en classe :
 	- Key.
 	- Fader.
 
-### Semaine 12 : 18 novembre
+## Semaine 12 : 18 novembre
 
 À préparer avant la classe :
 
@@ -341,7 +358,7 @@ Activités en classe :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
 
-### Semaine 13 : 25 novembre
+## Semaine 13 : 25 novembre
 
 À préparer avant la classe :
 
@@ -351,7 +368,7 @@ Activités en classe :
 
 - Travail supervisé.
 
-### Semaine 14 : 2 décembre
+## Semaine 14 : 2 décembre
 
 À préparer avant la classe :
 
@@ -361,7 +378,7 @@ Activités en classe :
 
 - Travail supervisé.
 
-### Semaine 15 : 9 décembre
+## Semaine 15 : 9 décembre
 
 À préparer avant la classe :
 

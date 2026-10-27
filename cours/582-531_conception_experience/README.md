@@ -137,9 +137,7 @@ Exemple :
 > 
 > Pour être créatif, il faut connaître le monde, être libre de l’imaginer autrement et avoir le courage de partager ce que l’on imagine, même lorsque cela semble étrange ou ridicule.
 
-## Déroulement
-
-### Semaine 1 
+## Semaine 1 
 
 À préparer avant la classe :
 
@@ -181,7 +179,7 @@ Activités en classe :
 		- *JS Joust JS*.
 
 
-### Semaine 2 
+## Semaine 2 
 
 À préparer avant la classe :
 
@@ -218,7 +216,7 @@ Activités en classe :
 - Trouver un modèle de PowerPoint pour le travail.
 	
 
-### Semaine 3
+## Semaine 3
 
 À préparer avant la classe :
 
@@ -230,7 +228,7 @@ Activités en classe :
 - **Évaluation**
 - Jeux du livre [The Rules We Break d’Eric Zimmerman](https://theruleswebreak.com/) :  *Five Fingers*, *Wolf and Sheep* et *Rock Paper Scissors+* dehors si la météo le permet.
 
-### Semaine 4
+## Semaine 4
 
 À préparer avant la classe :
 
@@ -257,7 +255,7 @@ Activités en classe :
 	- Balancer le jeu *Utopia2099*.
 	- Expérimenter une histoire avec le jeu *Village Zombie*.
 
-### Semaine 5 : 29 septembre / 24 septembre
+## Semaine 5 : 29 septembre / 24 septembre
 
 À préparer avant la classe :
 
@@ -287,7 +285,7 @@ Activités en classe :
 	- Trouver une thématique pour le jeu de carte.
 	- Préparer le [document de normes graphiques (à remettre avec la fin du cours)](https://t-o-f.info/aide/#/creation/visuel/guide/cartes/).
 
-### Semaine 6 : 6 octobre / 1 octobre
+## Semaine 6 : 6 octobre / 1 octobre
 
 À préparer avant la classe :
 
@@ -298,7 +296,7 @@ Activités en classe :
 - *Travail en classe*.
 - Tests d’impressions. 
 
-### Semaine 7 : 15 octobre / 8 octobre
+## Semaine 7 : 15 octobre / 8 octobre
 
 À préparer avant la classe :
 
@@ -314,7 +312,7 @@ Activités en classe :
 - *Travail en classe*.
 - Tests d’impressions. 
 
-### Semaine 8 : 19 octobre / 22 octobre
+## Semaine 8 : 19 octobre / 22 octobre
 
 À préparer avant la classe :
 
@@ -339,7 +337,7 @@ Activités en classe :
 	- [Wonder Wander](/jeu/wonder_wander/)
 
 
-### Semaine 9 : 26 octobre / 29 octobre
+## Semaine 9 : 26 octobre / 29 octobre
 
 À préparer avant la classe :
 
@@ -347,14 +345,15 @@ Activités en classe :
 
 Activités en classe :
 
-
-- Développer son sens de communauté avec *L’année de la veille*.
-- Partage des histoires des communautés.
 - Impression des jeux de carte :
 	- Au Canada : [theplayingcardfactory.com](https://shop.theplayingcardfactory.com/en/full-custom-deck-54-photos/)
 	- En Chine : [makeplayingcards.com](https://www.makeplayingcards.com/design/custom-white-border-playing-cards-poker-size.html)
+- Rappel des principes [CRAP](/creation/visuel/crap/).
+- Développer son sens de communauté avec *L’année de la veille*.
+- Partage des histoires des communautés.
 
-### Semaine 10 : 2 novembre / 5 novembre
+
+## Semaine 10 : 2 novembre / 5 novembre
 
 À préparer avant la classe :
 
@@ -400,7 +399,7 @@ Activités en classe :
 - *Travail en classe*.
 
 
-### Semaine 11 : 16 novembre / 12 novembre
+## Semaine 11 : 16 novembre / 12 novembre
 
 À préparer avant la classe :
 
@@ -410,7 +409,7 @@ Activités en classe :
 
 - **Évaluation**.
 
-### Semaine 12 : 23 novembre / 19 novembre
+## Semaine 12 : 23 novembre / 19 novembre
 
 À préparer avant la classe :
 
@@ -423,7 +422,7 @@ Activités en classe :
 - Rédaction de la mission d’équipe.
 - Rétroaction en interactivité.
 	
-### Semaine 13 : 30 novembre / 26 novembre
+## Semaine 13 : 30 novembre / 26 novembre
 
 À préparer avant la classe :
 
@@ -434,7 +433,7 @@ Activités en classe :
 - *Travail en classe*.
 - Normes esthétiques de l’équipe.
 
-### Semaine 14 : 6 décembre / 3 décembre
+## Semaine 14 : 6 décembre / 3 décembre
 
 À préparer avant la classe :
 
@@ -445,7 +444,7 @@ Activités en classe :
 
 - *Travail en classe*.
 
-### Semaine 15 : 14 décembre / 10 décembre
+## Semaine 15 : 14 décembre / 10 décembre
 
 À préparer avant la classe :
 
