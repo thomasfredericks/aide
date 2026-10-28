@@ -750,6 +750,11 @@
         "u": "#/tutoriels/arcade/pd"
     },
     {
+        "t": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
+        "l": "tutoriel asteroide  open sound control bidirectionnel entre unity pure data arduino nano del photoresistance",
+        "u": "#/tutoriels/arcade/asteroid"
+    },
+    {
         "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
         "l": "tutoriel pong  unity pure data open sound control arduino nano bouton d’arcade potentiometre",
         "u": "#/tutoriels/arcade/pong"

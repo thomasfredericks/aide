@@ -291,28 +291,23 @@ Activités en classe :
 Activités en classe :
 
 - La [photorésistance](/fabrication/electronique/composants/photoresistance/).
-- Tester la réception de données [OCS SLIP dans Pd](/logiciels/pd/osc/slip/)
-- Exercice [thomasfredericks/asteroid_unity/](https://github.com/thomasfredericks/asteroid_unity/)
-	- Nom des projets :
-		- PlatformIO : `asteroid_arduino`
-		- Unity : `asteroid_unity`
-- Glissement des valeurs.
+- [Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance](/tutoriels/arcade/asteroid/)
 - Exercices supplémentaires :
 	- [thomasfredericks/videofx_unity](https://github.com/thomasfredericks/videofx_unity)
-		- Pour l'exercice, intégrer un bouton d'arcade et un potentiomètre.
-		- Utiliser Pd pour faire le relais entre l'Arduino et Unity.
+		- Pour l’exercice, intégrer un bouton d’arcade et un potentiomètre.
+		- Utiliser Pd pour faire le relais entre l’Arduino et Unity.
 		- Ouvrir la scène `ScrubPitchGlitch` du projet Unity.
 		- Intégrer le code pour que le bouton d’Arcade change la vidéo (touche ESPACE dans le projet original) : déclencher la méthode `NextVideo()` du script `ScrubPitchGlitch.cs`.
 		- Intégrer le code pour que le potentiomètre effectue le même effet que la glissière à l’écran : utiliser la méthode `Set()` du script `ScrubPitchGlitch.cs`.
 		- Nom des projets :
 			- PlatformIO : `videofx_arduino`
 			- Unity : `videofx_unity`
-	- [thomasfredericks/reaction_unity](https://github.com/thomasfredericks/reaction_unity) : Un jeu de réaction rapide où il faut cliquer quand un cercle apparait à l'écran.
-		- Pour l'exercice, intégrer un bouton d'arcade.
-		- Utiliser Pd pour faire le relais entre l'Arduino et Unity.
+	- [thomasfredericks/reaction_unity](https://github.com/thomasfredericks/reaction_unity) : Un jeu de réaction rapide où il faut cliquer quand un cercle apparait à l’écran.
+		- Pour l’exercice, intégrer un bouton d’arcade.
+		- Utiliser Pd pour faire le relais entre l’Arduino et Unity.
 		- Ouvrir la scène `Blinker` du projet Unity.
 		- Intégrer le code pour que le bouton d’Arcade démarre le jeu et permette de jouer (le bouton doit déclencher la méthode `Trigger()` du script `GameManger.cs`).
-		- Intégrer le code pour que la lumière du bouton d'Arcade suive la visibilité des éléments de l'interface visuelle (utiliser la méthode `GetUIElementVisible()` qui retourne un `bool` pour savoir si un élément est visible à l'écran).
+		- Intégrer le code pour que la lumière du bouton d’Arcade suive la visibilité des éléments de l’interface visuelle (utiliser la méthode `GetUIElementVisible()` qui retourne un `bool` pour savoir si un élément est visible à l’écran).
 		- Nom des projets :
 			- PlatformIO : `reaction_arduino`
 			- Unity : `reaction_unity`

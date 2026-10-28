@@ -47,7 +47,7 @@ Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 ## Créer le monde
 
 > [!WARNING]
-> Nous pouvons utiliser des symboles ou des représentations symboliques, mais nous devons éviter d'écrire des mots lorsque nous dessinons la carte.
+> Nous pouvons utiliser des symboles ou des représentations symboliques, mais nous devons éviter d’écrire des mots lorsque nous dessinons la carte.
 
 ### Les limites de la communauté
 

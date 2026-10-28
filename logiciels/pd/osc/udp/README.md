@@ -70,7 +70,7 @@ Attention : `oscparse` **retire le `/`** de l’adresse.
 Télécharger le patcher [osc_udp_test.pd](./osc_udp_test.pd).
 
 
-## Exemple pour la réception et l'envoi de messages OSC UDP 
+## Exemple pour la réception et l’envoi de messages OSC UDP 
 
 ![Capture d’écran du patcher «osc_udp.pd»](osc_udp_pd.png)
 
