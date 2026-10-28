@@ -88,27 +88,52 @@ Ainsi que celles-ci :
 
 ![Le script InputProcess sur le GameObject EventSystem](./inputprocess_script.png)
 
-### Modifier le code Unity
 
-Il faut ajouter les propriétés suivantes dans la classe de notre script `OscProcess` :
+### Lier les scripts de desintation
+
+Dans `OscProcess` nous ajoutons les deux propriétés à la classe :
 ```csharp
-    public GameManager gameManager;
-    public Player player;
+GameManager gameManager;
+Player player;
 ```
 
-Nous modifions aussi notre méthode `TraiterMesageBut0` du script `OscProcess` :
-```csharp
-    // TRAITER LA VALEUR ICI !
-    if (valeur == 1)
-    {
-        gameManager.StartGame(); // Ignored if game is already playing, handled in GameManager
-        player.Jump();
-    } else {
+![Assignation de Player et GameManager au script OscProcess](./assigner_gamestate_et_player.png)
 
+### Modifier le code Unity
+
+- Le code ci-bas montre comment effectuer dans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `StartGame()` du script `GameManager` (lié à la variable `gameManager`) et la méthode `Jump()` du script `Player`. 
+
+Le contenu du `Start()` dans `OscProcess`:
+```csharp
+   void Start()
+    {
+        // ...
+        oscReceiver.Bind("/but0", TraiterMessageBut0);
+        // ...
     }
 ```
 
-![Assignation de Player et GameState au script OscProcess](./assigner_gamestate_et_player.png)
+Le contenu de `TraiterMessageBut0()` dans `OscProcess` :
+```csharp
+void TraiterMessageBut0(OSCMessage message)
+    {
+        // Récupérer la valeur du premier argument en taant qu’entier :
+        int valeur = message.Values[0].IntValue;
+
+        // Deboguer
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+
+        // Traiter la valeur
+        if ( valeur == 0 ) {
+            gameManager.StartGame();
+             player.Jump();
+        } else {
+            // Si nécéssaire, appeler une fonction ici
+        }
+    }
+```
+
+
 
 > [!NOTE]
 > Appuyer sur Play pour partir le projet Unity!

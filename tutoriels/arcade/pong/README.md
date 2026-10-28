@@ -188,7 +188,7 @@ Pointer vers le script `GameManager` du GameObject `Game Manager` :
 #### Le bouton
 
 - Dans le code Unity, la fonction utilisée pour lancer la balle est `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`).
-- Le code ci-bas montre comment effectuer sans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`). 
+- Le code ci-bas montre comment effectuer dans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`). 
 
 Le contenu du `Start()` dans `OscProcess`:
 ```csharp
