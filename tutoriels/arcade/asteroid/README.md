@@ -113,9 +113,21 @@ monOsc.onOscMessageReceived(traiterMessageOsc); // ACQUISITION DES MESSAGES
 > Téléverser le code sur l’Arduino.
 > Cela crée un flux d’environ ~50 messages par seconde (un message par 20 millisecondes) vers Pure Data.
 
-### Pure Data
+### TESTER le code Arduino avec Pure Data
 
+- Fermer tous les patchers Pd.
+- Télécharger le **patcher pour tester l’OSC SLIP** de la page [Pd : OSC SLIP](/logiciels/pd/osc/slip/).
+- Configurer `comport` 
+- Les valeurs du message `/photo` devraient apparître dans la fenêtre de messages Pd.
+- Noter, en déplaçant votre main au-dessus du capteur, le minimum et le maximum.
+- Allumer et éteindre la DEL en envoyant les messages OSC `/lumiere 1` et `/lumiere 0` :
+    - address : `lumiere`
+    - format : `i`
+    - arguments : `0` ou `1`
+    
+### Le patcher FINAL Pure Data pour effectuer le relais 
 
+Dans l'étape précédente, nous avons **testé** et **validé** le code Arduino avec le **patcher pour tester l’OSC SLIP** . Nous fermons ce patcher et nous allons utiliser le patcher Pd qui effectue le relais entre Arduino et Unity comme solution finale.
 
 Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/osc/relais/relais_osc_slip_udp_bidirectionnel.pd), le copier dans le dossier de projet Arduino et configurer [comport](/logiciels/pd/serie/comport).
 
@@ -155,9 +167,9 @@ La lecture de la photorésistance donne des valeurs possiblement entre 0 et 1023
 
 ### La DEL
 
-- Dans `OscProcess`, nous allons envoyer à Pd qui va effectuer le relais à l’Arduino, le message `/lumiere` à chaque `Update()`. Ajouter le code suivant à `Update()` :
+- Dans `OscProcess`, nous allons envoyer à Pd qui va effectuer le relais à l’Arduino, le message `/lumiere` à chaque `Update()`. Ajouter le code suivant à `Update()` de `OscProcess` :
 ```csharp
-if ( asteroidDodger.GetShipIsVisible()() ) {
+if ( asteroidDodger.GetShipIsVisible() ) {
     var oscMessage = new OSCMessage("/lumiere"); 
     oscMessage.AddValue( OSCValue.Int(1) ); // Ajoute l’entier 1
     oscTransmitter.Send( oscMessage ) // Envoyer le message 
@@ -185,4 +197,8 @@ Votre vaisseau va être difficile à contrôler parce que la photorésistance n�
 - Noter, en déplaçant votre main au-dessus du capteur, le minimum et le maximum.
 - Fermer le **patcher pour tester l’OSC SLIP**.
 - Rouvrir le patcher Pd de relais.
-- Configurer la bonne plage de valeurs dans l’inspecteur Unity du GameObject `OSC`.
+- Configurer la bonne plage de valeurs dans l’inspecteur Unity du GameObject `OSC` :
+    - in min : le minimum de la mesure analogique de la photorésistance
+    - in max : le maximum de la mesure analogique de la photorésistance
+    - out min : la position verticale minimale du vaisseau dans la scène 
+    - out max : la position verticale maximale du vaisseau dans la scène 
