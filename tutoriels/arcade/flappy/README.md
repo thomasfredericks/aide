@@ -11,11 +11,57 @@ flowchart LR
     Pd -- OSC UDP --> C[Unity]
 ```
 
-### Préalables
+## Circuit
 
-- Suivre le [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)
-- Fourcher (*forker*) le dépôt [thomasfredericks/unity-flappybird](https://github.com/thomasfredericks/unity-flappybird).
-- Suivre les instructions pour [l’intégration d’extOSC](/logiciels/unity/osc/extosc/).
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade.png)
+
+Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
+*   Un côté de l’interrupteur -> broche 2 de l’Arduino.
+*   DEL+ du bouton -> broche 3 de l’Arduino.
+*   Les deux autres câbles -> GND de l’Arduino.
+
+
+## Code Arduino
+
+- Créer un nouveau Git nommé `falppy_arduino`.
+- Le cloner et y démarrer un [nouveau projet PlatformIO](/fabrication/platformio/nouveau/) pour Arduino Nano.
+- Ajouter les bibliothèques [Chrono](/fabrication/arduino/chrono/) et [Bounce](/fabrication/arduino/bounce2/) à `platormio.ini`.
+- Ajouter la bibliothèque [MicroOsc](/fabrication/arduino/microosc/slip/).
+
+### Initialiser MicroOsc
+
+- Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+```cpp
+MicroOscSlip<128> monOsc(&Serial); 
+```
+- Dans `setup()`, initialiser `Serial` :
+```cpp
+Serial.begin(115200);
+```
+
+### Interrupteur du bouton d’arcade
+
+- Ajouter `#include <Bounce2.h>` dans l’espace global.
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+```cpp
+Bounce2::Button bouton;
+```
+- Dans `setup()`, initialiser le bouton :
+```cpp
+    bouton.attach(2, INPUT_PULLUP);
+    bouton.setPressedState(LOW);
+```
+- Dans `loop()`, mettre à jour le bouton :
+```cpp
+    bouton.update();
+```
+- Dans `loop()`, le moment que le bouton est appuyé, envoyer le message OSC `/valider 1`:
+```cpp
+    if (bouton.pressed()) { // Bouton vient d’être appuyé
+        monOsc.sendInt("/but0", 1);
+    }
+```
 
 ### Investiguer le code Unity
 
