@@ -176,11 +176,11 @@ La lecture de la photorésistance donne des valeurs possiblement entre 0 et 1023
 if ( asteroidDodger.GetShipIsVisible() ) {
     var oscMessage = new OSCMessage("/lumiere"); 
     oscMessage.AddValue( OSCValue.Int(1) ); // Ajoute l’entier 1
-    oscTransmitter.Send( oscMessage ) // Envoyer le message 
+    oscTransmitter.Send( oscMessage ); // Envoyer le message 
 } else {
     var oscMessage = new OSCMessage("/lumiere"); 
     oscMessage.AddValue( OSCValue.Int(0) ); // Ajoute l’entier 0
-    oscTransmitter.Send( oscMessage ) // Envoyer le message 
+    oscTransmitter.Send( oscMessage ); // Envoyer le message 
 }
 ```
 

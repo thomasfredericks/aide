@@ -236,11 +236,11 @@ La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajus
 if ( unlock.isUnlocked() ) {
     var oscMessage = new OSCMessage("/lumiere"); 
     oscMessage.AddValue( OSCValue.Int(1) ); // Ajoute l’entier 1
-    oscTransmitter.Send( oscMessage ) // Envoyer le message 
+    oscTransmitter.Send( oscMessage ); // Envoyer le message 
 } else {
     var oscMessage = new OSCMessage("/lumiere"); 
     oscMessage.AddValue( OSCValue.Int(0) ); // Ajoute l’entier 0
-    oscTransmitter.Send( oscMessage ) // Envoyer le message 
+    oscTransmitter.Send( oscMessage ); // Envoyer le message 
 }
 ```
 

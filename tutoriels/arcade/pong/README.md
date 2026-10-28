@@ -70,42 +70,84 @@ flowchart LR
 | Potentiomètre avec `analogRead()` | Flux continu | Envoyé de façon continue à chaque 20 millisecondes | Entre `0` et `1023` inclusivement |
 
 
-### Préalables Arduino
 
-Nous partons du même code et du même circuit que le tutoriel précédent ci-haut.
+## Circuit
 
-- Partir un nouveau projet Arduino nommé `pong_bouton_pot_arduino`. Pour *PlatformIO* suivre les instructions pour [partir un nouveau projet PlatformIO](/fabrication/platformio/nouveau/).
-- Reproduire le circuit et le code du - Suivre le [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/).
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_pot.png)
 
-#### Modifications au circuit et au code Arduino
+Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
+*   Un côté de l’interrupteur -> broche 2 de l’Arduino.
+*   DEL+ du bouton -> broche 3 de l’Arduino.
+*   Les deux autres câbles -> GND de l’Arduino.
 
-Ajouter un [potentiomètre](/fabrication/electronique/composants/potentiometre/) au circuit (le bouton d’Arcade n’est pas dans l’image).
-*   Broche centrale du potentiomètre -> Pin A2 (ou analogique libre) sur l’Arduino.
+Brancher un [potentiomètre](/fabrication/electronique/composants/potentiometre/) au circuit :
+*   Broche centrale du potentiomètre -> broche A2 sur l’Arduino.
 *   Les deux autres broches -> 5V et GND.
 
-![Connexion du potentiomètre à ajouter](./arduino_terminals_pot.png)
+
+## Code Arduino
+
+- Créer un nouveau Git nommé `pong_bouton_pot_arduino`.
+- Le cloner et y démarrer un [nouveau projet PlatformIO](/fabrication/platformio/nouveau/) pour Arduino Nano.
+- Ajouter les bibliothèques [Chrono](/fabrication/arduino/chrono/) et [Bounce](/fabrication/arduino/bounce2/) à `platormio.ini`.
+- Ajouter la bibliothèque [MicroOsc](/fabrication/arduino/microosc/slip/).
+
+### Initialiser MicroOsc
+
+- Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+```cpp
+MicroOscSlip<128> monOsc(&Serial); 
+```
+- Dans `setup()`, initialiser `Serial` :
+```cpp
+Serial.begin(115200);
+```
+
+### Interrupteur du bouton d’arcade
+
+- Ajouter `#include <Bounce2.h>` dans l’espace global.
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+```cpp
+Bounce2::Button bouton;
+```
+- Dans `setup()`, initialiser le bouton :
+```cpp
+    bouton.attach(2, INPUT_PULLUP);
+    bouton.setPressedState(LOW);
+```
+- Dans `loop()`, mettre à jour le bouton :
+```cpp
+    bouton.update();
+```
+- Dans `loop()`, le moment que le bouton est appuyé, envoyer le message OSC `/valider 1`:
+```cpp
+    if (bouton.pressed()) { // Bouton vient d’être appuyé
+        monOsc.sendInt("/but0", 1);
+    }
+```
+
+### Potentiomètre
 
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur du potentiomètre à intervalles réguliers.
 
-Après avoir ajouté Chrono à votre projet, créer un chronomètre pour le flux de données dans l’espace global :
+- Ajouter `#include <Chrono.h>` dans l’espace global.
+- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
 ```cpp
 Chrono chronoPot;
 ```
-
-Dans `loop()`, ajouter le code suivant pour envoyer la valeur du potentiomètre à chaque 20 millisecondes :
+- Dans `loop()`, envoyer le message OSC `/tourner` suivi de la valeur du potentiomètre à chaque 20 millisecondes :
 ```cpp
 if ( chronoPot.hasPassed(20)) { // SI LE CHRONO DÉPASSE 20 MILLISECONDES
     chronoPot.restart(); // REPARTIR LE CHRONO
 
-    int valeur = analogRead(2); // LECTURE DE LA TENSION ENTRE 0 ET 1023
+    // LE 2 CI_BAS CORRESPOND À LA BROCHE ANALOGIQUE A2
+    int valeur = analogRead(2); // LECTURE DE LA TENSION DE LA BROCHE A2 ENTRE 0 ET 1023
 
     monOsc.sendInt("/pot", valeur); // ENVOYER LA VALEUR
 }
 ```
 
-> [!NOTE]
-> Téléverser le code sur l’Arduino.
-> Cela crée un flux d’environ ~50 messages par seconde (un message par 20 millisecondes) vers Pure Data.
 
 ### Pure Data
 
@@ -131,59 +173,97 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
 
 #### Général
 
-- Suivre les instructions pour l’intégration d’extOSC : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/).
+- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
+
+
+### Pointer vers le script GameManager du GameObject Game Manager
+
+Pointer vers le script `GameManager` du GameObject `Game Manager` :
+- Dans `OscProcess`, ajouter dans la classe une variable de type `GameManager` nommée `gameManager`.
+- Dans `OscProcess`, ajouter dans la classe une variable de type `PlayerPaddle` nommée `playerPaddle`.
+- De retour dans l’inspecteur de l’éditeur Unity, lier le GameObject `Game Manager` à la propriété `gameManager` du script `OscProcess` du GameObject `OSC`.
+- Dans l’inspecteur de l’éditeur Unity, lier le GameObject `Player` à la propriété `playerPaddle` du script `OscProcess` du GameObject `OSC`.
+
 
 #### Le bouton
 
-- Référer au [tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](/tutoriels/arcade/flappy/) pour ces étapes.
-- Trouver dans le code Unity la fonction utilisée pour lancer la balle. Astuce : regarder dans le script attaché au GameObjet `Game Manager`.
-- Ajouter à `OscProcess` les variables publiques nécessaire pour parler au script de lancer de la balle.
-- Effectuer un `Bind` dans `OscProcess` entre le message `/but0` et une nouvelle fonction de traitement de message (vous référer au tutoriel précédent).
-- Dans cette fonction, lorsqu’un `1` est reçu, appeler la fonction qui lance la balle (vous référer au tutoriel précédent).
+- Dans le code Unity, la fonction utilisée pour lancer la balle est `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`).
+- Le code ci-bas montre comment effectuer sans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`). 
 
-Extrait de la fonction de traitement du message `/but0` :
+Le contenu du `Start()` dans `OscProcess`:
 ```csharp
-    // TRAITER LA VALEUR ICI !
-    if (valeur == 1)
+   void Start()
     {
-        // METTRE ICI L’APPEL À LA FONCTION POUR LANCER LA BALLE
-        // COMME INDICE, C’EST QQCH COMME : gameState.Throw()
-    } else {
-
+        // ...
+        oscReceiver.Bind("/but0", TraiterMessageBut0);
+        // ...
     }
 ```
 
+Le contenu de `TraiterMessageBut0()` dans `OscProcess` :
+```csharp
+void TraiterMessageBut0(OSCMessage message)
+    {
+        // Récupérer la valeur du premier argument en taant qu’entier :
+        int valeur = message.Values[0].IntValue;
+
+        // Deboguer
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+
+        // Traiter la valeur
+        if ( valeur == 0 ) {
+            gameManager.ThrowBall();
+        } else {
+            // Si nécéssaire, appeler une fonction ici
+        }
+    }
+```
+
+
 #### Le potentiomètre
 
+- Dans le code Unity, la fonction utilisée pour déplacer la palette est `SetPosition(float y)` du script `PlayerPaddle` (lié à la variable `playerPaddle`).
+- Le code ci-bas montre comment effectuer dans `OscProcess` un [Bind int vers argument float d’une méthode](/logiciels/unity/osc/extosc/bind/int_float/) entre le message `/pot` et la **destination** qui est la méthode `SetPosition(float y)` du script `PlayerPaddle`  (lié à la variable `playerPaddle`). 
+
+Dans les propriétés de la classe dans `OscProcess` :
+```csharp
+    public int potInMin = 0;
+    public int potInMax = 1023;
+    public float potOutMin = 0.0f;
+    public float potOutMax = 1.0f;
+```
+
+Le contenu du `Start()` dans `OscProcess`:
+```csharp
+   void Start()
+    {
+        // ...
+        oscReceiver.Bind("/pot", TraiterMessagePot);
+        // ...
+    }
+```
+
+Le contenu de `TraiterMessagePot()` dans `OscProcess` :
+```csharp
+void TraiterMessagePot(OSCMessage message)
+    {
+        // Récupérer la valeur du premier argument en taant qu’entier :
+        int valeur = message.Values[0].IntValue;
+
+        // Deboguer
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+
+        // Ajustement de la valeur
+        float ajustee = (
+            ((float)valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potaOutMin) + potOutMin
+        );
+        
+        // DESTINATION
+        playerPaddle.SetPosition(ajustee);
+    }
+```
+
 La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajuster la plage de ces valeurs pour qu’elles correspondent aux coordonnées de position verticale de la palette.
-
-- Trouver dans le code Unity la fonction qui permet de déplacer la palette. Astuce : regarder dans les scripts attachés au GameObjet `Player`.
-- Ajouter  à `OscProcess` les variables publiques nécessaires pour référer à la palette.
-- Effectuer un `Bind` dans `OscProcess` entre le message `/pot` et une nouvelle fonction de traitement de message.
-- Dans cette fonction, nous n’utilisons **pas** le code à fonctionnement booléen précédent :
-```csharp
-    // TRAITER LA VALEUR ICI !
-    // if (valeur == 1)
-    // {
-    // } else {
-    // }
-``` 
-- Nous allons plutôt utiliser le code suivant pour une plage de valeurs, qui transforme le flux brut d’une plage entre 0 et 1023 en coordonnées de jeu fluides (par exemple : -1.0 à 1.0). :
-```csharp
-    // TRAITER LA VALEUR ICI !
-    float ajuste = (((float)valeur - potInMin) / (potInMax - potInMin) * (potOutMax - potOutMin) + potOutMin);
-    // AJOUTER À LA LIGNE SUIVANTE LE CODE POUR APPLIQUER LA VARIABLE ajuste AU DÉPLACEMENT DE LA PALETTE ICI !
-    // COMME INDICE C’EST QQCH COMME : palette.setVercialPosition( ajuste);
-```
-
-- Nous devons aussi ajouter les variables (propriétés) suivantes en haut de la **classe** `OscProcess` pour qu’elles puissent être ajustées :
-```csharp
-public int potInMin = 0;
-public int potInMax = 1023;
-public float potOutMin = 0.0f;
-public float potOutMax = 1.0f;
-```
-
 
 - De retour dans l’éditeur Unity, **lancer le jeu**.
 - La palette devrait bouger en fonction de la rotation du potentiomètre, mais ne couvre pas tout le terrain.
