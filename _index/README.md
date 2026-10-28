@@ -4,6 +4,7 @@
 * Cours
   * [COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA](/cours/582-531_conception_experience/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
+* Coverage
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
@@ -221,6 +222,8 @@
     * [OBS Studio: Télécommande et inspecteur](/logiciels/obs/telecommande/)
   * [Scan de réseau : Open-IP-Scanner](/logiciels/open-ip-scanner/)
   * [OSCMO-LiDAR pour scanner laser LiDAR Slamtec](/logiciels/oscmo-lidar/)
+  * [p5.js](/logiciels/p5js/)
+    * [p5.js et WebSocket](/logiciels/p5js/websocket/)
   * [Pure Data (Pd)](/logiciels/pd/)
     * Audio
       * [Pd : Activation de l’audio](/logiciels/pd/audio/activation/)
@@ -260,7 +263,6 @@
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
-      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)

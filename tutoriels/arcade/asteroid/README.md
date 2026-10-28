@@ -131,9 +131,9 @@ monOsc.onOscMessageReceived(traiterMessageOsc); // ACQUISITION DES MESSAGES
 
 ## Le patcher FINAL Pure Data pour effectuer le relais 
 
-Dans l'étape précédente, nous avons **testé** et **validé** le code Arduino avec le **patcher pour tester l’OSC SLIP** . Nous fermons ce patcher et nous allons utiliser le patcher Pd qui effectue le relais entre Arduino et Unity comme solution finale.
+Dans l’étape précédente, nous avons **testé** et **validé** le code Arduino avec le **patcher pour tester l’OSC SLIP** . Nous fermons ce patcher et nous allons utiliser le patcher Pd qui effectue le relais entre Arduino et Unity comme solution finale.
 
-Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/osc/relais/relais_osc_slip_udp_bidirectionnel.pd), le copier dans le dossier de projet Arduino, l'ouvrir et configurer [comport](/logiciels/pd/serie/comport).
+Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/osc/relais/relais_osc_slip_udp_bidirectionnel.pd), le copier dans le dossier de projet Arduino, l’ouvrir et configurer [comport](/logiciels/pd/serie/comport).
 
 ## Préalables Unity
 
@@ -159,7 +159,7 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 
 Pointer vers le script `AsteroidDodger` du GameObject `Game Manager` :
 - Dans `OscProcess`, ajouter une variable de type `AsteroidDodger` nommée `asteroidDodger` dans la classe.
-- De retour dans l’inspecteur de l’éditeur Unity, lier l'instance du script `AsteroidDodger` du GameObject `Game Manager` à la propriété `asteroidDodger` du script `OscProcess` du GameObject `OSC`.
+- De retour dans l’inspecteur de l’éditeur Unity, lier l’instance du script `AsteroidDodger` du GameObject `Game Manager` à la propriété `asteroidDodger` du script `OscProcess` du GameObject `OSC`.
 
 
 ### La photorésistance
@@ -186,7 +186,7 @@ if ( asteroidDodger.GetShipIsVisible() ) {
 
 ## Tester le tout
 
-La DEL devrait s'allumer et clignoter en même temps que le vaisseau. La variation de lumière sur la photorésistance devrait déplacer légèrement le vaisseau. Ce problème sera résolu à la prochaine étape.
+La DEL devrait s’allumer et clignoter en même temps que le vaisseau. La variation de lumière sur la photorésistance devrait déplacer légèrement le vaisseau. Ce problème sera résolu à la prochaine étape.
 
 > [!WARNING]
 > Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
