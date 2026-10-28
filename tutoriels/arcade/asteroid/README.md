@@ -101,6 +101,7 @@ void traiterMessageOsc(MicroOscMessage & message) {
 
         digitalWrite(3, valeur); // ASSIGNER LA VALEUR A LA DEL
    } 
+}
 ```
 - Ajouter au début de `loop()`, un appel à la fonction `onOscMessageReceived` qui va déclencher `traiterMessageOsc` si un message est reçu :
 ```cpp
