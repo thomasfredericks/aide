@@ -124,12 +124,13 @@ monOsc.onOscMessageReceived(traiterMessageOsc); // ACQUISITION DES MESSAGES
     - address : `lumiere`
     - format : `i`
     - arguments : `0` ou `1`
-    
+
+
 ### Le patcher FINAL Pure Data pour effectuer le relais 
 
 Dans l'étape précédente, nous avons **testé** et **validé** le code Arduino avec le **patcher pour tester l’OSC SLIP** . Nous fermons ce patcher et nous allons utiliser le patcher Pd qui effectue le relais entre Arduino et Unity comme solution finale.
 
-Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/osc/relais/relais_osc_slip_udp_bidirectionnel.pd), le copier dans le dossier de projet Arduino et configurer [comport](/logiciels/pd/serie/comport).
+Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/osc/relais/relais_osc_slip_udp_bidirectionnel.pd), le copier dans le dossier de projet Arduino, l'ouvrir et configurer [comport](/logiciels/pd/serie/comport).
 
 ### Préalables Unity
 
