@@ -104,7 +104,7 @@ MicroOscSlip<128> monOsc(&Serial);
 Serial.begin(115200);
 ```
 
-### Interrupteur du bouton d’arcade
+### Interrupteur du bouton d’arcade dans Arduino
 
 - Ajouter `#include <Bounce2.h>` dans l’espace global.
 - Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
@@ -127,7 +127,7 @@ Bounce2::Button bouton;
     }
 ```
 
-### Potentiomètre
+### Potentiomètre dans Arduino
 
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur du potentiomètre à intervalles réguliers.
 
@@ -149,11 +149,11 @@ if ( chronoPot.hasPassed(20)) { // SI LE CHRONO DÉPASSE 20 MILLISECONDES
 ```
 
 
-### Pure Data
+## Pure Data
 
 Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd), le copier dans le dossier de projet Arduino `pong_bouton_pot_arduino` et configurer [comport](/logiciels/pd/serie/comport).
 
-### Préalables Unity
+## Préparation d'Unity
 
 - Fourcher (*forker*) le dépôt [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong).
 - Renommer le projet `pong_bouton_pot_unity`.
@@ -165,18 +165,17 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
     - Cliquer et maintenir le bouton de la souris pour bouger la palette.
     - La touche espace lance la balle. 
 
-
 > [!NOTE]
 > Il faut s’assurer que les # de ports OSC dans Pd et dans Unity sont les mêmes.
 
-### Modifications au code Unity
+## Modifications au code Unity
 
-#### Général
+### extOSC
 
 - Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
 
 
-### Pointer vers le script GameManager du GameObject Game Manager
+### Pointer vers les scripts GameManager et PlayerPaddle
 
 Pointer vers le script `GameManager` du GameObject `Game Manager` :
 - Dans `OscProcess`, ajouter dans la classe une variable de type `GameManager` nommée `gameManager`.
@@ -185,12 +184,12 @@ Pointer vers le script `GameManager` du GameObject `Game Manager` :
 - Dans l’inspecteur de l’éditeur Unity, lier le GameObject `Player` à la propriété `playerPaddle` du script `OscProcess` du GameObject `OSC`.
 
 
-#### Le bouton
+### Le bouton dans Unity
 
 - Dans le code Unity, la fonction utilisée pour lancer la balle est `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`).
-- Le code ci-bas montre comment effectuer dans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`). 
+- Le code ci-bas montre comment effectuer dans `OscProcess`, un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `ThrowBall()` du script `GameManager` (lié à la variable `gameManager`). 
 
-Le contenu du `Start()` dans `OscProcess`:
+Le contenu du `Start()` dans `OscProcess` :
 ```csharp
    void Start()
     {
@@ -220,7 +219,7 @@ void TraiterMessageBut0(OSCMessage message)
 ```
 
 
-#### Le potentiomètre
+### Le potentiomètre dans Unity
 
 - Dans le code Unity, la fonction utilisée pour déplacer la palette est `SetPosition(float y)` du script `PlayerPaddle` (lié à la variable `playerPaddle`).
 - Le code ci-bas montre comment effectuer dans `OscProcess` un [Bind int vers argument float d’une méthode](/logiciels/unity/osc/extosc/bind/int_float/) entre le message `/pot` et la **destination** qui est la méthode `SetPosition(float y)` du script `PlayerPaddle`  (lié à la variable `playerPaddle`). 

@@ -40,7 +40,7 @@ MicroOscSlip<128> monOsc(&Serial);
 Serial.begin(115200);
 ```
 
-### Interrupteur du bouton d’arcade
+### Interrupteur du bouton d’arcade dans Arduino
 
 - Ajouter `#include <Bounce2.h>` dans l’espace global.
 - Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
@@ -63,7 +63,7 @@ Bounce2::Button bouton;
     }
 ```
 
-### Investiguer le code Unity
+## Investiguer le code Unity
 
 Identifier le code Unity pour trouver le bloc de code ou la méthode qui :
 - Démarre le jeu.
@@ -88,20 +88,48 @@ Ainsi que celles-ci :
 
 ![Le script InputProcess sur le GameObject EventSystem](./inputprocess_script.png)
 
+Nous arrivons à la conclusion que nous devons déclencher les méthodes suivantes :
+- `StarGame()` du script `GameManager`.
+- `Jump()` du script `Player`.
 
-### Lier les scripts de desintation
+## Modifier le code Unity
 
-Dans `OscProcess` nous ajoutons les deux propriétés à la classe :
+### Lier les scripts de destination
+
+Dans `OscProcess` nous devons ajouter les deux propriétés suivantes :
 ```csharp
-GameManager gameManager;
-Player player;
+    public GameManager gameManager;
+    public Player player;
+``` 
+
+Voici un rappel d'où placer ces proprités :
+```csharp
+// ...
+public class OscProcess : MonoBehaviour
+{
+    // ...
+    public GameManager gameManager;
+    public Player player;
+    
+    void Start() {
+        // ...
+    }
+    void Update() {
+        // ...
+    }
+}
 ```
+
+
 
 ![Assignation de Player et GameManager au script OscProcess](./assigner_gamestate_et_player.png)
 
-### Modifier le code Unity
+### Bouton dans Unity
 
-- Le code ci-bas montre comment effectuer dans `OscProcess`,  un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et la **destination** qui est la méthode `StartGame()` du script `GameManager` (lié à la variable `gameManager`) et la méthode `Jump()` du script `Player`. 
+- Le code ci-bas montre comment effectuer dans `OscProcess` :
+    - un [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) entre le message `/but0` et les **destinations** :
+        - la méthode `StartGame()` du script `GameManager` (lié à la variable `gameManager`).
+        -  la méthode `Jump()` du script `Player` (lié à la variable `player`). 
 
 Le contenu du `Start()` dans `OscProcess`:
 ```csharp
@@ -126,7 +154,7 @@ void TraiterMessageBut0(OSCMessage message)
         // Traiter la valeur
         if ( valeur == 0 ) {
             gameManager.StartGame();
-             player.Jump();
+            player.Jump();
         } else {
             // Si nécéssaire, appeler une fonction ici
         }
@@ -138,7 +166,7 @@ void TraiterMessageBut0(OSCMessage message)
 > [!NOTE]
 > Appuyer sur Play pour partir le projet Unity!
 
-### Le patcher Pd
+## Le patcher Pd
 
 Le patcher Pd `relais_osc_slip_vers_udp.pd` permet :
 - D’envoyer des messages OSC UDP à Unity.
