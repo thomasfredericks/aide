@@ -96,7 +96,7 @@ En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous
 - sa relation avec les autres membres
 - son lieu de vie
 
-Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Indiquer si le lieu de vie est dans la communauté ou à l'extérieur en dessinant dans ou à l'extérieur des limites.
+Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Indiquer si le lieu de vie est dans la communauté ou à l’extérieur en dessinant dans ou à l’extérieur des limites.
 
 Un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien et de présenter les membres suivants :
 
@@ -124,7 +124,7 @@ Quelques exemples :
 > - Un abri convenable.
 > - De la nourriture.
 
-Tous ensemble, nous choisissons ensuite une de ces ressources qui sera en abondance. L'ajouter dans la case « Abondances », et la personne qui l’a nommée **dessine alors cette ressource en abondance sur la carte.**
+Tous ensemble, nous choisissons ensuite une de ces ressources qui sera en abondance. L’ajouter dans la case « Abondances », et la personne qui l’a nommée **dessine alors cette ressource en abondance sur la carte.**
 
 Toutes les autres ressources sont écrites dans la case « Pénuries », et les personnes qui les ont déclarées **dessinent leur rareté ou leur absence d’une manière ou d’une autre sur la carte**.
 
@@ -164,15 +164,15 @@ La plupart des évènements comportent deux options parmi lesquelles nous devons
 
 L’évènement peut poser une question, apporter de mauvaises nouvelles ou créer de nouvelles occasions. C’est à la personne qui a tiré l’évènement qu’il revient de prendre les décisions.
 
-Qu'est-ce qui est une bonne idée :
+Qu’est-ce qui est une bonne idée :
 - Éviter les clichés
-   - Les clichés naissent souvent d'une tentative de résumer une expérience complexe en une phrase facile à digérer.
+   - Les clichés naissent souvent d’une tentative de résumer une expérience complexe en une phrase facile à digérer.
    - Montrez le détail unique qui rend la scène réelle, plutôt que de recourir à une image toute faite.
-   - Questionner ses automatismes en se demandant : "Est-ce que j'utilise cette métaphore parce qu'elle est vraie, ou juste parce que je l'ai entendue mille fois ?"
-   - Cultiver l'observation directe : L'authenticité vient souvent des petits détails que personne n'a encore remarqués.
-   - Accepter l'imperfection et la complexité. Les clichés simplifient excessivement la réalité (le "méchant" est méchant, le "héros" est brave). La vie réelle est nuancée.
+   - Questionner ses automatismes en se demandant : "Est-ce que j’utilise cette métaphore parce qu’elle est vraie, ou juste parce que je l’ai entendue mille fois ?"
+   - Cultiver l’observation directe : L’authenticité vient souvent des petits détails que personne n’a encore remarqués.
+   - Accepter l’imperfection et la complexité. Les clichés simplifient excessivement la réalité (le "méchant" est méchant, le "héros" est brave). La vie réelle est nuancée.
 - Se baser sur les relations entre les membres de la communauté
-- S'imaginer être la ou le membre de la communauté
+- S’imaginer être la ou le membre de la communauté
 
 > [!TIP]
 > Quand l’évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.

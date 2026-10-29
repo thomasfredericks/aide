@@ -1,10 +1,12 @@
 # Index
 
 <!-- INDEX START -->
+* Cmontmorency
+  * [Bibliographie Montmorency](/cmontmorency/bibliotheque/)
 * Cours
   * [COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA](/cours/582-531_conception_experience/)
+    * [582-531 : Infrastructure logicielle et matérielle](/cours/582-531_conception_experience/infrastructure/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
-* Coverage
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)
@@ -61,7 +63,6 @@
     * [Marges](/creation/visuel/marges/)
 * Culture
   * [Autorat : droit d’auteur](/culture/autorat/)
-  * [Bibliographie Montmorency](/culture/biblio_momo/)
   * Education
     * [Manifeste pour une éducation résiliente](/culture/education/manifeste/)
     * [Deux systèmes de pensée](/culture/education/sytemes_pensee/)
@@ -263,6 +264,7 @@
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)

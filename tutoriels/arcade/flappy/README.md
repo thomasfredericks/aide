@@ -102,7 +102,7 @@ Dans `OscProcess` nous devons ajouter les deux propriétés suivantes :
     public Player player;
 ``` 
 
-Voici un rappel d'où placer ces proprités :
+Voici un rappel d’où placer ces proprités :
 ```csharp
 // ...
 public class OscProcess : MonoBehaviour
