@@ -43,9 +43,12 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - OSC
 
 
-## Expérience en ligne narrative
+## Expérience narrative
 
-
+- Environnement de développement principal :
+    - Unity
+    - Visual Studio Code + HTML5
+         
 
 ## Réalité augmentée
 

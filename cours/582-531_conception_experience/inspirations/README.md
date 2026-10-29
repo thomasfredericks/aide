@@ -23,20 +23,27 @@
 
 - [Toribash](https://toribash.com/)
 - [Super Hot](https://www.crazygames.com/game/super-hot)  
-- [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) (2010, Flash) Un jeu dans lequel le joueur doit sauver le monde d’un remède contre le cancer qui tourne mal. Il n’a droit qu’à une seule partie et ses choix sont définitifs.
-- [TRY. DIE. REPEAT. - Game Jolt](https://gamejolt.net/?token=ruNSqzR8XX77ZGHfYUZSXVkrtHPV5P) Un puzzle-platformer où les cadavres du joueur servent littéralement de plateformes pour progresser.
-- [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) Un “serious game” où tirer sur des terroristes tue toujours des civils et engendre encore plus de terroristes, rendant la violence sans fin. 
-- [Papers, Please](https://papersplea.se/) Dans Papers, Please, le joueur incarne un agent de l’immigration chargé des contrôles aux frontières dans le pays dystopique fictif d’Arstotzka, en situation de tension politique permanente avec ses voisins. À sa sortie, Papers, Please a été très bien accueilli par la critique, et il est aujourd’hui considéré comme un jeu d’empathie, ainsi qu’un exemple de la manière dont le jeu vidéo peut être une forme d’art.
-- [Baba Is You](https://hempuli.com/baba/) Baba Is You est un jeu de réflexion dans lequel les règles à suivre sont représentées sous forme d’objets physiques dans le monde du jeu. En manipulant ces règles, vous pouvez modifier le fonctionnement du jeu, détourner l’usage des éléments présents dans les niveaux et provoquer des interactions surprenantes ! 
+- [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) 
+- [TRY. DIE. REPEAT. - Game Jolt](https://gamejolt.net/?token=ruNSqzR8XX77ZGHfYUZSXVkrtHPV5P) 
+- [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) 
+- [Rogue (original)](https://playclassic.games/games/role-playing-dos-games-online/play-rogue-online/play/)
+- [Papers, Please](https://papersplea.se/) 
+- [Baba Is You](https://hempuli.com/baba/) 
 - [Hazy Days - An air pollution breathing sim by Mike Ren](https://mikeyren.itch.io/hazydays) 
 - [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/resist/) 
 - [Loser Lane](https://marieflanagan.com/loserlanepark/)
+- [Thomas Was Alone Full Playthrough [No Commentary] - YouTube](https://www.youtube.com/watch?v=ITNPHSoHJ_w)
+- [PS2 Longplay [116] Rez (US) - YouTube](https://www.youtube.com/watch?v=FDRRl83jQ9Y)
+- [Tale of Tales ||T|h|e||E|n|d|l|e|s|s||F|o|r|e|s|t||](https://tale-of-tales.com/TheEndlessForest/)
 
-## Expérience en ligne narrative
+## Expérience narrative
 
 - [The Boat | SBS](https://www.sbs.com.au/theboat/)
 - [Universe to You — Everything explained. Probably.](https://scrollytelling.ai/universe-to-you/)
-- [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria) Un jeu narratif sur la guerre par drones, où les actions du joueur entraînent des répercussions et l’obligent à réfléchir sur la responsabilité.
+- [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria)
+- [Passage](http://passage.toolness.org/)
+- [Rod Humble's The Marriage by giapre](https://giapre.itch.io/the-marriage)  
+- [The Graveyard (PC) - Interactive Painting |Longplay - Walkthrough - Gameplay| No Commentary - YouTube](https://www.youtube.com/watch?v=_8ndnwWKLSA)
 
 ## Réalité augmentée
 
