@@ -365,41 +365,11 @@ Activités en classe :
 Activités en classe :
 
 - Aider Charlène en vous inscrivant à [Meshy.ai](https://www.meshy.ai/fr/education) avec votre courriel du collège.
-- Détermination des valeurs de groupe.
+- Détermination des qualités d’un bon collaborateur.
 - Présentation des critères pour la prochaine évaluation.
-- Écosystème technique pour la conception de projet :
-	- Environnement de développement principal (cerveau) :
-		- Unity (possiblement Godot ou Three.js)
-			- OSC 
-			- Spout
-	- Transducteurs :
-		- Carte Arduino + Arduino Terminals
-		- Raspberry PI ou M5Stack ATOM POE (pour éloigner les transducteurs de l’ordinateur cerveau)
-		- Pure Data
-			- OSC
-	- Détection d’utilisateurs par caméra : 
-		- TouchDesigner avec MediaPipe ou Kinect
-			- OSC
-			- Spout
-	- Mapping :
-		- OBS
-			- Spout
-			- HyperHDR	
-	- Lumières DMX/ArtNet :
-		- Pure Data
-    	- QLC+
-    	- OSC
-- Visionner les exemples :
-	- [Toribash](https://toribash.com/)
-	- [Data Chromesthesia | Felipe Pantone](https://www.acuteart.com/discover/felipe-pantone)
-	- [Hand from Above - Chris O’Shea](https://www.chrisoshea.org/portfolio/hand-from-above)
-	- [PainStation - Wikipedia](https://en.wikipedia.org/wiki/PainStation)
-	- [Jump! de Yacine Sebti](https://legacy.imal.org/en/project/jump)
-	- [Daniel Rozin Interactive Art](https://www.smoothware.com/danny/index.html)
-	- [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
-	- [Dash Dodge Dive - Chris O’Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
-	- [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
-	- [Sketch Aquarium | teamLab Learn and Play! Future Park](https://futurepark.teamlab.art/en/playinstallations/sketch_aquarium/)
+- [Infrastructure technique](./infrastructure/) pour le projet proposé.
+- [Inspirations](./inspirations/) pour le projet proposé.
+
 
 
 ## Semaine 11 : 16 novembre / 12 novembre

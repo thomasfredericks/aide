@@ -1,4 +1,4 @@
-# Bibliographie Montmorency
+# Collège Montmorency : Bibliographie sélective de la bibliothèque
 
 Bibliographie sélective d’ouvrages disponibles à la bibliothèque du collège Montmorency.
 

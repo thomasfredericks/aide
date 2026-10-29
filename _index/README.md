@@ -2,10 +2,11 @@
 
 <!-- INDEX START -->
 * Cmontmorency
-  * [Bibliographie Montmorency](/cmontmorency/bibliotheque/)
+  * [Collège Montmorency : Bibliographie sélective de la bibliothèque](/cmontmorency/bibliotheque/)
 * Cours
   * [COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA](/cours/582-531_conception_experience/)
     * [582-531 : Infrastructure logicielle et matérielle](/cours/582-531_conception_experience/infrastructure/)
+    * [582-531 : Inspirations](/cours/582-531_conception_experience/inspirations/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
 * Creation
   * Audio
@@ -188,6 +189,7 @@
   * [Jeu L’année de la veille](/jeu/annee_de_la_veille/)
   * [Règles du jeu de cartes Bartok](/jeu/bartok/)
   * [Jeu Chat sur ta tête (Cat on Yer Head)](/jeu/chat_sur_ta_tete/)
+  * [Remue-méninges sur les qualités d’un bon collaborateur](/jeu/qualites/)
   * Theorie_Des_Jeux
     * [Dilemme du prisonnier](/jeu/theorie_des_jeux/dilemne_prisonnier/)
   * [Jeu Wonder Wander](/jeu/wonder_wander/)

@@ -33,7 +33,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
 
 - Environnement de développement principal :
     - Unity (possiblement Godot ou Three.js)
-- Boutons et manettes (en commun pour tous les projets de la borne d'arcade) :
+- Boutons et manettes (en commun pour tous les projets de la borne d’arcade) :
     - Carte Arduino + Arduino Terminals
     - Pure Data
         - OSC
@@ -46,6 +46,11 @@ Cette infrastructure représente l’environnement technique standardisé utilis
 ## Expérience en ligne narrative
 
 
+
+## Réalité augmentée
+
+- Environnement de développement principal :
+    - Unity 
 
 ## Réalité virtuelle
 

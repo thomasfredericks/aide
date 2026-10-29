@@ -126,7 +126,7 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 ## Société
 
 - [The Marriage](https://kyrie.pe/the_marriage/) **JOUABLE EXPÉRIMENTAL RELATIONS**
-- [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/d/) **JOUABLE ENJEUX-SOCIAUX**
+- [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/resist/) **JOUABLE ENJEUX-SOCIAUX**
 - [Loser Lane](https://marieflanagan.com/loserlanepark/) **JOUABLE ENJEUX-SOCIAUX**
 
 ## Pollution

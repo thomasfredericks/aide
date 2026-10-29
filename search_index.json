@@ -20,19 +20,29 @@
         "u": "#/cours/582-531_conception_experience/infrastructure"
     },
     {
+        "t": "582-531 : Inspirations",
+        "l": "582-531  inspirations",
+        "u": "#/cours/582-531_conception_experience/inspirations"
+    },
+    {
         "t": "COURS : 582-531 OBJETS INTERACTIFS",
         "l": "cours  582-531 objets interactifs",
         "u": "#/cours/585-531_objets_interactifs"
     },
     {
-        "t": "Bibliographie Montmorency",
-        "l": "bibliographie montmorency",
+        "t": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
+        "l": "college montmorency  bibliographie selective bibliotheque",
         "u": "#/cmontmorency/bibliotheque"
     },
     {
         "t": "Jeu L’année de la veille",
         "l": "jeu l’annee veille",
         "u": "#/jeu/annee_de_la_veille"
+    },
+    {
+        "t": "Remue-méninges sur les qualités d’un bon collaborateur",
+        "l": "remue-meninges qualites d’un bon collaborateur",
+        "u": "#/jeu/qualites"
     },
     {
         "t": "Jeu Chat sur ta tête (Cat on Yer Head)",
