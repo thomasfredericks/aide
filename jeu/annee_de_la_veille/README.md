@@ -22,14 +22,8 @@ Dans ce jeu, le mot **« veille »** porte un double sens. D’une part, il dés
 
 ## Qui nous sommes
 
-Nous avons tous deux rôles à jouer dans ce jeu. Nous sommes invités à naviguer constamment entre ces deux rôles.
-
-- Le premier consiste à prendre la parole au nom des membres de cette communauté et à nous soucier de leur destinée, tant individuelle que collective.
-- Le second consiste à introduire, avec détachement, des dilemmes et des situations difficiles afin de voir ce qu’elles produisent.
-
 Le jeu nous demandera de nous exprimer au nom de différents résidents de la communauté et d’agir pour eux. Chaque fois que nous le ferons, nous indiquerons clairement quel résident parle ou agit.
 
-S’il existe une question avec laquelle vous êtes aux prises dans votre propre vie comme la possibilité qu’un espace soit réellement sûr ou qu’il y ait une place pour l’espoir, n’hésitez pas à introduire des situations qui la mettent à l’épreuve.
 
 > [!IMPORTANT]
 > La communauté n’est pas humaine. La communauté peut être composée d’un type d’être comme des monstres, des esprits, des animaux, des animaux anthropomorphiques, etc. Ou un mélange de tous ces êtres. L’important est d’avoir une diversité. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne font pas partie de la communauté. 
@@ -38,7 +32,7 @@ S’il existe une question avec laquelle vous êtes aux prises dans votre propre
 
 Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 
-À gauche, nous identifions deux sections dans lesquelles nous allons inscrire des listes :  « Abondances » et « Pénuries ».
+À gauche, nous identifions deux sections dans lesquelles nous allons inscrire des listes : « Abondances » et « Pénuries ».
 
 À droite de la feuille, nous tirons une grande section « Membres ».
 
@@ -80,8 +74,7 @@ Avant le début de la partie, nous devons établir la nature de ce qui a été p
 
 Nous commençons par une brève discussion (d’une durée maximale de quatre minutes) afin de déterminer ce qui a été pris (cela peut être un vol, un enlèvement, etc). Cela peut être aussi simple que quelqu’un proposant :
 
-> « Que diriez-vous que le fils du chef a été enlevé parce qu’il portait des pierres précieuses ? »
-> … et que tout le monde acquiesce.
+> « Le fils du chef a été enlevé parce qu’il portait des pierres précieuses ? »
 
 Il est fort probable que ce qui a été pris soit l’une des ressources de la communauté. Dans ce cas, pourquoi cette ressource est-elle nécessaire à la survie de la communauté ? Par exemple :
 
@@ -89,30 +82,38 @@ Il est fort probable que ce qui a été pris soit l’une des ressources de la c
 
 Ensuite, nous choisissons une personne qui dessinera, à l’extérieur du périmètre de la communauté, un lieu marquant laissé derrière par le voleur. Il peut s’agir d’un campement, d’un tas de déchets, d’un phare, d’une statue ou d’une église de fortune, etc. Il est préférable que ce dessin demeure petit et simple.
 
-## Introduction des membres de la communauté
+## Introduction des premiers membres de la communauté
 
-Nous serons invités à incarner différents membres de la communauté au fil de la partie. En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
+En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous permet d’explorer la manière dont les individus façonnent les communautés, mais aussi la façon dont ils vivent avec les cicatrices laissées par l’occupation.
 
-Pendant le jeu, il se peut qu’il soit nécessaire de créer des membres de la communauté qui seront acteurs, témoins ou victimes des évènements. Chaque fois, nous devons nommer ces membres de la communauté, leur donner un rôle, un lien avec les autres membres et l’inscrire dans la section « Membres » de l’espace de jeu, même s’il s’agit d’une ou d’une membre de la communauté qui disparaît immédiatement à la suite d’un incident.
 
 > [!IMPORTANT]
-> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne sont pas natifs à notre territoire.
+> Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne sont pas natifs à notre territoire. Ce sont des humains « normaux ».
 
-À ce stade, chacun de nous doit présenter une ou un membre de la communauté et nous parler brièvement de son lieu de vie. Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
+À ce stade, chacun de nous doit présenter brièvement une ou un membre de la communauté en précisant :
+- son rôle au sein de la communauté
+- sa relation avec les autres membres
+- son lieu de vie
 
-Par exemple, un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien :
+Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent être sommaires et simples, en laissant beaucoup d’espace vide pour les ajouts qui surviendront au cours de la partie. Indiquer si le lieu de vie est dans la communauté ou à l'extérieur en dessinant dans ou à l'extérieur des limites.
 
-> - Le premier joueur présente un monstre : « Très bien, une bande de kobolds, les Eidoo, s’est installée dans les anciennes écuries. »
-> - La joueuse suivante ajoute : « Un ogre des collines, Tezog, vit dans la carrière située à une courte distance de la tour. »
+Un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien et de présenter les membres suivants :
+
+> - Le premier joueur : « Une bande de kobolds, les Eidoo, s’est installée dans les anciennes écuries. »
+> - La joueuse suivante : « Un ogre des collines, Tezog, vit dans la carrière située à une courte distance de la tour. »
 > - Le troisième joueur ajoute : « Un groupe d’esprits des arbres appelés les Feux Follets a creusé plusieurs arbres à la lisière de la clairière pour en faire son nid. »
-> - Enfin, la dernière joueuse dit : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
+> - La dernière joueuse : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
 > 
-> Au fur et à mesure que des détails sont ajoutés, les joueurs les dessinent sur la carte. Notez les noms dans la section à droite de la carte.
+> Au fur et à mesure que des détails sont ajoutés, les joueurs dessinent les lieux de vie sur la carte. Notez les noms, rôles et relations dans la section à droite de la carte.
 
+Chacun présente ainsi une ou un membre de la communauté, mais il est entendu qu’il existe d’autres membres qui n’ont pas encore été nommés.
+
+> [!NOTE]
+> La communauté complète est composée d’environ 60 à 80 membres.
 
 ## Ressources
 
-Ensuite, nous trouvons chacun une ressource importante pour la communauté. Le fait de choisir une ressource la rend importante. Si nous choisissons « essence », cela devient quelque chose dont notre communauté a réellement besoin et qu’elle désire. Chaque joueuse ou joueur doit choisir une ressource. Nous devrions limiter la discussion à deux minutes par personne. 
+Ensuite, nous trouvons chacun une ressource importante pour la communauté. Le fait de choisir une ressource la rend importante. Si nous choisissons « essence », cela devient quelque chose dont notre communauté a réellement besoin et qu’elle désire. **Chaque joueuse ou joueur doit nomme une ressource.** Nous devrions limiter la discussion à une minute par personne. 
 
 Quelques exemples :
 
@@ -122,10 +123,9 @@ Quelques exemples :
 > - Un abri convenable.
 > - De la nourriture.
 
+Tous ensemble, nous choisissons ensuite une de ces ressources qui sera en abondance. L'ajouter dans la case « Abondances », et la personne qui l’a nommée **dessine alors cette ressource en abondance sur la carte.**
 
-Tous ensemble, nous choisissons ensuite une de ces ressources qui sera en abondance. Elle doit être écrite dans la case « Abondances », et la personne qui l’a nommée dessine alors cette ressource en abondance sur la carte.
-
-Toutes les autres ressources sont écrites dans la case « Pénuries », et les personnes qui les ont déclarées dessinent leur rareté ou leur absence d’une manière ou d’une autre sur la carte.
+Toutes les autres ressources sont écrites dans la case « Pénuries », et les personnes qui les ont déclarées **dessinent leur rareté ou leur absence d’une manière ou d’une autre sur la carte**.
 
 En début de partie, nous aurons une ressource en abondance et toutes les autres en pénurie. Ces listes servent de fil directeur pour interpréter la santé de la communauté. Tout au long de la partie, nous les mettrons à jour pour refléter les changements dans notre situation lorsque nous jugerons approprié de le faire. Peut-être l’achèvement d’un projet viendra-t-il soulager une pénurie ou créer une abondance. Certains évènements viendront également modifier ces listes.
 
@@ -137,14 +137,14 @@ Par exemple :
 > - Les pénuries d’eau courante et de moyens de transport sont également indiquées sur la carte.
 
 
-
 ## Le jeu commence
 
-L’unité de temps de base est la semaine. Chaque semaine représente un tour de jeu pour l’un des joueurs, en procédant dans le sens des aiguilles d’une montre. Nous devons prévoir deux ou trois minutes de temps réel pour terminer une semaine.
+Chaque tour de jeu représente une semaine. Nous devons prévoir deux ou trois minutes de temps réel pour terminer une semaine.
 
-En jouant à ce jeu, nous devons nous retenir de trop discuter d’avance de ce que nous allons faire par la suite. Il existe des mécanismes spécifiques dans le jeu pour aborder les problèmes de la communauté et manifester notre mécontentement. Lorsque nous jouons, nous ne parlons pas en dehors de notre tour et n’essayons pas de contourner ces mécanismes.
+En jouant à ce jeu, **nous devons nous retenir de trop discuter** d’avance de ce que nous allons faire par la suite. Il existe des mécanismes spécifiques dans le jeu pour aborder les problèmes de la communauté et manifester notre mécontentement.
 
-Ces règles tentent de montrer à quel point il est difficile de donner la parole à la communauté dans son intégralité, et comment les tensions et les mécontentements tendent à subsister au fil des semaines, voire des mois.
+> [!IMPORTANT]
+> Ces règles tentent de montrer à quel point il est difficile de donner la parole à la communauté dans son intégralité, et comment les tensions et les mécontentements tendent à subsister au fil des semaines, voire des mois.
 
 ## Le tour d’une joueuse ou d’un joueur
 
@@ -163,10 +163,20 @@ La plupart des évènements comportent deux options parmi lesquelles nous devons
 
 L’évènement peut poser une question, apporter de mauvaises nouvelles ou créer de nouvelles occasions. C’est à la personne qui a tiré l’évènement qu’il revient de prendre les décisions.
 
+Qu'est-ce qui est une bonne idée :
+- Éviter les clichés
+   - Les clichés naissent souvent d'une tentative de résumer une expérience complexe en une phrase facile à digérer.
+   - Montrez le détail unique qui rend la scène réelle, plutôt que de recourir à une image toute faite.
+   - Questionner ses automatismes en se demandant : "Est-ce que j'utilise cette métaphore parce qu'elle est vraie, ou juste parce que je l'ai entendue mille fois ?"
+   - Cultiver l'observation directe : L'authenticité vient souvent des petits détails que personne n'a encore remarqués.
+   - Accepter l'imperfection et la complexité. Les clichés simplifient excessivement la réalité (le "méchant" est méchant, le "héros" est brave). La vie réelle est nuancée.
+- Se baser sur les relations entre les membres de la communauté
+- S'imaginer être la ou le membre de la communauté
+
 > [!TIP]
 > Quand l’évènement concerne une ou un membre de la communauté, la joueuse ou le joueur actif incarne cette ou ce membre de la communauté.
 
-Si un évènement mentionne des éléments non présents sur la cart, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d’utiliser du texte.
+Si un évènement mentionne des éléments non présents sur la carte, la personne qui a tiré l’évènement doit trouver comment la représenter d’une manière ou d’une autre sur la carte au centre de la table. Éviter d’utiliser du texte.
 
 > [!IMPORTANT]
 > Si l’évènement mentionne l’endroit où dorment les membres de la communauté, la joueuse ou le joueur actif pourrait dessiner une série de tentes près de la lisière de la forêt.
@@ -243,7 +253,6 @@ Un projet peut nécessiter de ressources. Si une ressource nécessaire est abond
 Si un projet ne peut normalement être mené à bien en moins de six semaines, nous devons le compléter par étapes.
 
 Nous plaçons un dé sur la carte à l’endroit où le projet a lieu, la face supérieure indiquant le nombre de semaines nécessaires à son accomplissement.
-
 
 > **Quelques exemples de projets :**
 >
