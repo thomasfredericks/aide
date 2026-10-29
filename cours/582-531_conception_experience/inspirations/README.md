@@ -33,8 +33,7 @@
 - [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/resist/) 
 - [Loser Lane](https://marieflanagan.com/loserlanepark/)
 - [Thomas Was Alone Full Playthrough [No Commentary] - YouTube](https://www.youtube.com/watch?v=ITNPHSoHJ_w)
-- [PS2 Longplay [116] Rez (US) - YouTube](https://www.youtube.com/watch?v=FDRRl83jQ9Y)
-- [Tale of Tales ||T|h|e||E|n|d|l|e|s|s||F|o|r|e|s|t||](https://tale-of-tales.com/TheEndlessForest/)
+- [Rez - PS2 Longplay [116] (US) - YouTube](https://www.youtube.com/watch?v=FDRRl83jQ9Y)
 
 ## Expérience narrative
 
@@ -52,6 +51,8 @@
 ## Réalité virtuelle
 
 - [Half-Life: Alyx](https://www.half-life.com/en/alyx)
+- [Tea For God - VR vs IRL - Side By Side Comparison - YouTube](https://www.youtube.com/watch?v=lTFMaCd6lBM)
+- [Tale of Tales ||T|h|e||E|n|d|l|e|s|s||F|o|r|e|s|t||](https://tale-of-tales.com/TheEndlessForest/)
 
 
 	
