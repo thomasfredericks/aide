@@ -91,6 +91,7 @@ En identifiant explicitement les acteurs et les perspectives en jeu, ce jeu nous
 > Les membres de la communauté qui habitent ce lieu ne sont pas humains. Ils peuvent être des monstres, des esprits, des animaux anthropomorphiques, etc. Les humains sont considérés comme les antagonistes principaux de l’histoire et ne sont pas natifs à notre territoire. Ce sont des humains « normaux ».
 
 À ce stade, chacun de nous doit présenter brièvement une ou un membre de la communauté en précisant :
+- son nom
 - son rôle au sein de la communauté
 - sa relation avec les autres membres
 - son lieu de vie

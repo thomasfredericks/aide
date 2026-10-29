@@ -360,6 +360,11 @@ Activités en classe :
 
 À préparer avant la classe :
 
+- Rien
+
+Activités en classe :
+
+- Aider Charlène en vous inscrivant à [Meshy.ai](https://www.meshy.ai/fr/education) avec votre courriel du collège.
 - Visionner les exemples :
 	- [Toribash](https://toribash.com/)
 	- [Data Chromesthesia | Felipe Pantone](https://www.acuteart.com/discover/felipe-pantone)
@@ -371,9 +376,6 @@ Activités en classe :
 	- [Dash Dodge Dive - Chris O’Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
 	- [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
 	- [Sketch Aquarium | teamLab Learn and Play! Future Park](https://futurepark.teamlab.art/en/playinstallations/sketch_aquarium/)
-
-Activités en classe :
-
 - Détermination des valeurs de groupe.
 - Présentation des critères pour la prochaine évaluation.
 - *Toolchain* pour la conception de projet :
