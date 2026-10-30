@@ -557,6 +557,7 @@ Apprendre à présenter rapidement un concept est une compétence clé pour tout
 - Le projet doit répondre à la thématique de **la communauté**. 
 - Il doit pouvoir accueillir d’une à plusieurs personnes simultanément.
 - Il doit adresser les [publics cibles](/creation/interactivite/public/) Tueurs, Accomplisseurs ou Sociables. Éviter le public cible Explorateurs.
+- Je vais particulièrement apprécier les projets qui gardent un artéfact des visiteurs.
 - Ne pas trop s’attarder sur la faisabilité du projet à cette étape.
 
 Critères d'exécution du pitch :
@@ -575,7 +576,7 @@ Diapositives **obligatoires** :
 
 | Aspect | Détails |
 | --- | --- |
-| Médium et type d'interaction | Choisir un médium () et présenter le ou les [types d’interaction](/creation/interactivite/types/). |
+| Médium et type d'interaction | Choisir un médium (installation interactive, arcade multijoueurs, expérience narrative en ligne, réalité augmentée ou réalité virtuelle) et présenter le ou les [types d’interaction](/creation/interactivite/types/). |
 | Communauté | Présenter comment le projet répond au thème de communauté. |
 | Continuum | Présenter comment le projet se situe entre le milieu et la droite du [continuum de l’interactivité](/creation/interactivite/continuum/). |
 | Public cible | Choisir le public cible de type « tueurs », « accomplisseurs » ou « sociables » et prouver pourquoi l'idée de projet y correspond |
