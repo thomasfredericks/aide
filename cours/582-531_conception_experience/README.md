@@ -245,7 +245,7 @@ Retours :
 	- Le jeu comme forme de contrat social
 	- L’application de la [théorie des jeux](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_jeux) (*game theory*) à la conception des jeux
 - *Rock Paper Scissors+* 
-	- Le fait de ralentir le choix et de révéler le résultat progressivement donne plus d’importance à chaque décision et ajoute une dimensions dramatique.  
+	- Le fait de ralentir le choix et de révéler le résultat progressivement donne plus d’importance à chaque décision et ajoute une dimension dramatique.  
 	- L’expérience collective et l’affrontement par représentants crée une narration collective et immersive. Cela stimule le dialogue stratégique et l’anticipation des choix. Ce qui a pour effet de décupler l’investissement émotionnel (surprise, cris de joie, etc.) des joueurs face au résultat.
 	- Pour être créatif il ne faut pas avoir peur du ridicule
 	
@@ -366,7 +366,7 @@ Activités en classe :
 
 - Aider Charlène en vous inscrivant à [Meshy.ai](https://www.meshy.ai/fr/education) avec votre courriel du collège.
 - Détermination des qualités d’un bon collaborateur.
-- Présentation des critères pour la prochaine évaluation.
+- Présentation des critères pour la prochaine évaluation : [le pitch](#%c3%89valuation-3-pitch).
 - [Infrastructure technique](./infrastructure/) pour le projet proposé.
 - [Inspirations](./inspirations/) pour le projet proposé.
 
@@ -538,28 +538,70 @@ Remise :
 	- Cohérence des tailles et des dispositions d’éléments graphiques.
 	- Cohérence avec le guide de normes graphiques.
 
-
 ### Évaluation 3 : Pitch
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
 | --- | --- | --- | --- | ---: |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
-Présenter devant la classe le pitch d’une expérience interactive dans laquelle les actions de la personne interactrice influencent le comportement du système. L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système.
+Présenter devant la classe le pitch de 4 minutes qui présente une expérience multimédia interactive pour un public cible de type « tueurs », « accomplisseurs » ou « sociables ». 
 
-> Interactif : Je fais quelque chose → le système répond → cette réponse modifie ce que je peux ou veux faire ensuite.
+Apprendre à présenter rapidement un concept est une compétence clé pour tout type de concepteur. Cet exercice consiste à pratiquer l'articulation claire d'une conception tout en utilisant l'acte de communication pour aider le processus créatif lui-même. Les leçons fondamentales de cet exercice, s'assurer que le « quoi » et le « pourquoi » sont tous deux communiqués, sont précieuses non seulement pour les pitches courts, mais pour toute forme de communication verbale ou écrite.
 
-> Comme une conversation qui évolue : Personne → action → réponse du système → nouvelle situation → nouvelle action → …
+ > [!NOTE]
+ > L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système : 
+ > 
+ > La personne perçoit quelque chose → elle agit → le système répond → la personne perçoit une nouvelle situation → elle agit selon la nouvelle situation → …
 
-S’inspirer des [types d’interaction](/creation/interactivite/types/). Imaginer un projet qui est très interactif, i.e. à droite du [continuum de l’interactivité](/creation/interactivite/continuum/).
-
-Ne pas trop s’attarder sur la faisabilité du projet à cette étape.
-
-Exigences :
-
+- Voir les [inspirations](./inspirations/).
 - Le projet doit répondre à la thématique de **la communauté**. 
 - Il doit pouvoir accueillir d’une à plusieurs personnes simultanément.
 - Il doit adresser les [publics cibles](/creation/interactivite/public/) Tueurs, Accomplisseurs ou Sociables. Éviter le public cible Explorateurs.
+- Ne pas trop s’attarder sur la faisabilité du projet à cette étape.
+
+Critères d'exécution du pitch :
+
+| Exécution | Détails  |
+| --- | --- |
+| Respect de la durée | 4 à 5 minutes.  |
+| Expression | Sur le plan de base et factuel, le pitch a-t-il réussi à exprimer le concept ? |
+| Ambiguïtés | Est-ce qu'il y avait des éléments ambigus ou qui portaient à confusion ? |
+| Originalité | Est-il clair ce qui est innovant, important ou distinctif ? Est-ce que le côté génial de l'idée a bien été communiqué ? Le « pourquoi » d'une idée peut être personnel, politique, technique, financier ou narratif, tant qu'il y figure. |
+| Respect du format  | Pas de vidéo, pas d'audio. Un diaporama fonctionnel lors de la présentation. Remis en format PDF à l'enseignant |
+| Présence du texte | Afficher les mots-clés et les citations. Ne pas mettre de paragraphe de texte. Avoir des titres et présenter clairement les sections. |
+| CRAP22 | Respect du [CRAP](/creation/visuel/crap/) et du 2 polices de 2 tailles |
+
+Diapositives **obligatoires** :
+
+| Aspect | Détails |
+| --- | --- |
+| Médium et type d'interaction | Choisir un médium () et présenter le ou les [types d’interaction](/creation/interactivite/types/). |
+| Communauté | Présenter comment le projet répond au thème de communauté. |
+| Continuum | Présenter comment le projet se situe entre le milieu et la droite du [continuum de l’interactivité](/creation/interactivite/continuum/). |
+| Public cible | Choisir le public cible de type « tueurs », « accomplisseurs » ou « sociables » et prouver pourquoi l'idée de projet y correspond |
+| Description de l'esthétique | Afficher à l'écran un paragraphe (parce que c'est une autocitation) de 1 à 3 lignes qui présente l'esthétique du projet en utilisant au moins un mot de chaque catégorie de la [banque de mots](/creation/esthetique/banque/) |
+| Objectif de l'esthétique | Indiquer l'objectif de l'esthétique comme nous avons fait en classe avec [Doom](/creation/esthetique/doom/), Super Mario, Animal Crossing: New Horizons et Gran Turismo 7 |
+| Maquette de l'espace | Indiquez le plus d’éléments possible (à l’exception des câbles et des interconnexions). Indiquez le nombre de projecteurs et où ils se trouvent, où se trouvent les hautparleurs, la position des interfaces, etc. Intégrer les objets de l'[infrastructure technique](./infrastructure/) |
+
+Critères d'approche de pitch :
+
+| Approche | Détails |
+| --- | --- |
+| Début du pitch | Comment amener un public à entrer dans l'idée ? Le pitch présente-t-il un problème et une solution ? Commence-t-il par raconter une histoire sur un monde fantastique ? Par une anecdote sur une lutte personnelle ? Le début d'une présentation devrait immédiatement accrocher l'auditeur et lui donner envie d'en entendre davantage. |
+| Esthétique et humour | Faire plaisir (avec de l'humour ou de la beauté) est un excellent moyen de créer un lien avec les spectateurs. Si le spectateur souri ou trouve le pitch beau, il va apprécier ce qu'il entend. |
+| Interaction | Poser une question, même rhétorique, est un moyen formidable de capter l'attention. Exemples : sondage rapide, évoquer un souvenir d'enfance ou demander ce qu'ils feraient à la place du protagoniste. |
+| Image claire | Peindre une image claire dans l'esprit du public. Utiliser un langage expérientiel et visuellement descriptif pour évoquer une image vivante du projet. Cela le rendra beaucoup plus mémorable. |
+| Moment précis qui incarne l'expérience centrale | Pressés par le temps, nous avons tendance à parler en abstractions généralisées. Pourtant, entrer dans des détails concrets est bien plus efficace pour transmettre des idées. Transmettre un moment précis qui incarne l'expérience centrale — peut-être un instant clé de choix de la joueuse — peut être incroyablement efficace. |
+
+Intégration des concepts couverts dans les activités dans l'idéation du projet :
+
+| Jeu | Détails |
+| --- | --- |
+| Five Fingers | Une complexité d’émotions et de situations émerge de règles simples. Les jeux peuvent servir de contexte temporaire à des interactions sociales cruelles et ludiques. |
+| Wolf and Sheep | Concevoir une expérience de coopération et de compétition. Le jeu comme forme de contrat social |
+| Rock Paper Scissors+ | Le fait de ralentir le choix et de révéler le résultat progressivement donne plus d’importance à chaque décision et ajoute une dimension dramatique. L’expérience collective et l’affrontement par représentants crée une narration collective et immersive. Cela stimule le dialogue stratégique et l’anticipation des choix. Ce qui a pour effet de décupler l’investissement émotionnel (surprise, cris de joie, etc.) des joueurs face au résultat. Pour être créatif il ne faut pas avoir peur du ridicule |
+| Design génératif | Est-ce que votre idée de projet peu intégrer du design génératif ? |
+ 
 
 Savoirs essentiels et critères d’évaluation :
 
@@ -573,10 +615,10 @@ Savoirs essentiels et critères d’évaluation :
 | --- | --- | --- | --- | ---: |
 | EVAL-4 | Exposé oral | Individuel au sein d’une équipe | Séance 15 | 28 % |
 
-
-
 Savoirs essentiels et critères d’évaluation :
 
+- Correspondance aux qualités recherchées d'une création en multimédia.
+- Développer une approche pour l'équilibrage de l'expérience.
 - Développer l’aspect technique d’une expérience multimédia.
 - Identifier les ressources humaines nécessaires.
 - Identifier les ressources matérielles et logicielles disponibles.

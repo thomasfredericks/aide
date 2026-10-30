@@ -43,7 +43,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - OSC
 
 
-## Expérience narrative
+## Expérience narrative en ligne
 
 - Environnement de développement principal :
     - Unity
@@ -59,4 +59,4 @@ Cette infrastructure représente l’environnement technique standardisé utilis
 
 - Environnement de développement principal :
     - Unity 
-    - Casques Meta
+    - Casques Meta Quest
