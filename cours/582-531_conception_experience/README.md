@@ -210,8 +210,8 @@ Activités en classe :
 | **3 mots pour décrire la structure** |  |   |   |
 | **3 mots pour décrire les références** |  |   |   |
 | **Intention esthétique** |   |   |   |
-| **Public cible** |   |   |   | 
-	
+| **Public cible** |   |   |   |
+
 - Six [qualités](https://t-o-f.info/aide/#/creation/interactivite/qualites/) recherchées d’une expérience multimédia.
 - Trouver un modèle de PowerPoint pour le travail.
 	
@@ -365,7 +365,6 @@ Activités en classe :
 Activités en classe :
 
 - Aider Charlène en vous inscrivant à [Meshy.ai](https://www.meshy.ai/fr/education) avec votre courriel du collège.
-- Détermination des qualités d’un bon collaborateur.
 - Présentation des critères pour la prochaine évaluation : [le pitch](#%c3%89valuation-3-pitch).
 - [Infrastructure technique](./infrastructure/) pour le projet proposé.
 - [Inspirations](./inspirations/) pour le projet proposé.
@@ -390,6 +389,7 @@ Activités en classe :
 
 Activités en classe :
 
+- Détermination des qualités d’un bon collaborateur.
 - Activités formatives sur l’esthétique :
 	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
 - Rédaction de la mission d’équipe.
@@ -602,7 +602,6 @@ Intégration des concepts couverts dans les activités dans l'idéation du proje
 | Wolf and Sheep | Concevoir une expérience de coopération et de compétition. Le jeu comme forme de contrat social |
 | Rock Paper Scissors+ | Le fait de ralentir le choix et de révéler le résultat progressivement donne plus d’importance à chaque décision et ajoute une dimension dramatique. L’expérience collective et l’affrontement par représentants crée une narration collective et immersive. Cela stimule le dialogue stratégique et l’anticipation des choix. Ce qui a pour effet de décupler l’investissement émotionnel (surprise, cris de joie, etc.) des joueurs face au résultat. Pour être créatif il ne faut pas avoir peur du ridicule |
 | Design génératif | Est-ce que votre idée de projet peu intégrer du design génératif ? |
- 
 
 Savoirs essentiels et critères d’évaluation :
 
