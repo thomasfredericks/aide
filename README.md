@@ -13,7 +13,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
     * [582-531 : Infrastructure logicielle et matérielle](/cours/582-531_conception_experience/infrastructure/)
     * [582-531 : Inspirations](/cours/582-531_conception_experience/inspirations/)
   * [COURS : 582-531 OBJETS INTERACTIFS](/cours/585-531_objets_interactifs/)
-* Coverage
 * Creation
   * Audio
     * [Conception sonore](/creation/audio/conception/)

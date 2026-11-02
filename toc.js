@@ -6,7 +6,7 @@
 var defaultOptions = {
   headings: 'h2',      // which headers to include
   scope: '.markdown-section',   // container to search
-  title: 'Contenus'    // Optional title for the TOC
+  title: ''    // Optional title for the TOC
 };
 
 // -----------------------
