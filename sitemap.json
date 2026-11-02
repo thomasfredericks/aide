@@ -1,0 +1,2168 @@
+[
+  {
+    "title": "Cmontmorency",
+    "path": "cmontmorency",
+    "readme": false,
+    "children": [
+      {
+        "title": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
+        "path": "bibliotheque",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Cours",
+    "path": "cours",
+    "readme": false,
+    "children": [
+      {
+        "title": "COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA",
+        "path": "582-531_conception_experience",
+        "readme": true,
+        "children": [
+          {
+            "title": "582-531 : Infrastructure logicielle et matérielle",
+            "path": "infrastructure",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "582-531 : Inspirations",
+            "path": "inspirations",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "COURS : 582-531 OBJETS INTERACTIFS",
+        "path": "585-531_objets_interactifs",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Creation",
+    "path": "creation",
+    "readme": false,
+    "children": [
+      {
+        "title": "Audio",
+        "path": "audio",
+        "readme": false,
+        "children": [
+          {
+            "title": "Conception sonore",
+            "path": "conception",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Qualifier l’esthétique sonore",
+            "path": "esthetique",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Audio : galerie",
+            "path": "galerie",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Outils (logiciels et plugiciels) pour la création sonore",
+            "path": "outils",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Audiovisuel",
+        "path": "audiovisuel",
+        "readme": false,
+        "children": [
+          {
+            "title": "Audiovisuel : galerie",
+            "path": "galerie",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Audiovisuel : Processus de travail",
+            "path": "processus",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Esthetique",
+        "path": "esthetique",
+        "readme": false,
+        "children": [
+          {
+            "title": "Banque de mots pour l’esthétique",
+            "path": "banque",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Esthétique et public cible de DOOM Eternal",
+            "path": "doom",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Interactivite",
+        "path": "interactivite",
+        "readme": false,
+        "children": [
+          {
+            "title": "Analyse d’une œuvre interactive",
+            "path": "analyse",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Ateliers",
+            "path": "ateliers",
+            "readme": false,
+            "children": [
+              {
+                "title": "Atelier : affordance en 1 minute",
+                "path": "affordance",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atelier : Effondrement par contrainte",
+                "path": "contrainte",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atelier : Modification d’une règle",
+                "path": "modification",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atelier : Simulation d’un jeu",
+                "path": "simulation",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atelier : Règle supprimée",
+                "path": "suppression",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atelier : Synchroniser sans communication",
+                "path": "synchronisation",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Continuum de l’interactivité",
+            "path": "continuum",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "L’interactivité est une conversation",
+            "path": "conversation",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Design de l’interactivité",
+            "path": "design",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Écoute",
+            "path": "ecoute",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Actions émergentes",
+            "path": "emergence",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Expérience multimédia interactive",
+            "path": "experience",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Interactivité : galerie",
+            "path": "galerie",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Petite histoire de l’installation interactive​",
+            "path": "histoire",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Public cible d’interacteurs",
+            "path": "public",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Qualités d’une bonne expérience interactive",
+            "path": "qualites",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Interactivité : scénarisation",
+            "path": "scenarisation",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Types d’interaction",
+            "path": "types",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Pecha Kucha",
+        "path": "pecha_kucha",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Production",
+        "path": "production",
+        "readme": true,
+        "children": [
+          {
+            "title": "Démo de faisabilité",
+            "path": "faisabilite",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Production > Maquettage > Technique",
+            "path": "planification",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Scénarisation",
+            "path": "scenarisation",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Visuel",
+        "path": "visuel",
+        "readme": false,
+        "children": [
+          {
+            "title": "Ateliers",
+            "path": "ateliers",
+            "readme": false,
+            "children": [
+              {
+                "title": "Atelier graphique : 10x10",
+                "path": "10x10",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Logo collectif",
+                "path": "logo",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Typographie fait d’objets",
+                "path": "typoobjekto",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "CRAP : quatre (4) principes de design",
+            "path": "crap",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Guide de normes graphiques",
+            "path": "guide",
+            "readme": true,
+            "children": [
+              {
+                "title": "Exemple : Guide de normes graphiques pour cartes",
+                "path": "cartes",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Iu",
+            "path": "iu",
+            "readme": false,
+            "children": [
+              {
+                "title": "IU : Couleur",
+                "path": "couleur",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Espacer les éléments",
+                "path": "espace",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Hiérarchie visuelle",
+                "path": "hierarchie",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Rétroaction (feedback)",
+                "path": "retroaction",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Signifiants de l’interface utilisateur",
+                "path": "signifiants",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Typographie",
+                "path": "typographie",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Marges",
+            "path": "marges",
+            "readme": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Culture",
+    "path": "culture",
+    "readme": false,
+    "children": [
+      {
+        "title": "Autorat : droit d’auteur",
+        "path": "autorat",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Education",
+        "path": "education",
+        "readme": false,
+        "children": [
+          {
+            "title": "Manifeste pour une éducation résiliente",
+            "path": "manifeste",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Deux systèmes de pensée",
+            "path": "sytemes_pensee",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Intelligence artificielle",
+        "path": "ia",
+        "readme": true,
+        "children": [
+          {
+            "title": "Dangers réels des intelligences artificielles",
+            "path": "dangers",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Guides d’utilisation des GML",
+            "path": "guides",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Types d’intelligence artificielle",
+            "path": "types",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Manipulation : Dark Patterns",
+        "path": "manipulations",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Merdification ( Enshittification )",
+        "path": "merdification",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Pouvoir",
+        "path": "pouvoir",
+        "readme": false,
+        "children": [
+          {
+            "title": "Pouvoir, richesse et empathie",
+            "path": "empathie",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Surveillance",
+        "path": "surveillance",
+        "readme": false,
+        "children": [
+          {
+            "title": "Surveillance cellulaire",
+            "path": "cellulaire",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Témoins (cookies)",
+            "path": "temoins",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Surveillance vidéo (vidéosurveillance)",
+            "path": "video",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Technologie",
+        "path": "technologie",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Fabrication",
+    "path": "fabrication",
+    "readme": false,
+    "children": [
+      {
+        "title": "Arduino",
+        "path": "arduino",
+        "readme": true,
+        "children": [
+          {
+            "title": "La bibliothèque Bounce2",
+            "path": "bounce2",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "La bibliothèque Chrono",
+            "path": "chrono",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Le code Arduino",
+            "path": "code",
+            "readme": true,
+            "children": [
+              {
+                "title": "millis( )",
+                "path": "millis",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Attendre un certain temps avec *millis()* et *while()*",
+                    "path": "attendre",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Exécuter du code à un certain intervalle",
+                    "path": "intervalle",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Remplacer Delay",
+                    "path": "remplacer_delay",
+                    "readme": false,
+                    "children": [
+                      {
+                        "title": "millis() : Attendre sans *delay()*",
+                        "path": "attendre",
+                        "readme": true,
+                        "children": []
+                      },
+                      {
+                        "title": "millis() : Ralentir *loop()* sans *delay()*",
+                        "path": "ralentir",
+                        "readme": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Générer un nombre aléatoire",
+                "path": "random",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Arduino Serial : communication sérielle",
+                "path": "serial",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Installer Arduino IDE",
+            "path": "ide",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "MicroNet",
+            "path": "micronet",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "MicroOsc",
+            "path": "microosc",
+            "readme": true,
+            "children": [
+              {
+                "title": "MicroOsc : réception d’OSC",
+                "path": "reception",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "MicroOsc SLIP",
+                "path": "slip",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "MicroOscUDP",
+                "path": "udp",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "MicroRemoteWire",
+            "path": "microremotewire",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Carte Arduino Nano",
+            "path": "nano",
+            "readme": true,
+            "children": [
+              {
+                "title": "Arduino Nano ATmega168 et ATmega32",
+                "path": "atmega",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO",
+                    "path": "plaftformio",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Arduino Nano R4",
+                "path": "r4",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Configuration Nano R4 PlatformIO",
+                    "path": "platformio",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Nano : Arduino Terminals",
+            "path": "terminals",
+            "readme": true,
+            "children": [
+              {
+                "title": "Arduino Terminals : Bouton d’arcade",
+                "path": "bouton_arcade",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Arduino Terminals : connecteur Grove I2C/Wire",
+                "path": "grove",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Arduino Terminals : Potentiomètre",
+                "path": "potentiometre",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Arduino : Traitement",
+            "path": "traitement",
+            "readme": true,
+            "children": [
+              {
+                "title": "Arduino : traiter le changement",
+                "path": "changement",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Arduino : traitement en flux continu",
+                "path": "flux",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cpp",
+        "path": "cpp",
+        "readme": false,
+        "children": [
+          {
+            "title": "Le code C++ (cpp)",
+            "path": "code",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Arduino : Guide de style",
+            "path": "style",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Protocole DDP",
+        "path": "ddp",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Electronique",
+        "path": "electronique",
+        "readme": false,
+        "children": [
+          {
+            "title": "Circuits",
+            "path": "circuits",
+            "readme": false,
+            "children": [
+              {
+                "title": "Électronique : Entrées et sorties",
+                "path": "entrees_sorties",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Électronique : Référence de tension",
+                "path": "references",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Schémas de circuits",
+                "path": "schemas",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Composants",
+            "path": "composants",
+            "readme": false,
+            "children": [
+              {
+                "title": "Bouton",
+                "path": "bouton",
+                "readme": false,
+                "children": [
+                  {
+                    "title": "Bouton d’arcade",
+                    "path": "arcade",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Diode électroluminescente (DEL)",
+                "path": "del",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Photorésistance",
+                "path": "photoresistance",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Le potentiomètre",
+                "path": "potentiometre",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Composant : résistance",
+                "path": "resistance",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "L’électricité",
+            "path": "electricite",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Erreur fatale : court circuit",
+            "path": "fatalites",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Multimètre",
+            "path": "multimetre",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Platine d’expérimentation (breadboard)",
+            "path": "platine",
+            "readme": true,
+            "children": [
+              {
+                "title": "Alimenter",
+                "path": "alimenter",
+                "readme": false,
+                "children": [
+                  {
+                    "title": "Alimenter un *breadboard* avec une carte Arduino",
+                    "path": "carte",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Alimenter une DEL",
+                "path": "del",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Micro-soudure",
+            "path": "soudure",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Esp32",
+        "path": "esp32",
+        "readme": false,
+        "children": [
+          {
+            "title": "ESP32 MAC",
+            "path": "mac",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "ESP32 : modèles",
+            "path": "modeles",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "M5Stack",
+        "path": "m5stack",
+        "readme": true,
+        "children": [
+          {
+            "title": "Atom (Lite)",
+            "path": "atom",
+            "readme": true,
+            "children": [
+              {
+                "title": "M5Stack Atom et Arduino IDE",
+                "path": "arduino-ide",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Atom Lite : Bouton intégré",
+                "path": "bouton",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Bouton du M5Stack Atom Lite avec la bibliothèque logicielle M5",
+                    "path": "m5lib",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Broches du M5Stack Atom",
+                "path": "broches",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Code",
+                "path": "code",
+                "readme": false,
+                "children": [
+                  {
+                    "title": "Code de base pour le M5Stack Atom",
+                    "path": "base",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Minimal",
+                    "path": "minimal",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "M5Stack Atom Lite : Pixel intégré",
+                "path": "pixel",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Atom (Lite) et PlatformIO",
+                "path": "platformio",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Tutoriels",
+                "path": "tutoriels",
+                "readme": false,
+                "children": [
+                  {
+                    "title": "Microosc",
+                    "path": "microosc",
+                    "readme": false,
+                    "children": [
+                      {
+                        "title": "Code OSC SLIP de base du M5Stack Atom",
+                        "path": "slip",
+                        "readme": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Atom POE",
+            "path": "atom-poe",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "AtomS3",
+            "path": "atomS3",
+            "readme": true,
+            "children": [
+              {
+                "title": "AtomS3 USB MIDI",
+                "path": "midi",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "AtomS3 : accéléromètre et de gyroscope (mpu6886)",
+                "path": "mpu6886",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "AtomS3 et PlatformIO",
+                "path": "platformio",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Communication série UART avec AtomS3",
+                "path": "uart",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Units",
+            "path": "units",
+            "readme": false,
+            "children": [
+              {
+                "title": "Unit 3.96",
+                "path": "396",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Bouton",
+                    "path": "bouton",
+                    "readme": false,
+                    "children": [
+                      {
+                        "title": "M5Stack Unit 3.96 et bouton d’arcade",
+                        "path": "arcade",
+                        "readme": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "title": "M5Stack Unit 3.96 et photorésistance",
+                    "path": "photoresistance",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "M5Stack Unit 3.96 et potentiomètre",
+                    "path": "potentiometre",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Atomic Port ABC Base",
+                "path": "abc",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Angle Unit",
+                "path": "angle",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Unit Encoder",
+                "path": "encoder",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Fader Unit",
+                "path": "fader",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Grove Hub",
+                "path": "grove_hub",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Key Unit",
+                "path": "key",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Light Unit",
+                "path": "light",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack PbHub Unit",
+                "path": "pbhub",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "M5Stack Unit TOF",
+                "path": "tof",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Meshtastic",
+        "path": "meshtastic",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Open Sound Control (OSC)",
+        "path": "osc",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Les bandes de pixels DEL",
+        "path": "pixels",
+        "readme": true,
+        "children": [
+          {
+            "title": "Bande de pixels et Atom",
+            "path": "atom",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Pixels : FastLED",
+            "path": "fastled",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Pixels : NeoPixel",
+            "path": "neopixel",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "PlatformIO",
+        "path": "platformio",
+        "readme": true,
+        "children": [
+          {
+            "title": "Nouveau projet PlatformIO",
+            "path": "nouveau",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Pioarduino",
+            "path": "pioarduino",
+            "readme": false,
+            "children": [
+              {
+                "title": "PlatformIO : pioarduino-espressif32",
+                "path": "espressif32",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Simulation de microélectronique",
+        "path": "simulation",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Jeu",
+    "path": "jeu",
+    "readme": false,
+    "children": [
+      {
+        "title": "Jeu L’année de la veille",
+        "path": "annee_de_la_veille",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Règles du jeu de cartes Bartok",
+        "path": "bartok",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Jeu Chat sur ta tête (Cat on Yer Head)",
+        "path": "chat_sur_ta_tete",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Remue-méninges sur les qualités d’un bon collaborateur",
+        "path": "qualites",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Theorie Des Jeux",
+        "path": "theorie_des_jeux",
+        "readme": false,
+        "children": [
+          {
+            "title": "Dilemme du prisonnier",
+            "path": "dilemne_prisonnier",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Jeu Wonder Wander",
+        "path": "wonder_wander",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Logiciels",
+    "path": "logiciels",
+    "readme": false,
+    "children": [
+      {
+        "title": "Brave",
+        "path": "brave",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Davinci Resolve",
+        "path": "davinci_resolve",
+        "readme": false,
+        "children": [
+          {
+            "title": "Effets dans Davinci Resolve",
+            "path": "effets",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "FFmpeg",
+        "path": "ffmpeg",
+        "readme": true,
+        "children": [
+          {
+            "title": "Codec AV1 avec FFmpeg",
+            "path": "av1",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "GameStream",
+        "path": "gamestream",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Manette de projecteurs : gd-pjlink",
+        "path": "gd-pjlink",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Git",
+        "path": "git",
+        "readme": true,
+        "children": [
+          {
+            "title": "Ajout d’un projet à un dépôt Git",
+            "path": "ajout",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Configuration de l’identité Git",
+            "path": "configuration",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "GitHub",
+            "path": "github",
+            "readme": true,
+            "children": [
+              {
+                "title": "Projects",
+                "path": "projects",
+                "readme": false,
+                "children": [
+                  {
+                    "title": "Configurer les priorités",
+                    "path": "priorites",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Contrôleur de bandes de pixels HyperHDR",
+        "path": "hyperhdr",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "kinect-ndi-cpp pour Kinect V1",
+        "path": "kinect-ndi-cpp",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Live-Coding",
+        "path": "live-coding",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Max",
+        "path": "max",
+        "readme": false,
+        "children": [
+          {
+            "title": "Réception série ASCII dans Max",
+            "path": "ascii",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Osc",
+            "path": "osc",
+            "readme": false,
+            "children": [
+              {
+                "title": "Max : Relais OSC SLIP ⇄ UDP",
+                "path": "relais",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "OSC UDP : Cycling \"74 Max",
+                "path": "udp",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tunnel réseau ngrok",
+        "path": "ngrok",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Nodejs",
+        "path": "nodejs",
+        "readme": false,
+        "children": [
+          {
+            "title": "OSC SLIP : Node.js",
+            "path": "osc",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Obs",
+        "path": "obs",
+        "readme": false,
+        "children": [
+          {
+            "title": "OBS : Mapping",
+            "path": "mapping",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Navigateur dans OBS",
+            "path": "source_web",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Spout dans OBS",
+            "path": "spout",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "OBS Studio: Télécommande et inspecteur",
+            "path": "telecommande",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Scan de réseau : Open-IP-Scanner",
+        "path": "open-ip-scanner",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "OSCMO-LiDAR pour scanner laser LiDAR Slamtec",
+        "path": "oscmo-lidar",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "p5.js",
+        "path": "p5js",
+        "readme": true,
+        "children": [
+          {
+            "title": "p5.js et WebSocket",
+            "path": "websocket",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Pure Data (Pd)",
+        "path": "pd",
+        "readme": true,
+        "children": [
+          {
+            "title": "Audio",
+            "path": "audio",
+            "readme": false,
+            "children": [
+              {
+                "title": "Pd : Activation de l’audio",
+                "path": "activation",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : Lecture de fichiers audio avec Pdchoco",
+                "path": "fichiers",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Osc",
+            "path": "osc",
+            "readme": false,
+            "children": [
+              {
+                "title": "Convertir les messages OSC en MIDI (notes et CC)",
+                "path": "midi",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Créer des messages OSC dans Pd avec oscformat",
+                "path": "oscformat",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : Relais OSC SLIP ⇄ UDP",
+                "path": "relais",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : OSC SLIP",
+                "path": "slip",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : OSC UDP",
+                "path": "udp",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "pdchoco",
+            "path": "pdchoco",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Communication sérielle dans Pure Data",
+            "path": "serie",
+            "readme": true,
+            "children": [
+              {
+                "title": "Pd : ASCII sérielle",
+                "path": "ascii",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : comport",
+                "path": "comport",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Traitement",
+            "path": "traitement",
+            "readme": false,
+            "children": [
+              {
+                "title": "Pd : Basculer (flip-flop/toggle) une valeur",
+                "path": "basculement",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Mesurer la durée",
+                "path": "duree",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Effectuer un glissement entre des valeurs avec Pd",
+                "path": "glissement",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : Incrémenter (ou décrémenter) une valeur",
+                "path": "incrementation",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : Déterminer si une valeur est à l’intérieur d’une plage",
+                "path": "plage",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Pd : Établir une relation proportionnelle",
+                "path": "proportion",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Attendre un certain temps avant d’activer",
+                "path": "retarder",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "WebSockets dans Pd",
+            "path": "websocket",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Plugdata",
+        "path": "plugdata",
+        "readme": false,
+        "children": [
+          {
+            "title": "Copier-coller avec Pd",
+            "path": "copier-coller",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Introduction à plugdata",
+            "path": "introduction",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Contrôleur éclairage QLC+",
+        "path": "qlc+",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Reaper",
+        "path": "reaper",
+        "readme": false,
+        "children": [
+          {
+            "title": "Compression",
+            "path": "compression",
+            "readme": false,
+            "children": [
+              {
+                "title": "Compresseur et limiteur sur la piste Master",
+                "path": "limiteur",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Compression *sidechain* dans Reaper",
+                "path": "sidechain",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Reaper : Configuration",
+            "path": "configuration",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Reaper : Échantillonneur",
+            "path": "echantillonneur",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Osc",
+            "path": "osc",
+            "readme": false,
+            "children": [
+              {
+                "title": "Activer l’OSC dans Reaper",
+                "path": "activation",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Reaper : OSC par défaut",
+                "path": "defaut",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Reaper OSC default_pattern : général",
+                    "path": "general",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Reaper OSC default_pattern : piste",
+                    "path": "piste",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
+                    "path": "VMK",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Plugiciel",
+            "path": "plugiciel",
+            "readme": false,
+            "children": [
+              {
+                "title": "MIDI et plugins",
+                "path": "midi",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Reaper : contrôle d’un plugiciel par OSC",
+                "path": "osc",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Virtual MIDI Keyboard",
+            "path": "virtual_midi_keyboard",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Raspberry Pi",
+        "path": "rpi",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Threejs",
+        "path": "threejs",
+        "readme": false,
+        "children": [
+          {
+            "title": "Fond transparent avec Three.js",
+            "path": "fond_transparent",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Touchdesigner",
+        "path": "touchdesigner",
+        "readme": false,
+        "children": [
+          {
+            "title": "TouchDesigner : Aspect",
+            "path": "aspect",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Audio",
+            "path": "audio",
+            "readme": false,
+            "children": [
+              {
+                "title": "TouchDesigner : Mixer de l’audio",
+                "path": "mixer",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "*Feedback* avec TouchDesigner",
+            "path": "feedback",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Bonnes pratiques *git* pour TouchDesigner",
+            "path": "git",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "TouchDesigner : Globales",
+            "path": "globales",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "TD : L-Systems",
+            "path": "l-systems",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Modularisation d’un projet TouchDesigner",
+            "path": "modularisation",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "TouchDesigner : _Null_ et _Trail_",
+            "path": "null_et_trail",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Osc",
+            "path": "osc",
+            "readme": false,
+            "children": [
+              {
+                "title": "Envoi OSC dans TouchDesigner",
+                "path": "envoi",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Réception de l’OSC dans TouchDesigner",
+                "path": "reception",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "TouchDesigner : Perform",
+            "path": "performance",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Python",
+            "path": "python",
+            "readme": false,
+            "children": [
+              {
+                "title": "TD : Aide mémoire Python",
+                "path": "aide-memoire",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Configuration éditeur Python",
+                "path": "configuration",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Déboguer Python",
+                "path": "deboguer",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Spout dans TouchDesigner",
+            "path": "spout",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "TouchDesigner : Template",
+            "path": "template",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "TD : Traitement de signaux",
+            "path": "traitement",
+            "readme": true,
+            "children": [
+              {
+                "title": "TouchDesigner : Basculement (*flip flop*)",
+                "path": "basculement",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Inversion",
+                "path": "inverser",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Lisser",
+                "path": "lisser",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Plage",
+                "path": "plage",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TouchDesigner : Proportion",
+                "path": "proportion",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "TD : Variation contrôlée",
+                "path": "variation",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Video",
+            "path": "video",
+            "readme": false,
+            "children": [
+              {
+                "title": "TouchDesigner : Lecture d’une vidéo par index",
+                "path": "index",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Unity",
+        "path": "unity",
+        "readme": false,
+        "children": [
+          {
+            "title": "Colliders dans Unity",
+            "path": "colliders",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Unity : configuration",
+            "path": "configuration",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Unity : Exécution en arrière-plan",
+            "path": "execution_arriere-plan",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Unity : Bonnes pratiques Git",
+            "path": "git",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Osc",
+            "path": "osc",
+            "readme": false,
+            "children": [
+              {
+                "title": "Unity : OSC UDP avec extOSC",
+                "path": "extosc",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Bind",
+                    "path": "bind",
+                    "readme": false,
+                    "children": [
+                      {
+                        "title": "extOSC Bind : int vers argument float d’une méthode",
+                        "path": "int_float",
+                        "readme": true,
+                        "children": []
+                      },
+                      {
+                        "title": "extOSC Bind : int traité dans un if",
+                        "path": "int_if",
+                        "readme": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Envoi OSC avec extOSC  dans Unity",
+                    "path": "envoi",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "extOsc : initialisation",
+                    "path": "initialisation",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "title": "Unity : OSC UDP avec oscjackvs",
+                "path": "oscjackvs",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Spout dans Unity",
+            "path": "spout",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Unity : Traitement de messages",
+            "path": "traitement",
+            "readme": true,
+            "children": [
+              {
+                "title": "Unity : changement",
+                "path": "changement",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Unity : Proportion",
+                "path": "proportion",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Vcv Rack",
+        "path": "vcv_rack",
+        "readme": false,
+        "children": [
+          {
+            "title": "VCV Rack : OSC UDP",
+            "path": "osc",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Patchs",
+            "path": "patchs",
+            "readme": false,
+            "children": [
+              {
+                "title": "Baleines",
+                "path": "baleines",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Bulles",
+                "path": "bulles",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "«Tape Warble»",
+                "path": "tape_warble",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "VNC",
+        "path": "vnc",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Windows",
+        "path": "windows",
+        "readme": false,
+        "children": [
+          {
+            "title": "Clavier",
+            "path": "clavier",
+            "readme": false,
+            "children": [
+              {
+                "title": "Clavier États-Unis international dans Windows",
+                "path": "us_international",
+                "readme": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Materiel",
+    "path": "materiel",
+    "readme": false,
+    "children": [
+      {
+        "title": "Haut-parleurs Genelec",
+        "path": "genelec",
+        "readme": true,
+        "children": []
+      },
+      {
+        "title": "Oak",
+        "path": "oak",
+        "readme": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Tutoriels",
+    "path": "tutoriels",
+    "readme": false,
+    "children": [
+      {
+        "title": "Arcade",
+        "path": "arcade",
+        "readme": false,
+        "children": [
+          {
+            "title": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
+            "path": "asteroid",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
+            "path": "flappy",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
+            "path": "pd",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
+            "path": "pong",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
+            "path": "relais",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre",
+            "path": "unlock",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Gml",
+        "path": "gml",
+        "readme": false,
+        "children": [
+          {
+            "title": "Tutoriel GML d’animation avec p5.js",
+            "path": "animation",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel GML seed avec p5.js",
+            "path": "seed",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Platine",
+        "path": "platine",
+        "readme": false,
+        "children": [
+          {
+            "title": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
+            "path": "audio",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
+            "path": "clignotement",
+            "readme": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -4,6 +4,7 @@ nav.breadcrumb ol {
   margin: 0 0;
   text-transform: capitalize;
   padding-top: 10px;
+  font-family: "Metal Mania", system-ui;
 }
 
 ol.breadcrumb--small {

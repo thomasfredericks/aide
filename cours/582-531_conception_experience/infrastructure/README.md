@@ -42,6 +42,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - QLC+
     - OSC
 
+![](./arcade.png)
 
 ## Expérience narrative en ligne
 
@@ -50,13 +51,16 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - Visual Studio Code + HTML5
          
 
-## Réalité augmentée
-
-- Environnement de développement principal :
-    - Unity 
-
 ## Réalité virtuelle
 
 - Environnement de développement principal :
     - Unity 
-    - Casques Meta Quest
+ - Casque Meta Quest
+
+![](./casque_meta_quest.webp)
+
+ ## Réalité augmentée
+
+- Environnement de développement principal :
+    - Unity 
+- Application Web ou tablette Android

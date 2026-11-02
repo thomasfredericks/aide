@@ -1,134 +1,173 @@
-const hasWindow = typeof window !== 'undefined'
+const hasWindow = typeof window !== 'undefined';
 
+// Configuration
 const options = {
   showHome: false,
   homeText: 'Home',
   separator: ' &rsaquo; ',
-  casing: 'capitalize',
   linkColor: 'var(--theme-color, #42b983)',
   size: 'small',
   ...(hasWindow && window.$docsify?.breadcrumb ? window.$docsify.breadcrumb : {})
+};
+
+let sitemap = [];
+
+/**
+ * Fetch and parse the sitemap.json
+ */
+async function loadSitemap() {
+  try {
+    const response = await fetch('./sitemap.json');
+    
+    if (!response.ok) throw new Error('Failed to load sitemap.json');
+    sitemap = await response.json();
+
+  } catch (err) {
+    console.error('[Breadcrumb Plugin]', err.message);
+    sitemap = [];
+  }
 }
 
 /**
- * Breadcrumb plugin for Docsify
+ * Traverse the nested sitemap tree to find the breadcrumb trail for a given path.
  * 
- * @param {Function} hook - The hook function
- * @param {Object} vm - The Docsify VM object
- * @returns {void}
- * @see https://docsify.js.org/#/write-a-plugin
+ * @param {string} routePath - The current route path (e.g. "/creation/audio/conception/")
+ * @returns {Array} Array of breadcrumb nodes from root to current page
  */
-function breadcrumbPlugin (hook, vm) {
-  hook.afterEach(function (html, next) {
-    console.log('cacheTOC:', vm.compiler.cacheTOC);
-    const url = vm.route.path
-    const isHome = url.length < 2
-    const title = getPageTitle(vm.route, vm.compiler.cacheTOC)
+function findBreadcrumbTrail(routePath) {
 
-    const urlParts = getUrlParts(url)
-    const readableUrlParts = sanitizeUrlParts(urlParts)
-    const homeLink = options.showHome || !isHome ? getHomeLink(isHome) : ''
+  if (!sitemap.length) return [];
+    
+  // Normalize the path: remove leading/trailing slashes and split
+  const parts = routePath
+    .replace(/^\/+|\/+$/g, '') // strip leading/trailing slashes
+    .split('/')
+    .filter(p => p && p !== 'README.md');
 
-    const ul = generateAccessibleBreadcrumb(homeLink, getListItems(readableUrlParts, urlParts, title))
+  if (parts.length === 0) return [];
 
-    next(ul + html)
-  })
+  /**
+   * Recursive helper to walk the tree
+   * @param {Array} nodes - Current level nodes
+   * @param {number} depth - Current index in parts array
+   * @param {Array} trail - Accumulator for matched nodes
+   */
+  function walk(nodes, depth, trail) {
+    for (const node of nodes) {
+      // Match the current path segment with the node's 'path' (folder name)
+      if (node.path === parts[depth]) {
+        const currentTrail = [...trail, node];
+        
+        // If we've matched all parts, return the trail
+        if (depth === parts.length - 1) {
+          return currentTrail;
+        }
+        
+        // Otherwise, recurse into children
+        if (node.children && node.children.length > 0) {
+          const found = walk(node.children, depth + 1, currentTrail);
+          if (found) return found;
+        }
+      }
+    }
+    return null;
+  }
+
+  return walk(sitemap, 0, []) || [];
 }
 
 /**
- * Get the title of the current page
- * 
- * @param {Object} route - The current route object
- * @param {Object} cacheTOC - The cacheTOC object
- * @returns {String} The title of the current page
+ * Get the title from the sitemap node, or fallback to sanitizing the path segment.
  */
-const getPageTitle = (route, cacheTOC) =>
-  cacheTOC[route.file].find(page => page.level === 1).title
-
-/**
- * Get the parts of the URL
- * 
- * @param {String} url - The current URL from the route object
- * @returns {Array} The parts of the URL
- * @sample articles/books-and-more/adventure.md => ['articles', 'books-and-more', 'adventure.md']
- */
-const getUrlParts = (url) =>
-  decodeURI(url).split('/').filter(str => ['#', '', 'README'].indexOf(str) === -1)
-
-/**
- * Sanitize the URL parts
- * 
- * @param {Array} urlParts - The parts of the URL
- * @returns {Array} The plain language URL parts
- * @sample ['articles', 'books-and-more', 'adventure.md'] => ['articles', 'books and more', 'adventure md']
- */
-const sanitizeUrlParts = (urlParts) =>
-  urlParts.map(part => part.replace(/[._-]/g, ' '))
-
-/**
- * Get the list items for the breadcrumb
- * 
- * @param {Array} readableUrlParts - The plain language URL parts
- * @param {Array} urlParts - The parts of the URL
- * @param {String} title - The title of the current page
- * @returns {String} The collection of <li> for the breadcrumb
- */
-const getListItems = (readableUrlParts, urlParts, title) => readableUrlParts
-  .reduce((acc, part, i) => {
-    const link = getItemLink(urlParts, i + 1)
-    const isLastLink = i === readableUrlParts.length - 1
-
-    const itemDom = !isLastLink
-      ? `<li><a href=${link} style="color: ${options.linkColor}">${part}</a>${options.separator}</li>`
-      : `<li class="active" aria-current="page">${title}</li>`
-
-    return acc + itemDom
-  }, '')
-
-/**
- * Get the link for the item
- * 
- * @param {Array} urlParts - The parts of the URL
- * @param {Number} end - The end index for the current item
- * @returns {String} The link for the item
- */
-const getItemLink = (urlParts, end) => `#/${urlParts.slice(0, end).join('/')}/`
-
-/**
- * Get the home link
- * 
- * @param {Boolean} isHome - Whether the current page is the home page
- * @returns {String} The home link as a <li>
- */
-const getHomeLink = (isHome) => {
-  const color = isHome ? 'inherit' : options.linkColor
-  const fontWeight = isHome ? `font-weight:inherit;` : ''
-  const separator = isHome ? '' : options.separator
-
-  return `<li><a href='#/' style="color: ${color}; ${fontWeight}}">${options.homeText}</a>${separator}</li>`
+function getNodeTitle(node, pathSegment) {
+  if (node && node.title) return node.title;
+  // Fallback: capitalize and replace hyphens/underscores
+  return pathSegment
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
 }
 
 /**
- * Generate the accessible breadcrumb
- * 
- * @param {String} homeLink - The home link as a <li>
- * @param {String} list - The list of items as <li>
- * @returns {String} The accessible breadcrumb
+ * Build the HTML for the breadcrumb navigation
  */
-const generateAccessibleBreadcrumb = (homeLink, list) => `
-  <nav aria-label="Breadcrumb" class="breadcrumb">
-    <ol
-      class=' breadcrumb--${options.size}'
-      style="text-transform:${options.casing}"
-    >
-      ${homeLink}
-      ${list}
-    </ol>
-  </nav>
-`
+function renderBreadcrumb(trail, currentRoute) {
+  if (trail.length === 0) return '';
 
+  const isHome = currentRoute === '/' || currentRoute === '';
+  
+  let html = '<nav aria-label="Breadcrumb" class="breadcrumb">\n  <ol';
+  if (options.size) html += ` class="${options.breadcrumbClass || ''} breadcrumb--${options.size}"`;
+  html += '>\n';
+
+  // Home Link
+  if (options.showHome || !isHome) {
+    const homeColor = isHome ? 'inherit' : options.linkColor;
+    const homeStyle = `color: ${homeColor}${isHome ? '; font-weight: inherit;' : ''}`;
+    const sep = isHome ? '' : options.separator;
+    html += `    <li><a href="#/" style="${homeStyle}">${options.homeText}</a>${sep}</li>\n`;
+  }
+
+  // Trail Items
+  trail.forEach((node, index) => {
+    const isLast = index === trail.length - 1;
+    
+    // Build the path up to this node
+    const pathSegments = trail.slice(0, index + 1).map(n => n.path);
+    const href = `#/${pathSegments.join('/')}/`;
+    
+    if (isLast) {
+      // Last item is the current page (no link)
+      // Don't render last item //html += `    <li class="active" aria-current="page">${node.title}</li>\n`;
+    } else {
+      if ( node.readme ) {
+        html += `    <li><a href="${href}" style="color: ${options.linkColor}">${node.title}</a>${options.separator}</li>\n`;
+
+      } else {
+        html += `    <li>${node.title}${options.separator}</li>\n`;
+      }
+    }
+  });
+
+  html += '  </ol>\n</nav>';
+  return html;
+}
+
+/**
+ * Docsify Plugin Hook
+ */
+function breadcrumbPlugin(hook, vm) {
+  // Ensure sitemap is loaded before rendering
+  const ensureSitemapLoaded = async () => {
+    if (sitemap.length === 0) {
+      await loadSitemap();
+    }
+    return sitemap;
+  };
+
+  hook.afterEach(async (html, next) => {
+    try {
+      // Wait for sitemap to be ready
+      await ensureSitemapLoaded();
+
+      const routePath = vm.route.path;
+      
+      // Find the trail in the sitemap
+      const trail = findBreadcrumbTrail(routePath);
+  
+      // Render HTML
+      const breadcrumbHtml = renderBreadcrumb(trail, routePath);
+      
+      // Append to content
+      next(breadcrumbHtml + html);
+    } catch (err) {
+      console.error('[Breadcrumb Plugin] Error rendering:', err);
+      next(html); // Fallback: just render original content
+    }
+  });
+}
+
+// Register plugin if running in browser
 if (hasWindow) {
   window.$docsify = window.$docsify || {};
-  window.$docsify["breadcrumb"] = options
-  window.$docsify.plugins = [].concat(breadcrumbPlugin, window.$docsify.plugins)
+  window.$docsify.plugins = [].concat(breadcrumbPlugin, window.$docsify.plugins || []);
 }
