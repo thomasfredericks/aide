@@ -1,6 +1,6 @@
-# Public cible
+# Public cible d'interacteurs
 
-Le public cible est le groupe de personnes pour lequel une expérience multimédia est conçue. Il ne désigne pas seulement les personnes susceptibles d’utiliser ou de voir le projet, mais les personnes dont les caractéristiques, les besoins, les connaissances, les attentes et les motivations sont prises en compte dans la conception de l’expérience.
+Le public cible  d'interacteurs est le groupe de personnes pour lequel une expérience multimédia est conçue. Il ne désigne pas seulement les personnes susceptibles d’utiliser ou de voir le projet, mais les personnes dont les caractéristiques, les besoins, les connaissances, les attentes et les motivations sont prises en compte dans la conception de l’expérience.
 
 Le public cible permet au concepteur de déterminer **quelle expérience il souhaite faire vivre, à qui il souhaite la faire vivre et dans quelles conditions cette expérience doit être vécue**.
 

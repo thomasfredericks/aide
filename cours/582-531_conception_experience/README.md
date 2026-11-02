@@ -544,23 +544,23 @@ Remise :
 | --- | --- | --- | --- | ---: |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
-Présenter devant la classe le pitch de 4 minutes qui présente une expérience multimédia interactive pour un public cible de type « tueurs », « accomplisseurs » ou « sociables ». 
-
-Apprendre à présenter rapidement un concept est une compétence clé pour tout type de concepteur. Cet exercice consiste à pratiquer l'articulation claire d'une conception tout en utilisant l'acte de communication pour aider le processus créatif lui-même. Les leçons fondamentales de cet exercice, s'assurer que le « quoi » et le « pourquoi » sont tous deux communiqués, sont précieuses non seulement pour les pitches courts, mais pour toute forme de communication verbale ou écrite.
+Description de l'évaluation : Présenter devant la classe un pitch de 4 à 5 minutes qui présente une expérience multimédia interactive pour un public cible d'interacteurs de type « tueurs », « accomplisseurs » ou « sociables ». 
 
  > [!NOTE]
- > L’expérience doit répondre aux actions de façon signifiante, produire des conséquences perceptibles et permettre une progression, de sorte que la personne ait le sentiment de converser/échanger avec le système : 
+ > L’expérience proposéee doit avoir une interaction qui répond de façon signifiante, produit des conséquences perceptibles et permet une progression, de sorte que la personne interactrice ait le sentiment de converser/échanger avec le système : 
  > 
- > La personne perçoit quelque chose → elle agit → le système répond → la personne perçoit une nouvelle situation → elle agit selon la nouvelle situation → …
+ > La personne interactrice perçoit quelque chose → elle agit → le système répond → la personne perçoit une nouvelle situation → elle agit selon la nouvelle situation → …
 
-- Voir les [inspirations](./inspirations/).
+Contexte de l'évaluation : Apprendre à présenter rapidement un concept est une compétence clé pour tout type de concepteur. Cet évaluation consiste à pratiquer l'articulation claire d'une idée pour s'assurer que le « quoi » et le « pourquoi » sont tous deux communiqués.
+
+- Voir les [inspirations](./inspirations/) pour s'inspirer.
 - Le projet doit répondre à la thématique de **la communauté**. 
 - Il doit pouvoir accueillir d’une à plusieurs personnes simultanément.
-- Il doit adresser les [publics cibles](/creation/interactivite/public/) Tueurs, Accomplisseurs ou Sociables. Éviter le public cible Explorateurs.
-- Je vais particulièrement apprécier les projets qui gardent un artéfact des visiteurs.
-- Ne pas trop s’attarder sur la faisabilité du projet à cette étape.
+- Il doit adresser les [publics cibles d'interacteurs](/creation/interactivite/public/) de types « tueurs », « accomplisseurs » ou « sociables ». Éviter le public cible d'interacteiurs de type « explorateurs ».
+- L'enseignant va particulièrement apprécier les projets qui gardent un artéfact des visiteurs.
+- **Ne pas trop s’attarder sur la faisabilité du projet à cette étape**.
 
-Critères d'exécution du pitch :
+Critères **évaluées** d'exécution du pitch :
 
 | Exécution | Détails  |
 | --- | --- |
@@ -584,15 +584,15 @@ Diapositives **obligatoires** :
 | Objectif de l'esthétique | Indiquer l'objectif de l'esthétique comme nous avons fait en classe avec [Doom](/creation/esthetique/doom/), Super Mario, Animal Crossing: New Horizons et Gran Turismo 7 |
 | Maquette de l'espace | Indiquez le plus d’éléments possible (à l’exception des câbles et des interconnexions). Indiquez le nombre de projecteurs et où ils se trouvent, où se trouvent les hautparleurs, la position des interfaces, etc. Intégrer les objets de l'[infrastructure technique](./infrastructure/) |
 
-Critères d'approche de pitch :
+Méthodes d'approche pour un bon pitch :
 
 | Approche | Détails |
 | --- | --- |
-| Début du pitch | Comment amener un public à entrer dans l'idée ? Le pitch présente-t-il un problème et une solution ? Commence-t-il par raconter une histoire sur un monde fantastique ? Par une anecdote sur une lutte personnelle ? Le début d'une présentation devrait immédiatement accrocher l'auditeur et lui donner envie d'en entendre davantage. |
-| Esthétique et humour | Faire plaisir (avec de l'humour ou de la beauté) est un excellent moyen de créer un lien avec les spectateurs. Si le spectateur souri ou trouve le pitch beau, il va apprécier ce qu'il entend. |
-| Interaction | Poser une question, même rhétorique, est un moyen formidable de capter l'attention. Exemples : sondage rapide, évoquer un souvenir d'enfance ou demander ce qu'ils feraient à la place du protagoniste. |
-| Image claire | Peindre une image claire dans l'esprit du public. Utiliser un langage expérientiel et visuellement descriptif pour évoquer une image vivante du projet. Cela le rendra beaucoup plus mémorable. |
-| Moment précis qui incarne l'expérience centrale | Pressés par le temps, nous avons tendance à parler en abstractions généralisées. Pourtant, entrer dans des détails concrets est bien plus efficace pour transmettre des idées. Transmettre un moment précis qui incarne l'expérience centrale — peut-être un instant clé de choix de la joueuse — peut être incroyablement efficace. |
+| Début du pitch | Comment initier un contact avec l'auditoire ? Le pitch présente-t-il un problème et une solution ? Commence-t-il par raconter une histoire ? Par une anecdote sur une lutte personnelle ? Le début d'une présentation devrait immédiatement accrocher l'auditeur et lui donner envie d'en entendre davantage.  |
+| Esthétique et humour | Faire plaisir (avec de l'humour ou de la beauté) est un excellent moyen de créer un lien avec l'auditoire. Si l'auditoire souri ou trouve le pitch beau, il va apprécier l'ensemble de ce qu'il entend. |
+| Interaction | Poser une question, même rhétorique, est un moyen formidable de capter l'attention. Exemples : sondage rapide, évoquer un souvenir d'enfance ou demander ce qu'ils feraient à la place des personnages. |
+| Image claire | Il faut utiliser un langage expérientiel et visuellement descriptif pour évoquer une image vivante du projet. Il faut peindre une image claire dans l'esprit de l'auditoire. Cela le rendra beaucoup plus mémorable.  |
+| Décrire un moment précis qui incarne l'expérience centrale | Pressés par le temps, nous avons tendance à parler en abstractions généralisées. Pourtant, entrer dans des détails concrets est très efficace pour transmettre des idées. Détailler un moment précis qui incarne l'expérience centrale peut être incroyablement efficace. |
 
 Intégration des concepts couverts dans les activités dans l'idéation du projet :
 
