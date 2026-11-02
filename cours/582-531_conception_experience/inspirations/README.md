@@ -44,7 +44,7 @@
 - [Universe to You — Everything explained. Probably.](https://scrollytelling.ai/universe-to-you/)
 - [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria)
 - [Passage](http://passage.toolness.org/)
-- [Rod Humble's The Marriage by giapre](https://giapre.itch.io/the-marriage)  
+- [Rod Humble’s The Marriage by giapre](https://giapre.itch.io/the-marriage)  
 - [The Graveyard (PC) - Interactive Painting |Longplay - Walkthrough - Gameplay| No Commentary - YouTube](https://www.youtube.com/watch?v=_8ndnwWKLSA)
 
 ## Réalité augmentée

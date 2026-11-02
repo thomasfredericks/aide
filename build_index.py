@@ -82,7 +82,7 @@ def process_dir(dir_path: Path, depth: int = 0) -> list:
             continue
             
         # Skip the output index file itself
-        if rel_path == Path("_index/README.md"):
+        if rel_path == Path("README.md"):
             continue
 
         if child.is_dir():
@@ -107,34 +107,48 @@ def generate_index() -> str:
     return '\n'.join(process_dir(BASE_DIR))
 
 def update_index_file():
-    """Locates or creates _index/README.md, ensures # Index title and tags exist, then updates content."""
-    target_path = BASE_DIR / '_index' / 'README.md'
-    target_path.parent.mkdir(parents=True, exist_ok=True)
+    """Locates or creates README.md, ensures # Index title and tags exist, then updates content."""
+    target_path = BASE_DIR / "README.md"
     
     new_index_content = generate_index()
     
+    # Create README.md if it doesn't exist
     if not target_path.exists():
         initial_content = "# Index\n\n<!-- INDEX START -->\n<!-- INDEX END -->"
         target_path.write_text(initial_content, encoding='utf-8')
+        print("✅ Created README.md with index structure")
+        return
         
     content = target_path.read_text(encoding='utf-8')
     
     start_tag = '<!-- INDEX START -->'
     end_tag = '<!-- INDEX END -->'
     
+    # Ensure tags exist
     if start_tag not in content or end_tag not in content:
-        content = f"# Index\n\n{start_tag}\n{end_tag}"
-    
-    if not content.lstrip().startswith("# Index"):
-        content = f"# Index\n\n{content}"
-        
+        # Add tags if missing
+        if '# Index' not in content:
+            content = f"# Index\n\n{start_tag}\n{end_tag}\n{content}"
+        else:
+            # Find position after # Index and insert tags
+            lines = content.split('\n')
+            index_line = next(i for i, line in enumerate(lines) if line.startswith('# Index'))
+            lines.insert(index_line + 1, start_tag)
+            lines.insert(index_line + 3, end_tag)
+            content = '\n'.join(lines)
+            
+    # Replace content between tags
     start_idx = content.find(start_tag) + len(start_tag)
     end_idx = content.find(end_tag)
+    
+    if start_idx == -1 or end_idx == -1 or start_idx >= end_idx:
+        print("❌ Error: INDEX tags not properly configured in README.md")
+        return
     
     new_file_content = content[:start_idx] + '\n' + new_index_content + '\n' + content[end_idx:]
     
     target_path.write_text(new_file_content, encoding='utf-8')
-    print("✅ _index/README.md mis à jour!")
+    print("✅ README.md mis à jour!")
 
 if __name__ == '__main__':
     update_index_file()
