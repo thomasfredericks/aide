@@ -33,10 +33,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
 
 - Environnement de développement principal :
     - Unity (possiblement Godot ou Three.js)
-- Boutons et manettes (en commun pour tous les projets de la borne d’arcade) :
-    - Carte Arduino + Arduino Terminals
-    - Pure Data
-        - OSC
+- 4x Manettes [Gamesir Tegenaria Lite](https://gamesir.com/fr/products/gamesir-tegenaria-lite)
 - Lumières DMX/ArtNet :
     - Pure Data
     - QLC+
