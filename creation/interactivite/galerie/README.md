@@ -244,6 +244,8 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 ## À trier
 
+- [MadMapper Gallery](https://madmapper.com/gallery/)
+
 [ELEKTRA MONTRÉAL | Exposition "F(R)ICTION : art et jeux" - L'art se prend au jeu](https://www.elektramontreal.ca/activite/exposition-friction-art-et-jeux) :
 
 - https://leonardocastaneda.com/
@@ -262,3 +264,4 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - https://oleomingus.com/
 - https://www.tjcuthand.com/videos/
 - https://www.kwanalan.com/game
+- [HADR by Dominik Konecny](https://domkonecny.itch.io/hadr)
