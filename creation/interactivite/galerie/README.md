@@ -103,8 +103,6 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Mimics by Navel](https://navel.itch.io/mimics), [Mimics for iOS and Android](http://www.mimicsgame.com/) Mimics est un jeu, en ligne et en local, qui consiste à imiter des expressions faciales extrêmes et à regarder les autres en faire autant. Les joueurs imitent des visages dessinés, puis leurs coéquipiers doivent deviner quelle expression a été reproduite. Le jeu peut se jouer ensemble au même endroit ou en ligne avec des amis ou des inconnus. **COLLECTIF JOUABLE EXPÉRIMENTAL**
 - [Kloonigames » Blog Archive » 4 Minutes and 33 Seconds of Uniqueness](https://www.kloonigames.com/blog/games/4mins33secs)  Inspiré directement de la pièce de John Cage 4’33”. C’est un jeu multijoueur mondial… mais qui ne fonctionne que si un seul joueur y joue à ce moment précis. Si quelqu’un d’autre lance le jeu ailleurs dans le monde, la partie s’arrête immédiatement. Le but est simplement de tenir 4 minutes et 33 secondes en étant l’unique joueur connecté. **SUBVERSIF COLLECTIF EXPÉRIMENTAL**
 
-
-
 ## YOLO
 
 - [Play You Only Live Once, a free online game on Kongregate](https://www.kongregate.com/games/raitendo/you-only-live-once) (2009, jeu Flash sur Kongregate) Un jeu de plateforme parodique où, si le joueur meurt, il devient à jamais impossible de gagner sur cet ordinateur/navigateur, même après avoir relancé. **JOUABLE EXPÉRIMENTAL**
@@ -133,10 +131,9 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 
 - [Hazy Days - An air pollution breathing sim by Mike Ren](https://mikeyren.itch.io/hazydays) **JOUABLE ENJEUX-SOCIAUX**
 
-## Bataille
+## Mutlijoueur
 
 - [Crawl on Steam](https://store.steampowered.com/app/293780/Crawl/) (2017) Jeu multijoueur local où un joueur incarne le héros et les autres jouent les monstres/pièges. Quand le héros meurt, celui qui l’a tué prend sa place. L’historique de morts façonne toute la partie. **JOUABLE EXPÉRIMENTAL**
-
 
 ## Études sur l’interface utilisateur
 
@@ -219,8 +216,6 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - *Aide-mémoire GIT*. [Lien](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
 - Lostritto, Carl. (2019). *Computational Drawing: From Foundational Exercises to Theories of Representation*. Novato: Applied Research & Design
 
-
-
 ## Voir et écouter le monde
 
 - [earth :: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/#current/wind/surface/level/orthographic)
@@ -246,3 +241,24 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Mai "68 Le jeu | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/6907/mai-68-le-jeu) Course-poursuite entre le chat et la souris entre la police et les étudiants lors des affrontements de mai 1968 à Paris. Le joueur étudiant doit révéler « la plage sous les pavés », tandis que la police tente de maintenir l’ordre. **ENJEUX-SOCIAUX**
 - [Train — Brenda Romero](https://brenda.games/train) « Les gens suivront-ils aveuglément les règles ? » et « Resteront-ils passifs en observant ? » Dans le jeu, les joueurs ont pour mission de transporter des passagers par chemin de fer plus rapidement que leurs adversaires. À la fin de la partie, il est révélé que la destination finale est un camp de concentration nazi, et que les joueurs ont en réalité participé à la Shoah. **ENJEUX-SOCIAUX**
 - [Slay the Spire: The Board Game | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game) Une adaptation extrêmement fidèle du jeu vidéo [Slay the Spire](https://www.megacrit.com/games/) **MATÉRIALISATION**
+
+## À trier
+
+[ELEKTRA MONTRÉAL | Exposition "F(R)ICTION : art et jeux" - L'art se prend au jeu](https://www.elektramontreal.ca/activite/exposition-friction-art-et-jeux) :
+
+- https://leonardocastaneda.com/
+- https://maizelongboat.itch.io/terra-nova
+- https://www.gameoftrons.com/s-projects-basic
+- https://melaniecourtinat.com/
+- https://corjn.com/
+- https://thezhato.portfolio.site/
+- https://prettydarke.cool/
+	- https://prettydarke.cool/portfolio/ye-or-nay/
+- https://www.necropocene.com/
+- https://www.laurelinechiapello.com/games
+- https://medulla.games/
+- https://nathanpowlesslynes.itch.io/tongue-tied
+- https://nathanpowlesslynes.itch.io/hold-my-hand
+- https://oleomingus.com/
+- https://www.tjcuthand.com/videos/
+- https://www.kwanalan.com/game
