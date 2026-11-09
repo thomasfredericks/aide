@@ -385,6 +385,12 @@
     "readme": false,
     "children": [
       {
+        "title": "Activisme",
+        "path": "activisme",
+        "readme": true,
+        "children": []
+      },
+      {
         "title": "Autorat : droit d’auteur",
         "path": "autorat",
         "readme": true,
@@ -1638,6 +1644,12 @@
                 "readme": true,
                 "children": [
                   {
+                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
+                    "path": "VMK",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
                     "title": "Reaper OSC default_pattern : général",
                     "path": "general",
                     "readme": true,
@@ -1648,14 +1660,14 @@
                     "path": "piste",
                     "readme": true,
                     "children": []
-                  },
-                  {
-                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
-                    "path": "VMK",
-                    "readme": true,
-                    "children": []
                   }
                 ]
+              },
+              {
+                "title": "Exemples",
+                "path": "exemples",
+                "readme": false,
+                "children": []
               }
             ]
           },

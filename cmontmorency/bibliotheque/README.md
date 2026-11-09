@@ -13,14 +13,14 @@ Bibliographie sélective d’ouvrages disponibles à la bibliothèque du collèg
 
 - [Internet, ou Le retour à la bougie](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306845&data=05)
 
-## Design d'interactivité
+## Design d’interactivité
 
 - [Design narratif : scénario et expérience de jeu](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306846&data=05)
 - [Concevoir un jeu vidéo : les méthodes et les outils des professionnels expliqués à tous !](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306847&data=05)
 - [L’art du game design : se focaliser sur les fondamentaux](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306848&data=05)
 - [Never alone : video games as interactive design](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306850&data=05)
 - [Universal principles of UX : 100 timeless strategies to create positive interactions between people and technology](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=306851&data=05)
-- [Composing interactions : an artist's guide to building expressive interactive systems](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=592875&data=05)
+- [Composing interactions : an artist’s guide to building expressive interactive systems](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=592875&data=05)
 - [Strangers need strange moments together : designing interaction for public spaces](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=624110&data=05)
 
 ## Art

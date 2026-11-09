@@ -68,6 +68,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [IU : Typographie](/creation/visuel/iu/typographie/)
     * [Marges](/creation/visuel/marges/)
 * Culture
+  * [Activisme](/culture/activisme/)
   * [Autorat : droit d’auteur](/culture/autorat/)
   * Education
     * [Manifeste pour une éducation résiliente](/culture/education/manifeste/)
@@ -271,6 +272,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * Plugiciel
       * [MIDI et plugins](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)

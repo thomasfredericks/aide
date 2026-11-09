@@ -347,7 +347,7 @@ Activités en classe :
 
 - Introduction à l’impression 3D avec :
 	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
-	- *Slicer* : [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/)
+	- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
