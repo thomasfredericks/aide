@@ -1,14 +1,16 @@
-# Nano : Arduino Terminals
+# Arduino Terminals
 
 <!-- toc -->
+
+## Introduction
 
 [Arduino Terminals](https://codeberg.org/tim-montmorency/arduino_terminals) est un support pour cartes Arduino Nano doté de borniers à vis larges. Il permet un branchement simplifié du bus I2C, de 4 entrées analogiques et de 8 entrées/sorties numériques.
 
 ![Photo d’un Arduino Terminals avec une carte Nano](./arduino_terminals.jpg)
 
-## Soudure du connecteur Grove pour l’I2C/Wire
+## Connecteur Grove pour l’I2C/Wire
 
-Voir les instructions ici : [Arduino Terminals : connecteur Grove I2C/Wire](./grove/)
+Voir les instructions ici : [Arduino Terminals : connecteur Grove pour I2C/Wire](./grove/)
 
 ## Broches d’entrée analogique
 
@@ -40,13 +42,17 @@ Pour lire l’état d’une de ces broches, il faut utiliser `digitalRead()` en 
 int valeur = digitalRead(8);
 ```
 
-## Broches de sortie (analogique et numérique)
+## Broches de sortie numérique
 
 Les broches suivantes peuvent être utilisées comme sorties numériques et supportent également la modulation analogique :
 
+- `2` 
 - `3`  
+- `4`  
 - `5`  
 - `6`  
+- `8`  
+- `9`  
 - `10`  
 
 Pour envoyer 5 V (niveau logique HIGH) sur une broche, il faut utiliser `digitalWrite()` en précisant la broche, par exemple `3`, ainsi que le mot-clé `HIGH` :
@@ -61,10 +67,22 @@ Pour envoyer 0 V (niveau logique LOW) :
 digitalWrite(3, LOW);
 ```
 
-Pour générer une tension moyenne proportionnelle entre 0 et 5 V (analogique), il faut utiliser `analogWrite()` en précisant la broche et une valeur de type `uint8_t` comprise entre 0 et 255 (inclusivement) :
+
+
+## Broches de sortie analogique 
+
+Les broches suivantes supportent la modulation analogique :
+
+- `3`  
+- `5`  
+- `6`  
+- `9`  
+- `10`  
+
+Pour générer une tension moyenne proportionnelle entre 0 et 5 V (analogique), il faut utiliser `analogWrite()` en précisant la broche et une intensité comprise entre 0 et 255 (inclusivement) :
 
 ```cpp
-analogWrite(3, intensity);
+analogWrite(3, intensité );
 ```
 
 

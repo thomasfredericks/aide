@@ -118,6 +118,7 @@ function renderBreadcrumb(trail, currentRoute) {
     if (isLast) {
       // Last item is the current page (no link)
       // Don't render last item //html += `    <li class="active" aria-current="page">${node.title}</li>\n`;
+      html += `    <li class="active" aria-current="page">${node.path}</li>\n`;
     } else {
       if ( node.readme ) {
         html += `    <li><a href="${href}" style="color: ${options.linkColor}">${node.title}</a>${options.separator}</li>\n`;

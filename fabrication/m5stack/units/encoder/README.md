@@ -1,27 +1,28 @@
-# M5Stack Unit Encoder
+# M5Stack Unit Encoder : Encodeur (capteur) de rotation
 
-## Introduction
-
-Page officielle du produit : [Unit Encoder](https://docs.m5stack.com/en/unit/encoder).
 
 ![Photo de l’avant et l’arrière du M5Stack Unit Encoder](./unit_encoder.png)
 
-Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un capteur de rotation infinie équipé de 2 pixels RGB.
+## Introduction
 
-C’est un *Unit* de type I²C tel qu’identifié par son connecteur rouge.
 
-> [!NOTE]
-> Il doit être connecté au M5Stack Grove HUB, au M5Stack PaHub ou directement au microcontrôleur!
+Le [M5Stack Unit Encoder](https://docs.m5stack.com/en/unit/encoder) est un encodeur (capteur) de rotation infinie équipé de 2 pixels RGB.
 
-Un cran (Ticks / Pulses) est l’unité de mesure fondamentale d’un encodeur rotatif. C’est le plus petit mouvement angulaire que l’encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
+C’est un *Unit* de type **I2C** tel qu’identifié par son connecteur rouge.
+
+> [!WARNING]
+> Le M5Stack Unit Encoder doit être connecté à un port I2C identifié par les termes SDA et SCL.
+
+Un cran (*ticks* ou *pulses* en anglais) est l’unité de mesure fondamentale d’un encodeur rotatif. C’est le plus petit mouvement angulaire que l’encodeur peut détecter. Pour chaque cran, le capteur génère une impulsion électrique.
 
 ## Bibliothèque logicielle M5_Encoder
 
-La bibliothèque logicielle [thomasfredericks/M5_Encoder](https://github.com/thomasfredericks/M5_Encoder) permet d’interfacer avec ce _unit_.
+### Introduction
 
-###  Installation
+La bibliothèque [thomasfredericks/M5_Encoder](https://github.com/thomasfredericks/M5_Encoder) permet d’interfacer avec ce *Unit*
 
-#### Dans PlatformIO
+### Installation
+
 
 Dans le fichier **platformio.ini** ajouter à la section `lib_deps` : 
 
@@ -30,19 +31,17 @@ lib_deps =
     https://github.com/thomasfredericks/M5_Encoder.git
 ```
 
-> [!WARNING]
-> Il est important de respecter la disposition et l’indentation de la section lib_deps!
+### Utilisation
 
-### Code obligatoire à ajouter à **l’espace global**
+#### Dans l’espace global
 
-Importer et créer une instance de la classe `M5_Encoder` (nommée `myEncoder` dans cet exemple) :
+Importer et créer une instance de la classe `M5_Encoder` (nommée `monEncodeur` dans l’exemple) :
 ```cpp
 #include <M5_Encoder.h>
-M5_Encoder myEncoder;
+M5_Encoder monEncodeur;
 ```
 
-
-### Code obligatoire à ajouter à `setup()`
+#### Dans setup()
 
 S’assurer que `Wire` est initialisé : 
 ```cpp
@@ -50,7 +49,7 @@ S’assurer que `Wire` est initialisé : 
 ```
 
 > [!WARNING] 
-> Ne pas initialiser Wire deux fois dans votre code!
+> Ne pas initialiser `Wire` deux fois dans le code !
 
 Démarrer `myEncoder` : 
 ```cpp

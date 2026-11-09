@@ -1,8 +1,12 @@
 # La bibliothèque Bounce2
 
+## Introduction
+
 La bibliothèque `Bounce2` permet de gérer les boutons et les interrupteurs en éliminant les changements d’état indésirables provoqués par les rebonds mécaniques.
 
 Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2).
+
+## Installation
 
 Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Bounce2` :
 ```ini
@@ -10,7 +14,9 @@ lib_deps =
     https://github.com/thomasfredericks/Bounce2.git
 ```
 
-## `Bounce2::Button`
+## Utilisation
+
+### `Bounce2::Button`
 
 La classe `Bounce2::Button` permet de gérer un bouton.
 

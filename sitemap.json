@@ -654,7 +654,7 @@
             ]
           },
           {
-            "title": "Nano : Arduino Terminals",
+            "title": "Arduino Terminals",
             "path": "terminals",
             "readme": true,
             "children": [
@@ -665,7 +665,7 @@
                 "children": []
               },
               {
-                "title": "Arduino Terminals : connecteur Grove I2C/Wire",
+                "title": "Arduino Terminals : connecteur Grove pour I2C/Wire",
                 "path": "grove",
                 "readme": true,
                 "children": []
@@ -958,12 +958,6 @@
             ]
           },
           {
-            "title": "Atom POE",
-            "path": "atom-poe",
-            "readme": true,
-            "children": []
-          },
-          {
             "title": "AtomS3",
             "path": "atomS3",
             "readme": true,
@@ -995,9 +989,22 @@
             ]
           },
           {
-            "title": "Units",
+            "title": "M5Stack : Bases",
+            "path": "bases",
+            "readme": true,
+            "children": [
+              {
+                "title": "Atom POE",
+                "path": "atom-poe",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "M5Stack : Units",
             "path": "units",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Unit 3.96",
@@ -1044,7 +1051,7 @@
                 "children": []
               },
               {
-                "title": "M5Stack Unit Encoder",
+                "title": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
                 "path": "encoder",
                 "readme": true,
                 "children": []

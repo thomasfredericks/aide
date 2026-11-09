@@ -185,8 +185,8 @@
         "u": "#/fabrication/arduino/ide"
     },
     {
-        "t": "Nano : Arduino Terminals",
-        "l": "nano  arduino terminals",
+        "t": "Arduino Terminals",
+        "l": "arduino terminals",
         "u": "#/fabrication/arduino/terminals"
     },
     {
@@ -200,7 +200,7 @@
         "u": "#/fabrication/arduino/terminals/bouton_arcade"
     },
     {
-        "t": "Arduino Terminals : connecteur Grove I2C/Wire",
+        "t": "Arduino Terminals : connecteur Grove pour I2C/Wire",
         "l": "arduino terminals  connecteur grove i2c/wire",
         "u": "#/fabrication/arduino/terminals/grove"
     },
@@ -345,11 +345,6 @@
         "u": "#/fabrication/m5stack"
     },
     {
-        "t": "Atom POE",
-        "l": "atom poe",
-        "u": "#/fabrication/m5stack/atom-poe"
-    },
-    {
         "t": "Atom (Lite)",
         "l": "atom lite",
         "u": "#/fabrication/m5stack/atom"
@@ -395,6 +390,21 @@
         "u": "#/fabrication/m5stack/atom/tutoriels/microosc/slip"
     },
     {
+        "t": "M5Stack : Bases",
+        "l": "m5stack  bases",
+        "u": "#/fabrication/m5stack/bases"
+    },
+    {
+        "t": "Atom POE",
+        "l": "atom poe",
+        "u": "#/fabrication/m5stack/bases/atom-poe"
+    },
+    {
+        "t": "M5Stack : Units",
+        "l": "m5stack  units",
+        "u": "#/fabrication/m5stack/units"
+    },
+    {
         "t": "Unit 3.96",
         "l": "unit 3.96",
         "u": "#/fabrication/m5stack/units/396"
@@ -425,8 +435,8 @@
         "u": "#/fabrication/m5stack/units/angle"
     },
     {
-        "t": "M5Stack Unit Encoder",
-        "l": "m5stack unit encoder",
+        "t": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
+        "l": "m5stack unit encoder  encodeur capteur rotation",
         "u": "#/fabrication/m5stack/units/encoder"
     },
     {

@@ -1,14 +1,20 @@
 # La bibliothèque Chrono
 
+## Introduction
+
 La bibliothèque `Chrono` permet de mesurer des durées sans bloquer l’exécution du programme.
 
 Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). 
+
+## Installation
 
 Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Chrono` :
 ```ini
 lib_deps =
     https://github.com/SofaPirate/Chrono.git
 ```
+
+## Utilisation
 
 Cette instruction crée un objet nommé `minuterieDel` de type `Chrono` :
 

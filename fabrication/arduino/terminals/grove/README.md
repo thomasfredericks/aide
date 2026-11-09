@@ -1,4 +1,10 @@
-# Arduino Terminals : connecteur Grove I2C/Wire
+# Arduino Terminals : connecteur Grove pour I2C/Wire
+
+<!-- toc -->
+
+## Introduction
+
+
 
 ## Soudure du connecteur Grove
 

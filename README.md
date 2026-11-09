@@ -111,9 +111,9 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](/fabrication/arduino/nano/atmega/plaftformio/)
       * [Arduino Nano R4](/fabrication/arduino/nano/r4/)
         * [Configuration Nano R4 PlatformIO](/fabrication/arduino/nano/r4/platformio/)
-    * [Nano : Arduino Terminals](/fabrication/arduino/terminals/)
+    * [Arduino Terminals](/fabrication/arduino/terminals/)
       * [Arduino Terminals : Bouton d’arcade](/fabrication/arduino/terminals/bouton_arcade/)
-      * [Arduino Terminals : connecteur Grove I2C/Wire](/fabrication/arduino/terminals/grove/)
+      * [Arduino Terminals : connecteur Grove pour I2C/Wire](/fabrication/arduino/terminals/grove/)
       * [Arduino Terminals : Potentiomètre](/fabrication/arduino/terminals/potentiometre/)
     * [Arduino : Traitement](/fabrication/arduino/traitement/)
       * [Arduino : traiter le changement](/fabrication/arduino/traitement/changement/)
@@ -159,13 +159,14 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * Tutoriels
         * Microosc
           * [Code OSC SLIP de base du M5Stack Atom](/fabrication/m5stack/atom/tutoriels/microosc/slip/)
-    * [Atom POE](/fabrication/m5stack/atom-poe/)
     * [AtomS3](/fabrication/m5stack/atomS3/)
       * [AtomS3 USB MIDI](/fabrication/m5stack/atomS3/midi/)
       * [AtomS3 : accéléromètre et de gyroscope (mpu6886)](/fabrication/m5stack/atomS3/mpu6886/)
       * [AtomS3 et PlatformIO](/fabrication/m5stack/atomS3/platformio/)
       * [Communication série UART avec AtomS3](/fabrication/m5stack/atomS3/uart/)
-    * Units
+    * [M5Stack : Bases](/fabrication/m5stack/bases/)
+      * [Atom POE](/fabrication/m5stack/bases/atom-poe/)
+    * [M5Stack : Units](/fabrication/m5stack/units/)
       * [Unit 3.96](/fabrication/m5stack/units/396/)
         * Bouton
           * [M5Stack Unit 3.96 et bouton d’arcade](/fabrication/m5stack/units/396/bouton/arcade/)
@@ -173,7 +174,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [M5Stack Unit 3.96 et potentiomètre](/fabrication/m5stack/units/396/potentiometre/)
       * [Atomic Port ABC Base](/fabrication/m5stack/units/abc/)
       * [M5Stack Angle Unit](/fabrication/m5stack/units/angle/)
-      * [M5Stack Unit Encoder](/fabrication/m5stack/units/encoder/)
+      * [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/)
       * [M5Stack Fader Unit](/fabrication/m5stack/units/fader/)
       * [Grove Hub](/fabrication/m5stack/units/grove_hub/)
       * [M5Stack Key Unit](/fabrication/m5stack/units/key/)
