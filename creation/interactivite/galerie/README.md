@@ -265,3 +265,4 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - https://www.tjcuthand.com/videos/
 - https://www.kwanalan.com/game
 - [HADR by Dominik Konecny](https://domkonecny.itch.io/hadr)
+- [CULTUREHUB — Hands That Steal From Other Mouths](https://www.culturehub.org/hands-that-steal-from-other-mouths)
