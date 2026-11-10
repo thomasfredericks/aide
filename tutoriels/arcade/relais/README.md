@@ -1,5 +1,5 @@
 
-# Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP
+# Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP
 
 Ce tutoriel montre comment utiliser [MicroOsc SLIP](/fabrication/arduino/microosc/slip/) pour envoyer les changements d’état d’un bouton vers Pd qui les relaye à d’autres logiciels (comme Unity) par OSC UDP.
 
@@ -88,4 +88,4 @@ Télécharger et ouvrir le patcher Pd pour transmettre les messages OSC.
 
 ![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.png)
 
-Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd)
+Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd)

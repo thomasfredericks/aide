@@ -4,11 +4,11 @@
 
 ### Serveur Sunshine
 
-- [LizardByte/Sunshine: Self-hosted game stream host for Moonlight](https://github.com/LizardByte/Sunshine)
+- [LizardByte/Sunshine: Self-hosted game stream host for Moonlight](https://github.com/LizardByte/Sunshine)
 
 ### Client Moonlight
 
-- [moonlight-stream/moonlight-qt: GameStream client for PCs (Windows, Mac, Linux, and Steam Link)](https://github.com/moonlight-stream/moonlight-qt)
+- [moonlight-stream/moonlight-qt: GameStream client for PCs (Windows, Mac, Linux, and Steam Link)](https://github.com/moonlight-stream/moonlight-qt)
 
 #### Contrôles
 

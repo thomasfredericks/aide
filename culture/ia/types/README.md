@@ -57,10 +57,10 @@ Il existe de nombreux [dangers](../dangers/) liés à l’utilisation des GML.
 
 ### Caractéristiques principales
 
-- **Architecture** : Réseaux de neurones profonds ; *transformers*
-- **Données d’entraînement** : Corpus textuels massifs (Internet, livres, articles)
-- **Mécanisme** : Reconnaissance de motifs
-- **Sorties** : Texte, code, traduction, résumé, dialogue
+- **Architecture** : Réseaux de neurones profonds ; *transformers*
+- **Données d’entraînement** : Corpus textuels massifs (Internet, livres, articles)
+- **Mécanisme** : Reconnaissance de motifs
+- **Sorties** : Texte, code, traduction, résumé, dialogue
 
 
 ### Avantages
@@ -70,9 +70,9 @@ Il existe de nombreux [dangers](../dangers/) liés à l’utilisation des GML.
 ### Limites et risques
 
 ❌ Risques de biais, d’erreurs ou de dérives  
-❌ Impact environnemental très élevé : modèles massifs, infrastructure lourde  
+❌ Impact environnemental très élevé : modèles massifs, infrastructure lourde  
 ❌ Moins durable, dépendance aux géants du cloud  
-❌ Très élevés coûts : en données, calcul, maintenance  
+❌ Très élevés coûts : en données, calcul, maintenance  
 
 ### Fonctionnement
 
@@ -95,10 +95,10 @@ Lors de la génération d’une image, le modèle commence par un bruit aléatoi
 
 ### Caractéristiques principales
 
-- **Architecture** : Réseaux de neurones profonds (diffusion models, GANs, transformers)
-- **Données d’entraînement** : Millions d’images avec descriptions textuelles associées
-- **Mécanisme** : Reconnaissance de motifs visuels et génération progressive
-- **Sorties** : Images, illustrations, photographies synthétiques
+- **Architecture** : Réseaux de neurones profonds (diffusion models, GANs, transformers)
+- **Données d’entraînement** : Millions d’images avec descriptions textuelles associées
+- **Mécanisme** : Reconnaissance de motifs visuels et génération progressive
+- **Sorties** : Images, illustrations, photographies synthétiques
 
 
 ### Avantages
@@ -123,8 +123,8 @@ Ces systèmes ont exploré pratiquement toutes les parties possibles dans leurs 
 
 Il existe deux approches principales :
 
-- **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
-- **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
+- **Base de données exhaustive** : Stockage de millions/milliards de positions déjà jouées avec leur issue connue. Quand une position apparaît, l’IA consulte directement cette base.
+- **Simulation des alternatives** : Arbres de décision où l’algorithme explore virtuellement chaque branche possible, évalue les issues potentielles, et sélectionne la meilleure trajectoire (Minimax, MCTS).
 
 Les **algorithmes principaux** sont Minimax, Monte Carlo Tree Search (MCTS). Une approche plus moderne consiste à combiner Monte Carlo Tree Search avec un réseaux de neurones profonds (comme dans AlphaGo).
 
@@ -167,7 +167,7 @@ Techniques utilisées :
 
 ![Exemple d’un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
 
-Exemple d’un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
+Exemple d’un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
 ```csharp
 uint32 SomeEnemy::HandleEvent( const FSMEvent& Event ) override
 {

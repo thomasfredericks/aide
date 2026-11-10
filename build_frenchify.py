@@ -11,7 +11,7 @@ FILE_EXTENSIONS = ['.md']
 # Character substitutions (replace key with value)
 SUBSTITUTIONS = {
     "'": "’",          # Straight apostrophe → French curly apostrophe
-     ": ": ":\u00a0",   # ": " → ": " + espace insécable
+     ": ": ": ",   # ": " → ": " + espace insécable
 }
 
 def process_file(filepath):

@@ -10,7 +10,7 @@
 
 ## Connecteur Grove pour l’I2C/Wire
 
-Voir les instructions ici : [Arduino Terminals : connecteur Grove pour I2C/Wire](./grove/)
+Voir les instructions ici : [Arduino Terminals : connecteur Grove pour I2C/Wire](./grove/)
 
 ## Broches d’entrée analogique
 

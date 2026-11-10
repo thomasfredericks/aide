@@ -1,5 +1,5 @@
 
-# Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade
+# Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade
 
 Quand on appuie sur un bouton d’Arcade, cela envoie le message OSC SLIP `/but0 1` à Pd qui le relaye par UDP à Unity.
 
@@ -31,7 +31,7 @@ Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arca
 ### Initialiser MicroOsc
 
 - Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
-- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
 ```cpp
 MicroOscSlip<128> monOsc(&Serial); 
 ```
@@ -43,7 +43,7 @@ Serial.begin(115200);
 ### Interrupteur du bouton d’arcade dans Arduino
 
 - Ajouter `#include <Bounce2.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
 ```cpp
 Bounce2::Button bouton;
 ```
@@ -105,7 +105,7 @@ Dans `OscProcess` nous devons ajouter les deux propriétés suivantes :
 Voici un rappel d’où placer ces proprités :
 ```csharp
 // ...
-public class OscProcess : MonoBehaviour
+public class OscProcess : MonoBehaviour
 {
     // ...
     public GameManager gameManager;
@@ -149,7 +149,7 @@ void TraiterMessageBut0(OSCMessage message)
         int valeur = message.Values[0].IntValue;
 
         // Deboguer
-        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
         // Traiter la valeur
         if ( valeur == 0 ) {
@@ -180,9 +180,9 @@ Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip
 > Dans le patcher `relais_osc_slip_vers_udp.pd`, il faut s’assurer que le port UDP est le même que celui du `OSC Receiver` du GameObject `OSC` dans Unity. Il est de 8001 dans l’image plus bas, mais est-ce que c’est le bon ?
 
 Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pdchoco/osc_formatter`. Y entrer les informations suivantes et appuyer sur `send` :
-- **address** : `but0` (ce qui correspond en OSC à /but0)
-- **format** : `i` (un entier)
-- **arguments** : `1`
+- **address** : `but0` (ce qui correspond en OSC à /but0)
+- **format** : `i` (un entier)
+- **arguments** : `1`
 
 ![Zoom sur une portion du patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd_zoom.png)
 

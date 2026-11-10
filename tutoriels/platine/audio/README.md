@@ -1,17 +1,17 @@
-# Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd
+# Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd
 
 Dans cet exemple, l’Arduino agit comme une interface entre des boutons physiques et le moteur audio de Pure Data. Chaque interaction avec un bouton est convertie en un message texte (ASCII) envoyé par le port série. Pure Data reçoit ensuite ces messages et exécute l’action sonore correspondante. 
 
 ```mermaid
 flowchart TD
 
-    A[Bouton 0 appuyé] --> B["Arduino envoie : bouton0 1"]
+    A[Bouton 0 appuyé] --> B["Arduino envoie : bouton0 1"]
     B --> C[Lecture du son clap]
 
-    D[Bouton 1 appuyé] --> E["Arduino envoie : bouton1 1"]
+    D[Bouton 1 appuyé] --> E["Arduino envoie : bouton1 1"]
     E --> F[Démarrage de la boucle break]
 
-    G[Bouton 1 appuyé de nouveau] --> H["Arduino envoie : bouton1 0"]
+    G[Bouton 1 appuyé de nouveau] --> H["Arduino envoie : bouton1 0"]
     H --> I[Arrêt de la boucle break]
 ```
 
@@ -100,6 +100,6 @@ Dans ce patch :
 - la réception de `bouton1 1` démarre la boucle **break** ;
 - la réception de `bouton1 0` arrête la boucle **break**.
 
-Patch Pure Data : [arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.pd)
+Patch Pure Data : [arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.pd)
 
 ![Patch arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.png)

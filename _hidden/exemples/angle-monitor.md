@@ -1,4 +1,4 @@
-# Tutoriel: M5 Angle et Serial Plotter
+# Tutoriel: M5 Angle et Serial Plotter
 
 ## Préalable(s)
 

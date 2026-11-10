@@ -1,4 +1,4 @@
-# Tutoriel: OscBridge, M5 Angle et le bouton
+# Tutoriel: OscBridge, M5 Angle et le bouton
 
 ## Préalable(s)
 

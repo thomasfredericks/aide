@@ -1,9 +1,9 @@
-# Tutoriel: Lampe torche avec une corrélation directe
+# Tutoriel: Lampe torche avec une corrélation directe
 
 ## Préalable(s)
 
 - [Le pixel du M5Stack Atom](/m5stack/atom/pixel.md)
-- [Tutoriel: «Blink» uniquement au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
+- [Tutoriel: «Blink» uniquement au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
 - [Bouton du M5Stack Atom](/m5stack/atom/bouton.md)
 
 

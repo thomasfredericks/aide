@@ -44,14 +44,14 @@ Dans `setup()`, n’oubliez pas de démarrer la communication série :
 
 - **`int`** : entier qui est toujours 32 bits signés (`int32_t`) en OSC.  
 
-Pour envoyer une donnée, il suffit d’utiliser la méthode qui correspond au type de la donnée. Pour un entier, on utilise : 
+Pour envoyer une donnée, il suffit d’utiliser la méthode qui correspond au type de la donnée. Pour un entier, on utilise : 
 ```cpp
 monOsc.sendInt(adresse, valeur);
 ```
 
 Les arguments de `sendInt()` sont :
-- `adresse` : une chaîne de caractères (`const char *`) comme `"/but0"`, `"/apha"` ou `"/beta"` qui défini l’adresse OSC du message.
-- `valeur` : un entier (`int32_t`) qui est la valeur à envoyer.
+- `adresse` : une chaîne de caractères (`const char *`) comme `"/but0"`, `"/apha"` ou `"/beta"` qui défini l’adresse OSC du message.
+- `valeur` : un entier (`int32_t`) qui est la valeur à envoyer.
 
 ![](microosc_sendInt.drawio.png)
 
@@ -67,5 +67,5 @@ monOsc.sendInt( "/beta" , maLectureAnalogique);
 
 ## Tutoriels
 
-- [Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd](/tutoriels/arcade/pd/)
-- [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)
+- [Tutoriel Pd MicroOsc SLIP : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers Pd](/tutoriels/arcade/pd/)
+- [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](/tutoriels/arcade/relais/)

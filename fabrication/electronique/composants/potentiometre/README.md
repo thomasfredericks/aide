@@ -23,7 +23,7 @@ Le potentiomètre (souvent abrégé "pot") est un composant électronique passif
 Pour tester un potentiomètre avec un multimètre :
 1. Réglez le multimètre en mode ohmmètre
 2. Mesurez entre une broche extérieure et le curseur
-3. Tournez le bouton : la valeur devrait changer de façon continue
+3. Tournez le bouton : la valeur devrait changer de façon continue
 4. Si la mesure saute brusquement ou reste fixe, le potentiomètre peut être défectueux
 
 ![Mesurer la résistance d’un potentiomètre](./pot_measure.png)
@@ -36,7 +36,7 @@ Un potentiomètre possède trois bornes de connexion :
 
 | Broche | Fonction | Branchement typique |
 |--------|----------|---------------------|
-| Broche 1 | Extrémité 1 | VCC (alimentation, ex: 5V) |
+| Broche 1 | Extrémité 1 | VCC (alimentation, ex: 5V) |
 | Broche 2 | Curseur (sortie) | Entrée analogique du microcontrôleur |
 | Broche 3 | Extrémité 2 | GND (masse) |
 
@@ -44,7 +44,7 @@ Un potentiomètre possède trois bornes de connexion :
 
 > [!NOTE]
 > Les deux broches extérieures peuvent être inversées sans dommage - cela inverse simplement le sens de variation du signal.
-> La broche centrale doit toujours être connectée à une entrée analogique (ex: A0 sur Arduino).
+> La broche centrale doit toujours être connectée à une entrée analogique (ex: A0 sur Arduino).
 
 
 ## Tension de sortie

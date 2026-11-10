@@ -1,4 +1,4 @@
-# Spout dans Unity
+# Unity : Spout
 
 ## Préalables
 
@@ -7,9 +7,9 @@
 ## Ajouter le régistre de Keijiro qui a créé KlakSpout dans Unity
 
 Voici l’information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
-* Name: `Keijiro`
-* URL: `https://registry.npmjs.com`
-* Scope: `jp.keijiro`
+* Name: `Keijiro`
+* URL: `https://registry.npmjs.com`
+* Scope: `jp.keijiro`
 
 ![](./scope_registries_keijiro.SVG)
 

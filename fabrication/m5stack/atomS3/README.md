@@ -40,7 +40,7 @@ Après avoir téléversé le code, appuyer une fois rapidement sur le bouton pou
 
 ## Autres modes USB
 
-L’ESP32-S3 peut se présenter comme de nombreux types de périphériques USB, tels que des contrôleurs MIDI, des souris, des claviers, des manettes de jeu, etc. En revanche, les différents modes USB sont très peu documentés. Espressif met toutefois à disposition plusieurs exemples, disponibles ici : [arduino-esp32/libraries/USB at master · espressif/arduino-esp32](https://github.com/espressif/arduino-esp32/tree/master/libraries/USB)
+L’ESP32-S3 peut se présenter comme de nombreux types de périphériques USB, tels que des contrôleurs MIDI, des souris, des claviers, des manettes de jeu, etc. En revanche, les différents modes USB sont très peu documentés. Espressif met toutefois à disposition plusieurs exemples, disponibles ici : [arduino-esp32/libraries/USB at master · espressif/arduino-esp32](https://github.com/espressif/arduino-esp32/tree/master/libraries/USB)
 
 ## Schéma électronique
 

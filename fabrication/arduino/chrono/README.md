@@ -4,7 +4,7 @@
 
 La bibliothèque `Chrono` permet de mesurer des durées sans bloquer l’exécution du programme.
 
-Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). 
+Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). 
 
 ## Installation
 
@@ -35,4 +35,4 @@ Cela permet de réaliser des temporisations **non bloquantes**, sans utiliser `d
 
 ## Tutoriels
 
-- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
+- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)

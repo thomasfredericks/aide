@@ -1,9 +1,9 @@
-# Tutoriel: Lampe torche qui clignote
+# Tutoriel: Lampe torche qui clignote
 
 ## Préalable(s)
 
-- [Tutoriel: lampe torche avec état](/m5stack/atom/tutoriel/lampe-torche-etat.md)
-- [Tutoriel: clignoter sans bloquer](/m5stack/atom/tutoriel/clignoter-sans-bloquer.md)
+- [Tutoriel: lampe torche avec état](/m5stack/atom/tutoriel/lampe-torche-etat.md)
+- [Tutoriel: clignoter sans bloquer](/m5stack/atom/tutoriel/clignoter-sans-bloquer.md)
 
 ## Code complet
 

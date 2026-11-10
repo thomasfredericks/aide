@@ -1,4 +1,4 @@
-# Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre
+# Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre
 
 Dans ce tutoriel, nous voulons contrôler le jeu [thomasfredericks/unlock_unity)](https://github.com/thomasfredericks/unlock_unity) avec un [potentiomètre](/fabrication/electronique/composants/potentiometre/) pour la rotation de la roulette, et un bouton d’arcade pour valider notre choix.   
 
@@ -33,7 +33,7 @@ Dans le jeu, il faut tourner la roulette pour trouver l’icône du cadenas et a
 > Nous traitons le bouton comme un **événement discret**.
 > Le message n’est envoyé que lors de l’appui ou du relâchement.
 > Si le bouton est maintenu, rien de nouveau n’est envoyé.
-> Sa valeur est booléenne : `0` ou `1`.
+> Sa valeur est booléenne : `0` ou `1`.
 
 ## Comportement désiré de la DEL
 
@@ -67,7 +67,7 @@ Brancher un [potentiomètre](/fabrication/electronique/composants/potentiometre/
 ### Initialiser MicroOsc
 
 - Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
-- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
 ```cpp
 MicroOscSlip<128> monOsc(&Serial); 
 ```
@@ -79,7 +79,7 @@ Serial.begin(115200);
 ### Interrupteur du bouton d’arcade
 
 - Ajouter `#include <Bounce2.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
 ```cpp
 Bounce2::Button bouton;
 ```
@@ -104,7 +104,7 @@ Bounce2::Button bouton;
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur du potentiomètre à intervalles réguliers.
 
 - Ajouter `#include <Chrono.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
+- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
 ```cpp
 Chrono chronoPot;
 ```
@@ -161,8 +161,8 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 - Fourcher (*forker*) le dépôt [thomasfredericks/unlock_unity)](https://github.com/thomasfredericks/unlock_unity) .
 - Le cloner sur votre ordinateur.
 - Il y aura ainsi deux dépôts Git pour ce tutoriel :
-    - `unlock_arduino` : qui contient le code Arduino et Pure Data.
-    - `unlock_unity` : qui contient le code Unity.
+    - `unlock_arduino` : qui contient le code Arduino et Pure Data.
+    - `unlock_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
     - Utiliser la glissière pour tourner la roulette.
     - Lorsque l’image du cadenas ouvert est trouvé, appuyer sur le bouton `Valider`.
@@ -171,7 +171,7 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 
 ### extOSC
 
-- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
+- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
 
 > [!NOTE]
 > Il faut s’assurer que les # de ports OSC dans Pd et dans Unity se correspondent.
@@ -248,5 +248,5 @@ if ( unlock.isUnlocked() ) {
 
 > [!WARNING]
 > Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
-> - `unlock_arduino` : qui contient le code Arduino et Pure Data.
-> - `unlock_unity` : qui contient le code Unity.
+> - `unlock_arduino` : qui contient le code Arduino et Pure Data.
+> - `unlock_unity` : qui contient le code Unity.

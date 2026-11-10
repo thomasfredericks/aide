@@ -1,4 +1,4 @@
-# Tutoriel: Lampe torche avec relation d’etat
+# Tutoriel: Lampe torche avec relation d’etat
 
 ## Préalable(s)
 

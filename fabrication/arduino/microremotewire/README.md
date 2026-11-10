@@ -11,7 +11,7 @@ Dans l’exemple illustré ci-haut, un M5Stack Atom POE **alimente** et **contr�
 Chaque `MicroRemoteWirePeripheral` doit se voir attribuer une adresse I2C/Wire unique.  
 Le `MicroRemoteWireController` peut ensuite communiquer avec chaque `MicroRemoteWirePeripheral` en utilisant son adresse.
 
-Code source de la bibliothèque logicielle : [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire)
+Code source de la bibliothèque logicielle : [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire)
  
 
 ## Principe de fonctionnement
@@ -36,7 +36,7 @@ Le code du périphérique doit :
 - Initialiser le bus I2C avec son adresse.
 - Déclarer les fonctions `onReceive` et `onRequest`.
 
-Dans le dossier `examples/peripheral-nano` du [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire), il y a un exemple pour une carte configurée en tant que périphérique : [peripheral-nano](https://github.com/thomasfredericks/MicroRemoteWire/tree/main/examples/peripheral-nano)
+Dans le dossier `examples/peripheral-nano` du [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire), il y a un exemple pour une carte configurée en tant que périphérique : [peripheral-nano](https://github.com/thomasfredericks/MicroRemoteWire/tree/main/examples/peripheral-nano)
 
 Voici la configuration de `platformio.ini` de l’exemple:
 ```ini
@@ -49,7 +49,7 @@ lib_deps =
     https://github.com/thomasfredericks/MicroRemoteWire
 ```
 
-**Dans le code, la seule ligne à modifier est le numéro de l’I2C. Rappel : chaque périphérique doit avoir une adresse I2C unique.**
+**Dans le code, la seule ligne à modifier est le numéro de l’I2C. Rappel : chaque périphérique doit avoir une adresse I2C unique.**
 
 Pour modifier le numéro de l’I2C, modifier la valeur de `PERIPHERAL_I2C_ADDR` :
 ```cpp
@@ -62,9 +62,9 @@ Le code du contrôleur doit :
 
 - Inclure la bibliothèque logicielle `MicroRemoteWireController`.
 - Configurer la communication avec l’ordinateur.
-- **Pour chaque périphérique** : Créer un objet en lui passant le bus `Wire` et l’adresse configurée dans le code du périphérique.
+- **Pour chaque périphérique** : Créer un objet en lui passant le bus `Wire` et l’adresse configurée dans le code du périphérique.
 
-Dans le dossier `examples/controller-atompoe` du [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire), il y a un exemple pour une carte configurée en tant que contrôleur : [controller-atompoe](https://github.com/thomasfredericks/MicroRemoteWire/tree/main/examples/controller-atompoe)
+Dans le dossier `examples/controller-atompoe` du [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire), il y a un exemple pour une carte configurée en tant que contrôleur : [controller-atompoe](https://github.com/thomasfredericks/MicroRemoteWire/tree/main/examples/controller-atompoe)
 
 Voici la configuration de `platformio.ini` de l’exemple:
 ```ini
@@ -84,7 +84,7 @@ L’exemple est assez complexe puisqu’il initialise une connexion Ethernet ave
 
 **Il y a quelques éléments du code à configurer.**
 
-**À configurer** : Indiquer les périphériques en ajoutant à `remote[ ]` une entrée pour chaque périphérique sur le bus I2C en spécifiant son adresse (l’adresse choisie lors du téléversement sur le périphérique). Ici, il y a 3 périphériques avec les adresses `0x42`, `0x43` et `0x44` :
+**À configurer** : Indiquer les périphériques en ajoutant à `remote[ ]` une entrée pour chaque périphérique sur le bus I2C en spécifiant son adresse (l’adresse choisie lors du téléversement sur le périphérique). Ici, il y a 3 périphériques avec les adresses `0x42`, `0x43` et `0x44` :
 ```cpp
 MicroRemoteWireController remote[] = {
     {Wire, 0x42},
@@ -93,12 +93,12 @@ MicroRemoteWireController remote[] = {
 };
 ```
 
-**À configurer** : Ensuite, il faut indiquer le nom de l’ordinateur vers lequel l’Atom POE doit envoyer les messages OSC. Modifier la valeur de la variable `nameToResolve` pour que cela corresponde au nom mDNS de l’ordinateur :
+**À configurer** : Ensuite, il faut indiquer le nom de l’ordinateur vers lequel l’Atom POE doit envoyer les messages OSC. Modifier la valeur de la variable `nameToResolve` pour que cela corresponde au nom mDNS de l’ordinateur :
 ```cpp
 const char * nameToResolve = "CM585787"; // Ne pas utiliser le suffixe ".local" / Do not append ".local"
 ``` 
 
-L’Atom POE doit aussi être attibué un nom mDNS. **Il n’est pas nécessaire de le modifier ; les informations suivantes sont fournies à titre indicatif** : dans cet exemple, le nom est généré automatiquement grâce au bloc de code ci-dessous. Ce code crée le nom mDNS de l’ATOM POE en utilisant le préfixe `"atom-"` suivi de trois codes hexadécimaux extraits de l’adresse MAC de l’ESP32 :
+L’Atom POE doit aussi être attibué un nom mDNS. **Il n’est pas nécessaire de le modifier ; les informations suivantes sont fournies à titre indicatif** : dans cet exemple, le nom est généré automatiquement grâce au bloc de code ci-dessous. Ce code crée le nom mDNS de l’ATOM POE en utilisant le préfixe `"atom-"` suivi de trois codes hexadécimaux extraits de l’adresse MAC de l’ESP32 :
 ```cpp
 // Créer le nom de l’appareil pour mDNS
 char myName[MICRO_NET_NAME_MAX_LENGTH] = "atom-"; // préfixe du nom

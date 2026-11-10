@@ -1,4 +1,4 @@
-# OSC SLIP : Node.js
+# OSC SLIP : Node.js
 
 
 ## Installation de Node.js

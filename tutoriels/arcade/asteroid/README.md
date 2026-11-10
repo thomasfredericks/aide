@@ -1,4 +1,4 @@
-# Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance
+# Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance
 
 
 ## Introduction
@@ -53,7 +53,7 @@ Brancher une [photorésistance](/fabrication/electronique/composants/photoresist
 ### Initialiser MicroOsc
 
 - Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
-- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
 ```cpp
 MicroOscSlip<128> monOsc(&Serial); 
 ```
@@ -67,7 +67,7 @@ Serial.begin(115200);
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur de la photorésistance à intervalles réguliers.
 
 - Ajouter `#include <Chrono.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
+- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
 ```cpp
 Chrono chronoPot;
 ```
@@ -119,14 +119,14 @@ monOsc.onOscMessageReceived(traiterMessageOsc); // ACQUISITION DES MESSAGES
 ## TESTER le code Arduino avec Pure Data
 
 - Fermer tous les patchers Pd.
-- Télécharger le [patcher pour tester l’OSC SLIP](/logiciels/pd/osc/slip/osc_slip_test.pd) de la page [Pd : OSC SLIP](/logiciels/pd/osc/slip/).
+- Télécharger le [patcher pour tester l’OSC SLIP](/logiciels/pd/osc/slip/osc_slip_test.pd) de la page [Pd : OSC SLIP](/logiciels/pd/osc/slip/).
 - Configurer `comport` 
 - Les valeurs du message `/photo` devraient apparître dans la fenêtre de messages Pd.
 - Noter, en déplaçant votre main au-dessus du capteur, le minimum et le maximum.
 - Allumer et éteindre la DEL en envoyant les messages OSC `/lumiere 1` et `/lumiere 0` :
-    - address : `lumiere`
-    - format : `i`
-    - arguments : `0` ou `1`
+    - address : `lumiere`
+    - format : `i`
+    - arguments : `0` ou `1`
 
 
 ## Le patcher FINAL Pure Data pour effectuer le relais 
@@ -140,8 +140,8 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 - Fourcher (*forker*) le dépôt [thomasfredericks/asteroid_unity/](https://github.com/thomasfredericks/asteroid_unity/).
 - Le cloner sur votre ordinateur.
 - Il y aura ainsi deux dépôts Git pour ce tutoriel :
-    - `asteroid_arduino` : qui contient le code Arduino et Pure Data.
-    - `asteroid_unity` : qui contient le code Unity.
+    - `asteroid_arduino` : qui contient le code Arduino et Pure Data.
+    - `asteroid_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
     - Utiliser la glissière pour contrôler la hauteur du vaisseau.
 
@@ -149,7 +149,7 @@ Télécharger le patcher [relais_osc_slip_udp_bidirectionnel.pd](/logiciels/pd/
 
 ### extOSC
 
-- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
+- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
 
 > [!NOTE]
 > Il faut s’assurer que les # de ports OSC dans Pd et dans Unity se correspondent.
@@ -190,21 +190,21 @@ La DEL devrait s’allumer et clignoter en même temps que le vaisseau. La varia
 
 > [!WARNING]
 > Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
-> - `asteroid_arduino` : qui contient le code Arduino et Pure Data.
-> - `asteroid_unity` : qui contient le code Unity.
+> - `asteroid_arduino` : qui contient le code Arduino et Pure Data.
+> - `asteroid_unity` : qui contient le code Unity.
 
 ## Trouver la bonne plage de valeurs de /photo
 
 Votre vaisseau va être difficile à contrôler parce que la photorésistance n’envoie pas des valeurs qui couvrent la plage entière entre 0 et 1023. Il faut trouver quelle est la plage réelle :
 - Arrêter le jeu Unity.
 - Fermer le patcher Pd de relais.
-- Télécharger le [patcher pour tester l’OSC SLIP](/logiciels/pd/osc/slip/osc_slip_test.pd) de la page [Pd : OSC SLIP](/logiciels/pd/osc/slip/).
+- Télécharger le [patcher pour tester l’OSC SLIP](/logiciels/pd/osc/slip/osc_slip_test.pd) de la page [Pd : OSC SLIP](/logiciels/pd/osc/slip/).
 - Configurer `comport` et observer les valeurs du message `/photo` dans la fenêtre de messages de Pd.
 - Noter, en déplaçant votre main au-dessus du capteur, le minimum et le maximum.
 - Fermer le **patcher pour tester l’OSC SLIP**.
 - Rouvrir le patcher Pd de relais.
 - Configurer la bonne plage de valeurs dans l’inspecteur Unity du GameObject `OSC` :
-    - in min : le minimum de la mesure analogique de la photorésistance
-    - in max : le maximum de la mesure analogique de la photorésistance
-    - out min : la position verticale minimale du vaisseau dans la scène 
-    - out max : la position verticale maximale du vaisseau dans la scène 
+    - in min : le minimum de la mesure analogique de la photorésistance
+    - in max : le maximum de la mesure analogique de la photorésistance
+    - out min : la position verticale minimale du vaisseau dans la scène 
+    - out max : la position verticale maximale du vaisseau dans la scène 

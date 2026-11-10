@@ -1,22 +1,22 @@
 ![](./cmontmorency_entete.png)
 
-# COURS : 582-531 OBJETS INTERACTIFS
+# COURS : 582-531 OBJETS INTERACTIFS
 
 <!-- toc -->
 
-- Numéro de cours : 582 531 MO
-- Nombre d’heures d’enseignement : 60
-- Pondération : 2-2-2
-- Programme : Techniques d’intégration multimédia
-- Département du programme : Techniques d’intégration multimédia
-- Session : Automne 2026
-- Professeure ou professeur : Thomas O. Fredericks
-- Département de la professeure ou du professeur : Techniques d’intégration multimédia
-- Courriel : ThomasOuellet.Fredericks@cmontmorency.qc.ca
-- Bureau : C-1649
-- Plateforme(s) pédagogique(s) utilisée(s) : Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
-- Coordination : Lora Boisvert
-- Contact de la coordination : lora.boisvert@cmontmorency.qc.ca (C-1651)
+- Numéro de cours : 582 531 MO
+- Nombre d’heures d’enseignement : 60
+- Pondération : 2-2-2
+- Programme : Techniques d’intégration multimédia
+- Département du programme : Techniques d’intégration multimédia
+- Session : Automne 2026
+- Professeure ou professeur : Thomas O. Fredericks
+- Département de la professeure ou du professeur : Techniques d’intégration multimédia
+- Courriel : ThomasOuellet.Fredericks@cmontmorency.qc.ca
+- Bureau : C-1649
+- Plateforme(s) pédagogique(s) utilisée(s) : Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
+- Coordination : Lora Boisvert
+- Contact de la coordination : lora.boisvert@cmontmorency.qc.ca (C-1651)
 
 
 
@@ -48,8 +48,8 @@ Le cours suivant est préalable absolu au présent cours :
 
 ### Volets transversaux
 
-- Compétence langagière : L’élève adapte son discours à la situation de communication, communique adéquatement à l’oral et à l’écrit, soigne ses productions écrites et utilise le lexique de la profession.
-- Compétence numérique : L’élève exploite les TIC de manière efficace et responsable. Il recherche, traite et présente de l’information.
+- Compétence langagière : L’élève adapte son discours à la situation de communication, communique adéquatement à l’oral et à l’écrit, soigne ses productions écrites et utilise le lexique de la profession.
+- Compétence numérique : L’élève exploite les TIC de manière efficace et responsable. Il recherche, traite et présente de l’information.
 
 ### Attitudes professionnelles
 
@@ -60,8 +60,8 @@ Le cours suivant est préalable absolu au présent cours :
 
 ### Dates importantes
 
-- 18 septembre : Date limite de désinscription au cours sans mention au bulletin.
-- 4 novembre : Date limite d’abandon de cours sans échec entraînant une mention au bulletin.
+- 18 septembre : Date limite de désinscription au cours sans mention au bulletin.
+- 4 novembre : Date limite d’abandon de cours sans échec entraînant une mention au bulletin.
 
 ## Contexte d’apprentissage et méthodes pédagogiques
 
@@ -91,7 +91,7 @@ Pour les détails du matériel requis, voir le [guide des étudiants](https://cm
 
 ## Réservation du matériel spécialisé
 
-Lorsque vous êtes autorisée ou autorisé par votre professeure ou professeur à emprunter le matériel spécialisé, vous pouvez le réserver auprès des TTP en suivant la procédure suivante : [Procédure de prêt – TTP.pptx](https://cmontmorency365.sharepoint.com/:p:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/Proc%C3%A9dure%20de%20pr%C3%AAt%20-%20TTP.pptx?d=wce77a41cd0db4bb8862e11adba23c93b&csf=1&web=1&e=UPLDTD).
+Lorsque vous êtes autorisée ou autorisé par votre professeure ou professeur à emprunter le matériel spécialisé, vous pouvez le réserver auprès des TTP en suivant la procédure suivante : [Procédure de prêt – TTP.pptx](https://cmontmorency365.sharepoint.com/:p:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/Proc%C3%A9dure%20de%20pr%C3%AAt%20-%20TTP.pptx?d=wce77a41cd0db4bb8862e11adba23c93b&csf=1&web=1&e=UPLDTD).
 
 ## Règles d’identification des travaux
 
@@ -99,21 +99,21 @@ Les travaux non identifiés ne seront pas corrigés et les pénalités de retard
 
 ### Travail individuel
 
-Suivre le modèle suivant : 
+Suivre le modèle suivant : 
 
 - `[nom de famille]-[prénom]_[nom du travail]_[#travail]_[#cours]`
 
-Exemple : 
+Exemple : 
 
 - `gilbert-charlene_polychromes_01_582-314MO`
 
 ### Travail d’équipe
 
-Suivre le modèle suivant : 
+Suivre le modèle suivant : 
 
 - `[les noms de famille en ordre alphabétique séparés par -]_[nom du travail]_[#travail]_[#cours]`
 
-Exemple : 
+Exemple : 
 
 - `boisvert-gilbert-hubert_polychromes_01_582-314MO`
 
@@ -152,7 +152,7 @@ Annonce :
 	- [LUDODROME 2026 | Instagram](https://www.instagram.com/p/DbwzCVxEi2n/?img_index=1)
 	- [LUDODROME 2025 | Experimentation Excites Everyone - YouTube](https://www.youtube.com/watch?v=Y76aHOd3Xlo)
 
-Visite : 
+Visite : 
 
 - [Club de robotique | Collège Montmorency](https://www.cmontmorency.qc.ca/etudiants/vie-etudiante/clubs-et-comites/club-de-robotique/)
 
@@ -161,7 +161,7 @@ Activités en classe :
 - Introduction à [Arduino](https://t-o-f.info/aide/#/fabrication/arduino/).
 	- [Arduino Nano R4](https://t-o-f.info/aide/#/fabrication/arduino/nano/r4/).
 - [PlatformIO](https://t-o-f.info/aide/#/fabrication/platformio).
-	- Nom du premier projet : `arduino_clignotement`
+	- Nom du premier projet : `arduino_clignotement`
 	- Partir un [nouveau projet PlatformIO](https://t-o-f.info/aide/#/fabrication/platformio/nouveau/).
 	- [Configuration](https://t-o-f.info/aide/#/fabrication/nano/configuration/) pour un Arduino Nano R4.
 - [Coder en C++](https://t-o-f.info/aide/#/fabrication/cpp/code/)
@@ -175,7 +175,7 @@ Activités en classe :
 Activités en classe :
 
 - Rouvrir son dépôt git `arduino_clignotement`.
-	- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](https://t-o-f.info/aide/#/tutoriels/platine/clignotement/)
+	- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](https://t-o-f.info/aide/#/tutoriels/platine/clignotement/)
 	- Ne pas oublier de faire le commit du git !
 	- [Quiz sur le tutoriel de clignotement](https://t-o-f.info/quiz/arduino/clignotement/)
 	- Références supplémentaires :
@@ -185,7 +185,7 @@ Activités en classe :
 - Créer un nouveau dépôt git `pd_fichiers_audio`.
 	- Introduction à [Pure Data (Pd)](https://t-o-f.info/aide/#/logiciels/pd/).
 	- [pdChoco](https://t-o-f.info/aide/#/logiciels/pd/pdchoco/).
-	- [Pd : Lecture de fichiers audio avec Pdchoco](https://t-o-f.info/aide/#/logiciels/pd/audio/fichiers/).
+	- [Pd : Lecture de fichiers audio avec Pdchoco](https://t-o-f.info/aide/#/logiciels/pd/audio/fichiers/).
 	- Ne pas oublier de faire le commit du git !
 - [Quiz sur l’audio dans Pd](https://t-o-f.info/quiz/pd/audio/fichiers/).
 
@@ -214,7 +214,7 @@ Activités en classe :
 			- Quand j’appuie sur un premier bouton, un son est déclenché et la DEL s’illumine tant que ne je relâche pas.
 			- Quand j’appuie sur le deuxième bouton, la lecture d’un son est déclenché et la DEL s’illumine en continu. Je dois appuyer de nouveau pour éteindre la DEL et arrêter le son. 
 	- Ne pas oublier de faire le commit du git !
-	- [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](https://t-o-f.info/aide/#/tutoriels/platine/audio)
+	- [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](https://t-o-f.info/aide/#/tutoriels/platine/audio)
 
 
 ## Semaine 5 
@@ -233,7 +233,7 @@ Matière non couverte :
 - Sélection du son.
 - Contrôle de vitesse de lecture.
 
-## Semaine 6 : 30 septembre
+## Semaine 6 : 30 septembre
 
 À préparer avant la classe :
 
@@ -242,14 +242,14 @@ Matière non couverte :
 Activités en classe :
 
 - [Qu’est-ce que l’OSC](https://t-o-f.info/aide/#/fabrication/osc/)
-- Bibliothèque [MicroOsc : SLIP](https://t-o-f.info/aide/#/fabrication/arduino/microosc/slip/)
-- [Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd](https://t-o-f.info/aide/#/tutoriels/arcade/pd/)
-- [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](https://t-o-f.info/aide/#/tutoriels/arcade/relais/)
-- [Unity : OSC UDP avec extOSC](https://t-o-f.info/aide/#/logiciels/unity/osc/extosc/) avec Unity 2022.3.62f3.
-- [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](https://t-o-f.info/aide/#/tutoriels/arcade/flappy/)
+- Bibliothèque [MicroOsc : SLIP](https://t-o-f.info/aide/#/fabrication/arduino/microosc/slip/)
+- [Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd](https://t-o-f.info/aide/#/tutoriels/arcade/pd/)
+- [Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP](https://t-o-f.info/aide/#/tutoriels/arcade/relais/)
+- [Unity : OSC UDP avec extOSC](https://t-o-f.info/aide/#/logiciels/unity/osc/extosc/) avec Unity 2022.3.62f3.
+- [Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade](https://t-o-f.info/aide/#/tutoriels/arcade/flappy/)
 
 
-## Semaine 7 : 7 octobre
+## Semaine 7 : 7 octobre
 
 À préparer avant la classe :
 
@@ -257,17 +257,17 @@ Activités en classe :
 
 Activités en classe :
 
-- [Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre](https://t-o-f.info/aide/#/tutoriels/arcade/pong/)
+- [Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre](https://t-o-f.info/aide/#/tutoriels/arcade/pong/)
 	- Nom des projets :
-		- PlatformIO : `pong_bouton_pot_arduino`
-		- Unity : `pong_bouton_pot_unity`
+		- PlatformIO : `pong_bouton_pot_arduino`
+		- Unity : `pong_bouton_pot_unity`
 
-- Exercice : intégrer le bouton et le potentiomètre à la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx)
+- Exercice : intégrer le bouton et le potentiomètre à la scène `ScrubPitchGlitch` du projet [thomasfredericks/unity-videofx](https://github.com/thomasfredericks/unity-videofx)
 	- Nom des projets :
-		- PlatformIO : `videofx_bouton_pot_arduino`
-		- Unity : `videofx_bouton_pot_unity`
+		- PlatformIO : `videofx_bouton_pot_arduino`
+		- Unity : `videofx_bouton_pot_unity`
 
-## Semaine 8 : 21 octobre
+## Semaine 8 : 21 octobre
 
 À préparer avant la classe :
 
@@ -276,12 +276,12 @@ Activités en classe :
 Activités en classe :
 
 - Communication bidirectionnelle :
-	- [Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/unlock/)
+	- [Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre](/tutoriels/arcade/unlock/)
 - Soudure de la [photorésistance](/fabrication/electronique/composants/photoresistance/).
 - [Soudure du connecteur Grove](/fabrication/arduino/terminals/grove/).
 
 
-## Semaine 9 : 28 octobre
+## Semaine 9 : 28 octobre
 
 À préparer avant la classe :
 
@@ -291,28 +291,28 @@ Activités en classe :
 Activités en classe :
 
 - La [photorésistance](/fabrication/electronique/composants/photoresistance/).
-- [Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance](/tutoriels/arcade/asteroid/)
+- [Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance](/tutoriels/arcade/asteroid/)
 - Exercices supplémentaires :
 	- [thomasfredericks/videofx_unity](https://github.com/thomasfredericks/videofx_unity)
 		- Pour l’exercice, intégrer un bouton d’arcade et un potentiomètre.
 		- Utiliser Pd pour faire le relais entre l’Arduino et Unity.
 		- Ouvrir la scène `ScrubPitchGlitch` du projet Unity.
-		- Intégrer le code pour que le bouton d’Arcade change la vidéo (touche ESPACE dans le projet original) : déclencher la méthode `NextVideo()` du script `ScrubPitchGlitch.cs`.
-		- Intégrer le code pour que le potentiomètre effectue le même effet que la glissière à l’écran : utiliser la méthode `Set()` du script `ScrubPitchGlitch.cs`.
+		- Intégrer le code pour que le bouton d’Arcade change la vidéo (touche ESPACE dans le projet original) : déclencher la méthode `NextVideo()` du script `ScrubPitchGlitch.cs`.
+		- Intégrer le code pour que le potentiomètre effectue le même effet que la glissière à l’écran : utiliser la méthode `Set()` du script `ScrubPitchGlitch.cs`.
 		- Nom des projets :
-			- PlatformIO : `videofx_arduino`
-			- Unity : `videofx_unity`
-	- [thomasfredericks/reaction_unity](https://github.com/thomasfredericks/reaction_unity) : Un jeu de réaction rapide où il faut cliquer quand un cercle apparait à l’écran.
+			- PlatformIO : `videofx_arduino`
+			- Unity : `videofx_unity`
+	- [thomasfredericks/reaction_unity](https://github.com/thomasfredericks/reaction_unity) : Un jeu de réaction rapide où il faut cliquer quand un cercle apparait à l’écran.
 		- Pour l’exercice, intégrer un bouton d’arcade.
 		- Utiliser Pd pour faire le relais entre l’Arduino et Unity.
 		- Ouvrir la scène `Blinker` du projet Unity.
 		- Intégrer le code pour que le bouton d’Arcade démarre le jeu et permette de jouer (le bouton doit déclencher la méthode `Trigger()` du script `GameManger.cs`).
 		- Intégrer le code pour que la lumière du bouton d’Arcade suive la visibilité des éléments de l’interface visuelle (utiliser la méthode `GetUIElementVisible()` qui retourne un `bool` pour savoir si un élément est visible à l’écran).
 		- Nom des projets :
-			- PlatformIO : `reaction_arduino`
-			- Unity : `reaction_unity`
+			- PlatformIO : `reaction_arduino`
+			- Unity : `reaction_unity`
 
-## Semaine 10 : 4 novembre
+## Semaine 10 : 4 novembre
 
 À préparer avant la classe :
 
@@ -322,7 +322,7 @@ Activités en classe :
 
 - **Évaluation**.
 
-## Semaine 11 : 11 novembre
+## Semaine 11 : 11 novembre
 
 À préparer avant la classe :
 
@@ -337,7 +337,7 @@ Activités en classe :
 	- Key.
 	- Fader.
 
-## Semaine 12 : 18 novembre
+## Semaine 12 : 18 novembre
 
 À préparer avant la classe :
 
@@ -346,13 +346,13 @@ Activités en classe :
 Activités en classe :
 
 - Introduction à l’impression 3D avec :
-	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
-	- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
+	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
+	- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
 
-## Semaine 13 : 25 novembre
+## Semaine 13 : 25 novembre
 
 À préparer avant la classe :
 
@@ -362,7 +362,7 @@ Activités en classe :
 
 - Travail supervisé.
 
-## Semaine 14 : 2 décembre
+## Semaine 14 : 2 décembre
 
 À préparer avant la classe :
 
@@ -372,7 +372,7 @@ Activités en classe :
 
 - Travail supervisé.
 
-## Semaine 15 : 9 décembre
+## Semaine 15 : 9 décembre
 
 À préparer avant la classe :
 
@@ -399,15 +399,15 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 ### Sommaire des évaluations
 
 | Évaluation | Titre | Date | % |
-| --- | --- | --- | ---: |
+| --- | --- | --- | ---: |
 | EVAL-1 | Pure Data | Séance 5 | 33 % |
 | EVAL-2 | Engin de jeu | Séance 10 | 33 % |
 | EVAL-3 | Intégration * | Séance 15 | 34 % |
 | | **Total** | | **100 %** |
 
-* : Intégration des apprentissages.
+* : Intégration des apprentissages.
 
-### Évaluation 1 : Pure Data
+### Évaluation 1 : Pure Data
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
 | --- | --- | --- | --- | --- |
@@ -417,10 +417,10 @@ Savoirs essentiels et critères d’évaluation :
 
 - Démontrer pendant le cours l’intégration de capteurs avec un logiciel interactif sonore.
 - Démontrer le contrôle de la panoramique et du volume du son.
-- Valider la faisabilité technique d’un système électronique interactif : 50 %.
-- Adapter la programmation aux technologies électroniques interactives : 50 %.
+- Valider la faisabilité technique d’un système électronique interactif : 50 %.
+- Adapter la programmation aux technologies électroniques interactives : 50 %.
 
-### Évaluation 2 : Engin de jeu
+### Évaluation 2 : Engin de jeu
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
 | --- | --- | --- | --- | --- |
@@ -429,30 +429,30 @@ Savoirs essentiels et critères d’évaluation :
 Savoirs essentiels et critères d’évaluation :
 
 - Démontrer pendant le cours l’intégration de capteurs à un logiciel interactif visuel et sonore avec rétroaction.
-- Valider la faisabilité technique d’un système électronique interactif : 50 %.
-- Adapter la programmation aux technologies électroniques interactives : 50 %.
+- Valider la faisabilité technique d’un système électronique interactif : 50 %.
+- Adapter la programmation aux technologies électroniques interactives : 50 %.
 
 
-### Évaluation 3 : Intégration des apprentissages
+### Évaluation 3 : Intégration des apprentissages
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
 | --- | --- | --- | --- | --- |
 | EVAL-3 | Présentation en classe | En équipe  | Séance 15 | 34 % |
 
-Concevoir et fabriquer un puzzle interactif pouvant être intégré à un *escape game*.  Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc.
+Concevoir et fabriquer un puzzle interactif pouvant être intégré à un *escape game*.  Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc.
 
 Savoirs essentiels et critères d’évaluation :
 
 - Intégrer plusieurs microcontrôleurs à un microordinateur (Raspberry PI) distant.
 - Le puzzle doit comporter au moins 3 éléments électroniques **différents**.
-- Le joueur doit effectuer au moins deux étapes logiques pour résoudre le puzzle. Exemple : Le joueur trouve 4 symboles → les entre dans le bon ordre → Arduino vérifie la combinaison → un servo déverrouille une boîte → un nouvel indice apparaît.
+- Le joueur doit effectuer au moins deux étapes logiques pour résoudre le puzzle. Exemple : Le joueur trouve 4 symboles → les entre dans le bon ordre → Arduino vérifie la combinaison → un servo déverrouille une boîte → un nouvel indice apparaît.
 - Imprimer un objet 3D qui intègre les transducteurs.
 - Idéalement le projet ne dépend pas d’un écran et utilise des DEL ou un servomoteur pour indiquer l’état.
 - Un petit écran pourrait être **intégré** à l’objet 3D.
 - Il doit y avoir un aspect sonore.
 - Démontrer le contrôle de la panoramique et du volume du son.
-- Valider la faisabilité technique d’un système électronique interactif : 50 %.
-- Adapter la programmation aux technologies électroniques interactives : 50 %.
+- Valider la faisabilité technique d’un système électronique interactif : 50 %.
+- Adapter la programmation aux technologies électroniques interactives : 50 %.
 
 
 ## Médiagraphie
@@ -484,10 +484,10 @@ Savoirs essentiels et critères d’évaluation :
 
 ### Guides et bases de connaissances
 
-- Guide pour les étudiants dans le programme TIM : [guide_etudiants.docx](https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/Documents%20partages/comite_politiques/guides/guide_etudiants.docx?d=w48119bb75aec438cbb23c7da3ee1061d&csf=1&web=1&e=mN0PFI)
+- Guide pour les étudiants dans le programme TIM : [guide_etudiants.docx](https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/Documents%20partages/comite_politiques/guides/guide_etudiants.docx?d=w48119bb75aec438cbb23c7da3ee1061d&csf=1&web=1&e=mN0PFI)
 - [Carrefour de l’information étudiante](https://www.cmontmorency.qc.ca/etudiants/carrefour-info/).
 - [Le métier étudiant, ça s’apprend !](https://www.cmontmorency.qc.ca/etudiants/carrefour-info/metier-etudiant/)
-- [Écran : Base de connaissances | étudiantes et étudiants](https://cmontmorency365.sharepoint.com/sites/bdc-etudiants?xsdata=MDV8MDF8fDdiMzI5ZDFlYzMwMTRhYWMzOTgzMDhkYWZhNmE3NTBhfGZmYTk5NWM3MTBkZTRlYzg5NWRiMjhlZDA1NzY0NTVkfDB8MHw2MzgwOTc2MzIzNjM0MjgyMjd8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkzTkRFMk5qUXpOVEkwT0RzeE5qYzBNVFkyTkRNMU1qUTRPekU1T20xbFpYUnBibWRmVG5wWmVWcHFUbWxhYlZsMFRrUmtiVTVwTURCUFYwMHpURmRKTTFscVdYUk9SMWswVG1wV2FGcEVUbXhPUkZaclFIUm9jbVZoWkM1Mk1nPT18YjU0ZjQ1ZjM0NGFlNGEzYjM5ODMwOGRhZmE2YTc1MGF8MjliMTg3ZDZjMDdlNGZkZDgzZTI5ZTA4YjU5YWZmNTE%253D&sdata=U3paQ3hqVkJTc3h5UmZxUlRGMFdyZHpXbkZRVzZmcUIydEh3UjVXME9MZz0%253D&ovuser=ffa995c7-10de-4ec8-95db-28ed0576455d%252Ctofredericks%2540cmontmorency.qc.ca&OR=Teams-HL&CT=1674166416457&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzAxMDUwNTYwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%253D%253D)
+- [Écran : Base de connaissances | étudiantes et étudiants](https://cmontmorency365.sharepoint.com/sites/bdc-etudiants?xsdata=MDV8MDF8fDdiMzI5ZDFlYzMwMTRhYWMzOTgzMDhkYWZhNmE3NTBhfGZmYTk5NWM3MTBkZTRlYzg5NWRiMjhlZDA1NzY0NTVkfDB8MHw2MzgwOTc2MzIzNjM0MjgyMjd8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkzTkRFMk5qUXpOVEkwT0RzeE5qYzBNVFkyTkRNMU1qUTRPekU1T20xbFpYUnBibWRmVG5wWmVWcHFUbWxhYlZsMFRrUmtiVTVwTURCUFYwMHpURmRKTTFscVdYUk9SMWswVG1wV2FGcEVUbXhPUkZaclFIUm9jbVZoWkM1Mk1nPT18YjU0ZjQ1ZjM0NGFlNGEzYjM5ODMwOGRhZmE2YTc1MGF8MjliMTg3ZDZjMDdlNGZkZDgzZTI5ZTA4YjU5YWZmNTE%253D&sdata=U3paQ3hqVkJTc3h5UmZxUlRGMFdyZHpXbkZRVzZmcUIydEh3UjVXME9MZz0%253D&ovuser=ffa995c7-10de-4ec8-95db-28ed0576455d%252Ctofredericks%2540cmontmorency.qc.ca&OR=Teams-HL&CT=1674166416457&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzAxMDUwNTYwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%253D%253D)
 
 ## Règles d’évaluation des apprentissages 
 

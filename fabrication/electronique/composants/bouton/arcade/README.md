@@ -4,8 +4,8 @@
 
 Un bouton d’arcade avec DEL intégrée nécessite la soudure de deux paires de fils, soit quatre fils au total :
 
-* **Première paire** : le positif (+) et le négatif (–) de la DEL. Il est essentiel de distinguer le positif du négatif. Le négatif sera raccordé au GND.
-* **Deuxième paire** : les deux broches de l’interrupteur. Ces broches sont interchangeables. L’une d’elles sera raccordée au GND.
+* **Première paire** : le positif (+) et le négatif (–) de la DEL. Il est essentiel de distinguer le positif du négatif. Le négatif sera raccordé au GND.
+* **Deuxième paire** : les deux broches de l’interrupteur. Ces broches sont interchangeables. L’une d’elles sera raccordée au GND.
 
 > [!NOTE]
 > Puisque deux des quatre broches sont connectées au GND, on les relie ensemble afin d’avoir trois fils libres.

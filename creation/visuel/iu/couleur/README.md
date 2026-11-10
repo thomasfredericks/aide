@@ -1,6 +1,6 @@
-# IU : Couleur
+# IU : Couleur
 
-Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://www.youtube.com/watch?v=EcbgbKtOELY)
+Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://www.youtube.com/watch?v=EcbgbKtOELY)
 
 ## Couleur de marque
 
@@ -24,10 +24,10 @@ Utiliser les couleurs avec intention, et non seulement pour de la décoration.
 
 ### Indicateurs
 
-![Bleu : confiance](./blue_trust.png)
+![Bleu : confiance](./blue_trust.png)
 
-![Rouge : danger ou urgence](./red_urgent_danger.png)
+![Rouge : danger ou urgence](./red_urgent_danger.png)
 
-![Jaune : avertissement](./yellow_warning.png)
+![Jaune : avertissement](./yellow_warning.png)
 
-![Vert : succès](./vert_succes.png)
+![Vert : succès](./vert_succes.png)

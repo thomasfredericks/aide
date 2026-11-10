@@ -19,7 +19,7 @@ LE CODE
 - Organise les éléments à dessiner en classes.
 - Les éléments doivent être relatifs à la taille de la surface de la surface de dessin.
 - N’affiche pas d’instructions textuelles pour l’utilisateur.
-- Assure-toi que tes noms de fonction ne rentrent pas en conflit avec les fonctions de p5.js v2 dont voici la documentation : https://p5js.org/reference/
+- Assure-toi que tes noms de fonction ne rentrent pas en conflit avec les fonctions de p5.js v2 dont voici la documentation : https://p5js.org/reference/
 - Utilise uniquement des fonctions de base (pas de vertex ou de Béziers)
 - Places les constantes dans l’espace global.
 - Utilise le rendu WEBGL.
@@ -48,7 +48,7 @@ LE CODE
 - Organise les éléments à dessiner en classes.
 - Les éléments doivent être relatifs à la taille de la surface de la surface de dessin.
 - N’affiche pas d’instructions textuelles pour l’utilisateur.
-- Assure-toi que tes noms de fonction ne rentrent pas en conflit avec les fonctions de p5.js v2 dont voici la documentation : https://p5js.org/reference/
+- Assure-toi que tes noms de fonction ne rentrent pas en conflit avec les fonctions de p5.js v2 dont voici la documentation : https://p5js.org/reference/
 - Utilise uniquement des fonctions de base (pas de vertex ou de Béziers)
 - Places les constantes dans l’espace global.
 - Utilise le rendu WEBGL.
@@ -83,20 +83,20 @@ Pour exporter un projet p5.js, mettre votre code p5.js à l’endroit indiqué `
   <style>
     /* Remove all default spacing */
     html, body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;       /* no scrollbars */
-      width: 100%;
-      height: 100%;
-      background: #000;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;       /* no scrollbars */
+      width: 100%;
+      height: 100%;
+      background: #000;
     }
 
     /* Force the p5 canvas to fill the window */
     canvas {
-      display: block;         /* removes inline-block gap */
-      position: fixed;
-      top: 0;
-      left: 0;
+      display: block;         /* removes inline-block gap */
+      position: fixed;
+      top: 0;
+      left: 0;
     }
   </style>
 </head>

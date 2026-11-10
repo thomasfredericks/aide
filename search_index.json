@@ -10,27 +10,27 @@
         "u": "#/"
     },
     {
-        "t": "COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA",
+        "t": "COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA",
         "l": "cours  582-501 conception d’une experience multimedia",
         "u": "#/cours/582-531_conception_experience"
     },
     {
-        "t": "582-531 : Infrastructure logicielle et matérielle",
+        "t": "582-531 : Infrastructure logicielle et matérielle",
         "l": "582-531  infrastructure logicielle materielle",
         "u": "#/cours/582-531_conception_experience/infrastructure"
     },
     {
-        "t": "582-531 : Inspirations",
+        "t": "582-531 : Inspirations",
         "l": "582-531  inspirations",
         "u": "#/cours/582-531_conception_experience/inspirations"
     },
     {
-        "t": "COURS : 582-531 OBJETS INTERACTIFS",
+        "t": "COURS : 582-531 OBJETS INTERACTIFS",
         "l": "cours  582-531 objets interactifs",
         "u": "#/cours/585-531_objets_interactifs"
     },
     {
-        "t": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
+        "t": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
         "l": "college montmorency  bibliographie selective bibliotheque",
         "u": "#/cmontmorency/bibliotheque"
     },
@@ -85,7 +85,7 @@
         "u": "#/fabrication/electronique/composants/photoresistance"
     },
     {
-        "t": "Composant : résistance",
+        "t": "Composant : résistance",
         "l": "composant  resistance",
         "u": "#/fabrication/electronique/composants/resistance"
     },
@@ -105,12 +105,12 @@
         "u": "#/fabrication/electronique/composants/del"
     },
     {
-        "t": "Erreur fatale : court circuit",
+        "t": "Erreur fatale : court circuit",
         "l": "erreur fatale  court circuit",
         "u": "#/fabrication/electronique/fatalites"
     },
     {
-        "t": "Erreur fatale : inverser les pôles + et -",
+        "t": "Erreur fatale : inverser les pôles + et -",
         "l": "erreur fatale  inverser poles + -",
         "u": "#/fabrication/electronique/fatalites"
     },
@@ -200,7 +200,7 @@
         "u": "#/fabrication/arduino/terminals/bouton_arcade"
     },
     {
-        "t": "Arduino Terminals : connecteur Grove pour I2C/Wire",
+        "t": "Arduino Terminals : connecteur Grove pour I2C/Wire",
         "l": "arduino terminals  connecteur grove i2c/wire",
         "u": "#/fabrication/arduino/terminals/grove"
     },
@@ -265,12 +265,17 @@
         "u": "#/fabrication/arduino/code/millis/intervalle"
     },
     {
+        "t": "Arduino Wire / I2C",
+        "l": "arduino wire / i2c",
+        "u": "#/fabrication/arduino/code/wire"
+    },
+    {
         "t": "Générer un nombre aléatoire",
         "l": "generer nombre aleatoire",
         "u": "#/fabrication/arduino/code/random"
     },
     {
-        "t": "Arduino Serial : communication sérielle",
+        "t": "Arduino Serial : communication sérielle",
         "l": "arduino serial  communication serielle",
         "u": "#/fabrication/arduino/code/serial"
     },
@@ -295,7 +300,7 @@
         "u": "#/fabrication/arduino/microosc/udp"
     },
     {
-        "t": "MicroOsc : réception d’OSC",
+        "t": "MicroOsc : réception d’OSC",
         "l": "microosc  reception d’open sound control",
         "u": "#/fabrication/arduino/microosc/reception"
     },
@@ -390,7 +395,7 @@
         "u": "#/fabrication/m5stack/atom/tutoriels/microosc/slip"
     },
     {
-        "t": "M5Stack : Bases",
+        "t": "M5Stack : Bases",
         "l": "m5stack  bases",
         "u": "#/fabrication/m5stack/bases"
     },
@@ -400,7 +405,7 @@
         "u": "#/fabrication/m5stack/bases/atom-poe"
     },
     {
-        "t": "M5Stack : Units",
+        "t": "M5Stack : Units",
         "l": "m5stack  units",
         "u": "#/fabrication/m5stack/units"
     },
@@ -435,7 +440,7 @@
         "u": "#/fabrication/m5stack/units/angle"
     },
     {
-        "t": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
+        "t": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
         "l": "m5stack unit encoder  encodeur capteur rotation",
         "u": "#/fabrication/m5stack/units/encoder"
     },
@@ -460,8 +465,8 @@
         "u": "#/fabrication/m5stack/units/grove_hub"
     },
     {
-        "t": "M5Stack Fader Unit",
-        "l": "m5stack fader unit",
+        "t": "M5Stack Unit Fader : Glissière",
+        "l": "m5stack unit fader  glissiere",
         "u": "#/fabrication/m5stack/units/fader"
     },
     {
@@ -510,7 +515,7 @@
         "u": "#/fabrication/pixels"
     },
     {
-        "t": "Pixels : FastLED",
+        "t": "Pixels : FastLED",
         "l": "pixels  fastled",
         "u": "#/fabrication/pixels/fastled"
     },
@@ -520,7 +525,7 @@
         "u": "#/fabrication/pixels/atom"
     },
     {
-        "t": "Pixels : NeoPixel",
+        "t": "Pixels : NeoPixel",
         "l": "pixels  neopixel",
         "u": "#/fabrication/pixels/neopixel"
     },
@@ -575,32 +580,32 @@
         "u": "#/creation/interactivite/galerie"
     },
     {
-        "t": "Atelier : Modification d’une règle",
+        "t": "Atelier : Modification d’une règle",
         "l": "atelier  modification d’une regle",
         "u": "#/creation/interactivite/ateliers/modification"
     },
     {
-        "t": "Atelier : Simulation d’un jeu",
+        "t": "Atelier : Simulation d’un jeu",
         "l": "atelier  simulation d’un jeu",
         "u": "#/creation/interactivite/ateliers/simulation"
     },
     {
-        "t": "Atelier : Effondrement par contrainte",
+        "t": "Atelier : Effondrement par contrainte",
         "l": "atelier  effondrement contrainte",
         "u": "#/creation/interactivite/ateliers/contrainte"
     },
     {
-        "t": "Atelier : Synchroniser sans communication",
+        "t": "Atelier : Synchroniser sans communication",
         "l": "atelier  synchroniser communication",
         "u": "#/creation/interactivite/ateliers/synchronisation"
     },
     {
-        "t": "Atelier : Règle supprimée",
+        "t": "Atelier : Règle supprimée",
         "l": "atelier  regle supprimee",
         "u": "#/creation/interactivite/ateliers/suppression"
     },
     {
-        "t": "Atelier : affordance en 1 minute",
+        "t": "Atelier : affordance en 1 minute",
         "l": "atelier  affordance 1 minute",
         "u": "#/creation/interactivite/ateliers/affordance"
     },
@@ -695,42 +700,42 @@
         "u": "#/creation/visuel/guide"
     },
     {
-        "t": "Exemple : Guide de normes graphiques pour cartes",
+        "t": "Exemple : Guide de normes graphiques pour cartes",
         "l": "exemple  guide normes graphiques cartes",
         "u": "#/creation/visuel/guide/cartes"
     },
     {
-        "t": "CRAP : quatre (4) principes de design",
+        "t": "CRAP : quatre (4) principes de design",
         "l": "crap  quatre 4 principes design",
         "u": "#/creation/visuel/crap"
     },
     {
-        "t": "IU : Signifiants de l’interface utilisateur",
+        "t": "IU : Signifiants de l’interface utilisateur",
         "l": "interface utilisateur  signifiants l’interface utilisateur",
         "u": "#/creation/visuel/iu/signifiants"
     },
     {
-        "t": "IU : Hiérarchie visuelle",
+        "t": "IU : Hiérarchie visuelle",
         "l": "interface utilisateur  hierarchie visuelle",
         "u": "#/creation/visuel/iu/hierarchie"
     },
     {
-        "t": "IU : Typographie",
+        "t": "IU : Typographie",
         "l": "interface utilisateur  typographie",
         "u": "#/creation/visuel/iu/typographie"
     },
     {
-        "t": "IU : Couleur",
+        "t": "IU : Couleur",
         "l": "interface utilisateur  couleur",
         "u": "#/creation/visuel/iu/couleur"
     },
     {
-        "t": "IU : Rétroaction (feedback)",
+        "t": "IU : Rétroaction (feedback)",
         "l": "interface utilisateur  retroaction feedback",
         "u": "#/creation/visuel/iu/retroaction"
     },
     {
-        "t": "IU : Espacer les éléments",
+        "t": "IU : Espacer les éléments",
         "l": "interface utilisateur  espacer elements",
         "u": "#/creation/visuel/iu/espace"
     },
@@ -775,42 +780,42 @@
         "u": "#/tutoriels/gml/animation"
     },
     {
-        "t": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
+        "t": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
         "l": "tutoriel micoosc audio  envoi d’open sound control slip d’un arduino nano bouton d’arcade declencher l’audio pure data",
         "u": "#/tutoriels/arcade/pd"
     },
     {
-        "t": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
+        "t": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
         "l": "tutoriel asteroide  open sound control bidirectionnel entre unity pure data arduino nano del photoresistance",
         "u": "#/tutoriels/arcade/asteroid"
     },
     {
-        "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
+        "t": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
         "l": "tutoriel pong  unity pure data open sound control arduino nano bouton d’arcade potentiometre",
         "u": "#/tutoriels/arcade/pong"
     },
     {
-        "t": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
+        "t": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
         "l": "tutoriel flappy bird  unity pure data open sound control arduino nano bouton d’arcade",
         "u": "#/tutoriels/arcade/flappy"
     },
     {
-        "t": "Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre",
+        "t": "Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre",
         "l": "tutoriel «unlock»  open sound control bidirectionnel entre unity pure data arduino nano bouton d’arcade potentiometre",
         "u": "#/tutoriels/arcade/unlock"
     },
     {
-        "t": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
+        "t": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
         "l": "tutoriel relais microosc  envoi d’open sound control slip d’un arduino nano bouton d’arcade vers open sound control udp",
         "u": "#/tutoriels/arcade/relais"
     },
     {
-        "t": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
+        "t": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
         "l": "tutoriel clignotement  arduino platine bouton del chrono bounce2",
         "u": "#/tutoriels/platine/clignotement"
     },
     {
-        "t": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
+        "t": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
         "l": "tutoriel ascii audio  arduino ascii audio pure data",
         "u": "#/tutoriels/platine/audio"
     },
@@ -825,7 +830,7 @@
         "u": "#/logiciels/pd/websocket"
     },
     {
-        "t": "Pd : OSC UDP",
+        "t": "Pd : OSC UDP",
         "l": "pure data  open sound control udp",
         "u": "#/logiciels/pd/osc/udp"
     },
@@ -835,7 +840,7 @@
         "u": "#/logiciels/pd/osc/midi"
     },
     {
-        "t": "Pd : OSC SLIP",
+        "t": "Pd : OSC SLIP",
         "l": "pure data  open sound control slip",
         "u": "#/logiciels/pd/osc/slip"
     },
@@ -860,22 +865,22 @@
         "u": "#/logiciels/pd/serie"
     },
     {
-        "t": "Pd : ASCII sérielle",
+        "t": "Pd : ASCII sérielle",
         "l": "pure data  ascii serielle",
         "u": "#/logiciels/pd/serie/ascii"
     },
     {
-        "t": "Pd : comport",
+        "t": "Pd : comport",
         "l": "pure data  comport",
         "u": "#/logiciels/pd/serie/comport"
     },
     {
-        "t": "Pd : Activation de l’audio",
+        "t": "Pd : Activation de l’audio",
         "l": "pure data  activation l’audio",
         "u": "#/logiciels/pd/audio/activation"
     },
     {
-        "t": "Pd : Lecture de fichiers audio avec Pdchoco",
+        "t": "Pd : Lecture de fichiers audio avec Pdchoco",
         "l": "pure data  lecture fichiers audio pdchoco",
         "u": "#/logiciels/pd/audio/fichiers"
     },
@@ -915,14 +920,24 @@
         "u": "#/logiciels/pd/traitement/incrementation"
     },
     {
-        "t": "Spout dans Unity",
-        "l": "spout unity",
+        "t": "Unity",
+        "l": "unity",
+        "u": "#/logiciels/unity"
+    },
+    {
+        "t": "Unity : Spout",
+        "l": "unity  spout",
         "u": "#/logiciels/unity/spout"
     },
     {
-        "t": "Unity : configuration",
+        "t": "Unity : Configuration",
         "l": "unity  configuration",
         "u": "#/logiciels/unity/configuration"
+    },
+    {
+        "t": "Unity : OSC",
+        "l": "unity  open sound control",
+        "u": "#/logiciels/unity/osc"
     },
     {
         "t": "Unity : OSC UDP avec oscjackvs",
@@ -935,17 +950,17 @@
         "u": "#/logiciels/unity/osc/extosc"
     },
     {
-        "t": "extOsc : initialisation",
+        "t": "extOsc : initialisation",
         "l": "extosc  initialisation",
         "u": "#/logiciels/unity/osc/extosc/initialisation"
     },
     {
-        "t": "extOSC Bind : int traité dans un if",
+        "t": "extOSC Bind : int traité dans un if",
         "l": "extosc bind  int traite if",
         "u": "#/logiciels/unity/osc/extosc/bind/int_if"
     },
     {
-        "t": "extOSC Bind : int vers argument float d’une méthode",
+        "t": "extOSC Bind : int vers argument float d’une méthode",
         "l": "extosc bind  int vers argument float d’une methode",
         "u": "#/logiciels/unity/osc/extosc/bind/int_float"
     },
@@ -965,18 +980,18 @@
         "u": "#/logiciels/unity/traitement"
     },
     {
-        "t": "Unity : changement",
-        "l": "unity  changement",
+        "t": "Unity : Traitement d’un changement",
+        "l": "unity  traitement d’un changement",
         "u": "#/logiciels/unity/traitement/changement"
     },
     {
-        "t": "Unity : Proportion",
-        "l": "unity  proportion",
+        "t": "Unity : Traitement proportionnel",
+        "l": "unity  traitement proportionnel",
         "u": "#/logiciels/unity/traitement/proportion"
     },
     {
-        "t": "Colliders dans Unity",
-        "l": "colliders unity",
+        "t": "Unity : Colliders",
+        "l": "unity  colliders",
         "u": "#/logiciels/unity/colliders"
     },
     {
@@ -1005,7 +1020,7 @@
         "u": "#/logiciels/gamestream"
     },
     {
-        "t": "OSC SLIP : Node.js",
+        "t": "OSC SLIP : Node.js",
         "l": "open sound control slip  node.js",
         "u": "#/logiciels/nodejs/osc"
     },
@@ -1025,7 +1040,7 @@
         "u": "#/logiciels/oscmo-lidar"
     },
     {
-        "t": "VCV Rack : OSC UDP",
+        "t": "VCV Rack : OSC UDP",
         "l": "vcv rack  open sound control udp",
         "u": "#/logiciels/vcv_rack/osc"
     },
@@ -1215,7 +1230,7 @@
         "u": "#/logiciels/obs/mapping"
     },
     {
-        "t": "OBS Studio: Télécommande et inspecteur",
+        "t": "OBS Studio: Télécommande et inspecteur",
         "l": "obs studio telecommande inspecteur",
         "u": "#/logiciels/obs/telecommande"
     },
@@ -1240,7 +1255,7 @@
         "u": "#/logiciels/davinci_resolve/effets"
     },
     {
-        "t": "Manette de projecteurs : gd-pjlink",
+        "t": "Manette de projecteurs : gd-pjlink",
         "l": "manette projecteurs  gd-pjlink",
         "u": "#/logiciels/gd-pjlink"
     },
@@ -1405,7 +1420,7 @@
         "u": "#/culture/education/sytemes_pensee"
     },
     {
-        "t": "Manipulation : Dark Patterns",
+        "t": "Manipulation : Dark Patterns",
         "l": "manipulation  dark patterns",
         "u": "#/culture/manipulations"
     },
@@ -1420,7 +1435,7 @@
         "u": "#/culture/merdification"
     },
     {
-        "t": "Autorat : droit d’auteur",
+        "t": "Autorat : droit d’auteur",
         "l": "autorat  droit d’auteur",
         "u": "#/culture/autorat"
     },

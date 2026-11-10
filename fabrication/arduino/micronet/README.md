@@ -9,7 +9,7 @@ Elle fournit :
 - Un portail captif de configuration Wi-Fi.
 
 
-Code source de la bibliothèque logicielle : [git de MicroNet](https://github.com/thomasfredericks/MicroNet)
+Code source de la bibliothèque logicielle : [git de MicroNet](https://github.com/thomasfredericks/MicroNet)
 
 Pour l’ajouter dans PlatformIO, ajouter à `lib_deps` dans `plarformio.ini` :
 ```cpp
@@ -91,11 +91,11 @@ myMicroNet.appendMacToCString(myName, MICRO_NET_NAME_MAX_LENGTH, 3);
 myMicroNet.begin(myName);
 ```
 
-- `prefix` : chaîne C contenant le préfixe.
-- `destMaxSize` : taille maximale du tampon destination.
-- `numBytes` : nombre d’octets du MAC à ajouter (chaque octet ajoute deux caractères hexadécimaux).
+- `prefix` : chaîne C contenant le préfixe.
+- `destMaxSize` : taille maximale du tampon destination.
+- `numBytes` : nombre d’octets du MAC à ajouter (chaque octet ajoute deux caractères hexadécimaux).
 
-Exemple de résultat : `atom-932AE4`.
+Exemple de résultat : `atom-932AE4`.
 
 
 ## Résolution d’un nom mDNS
@@ -104,7 +104,7 @@ Exemple de résultat : `atom-932AE4`.
 IPAddress ip = myMicroNet.resolveName(hostName);
 ```
 
-- `hostName` : chaîne C (`const char*`) contenant le nom mDNS.
+- `hostName` : chaîne C (`const char*`) contenant le nom mDNS.
 - Ne pas ajouter le suffixe `.local`.
 
 La fonction ne retourne que lorsque l’hôte est trouvé.

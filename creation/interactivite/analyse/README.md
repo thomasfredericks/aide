@@ -1,6 +1,6 @@
 # Analyse d’une œuvre interactive
 
-Cette page utilise reprend l’approche développée par Paola Antonelli, Anna Burckhardt et Paul Galloway dans leur livre [Never Alone: Video Games as Interactive Design – (+.+) & <*_*>](https://www.sulki-min.com/wp/never-alone/) pour l’analyse d’une œuvre interactive. Lorsque des citations sont indiquées, elles proviennent de cet ouvrage.
+Cette page utilise reprend l’approche développée par Paola Antonelli, Anna Burckhardt et Paul Galloway dans leur livre [Never Alone: Video Games as Interactive Design – (+.+) & <*_*>](https://www.sulki-min.com/wp/never-alone/) pour l’analyse d’une œuvre interactive. Lorsque des citations sont indiquées, elles proviennent de cet ouvrage.
 
 ## Quatre caractéristiques d’une œuvre interactive
 
@@ -62,7 +62,7 @@ Cette page utilise reprend l’approche développée par Paola Antonelli, Anna B
 
 ### Le temps
 
-- Le temps dans un projet interactif existe en tension entre deux concepts philosophiques grecs anciens : chronos et airos 
+- Le temps dans un projet interactif existe en tension entre deux concepts philosophiques grecs anciens : chronos et airos 
     - Chronos : la convention partagée par tous du temps séquentiel (l’heure sur l’horloge dans la réalité).
     - Kairos : l’expérience subjective du temps qui défile d’un individu (le temps peut être ralenti ou accéléré; s’écouler à une vitesse différente de la réalité). 
 - Dans un projet interactif, le temps est soumis à la capacité de son concepteur à manipuler la réalité

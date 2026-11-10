@@ -1,4 +1,4 @@
-# Arduino Serial : communication sérielle
+# Arduino Serial : communication sérielle
 
 La **communication sérielle** est une méthode qui permet à votre carte Arduino d’échanger des données avec un autre appareil (comme votre ordinateur, un module Bluetooth ou un autre microcontrôleur) **bit par bit**.  C’est un peu comme envoyer un message texte mot par mot à la place d’un message entier en un bloc.
 
@@ -36,7 +36,7 @@ En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son
 Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l’octet `01000001`, et consulte la table ASCII pour comprendre que cette valeur correspond au caractère `A`.
 
 | Déc | ASCII | Déc | ASCII | Déc | ASCII | Déc | ASCII |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 0 | NUL | **32** | **(espace)** | 64 | @ | 96 | \` |
 | 1 | SOH | 33 | ! | 65 | A | 97 | a |
 | 2 | STX | 34 | " | 66 | B | 98 | b |
@@ -63,14 +63,14 @@ Le récepteur (par exemple, votre ordinateur) capte ce flux, reconstitue l’oct
 | 23 | ETB | 55 | 7 | 87 | W | 119 | w |
 | 24 | CAN | 56 | 8 | 88 | X | 120 | x |
 | 25 | EM | 57 | 9 | 89 | Y | 121 | y |
-| 26 | SUB | 58 | : | 90 | Z | 122 | z |
+| 26 | SUB | 58 | : | 90 | Z | 122 | z |
 | 27 | ESC | 59 | ; | 91 | [ | 123 | { |
 | 28 | FS | 60 | < | 92 | \ | 124 | \| |
 | 29 | GS | 61 | = | 93 | ] | 125 | } |
 | 30 | RS | 62 | > | 94 | ^ | 126 | ~ |
 | 31 | US | 63 | ? | 95 | _ | 127 | DEL |
 
-Un point crucial est que les nombres manipulés sont convertis en leur représentation textuelle ASCII (caractère par caractère) lors de l’envoi. Par exemple, le nombre `123` est envoyé sous forme de trois caractères distincts : `"1"`, `"2"` et `"3"`.
+Un point crucial est que les nombres manipulés sont convertis en leur représentation textuelle ASCII (caractère par caractère) lors de l’envoi. Par exemple, le nombre `123` est envoyé sous forme de trois caractères distincts : `"1"`, `"2"` et `"3"`.
 
 Voici les méthodes pour envoyer de l’ASCII :
 
@@ -103,7 +103,7 @@ Pour fermer le moniteur série :
 
 ## La structure [descripteur] [espace] [valeur] [saut de ligne (ln)]
 
-Lorsque l’on souhaite envoyer des données structurées de l’Arduino vers l’ordinateur en ASCII, nous allons respecter cette règle de formatage précise : 
+Lorsque l’on souhaite envoyer des données structurées de l’Arduino vers l’ordinateur en ASCII, nous allons respecter cette règle de formatage précise : 
 - un descripteur
 - un espace
 - une valeur
@@ -132,5 +132,5 @@ TEMP 23
 ``` 
 
 -  Le descripteur donne un contexte à la donnée. Si l’ordinateur reçoit uniquement le nombre `23`, il est impossible de deviner s’il s’agit d’une température, d’une humidité ou d’une distance. Le descripteur permet au récepteur d’identifier immédiatement la nature de l’information.
-- L’espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l’analyse beaucoup plus complexe pour isoler la valeur numérique.
+- L’espace sert de séparateur clair. Sans cet espace, le texte et la valeur se colleraient ainsi : `TEMP23`. Cela rendrait l’analyse beaucoup plus complexe pour isoler la valeur numérique.
 - La fonction `println()` ajoute un saut de ligne, correspondant aux codes ASCII `13` suivi de `10`. C’est indispensable, car la communication sérielle est un flux continu de caractères sans pause naturelle. Le saut de ligne agit comme un délimiteur de fin de message, permettant au récepteur de savoir exactement où s’arrête un message et où commence le suivant.

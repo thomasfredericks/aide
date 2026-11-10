@@ -53,7 +53,7 @@ Dans l’exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec 
 
 ![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
 
-Par exemple : [connexion entre Atom et bande de pixel](./atom/).
+Par exemple : [connexion entre Atom et bande de pixel](./atom/).
 
 ### Bonnes pratiques
 

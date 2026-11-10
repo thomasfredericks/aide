@@ -2,12 +2,12 @@
 
 ## Préalable(s)
 
-- [Tutoriel: M5 Angle et Serial Monitor/Plotter](/m5stack/atom/tutoriel/angle-monitor.md)	
+- [Tutoriel: M5 Angle et Serial Monitor/Plotter](/m5stack/atom/tutoriel/angle-monitor.md)	
 - [Bouton du M5Stack Atom](/m5stack/atom/bouton.md)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le code du [Tutoriel: M5 Angle et Serial Monitor/Plotter](/m5stack/atom/tutoriel/angle-monitor.md) dans un nouveau projet Arduino.
+1) Transcrire le code du [Tutoriel: M5 Angle et Serial Monitor/Plotter](/m5stack/atom/tutoriel/angle-monitor.md) dans un nouveau projet Arduino.
 
 ## Code à ajouter au bloc de message
 

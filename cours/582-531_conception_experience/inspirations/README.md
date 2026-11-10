@@ -1,4 +1,4 @@
-# 582-531 : Inspirations
+# 582-531 : Inspirations
 
 
 ## Installation interactive
@@ -11,10 +11,10 @@
 - [Messa di Voce (Performance version, 2003) - YouTube](https://www.youtube.com/watch?v=STRMcmj-gHc)
 - [Dash Dodge Dive - Chris O’Shea](https://www.chrisoshea.org/portfolio/dash-dodge-dive)
 - [ARcade | Moment Factory](https://momentfactory.com/products/arcade)
-- [Scott Made This: Still Life](https://scottmadethis.net/interactive/still_life)
+- [Scott Made This: Still Life](https://scottmadethis.net/interactive/still_life)
 - [Bone VS steel - YouTube](https://www.youtube.com/watch?v=WMt9G4GD-mw)
 - [Body Swap - Chris O"Shea](https://www.chrisoshea.org/portfolio/body-swap)
-- [Marie Sester: ACCESS, 2003](https://sester.net/access/)
+- [Marie Sester: ACCESS, 2003](https://sester.net/access/)
 - [The Treachery of Sanctuary - CHRIS MILK](http://milk.co/treachery)
 - [21 Balançoires | Daily tous les jours](https://www.dailytouslesjours.com/fr/projets/21-balancoires)
 - [Rafael Lozano-Hemmer - Pulse Room](https://www.lozano-hemmer.com/pulse_room.php)
@@ -26,23 +26,23 @@
 - [Toribash](https://toribash.com/)
 - [One Chance Online Game 🕹️ Play Now](https://kbhgames.com/game/one-chance) 
 - [TRY. DIE. REPEAT. - Game Jolt](https://gamejolt.net/?token=ruNSqzR8XX77ZGHfYUZSXVkrtHPV5P) 
-- [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) 
+- [September 12th: A Toy World - On Serious Games](http://www.onseriousgames.com/september-12th-a-toy-world-newsgame/) 
 - [Rogue (original)](https://playclassic.games/games/role-playing-dos-games-online/play-rogue-online/play/)
 - [Papers, Please](https://papersplea.se/) 
 - [Baba Is You](https://hempuli.com/baba/) 
 - [Hazy Days - An air pollution breathing sim by Mike Ren](https://mikeyren.itch.io/hazydays) 
-- [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/resist/) 
+- [WHACK-A-HOLE: Shout! Smack! Fight back!](https://catodot.github.io/resist/) 
 - [Loser Lane](https://marieflanagan.com/loserlanepark/)
 - [Thomas Was Alone Full Playthrough [No Commentary] - YouTube](https://www.youtube.com/watch?v=ITNPHSoHJ_w)
 - [Rez - PS2 Longplay [116] (US) - YouTube](https://www.youtube.com/watch?v=FDRRl83jQ9Y)
-- [X-Men: The Arcade Game (Konami) (1992) Full Playthrough - YouTube](https://www.youtube.com/watch?v=VgF_VMQ19aA)
+- [X-Men: The Arcade Game (Konami) (1992) Full Playthrough - YouTube](https://www.youtube.com/watch?v=VgF_VMQ19aA)
 - [Teenage Mutant Ninja Turtles (1989) Arcade - 4 Players (Very Hard Mode) [TAS] - YouTube](https://www.youtube.com/watch?v=X6kIkZW_glE)
 
 ## Expérience narrative
 
 - [The Boat | SBS](https://www.sbs.com.au/theboat/)
 - [Universe to You — Everything explained. Probably.](https://scrollytelling.ai/universe-to-you/)
-- [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria)
+- [Unmanned: a Game by Molleindustria and Jim Munroe](https://unmanned.molleindustria.org/#) (2012, Molleindustria)
 - [Passage](http://passage.toolness.org/)
 - [Rod Humble’s The Marriage by giapre](https://giapre.itch.io/the-marriage)  
 - [The Graveyard (PC) - Interactive Painting |Longplay - Walkthrough - Gameplay| No Commentary - YouTube](https://www.youtube.com/watch?v=_8ndnwWKLSA)
@@ -53,7 +53,7 @@
 
 ## Réalité virtuelle
 
-- [Half-Life: Alyx](https://www.half-life.com/en/alyx)
+- [Half-Life: Alyx](https://www.half-life.com/en/alyx)
 - [Tea For God - VR vs IRL - Side By Side Comparison - YouTube](https://www.youtube.com/watch?v=lTFMaCd6lBM)
 - [Echo VR | Quest Trailer - YouTube](https://www.youtube.com/watch?v=vS44cwfrTKA)
 - [Tale of Tales ||T|h|e||E|n|d|l|e|s|s||F|o|r|e|s|t||](https://tale-of-tales.com/TheEndlessForest/)

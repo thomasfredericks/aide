@@ -1,6 +1,6 @@
-# IU : Espacer les éléments
+# IU : Espacer les éléments
 
-Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://www.youtube.com/watch?v=EcbgbKtOELY)
+Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://www.youtube.com/watch?v=EcbgbKtOELY)
 
 ![](./letting_things_breathe.png)
 

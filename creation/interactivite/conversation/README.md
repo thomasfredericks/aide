@@ -1,6 +1,6 @@
 # L’interactivité est une conversation
 
-La notion de *conversation* permet de mieux définir l’interactivité : on ne cherche plus seulement à faire  *réagir* un système, mais à construire **un échange dans lequel chacune des actions modifie les possibilités de l’action suivante**.
+La notion de *conversation* permet de mieux définir l’interactivité : on ne cherche plus seulement à faire  *réagir* un système, mais à construire **un échange dans lequel chacune des actions modifie les possibilités de l’action suivante**.
 
 Dans une vraie conversation :
 
@@ -64,4 +64,4 @@ Dans le deuxième cas, la personne peut commencer à se dire :
 
 > « Ah, le système a compris ce que je viens de faire. »
 
-C’est ce sentiment qui est intéressant : *je ne suis pas simplement en train d’utiliser une interface; je suis en train d’apprendre le comportement de quelque chose.*
+C’est ce sentiment qui est intéressant : *je ne suis pas simplement en train d’utiliser une interface; je suis en train d’apprendre le comportement de quelque chose.*

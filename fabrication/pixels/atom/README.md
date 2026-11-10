@@ -11,9 +11,9 @@ Le montage comprend :
 - Un **Atom** servant de contrôleur
 - Une **bande de LED adressables 12 V**
 - Trois lignes électriques :
-  - `+12V` : alimentation positive
-  - `GND` : masse / 0 V
-  - `DI` : signal de données
+  - `+12V` : alimentation positive
+  - `GND` : masse / 0 V
+  - `DI` : signal de données
 
 L’alimentation doit être raccordée au connecteur de distribution. Respecter impérativement la polarité.
 

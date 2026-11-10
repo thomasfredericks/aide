@@ -4,7 +4,7 @@
 
 La bibliothèque `Bounce2` permet de gérer les boutons et les interrupteurs en éliminant les changements d’état indésirables provoqués par les rebonds mécaniques.
 
-Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2).
+Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2).
 
 ## Installation
 
@@ -41,4 +41,4 @@ Ensuite, nous pouvons accéder aux méthodes suivantes :
 
 ## Tutoriels
 
-- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
+- [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)

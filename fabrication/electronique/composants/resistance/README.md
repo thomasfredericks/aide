@@ -1,4 +1,4 @@
-# Composant : résistance
+# Composant : résistance
 
 ![Une résistance](./resistance_photo.svg)
 
@@ -16,7 +16,7 @@ Pour connaître la valeur en ohms (Ω) d’une résistance, il faut convertir le
 
 ![Tableau pour la conversion des bandes de couleurs d’une résistance](./resistance_calcul_code_couleur.svg)
 
-Exemple : 
+Exemple : 
 ```rouge (2), rouge(2), brun (x10) = 22 * 10 = 220 Ω = 0.22 kΩ.```
 
 - [Calculateur de code couleur des résistances - 4 anneaux, 5 anneaux, 6 anneaux | DigiKey Electronics](https://www.digikey.ca/fr/resources/conversion-calculators/conversion-calculator-resistor-color-code)

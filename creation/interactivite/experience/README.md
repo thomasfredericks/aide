@@ -1,6 +1,6 @@
 # Expérience multimédia interactive
 
-Une expérience **multimédia** est une activité ou une présentation qui combine plusieurs types de médias pour transmettre de l’information, raconter une histoire ou créer une ambiance. Les médias peuvent prendre différentes formes : image, sculpture, vidéo, son, texte, papier, lumière, etc.
+Une expérience **multimédia** est une activité ou une présentation qui combine plusieurs types de médias pour transmettre de l’information, raconter une histoire ou créer une ambiance. Les médias peuvent prendre différentes formes : image, sculpture, vidéo, son, texte, papier, lumière, etc.
 
 Une expérience multimédia **interactive** est une expérience multimédia dont le contenu ou la progression est dirigé ou influencé par le public.
 
@@ -15,7 +15,7 @@ Pour vivre une expérience, le spectateur doit la parcourir. Pour mieux comprend
 
 ## Le parcours du spectateur au cinéma
 
-Le cinéma consiste à organiser des images et des sons dans le temps afin de produire une expérience guidée. Le déroulement de l’œuvre est principalement déterminé par le créateur : le spectateur peut interpréter ce qu’il voit et ressentir des émotions, mais il ne modifie généralement pas la progression de l’œuvre.
+Le cinéma consiste à organiser des images et des sons dans le temps afin de produire une expérience guidée. Le déroulement de l’œuvre est principalement déterminé par le créateur : le spectateur peut interpréter ce qu’il voit et ressentir des émotions, mais il ne modifie généralement pas la progression de l’œuvre.
 
 * Le parcours de l’expérience se déploie principalement dans le temps.
 * Le temps consacré à l’œuvre est généralement laissé au choix du spectateur.
@@ -25,7 +25,7 @@ Le cinéma consiste à organiser des images et des sons dans le temps afin de pr
 
 Une expérience plastique est principalement organisée par la présence de formes dans l’espace. Elle laisse au spectateur la liberté de déterminer son point de vue, son parcours et le temps qu’il lui consacre.
 
-Le sens n’est pas entièrement prescrit : il se construit dans la perception, l’exploration et l’interprétation de l’œuvre.
+Le sens n’est pas entièrement prescrit : il se construit dans la perception, l’exploration et l’interprétation de l’œuvre.
 
 * Le parcours de l’expérience se déploie principalement dans l’espace.
 * L’expérience n’a généralement pas de durée prescrite.

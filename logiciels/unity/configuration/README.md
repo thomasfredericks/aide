@@ -1,4 +1,4 @@
-# Unity : configuration
+# Unity : Configuration
 
 Voici les modifications suggérées à la configuration de Unity :
 

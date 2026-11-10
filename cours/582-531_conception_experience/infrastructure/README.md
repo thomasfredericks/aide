@@ -1,4 +1,4 @@
-# 582-531 : Infrastructure logicielle et matérielle
+# 582-531 : Infrastructure logicielle et matérielle
 
 ## Installation interactive
 
@@ -13,7 +13,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - Raspberry PI ou M5Stack ATOM POE (pour éloigner les transducteurs de l’ordinateur)
     - Pure Data
         - OSC
-- Détection d’utilisateurs par caméra : 
+- Détection d’utilisateurs par caméra : 
     - TouchDesigner avec MediaPipe ou Kinect
         - OSC
         - Spout

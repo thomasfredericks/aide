@@ -1,9 +1,9 @@
 
-# Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre
+# Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre
 
 Dans ce tutoriel, nous voulons contrôler le jeu [thomasfredericks/unity-pong](https://github.com/thomasfredericks/unity-pong) avec un bouton pour le lancer de la balle et un [potentiomètre](/fabrication/electronique/composants/potentiometre/) pour la position de la palette.   
 
-![Jeu de Pong joué sur un téléviseur Magnavox Odyssey 3000. Source : https://commons.wikimedia.org/wiki/File:Pong_game_on_TV.jpg](./standard_Pong_game_on_TV.jpg)
+![Jeu de Pong joué sur un téléviseur Magnavox Odyssey 3000. Source : https://commons.wikimedia.org/wiki/File:Pong_game_on_TV.jpg](./standard_Pong_game_on_TV.jpg)
 
 ### Comportement désiré du bouton
 
@@ -29,7 +29,7 @@ flowchart LR
 > Nous traitons le bouton comme un **événement discret**.
 > Le message n’est envoyé que lors de l’appui ou du relâchement.
 > Si le bouton est maintenu, rien de nouveau n’est envoyé.
-> Sa valeur est booléenne : `0` ou `1`.
+> Sa valeur est booléenne : `0` ou `1`.
 
 ### Comportement désiré du potentiomètre
 
@@ -95,7 +95,7 @@ Brancher un [potentiomètre](/fabrication/electronique/composants/potentiometre/
 ### Initialiser MicroOsc
 
 - Ajouter `#include <MicroOscSlip.h>` dans l’espace global.
-- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
+- Dans l’espace global, instancier un `MicroOscSlip<128>` nommé `monOsc` et lié à `Serial` : 
 ```cpp
 MicroOscSlip<128> monOsc(&Serial); 
 ```
@@ -107,7 +107,7 @@ Serial.begin(115200);
 ### Interrupteur du bouton d’arcade dans Arduino
 
 - Ajouter `#include <Bounce2.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
+- Dans l’espace global, instancier un `Bounce2::Button` nommé `bouton` : 
 ```cpp
 Bounce2::Button bouton;
 ```
@@ -132,7 +132,7 @@ Bounce2::Button bouton;
 Pour générer un flux continu, nous allons utiliser la bibliothèque [Chrono](/fabrication/arduino/chrono/) pour lire la valeur du potentiomètre à intervalles réguliers.
 
 - Ajouter `#include <Chrono.h>` dans l’espace global.
-- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
+- Dans l’espace global, instancier un `Chrono` nommé `chronoPot` : 
 ```cpp
 Chrono chronoPot;
 ```
@@ -159,8 +159,8 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
 - Renommer le projet `pong_bouton_pot_unity`.
 - Le cloner sur votre ordinateur.
 - Il y aura ainsi deux dépôts Git pour ce tutoriel :
-    - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
-    - `pong_bouton_pot_unity` : qui contient le code Unity.
+    - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
+    - `pong_bouton_pot_unity` : qui contient le code Unity.
 - Essayer de jouer au jeu **avant** de le modifier.
     - Cliquer et maintenir le bouton de la souris pour bouger la palette.
     - La touche espace lance la balle. 
@@ -172,7 +172,7 @@ Télécharger le patcher [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_u
 
 ### extOSC
 
-- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
+- Suivre les instructions pour l’initialisation d’extOSC (ne pas commencer de `Bind` encore, ils seront détaillés plus loin) : [Unity : OSC UDP avec extOSC](/logiciels/unity/osc/extosc/initialisation/).
 
 
 ### Pointer vers les scripts GameManager et PlayerPaddle
@@ -207,7 +207,7 @@ void TraiterMessageBut0(OSCMessage message)
         int valeur = message.Values[0].IntValue;
 
         // Deboguer
-        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
         // Traiter la valeur
         if ( valeur == 0 ) {
@@ -250,7 +250,7 @@ void TraiterMessagePot(OSCMessage message)
         int valeur = message.Values[0].IntValue;
 
         // Deboguer
-        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
         // Ajustement de la valeur
         float ajustee = (
@@ -271,5 +271,5 @@ La lecture du potentiomètre donne des valeurs entre 0 et 1023. Nous devons ajus
 
 > [!WARNING]
 > Ne pas oublier de faire les révisions (*commits*) des deux dépôts :
-> - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
-> - `pong_bouton_pot_unity` : qui contient le code Unity.
+> - `pong_bouton_pot_arduino` : qui contient le code Arduino et Pure Data.
+> - `pong_bouton_pot_unity` : qui contient le code Unity.

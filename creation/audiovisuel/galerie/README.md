@@ -34,18 +34,18 @@
 - [3D visuals arrive in Ableton Live, easy as synths, with Unreal-powered SenSei - CDM Create Digital Music](https://cdm.link/3d-visuals-ableton-live-unreal-powered-sensei/)
 - [(PDF) Principles of Visual Design for Computer Music](https://www.researchgate.net/publication/265162871_Principles_of_Visual_Design_for_Computer_Music)
 - [Live PHYSICAL Performance - YouTube](https://www.youtube.com/watch?v=MSN-TQGQSec)
-- [artificiel: POWEr](https://artificiel.org/projet/POWEr)
-- [artificiel: condemned_bulbes](https://artificiel.org/projet/bulbes)
+- [artificiel: POWEr](https://artificiel.org/projet/POWEr)
+- [artificiel: condemned_bulbes](https://artificiel.org/projet/bulbes)
 - [Ulf Langheinrich in collaboration with Maria Chiara de"Nobili - VORTEX (Trailer, 2020) - YouTube](https://www.youtube.com/watch?v=lanHKeck1mg)
 Ryoji Ikeda 
     - [Ryoji Ikeda - superposition [update 241024] - YouTube](https://www.youtube.com/watch?v=2l1kJCktuAo)
-    - [Ryoji Ikeda Presents: test pattern - YouTube](https://www.youtube.com/watch?v=jCR7KJQtwGE)
+    - [Ryoji Ikeda Presents: test pattern - YouTube](https://www.youtube.com/watch?v=jCR7KJQtwGE)
     - [Ryoji Ikeda Pure Data Tutorial - YouTube](https://www.youtube.com/watch?app=desktop&v=CLddxGIlVPU)
 - Alva Noto
     - [Alva Noto - Xerrox Voyage (Xerrox Vol. 4) - YouTube](https://www.youtube.com/watch?v=eewZ_Oft6KI)
     - [Alva Noto - Xerrox Canaux (Xerrox Vol. 4) - YouTube](https://www.youtube.com/watch?v=9qEvA2jGrlQ)
     - [ALVA NOTO - UNIEQAV #08 UNI MIC B - YouTube](https://www.youtube.com/watch?v=MnGVLnScoFo)
-- [Theresa Baumgartner Presents: Muqata"a - Quboor Mamila قُبور مَاميلا - YouTube](https://www.youtube.com/watch?v=Fucyfra5PUY)
+- [Theresa Baumgartner Presents: Muqata"a - Quboor Mamila قُبور مَاميلا - YouTube](https://www.youtube.com/watch?v=Fucyfra5PUY)
 - [MURCOF + ANTIVJ - YouTube](https://www.youtube.com/watch?v=uFl4RBQ-lZQ)
 - Emptyset
     - [Fragment on Vimeo](https://vimeo.com/76127566)
@@ -82,4 +82,4 @@ Multitude
 
 ## ByteBeat
 
-* [TuesdayNightMachines/Bytebeats: A free PDF guide on creating Bytebeats and example code.](https://github.com/TuesdayNightMachines/Bytebeats)
+* [TuesdayNightMachines/Bytebeats: A free PDF guide on creating Bytebeats and example code.](https://github.com/TuesdayNightMachines/Bytebeats)

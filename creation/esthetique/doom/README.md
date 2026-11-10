@@ -1,6 +1,6 @@
 # Esthétique et public cible de DOOM Eternal
 
-Exemple d’analyse d’esthétique de l’expérience multimédia interactive *DOOM Eternal*. Extrait vidéo : [7 Minutes of Doom: Eternal Gameplay - QuakeCon 2018 - YouTube](https://www.youtube.com/watch?v=p7cZDoKopkc)
+Exemple d’analyse d’esthétique de l’expérience multimédia interactive *DOOM Eternal*. Extrait vidéo : [7 Minutes of Doom: Eternal Gameplay - QuakeCon 2018 - YouTube](https://www.youtube.com/watch?v=p7cZDoKopkc)
 
 |  | DOOM Eternal
 |--|--|

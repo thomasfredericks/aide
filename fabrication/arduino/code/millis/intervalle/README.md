@@ -21,7 +21,7 @@ monChronoDepart = millis(); // TEMPS DE DÉPART
 
 #### Temps écoulé
 
-Pour calculer le temps écoulé on utilise l’extrait suivant : 
+Pour calculer le temps écoulé on utilise l’extrait suivant : 
 ```cpp
 ( millis() - monChronoDepart ) // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```

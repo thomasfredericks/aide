@@ -31,7 +31,7 @@ L’adresse indique quel est le paramètre que l’on veut modifier. Elle peut �
 * Chaque `/` subdivise l’adresse en hiérarchie symbolique. Plus une subdivision se trouve au début, plus est elle haute dans hiérarchie. Prenons comme exemple `/A/B` : `A` englobe `B` et `B` fait partie de `A`.
 * Remplacer les *espaces* par des `_`.
 
-Quelques exemples: 
+Quelques exemples: 
 ```
 /application/fenetre/bouton
 /torse/bras/main/doigt/index
@@ -49,7 +49,7 @@ Chaque argument possède un type. Il existe quatre types de base :
 
 Un message OSC peut mélanger plusieurs types d’arguments différents et peut contenir n’importe quel nombre d’arguments. 
 
-Quelques exemples: 
+Quelques exemples: 
 ```
 /application/fenetre/bouton 1
 /torse/bras/main/doigt/index 0.324

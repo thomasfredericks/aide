@@ -1,4 +1,4 @@
-# Pixels : NeoPixel
+# Pixels : NeoPixel
 
 Les pixels **NeoPixel** sont des DEL adressables individuellement, très utilisées dans les projets interactifs, les installations artistiques et les dispositifs d’éclairage créatif. Chaque pixel contient un petit contrôleur qui permet de définir sa couleur indépendamment des autres pixels dans la même bande.
 

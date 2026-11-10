@@ -1,22 +1,22 @@
 ![](./cmontmorency_entete.png)
 
-# COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA
+# COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA
 
 <!-- toc -->
 
-- Numéro de cours : 582 501 MO
-- Nombre d’heures d’enseignement : 90
-- Pondération : 3-3-2
-- Programme : Techniques d’intégration multimédia
-- Département du programme : Techniques d’intégration multimédia
-- Session : Automne 2026
-- Professeure ou professeur : Thomas O. Fredericks
-- Département de la professeure ou du professeur : Techniques d’intégration multimédia
-- Courriel : ThomasOuellet.Fredericks@cmontmorency.qc.ca
-- Bureau : C-1649
-- Plateforme(s) pédagogique(s) utilisée(s) :  Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
-- Coordination : Lora Boisvert
-- Contact de la coordination : lora.boisvert@cmontmorency.qc.ca (C-1651)
+- Numéro de cours : 582 501 MO
+- Nombre d’heures d’enseignement : 90
+- Pondération : 3-3-2
+- Programme : Techniques d’intégration multimédia
+- Département du programme : Techniques d’intégration multimédia
+- Session : Automne 2026
+- Professeure ou professeur : Thomas O. Fredericks
+- Département de la professeure ou du professeur : Techniques d’intégration multimédia
+- Courriel : ThomasOuellet.Fredericks@cmontmorency.qc.ca
+- Bureau : C-1649
+- Plateforme(s) pédagogique(s) utilisée(s) :  Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
+- Coordination : Lora Boisvert
+- Contact de la coordination : lora.boisvert@cmontmorency.qc.ca (C-1651)
 
 ## Présentation du cours
 
@@ -60,8 +60,8 @@ Le présent cours est préalable absolu au cours suivant :
 
 ### Volets transversaux
 
-- Compétence langagière : L’élève adapte son discours à la situation de communication, communique adéquatement à l’oral et à l’écrit, soigne ses productions écrites et utilise le lexique de la profession.
-- Compétence numérique : L’élève exploite les TIC de manière efficace et responsable. Il recherche, traite et présente de l’information.
+- Compétence langagière : L’élève adapte son discours à la situation de communication, communique adéquatement à l’oral et à l’écrit, soigne ses productions écrites et utilise le lexique de la profession.
+- Compétence numérique : L’élève exploite les TIC de manière efficace et responsable. Il recherche, traite et présente de l’information.
 
 ### Attitudes professionnelles
 
@@ -72,8 +72,8 @@ Le présent cours est préalable absolu au cours suivant :
 
 ### Dates importantes
 
-- 18 septembre : Date limite de désinscription au cours sans mention au bulletin.
-- 4 novembre : Date limite d’abandon de cours sans échec entraînant une mention au bulletin.
+- 18 septembre : Date limite de désinscription au cours sans mention au bulletin.
+- 4 novembre : Date limite d’abandon de cours sans échec entraînant une mention au bulletin.
 
 ## Contexte d’apprentissage et méthodes pédagogiques
 
@@ -104,7 +104,7 @@ Pour les détails du matériel requis, voir le [guide des étudiants](https://cm
 
 ## Réservation du matériel spécialisé
 
-Lorsque vous êtes autorisée ou autorisé par votre professeure ou professeur à emprunter le matériel spécialisé, vous pouvez le réserver auprès des TTP en suivant la procédure suivante : [Procédure de prêt – TTP.pptx](https://cmontmorency365.sharepoint.com/:p:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/Proc%C3%A9dure%20de%20pr%C3%AAt%20-%20TTP.pptx?d=wce77a41cd0db4bb8862e11adba23c93b&csf=1&web=1&e=UPLDTD).
+Lorsque vous êtes autorisée ou autorisé par votre professeure ou professeur à emprunter le matériel spécialisé, vous pouvez le réserver auprès des TTP en suivant la procédure suivante : [Procédure de prêt – TTP.pptx](https://cmontmorency365.sharepoint.com/:p:/r/sites/TIM-programmeTIM752/Documents%20partages/TTP%20-%20R%C3%A9servations/Proc%C3%A9dure%20de%20pr%C3%AAt%20-%20TTP.pptx?d=wce77a41cd0db4bb8862e11adba23c93b&csf=1&web=1&e=UPLDTD).
 
 ## Règles d’identification des travaux
 
@@ -112,21 +112,21 @@ Les travaux non identifiés ne seront pas corrigés et les pénalités de retard
 
 ### Travail individuel
 
-Suivre le modèle suivant : 
+Suivre le modèle suivant : 
 
 - `[nom de famille]- [prénom]_[nom du travail]_[#travail]_[#cours]`
 
-Exemple : 
+Exemple : 
 
 - `gilbert-charlene_polychromes_01_582-314MO`
 
 ### Travail d’équipe
 
-Suivre le modèle suivant : 
+Suivre le modèle suivant : 
 
 - `[les noms de famille en ordre alphabétique séparés par -]_[nom du travail]_[#travail]_[#cours]`
 
-Exemple : 
+Exemple : 
 
 - `boisvert-gilbert-hubert_polychromes_01_582-314MO`
 
@@ -193,13 +193,13 @@ Activités en classe :
 	- *Face à faces* 
 - Le [public cible](https://t-o-f.info/aide/#/creation/interactivite/public/).
 - Réaliser des maquettes de plans de déploiement dans l’espace avec [draw.io](https://app.diagrams.net/).
-	- Version bureau à télécharger : [github.com/jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop/releases)
+	- Version bureau à télécharger : [github.com/jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop/releases)
 - [Banque de mots pour l’esthétique](https://t-o-f.info/aide/#/creation/esthetique/banque/) 
 - [Esthétique et public cible de DOOM Eternal](https://t-o-f.info/aide/#/creation/esthetique/doom/)
 - Esthétique et public cible des expériences suivantes (formatif) :
-	- Super Mario : [Super Mario Bros - Complete Walkthrough - YouTube](https://www.youtube.com/watch?v=c_b9Yn34pdI)
-	- Animal Crossing: New Horizons : [Cozy Rainy Longplay Pt 43 | Working on the Market (no commentary) ~ Animal Crossing New Horizons - YouTube](https://www.youtube.com/watch?v=J4YKntliYuY)
-	- Gran Turismo 7 : [Gran Turismo 7 - Nissan GT-R NISMO GT3 2018 - Gameplay (PS5 UHD) [4K60FPS] - YouTube](https://www.youtube.com/watch?v=7dYJ4IZFC4U)
+	- Super Mario : [Super Mario Bros - Complete Walkthrough - YouTube](https://www.youtube.com/watch?v=c_b9Yn34pdI)
+	- Animal Crossing: New Horizons : [Cozy Rainy Longplay Pt 43 | Working on the Market (no commentary) ~ Animal Crossing New Horizons - YouTube](https://www.youtube.com/watch?v=J4YKntliYuY)
+	- Gran Turismo 7 : [Gran Turismo 7 - Nissan GT-R NISMO GT3 2018 - Gameplay (PS5 UHD) [4K60FPS] - YouTube](https://www.youtube.com/watch?v=7dYJ4IZFC4U)
 
 |  | Super Mario | Animal Crossing | Gran Turismo |
 |---|---|---|---|
@@ -226,7 +226,7 @@ Activités en classe :
 Activités en classe :
 
 - **Évaluation**
-- Jeux du livre [The Rules We Break d’Eric Zimmerman](https://theruleswebreak.com/) :  *Five Fingers*, *Wolf and Sheep* et *Rock Paper Scissors+* dehors si la météo le permet.
+- Jeux du livre [The Rules We Break d’Eric Zimmerman](https://theruleswebreak.com/) :  *Five Fingers*, *Wolf and Sheep* et *Rock Paper Scissors+* dehors si la météo le permet.
 
 ## Semaine 4
 
@@ -255,7 +255,7 @@ Activités en classe :
 	- Balancer le jeu *Utopia2099*.
 	- Expérimenter une histoire avec le jeu *Village Zombie*.
 
-## Semaine 5 : 29 septembre / 24 septembre
+## Semaine 5 : 29 septembre / 24 septembre
 
 À préparer avant la classe :
 
@@ -263,20 +263,20 @@ Activités en classe :
 
 Retours :
 
-- *Utopia2099* : 
-	- Complexité : Un jeu peut être captivant, même s’il est totalement aléatoire. La tension ou la complexité d’un système peut parfois suffire à maintenir l’intérêt du joueur, et ce, même en l’absence de structure décisionnelle.
+- *Utopia2099* : 
+	- Complexité : Un jeu peut être captivant, même s’il est totalement aléatoire. La tension ou la complexité d’un système peut parfois suffire à maintenir l’intérêt du joueur, et ce, même en l’absence de structure décisionnelle.
 		- [Roulette](https://www.youtube.com/watch?v=u9hESWMykp0) 
 		- [Pachinko](https://www.youtube.com/shorts/aygM12xe9vA)
 	- Comment équilibrer un jeu ?
-		- Itération : Répéter plusieurs fois.
-		- Établir un « point pivot » : Il est difficile de maintenir l’équilibre entre les Experts si chacun d’eux ne cesse de changer — chaque modification doit être vérifiée et revérifiée par rapport à toutes les autres. Une bonne technique consiste à considérer l’un des Experts comme un point pivot fixe et à équilibrer tous les autres par rapport à celui-ci.
+		- Itération : Répéter plusieurs fois.
+		- Établir un « point pivot » : Il est difficile de maintenir l’équilibre entre les Experts si chacun d’eux ne cesse de changer — chaque modification doit être vérifiée et revérifiée par rapport à toutes les autres. Une bonne technique consiste à considérer l’un des Experts comme un point pivot fixe et à équilibrer tous les autres par rapport à celui-ci.
 - *Zombie Village* :
-	- Narrativité : Il est tellement facile d’imaginer des superpouvoirs capables de nettoyer le plateau de tous les ennemis ! Les questions plus profondes sont les suivantes : ces pouvoirs conviennent-ils au personnage ? Expriment-ils sa personnalité et son esprit ? Aidez les concepteurs à accepter la mort tragique et quasi certaine de leur personnage bien-aimé.
-	- Immersion : L’immersion ne se résume pas à des graphismes photoréalistes et à des effets visuels sophistiqués. Elle relève plus souvent d’un engagement émotionnel, psychologique et social.
+	- Narrativité : Il est tellement facile d’imaginer des superpouvoirs capables de nettoyer le plateau de tous les ennemis ! Les questions plus profondes sont les suivantes : ces pouvoirs conviennent-ils au personnage ? Expriment-ils sa personnalité et son esprit ? Aidez les concepteurs à accepter la mort tragique et quasi certaine de leur personnage bien-aimé.
+	- Immersion : L’immersion ne se résume pas à des graphismes photoréalistes et à des effets visuels sophistiqués. Elle relève plus souvent d’un engagement émotionnel, psychologique et social.
 
 Activités en classe :
 
-- Exemple de normes graphiques : 
+- Exemple de normes graphiques : 
 	- [Guide des normes graphiques du collège Montmorency](https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/logos-et-normes-graphiques/guide-normes-graphiques.pdf)
 	- [Guide Utilisation et normes graphique de l’INRS](https://inrs.ca/wp-content/uploads/2020/08/INRS-Guide-de-normes-graphiques-identite-visuelle.pdf)
 - Esthétique et fonctionnalité.
@@ -285,7 +285,7 @@ Activités en classe :
 	- Trouver une thématique pour le jeu de carte.
 	- Préparer le [document de normes graphiques (à remettre avec la fin du cours)](https://t-o-f.info/aide/#/creation/visuel/guide/cartes/).
 
-## Semaine 6 : 6 octobre / 1 octobre
+## Semaine 6 : 6 octobre / 1 octobre
 
 À préparer avant la classe :
 
@@ -296,15 +296,15 @@ Activités en classe :
 - *Travail en classe*.
 - Tests d’impressions. 
 
-## Semaine 7 : 15 octobre / 8 octobre
+## Semaine 7 : 15 octobre / 8 octobre
 
 À préparer avant la classe :
 
 - Travail sur le jeu de cartes.
 
-Annonces : 
+Annonces : 
 
-- ELEKTRA MONTRÉAL | Biennale 2026 - F(R)ICTION : art et jeux -  [https://www.elektramontreal.ca/evenement/biennale-2026](https://www.elektramontreal.ca/evenement/biennale-2026)
+- ELEKTRA MONTRÉAL | Biennale 2026 - F(R)ICTION : art et jeux -  [https://www.elektramontreal.ca/evenement/biennale-2026](https://www.elektramontreal.ca/evenement/biennale-2026)
 
 
 Activités en classe :
@@ -312,7 +312,7 @@ Activités en classe :
 - *Travail en classe*.
 - Tests d’impressions. 
 
-## Semaine 8 : 19 octobre / 22 octobre
+## Semaine 8 : 19 octobre / 22 octobre
 
 À préparer avant la classe :
 
@@ -333,11 +333,11 @@ Activités en classe :
 	- [OpenProcessing Generative Art](https://openprocessing.org/discover/#/generativeart)
 	- [Shader Park](https://shaderpark.com/)
 - Carte fantaisiste :
-	- Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
+	- Générateur de carte fantaisiste : [résultat](https://editor.p5js.org/tofredericks/full/vqyUGUoyB).
 	- [Wonder Wander](/jeu/wonder_wander/)
 
 
-## Semaine 9 : 26 octobre / 29 octobre
+## Semaine 9 : 26 octobre / 29 octobre
 
 À préparer avant la classe :
 
@@ -349,14 +349,14 @@ Activités en classe :
 - Développer son sens de communauté avec [L’année de la veille](/jeu/annee_de_la_veille/).
 - Partage des histoires des communautés.
 - Impression des jeux de carte :
-	- Au Canada : [theplayingcardfactory.com](https://shop.theplayingcardfactory.com/en/full-custom-deck-54-photos/)
-	- En Chine : [makeplayingcards.com](https://www.makeplayingcards.com/design/custom-white-border-playing-cards-poker-size.html)
+	- Au Canada : [theplayingcardfactory.com](https://shop.theplayingcardfactory.com/en/full-custom-deck-54-photos/)
+	- En Chine : [makeplayingcards.com](https://www.makeplayingcards.com/design/custom-white-border-playing-cards-poker-size.html)
 - Rappel des principes [CRAP](/creation/visuel/crap/).
 - Développer son sens de communauté avec *L’année de la veille*.
 - Partage des histoires des communautés.
 
 
-## Semaine 10 : 2 novembre / 5 novembre
+## Semaine 10 : 2 novembre / 5 novembre
 
 À préparer avant la classe :
 
@@ -365,13 +365,13 @@ Activités en classe :
 Activités en classe :
 
 - Aider Charlène en vous inscrivant à [Meshy.ai](https://www.meshy.ai/fr/education) avec votre courriel du collège.
-- Présentation des critères pour la prochaine évaluation : [le pitch](#%c3%89valuation-3-pitch).
+- Présentation des critères pour la prochaine évaluation : [le pitch](#%c3%89valuation-3-pitch).
 - [Infrastructure technique](./infrastructure/) pour le projet proposé.
 - [Inspirations](./inspirations/) pour le projet proposé.
 
 
 
-## Semaine 11 : 16 novembre / 12 novembre
+## Semaine 11 : 16 novembre / 12 novembre
 
 À préparer avant la classe :
 
@@ -381,7 +381,7 @@ Activités en classe :
 
 - **Évaluation**.
 
-## Semaine 12 : 23 novembre / 19 novembre
+## Semaine 12 : 23 novembre / 19 novembre
 
 À préparer avant la classe :
 
@@ -395,7 +395,7 @@ Activités en classe :
 - Rédaction de la mission d’équipe.
 - Rétroaction en interactivité.
 	
-## Semaine 13 : 30 novembre / 26 novembre
+## Semaine 13 : 30 novembre / 26 novembre
 
 À préparer avant la classe :
 
@@ -406,7 +406,7 @@ Activités en classe :
 - *Travail en classe*.
 - Normes esthétiques de l’équipe.
 
-## Semaine 14 : 6 décembre / 3 décembre
+## Semaine 14 : 6 décembre / 3 décembre
 
 À préparer avant la classe :
 
@@ -417,7 +417,7 @@ Activités en classe :
 
 - *Travail en classe*.
 
-## Semaine 15 : 14 décembre / 10 décembre
+## Semaine 15 : 14 décembre / 10 décembre
 
 À préparer avant la classe :
 
@@ -444,24 +444,24 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 ### Sommaire des évaluations
 
 | Évaluation | Titre | Date | % |
-| --- | --- | --- | ---: |
+| --- | --- | --- | ---: |
 | EVAL-1 | Analyse de projet | Séance 3 | 24 % |
 | EVAL-2 | Jeu de carte | Séance 7 | 24 % |
 | EVAL-3 | Pitch | Séance 11 | 24 % |
 | EVAL-4 | Hypothèse * | Séance 15 | 28	 % |
 | | **Total** | | **100 %** |
 
-* : intégration des apprentissages.
+* : intégration des apprentissages.
 
-### Évaluation 1 : Analyse de projet
+### Évaluation 1 : Analyse de projet
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | ---: |
 | EVAL-1 | Exposé oral | Individuel | Semaine 3 | 24 % |
 
 Savoirs essentiels et critères d’évaluation :
 
-- Objectif d’apprentissage : **Analyser la conception d’une expérience multimédia.**
+- Objectif d’apprentissage : **Analyser la conception d’une expérience multimédia.**
 - Analyser une expérience multimédia unique.
 - Présenter l’analyse dans un format [Pecha Kucha](https://t-o-f.info/aide/#/creation/pecha_kucha/) **vidéo**.
 - Démontrer sa capacité à analyser la conception d’une expérience multimédia.
@@ -486,7 +486,7 @@ Directives :
 - Réalisez un PowerPoint :
 	- Ne pas avoir trop de texte explicatif écrit. Le gros des explications se fait verbalement dans un enregistrement audio.
 	- Votre présentation doit :
-		- Être cohérent d’une diapositive à l’autre : être uniformes au niveau esthétique (même taille de texte, même fonte de texte, couleurs cohérentes, etc).
+		- Être cohérent d’une diapositive à l’autre : être uniformes au niveau esthétique (même taille de texte, même fonte de texte, couleurs cohérentes, etc).
 		- Avoir un style visuel qui correspond à l’œuvre.
 		- Utiliser 1 ou 2 polices différentes maximum.
 		- Se limiter à 2 tailles de polices différentes.
@@ -514,44 +514,44 @@ l’émotion, le timbre, la structure, les références en utilisant la [banque 
 	- Pas de vidéo autre que l’exportation du PowerPoint.
 - Remettez dans le dossier de remise, dans votre groupe et dans un dossier qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*) les selfies qui prouvent que vous avez visité les œuvres ainsi que votre vidéo de présentation.
 
-### Évaluation 2 : Jeu de cartes
+### Évaluation 2 : Jeu de cartes
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | ---: |
 | EVAL-2 | Document imprimé | Équipe | Semaine 7 | 24 % |
 
 Savoirs essentiels et critères d’évaluation :
 
 - Réaliser un [document de normes graphiques](https://t-o-f.info/aide/#/creation/visuel/guide/cartes/).
 - Réaliser un jeu de cartes thématique qui permet de jouer à des jeux de carte traditionnels, l’imprimer et l’assembler.
-- Objectif d’apprentissage : **Planifier la stratégie d’intégration d’une expérience multimédia.**
+- Objectif d’apprentissage : **Planifier la stratégie d’intégration d’une expérience multimédia.**
 
-Remise : 
+Remise : 
 
 - Déposer, dans le dossier de remise de votre groupe, un **dossier** qui suit la nomenclature (voir plus haut dans la section *Règles d’identification des travaux*). Inclure dans ce dossier :
 	- Un PDF prêt pour l’impression qui regroupe toutes les cartes dans un seul document.
 	- Votre [guide de normes graphiques](/creation/visuel/guide/cartes/).
 	- Un autre dossier nommé « cartes individuelles » avec une exportation en PNG de chaque carte individuelle (54 cartes + 1 dos).
 - Remettre une copie imprimée en couleur sur papier standard (si voulu) et assemblée dans les pochettes de plastique (*sleeves*) fournies des 54 cartes avec leurs dos.
-- Critère d’évaluation principal : **cohérence**.
+- Critère d’évaluation principal : **cohérence**.
 	- Cohérence entre le design et l’utilisation d’un jeu de cartes.
 	- Cohérence des tailles et des dispositions d’éléments graphiques.
 	- Cohérence avec le guide de normes graphiques.
 
-### Évaluation 3 : Pitch
+### Évaluation 3 : Pitch
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | ---: |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
-Description de l’évaluation : Présenter devant la classe un pitch de 4 à 5 minutes qui présente une expérience multimédia interactive pour un public cible d’interacteurs de type « tueurs », « accomplisseurs » ou « sociables ». 
+Description de l’évaluation : Présenter devant la classe un pitch de 4 à 5 minutes qui présente une expérience multimédia interactive pour un public cible d’interacteurs de type « tueurs », « accomplisseurs » ou « sociables ». 
 
  > [!NOTE]
- > L’expérience proposée doit avoir une interaction qui répond de façon signifiante, produit des conséquences perceptibles et permet une progression, de sorte que la personne interactrice ait le sentiment de converser/échanger avec le système : 
+ > L’expérience proposée doit avoir une interaction qui répond de façon signifiante, produit des conséquences perceptibles et permet une progression, de sorte que la personne interactrice ait le sentiment de converser/échanger avec le système : 
  > 
  > La personne interactrice perçoit quelque chose → elle agit → le système répond → la personne perçoit une nouvelle situation → elle agit selon la nouvelle situation → …
 
-Contexte de l’évaluation : Apprendre à présenter rapidement un concept est une compétence clé pour tout type de concepteur. Cette évaluation consiste à pratiquer l’articulation claire d’une idée pour s’assurer que le « quoi » et le « pourquoi » sont tous deux communiqués.
+Contexte de l’évaluation : Apprendre à présenter rapidement un concept est une compétence clé pour tout type de concepteur. Cette évaluation consiste à pratiquer l’articulation claire d’une idée pour s’assurer que le « quoi » et le « pourquoi » sont tous deux communiqués.
 
 - Voir les [inspirations](./inspirations/) pour s’inspirer.
 - Le projet doit répondre à la thématique de **la communauté**. 
@@ -581,7 +581,7 @@ Diapositives **obligatoires** :
 | Continuum | Présenter comment le projet se situe entre le milieu et la droite du [continuum de l’interactivité](/creation/interactivite/continuum/). |
 | Public cible | Choisir le public cible de type « tueurs », « accomplisseurs » ou « sociables » et prouver pourquoi l’idée de projet y correspond |
 | Description de l’esthétique | Afficher à l’écran un paragraphe (parce que c’est une autocitation) de 1 à 3 lignes qui présente l’esthétique du projet en utilisant au moins un mot de chaque catégorie de la [banque de mots](/creation/esthetique/banque/) |
-| Objectif de l’esthétique | Indiquer l’objectif de l’esthétique comme nous avons fait en classe avec [Doom](/creation/esthetique/doom/), Super Mario, Animal Crossing: New Horizons et Gran Turismo 7 |
+| Objectif de l’esthétique | Indiquer l’objectif de l’esthétique comme nous avons fait en classe avec [Doom](/creation/esthetique/doom/), Super Mario, Animal Crossing: New Horizons et Gran Turismo 7 |
 | Maquette de l’espace | Indiquez le plus d’éléments possible (à l’exception des câbles et des interconnexions). Indiquez le nombre de projecteurs et où ils se trouvent, où se trouvent les hautparleurs, la position des interfaces, etc. Intégrer les objets de l’[infrastructure technique](./infrastructure/) |
 
 Méthodes d’approche pour un bon pitch :
@@ -590,7 +590,7 @@ Méthodes d’approche pour un bon pitch :
 | --- | --- |
 | Début du pitch | Comment initier un contact avec l’auditoire ? Le pitch présente-t-il un problème et une solution ? Commence-t-il par raconter une histoire ? Par une anecdote sur une lutte personnelle ? Le début d’une présentation devrait immédiatement accrocher l’auditeur et lui donner envie d’en entendre davantage.  |
 | Esthétique et humour | Faire plaisir (avec de l’humour ou de la beauté) est un excellent moyen de créer un lien avec l’auditoire. Si l’auditoire souri ou trouve le pitch beau, il va apprécier l’ensemble de ce qu’il entend. |
-| Interaction | Poser une question, même rhétorique, est un moyen formidable de capter l’attention. Exemples : sondage rapide, évoquer un souvenir d’enfance ou demander ce qu’ils feraient à la place des personnages. |
+| Interaction | Poser une question, même rhétorique, est un moyen formidable de capter l’attention. Exemples : sondage rapide, évoquer un souvenir d’enfance ou demander ce qu’ils feraient à la place des personnages. |
 | Créer une image mentale | Il faut utiliser un langage expérientiel et visuellement descriptif pour évoquer une image vivante du projet. Il faut peindre une image claire dans l’esprit de l’auditoire. Cela le rendra beaucoup plus mémorable.  |
 | Décrire un moment précis qui incarne l’expérience centrale | Pressés par le temps, nous avons tendance à parler en abstractions généralisées. Pourtant, entrer dans des détails concrets est très efficace pour transmettre des idées. Détailler un moment précis qui incarne l’expérience centrale peut être incroyablement efficace. |
 
@@ -609,10 +609,10 @@ Savoirs essentiels et critères d’évaluation :
 - Développer le scénario et le scénarimage.
 - Démontrer une compréhension du public, du produit, de l’équipe et du contexte de diffusion.
 
-### Évaluation 4 : Hypothèse (intégration des apprentissages)
+### Évaluation 4 : Hypothèse (intégration des apprentissages)
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | ---: |
 | EVAL-4 | Exposé oral | Individuel au sein d’une équipe | Séance 15 | 28 % |
 
 Savoirs essentiels et critères d’évaluation :
@@ -626,7 +626,7 @@ Savoirs essentiels et critères d’évaluation :
 - Planifier les médias nécessaires à la réalisation.
 - Adapter la conception aux contraintes de réalisation et de diffusion.
 - Documenter la faisabilité technique à l’aide d’exemples et de preuves techniques.
-- Objectif d’apprentissage : **Vérifier la faisabilité technique d’une expérience multimédia.**
+- Objectif d’apprentissage : **Vérifier la faisabilité technique d’une expérience multimédia.**
 
 
 
@@ -635,26 +635,26 @@ Savoirs essentiels et critères d’évaluation :
 
 ### Livres
 
-- Schell, J. (2022). *L’art du game design — Nouvelle édition : Se focaliser sur les fondamentaux*.
+- Schell, J. (2022). *L’art du game design — Nouvelle édition : Se focaliser sur les fondamentaux*.
 - Albinet, M. (2022). *Concevoir un jeu vidéo*.
-- Le Breton, R. (2017). *Design narratif : scénario et expérience de jeu*.
-- Kholeif, O. (2023). *Internet_Art: From the Birth of the Web to the Rise of NFTs*.
+- Le Breton, R. (2017). *Design narratif : scénario et expérience de jeu*.
+- Kholeif, O. (2023). *Internet_Art: From the Birth of the Web to the Rise of NFTs*.
 - Kief, H. (2020). *Internet ou le retour à la bougie*.
-- Burckhardt, A., Galloway, P., et Antonelli, P. (2022). *Never Alone: Video Games as Interactive Design*.
-- Pereyra, I. (2023). *Universal Principles of UX: 100 Timeless Strategies to Create Positive Interactions between People and Technology*.
+- Burckhardt, A., Galloway, P., et Antonelli, P. (2022). *Never Alone: Video Games as Interactive Design*.
+- Pereyra, I. (2023). *Universal Principles of UX: 100 Timeless Strategies to Create Positive Interactions between People and Technology*.
 - Farnell, A. (2010). *Designing Sound*.
 - Bjørn, K. (2021). *PUSH TURN MOVE*.
 - Bardiot, C., Derobert, L., Farcet, C., et Guillois, P. (s. d.). *La neige n’a pas de sens — Adrien M et Claire B.*
-- Reas, C., et McWilliams, C. (2010). *Form+Code in Design, Art, and Architecture: Introductory Book for Digital Design and Media Arts*. New York, NY: Princeton Architectural Press.
-- Reas, C., et Fry, B. (2014). *Processing: A Programming Handbook for Visual Designers and Artists* (2e éd.). Cambridge, MA: The MIT Press.
-- Leach, N., et Yuan, P. F. (2018). *Computational Design*. Shanghai: Tongji University Press Co., Ltd.
+- Reas, C., et McWilliams, C. (2010). *Form+Code in Design, Art, and Architecture: Introductory Book for Digital Design and Media Arts*. New York, NY: Princeton Architectural Press.
+- Reas, C., et Fry, B. (2014). *Processing: A Programming Handbook for Visual Designers and Artists* (2e éd.). Cambridge, MA: The MIT Press.
+- Leach, N., et Yuan, P. F. (2018). *Computational Design*. Shanghai: Tongji University Press Co., Ltd.
 - Paquin, L.-C. (s. d.). *Comprendre les médias interactifs*. Récupéré de http://www.lcpaquin.com/livre/tdm.html
 - Levin, G., et Brain, T. (2021). *Code as Creative Medium*.
-- Bianchini, S., et Verhagen, E. (2016). *Practicable: From Participation to Interaction in Contemporary Art*.
+- Bianchini, S., et Verhagen, E. (2016). *Practicable: From Participation to Interaction in Contemporary Art*.
 - Thiery, E. *Les bases de Git*. Récupéré de http://www2.ift.ulaval.ca/~eude/Gif-1003/Initiation_a_git/Labo%20sur%20Git_fichiers/Les%20bases%20de%20Git.pdf
 - *Aide-mémoire GIT*. Récupéré de https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf
-- Lostritto, C. (2019). *Computational Drawing: From Foundational Exercises to Theories of Representation*. Novato: Applied Research & Design.
-- McCarthy, L., Reas, C., et Fry, B. (2015). *Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing*. San Francisco, CA: Make Community, LLC.
+- Lostritto, C. (2019). *Computational Drawing: From Foundational Exercises to Theories of Representation*. Novato: Applied Research & Design.
+- McCarthy, L., Reas, C., et Fry, B. (2015). *Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing*. San Francisco, CA: Make Community, LLC.
 
 ### Art et références professionnelles
 
@@ -675,10 +675,10 @@ Savoirs essentiels et critères d’évaluation :
 
 ### Guides et bases de connaissances
 
-- Guide pour les étudiants dans le programme TIM : [guide_etudiants.docx](https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/Documents%20partages/comite_politiques/guides/guide_etudiants.docx?d=w48119bb75aec438cbb23c7da3ee1061d&csf=1&web=1&e=mN0PFI)
+- Guide pour les étudiants dans le programme TIM : [guide_etudiants.docx](https://cmontmorency365.sharepoint.com/:w:/r/sites/TIM-TTP/Documents%20partages/comite_politiques/guides/guide_etudiants.docx?d=w48119bb75aec438cbb23c7da3ee1061d&csf=1&web=1&e=mN0PFI)
 - [Carrefour de l’information étudiante](https://www.cmontmorency.qc.ca/etudiants/carrefour-info/).
 - [Le métier étudiant, ça s’apprend !](https://www.cmontmorency.qc.ca/etudiants/carrefour-info/metier-etudiant/)
-- [Écran : Base de connaissances | étudiantes et étudiants](https://cmontmorency365.sharepoint.com/sites/bdc-etudiants?xsdata=MDV8MDF8fDdiMzI5ZDFlYzMwMTRhYWMzOTgzMDhkYWZhNmE3NTBhfGZmYTk5NWM3MTBkZTRlYzg5NWRiMjhlZDA1NzY0NTVkfDB8MHw2MzgwOTc2MzIzNjM0MjgyMjd8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkzTkRFMk5qUXpOVEkwT0RzeE5qYzBNVFkyTkRNMU1qUTRPekU1T20xbFpYUnBibWRmVG5wWmVWcHFUbWxhYlZsMFRrUmtiVTVwTURCUFYwMHpURmRKTTFscVdYUk9SMWswVG1wV2FGcEVUbXhPUkZaclFIUm9jbVZoWkM1Mk1nPT18YjU0ZjQ1ZjM0NGFlNGEzYjM5ODMwOGRhZmE2YTc1MGF8MjliMTg3ZDZjMDdlNGZkZDgzZTI5ZTA4YjU5YWZmNTE%253D&sdata=U3paQ3hqVkJTc3h5UmZxUlRGMFdyZHpXbkZRVzZmcUIydEh3UjVXME9MZz0%253D&ovuser=ffa995c7-10de-4ec8-95db-28ed0576455d%252Ctofredericks%2540cmontmorency.qc.ca&OR=Teams-HL&CT=1674166416457&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzAxMDUwNTYwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%253D%253D)
+- [Écran : Base de connaissances | étudiantes et étudiants](https://cmontmorency365.sharepoint.com/sites/bdc-etudiants?xsdata=MDV8MDF8fDdiMzI5ZDFlYzMwMTRhYWMzOTgzMDhkYWZhNmE3NTBhfGZmYTk5NWM3MTBkZTRlYzg5NWRiMjhlZDA1NzY0NTVkfDB8MHw2MzgwOTc2MzIzNjM0MjgyMjd8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkzTkRFMk5qUXpOVEkwT0RzeE5qYzBNVFkyTkRNMU1qUTRPekU1T20xbFpYUnBibWRmVG5wWmVWcHFUbWxhYlZsMFRrUmtiVTVwTURCUFYwMHpURmRKTTFscVdYUk9SMWswVG1wV2FGcEVUbXhPUkZaclFIUm9jbVZoWkM1Mk1nPT18YjU0ZjQ1ZjM0NGFlNGEzYjM5ODMwOGRhZmE2YTc1MGF8MjliMTg3ZDZjMDdlNGZkZDgzZTI5ZTA4YjU5YWZmNTE%253D&sdata=U3paQ3hqVkJTc3h5UmZxUlRGMFdyZHpXbkZRVzZmcUIydEh3UjVXME9MZz0%253D&ovuser=ffa995c7-10de-4ec8-95db-28ed0576455d%252Ctofredericks%2540cmontmorency.qc.ca&OR=Teams-HL&CT=1674166416457&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzAxMDUwNTYwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%253D%253D)
 
 ## Règles d’évaluation des apprentissages 
 

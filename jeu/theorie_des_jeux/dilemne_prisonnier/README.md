@@ -8,17 +8,17 @@ Deux criminels, **A** et **B**, sont arrêtés par la police.
 
 La police n’a pas suffisamment de preuves pour les condamner lourdement. Elle leur propose donc un marché :
 
-- **Si les deux gardent le silence** : chacun reçoit **1 an de prison**.
-- **Si A avoue et B garde le silence** : A est libéré et B reçoit **5 ans**.
-- **Si B avoue et A garde le silence** : B est libéré et A reçoit **5 ans**.
-- **Si les deux avouent** : chacun reçoit **3 ans de prison**.
+- **Si les deux gardent le silence** : chacun reçoit **1 an de prison**.
+- **Si A avoue et B garde le silence** : A est libéré et B reçoit **5 ans**.
+- **Si B avoue et A garde le silence** : B est libéré et A reçoit **5 ans**.
+- **Si les deux avouent** : chacun reçoit **3 ans de prison**.
 
 Tableau des résultats :
 
 |                      | B garde le silence | B avoue |
 |-----------|----------|-----|
-| **A garde le silence** | A : 1 an, B : 1 an | A : 5 ans, B : 0 an |
-| **A avoue**            | A : 0 an, B : 5 ans | A : 3 ans, B : 3 ans |
+| **A garde le silence** | A : 1 an, B : 1 an | A : 5 ans, B : 0 an |
+| **A avoue**            | A : 0 an, B : 5 ans | A : 3 ans, B : 3 ans |
 
 Imaginons que `A` réfléchisse :
 
@@ -32,7 +32,7 @@ Mais :
 
 `B` fait exactement le même raisonnement.
 
-Résultat : 
+Résultat : 
 
 * **Les deux avouent et reçoivent 3 ans chacun.**
 * Pourtant, ils auraient été **mieux tous les deux en gardant le silence**, puisqu’ils auraient reçu seulement 1 an chacun.

@@ -1,4 +1,4 @@
-# Pixels : FastLED
+# Pixels : FastLED
 
 Les bibliothèques pour bandes de pixels prennent généralement en charge plusieurs modèles de pixels. Il est donc important de sélectionner le bon modèle dans le code afin d’assurer une communication correcte avec le matériel.
 

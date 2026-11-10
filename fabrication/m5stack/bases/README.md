@@ -1,4 +1,4 @@
-# M5Stack : Bases
+# M5Stack : Bases
 
 *Bases* M5Stack testées :
 

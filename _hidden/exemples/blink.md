@@ -1,4 +1,4 @@
-# Tutoriel: le code test «Blink»
+# Tutoriel: le code test «Blink»
 
 ## Préalable(s)
 

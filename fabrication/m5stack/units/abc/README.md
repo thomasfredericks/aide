@@ -1,6 +1,6 @@
 # Atomic Port ABC Base
 
-- Documentation officielle : [Atomic Port ABC Base](https://docs.m5stack.com/en/atom/Atomic_Port_ABC_Base)
+- Documentation officielle : [Atomic Port ABC Base](https://docs.m5stack.com/en/atom/Atomic_Port_ABC_Base)
 
 ![Photo du Atomic Port ABC Base](./photo.webp)
 

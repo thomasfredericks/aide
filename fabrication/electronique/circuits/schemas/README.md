@@ -55,7 +55,7 @@ Les «nets» reçoivent généralement un nom qui indique spécifiquement le but
 
 Les nœuds de tension sont des «nets» qui indiquent un niveau de tension spécifique. Tous les terminaux connectés à un nœud de tension portant le même nom sont connectés ensemble.
 
-![Trois nœuds de connexion d’alimentation : GND, 3.3V et 5V (JIMBLOM, s. d.)](./nodes_alimentation.png)
+![Trois nœuds de connexion d’alimentation : GND, 3.3V et 5V (JIMBLOM, s. d.)](./nodes_alimentation.png)
 
 
 ## Références et sources des images

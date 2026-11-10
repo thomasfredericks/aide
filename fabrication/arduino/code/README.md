@@ -65,11 +65,15 @@ La fonction `millis()` permet de connaître le nombre de millisecondes écoulée
 |--|--|
 | `millis()` | Retourne le nombre de millisecondes écoulées depuis le démarrage |
 
-Documentation supplémentaire : [millis()](./millis/)
+Documentation supplémentaire : [millis()](./millis/)
 
 ## `Serial`
 
-La classe `Serial` permet de communiquer avec l’ordinateur ou un autre appareil par une liaison série. Consulter la documentation à la page qui y est dédiée  : [serial()](./serial/)
+La classe `Serial` permet de communiquer avec l’ordinateur ou un autre appareil par une liaison série. Consulter la documentation à la page qui y est dédiée : [serial](./serial/)
+
+## `Wire`
+
+`Wire` aussi appelé **I2C** est un protocole de communication **synchrone série** permettant de faire dialoguer plusieurs périphériques avec le microcontrôleur via seulement **deux fils**. Consulter la documentation à la page qui y est dédiée : [wire](./wire/)
 
 ## `random()`
 
@@ -80,7 +84,7 @@ La fonction `random()` permet de générer un nombre pseudo-aléatoire :
 | `random(MAXIMUM)` | Génère un nombre compris entre `0` et `MAXIMUM - 1` |
 | `random(MINIMUM, MAXIMUM)` | Génère un nombre compris entre `MINIMUM` et `MAXIMUM - 1` |
 
-Documentation supplémentaire : [random()](./random/)
+Documentation supplémentaire : [random()](./random/)
 
 ## `map()`
 

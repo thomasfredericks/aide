@@ -1,4 +1,4 @@
-# Pd : Lecture de fichiers audio avec Pdchoco
+# Pd : Lecture de fichiers audio avec Pdchoco
 
 Ce patch Pure Data fonctionne comme un mini-lecteur et mixeur d’échantillons sonores. Il utilise [pdchoco](../../pdchoco/).
 
@@ -10,7 +10,7 @@ Pour éviter les conflits lorsque plusieurs fenêtres ou patchs similaires sont 
 
 ## Initialisation et chargement des sons
 
-Dès l’ouverture du fichier, des objets `loadbang` déclenchent indépendamment le chargement des fichiers audio dans leurs abstractions de stockage respectives grâce à la commande `read` : le fichier `clap.wav` est chargé dans l’espace `$0-clap`, et le fichier `break.wav` est chargé dans l’espace `$0-break`.
+Dès l’ouverture du fichier, des objets `loadbang` déclenchent indépendamment le chargement des fichiers audio dans leurs abstractions de stockage respectives grâce à la commande `read` : le fichier `clap.wav` est chargé dans l’espace `$0-clap`, et le fichier `break.wav` est chargé dans l’espace `$0-break`.
 
 ## Lecture simple et en boucle
 

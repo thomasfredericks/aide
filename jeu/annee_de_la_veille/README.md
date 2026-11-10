@@ -32,7 +32,7 @@ Le jeu nous demandera de nous exprimer au nom de différents résidents de la co
 
 Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 
-À gauche, nous identifions deux sections dans lesquelles nous allons inscrire des listes : « Abondances » et « Pénuries ».
+À gauche, nous identifions deux sections dans lesquelles nous allons inscrire des listes : « Abondances » et « Pénuries ».
 
 À droite de la feuille, nous tirons une grande section « Membres ».
 
@@ -61,9 +61,9 @@ Le jeu débute le lendemain d’un évènement traumatisant pour la communauté 
 
 Nous devons situer la communauté dans le temps et dans l’espace. Cela peut être sur terre à l’âge du cuivre, dans un monde fantastique où nous incarnons des monstres de formes et d’habitudes surprenantes, ou un village dans une contrée perpétuellement enneigée. C’est à nous d’en discuter et de le déterminer (discussion d’une durée maximale de quatre minutes). Ce qui est important est que la communauté n’est pas une colonie, mais une communauté qui habite ces lieux depuis longtemps.
 
-Nous **dessinons** ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
+Nous **dessinons** ensuite, au milieu de la feuille, une structure qui représente cette mise en situation : une taverne, un menhir, une tour, un arbre magique, etc.
 
-Voici des exemples de cartes préremplies : [Charted Areas](https://buriedwithoutceremony.com/wp-content/uploads/2017/01/charted-areas.pdf)
+Voici des exemples de cartes préremplies : [Charted Areas](https://buriedwithoutceremony.com/wp-content/uploads/2017/01/charted-areas.pdf)
 
 > [!NOTE]
 > Imaginer que la communauté complète est composée d’environ 60 à 80 membres.
@@ -100,10 +100,10 @@ Nous **dessinons** ensuite notre contribution sur la carte. Ces croquis doivent 
 
 Un groupe pourrait décider de situer sa partie à l’ombre de la tour d’un magicien et de présenter les membres suivants :
 
-> - Le premier joueur : « Une bande de kobolds, les Eidoo, s’est installée dans les anciennes écuries. »
-> - La joueuse suivante : « Un ogre des collines, Tezog, vit dans la carrière située à une courte distance de la tour. »
-> - Le troisième joueur ajoute : « Un groupe d’esprits des arbres appelés les Feux Follets a creusé plusieurs arbres à la lisière de la clairière pour en faire son nid. »
-> - La dernière joueuse : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
+> - Le premier joueur : « Une bande de kobolds, les Eidoo, s’est installée dans les anciennes écuries. »
+> - La joueuse suivante : « Un ogre des collines, Tezog, vit dans la carrière située à une courte distance de la tour. »
+> - Le troisième joueur ajoute : « Un groupe d’esprits des arbres appelés les Feux Follets a creusé plusieurs arbres à la lisière de la clairière pour en faire son nid. »
+> - La dernière joueuse : « Une sphère de lumière rayonnante s’est installée au rez-de-chaussée de la tour. Elle communique par des émotions, mais les autres monstres l’appellent Sol. »
 > 
 > Au fur et à mesure que des détails sont ajoutés, les joueurs dessinent les lieux de vie sur la carte. Notez les noms, rôles et relations dans la section à droite de la carte.
 
@@ -133,7 +133,7 @@ En début de partie, nous aurons une ressource en abondance et toutes les autres
 Par exemple :
 
 > - Le groupe joue dans un village minier abandonné, niché au cœur d’une forêt dense.
-> - Ils identifient plusieurs ressources : de l’eau courante, des moyens de transport et de la ferraille.
+> - Ils identifient plusieurs ressources : de l’eau courante, des moyens de transport et de la ferraille.
 > - Ils s’accordent tous à dire que la ferraille est de loin l’abondance la plus intéressante ; elle est donc dessinée sur la carte.
 > - Les pénuries d’eau courante et de moyens de transport sont également indiquées sur la carte.
 
@@ -168,8 +168,8 @@ Qu’est-ce qui est une bonne idée :
 - Éviter les clichés
    - Les clichés naissent souvent d’une tentative de résumer une expérience complexe en une phrase facile à digérer.
    - Montrez le détail unique qui rend la scène réelle, plutôt que de recourir à une image toute faite.
-   - Questionner ses automatismes en se demandant : "Est-ce que j’utilise cette métaphore parce qu’elle est vraie, ou juste parce que je l’ai entendue mille fois ?"
-   - Cultiver l’observation directe : L’authenticité vient souvent des petits détails que personne n’a encore remarqués.
+   - Questionner ses automatismes en se demandant : "Est-ce que j’utilise cette métaphore parce qu’elle est vraie, ou juste parce que je l’ai entendue mille fois ?"
+   - Cultiver l’observation directe : L’authenticité vient souvent des petits détails que personne n’a encore remarqués.
    - Accepter l’imperfection et la complexité. Les clichés simplifient excessivement la réalité (le "méchant" est méchant, le "héros" est brave). La vie réelle est nuancée.
 - Se baser sur les relations entre les membres de la communauté
 - S’imaginer être la ou le membre de la communauté
@@ -202,7 +202,7 @@ La fin d’un projet doit être ressentie comme un pas en avant, pas comme un pa
 ### 3.A Découvrir quelque chose de vieux
 
 
-L’une des actions possibles est **Découvrir quelque chose de vieux**. Elle consiste à révéler quelque chose provenant d’avant le début du jeu ou d’il y a très longtemps. Cela peut poser un problème, offrir une opportunité ou un mélange des deux. Dessinez-le sur la carte. Les dessins doivent être petits et simples : plus petits qu’un pouce et réalisés en moins de trente secondes.
+L’une des actions possibles est **Découvrir quelque chose de vieux**. Elle consiste à révéler quelque chose provenant d’avant le début du jeu ou d’il y a très longtemps. Cela peut poser un problème, offrir une opportunité ou un mélange des deux. Dessinez-le sur la carte. Les dessins doivent être petits et simples : plus petits qu’un pouce et réalisés en moins de trente secondes.
 
 Nous pouvons utiliser cette action pour introduire des questions non résolues et des dilemmes, faisant resurgir l’histoire de la communauté. Il peut même s’agir de quelque chose de familier pour les membres de la communauté, mais surprenant pour nous en tant que joueuses et joueurs. Lorsque des membres de la communauté individuels sont introduits par cette action, nous les inscrivons dans la section « Personnages » de la carte.
 
@@ -221,16 +221,16 @@ Nous pouvons utiliser cette action pour introduire des questions non résolues e
 
 Une autre des actions possibles est **S’entendre sur un point**. Elle consiste à ouvrir une discussion en formulant une déclaration sur un problème ou une situation de la communauté. Dans le sens des aiguilles d’une montre, chaque personne a ensuite l’occasion de réagir **une fois**, en exprimant son accord avec la déclaration ou en restant en silence.
 
-S’entendre sur un point ne mène jamais à une décision concrète. Chacun s’exprime (ou se tait), puis la discussion se termine. C’est ainsi que fonctionnent les conversations dans les communautés : beaucoup de choses restent non dites afin de préserver la paix. **Nous sommes encouragés de prendre la parole à travers les membres de la communauté**.
+S’entendre sur un point ne mène jamais à une décision concrète. Chacun s’exprime (ou se tait), puis la discussion se termine. C’est ainsi que fonctionnent les conversations dans les communautés : beaucoup de choses restent non dites afin de préserver la paix. **Nous sommes encouragés de prendre la parole à travers les membres de la communauté**.
 
 Chaque accord doit être lié à une situation présente sur la carte. **Quand une discussion s’achève, marquez la situation concernée d’un petit point**.
 
 
-> **Par exemple :  La communauté doit s’entendre sur la manière de punir la boule de lumière nommée Sol pour ne pas avoir averti la communauté des problèmes à la tour du sorcier.**
-> - La première personne fait parler Eidoo : « Eidoo dit : “Nous devrions punir Sol en l’enfermant dans la tour.” » 
-> - La deuxième personne fait parler Tezog : « Tezog reste silencieux, se gratte l’oreille puis mange ce qu’il en retire, sans intérêt. 
-> - La troisième personne dit de sa propre voix : « Oui ! Sol est dangereux. » 
-> - La quatrième personne exprime le silence de Sol : « Sol rayonne de tristesse, mais reste silencieux. »
+> **Par exemple :  La communauté doit s’entendre sur la manière de punir la boule de lumière nommée Sol pour ne pas avoir averti la communauté des problèmes à la tour du sorcier.**
+> - La première personne fait parler Eidoo : « Eidoo dit : “Nous devrions punir Sol en l’enfermant dans la tour.” » 
+> - La deuxième personne fait parler Tezog : « Tezog reste silencieux, se gratte l’oreille puis mange ce qu’il en retire, sans intérêt. 
+> - La troisième personne dit de sa propre voix : « Oui ! Sol est dangereux. » 
+> - La quatrième personne exprime le silence de Sol : « Sol rayonne de tristesse, mais reste silencieux. »
 
 Il est important de rester concis. Si l’un d’entre nous souhaite en dire davantage sur un sujet, nous pouvons toujours utiliser plus tard une action de type **S’entendre sur un point** à nouveau.
 
@@ -243,7 +243,7 @@ Il est important de rester concis. Si l’un d’entre nous souhaite en dire dav
 
 La dernière action possible est de **Commencer un nouveau projet**. Nous choisissons un problème et déclarons ce que la communauté va faire pour le résoudre ou pour évoluer.
 
-Il n’y a pas de consultation à ce sujet : la communauté se met simplement au travail. **Nous sommes encouragés à indiquer le ou les membres de la communauté impliqués**.
+Il n’y a pas de consultation à ce sujet : la communauté se met simplement au travail. **Nous sommes encouragés à indiquer le ou les membres de la communauté impliqués**.
 
 Nous décidons rapidement ensemble du nombre de semaines nécessaires pour mener le projet à terme (1 au minimum et 6 au maximum).
 
@@ -319,7 +319,7 @@ Lorsque nous jouons, nous ne parlons pas hors de notre tour et nous n’essayons
 
 | # | Option A | ou | Option B |
 |----|-----|--|-----|
-| 1 | Une grande fête empêche de travailler sur les projets. Ne pas réduire les dés de projets cette semaine. | ou | Une ou un membre exige la perfection pour un projet : ajoutez 3 à un dé. |
+| 1 | Une grande fête empêche de travailler sur les projets. Ne pas réduire les dés de projets cette semaine. | ou | Une ou un membre exige la perfection pour un projet : ajoutez 3 à un dé. |
 | 2 | Quelqu’un jure de récupérer ce que les humains ont pris. Qui est-ce ? Lancez un projet pour refléter leurs efforts. | ou | Les vents froids de l’automne chassent vos ennemis. Retirez une force menaçante de la carte et de la région. |
 | 3 | Un groupe d’humains arrive, blessés et effrayés. Ils cherchent refuge et appartenance. Comment sont-ils accueillis ? | ou | Plusieurs petits membres de la communauté reviennent d’une sortie avec des rapports d’humains à proximité. |
 | 4 | Un nouveau personnage naît. Qui sont ses parents ? Quels espoirs représente-t-il pour la communauté ? | ou | Un petit personnage meurt d’une maladie. Qui s’en occupait ? Comment la communauté réagit-elle ? |

@@ -1,4 +1,4 @@
-# extOSC Bind : int traité dans un if
+# extOSC Bind : int traité dans un if
 
 <!-- toc -->
 
@@ -45,7 +45,7 @@ void TraiterMessageAlpha(OSCMessage message)
     int valeur = message.Values[0].IntValue;
 
     // Deboguer
-    // Debug.Log("Reçu : " + message.Address + " " + valeur);
+    // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
     // Traiter la valeur
     if ( valeur == 0 ) {
@@ -62,7 +62,7 @@ void TraiterMessageAlpha(OSCMessage message)
 > Cette méthode doit avoir le **même nom** que celui utilisé dans le *Bind()*
 
 
-## Destination : appel de fonction
+## Destination : appel de fonction
 
 Dans l’extrait de code ci-haut, nous pouvons remplacer `// Si nécéssaire, appeler une fonction ici` par un appel de fonction pour déclencher de quoi dans Unity. Pour ce faire, nous devons :
 

@@ -23,7 +23,7 @@ Le joker est un atout qui peut être joué sur n’importe quelle carte et n’i
 ## Tour de jeu
 *   Un joueur peut poser une carte sur la pile de défausse si elle a :
     *   La même **famille** que la carte du dessus.
-    *   La même **valeur** (ex: deux 7) que la carte du dessus.
+    *   La même **valeur** (ex: deux 7) que la carte du dessus.
 *   Dès qu’un joueur pose une carte légalement, le tour passe au joueur suivant dans le sens du jeu.
 *   Si le joueur ne peut pas jouer une carte, il doit piocher une carte dans la pioche. Cela met fin à son tour. 
     *   Si la carte piochée est jouable immédiatement, elle peut être posée avant que le joueur suivant ne joue.
@@ -34,14 +34,14 @@ Le joker est un atout qui peut être joué sur n’importe quelle carte et n’i
 ## Fin de la ronde
 *   La ronde se termine lorsqu’un joueur n’a plus aucune carte. Ce joueur est déclaré **vainqueur de la ronde**.
 *   **Création de règle :** Le vainqueur invente une nouvelle règle qui sera appliquée dès la ronde suivante.
-    *   La règle ne doit pas cibler un joueur spécifique (ex: « Saute le tour de Paul » est interdit).
+    *   La règle ne doit pas cibler un joueur spécifique (ex: « Saute le tour de Paul » est interdit).
     *   Elle ne peut pas annuler une règle précédente (sauf accord unanime).
-    *   Elle doit suivre le format : **« Si [déclencheur], alors [conséquence] »**.
+    *   Elle doit suivre le format : **« Si [déclencheur], alors [conséquence] »**.
     *   **Veto :** Si tous les joueurs sauf le créateur rejettent la règle, elle est annulée et le créateur doit en proposer une autre.
     *   **Clarification :** Si une règle est floue, n’importe qui peut crier « Timeout ! » pour discuter et clarifier avant de reprendre.
     * Il est possible de s’inspirer d’autres jeux comme *Uno*, mais il est possible aussi d’inviter des nouvelles règles comiques comme :
         *   Si un 10 est joué, le joueur doit lever sa main droite en l’air jusqu’à ce que quelqu’un d’autre joue.
-        *   Si un Valet est joué, le joueur doit faire un bruit animalier spécifique (ex: un miaulement). 
+        *   Si un Valet est joué, le joueur doit faire un bruit animalier spécifique (ex: un miaulement). 
         *   Si un Trèfle est joué, le joueur suivant doit dire un mot commençant par la lettre "T" (ou une autre lettre choisie par le groupe) sous peine de piocher deux cartes.
 
 ## Pénalités

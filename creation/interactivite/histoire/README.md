@@ -106,5 +106,5 @@ Les principes et les algorithmes existaient donc depuis plusieurs décennies, ma
 Étapes suivantes vers les IA génératives contemporaines :
 
 - En 2014, les Generative Adversarial Networks (GAN), en français réseaux antagonistes génératifs. Deux réseaux se confrontent → générateur vs discriminateur.
-- En 2015, diffusion : partir du bruit et apprend à reconstruire progressivement des données, notamment des images.
+- En 2015, diffusion : partir du bruit et apprend à reconstruire progressivement des données, notamment des images.
 - En 2017, les transformers (2017),  excellent pour comprendre et générer des séquences, notamment du texte.

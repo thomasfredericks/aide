@@ -4,7 +4,7 @@ Chat sur ta tête est un jeu basé sur *Cat on Yer Head* qui est un concept orig
 
 Chat sur ta tête est un jeu pour grands groupes. Un chat imaginaire, transmis entre les joueurs, poursuit une souris imaginaire qui doit lui échapper et manger du fromage.
 
-Vidéo : [Cat On Yer Head (with 200 players!) - Shut Up & Sit Down Review - YouTube](https://www.youtube.com/watch?v=nYMNcyM-i3g)
+Vidéo : [Cat On Yer Head (with 200 players!) - Shut Up & Sit Down Review - YouTube](https://www.youtube.com/watch?v=nYMNcyM-i3g)
 
 ## Version simple
 

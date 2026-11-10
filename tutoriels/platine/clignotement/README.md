@@ -1,4 +1,4 @@
-# Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2
+# Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2
 
 <!-- toc -->
 
@@ -24,7 +24,7 @@ Il présente :
 ## Chrono
 
 
-`Chrono` est une bibliothèque pour la gestion du temps. Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). Nous utilisons la version `v1.2.1` qui est la [dernière à être publiée](https://github.com/SofaPirate/Chrono/releases).
+`Chrono` est une bibliothèque pour la gestion du temps. Elle est disponible ici : [https://github.com/SofaPirate/Chrono](https://github.com/SofaPirate/Chrono). Nous utilisons la version `v1.2.1` qui est la [dernière à être publiée](https://github.com/SofaPirate/Chrono/releases).
 
 Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Chrono` :
 ```ini
@@ -51,7 +51,7 @@ Elle donne accès à la classe `Chrono` et à ses méthodes, notamment :
 | `minuterieDel.hasPassed(INTERVALLE)` | Vérifie si une durée INTERVALLE en millisecondes s’est écoulée |
 | `minuterieDel.restart()` | Redémarre la mesure du temps |
 
-En combinant ces méthodes nous pouvons produire un bloc de code qui s’exécute à chaque `INTERVALLE` : 
+En combinant ces méthodes nous pouvons produire un bloc de code qui s’exécute à chaque `INTERVALLE` : 
 
 ```cpp
   if (minuterieDel.hasPassed(INTERVALLE)) // SI LA MINUTERIE A DÉPASSÉE l’INTERVALLE
@@ -61,7 +61,7 @@ En combinant ces méthodes nous pouvons produire un bloc de code qui s’exécut
     }
 ```
 
-La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s’écoule.
+La minuterie fonctionne indépendamment du reste du programme : le processeur peut continuer à exécuter `loop()` pendant que le temps s’écoule.
 
 ### Schéma 
 
@@ -180,7 +180,7 @@ void loop()
 
 ## Bouton et DEL
 
-La bibliothèque `Bounce2` permet de gérer des interrupteurs. Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2). Nous utilisons la version `v2.71` qui est la [dernière à être publiée](https://github.com/thomasfredericks/Bounce2/releases).
+La bibliothèque `Bounce2` permet de gérer des interrupteurs. Elle est disponible ici : [https://github.com/thomasfredericks/Bounce2](https://github.com/thomasfredericks/Bounce2). Nous utilisons la version `v2.71` qui est la [dernière à être publiée](https://github.com/thomasfredericks/Bounce2/releases).
 
 
 Configurer la section `lib_deps` dans `platformio.ini` pour y ajouter `Bounce2` :

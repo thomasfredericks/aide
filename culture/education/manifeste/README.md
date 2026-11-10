@@ -32,7 +32,7 @@ L’école est un lieu d’**apprentissage social** : **coopération**, **resp
 
 #### Google
 
-Le [Projet Aristotle](https://www.leaderfactor.com/learn/project-aristotle-psychological-safety) lancée par Google vers 2012, visait à comprendre pourquoi certaines équipes fonctionnent mieux que d’autres. L’étude a analysé plus de 180 équipes internes, en combinant entretiens, données comportementales et métriques de performance. Le résultat ? La composition des membres importe peu : c’est la nature des interactions au sein de l’équipe qui détermine son efficacité. Google a identifié que le premier prédicteur de réussite d’une équipe est **la sécurité psychologique**. Ce facteur se trouve bien au-dessus de la simple intelligence etdes compétences techniques individuelles ou des dynamiques démographiques.
+Le [Projet Aristotle](https://www.leaderfactor.com/learn/project-aristotle-psychological-safety) lancée par Google vers 2012, visait à comprendre pourquoi certaines équipes fonctionnent mieux que d’autres. L’étude a analysé plus de 180 équipes internes, en combinant entretiens, données comportementales et métriques de performance. Le résultat ? La composition des membres importe peu : c’est la nature des interactions au sein de l’équipe qui détermine son efficacité. Google a identifié que le premier prédicteur de réussite d’une équipe est **la sécurité psychologique**. Ce facteur se trouve bien au-dessus de la simple intelligence etdes compétences techniques individuelles ou des dynamiques démographiques.
 
 **La sécurité psychologique** est la croyance partagée que chaque membre de l’équipe peut :
 - s’exprimer librement,

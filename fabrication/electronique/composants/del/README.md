@@ -9,14 +9,14 @@ Le courant électrique ne peut traverser la diode que dans le sens de l’anode 
 ![Une DEL](./del.svg)
 
 La DEL a deux pôles :
-* Anode : pôle positif.
-* Cathode : pôle négatif.
+* Anode : pôle positif.
+* Cathode : pôle négatif.
 
 ![Anode et cathode d’une DEL ](./del_anode_cathode.svg)
 
 ## Limiter l’intensité du courant
 
-**Attention** : il faut limiter l’intensité du courant qui traverse la DEL. 
+**Attention** : il faut limiter l’intensité du courant qui traverse la DEL. 
 
 Pour une DEL rouge standard :
 * La DEL crée une chute de tension (*voltage drop*) d’environ 2.1 Volts.

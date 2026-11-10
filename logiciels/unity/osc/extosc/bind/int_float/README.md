@@ -1,4 +1,4 @@
-# extOSC Bind : int vers argument float d’une méthode
+# extOSC Bind : int vers argument float d’une méthode
 
 <!-- toc -->
 
@@ -43,7 +43,7 @@ void TraiterMessageBeta(OSCMessage message)
         int valeur = message.Values[0].IntValue;
 
         // Deboguer
-        // Debug.Log("Reçu : " + message.Address + " " + valeur);
+        // Debug.Log("Reçu : " + message.Address + " " + valeur);
 
         // Ajustement de la valeur
         float ajustee = (
@@ -71,7 +71,7 @@ La méthode de traitement utilise 4 propriétés pour ajuster la valeur reçue. 
 > Cette méthode doit avoir le **même nom** que celui utilisé dans le *Bind()*
 > La méthode utilise 4 propriétés qui doivent avoir des noms différents des autres méthodes (i.e. créer 4 propriétés pour chaque méthode créée)
 
-## Destination : méthode avec argument float
+## Destination : méthode avec argument float
 
 Dans l’extrait de code ci-haut, nous devons remplacer `// DESTINATION` par un appel à une méthode. Pour ce faire, nous devons :
 

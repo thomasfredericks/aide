@@ -15,22 +15,22 @@
     /* Remove all default spacing */
     html,
     body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
       /* no scrollbars */
-      width: 100%;
-      height: 100%;
-      background: #000;
+      width: 100%;
+      height: 100%;
+      background: #000;
     }
 
     /* Force the p5 canvas to fill the window */
     canvas {
-      display: block;
+      display: block;
       /* removes inline-block gap */
-      position: fixed;
-      top: 0;
-      left: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
     }
   </style>
 </head>

@@ -13,8 +13,8 @@ Cette classification permet donc de réfléchir à l’interactivité en fonctio
 | **Superposer sur le monde réel**    | AR, projection mapping, fenêtre augmentée                   |
 | **Se voir transformé.e**       | Miroir magique, silhouette interactive, caméra, Kinect                        |
 | **Agir avec son corps (sans objet)**        | Lidar, caméra, Kinect                        |
-| **Agir sur un objet central**          | L’objet est la cible de mon action et l’objet est l’élément principal : objets augmentés, interfaces tangibles                      |
-| **Étendre son corps par un objet**         | L’objet devient le prolongement de mon action : télé-interface (web app), QR/NFC, Wiimote                           |
+| **Agir sur un objet central**          | L’objet est la cible de mon action et l’objet est l’élément principal : objets augmentés, interfaces tangibles                      |
+| **Étendre son corps par un objet**         | L’objet devient le prolongement de mon action : télé-interface (web app), QR/NFC, Wiimote                           |
 | **Agir sur son environnement**       | Mur interactif, sol interactif, installation réactive       |
 | **Collaborer à plusieurs**          | Expérience collective, vote, composition audiovisuelle           |
 | **Laisser une trace**          | Mémoire de l’installation, contenu généré par les visiteurs |

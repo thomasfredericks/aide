@@ -1,6 +1,6 @@
 # Deux systèmes de pensée
 
-La plupart des informations ici sont tirées de cette vidéo : [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains - YouTube](https://www.youtube.com/watch?v=0xS68sl2D70)
+La plupart des informations ici sont tirées de cette vidéo : [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains - YouTube](https://www.youtube.com/watch?v=0xS68sl2D70)
 
 Dans «Thinking, Fast and Slow» de Daniel Kahneman. l’auteur décrit nos deux systèmes de pensée — deux types de processus qui se déroulent en même temps dans notre cerveau.
 - Le processus de pensée rapide : le système 1,
@@ -19,7 +19,7 @@ Le système 2 correspond à la pensée consciente, lente et méthodique, celle q
 Le système 2 traite l’information de façon sérielle. De plus, il est limité à sa capacité de traitement à 7  7 plus ou moins 2 éléments en mémoire.
 
 Le concept du « 7 plus ou moins 2 » fait référence à une théorie en psychologie cognitive selon laquelle une personne peut retenir en moyenne environ sept éléments en mémoire à court terme, avec une plage allant de cinq à neuf éléments.
-Cette idée a été popularisée par George A. Miller dans son article de 1956 intitulé « The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information ».
+Cette idée a été popularisée par George A. Miller dans son article de 1956 intitulé « The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information ».
 
 ## Privilégier le système 1
 

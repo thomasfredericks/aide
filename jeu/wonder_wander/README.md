@@ -23,11 +23,11 @@ Pour jouer à Wonder Wander, vous aurez besoin du matériel suivant :
 
 ## D6
 
-D6 : Lancez un dé à six faces et lisez le résultat.
+D6 : Lancez un dé à six faces et lisez le résultat.
 
 ## D66↗
 
-D66↗ : lancez deux dés à six faces. Lisez toujours le plus petit résultat en premier et le plus grand en second pour former un nombre à deux chiffres.
+D66↗ : lancez deux dés à six faces. Lisez toujours le plus petit résultat en premier et le plus grand en second pour former un nombre à deux chiffres.
 
 Exemples :
 
@@ -48,7 +48,7 @@ Les 21 résultats possibles sont :
 
 ## La carte
 
-Vous serez souvent amené·e à compléter votre carte au cours de la partie, mais la manière précise de le faire n’est pas définie. C’est volontaire. L’art est une forme d’expression personnelle : que vous soyez un·e artiste accompli·e ou un·e amateur·rice de bonhommes bâtons, votre carte sera tout aussi merveilleuse et entièrement vôtre.
+Vous serez souvent amené·e à compléter votre carte au cours de la partie, mais la manière précise de le faire n’est pas définie. C’est volontaire. L’art est une forme d’expression personnelle : que vous soyez un·e artiste accompli·e ou un·e amateur·rice de bonhommes bâtons, votre carte sera tout aussi merveilleuse et entièrement vôtre.
 
 Vous devriez dessiner votre carte au crayon, car vous serez amené·e à effacer et redessiner des éléments au fur et à mesure de vos découvertes. Ci-dessous, vous trouverez quelques exemples de représentation si vous manquez d’inspiration.
 
@@ -138,10 +138,10 @@ Lancez deux fois D66↗ :
 
 Exemple :
 
-> - Premier jet : 6 et 1 → **16** → **MONTAGNE**
-> - Second jet : 5 et 1 → **15** → **CHAUVE**
+> - Premier jet : 6 et 1 → **16** → **MONTAGNE**
+> - Second jet : 5 et 1 → **15** → **CHAUVE**
 >
-> Nom obtenu : **MONTAGNE DÉSOLÉE**
+> Nom obtenu : **MONTAGNE DÉSOLÉE**
 
 
 ## Générer le nom d’un corridor forestier
@@ -181,10 +181,10 @@ Lancez deux fois D66↗ :
 
 Exemple :
 
-> - Premier jet : 6 et 1 → **16** → **MASSIF**
-> - Second jet : 5 et 1 → **15** → **SACRÉE**
+> - Premier jet : 6 et 1 → **16** → **MASSIF**
+> - Second jet : 5 et 1 → **15** → **SACRÉE**
 >
-> Nom obtenu : **MASSIF SACRÉ** (changez l’accord)
+> Nom obtenu : **MASSIF SACRÉ** (changez l’accord)
 
 ## Réduire en ruine
 
@@ -234,11 +234,11 @@ Lancez trois fois D66↗ :
 
 Exemple :
 
-> - Premier jet : 6 et 1 → **16** → **CRÊTE**
-> - Second jet : 5 et 1 → **15** → **ERE**
-> - Troisième jet : 3 et 2 → **23** → **WYN**
+> - Premier jet : 6 et 1 → **16** → **CRÊTE**
+> - Second jet : 5 et 1 → **15** → **ERE**
+> - Troisième jet : 3 et 2 → **23** → **WYN**
 >
-> Nom obtenu : **CRÊTE EREWYN** 
+> Nom obtenu : **CRÊTE EREWYN** 
 
 **Optionnellement**, vous pouvez rouler pour identifier la nation de cette communauté et ajuster la marque de la communauté :
 
@@ -267,7 +267,7 @@ Si le lieu visité est un lieu particulier (?), consultez le tableau suivant.
 | 23 | Dessiner une épave à proximité de la côte |
 | 24 | Une lente procession de personnes transportant quelque chose de gigantesque. Dessinez ce qu’ils transportent ou trainent.|
 | 25 | Des collines verdoyantes s’étendent jusqu’à l’horizon |
-| 26 | Une modeste ferme entourée de champs cultivés. Dessinez la ferme. Les habitants vous parlent d’un lieu : roulez 1 dé de plus sur la carte seulement au prochain tour |
+| 26 | Une modeste ferme entourée de champs cultivés. Dessinez la ferme. Les habitants vous parlent d’un lieu : roulez 1 dé de plus sur la carte seulement au prochain tour |
 | 33 | Un volcan entre en éruption. Dessinez le volcan. Les cendres emportées par le vent réduisent à la ruine la communauté la plus proche |
 | 34 | Une auberge au bord de la route accueillant des voyageurs fatigués. Lancez 1 dé de plus au prochain tour |
 | 35 | Une tente spectaculaire remplie de toutes sortes d’artistes. Dessinez la tente et la compétence qu’ils vous enseignent pendant votre séjour.|

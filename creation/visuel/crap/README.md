@@ -1,4 +1,4 @@
-# CRAP : quatre (4) principes de design 
+# CRAP : quatre (4) principes de design 
 <!-- toc -->
 
 Les principes **CRAP** (contraste, répétition, alignement et proximité), théorisés par Robin Williams, forment la base du design graphique et de la mise en page pour les non-designers. Ils permettent de structurer l’information de manière claire, esthétique et professionnelle.
@@ -10,7 +10,7 @@ Les principes **CRAP** (contraste, répétition, alignement et proximité), thé
 
 ![](./crap.png)
 
-## Gestalt : Psychologie de la forme 
+## Gestalt : Psychologie de la forme 
 
 Les principes CRAP prennent racines dans le concept de la psychologie de la forme (Gestalt) qui s’applique à toutes les disciplines de la création : design, musique, cinéma, son, etc. 
 
@@ -22,14 +22,14 @@ Lorsque des éléments sont alignés ou organisés de manière symétrique, le c
 ![Composition avec des lois de la Gestalt (Théorie et design dans l’Âge de la Nouvelle Objectivité, 2011). Par Akermariano — Travail personnel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=27561766](./Gestalt_Principles_Composition.jpg)
 
 
-## C : Contraste
+## C : Contraste
 
 Le contraste consiste à rendre les éléments différents visuellement pour attirer l’attention et organiser la lecture.
 
 * **Règle d’or :** Si deux éléments ne sont pas identiques, rendez-les **très différents**. Un contraste trop faible ressemble à une erreur.
 * **Comment l’appliquer :**
-  * Utiliser des polices de caractères de tailles et de poids très différents (ex: un titre très gras et un texte fin).
-  * Combiner des couleurs opposées (ex: texte noir sur fond blanc, ou un bouton d’action orange vif sur un fond bleu marine).
+  * Utiliser des polices de caractères de tailles et de poids très différents (ex: un titre très gras et un texte fin).
+  * Combiner des couleurs opposées (ex: texte noir sur fond blanc, ou un bouton d’action orange vif sur un fond bleu marine).
   * Varier les formes (cercles vs carrés) ou l’espace (grand vs petit).
 
 ### La distinction figure vs fond  
@@ -61,17 +61,17 @@ Exemples : 
 - Le bruit ambiant. 
 - Les réverbérations d’un espace. 
 
-## R : Répétition
+## R : Répétition
 
 La répétition crée de la cohérence et de l’unité visuelle à travers tout votre document ou interface.
 
 * **Règle d’or :** Répétez certains aspects du design tout au long de votre projet pour lier les éléments entre eux.
 * **Comment l’appliquer :**
-  * Limiter votre palette à 2 ou 3 couleurs et les réutiliser systématiquement pour les mêmes fonctions (ex: tous les liens de la même couleur).
+  * Limiter votre palette à 2 ou 3 couleurs et les réutiliser systématiquement pour les mêmes fonctions (ex: tous les liens de la même couleur).
   * Conserver le même style d’icônes ou d’illustrations sur toutes les pages.
   * Utiliser la même police et la même taille pour tous les titres de même niveau.
 
-## A : Alignement
+## A : Alignement
 
 L’alignement nettoie le design et crée un ordre visuel. Rien ne doit être placé au hasard sur une page.
 
@@ -79,9 +79,9 @@ L’alignement nettoie le design et crée un ordre visuel. Rien ne doit être pl
 * **Comment l’appliquer :**
   * Aligner les textes et les images sur des lignes invisibles (grilles de mise en page).
   * Privilégier un alignement à gauche pour les longs blocs de texte (plus facile à lire).
-  * Éviter de mélanger plusieurs types d’alignement (ex: un titre centré suivi d’un texte aligné à droite) sur une même zone.
+  * Éviter de mélanger plusieurs types d’alignement (ex: un titre centré suivi d’un texte aligné à droite) sur une même zone.
 
-## P : Proximité
+## P : Proximité
 
 La proximité permet d’organiser l’information en regroupant les éléments qui ont un rapport entre eux.
 

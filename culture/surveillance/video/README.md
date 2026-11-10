@@ -7,7 +7,7 @@
 ### Le problème avec la normalisation de la surveillance volontaire
 
 - [It"s Time to Take Down your Smart Cameras 😬 - YouTube](https://www.youtube.com/watch?app=desktop&v=UMIwNiwQewQ&ra=m)
-- [Squeeveillance: Performing Cuteness to Normalise Surveillance Power | Surveillance & Society](https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/16673)
+- [Squeeveillance: Performing Cuteness to Normalise Surveillance Power | Surveillance & Society](https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/16673)
 - [Normalizing surveillance in daily life · Global Voices](https://globalvoices.org/2025/09/15/normalizing-surveillance-in-daily-life/)
 
 ## Surveillance involontaire

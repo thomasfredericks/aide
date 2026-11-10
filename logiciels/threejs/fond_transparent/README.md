@@ -2,7 +2,7 @@
 
 La transparence est obtenue grâce à deux réglages clés :
 ```cpp
-const renderer = new THREE.WebGLRenderer({ alpha: true });
+const renderer = new THREE.WebGLRenderer({ alpha: true });
 renderer.setClearColor(0x000000, 0);
 ```
 

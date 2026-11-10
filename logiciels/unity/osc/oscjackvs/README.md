@@ -11,9 +11,9 @@ Intégration de l’OSC UDP dans Unity avec **oscjackvs**.
 Nous utilisons [OSCJackVS](https://github.com/keijiro/OscJackVS) de Keijiro pour traiter les messages OSC UDP dans Unity.
 
 Voici l’information à inscrire dans les paramètres du gestionnaire de paquets (voir figure ci-bas) :
-* Name: `Keijiro`
-* URL: `https://registry.npmjs.com`
-* Scope: `jp.keijiro`
+* Name: `Keijiro`
+* URL: `https://registry.npmjs.com`
+* Scope: `jp.keijiro`
 
 
 ![Ajoutez le régistre de paquets de Keijiro](./Diapositive1.SVG)

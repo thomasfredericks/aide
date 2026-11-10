@@ -62,6 +62,6 @@ Optionnellement, afficher l’information de connexion :
 ```cpp
   Serial.begin(115200);
   Serial.println();
-  Serial.print("myLocalIp: ");
+  Serial.print("myLocalIp: ");
   Serial.println(Ethernet.localIP());
 ```

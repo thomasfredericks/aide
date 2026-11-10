@@ -1,7 +1,7 @@
-# Autorat : droit d’auteur
+# Autorat : droit d’auteur
 
 Le droit d’auteur au Québec est une compétence fédérale, donc déterminé par le droit canadien.
-: [Version complète de la Loi sur le droit d’auteur](https://lois.justice.gc.ca/fra/lois/C-42/?wbdisable=tru)
+: [Version complète de la Loi sur le droit d’auteur](https://lois.justice.gc.ca/fra/lois/C-42/?wbdisable=tru)
 
 ## Montage vidéo réalisé à partir d’images trouvées sur Internet 
 

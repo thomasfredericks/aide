@@ -5,7 +5,7 @@
     "readme": false,
     "children": [
       {
-        "title": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
+        "title": "Collège Montmorency : Bibliographie sélective de la bibliothèque",
         "path": "bibliotheque",
         "readme": true,
         "children": []
@@ -18,18 +18,18 @@
     "readme": false,
     "children": [
       {
-        "title": "COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA",
+        "title": "COURS : 582-501 CONCEPTION D’UNE EXPÉRIENCE MULTIMÉDIA",
         "path": "582-531_conception_experience",
         "readme": true,
         "children": [
           {
-            "title": "582-531 : Infrastructure logicielle et matérielle",
+            "title": "582-531 : Infrastructure logicielle et matérielle",
             "path": "infrastructure",
             "readme": true,
             "children": []
           },
           {
-            "title": "582-531 : Inspirations",
+            "title": "582-531 : Inspirations",
             "path": "inspirations",
             "readme": true,
             "children": []
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "title": "COURS : 582-531 OBJETS INTERACTIFS",
+        "title": "COURS : 582-531 OBJETS INTERACTIFS",
         "path": "585-531_objets_interactifs",
         "readme": true,
         "children": []
@@ -135,37 +135,37 @@
             "readme": false,
             "children": [
               {
-                "title": "Atelier : affordance en 1 minute",
+                "title": "Atelier : affordance en 1 minute",
                 "path": "affordance",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Atelier : Effondrement par contrainte",
+                "title": "Atelier : Effondrement par contrainte",
                 "path": "contrainte",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Atelier : Modification d’une règle",
+                "title": "Atelier : Modification d’une règle",
                 "path": "modification",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Atelier : Simulation d’un jeu",
+                "title": "Atelier : Simulation d’un jeu",
                 "path": "simulation",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Atelier : Règle supprimée",
+                "title": "Atelier : Règle supprimée",
                 "path": "suppression",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Atelier : Synchroniser sans communication",
+                "title": "Atelier : Synchroniser sans communication",
                 "path": "synchronisation",
                 "readme": true,
                 "children": []
@@ -308,7 +308,7 @@
             ]
           },
           {
-            "title": "CRAP : quatre (4) principes de design",
+            "title": "CRAP : quatre (4) principes de design",
             "path": "crap",
             "readme": true,
             "children": []
@@ -319,7 +319,7 @@
             "readme": true,
             "children": [
               {
-                "title": "Exemple : Guide de normes graphiques pour cartes",
+                "title": "Exemple : Guide de normes graphiques pour cartes",
                 "path": "cartes",
                 "readme": true,
                 "children": []
@@ -332,37 +332,37 @@
             "readme": false,
             "children": [
               {
-                "title": "IU : Couleur",
+                "title": "IU : Couleur",
                 "path": "couleur",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "IU : Espacer les éléments",
+                "title": "IU : Espacer les éléments",
                 "path": "espace",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "IU : Hiérarchie visuelle",
+                "title": "IU : Hiérarchie visuelle",
                 "path": "hierarchie",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "IU : Rétroaction (feedback)",
+                "title": "IU : Rétroaction (feedback)",
                 "path": "retroaction",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "IU : Signifiants de l’interface utilisateur",
+                "title": "IU : Signifiants de l’interface utilisateur",
                 "path": "signifiants",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "IU : Typographie",
+                "title": "IU : Typographie",
                 "path": "typographie",
                 "readme": true,
                 "children": []
@@ -391,7 +391,7 @@
         "children": []
       },
       {
-        "title": "Autorat : droit d’auteur",
+        "title": "Autorat : droit d’auteur",
         "path": "autorat",
         "readme": true,
         "children": []
@@ -441,7 +441,7 @@
         ]
       },
       {
-        "title": "Manipulation : Dark Patterns",
+        "title": "Manipulation : Dark Patterns",
         "path": "manipulations",
         "readme": true,
         "children": []
@@ -570,8 +570,14 @@
                 "children": []
               },
               {
-                "title": "Arduino Serial : communication sérielle",
+                "title": "Arduino Serial : communication sérielle",
                 "path": "serial",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Arduino Wire / I2C",
+                "path": "wire",
                 "readme": true,
                 "children": []
               }
@@ -595,7 +601,7 @@
             "readme": true,
             "children": [
               {
-                "title": "MicroOsc : réception d’OSC",
+                "title": "MicroOsc : réception d’OSC",
                 "path": "reception",
                 "readme": true,
                 "children": []
@@ -665,7 +671,7 @@
                 "children": []
               },
               {
-                "title": "Arduino Terminals : connecteur Grove pour I2C/Wire",
+                "title": "Arduino Terminals : connecteur Grove pour I2C/Wire",
                 "path": "grove",
                 "readme": true,
                 "children": []
@@ -791,7 +797,7 @@
                 "children": []
               },
               {
-                "title": "Composant : résistance",
+                "title": "Composant : résistance",
                 "path": "resistance",
                 "readme": true,
                 "children": []
@@ -805,7 +811,7 @@
             "children": []
           },
           {
-            "title": "Erreur fatale : court circuit",
+            "title": "Erreur fatale : court circuit",
             "path": "fatalites",
             "readme": true,
             "children": []
@@ -989,7 +995,7 @@
             ]
           },
           {
-            "title": "M5Stack : Bases",
+            "title": "M5Stack : Bases",
             "path": "bases",
             "readme": true,
             "children": [
@@ -1002,7 +1008,7 @@
             ]
           },
           {
-            "title": "M5Stack : Units",
+            "title": "M5Stack : Units",
             "path": "units",
             "readme": true,
             "children": [
@@ -1051,13 +1057,13 @@
                 "children": []
               },
               {
-                "title": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
+                "title": "M5Stack Unit Encoder : Encodeur (capteur) de rotation",
                 "path": "encoder",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "M5Stack Fader Unit",
+                "title": "M5Stack Unit Fader : Glissière",
                 "path": "fader",
                 "readme": true,
                 "children": []
@@ -1120,13 +1126,13 @@
             "children": []
           },
           {
-            "title": "Pixels : FastLED",
+            "title": "Pixels : FastLED",
             "path": "fastled",
             "readme": true,
             "children": []
           },
           {
-            "title": "Pixels : NeoPixel",
+            "title": "Pixels : NeoPixel",
             "path": "neopixel",
             "readme": true,
             "children": []
@@ -1261,7 +1267,7 @@
         "children": []
       },
       {
-        "title": "Manette de projecteurs : gd-pjlink",
+        "title": "Manette de projecteurs : gd-pjlink",
         "path": "gd-pjlink",
         "readme": true,
         "children": []
@@ -1367,7 +1373,7 @@
         "readme": false,
         "children": [
           {
-            "title": "OSC SLIP : Node.js",
+            "title": "OSC SLIP : Node.js",
             "path": "osc",
             "readme": true,
             "children": []
@@ -1398,7 +1404,7 @@
             "children": []
           },
           {
-            "title": "OBS Studio: Télécommande et inspecteur",
+            "title": "OBS Studio: Télécommande et inspecteur",
             "path": "telecommande",
             "readme": true,
             "children": []
@@ -1441,13 +1447,13 @@
             "readme": false,
             "children": [
               {
-                "title": "Pd : Activation de l’audio",
+                "title": "Pd : Activation de l’audio",
                 "path": "activation",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Pd : Lecture de fichiers audio avec Pdchoco",
+                "title": "Pd : Lecture de fichiers audio avec Pdchoco",
                 "path": "fichiers",
                 "readme": true,
                 "children": []
@@ -1478,13 +1484,13 @@
                 "children": []
               },
               {
-                "title": "Pd : OSC SLIP",
+                "title": "Pd : OSC SLIP",
                 "path": "slip",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Pd : OSC UDP",
+                "title": "Pd : OSC UDP",
                 "path": "udp",
                 "readme": true,
                 "children": []
@@ -1503,13 +1509,13 @@
             "readme": true,
             "children": [
               {
-                "title": "Pd : ASCII sérielle",
+                "title": "Pd : ASCII sérielle",
                 "path": "ascii",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Pd : comport",
+                "title": "Pd : comport",
                 "path": "comport",
                 "readme": true,
                 "children": []
@@ -1907,16 +1913,16 @@
       {
         "title": "Unity",
         "path": "unity",
-        "readme": false,
+        "readme": true,
         "children": [
           {
-            "title": "Colliders dans Unity",
+            "title": "Unity : Colliders",
             "path": "colliders",
             "readme": true,
             "children": []
           },
           {
-            "title": "Unity : configuration",
+            "title": "Unity : Configuration",
             "path": "configuration",
             "readme": true,
             "children": []
@@ -1934,9 +1940,9 @@
             "children": []
           },
           {
-            "title": "Osc",
+            "title": "Unity : OSC",
             "path": "osc",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Unity : OSC UDP avec extOSC",
@@ -1949,13 +1955,13 @@
                     "readme": false,
                     "children": [
                       {
-                        "title": "extOSC Bind : int vers argument float d’une méthode",
+                        "title": "extOSC Bind : int vers argument float d’une méthode",
                         "path": "int_float",
                         "readme": true,
                         "children": []
                       },
                       {
-                        "title": "extOSC Bind : int traité dans un if",
+                        "title": "extOSC Bind : int traité dans un if",
                         "path": "int_if",
                         "readme": true,
                         "children": []
@@ -1969,7 +1975,7 @@
                     "children": []
                   },
                   {
-                    "title": "extOsc : initialisation",
+                    "title": "extOsc : initialisation",
                     "path": "initialisation",
                     "readme": true,
                     "children": []
@@ -1985,7 +1991,7 @@
             ]
           },
           {
-            "title": "Spout dans Unity",
+            "title": "Unity : Spout",
             "path": "spout",
             "readme": true,
             "children": []
@@ -1996,13 +2002,13 @@
             "readme": true,
             "children": [
               {
-                "title": "Unity : changement",
+                "title": "Unity : Traitement d’un changement",
                 "path": "changement",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Unity : Proportion",
+                "title": "Unity : Traitement proportionnel",
                 "path": "proportion",
                 "readme": true,
                 "children": []
@@ -2017,7 +2023,7 @@
         "readme": false,
         "children": [
           {
-            "title": "VCV Rack : OSC UDP",
+            "title": "VCV Rack : OSC UDP",
             "path": "osc",
             "readme": true,
             "children": []
@@ -2107,37 +2113,37 @@
         "readme": false,
         "children": [
           {
-            "title": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
+            "title": "Tutoriel astéroïde : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec DEL et photorésistance",
             "path": "asteroid",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
+            "title": "Tutoriel Flappy Bird : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade",
             "path": "flappy",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
+            "title": "Tutoriel MicoOsc audio : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade pour déclencher de l’audio dans Pd",
             "path": "pd",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
+            "title": "Tutoriel Pong : Unity, Pd, OSC et Arduino Nano avec bouton d’arcade et potentiomètre",
             "path": "pong",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
+            "title": "Tutoriel relais MicroOsc : Envoi d’OSC SLIP d’un Arduino Nano avec un bouton d’arcade vers OSC UDP",
             "path": "relais",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre",
+            "title": "Tutoriel «Unlock» : OSC bidirectionnel entre Unity, Pd et Arduino Nano avec bouton d’arcade et potentiomètre",
             "path": "unlock",
             "readme": true,
             "children": []
@@ -2169,13 +2175,13 @@
         "readme": false,
         "children": [
           {
-            "title": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
+            "title": "Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd",
             "path": "audio",
             "readme": true,
             "children": []
           },
           {
-            "title": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
+            "title": "Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2",
             "path": "clignotement",
             "readme": true,
             "children": []

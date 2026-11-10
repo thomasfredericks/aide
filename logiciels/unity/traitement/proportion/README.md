@@ -1,4 +1,4 @@
-# Unity : Proportion
+# Unity : Traitement proportionnel
 
 ## Introduction
 
