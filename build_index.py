@@ -1,6 +1,6 @@
 from pathlib import Path
 
-BASE_DIR = Path(".").resolve()
+BASE_DIR = Path("./docs").resolve()
 
 def is_ignored(path: Path) -> bool:
     """Checks if any part of the path starts with '_' or '.'."""

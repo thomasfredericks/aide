@@ -2,7 +2,7 @@ import re
 import os
 from pathlib import Path
 
-BASE_DIR = Path(".").resolve()
+BASE_DIR = Path("./docs").resolve()
 
 # Capturer tous les liens (relatifs ou absolus) qui ne sont pas des URLs externes (http)
 link_pattern = re.compile(r'\[.*?\]\((?!http|https|mailto|tel)([^)]+)\)')

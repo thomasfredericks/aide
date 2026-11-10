@@ -330,9 +330,9 @@ Activités en classe :
 
 Activités en classe :
 
-- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
+- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode coordonnateur Wire/I2C.
-- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
+- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode direct.
 
 

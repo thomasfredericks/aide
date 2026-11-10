@@ -4,7 +4,7 @@ import json
 import unicodedata
 from urllib.parse import quote
 
-DOCS_DIR = './'
+DOCS_DIR = './docs/'
 OUTPUT_JSON_FILE = os.path.join(DOCS_DIR, 'search_index.json')
 ALIASES_FILE = os.path.join(DOCS_DIR, 'aliases.json')
 SKIP_WORDS_FILE = os.path.join(DOCS_DIR, 'skip_words.json')

@@ -22,6 +22,7 @@ import argparse
 from pathlib import Path
 from typing import Optional
 
+BASE_DIR = './docs/'
 
 def prettify(name: str) -> str:
     """Turn 'conception-sonore' / 'conception_sonore' into 'Conception Sonore'."""
@@ -102,7 +103,7 @@ def find_trail(tree: list, target: str) -> Optional[list]:
 
 
 def main():
-    default_root = "docs" if os.path.isdir("docs") else "."
+    default_root = BASE_DIR
 
     parser = argparse.ArgumentParser(
         description="Generate a nested sitemap.json for a docsify site"
@@ -112,7 +113,7 @@ def main():
         help=f"Root directory of the docsify site (default: {default_root})"
     )
     parser.add_argument(
-        "-o", "--output", default="sitemap.json",
+        "-o", "--output", default=default_root + "sitemap.json",
         help="Output filename (default: sitemap.json)"
     )
     args = parser.parse_args()

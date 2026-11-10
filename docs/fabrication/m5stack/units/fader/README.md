@@ -153,11 +153,11 @@ La couleur de chaque pixel est déterminée avec des valeurs de rouge, vert et b
 
 Pour changer les couleurs des pixels :
 
-- Assigner une couleur à un index du tableau `faderTableauPixels`. Par exemple pour changer le troisième (3ᵉ pixel = index #2) pixel au mauve : `faderTableauPixels[2] = CRGB(255,0,255);`
-- Répéter l'opération précédente pour d'autres pixels.
+- Assigner une couleur à un index du tableau `faderTableauPixels`. Par exemple pour changer le troisième (3ᵉ pixel = index #2) pixel au mauve : `faderTableauPixels[2] = CRGB(255,0,255);`
+- Répéter l’opération précédente pour d’autres pixels.
 - Appeler `FastLED.show()` pour transférer les valeurs du tableau.
 
-Par exemple, pour assigner la même couleur à tous les pixels : 
+Par exemple, pour assigner la même couleur à tous les pixels : 
 ```cpp
   // ...
   for (int i =0; i < FADER_PIXELS_COUNT; i++) {
@@ -167,9 +167,9 @@ Par exemple, pour assigner la même couleur à tous les pixels :
   FastLED.show()
 ```
 
-#### Utilisation d'une palette
+#### Utilisation d’une palette
 
-Il est possible de définir une palette à partir d'un gradient dans l'espace global :
+Il est possible de définir une palette à partir d’un gradient dans l’espace global :
 ```cpp
 DEFINE_GRADIENT_PALETTE( gradient ) {
     0,    0,  10,  40,   // deep blue
@@ -208,7 +208,7 @@ DEFINE_GRADIENT_PALETTE( gradient ) {
   190,  120, 200, 255,   // light cyan-blue
   255,   30,  20, 120    // back to deep blue-violet
 };
-CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
+CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 // ...
 
 void setup() {

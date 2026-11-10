@@ -4,7 +4,7 @@ import json
 # ============================================================
 # CONFIGURATION - Same settings as build_search.py
 # ============================================================
-DOCS_DIR = './'
+DOCS_DIR = './docs/'
 EXCLUDED_DIRS = ['_', '.', 'node_modules', '.git']
 FILE_EXTENSIONS = ['.md']
 
