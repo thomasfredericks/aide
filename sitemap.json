@@ -576,6 +576,25 @@
                 "children": []
               },
               {
+                "title": "Arduino : Traitement",
+                "path": "traitement",
+                "readme": true,
+                "children": [
+                  {
+                    "title": "Arduino : traiter le changement",
+                    "path": "changement",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
+                    "title": "Arduino : traitement en flux continu",
+                    "path": "flux",
+                    "readme": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
                 "title": "Arduino Wire / I2C",
                 "path": "wire",
                 "readme": true,
@@ -619,12 +638,6 @@
                 "children": []
               }
             ]
-          },
-          {
-            "title": "MicroRemoteWire",
-            "path": "microremotewire",
-            "readme": true,
-            "children": []
           },
           {
             "title": "Carte Arduino Nano",
@@ -679,25 +692,6 @@
               {
                 "title": "Arduino Terminals : Potentiomètre",
                 "path": "potentiometre",
-                "readme": true,
-                "children": []
-              }
-            ]
-          },
-          {
-            "title": "Arduino : Traitement",
-            "path": "traitement",
-            "readme": true,
-            "children": [
-              {
-                "title": "Arduino : traiter le changement",
-                "path": "changement",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "Arduino : traitement en flux continu",
-                "path": "flux",
                 "readme": true,
                 "children": []
               }

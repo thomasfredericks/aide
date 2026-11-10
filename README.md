@@ -4,7 +4,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
 
 ![](./cover.png)
 
-## Table des matières 
 <!-- INDEX START -->
 * Cmontmorency
   * [Collège Montmorency : Bibliographie sélective de la bibliothèque](/cmontmorency/bibliotheque/)
@@ -99,6 +98,9 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
           * [millis() : Ralentir *loop()* sans *delay()*](/fabrication/arduino/code/millis/remplacer_delay/ralentir/)
       * [Générer un nombre aléatoire](/fabrication/arduino/code/random/)
       * [Arduino Serial : communication sérielle](/fabrication/arduino/code/serial/)
+      * [Arduino : Traitement](/fabrication/arduino/code/traitement/)
+        * [Arduino : traiter le changement](/fabrication/arduino/code/traitement/changement/)
+        * [Arduino : traitement en flux continu](/fabrication/arduino/code/traitement/flux/)
       * [Arduino Wire / I2C](/fabrication/arduino/code/wire/)
     * [Installer Arduino IDE](/fabrication/arduino/ide/)
     * [MicroNet](/fabrication/arduino/micronet/)
@@ -106,7 +108,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [MicroOsc : réception d’OSC](/fabrication/arduino/microosc/reception/)
       * [MicroOsc SLIP](/fabrication/arduino/microosc/slip/)
       * [MicroOscUDP](/fabrication/arduino/microosc/udp/)
-    * [MicroRemoteWire](/fabrication/arduino/microremotewire/)
     * [Carte Arduino Nano](/fabrication/arduino/nano/)
       * [Arduino Nano ATmega168 et ATmega32](/fabrication/arduino/nano/atmega/)
         * [Configuration Arduino Nano ATmega168/ATmega328 pour PlatformIO](/fabrication/arduino/nano/atmega/plaftformio/)
@@ -116,9 +117,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Arduino Terminals : Bouton d’arcade](/fabrication/arduino/terminals/bouton_arcade/)
       * [Arduino Terminals : connecteur Grove pour I2C/Wire](/fabrication/arduino/terminals/grove/)
       * [Arduino Terminals : Potentiomètre](/fabrication/arduino/terminals/potentiometre/)
-    * [Arduino : Traitement](/fabrication/arduino/traitement/)
-      * [Arduino : traiter le changement](/fabrication/arduino/traitement/changement/)
-      * [Arduino : traitement en flux continu](/fabrication/arduino/traitement/flux/)
   * Cpp
     * [Le code C++ (cpp)](/fabrication/cpp/code/)
     * [Arduino : Guide de style](/fabrication/cpp/style/)

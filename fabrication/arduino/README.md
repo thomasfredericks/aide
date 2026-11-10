@@ -1,11 +1,20 @@
 # Arduino
 
-Le nom Arduino peut faire référence à plusieurs choses :
+Le nom *Arduino* peut faire référence à plusieurs choses :
 
-- Le langage de programmation *Arduino* : [Code Arduino](./code/).
-- Le logiciel de développement *Arduino IDE* : [docs.arduino.cc/software/ide](https://docs.arduino.cc/software/ide/).
 - L’organisme *Arduino* qui maintient le code à jour : [arduino.cc](https://www.arduino.cc/)
-- Une carte *Arduino* : un petit circuit électronique programmable (pas nécessairement fabriqué par l’organisme Arduino).
+- Le langage de programmation *Arduino* : [Code Arduino](./code/).
+- Le logiciel de développement *Arduino IDE* : [IDE Arduino](./ide/).
+- Une carte *Arduino* : un petit circuit électronique programmable (pas nécessairement fabriqué par l’organisme Arduino) dont la carte [Arduino Nano](./nano/).
+
+Bibliothèques :
+- [Bounce2](./bounce2/)
+- [Chrono](./chrono/)
+- [MicroOsc](./microosc/)
+- [MicroNet](./micronet/)
+
+Module de connexion :
+- [Arduino Terminals](./terminals/)
 
 ## Modèles de carte
 

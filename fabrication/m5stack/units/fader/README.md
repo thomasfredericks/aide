@@ -4,8 +4,6 @@
 
 ## Introduction
 
-
-
 L’unité **M5Stack Fader Unit** est équipé d’une glissière (_slider_ ou _fader_ en anglais) et de 14 pixels.
 
 Page officielle du produit : [Unit Fader](https://docs.m5stack.com/en/unit/fader).
@@ -155,29 +153,87 @@ La couleur de chaque pixel est déterminée avec des valeurs de rouge, vert et b
 
 Pour changer les couleurs des pixels :
 
-1) Assigner une ou des couleurs type CRGB (couleur rouge, vert, bleu [RGB Color Codes Chart 🎨](https://www.rapidtables.com/web/color/RGB_Color.html))
-2) Appeler `FastLED.show()`
+- Assigner une couleur à un index du tableau `faderTableauPixels`. Par exemple pour changer le troisième (3ᵉ pixel = index #2) pixel au mauve : `faderTableauPixels[2] = CRGB(255,0,255);`
+- Répéter l'opération précédente pour d'autres pixels.
+- Appeler `FastLED.show()` pour transférer les valeurs du tableau.
 
-##### Assigner une couleur à un pixel
-
+Par exemple, pour assigner la même couleur à tous les pixels : 
 ```cpp
-  // Changer la couleur d’un pixel ---|
-  int indexDuPixel = 7; // Ici nous choisissons le huitième pixel (index # 7)
-  faderPixels[indexDuPixel] = CRGB(255, 0, 0); // ROUGE
-  // ------------------|
-  // NE PAS OUBLIER FastLED.show() après avoir assigné les nouvelles couleurs
-```
-
-##### Assigner une couleur à tous les pixels
-
-
-```cpp
-  // Changer la couleur de tous les pixels ---|
+  // ...
   for (int i =0; i < FADER_PIXELS_COUNT; i++) {
       faderPixels[i] = CRGB(255, 0, 0); // ROUGE
   }
-  // ----------------------|
-  // NE PAS OUBLIER FastLED.show()
-  // NE PAS OUBLIER FastLED.show() après avoir assigné les nouvelles couleurs
+  // ...
+  FastLED.show()
+```
+
+#### Utilisation d'une palette
+
+Il est possible de définir une palette à partir d'un gradient dans l'espace global :
+```cpp
+DEFINE_GRADIENT_PALETTE( gradient ) {
+    0,    0,  10,  40,   // deep blue
+   60,    0, 120,  90,   // teal-green
+  130,   40, 220, 120,   // green
+  190,  120, 200, 255,   // light cyan-blue
+  255,   30,  20, 120    // back to deep blue-violet
+};
+CRGBPalette16 palette = gradient;
+```
+
+La palette peut être appliquée avec la fonction suivante ; le décalage `offset` est une valeur entre 0 et 255 qui fait glisser la palette sur la bande :
+```cpp
+void applyPalette(int offset) {
+    for (int i = 0; i < FADER_COMPTE_PIXELS; i++) {
+        uint8_t indexPalette = map(i, 0, FADER_COMPTE_PIXELS - 1, 0, 255) + offset; 
+        faderTableauPixels[i] = ColorFromPalette(palette, indexPalette, 255, LINEARBLEND);
+    }
+}
+```
+
+Exemple de décalage de la palette selon la position de la glissière :
+
+```cpp    
+#include <Arduino.h>
+// ...
+#include <FastLED.h>
+#define FADER_BROCHE_ANALOG A4
+#define FADER_BROCHE_PIXELS A5
+#define FADER_COMPTE_PIXELS 14
+CRGB faderTableauPixels[FADER_COMPTE_PIXELS];
+DEFINE_GRADIENT_PALETTE( gradient ) {
+    0,    0,  10,  40,   // deep blue
+   60,    0, 120,  90,   // teal-green
+  130,   40, 220, 120,   // green
+  190,  120, 200, 255,   // light cyan-blue
+  255,   30,  20, 120    // back to deep blue-violet
+};
+CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
+// ...
+
+void setup() {
+    // ...
+    FastLED.addLeds<WS2812, FADER_BROCHE_PIXELS, GRB>( faderTableauPixels , FADER_COMPTE_PIXELS);
+    pinMode( FADER_BROCHE_ANALOG , INPUT );
+    // ...
+}
+
+void applyPalette(int offset) {
+    for (int i = 0; i < FADER_COMPTE_PIXELS; i++) {
+        uint8_t indexPalette = map(i, 0, FADER_COMPTE_PIXELS - 1, 0, 255) + offset;
+        faderTableauPixels[i] = ColorFromPalette(palette, indexPalette, 255, LINEARBLEND);
+    }
+}
+
+void loop() {
+    // ...
+    int positionDuFader = analogRead( FADER_BROCHE_ANALOG );
+    // Calculer le décalage de la palette selon la position de la glissière
+    int decalageDePalette = map(positionDuFader, 0, 1023, 0, 255);
+    applyPalette(decalageDePalette);
+    // ...
+    FastLED.show();
+    // ...
+}
 ```
 

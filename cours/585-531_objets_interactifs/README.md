@@ -330,12 +330,11 @@ Activités en classe :
 
 Activités en classe :
 
-- I2C :
-	- TOF.
-	- Encodeur rotatif.
-- Utilisation des transducteurs M5Stack :
-	- Key.
-	- Fader.
+- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
+	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode coordonnateur Wire/I2C.
+- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
+	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode direct.
+
 
 ## Semaine 12 : 18 novembre
 
@@ -351,6 +350,11 @@ Activités en classe :
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
+- I2C :
+	- TOF.
+- Utilisation des transducteurs M5Stack :
+	- Key.
+
 
 ## Semaine 13 : 25 novembre
 
@@ -399,7 +403,7 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 ### Sommaire des évaluations
 
 | Évaluation | Titre | Date | % |
-| --- | --- | --- | ---: |
+| --- | --- | --- | --- | 
 | EVAL-1 | Pure Data | Séance 5 | 33 % |
 | EVAL-2 | Engin de jeu | Séance 10 | 33 % |
 | EVAL-3 | Intégration * | Séance 15 | 34 % |

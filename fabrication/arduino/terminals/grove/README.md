@@ -21,7 +21,7 @@ Les broches GND et VCC servent à l’alimentation. Les broches SDA et SCL comme
 
 ![Vue du connecteur Grove (en blanc)](./grove_location.png)
 
-## Configuration du connecteur Grove
+## Activer ou désactiver les résistances de rappel du connecteur Grove
 
 Le connecteur Grove peut être configuré pour utiliser ou pas des résistances de rappel. De façon générale :
 - **Activer** les résistances de rappel si Arduino Terminals est le coordonnateur Wire/I2C : glisser le bouton vers le texte `SW1`.

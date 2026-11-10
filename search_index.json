@@ -270,6 +270,21 @@
         "u": "#/fabrication/arduino/code/wire"
     },
     {
+        "t": "Arduino : Traitement",
+        "l": "arduino  traitement",
+        "u": "#/fabrication/arduino/code/traitement"
+    },
+    {
+        "t": "Arduino : traitement en flux continu",
+        "l": "arduino  traitement flux continu",
+        "u": "#/fabrication/arduino/code/traitement/flux"
+    },
+    {
+        "t": "Arduino : traiter le changement",
+        "l": "arduino  traiter changement",
+        "u": "#/fabrication/arduino/code/traitement/changement"
+    },
+    {
         "t": "Générer un nombre aléatoire",
         "l": "generer nombre aleatoire",
         "u": "#/fabrication/arduino/code/random"
@@ -283,11 +298,6 @@
         "t": "MicroNet",
         "l": "micronet",
         "u": "#/fabrication/arduino/micronet"
-    },
-    {
-        "t": "MicroRemoteWire",
-        "l": "microremotewire",
-        "u": "#/fabrication/arduino/microremotewire"
     },
     {
         "t": "MicroOsc",
@@ -308,21 +318,6 @@
         "t": "MicroOsc SLIP",
         "l": "microosc slip",
         "u": "#/fabrication/arduino/microosc/slip"
-    },
-    {
-        "t": "Arduino : Traitement",
-        "l": "arduino  traitement",
-        "u": "#/fabrication/arduino/traitement"
-    },
-    {
-        "t": "Arduino : traitement en flux continu",
-        "l": "arduino  traitement flux continu",
-        "u": "#/fabrication/arduino/traitement/flux"
-    },
-    {
-        "t": "Arduino : traiter le changement",
-        "l": "arduino  traiter changement",
-        "u": "#/fabrication/arduino/traitement/changement"
     },
     {
         "t": "La bibliothèque Bounce2",
