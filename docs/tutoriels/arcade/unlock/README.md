@@ -4,7 +4,7 @@ Dans ce tutoriel, nous voulons contrôler le jeu [thomasfredericks/unlock_unity)
 
 Dans le jeu, il faut tourner la roulette pour trouver l’icône du cadenas et appuyer sur le bouton pour valider notre choix.
 
-![Le cadenas est débarré](./validation.png)
+![Le cadenas est débarré](./validation.webp)
 
 
 ## Comportement désiré du potentiomètre
@@ -45,7 +45,7 @@ Dans le jeu, il faut tourner la roulette pour trouver l’icône du cadenas et a
 
 ## Circuit
 
-![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_pot.png)
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_pot.webp)
 
 Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
 *   Un côté de l’interrupteur -> broche 2 de l’Arduino.
@@ -183,11 +183,11 @@ Il faut identifier le code Unity pour trouver comment le jeu est contrôlé.
 
 Sur le GameObject `Canvas > Slider` on trouve dans la section `On Value Changed` une référence à `Unlock.SetAngle` qui est sur le GameObject `GameManager`.
 
-![Observer On Value Changed qui appelle Unlock.SetAngle](./slider.png)
+![Observer On Value Changed qui appelle Unlock.SetAngle](./slider.webp)
 
 Sur le GameObject `Canvas > Button` on trouve dans la section `On Click` une référence à `Unlock.CheckSolution` qui est sur le GameObject `Game Manager`.
 
-![Observer On Click qui appelle Unlock.CheckSolution](./button.png)
+![Observer On Click qui appelle Unlock.CheckSolution](./button.webp)
 
 Si on ouvre le script `Unlock` qui est sur le GmeObject `Game Manager` on trouve les fonctions suivantes dans le code :
 ```csharp

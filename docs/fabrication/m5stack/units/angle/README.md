@@ -13,7 +13,7 @@ Connecter l’unité **M5Stack Angle** au connecteur Grove blanc du contrôleur.
 
 La lecture de la rotation s’effectue sur la broche identifiée par le texte *IN* sur fond blanc, ce qui correspond au câble blanc du connecteur Grove. Si l’unité **M5Stack Angle** est connectée au connecteur blanc du Atom Lite, c’est la broche 32 (identifiée G32) qui permet d’effectuer la lecture analogique de l’angle :
 
-![La connectique du M5Stack Angle](angle-to-atom.png)
+![La connectique du M5Stack Angle](angle-to-atom.webp)
 
 
 ## Code à intégrer
@@ -43,7 +43,7 @@ Donc *si* le **M5Stack Angle** est connecté au connecteur Grove du contrôleur 
 int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 ```
 
-![](./code_angle.drawio.png)
+![](./code_angle.drawio.webp)
 
 ## Exemple(s)
 
@@ -53,9 +53,9 @@ int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 
 #### Rappel de la règle de 3
 
-![La règle de 3](./regle_de_3.drawio.png)
+![La règle de 3](./regle_de_3.drawio.webp)
 
-![La règle de 3 appliquée au canal rouge et à la mesure d’angle](./regle_de_3_rouge_angle.drawio.png)
+![La règle de 3 appliquée au canal rouge et à la mesure d’angle](./regle_de_3_rouge_angle.drawio.webp)
 
 
 #### Rappel sur comment changer une couleur
@@ -64,7 +64,7 @@ int maLectureAngle = analogRead(MA_BROCHE_ANGLE);
 pixelAtom = CRGB( 255 , 255 , 255 ); // pixelAtom a été déclaré dans l’espace global
 FastLED.show();
 ```
-![](./code_crgb.drawio.png)
+![](./code_crgb.drawio.webp)
 
 #### Sans variable intermédiaire
 
@@ -74,7 +74,7 @@ pixelAtom = CRGB( maLectureAngle * 255 / 4095 , 0 , 0 ); // pixelAtom a été d�
 FastLED.show();
 ```
 
-![Schéma sans variable intermédiaire](./code_crgb_exercice.drawio.png)
+![Schéma sans variable intermédiaire](./code_crgb_exercice.drawio.webp)
 
 #### Avec variable intermédiaire
 
@@ -85,4 +85,4 @@ pixelAtom = CRGB( rouge , 0 , 0 ); // pixelAtom a été défini dans l’espace 
 FastLED.show();
 ```
 
-![Schéma avec variable intermédiaire](./code_crgb_exercice2.drawio.png)
+![Schéma avec variable intermédiaire](./code_crgb_exercice2.drawio.webp)

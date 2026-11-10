@@ -63,4 +63,4 @@ void loop() {
 
 ## Recevoir les valeurs dans **OscBidge**
 
-![](angle_button_oscbridge.png)
+![](angle_button_oscbridge.webp)

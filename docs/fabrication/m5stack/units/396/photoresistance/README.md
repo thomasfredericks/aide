@@ -2,7 +2,7 @@
 
 ## Préparation
 
-![Connexion de la photorésistance au Unit 3.96](./unit_396_photoresistance_connexion.png)
+![Connexion de la photorésistance au Unit 3.96](./unit_396_photoresistance_connexion.webp)
 
 ## Utilisation
 

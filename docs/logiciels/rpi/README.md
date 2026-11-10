@@ -18,17 +18,17 @@ Le système d’exploitation choisi pour le Raspberry Pi est le [Raspberry Pi OS
 
 Le logiciel [Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet d’installer facilement Raspberry Pi OS.
 
-![](./imager_4.png)
+![](./imager_4.webp)
 
 Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d’une séquence. Cela permet d’avoir plusieurs Raspberry Pi facilement reconnaissables.
 
-![](./imager_3.png)
+![](./imager_3.webp)
 
-![](./imager_2.png)
+![](./imager_2.webp)
 
-![](./imager_1.png)
+![](./imager_1.webp)
 
-![](./imager_0.png)
+![](./imager_0.webp)
 
 
 
@@ -50,17 +50,17 @@ sudo raspi-config
 ```
 #### Démarrage automatique de l’interface graphique du bureau
 
-![](./system-option_boot0.png)
+![](./system-option_boot0.webp)
 
-![](./system-option_boot1.png)
+![](./system-option_boot1.webp)
 
 #### Démarrage du VNC
 
-![](./interface-vnc0.png)
+![](./interface-vnc0.webp)
 
-![](./interface-vnc1.png)
+![](./interface-vnc1.webp)
 
-![](./interface-vnc2.png)
+![](./interface-vnc2.webp)
 
 #### Documentation additionnelle
 Via [raspi-config](https://www.raspberrypi.com/documentation/computers/configuration.html#the-raspi-config-tool)

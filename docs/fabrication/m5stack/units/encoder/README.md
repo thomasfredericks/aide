@@ -1,7 +1,7 @@
 # M5Stack Unit Encoder : Encodeur (capteur) de rotation
 
 
-![Photo de l’avant et l’arrière du M5Stack Unit Encoder](./unit_encoder.png)
+![Photo de l’avant et l’arrière du M5Stack Unit Encoder](./unit_encoder.webp)
 
 ## Introduction
 

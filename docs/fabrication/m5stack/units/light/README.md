@@ -44,4 +44,4 @@ ou
 int maLectureLumiere = analogRead(32);
 ```
 
-![](./code_analogread.drawio.png)
+![](./code_analogread.drawio.webp)

@@ -7,11 +7,11 @@ Le potentiomètre (souvent abrégé "pot") est un composant électronique passif
 
 ## Symbole
 
-![Symbole d’un potentiomètre](./pot_symbol.png)
+![Symbole d’un potentiomètre](./pot_symbol.webp)
 
 ## Structure interne
 
-![Intérieur d’un potentiomètre](./pot_interior.png)
+![Intérieur d’un potentiomètre](./pot_interior.webp)
 
 À l’intérieur, un potentiomètre se compose généralement de :
 - Une trame résistive (en carbone, céramique ou métal)
@@ -26,7 +26,7 @@ Pour tester un potentiomètre avec un multimètre :
 3. Tournez le bouton : la valeur devrait changer de façon continue
 4. Si la mesure saute brusquement ou reste fixe, le potentiomètre peut être défectueux
 
-![Mesurer la résistance d’un potentiomètre](./pot_measure.png)
+![Mesurer la résistance d’un potentiomètre](./pot_measure.webp)
 
 ## Connexions et branchement
 
@@ -40,7 +40,7 @@ Un potentiomètre possède trois bornes de connexion :
 | Broche 2 | Curseur (sortie) | Entrée analogique du microcontrôleur |
 | Broche 3 | Extrémité 2 | GND (masse) |
 
-![Connexions typiques](./pot_turn.png)
+![Connexions typiques](./pot_turn.webp)
 
 > [!NOTE]
 > Les deux broches extérieures peuvent être inversées sans dommage - cela inverse simplement le sens de variation du signal.
@@ -94,7 +94,7 @@ Actionné par déplacement linéaire. Utilisé principalement pour :
 - Contrôleurs MIDI
 - Interfaces graphiques physiques
 
-![Potentiomètres à glissière](./pot_sliders.png)
+![Potentiomètres à glissière](./pot_sliders.webp)
 
 ### Potentiomètre à membrane
 

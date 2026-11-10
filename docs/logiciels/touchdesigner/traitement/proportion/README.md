@@ -12,4 +12,4 @@ Configuration :
 - Les valeurs To Range du  `Math CHOP` dépendent du contexte, mais sont souvent entre 0.0 et 1.0.
 - Les valeurs du minimum et maximum du `Limit CHOP` doivent correspondre au To Range du `Math CHOP`
 
-![L’entrée, entre 0 et 4095 ici mais à changer selon le contexte, est proportionnelle à la sortie qui est limitée entre 0.0 et 1.0 ](./proportion.drawio.png)
+![L’entrée, entre 0 et 4095 ici mais à changer selon le contexte, est proportionnelle à la sortie qui est limitée entre 0.0 et 1.0 ](./proportion.drawio.webp)

@@ -47,9 +47,9 @@ Dans l’exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec 
 
 ![Enlever soigneusement le revêtement sur la partie cuivrée coupée](./Diapositive2.SVG)  
 
-![Connexion sans soudure du côté multi-câble](./bande-del_connecteur_cote-cable.png)  
+![Connexion sans soudure du côté multi-câble](./bande-del_connecteur_cote-cable.webp)  
 
-![Connexion sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.png)  
+![Connexion sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.webp)  
 
 ![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
 

@@ -15,7 +15,7 @@ Sur certaines versions de déploiement (notamment en décompressant des archives
 > [!WARNING]
 > À l’ouverture de Pure Data, il se peut que le logiciel ouvre une boîte de dialogue vous demandant s’il doit créer le dossier **Documents > Pd**... répondre **oui!**
 
-![Répondre OUI à la création du dossier des documents pour Pd](pd_dossiers-defaut.png)
+![Répondre OUI à la création du dossier des documents pour Pd](pd_dossiers-defaut.webp)
 
 ## Interface générale
 

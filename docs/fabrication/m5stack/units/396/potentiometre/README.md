@@ -40,7 +40,7 @@ Pour le Unit 3.96 la logique de connexion générique, et du diviseur de tension
 | Broche centrale |  | | Autre broche de la résitance  |
 | Autre broche extérieure | #4 / Noir / GND| Autre broche de la résitance  | |
 
-![Connexion d’un potentiomètre au Unit 3.96](./396_pot.png)
+![Connexion d’un potentiomètre au Unit 3.96](./396_pot.webp)
 
 ## Code dans le cas d’un Unit 3.96 branché directement à l’Arduino
 

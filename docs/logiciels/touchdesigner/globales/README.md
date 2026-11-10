@@ -15,4 +15,4 @@ Pour avoir des variables globales dans votre projet TouchDesigner :
         - `op("base_globals").par.Resx`
         - `op("base_globals").par.Resy`
 
-![](./ajouter_variables_globales.png)
+![](./ajouter_variables_globales.webp)

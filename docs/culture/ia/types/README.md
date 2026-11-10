@@ -76,9 +76,9 @@ Il existe de nombreux [dangers](../dangers/) liés à l’utilisation des GML.
 
 ### Fonctionnement
 
-![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.png)
+![Entrainement d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./massive_training_data.webp)
 
-![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.png)
+![Prédictions d’un GML - tiré de https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f](./prediction.webp)
 
 
 
@@ -90,7 +90,7 @@ Pour entraîner Stable Diffusion, du bruit est progressivement ajouté à des im
 
 Lors de la génération d’une image, le modèle commence par un bruit aléatoire et retire itérativement les étapes de bruit prédites, guidé par l’invite textuelle, jusqu’à ce qu’une image claire émerge.
 
-![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.png)
+![Survol du fonctionnement de Stable Diffusion tiré de https://medium.com/@steinsfu/stable-diffusion-clearly-explained-ed008044e07e](./stable_diffusion.webp)
 
 
 ### Caractéristiques principales
@@ -163,9 +163,9 @@ Techniques utilisées :
 | Arbres de comportement (Behavior Trees) | Hiérarchie d’actions conditionnelles  |
 | Pathfinding (A*) | Navigation et déplacement |
 
-![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.png)
+![Exemples de Pathfinding tirés de https://www.redblobgames.com/pathfinding/a-star/introduction.html](./redblobgames_pathfind.webp)
 
-![Exemple d’un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.png)
+![Exemple d’un arbre de comportement tiré de https://blog.littlepolygon.com/posts/fsm/](./behavior_tree.webp)
 
 Exemple d’un arbre de comportement en code (tiré de [⚙️ Tech Breakdown: AI with Finite State Machines - Little Polygon Game Dev Blog](https://blog.littlepolygon.com/posts/fsm/)) : 
 ```csharp

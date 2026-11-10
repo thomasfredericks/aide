@@ -65,14 +65,14 @@ Attention : `oscparse` **retire le `/`** de l’adresse.
 
 ## Patcher pour tester l’OSC UDP
 
-![Patcher osc_udp_test.pd](./osc_udp_test_pd.png)
+![Patcher osc_udp_test.pd](./osc_udp_test_pd.webp)
 
 Télécharger le patcher [osc_udp_test.pd](./osc_udp_test.pd).
 
 
 ## Exemple pour la réception et l’envoi de messages OSC UDP 
 
-![Capture d’écran du patcher «osc_udp.pd»](osc_udp_pd.png)
+![Capture d’écran du patcher «osc_udp.pd»](osc_udp_pd.webp)
 
 Pour télécharger le patcher, cliquer ici : [osc_udp.pd](osc_udp.pd).
 

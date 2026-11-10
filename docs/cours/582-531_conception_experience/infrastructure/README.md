@@ -39,7 +39,7 @@ Cette infrastructure représente l’environnement technique standardisé utilis
     - QLC+
     - OSC
 
-![](./arcade.png)
+![](./arcade.webp)
 
 ## Expérience narrative en ligne
 

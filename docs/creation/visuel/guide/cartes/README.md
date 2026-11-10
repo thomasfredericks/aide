@@ -9,7 +9,7 @@ Cette page détaille la rédaction d’un guide normes graphiques pour la réali
 
 *Préparez ce document avec soin : il servira de référence absolue pour toute la durée de la production de votre jeu de cartes.*
 
-![Les 4 enseignes de famille traditionnelles](./familles_traditionnelles.png)
+![Les 4 enseignes de famille traditionnelles](./familles_traditionnelles.webp)
 
 
 ## Structure du document
@@ -58,7 +58,7 @@ Le document doit être livré sous format numérique (exportation **pdf** d’un
 
 ### Éléments de jeu
 
-![Des enseignes de famille thématiques (thème de donjon)](./familles_thematiques.png)
+![Des enseignes de famille thématiques (thème de donjon)](./familles_thematiques.webp)
 
 Vous devez présenter les gabarits visuels préliminaires pour prouver la faisabilité du projet :
 
@@ -69,7 +69,7 @@ Vous devez présenter les gabarits visuels préliminaires pour prouver la faisab
 *  **Joker :** Croquis ou maquette rapide d’un joker.
 * **Lisibilité :** La valeur et la famille de la carte doivent être clairs à distance.
 
-![Correspondances entres enseignes](./familles_correspondances.png)
+![Correspondances entres enseignes](./familles_correspondances.webp)
 
 ### Contraintes techniques d’impression
 
@@ -84,12 +84,12 @@ Voici un exemple de l’application des contraintes techniques : [American-poke
 
 ## Notes sur l’impression
 
-![Une carte avec un fond noir avec fond perdu (ligne mauve), zone de sécurité (lignes vertes) et taille finale (lignes grises)](./carte_affinity.png)
+![Une carte avec un fond noir avec fond perdu (ligne mauve), zone de sécurité (lignes vertes) et taille finale (lignes grises)](./carte_affinity.webp)
 
-![Une carte pour l’impression avec lignes de coupe](./carte_impression.png)
+![Une carte pour l’impression avec lignes de coupe](./carte_impression.webp)
 
-![Configuration pour l’impression dans macOS](./impression_macos.png)
+![Configuration pour l’impression dans macOS](./impression_macos.webp)
 
-![Configuration de la page l’impression dans Windows](./impression_windows_page.png)
+![Configuration de la page l’impression dans Windows](./impression_windows_page.webp)
 
-![Configuration des marques d’impression dans Windows](./impression_windows_marques.png)
+![Configuration des marques d’impression dans Windows](./impression_windows_marques.webp)

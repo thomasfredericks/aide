@@ -105,9 +105,9 @@ Références :
 - [Deaths linked to chatbots - Wikipedia](https://en.wikipedia.org/wiki/Deaths_linked_to_chatbots)
 - [ChatGPT Killed a Man After OpenAI Brought Back "Inherently Dangerous" GPT-4o, Lawsuit Claims](https://futurism.com/artificial-intelligence/chatgpt-suicide-openai-gpt4o)
 
-![Extrait de l’article de Wikipedia](./wikipedia.png)
+![Extrait de l’article de Wikipedia](./wikipedia.webp)
 
-![Extrait de l’article de Futurism](./futurism.png)
+![Extrait de l’article de Futurism](./futurism.webp)
 
 ## Dette technique
 
@@ -118,7 +118,7 @@ Selon le sondage [AI | 2025 Stack Overflow Developer Survey](https://survey.stac
 * Plus de 66 % des développeurs disent que leur principale frustration avec les outils de code basés sur un GML, c’est *le code presque correct*.
 * Ce qui mène souvent à la deuxième plus grande frustration : *Déboguer du code généré par l’IA prend plus de temps* (45 %)
 
-![Principales frustrations avec les outils de code basés sur un GML](./ai_tool_frustrations.png)
+![Principales frustrations avec les outils de code basés sur un GML](./ai_tool_frustrations.webp)
 
 *Le code presque correct* passe la revue de code, part en production et reste dans le code pendant plusieurs mois avant que quelqu’un réalise qu’il est erroné. Et lorsque le code *presque correct* est découvert, **les coûts de correction explosent** et n’ont pas été budgétés. 
 
@@ -164,7 +164,7 @@ L’enquête [AI | 2025 Stack Overflow Developer Survey](https://survey.stackove
 
 La majeure partie de cette section est tirée de [AI Is Making You Dumber - YouTube](https://www.youtube.com/watch?v=G-cdVurdoeA).
 
-![Declin de la performance de tests sur le raisonnement et la solution de problèmes](./decline_reasoning_problem_solving.png)
+![Declin de la performance de tests sur le raisonnement et la solution de problèmes](./decline_reasoning_problem_solving.webp)
 
 ### Témoignages d’étudiants
 

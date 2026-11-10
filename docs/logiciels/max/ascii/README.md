@@ -5,7 +5,7 @@
 
 Pour recevoir les données sérielles dans Max, il faut avant tout initialiser l’objet [serial]. 
 
-![Capture d’écran de la réception de données sérielles dans Max](./max_ascii_maxpat_a.png).
+![Capture d’écran de la réception de données sérielles dans Max](./max_ascii_maxpat_a.webp).
 
 ## Conversion des données brutes en message ASCII
 
@@ -14,13 +14,13 @@ Ensuite, il faut :
 * Accumuler les données brutes dans une liste avec [zl group].
 * Convertir la liste de données brutes en message ASCII avec la combinaison de [itoa] et [fromsymbol].
 
-![Capture d’écran de la conversion de données brutes en message ASCII](./max_ascii_maxpat_b.png).
+![Capture d’écran de la conversion de données brutes en message ASCII](./max_ascii_maxpat_b.webp).
 
 ## Aiguillage des messages selon leur identifiant
 
 Finalement, lorsque les messages sont reconstitués, il est possible de les aiguiller vers leurs destinations  avec un [route].
 
-![Capture d’écran de l’aiguillage des données](./max_ascii_maxpat_c.png).
+![Capture d’écran de l’aiguillage des données](./max_ascii_maxpat_c.webp).
 
 
 ## Patcher complet

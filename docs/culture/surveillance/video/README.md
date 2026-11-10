@@ -2,7 +2,7 @@
 
 ## Surveillance volontaire
 
-![Graphique de l’adoption de la surveillance volontaire](./us_voluntary_surveillance.png)
+![Graphique de l’adoption de la surveillance volontaire](./us_voluntary_surveillance.webp)
 
 ### Le problème avec la normalisation de la surveillance volontaire
 

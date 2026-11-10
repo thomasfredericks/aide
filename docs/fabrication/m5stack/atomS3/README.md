@@ -23,7 +23,7 @@ Pages officielles :
 
 ## Broches
 
-![](./atoms3_pins.png)
+![](./atoms3_pins.webp)
 
 ## Intégration dans PlatformIO
 
@@ -34,7 +34,7 @@ Voir la section sur [AtomS3 et PlatformIO](./platformio/)
 
 Pour téléverser le code, il faut maintenir le bouton de réinitialisation au moins 2 secondes jusqu’à ce que la DEL interne verte s’allume, puis relâcher. L’appareil est maintenant en mode de téléversement.
 
-![](./atoms3_upload_mode.png)
+![](./atoms3_upload_mode.webp)
 
 Après avoir téléversé le code, appuyer une fois rapidement sur le bouton pour lancer l’exécution du code.
 

@@ -2,34 +2,34 @@
 
 ## Partir un nouveau projet
 
-![](reaper_saveas.png)
+![](reaper_saveas.webp)
 
 ## Paramètres du projet
 
-![](reaper_project_settings.png)
+![](reaper_project_settings.webp)
 
 ## Désactiver le "Snap"
 
-![](reaper_desactiver_snap.png)
+![](reaper_desactiver_snap.webp)
 
 ## Préférences
 
-![](reaper_ouvrir_preferences.png)
+![](reaper_ouvrir_preferences.webp)
 
 ### Importation des médias
 
-![](reaper_preferences_import.png)
+![](reaper_preferences_import.webp)
 
 ### Matériel Audio
 
-![](reaper_preferences_device.png)
+![](reaper_preferences_device.webp)
 
 ### Fermeture automatique du matériel audio
 
-![](reaper_configuration_audio.png)
+![](reaper_configuration_audio.webp)
 
 ### Désactiver la mise «Offline» des fichiers
 
-![](reaper_preferences_media_offline.png)
+![](reaper_preferences_media_offline.webp)
 
 

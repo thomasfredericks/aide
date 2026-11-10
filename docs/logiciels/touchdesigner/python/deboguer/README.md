@@ -3,4 +3,4 @@
 
 ## Ouvrir Texport
 
-![](./open_texport.drawio.png)
+![](./open_texport.drawio.webp)

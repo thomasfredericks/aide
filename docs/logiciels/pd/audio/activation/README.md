@@ -8,4 +8,4 @@ Pure Data nécessite d’activer manuellement le traitement du signal numérique
     - Appliquez les changements.
 - Allez dans le menu **Media** et sélectionnez **DSP On**.
 
-![Configuration audio dans Pd](./configuration_audio.png)
+![Configuration audio dans Pd](./configuration_audio.webp)

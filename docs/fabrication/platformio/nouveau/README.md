@@ -14,7 +14,7 @@
 
 ## Cloner le dépôt Git l’ordinateur
 
-![Option de menu pour cloner un dépôt Git](./vscode_git_clone.png)
+![Option de menu pour cloner un dépôt Git](./vscode_git_clone.webp)
 
 ## Créer les fichiers
 
@@ -96,4 +96,4 @@ Ne pas oublier de faire un *commit* des modifications. Si nécessaire [configure
 
 Pour que *Visual Studio Code* charge le dossier en tant que projet *PlatformIO* il faut le rouvrir.
 
-![La barre d’outils de PlatformIO devrait apparaître après la réouverture du dossier de projet](./vscode_platformio.png)
+![La barre d’outils de PlatformIO devrait apparaître après la réouverture du dossier de projet](./vscode_platformio.webp)

@@ -4,11 +4,11 @@ Exemple d’analyse d’esthétique de l’expérience multimédia interactive *
 
 |  | DOOM Eternal
 |--|--|
-| **Capture d’écran de l’interface utilisateur** | ![](./doom_eternal.png)  |
+| **Capture d’écran de l’interface utilisateur** | ![](./doom_eternal.webp)  |
 | **Observations sur l’interface utilisateur** | L’IU est épurée (en contraste avec le reste) et retranchée dans les coins, en périphérie. Elle est translucide. Elle est effacée et presque invisible. |
 | **3 mots pour décrire l’émotion** | Mature, anxiogène, violent | 
 | **3 mots pour décrire le timbre** | Saturé, agressif, dense |  
 | **3 mots pour décrire la structure** | Chaotique, frénétique, explosif | 
 | **3 mots pour décrire les références** | Futuriste, guerrier, performant | 
 | **Intention esthétique** | Maintenir une pression constante et plonger le joueur dans un état de surstimulation | 
-| **Public cible** | ![](./public_cible.png)  | 
+| **Public cible** | ![](./public_cible.webp)  | 

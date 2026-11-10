@@ -8,7 +8,7 @@
 
 ![Première photo du circuit](./circuit_photo.jpg)
 
-![Deuxième photo du circuit](./photo_circuit.png)
+![Deuxième photo du circuit](./photo_circuit.webp)
 
 ## Code
 

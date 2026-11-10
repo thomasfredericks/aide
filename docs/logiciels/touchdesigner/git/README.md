@@ -2,7 +2,7 @@
 
 ## Désactiver les sauvegardes supplémentaires
 
-![](./td_preferences.png)
+![](./td_preferences.webp)
 
 ## .gitignore
 

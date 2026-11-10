@@ -4,4 +4,4 @@
 
 ![Photo du Atomic Port ABC Base](./photo.webp)
 
-![Correspondances des broches du Atomic Port ABC Base](./broches.png)
+![Correspondances des broches du Atomic Port ABC Base](./broches.webp)

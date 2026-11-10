@@ -2,18 +2,18 @@
 
 Un schéma de circuit est une représentation schématique de la connectique d’un circuit électrique. Les composants électriques sont représentés en tant que symboles pour faciliter leur reproduction et leur identification. Ce qui est important est de représenter comment les éléments sont reliés entre eux et non leur disposition exacte dans l’espace. 
 
-![Un schéma de circuit (JIMBLOM, s. d.)](./schema.png)
+![Un schéma de circuit (JIMBLOM, s. d.)](./schema.webp)
 
 
 ## Jonctions
 
 Chaque fil peut connecter deux terminaux ensemble, ou ils peuvent en connecter des dizaines. Lorsqu’un fil se divise en deux directions, on indique jonction. Nous représentons les jonctions sur des schémas avec des petits points placés à l’intersection des fils.
 
-![Symbole pour une jonction (JIMBLOM, s. d.)](./jonction.png)
+![Symbole pour une jonction (JIMBLOM, s. d.)](./jonction.webp)
 
 Les points de jonction  permettent d’indique que "les fils traversant cette jonction sont connectés". L’absence d’un point de jonction signifie que deux fils superposés ne font que passer, ne formant aucune sorte de connexion. Lors de la conception de schémas, il est généralement recommandé d’éviter ces chevauchements non connectés dans la mesure du possible, mais c’est parfois inévitable.
 
-![Les jonctions indiquent quels fils sont connectés (JIMBLOM, s. d.)](./jonction_connection.png)
+![Les jonctions indiquent quels fils sont connectés (JIMBLOM, s. d.)](./jonction_connection.webp)
 
 ## Symboles d’alimentation
 
@@ -47,7 +47,7 @@ Les symboles suivants représentent les deux pôles d’une seule et même alime
 
 Parfois, pour rendre les schémas plus lisibles, nous donnons un nom à un «net» et l’étiquetons, plutôt que de faire passer un fil sur tout le schéma. Les «nets» portant le même nom sont supposés être connectés, même s’il n’y a pas de fil visible les reliant. Les noms peuvent soit être écrits directement sur le dessus du «net», soit ils peuvent être des «tags», accrochés au fil.
 
-![Les «nets» sont des connexions «sans-fil» (JIMBLOM, s. d.)](./net.png)
+![Les «nets» sont des connexions «sans-fil» (JIMBLOM, s. d.)](./net.webp)
 
 Les «nets» reçoivent généralement un nom qui indique spécifiquement le but des signaux sur ce fil. Par exemple, les «nets» électriques peuvent être étiquetés "VCC" ou "5V", tandis que les «nets» de communication série peuvent être étiquetés "RX" ou "TX".
 
@@ -55,7 +55,7 @@ Les «nets» reçoivent généralement un nom qui indique spécifiquement le but
 
 Les nœuds de tension sont des «nets» qui indiquent un niveau de tension spécifique. Tous les terminaux connectés à un nœud de tension portant le même nom sont connectés ensemble.
 
-![Trois nœuds de connexion d’alimentation : GND, 3.3V et 5V (JIMBLOM, s. d.)](./nodes_alimentation.png)
+![Trois nœuds de connexion d’alimentation : GND, 3.3V et 5V (JIMBLOM, s. d.)](./nodes_alimentation.webp)
 
 
 ## Références et sources des images

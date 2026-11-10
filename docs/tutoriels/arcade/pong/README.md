@@ -73,7 +73,7 @@ flowchart LR
 
 ## Circuit
 
-![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_pot.png)
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_pot.webp)
 
 Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
 *   Un côté de l’interrupteur -> broche 2 de l’Arduino.

@@ -42,6 +42,6 @@ void loop() {
 À noter, que dans `setup()`, l’instruction `Serial.begin(115200)` démarre la communication à la vitesse de 115200 baud. Il faudra inscrire cette valeur dans la fenêtre du _Serial Monitor_ ou du _Serial Plotter_.
 
 
-![](angle_button_serial-plotter.png)
+![](angle_button_serial-plotter.webp)
 
-![](angle_button_serial-monitor.png)
+![](angle_button_serial-monitor.webp)

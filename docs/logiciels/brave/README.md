@@ -12,12 +12,12 @@ De préférence, installer la [version officielle](https://brave.com/), mais en 
 
 Il se peut que le navigateur actuel refuse de télécharger ou d’exécuter la version portable de Brave. Il est possible de forcer son utilisation :
 
-![Forcer Windows Edge à télécharger la version portable de Brave](./force_download.png)
+![Forcer Windows Edge à télécharger la version portable de Brave](./force_download.webp)
 
-![Forcer ENCORE Windows Edge à télécharger la version portable de Brave](./force_download2.png)
+![Forcer ENCORE Windows Edge à télécharger la version portable de Brave](./force_download2.webp)
 
 ## Playlist
 
-![Ajouter un item à la Playlist](./brave_add_to_playlist.drawio.png)
+![Ajouter un item à la Playlist](./brave_add_to_playlist.drawio.webp)
 
-![Ouvrir la Playlist](./brave_open_playlist.drawio.png)
+![Ouvrir la Playlist](./brave_open_playlist.drawio.webp)

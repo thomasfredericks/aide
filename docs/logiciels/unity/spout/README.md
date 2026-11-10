@@ -20,11 +20,11 @@ Voici l’information à inscrire dans les paramètres du gestionnaire de paquet
 
 ## Créer une nouvelle *Render Texture* dans les *Assets*
 
-![](./ajouter_render_texture.png)
+![](./ajouter_render_texture.webp)
 
 ## Configurer la taille de la *Render Texture* et la renommer *Spout Render Texture*
 
-![](./configurer_render_texture.png)
+![](./configurer_render_texture.webp)
 
 ## Ajouter le script *Spout Sender* à la caméra, nommer le Spout *Unity* et choisir le monde de capture *Texture*
 

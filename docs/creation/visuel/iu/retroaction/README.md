@@ -7,20 +7,20 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://
 
 ## États de boutons
 
-![Les 5 états de boutons](./etats_boutons.png)
+![Les 5 états de boutons](./etats_boutons.webp)
 
 ## Entrées
 
-![Entrée inactive](./entree.png)
+![Entrée inactive](./entree.webp)
 
-![Entrée active](./entree_active.png)
+![Entrée active](./entree_active.webp)
 
-![Entrée avec erreur](./entree_erreur.png)
+![Entrée avec erreur](./entree_erreur.webp)
 
-![Entrée avec avertissement](./entree_avertissement.png)
+![Entrée avec avertissement](./entree_avertissement.webp)
 
 ## Autres indicateurs
 
-![Indicateur de fin](./indicateur_fin.png)
+![Indicateur de fin](./indicateur_fin.webp)
 
-![Indicateur de progression](./indicateur_progres.png)
+![Indicateur de progression](./indicateur_progres.webp)

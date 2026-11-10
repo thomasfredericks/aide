@@ -11,13 +11,13 @@ Pour l’OSC SLIP dans Pd, il faut installer :
 <!--
 ## Bloc de base
 
-![Bloc de base OSC SLIP](./slip_osc_base.png)
+![Bloc de base OSC SLIP](./slip_osc_base.webp)
 -->
 
 
 ## Patcher pour tester l’OSC SLIP
 
-![Patcher osc_slip_test.pd](./osc_slip_test_pd.png)
+![Patcher osc_slip_test.pd](./osc_slip_test_pd.webp)
 
 Télécharger le patcher [ osc_slip_test.pd](./osc_slip_test.pd).
 
@@ -38,7 +38,7 @@ Réception d’OSC SLIP :
 <!--
 ## Exemple pour la réception de messages OSC SLIP 
 
-![Patcher slip_osc.pd](./slip_osc_pd.png)
+![Patcher slip_osc.pd](./slip_osc_pd.webp)
 
 Télécharger le patcher [slip_osc.pd](./slip_osc.pd).
 

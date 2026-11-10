@@ -29,7 +29,7 @@ Arduino fournit des méthodes de base pour encoder et décoder **ASCII** (*Ameri
 Pour bien comprendre ce principe, on peut faire le lien avec le **code Morse** :
 Chaque lettre est convertie en une succession de signaux courts (**points**) et longs (**traits**), envoyés rigoureusement dans un ordre précis.  L’opérateur de l’autre côté doit décoder le flux temporel pour reformer les lettres et les mots.
 
-![Le code Morse](./code_morse.png)
+![Le code Morse](./code_morse.webp)
 
 En ASCII, pour envoyer la lettre `A`, l’Arduino convertit ce caractère en son code ASCII, c’est-à-dire le nombre décimal `65`, qui s’écrit `01000001` en binaire. Il envoie ensuite ces 8 bits, l’un après l’autre, sur le fil de transmission. 
 
@@ -95,10 +95,10 @@ monitor_speed = 115200
 ```
 
 Pour ouvrir le moniteur série :
-![](vscode_platformio_serial_monitor.png)
+![](vscode_platformio_serial_monitor.webp)
 
 Pour fermer le moniteur série :
-![](vscode_platformio_serial_monitor_fermer.png)
+![](vscode_platformio_serial_monitor_fermer.webp)
 
 
 ## La structure [descripteur] [espace] [valeur] [saut de ligne (ln)]

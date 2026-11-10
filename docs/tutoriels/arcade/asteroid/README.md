@@ -31,7 +31,7 @@ Dans le jeu, il faut piloter le vaisseau de haut en bas pour éviter les astéro
 
 ## Circuit
 
-![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_photo.png)
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade_photo.webp)
 
 Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
 *   Un côté de l’interrupteur -> broche 2 de l’Arduino.

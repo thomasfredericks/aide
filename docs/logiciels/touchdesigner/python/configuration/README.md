@@ -2,5 +2,5 @@
 
 ## Configurer éditeur de texte 
 
-![](./td_prefs_text_editor.png)
+![](./td_prefs_text_editor.webp)
 

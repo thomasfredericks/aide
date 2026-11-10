@@ -12,7 +12,7 @@ le [bouton Arcade Button with LED – 30mm Translucent Red d’Adafruit ](https:
 
 **L’important est de repérer les broches et d’y souder 4 fils idéalement de couleurs différents.**
 
-![Soudure du bouton](./unit_396_bouton_arcade_identification.png)
+![Soudure du bouton](./unit_396_bouton_arcade_identification.webp)
 
 ## Branchement générique
 
@@ -42,7 +42,7 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 
 À noter que les deux GND sont branchés ensemble.
 
-![Connexion du bouton au Unit 3.96](./unit_396_bouton_arcade_connexion.png)
+![Connexion du bouton au Unit 3.96](./unit_396_bouton_arcade_connexion.webp)
 
 ### Code
 

@@ -26,7 +26,7 @@ L’**art d’écouter** l’autre est une compétence fondamentale, qui doit ê
 
 L’école est un lieu d’**apprentissage social** : **coopération**, **respect**, **empathie**.
 
-![](./empathie_et_cooperation.png)
+![](./empathie_et_cooperation.webp)
 
 ### Recherches
 

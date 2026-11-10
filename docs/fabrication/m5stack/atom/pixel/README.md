@@ -27,7 +27,7 @@ Ajouter une variable de type CRGB pour le pixel :
 CRGB atomPixel;
 ```
 
-![](./code_creer_crgb.drawio.png)
+![](./code_creer_crgb.drawio.webp)
 
 Bien que cela ne soit pas absolument nécessaire, c’est une bonne idée d’utiliser un `#define` pour identifier le numéro de la broche :
 ```cpp
@@ -51,7 +51,7 @@ Pour changer la couleur du pixel:
   atomPixel = CRGB(255,255,255); // BLANC
 ```
 
-![](./code_crgb.drawio.png)
+![](./code_crgb.drawio.webp)
 
 2) Après, il faut mettre à jour le pixel
 ```cpp

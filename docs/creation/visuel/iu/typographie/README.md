@@ -1,7 +1,7 @@
 # IU : Typographie
 
-![Polices suggérées](./polices.png)
+![Polices suggérées](./polices.webp)
 
-![Le texte du titre est trop étendu](./resserrer_avant.png)
+![Le texte du titre est trop étendu](./resserrer_avant.webp)
 
-![Resserrer le texte](./resserer_apres.png)
+![Resserrer le texte](./resserer_apres.webp)

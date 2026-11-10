@@ -6,7 +6,7 @@ La Nano R4 intègre un microcontrôleur **32 bits haute performance (R7FA4M1AB3C
 
 Dimensions : **18 mm × 45 mm**.
 
-![Arduino Nano R4](./arduino_nano_r4.png)
+![Arduino Nano R4](./arduino_nano_r4.webp)
 
 ## Principaux composants de la carte
 
@@ -38,7 +38,7 @@ Voir cette page : [Configuration Nano R4 PlatformIO](./platformio/).
 
 Informations complètes sur ce modèle : [Nano R4 User Manual | Arduino Documentation](https://docs.arduino.cc/tutorials/nano-r4/user-manual/)
 
-![Broches du Arduino Nano R4](./arduino_nano_r4_pins.png)
+![Broches du Arduino Nano R4](./arduino_nano_r4_pins.webp)
 
 ### DEL orange intégrée
 

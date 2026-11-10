@@ -5,7 +5,7 @@ Réduit les fluctuations rapides d’un signal pour obtenir une courbe plus rég
 `OP` utilisé :
 - `Filter CHOP`
 
-![Lisser entre des valeurs et réduction de bruit](./glissement.png)
+![Lisser entre des valeurs et réduction de bruit](./glissement.webp)
 
 Le filtre One Euro est particulièrement utile lorsqu’on souhaite une réponse rapide : il réagit rapidement aux grands changements de valeur et atténue le tremblement dans l’entrée. À basse vitesse, une fréquence de coupure faible stabilise le signal en réduisant les tremblements, mais à mesure que la vitesse augmente, la fréquence de coupure est augmentée afin de réduire la latence. 
 

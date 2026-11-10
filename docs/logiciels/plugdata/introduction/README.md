@@ -9,7 +9,7 @@
 
 ## Désactivation du mode compilation
 
-![](deactivate_compile_mode.png)
+![](deactivate_compile_mode.webp)
 
 ## Installation d’externes et de bibliothèques
 
@@ -18,8 +18,8 @@ Il est préférable d’installer les externes et bibliothèques de plugdata sé
 Pour l’installation manuelle (de [pdchoco](../../pd/pdchoco/) par exemple) d’externes ou de bibliothèques il faut les déposer dans le dossier : `Documents > plugdata > Externals`.
 
 Pour l’installation d’externes dans l’application, passer par le menu `Find externals` :
-![](./find_externals.png)
+![](./find_externals.webp)
 
 Par exemple, pour installer `comport` :
-![](./comport.png)
+![](./comport.webp)
 

@@ -2,7 +2,7 @@
 
 Ce patch Pure Data fonctionne comme un mini-lecteur et mixeur d’échantillons sonores. Il utilise [pdchoco](../../pdchoco/).
 
-![](./pdchoco_audio_pd.png)
+![](./pdchoco_audio_pd.webp)
 
 ## Isolation et gestion des références avec `$0`
 

@@ -26,7 +26,7 @@ Branchement sur Arduino Terminals :
 | Une broche de l’interrupteur | 2 (entrée numérique) |
 | Autre broche de l’interrupteur | GND (via le négatif de la DEL) |
 
-![Un bouton d’arcade branché à un Arduino Terminals](./arduino_terminals_arcade.png)
+![Un bouton d’arcade branché à un Arduino Terminals](./arduino_terminals_arcade.webp)
 
 ```cpp
 #include <Arduino.h>
@@ -86,6 +86,6 @@ void loop()
 
 Télécharger et ouvrir le patcher Pd pour transmettre les messages OSC.
 
-![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.png)
+![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.webp)
 
 Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd)

@@ -4,7 +4,7 @@
 
 ![Plusieurs modèles de fer à souder (JOEL_E_B, s. d.)](./soldering-iron.jpg)
 
-![Bobine de soudure 60/40 0.031" (ADAFRUIT)](./micro-soudure_bobine.png)
+![Bobine de soudure 60/40 0.031" (ADAFRUIT)](./micro-soudure_bobine.webp)
 
 ![Nettoyeur de pointe (JOEL_E_B, s. d.)](./brass_sponge.jpg)
 

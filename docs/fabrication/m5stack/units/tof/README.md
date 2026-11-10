@@ -15,7 +15,7 @@ Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer de
 > Le M5Stack Unit TOF fonctionne mieux en mode continu (le mode non continu est lent)
 
 
-![Photo de l’avant et l’arrière du M5Stack Unit TOF](./unit_tof.png)
+![Photo de l’avant et l’arrière du M5Stack Unit TOF](./unit_tof.webp)
 ## Connexion
 
 **Le Unit TOF est de type I²C tel qu’identifié par son connecteur rouge.**

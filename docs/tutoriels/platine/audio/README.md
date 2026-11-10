@@ -102,4 +102,4 @@ Dans ce patch :
 
 Patch Pure Data : [arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.pd)
 
-![Patch arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.png)
+![Patch arduino_pd_ascii_audio.pd](arduino_pd_ascii_audio.webp)

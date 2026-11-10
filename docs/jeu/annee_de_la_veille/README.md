@@ -18,7 +18,7 @@ Les joueuses et joueurs y incarnent à la fois les membres d’une communauté e
 
 Dans ce jeu, le mot **« veille »** porte un double sens. D’une part, il désigne **le jour précédent**, celui où des humains ont pris quelque chose d’essentiel à la communauté. D’autre part, la **veille** évoque l’état de vigilance, de garde ou de surveillance dans lequel la communauté est désormais plongée. Pendant toute l’année qui suit, ses membres vivent dans l’attente du retour annoncé, observant les signes du changement, se préparant à l’échéance et cherchant à préserver leur avenir malgré la menace. Ainsi, *L’année de la veille* est à la fois l’année qui suit **la veille du drame** et l’année passée **en état de veille**, dans l’attente inquiète de ce qui reviendra.
 
-![Exemples de parties complétées](./exemples.png)
+![Exemples de parties complétées](./exemples.webp)
 
 ## Qui nous sommes
 
@@ -36,7 +36,7 @@ Nous inscrivons le nom de notre communauté* en haut, au centre de la feuille.
 
 À droite de la feuille, nous tirons une grande section « Membres ».
 
-![Espace de jeu](./espace_de_jeu.png)
+![Espace de jeu](./espace_de_jeu.webp)
 
 ## Créer le monde
 

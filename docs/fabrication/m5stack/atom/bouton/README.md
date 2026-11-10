@@ -28,5 +28,5 @@ Pour effectuer une lecture, nous utilisons la fonction [digitalRead()](https://d
 int maLectureAtomBouton = digitalRead( BROCHE_ATOM_BOUTON );
 ```
 
-![](./digitalRead.drawio.png)
+![](./digitalRead.drawio.webp)
 

@@ -6,7 +6,7 @@ Dans cet exemple, les sources *alpha.toe* et *beta.toe* vont être converties en
 
 Tous les fichiers (*principal.toe*, *alpha.toe*, *beta.toe* ainsi que les fichiers générés *alpha.tox* et *beta.tox*) doivent idéalement se trouver dans le même dossier.
 
-![](./fileview.png)
+![](./fileview.webp)
 
 L’exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](toe_dans_toe_par_tox.zip)
 
@@ -16,13 +16,13 @@ L’exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](
 
 ### Exporter le contenu de *alpha.toe* en tant que *.tox*
 
-![Exportation d’alpha.toe en tant que .tox](./alpha_toe_to_tox.png)
+![Exportation d’alpha.toe en tant que .tox](./alpha_toe_to_tox.webp)
 
 ### Dans *principal.toe*, ajouter un *container* et y charger *alpha.tox*
 
-![Ajout d’un container](./container_add.png)
+![Ajout d’un container](./container_add.webp)
 
-![Charger alpha.tox dans le container](./container_configure_alpha.png)
+![Charger alpha.tox dans le container](./container_configure_alpha.webp)
 
 ### Faire la même chose pour *beta.toe*
 
@@ -31,7 +31,7 @@ L’exemple complet peut être téléchargé ici : [toe_dans_toe_par_tox.zip](
 
 ### Intégrer les deux patchs
 
-![Capture d’écran de principal.toe qui encapsule les deux .toe](./alpha_et_beta_dans_principal.png)
+![Capture d’écran de principal.toe qui encapsule les deux .toe](./alpha_et_beta_dans_principal.webp)
 
 ### Mises à jour
 

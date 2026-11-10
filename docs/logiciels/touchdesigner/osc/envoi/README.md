@@ -2,7 +2,7 @@
 
 ## Code TouchDesigner pour envoyer 1 donnée
 
-![](./td_osc_out_1val.png)
+![](./td_osc_out_1val.webp)
 * OP **resample1**
   * Paramètre **Sample Rate** = `50` : l’intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).
 * OP **rename2**
@@ -19,7 +19,7 @@
 
 ## Code TouchDesigner pour envoyer 3 données
 
-![](./td_osc_out_3val.png)
+![](./td_osc_out_3val.webp)
 * OP **merge1** : combine les valeurs à envoyer
 * OP **resample1**
   * Paramètre **Sample Rate** = `50` : l’intervalle à laquelle les données sont envoyées (50 Hz équivaut à chaque 20 millisecondes).

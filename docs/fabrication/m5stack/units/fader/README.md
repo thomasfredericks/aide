@@ -1,6 +1,6 @@
 # M5Stack Unit Fader : Glissière
 <!-- toc -->
-![](./fader.png)
+![](./fader.webp)
 
 ## Introduction
 

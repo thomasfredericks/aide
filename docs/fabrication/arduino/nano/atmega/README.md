@@ -1,8 +1,8 @@
 # Arduino Nano ATmega168 et ATmega32
 
-![Arduino Nano ATmega168](./arduino_nano_168.png)
+![Arduino Nano ATmega168](./arduino_nano_168.webp)
 
-![Arduino Nano ATmega328](./arduino_nano_328.png)
+![Arduino Nano ATmega328](./arduino_nano_328.webp)
 
 En bref, la seule différence entre ces deux modèles est la quantité de mémoire disponible.
 

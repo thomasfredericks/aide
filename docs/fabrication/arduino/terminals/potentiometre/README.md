@@ -29,7 +29,7 @@ Exemple de branchement sur Arduino Terminals :
 | Broche centrale (curseur) | A2 |
 | Autre broche extérieure | GND |
 
-![Un potentiomètre branché à un Arduino Terminals](./arduino_terminals_pot.png)
+![Un potentiomètre branché à un Arduino Terminals](./arduino_terminals_pot.webp)
 
 ## Utilisation
 

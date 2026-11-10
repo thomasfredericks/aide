@@ -9,11 +9,11 @@ Dans la démonstration qui suit, on veut que le volume des sons interactifs bais
 
 ### Grouper les pistes qui vont contrôler le volume de l’ambiance ou de la musique
 
-![ Cliquer le petit dossier pour grouper les pistes ](./grouper_pistes.png)
+![ Cliquer le petit dossier pour grouper les pistes ](./grouper_pistes.webp)
 
-![On voit ici les pistes groupées](./pistes_groupes.png)
+![On voit ici les pistes groupées](./pistes_groupes.webp)
 
-![Cliquer plusieurs fois sur le «dossier» de la piste au dessus de la piste d’ambiance/musique pour la dégrouper](./degrouper_piste.png)
+![Cliquer plusieurs fois sur le «dossier» de la piste au dessus de la piste d’ambiance/musique pour la dégrouper](./degrouper_piste.webp)
 
 ### Effectuer le routage du gorupe de sons interactifs vers l’entrée auxiliaire du compresseur de l’ambiance/musique
 

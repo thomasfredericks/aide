@@ -15,11 +15,11 @@ Il présente :
 
 ## Circuit
 
-![Broches de l’Arduino Nano R4](./arduino_nano_r4_pins.png)
+![Broches de l’Arduino Nano R4](./arduino_nano_r4_pins.webp)
 
-![Schéma du circuit](./schema.png)
+![Schéma du circuit](./schema.webp)
 
-![Dessin du circuit](./plaquette.png)
+![Dessin du circuit](./plaquette.webp)
 
 ## Chrono
 

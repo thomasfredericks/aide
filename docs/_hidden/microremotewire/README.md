@@ -2,7 +2,7 @@
 
 `MicroRemoteWire` est une micro-bibliothèque logicielle Arduino qui permet à un microcontrôleur Arduino d’en contrôler un autre via I2C/Wire.
 
-![Un M5Stack Atom POE allimente et contrôle trois plaquettes Arduino Nano.](./mrw_nano_poe.png)
+![Un M5Stack Atom POE allimente et contrôle trois plaquettes Arduino Nano.](./mrw_nano_poe.webp)
 
 Dans l’exemple illustré ci-haut, un M5Stack Atom POE **alimente** et **contrôle** plusieurs plaquettes Arduino Nano :
 - Le M5Stack Atom POE est le contrôleur, ce qui correspond au `MicroRemoteWireController` dans `MicroRemoteWire`.
@@ -130,4 +130,4 @@ Le pixel RGB de l’ATOM sert de témoin visuel pour indiquer différentes étap
 
 Dans le dossier `examples/controller-atompoe` du [git de MicroRemoteWire](https://github.com/thomasfredericks/MicroRemoteWire), il y a un le patch `osc_udp_controller-atompoe.pd` pour Pure Data qui démontrer comment communiquer avec le contrôleur. Ne pas oublier de modifier le nom mDNS du Atom POE dans la section jaune du patcher.
 
-![Patch Pure Data osc_udp_controller-atompoe.pd](./osc_udp_controller-atompoe.pd.png)
+![Patch Pure Data osc_udp_controller-atompoe.pd](./osc_udp_controller-atompoe.pd.webp)

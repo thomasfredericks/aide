@@ -8,7 +8,7 @@ Les principes **CRAP** (contraste, répétition, alignement et proximité), thé
 - [Clear and readable presentations](./crap_presentations.webp)
 - [PDF Lewis University Writing Center CRAP](./crap-resource-revised-pub.pdf)
 
-![](./crap.png)
+![](./crap.webp)
 
 ## Gestalt : Psychologie de la forme 
 
@@ -103,7 +103,7 @@ La proximité permet d’organiser l’information en regroupant les éléments 
 
 ![Exemple de grille d’alignement](./alignement.avif)
 
-![Exemple de correction d’alignement](./alignement_good_bad.png)
+![Exemple de correction d’alignement](./alignement_good_bad.webp)
 
 ![Exemple de regroupement](./group.avif)
 

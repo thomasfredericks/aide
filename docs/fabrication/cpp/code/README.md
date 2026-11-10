@@ -4,7 +4,7 @@
 
 ## Créer une variable
 
-![](./code_creation_variable.drawio.png)
+![](./code_creation_variable.drawio.webp)
 
 Une variable permet de stocker une valeur en mémoire afin de pouvoir l’utiliser ou la modifier dans le programme.
 

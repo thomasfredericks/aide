@@ -2,4 +2,4 @@
 
 ## Tension négative
 
-![](./ref_neg.png)
+![](./ref_neg.webp)

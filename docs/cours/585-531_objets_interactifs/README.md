@@ -1,4 +1,4 @@
-![](./cmontmorency_entete.png)
+![](./cmontmorency_entete.webp)
 
 # COURS : 582-531 OBJETS INTERACTIFS
 
@@ -555,6 +555,6 @@ Les étudiantes et étudiants peuvent rencontrer le professeur pour discuter des
 
 [![](./metier_etudiant.jpg)](https://cmontmorency365.sharepoint.com/sites/ZoneMomo/SitePages/tes-etudes/metier-etudiant.aspx)
 
-![](./aide_memoire_connexions1.png)
+![](./aide_memoire_connexions1.webp)
 
-![](./aide_memoire_connexions2.png)
+![](./aide_memoire_connexions2.webp)

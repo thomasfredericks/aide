@@ -8,9 +8,9 @@ L’unité **M5Stack Key Unit** est une unité d’entrée à une touche mécani
 
 L’unité expose deux interfaces numériques : l’une pour la détection de l’état de la touche (`KEY` ou `IN`), l’autre pour le contrôle du pixel (`LED` ou `OUT`).
 
-![Photo de l’avant du Key Unit](./key_unit.png)
+![Photo de l’avant du Key Unit](./key_unit.webp)
 
-![Photo de l’arrière du Key Unit](./key_unit_back.png)
+![Photo de l’arrière du Key Unit](./key_unit_back.webp)
 
 ## Connexion
 

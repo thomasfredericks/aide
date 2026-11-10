@@ -1,6 +1,6 @@
 # Broches du M5Stack Atom
 
-![Les broches du connecteur Grove du M5Stack Atom Lite](m5stack_atom_broches.png) 
+![Les broches du connecteur Grove du M5Stack Atom Lite](m5stack_atom_broches.webp) 
 
 ## Broches et leurs fonctions
 

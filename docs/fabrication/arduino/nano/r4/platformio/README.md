@@ -23,4 +23,4 @@ Sous Windows, parfois les pilotes ne sont pas installés automatiquement et doiv
 - Décompresser l’archive. 
 - Installer le pilote avec un clic droit sur le fichier `renesas.inf`.
 
-![Installation du pilote sous Windows](./installer_pilotes_windows.png)
+![Installation du pilote sous Windows](./installer_pilotes_windows.webp)

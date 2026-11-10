@@ -73,7 +73,7 @@ Dans l’extrait de code ci-haut, nous pouvons remplacer `// Si nécéssaire, ap
 
 Voici un exemple des étapes en image :
 
-![Nous ciblons la méthode StartGame() dans le script Game Manager qui est sur le GameObject Game Manager](./cible.png)
+![Nous ciblons la méthode StartGame() dans le script Game Manager qui est sur le GameObject Game Manager](./cible.webp)
 
-![Ajout d’une propriété de type du script GameManager. Appel de la méthode StartGame(). Lien de l’instance du script GameManager](./assigner.png)
+![Ajout d’une propriété de type du script GameManager. Appel de la méthode StartGame(). Lien de l’instance du script GameManager](./assigner.webp)
 

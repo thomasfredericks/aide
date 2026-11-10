@@ -6,8 +6,8 @@
 
 ## Ajouter une source Spout
 
-![](./ajout_source_spout.png)
+![](./ajout_source_spout.webp)
 
 ## Optionnellement, projeter la source Spout en plein écran
 
-![](./projeter_source_plein_ecran.png)
+![](./projeter_source_plein_ecran.webp)

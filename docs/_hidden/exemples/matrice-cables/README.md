@@ -5,9 +5,9 @@
 * Résistance de 100 Ohms dans broche #2.
 * Résistance de 10k Ohms entre broches #1 et #4.
 
-![](un.png)
+![](un.webp)
 
-![](deux.png)
+![](deux.webp)
 
 ## Code
 

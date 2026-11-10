@@ -25,7 +25,7 @@ lib_deps =
 MicroOscSlip<128> monOsc(&Serial); 
 ```
 
-![](./microosc_initialisation.drawio.png)
+![](./microosc_initialisation.drawio.webp)
 
 ### Dans `setup()`
 
@@ -53,7 +53,7 @@ Les arguments de `sendInt()` sont :
 - `adresse` : une chaîne de caractères (`const char *`) comme `"/but0"`, `"/apha"` ou `"/beta"` qui défini l’adresse OSC du message.
 - `valeur` : un entier (`int32_t`) qui est la valeur à envoyer.
 
-![](microosc_sendInt.drawio.png)
+![](microosc_sendInt.drawio.webp)
 
 Par exemple, pour envoyer la valeur de la variable `maVariable` à l’adresse OSC `/alpha` :
 ```cpp

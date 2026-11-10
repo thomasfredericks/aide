@@ -70,6 +70,6 @@ Une fois ces étapes complétées, le projet est versionné localement *et* sync
 
 Pour utiliser **Visual Studio Source Control**, *git* doit être bien configuré sur l’ordinateur. Dans l’image suivante, on constate que Git n’est pas configuré :
 
-![](./erreur_source_control.png)
+![](./erreur_source_control.webp)
 
 Pour régler le problème, il suffit de configurer l’identité de l’utilisateur Git : [Configuration de l’identité Git](../configuration/)

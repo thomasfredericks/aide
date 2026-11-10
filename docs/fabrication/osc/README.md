@@ -90,14 +90,14 @@ Pour recevoir un message , il faut simplement spécifier le port de réception.
 
 ##### Un client sur une machine --> un serveur sur une autre machine
 
-![Un client qui envoie des message à un serveur](OSC_unidirectionnel.png)
+![Un client qui envoie des message à un serveur](OSC_unidirectionnel.webp)
 
 ##### Une machine <--> une autre machine
 
-![Deux clients/serveurs](OSC_bidirectionnel.png)
+![Deux clients/serveurs](OSC_bidirectionnel.webp)
 
 ##### Un client --> un serveur sur la même machine
 
 L’architecture suivante  permet d’envoyer un message entre deux applications différentes sur la même machine (ou à l’intérieur de la même application). L’adresse IP  **localhost** ou **127.0.0.1** veut dire «la machine elle-même».
 
-![Un client qui envoie des message à un serveur local (sur la même machine)](OSC_mono.png)
+![Un client qui envoie des message à un serveur local (sur la même machine)](OSC_mono.webp)

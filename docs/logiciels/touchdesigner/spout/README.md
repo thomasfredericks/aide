@@ -2,4 +2,4 @@
 
 ## Ajouter et configurer un *TOP Syphon Spout In* dans TouchDesigner
 
-![](./configurer_spout_dans_td.png)
+![](./configurer_spout_dans_td.webp)

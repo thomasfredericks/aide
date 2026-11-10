@@ -6,20 +6,20 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://
 
 ### Groupes
 
-![](./groupes.png)
+![](./groupes.webp)
 
 ### Bascule
 
-![](./bascule.png)
+![](./bascule.webp)
 
 ### Inactif
 
-![](./inactif.png)
+![](./inactif.webp)
 
 ### Mise en évidence
 
-![](./evidence.png)
+![](./evidence.webp)
 
 ### Infobulle
 
-![](./infobulle.png)
+![](./infobulle.webp)

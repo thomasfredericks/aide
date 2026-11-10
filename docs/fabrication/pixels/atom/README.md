@@ -2,7 +2,7 @@
 
 Cette page décrit le câblage pour alimenter une **bande de LED 12 V** et transmettre le signal de données depuis un **Atom**.
 
-![Schéma du montage à effectuer](./bande-del_atom_schema.png) 
+![Schéma du montage à effectuer](./bande-del_atom_schema.webp) 
 
 Le montage comprend :
 
@@ -63,4 +63,4 @@ Le `GND` de l’Atom et le `GND` de la bande LED doivent être **communs** afin 
 
  
 
-![Photo du montage effectué](./bande-del_atom_photo.png)  
+![Photo du montage effectué](./bande-del_atom_photo.webp)  

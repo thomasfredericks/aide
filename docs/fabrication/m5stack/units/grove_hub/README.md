@@ -4,12 +4,12 @@
 
 Page officielle du produit : [Unit Hub](https://docs.m5stack.com/en/unit/hub)
 
-![](grove_hub_back.png)
+![](grove_hub_back.webp)
 
 Le **Grove Hub** permet de relier 3 modules **I2C/Wire** (qui sont reconnaissables à leur connecteur rouge) à 1 connecteur d’un microcontrôleur M5Stack.
 
 
-![](grove_hub_front.png)
+![](grove_hub_front.webp)
 
 > [!NOTE]
 > Le Grove Hub est un module passif. Utiliser le module PaHub pour un module actif.

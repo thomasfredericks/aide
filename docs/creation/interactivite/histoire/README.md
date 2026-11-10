@@ -3,7 +3,7 @@
 ## Ada Lovelace (1842)
 
 
-![](./ada.png)
+![](./ada.webp)
 
 **Augusta Ada King, comtesse de Lovelace** (1815–1852) est considérée comme **la première programmeuse informatique** de l’histoire.
 
@@ -35,11 +35,11 @@ Elle disait être guidée par des « êtres supérieurs » dans ses créations.
 
 > « Les peintures se sont peintes directement à travers moi, sans esquisse préliminaire et avec grande force Je n’avais aucune idée de ce que ces images allaient représenter, néanmoins je travaillais vite et avec assurance, sans changer aucun trait de pinceau. »​
 
-![](./hilma.png)
+![](./hilma.webp)
 
-![](./hilma2.png)
+![](./hilma2.webp)
 
-![](./hilma3.png)
+![](./hilma3.webp)
 
 ## Marcel Duchamp (1969)
 
@@ -49,7 +49,7 @@ Les ready-mades soulèvent de très nombreuses questions. Par exemple, parce qu�
 
 Pour Marcel Duchamp, « c’est le regardeur qui fait le tableau ».​ [Rotary Glass Plates (Precision Optics). 1969 on Vimeo](https://vimeo.com/29887718)
 
-![](./marcel.png)
+![](./marcel.webp)
 
 ## Jean Tinguely (1950-60)
 
@@ -80,7 +80,7 @@ Source : Le GRAV sur le site d’Artmag [archive](http://www.artmag.com/galeri
 
 > L’esthétique de l’image et du son est secondaire. La réactivité est le médium principal.
 
-![](./videoplace.png)
+![](./videoplace.webp)
 
 - [Videoplace - Myron Krueger](https://aboutmyronkrueger.weebly.com/videoplace.html)
 - [Myron Kreuger - Video Place - 1989 - YouTube](https://www.youtube.com/watch?v=dqZyZrN3Pl0)

@@ -41,7 +41,7 @@ Dans le même script, ajouter et adapter le code suivant à l’endroit où un m
 De retour dans l’éditeur Unity :
 - Lier le `OSCTransmitter` à la variable publique du script en glissant le GameObject `OSC` sur la variable correspondante dans l’inspecteur.
 
-![Glisser le GameObject OSC sur la variable oscTransmitter du script](./set_transmitter.png)
+![Glisser le GameObject OSC sur la variable oscTransmitter du script](./set_transmitter.webp)
 
 ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlqOWRxNGJkcHFwNDQ0bGRxdTJjZzY4eGdobGR4MWkwM3BrMzN0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kZtvCaHukCsOFbQfAV/giphy.gif)
 

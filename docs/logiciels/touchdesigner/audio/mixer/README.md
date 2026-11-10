@@ -3,4 +3,4 @@
 `OP` utilisé :
 - `Math CHOP`
 
-![](./math_add.png)
+![](./math_add.webp)

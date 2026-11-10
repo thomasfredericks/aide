@@ -8,17 +8,17 @@
 
 ### Ajouter des CHOP _Logic_ et _Null_
 
-![](bouton_logic-etat.png)
+![](bouton_logic-etat.webp)
 
 ###  Configurer les paramètres du _Logic_
 
-![](bouton_logic-etat_parameters.png)
+![](bouton_logic-etat_parameters.webp)
 
 ## Optionnel : ajouter un fondu à l’état du bouton
 
 ### Ajouter un CHOP _Filter_ entre les CHOP _Logic_ et _Null_
 
-![](bouton_etat_ajout-filtre.png)
+![](bouton_etat_ajout-filtre.webp)
 
 ###  Configurer les paramètres du _Filtre_
-![](bouton_etat_filtre_parameters.png)
+![](bouton_etat_filtre_parameters.webp)

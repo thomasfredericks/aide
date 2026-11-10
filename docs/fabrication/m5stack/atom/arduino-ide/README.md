@@ -26,7 +26,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ## Choisir la bonne plateforme
 
-![Configurer pour la bonne plateforme](configurer_plateforme.png)
+![Configurer pour la bonne plateforme](configurer_plateforme.webp)
 
 ## Identifier le port
 
@@ -34,5 +34,5 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ## Choisir le port
 
-![Configurer pour le bon port (le numéro de COM risque d’être différent)](configurer_port.png)
+![Configurer pour le bon port (le numéro de COM risque d’être différent)](configurer_port.webp)
 

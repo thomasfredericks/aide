@@ -13,7 +13,7 @@ flowchart LR
 
 ## Circuit
 
-![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade.png)
+![Circuit avec l’Arduino Terminals et un Arduino Nano](./arduino_terminals_arcade.webp)
 
 Brancher un [bouton d’arcade](/fabrication/electronique/composants/bouton/arcade/) au circuit :
 *   Un côté de l’interrupteur -> broche 2 de l’Arduino.
@@ -86,7 +86,7 @@ Ainsi que celles-ci :
     }
 ```
 
-![Le script InputProcess sur le GameObject EventSystem](./inputprocess_script.png)
+![Le script InputProcess sur le GameObject EventSystem](./inputprocess_script.webp)
 
 Nous arrivons à la conclusion que nous devons déclencher les méthodes suivantes :
 - `StarGame()` du script `GameManager`.
@@ -122,7 +122,7 @@ public class OscProcess : MonoBehaviour
 
 
 
-![Assignation de Player et GameManager au script OscProcess](./assigner_gamestate_et_player.png)
+![Assignation de Player et GameManager au script OscProcess](./assigner_gamestate_et_player.webp)
 
 ### Bouton dans Unity
 
@@ -172,7 +172,7 @@ Le patcher Pd `relais_osc_slip_vers_udp.pd` permet :
 - D’envoyer des messages OSC UDP à Unity.
 - De relayer les messages OSC SLIP reçus par `comport` en OSC UDP à Unity.
 
-![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.png)
+![Patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd.webp)
 
 Télécharger le patcher ici : [relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp.pd)
 
@@ -184,7 +184,7 @@ Il est possible de tester la réception de l’OSC dans Unity à l’aide de `pd
 - **format** : `i` (un entier)
 - **arguments** : `1`
 
-![Zoom sur une portion du patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd_zoom.png)
+![Zoom sur une portion du patcher relais_osc_slip_vers_udp.pd](./relais_osc_slip_vers_udp_pd_zoom.webp)
 
 
 > [!NOTE]

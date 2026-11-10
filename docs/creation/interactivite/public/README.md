@@ -20,7 +20,7 @@ Le public cible n’est donc pas nécessairement l’ensemble des personnes qui 
 
 ## Graphique de la taxonomie de Richard Bartle
 
-![Graphique de la taxonomie des types de joueurs de Richard Bartle](./joueurs_richard_bartle.drawio.png)
+![Graphique de la taxonomie des types de joueurs de Richard Bartle](./joueurs_richard_bartle.drawio.webp)
 
 - Axe horizontal : Joueurs/Ennemis ⟷ Monde
     - Joueurs/Ennemis : L’intérêt est centré sur les autres joueurs ou sur les ennemis. Le joueur cherche l’affrontement, la coopération ou l’interaction sociale.

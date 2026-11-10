@@ -4,11 +4,11 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://
 
 ## Couleur de marque
 
-![Choisir une couleur de marque](./une_couleur.png)
+![Choisir une couleur de marque](./une_couleur.webp)
 
-![Utiliser des dégradés de la couleur choisie](./brand_color.png)
+![Utiliser des dégradés de la couleur choisie](./brand_color.webp)
 
-![Échelle de couleur](./color_ramp.png)
+![Échelle de couleur](./color_ramp.webp)
 
 
 
@@ -16,18 +16,18 @@ Vidéo : [Every UI/UX Concept Explained in Under 10 Minutes - YouTube](https://
 
 Utiliser les couleurs avec intention, et non seulement pour de la décoration.
 
-![Attirer l’attention](./attirer_attention.png)
+![Attirer l’attention](./attirer_attention.webp)
 
-![Mettre en évidence l’élément actif](./focus.png)
+![Mettre en évidence l’élément actif](./focus.webp)
 
-![Nouveauté](./green.png)
+![Nouveauté](./green.webp)
 
 ### Indicateurs
 
-![Bleu : confiance](./blue_trust.png)
+![Bleu : confiance](./blue_trust.webp)
 
-![Rouge : danger ou urgence](./red_urgent_danger.png)
+![Rouge : danger ou urgence](./red_urgent_danger.webp)
 
-![Jaune : avertissement](./yellow_warning.png)
+![Jaune : avertissement](./yellow_warning.webp)
 
-![Vert : succès](./vert_succes.png)
+![Vert : succès](./vert_succes.webp)

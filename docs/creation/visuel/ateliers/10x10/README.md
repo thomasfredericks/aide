@@ -14,7 +14,7 @@ Commencez par trouver un nom et rédiger une description de la boisson. Ensuite,
 
 Ajouter un bloc de trente dernières minutes à la fin, où vous affinez vos cent croquis pour n’en retenir que trois versions finales, intégrant toutes vos meilleures idées.
 
-![](./portes.png)
+![](./portes.webp)
 
 ### Op art (art optique)
 
@@ -22,4 +22,4 @@ Les œuvres d’op art sont essentiellement abstraites. Les pièces donnent l’
 
 Remplir les 100 cases avec des itérations uniques de noir et de blanc de formes géométriques.
 
-![](./formes.png)
+![](./formes.webp)

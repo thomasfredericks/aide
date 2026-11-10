@@ -30,7 +30,7 @@ Branchement sur Arduino Terminals :
 | Une broche de l’interrupteur | 2 (entrée numérique) |
 | Autre broche de l’interrupteur | GND (via le négatif de la DEL) |
 
-![Un bouton d’arcade branché à un Arduino Terminals](./arduino_terminals_arcade.png)
+![Un bouton d’arcade branché à un Arduino Terminals](./arduino_terminals_arcade.webp)
 
 ```cpp
 #include <Arduino.h>
@@ -90,6 +90,6 @@ void loop()
 
 Le code Arduino peut être combiné avec ce patcher pour déclencher la lecture d’un fichier audio lorsqu’on appuie sur le bouton d’arcade.
 
-![Patcher arduino_pd_slip_audio.pd](./arduino_pd_slip_audio_pd.png)
+![Patcher arduino_pd_slip_audio.pd](./arduino_pd_slip_audio_pd.webp)
 
 Télécharger le patcher ici : [arduino_pd_slip_audio.pd](./arduino_pd_slip_audio.pd)

@@ -82,6 +82,6 @@ Dans l’extrait de code ci-haut, nous devons remplacer `// DESTINATION` par un 
 
 Voici un exemple des étapes en image :
 
-![Nous ciblons la méthode SetPosition() dans le script PlayerPaddle qui est sur le GameObject Player](./cible.png)
+![Nous ciblons la méthode SetPosition() dans le script PlayerPaddle qui est sur le GameObject Player](./cible.webp)
 
-![Ajout d’une propriété de type du script PlayerPaddle. Appel de la méthode SetPosition(). Lien de l’instance du script PlayerPaddle](./assigner.png)
+![Ajout d’une propriété de type du script PlayerPaddle. Appel de la méthode SetPosition(). Lien de l’instance du script PlayerPaddle](./assigner.webp)

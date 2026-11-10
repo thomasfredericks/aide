@@ -5,4 +5,4 @@
 Télécharger ici : [duree_actif.pd](./duree_actif.pd)
 
 
-![](./duree_actif_pd.png)
+![](./duree_actif_pd.webp)

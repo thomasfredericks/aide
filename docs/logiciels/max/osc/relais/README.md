@@ -2,14 +2,14 @@
 
 ## Installation de CNMAT
 
-![](./package_manager.png)
+![](./package_manager.webp)
 
-![](./package_manager_search.png)
+![](./package_manager_search.webp)
 
-![](./cnmat.png)
+![](./cnmat.webp)
 
 
 ## Patcher Pure Data pour le relais des messages OSC SLIP --> UDP 
 
-![](./relais_osc_slip_udp.png)
+![](./relais_osc_slip_udp.webp)
 

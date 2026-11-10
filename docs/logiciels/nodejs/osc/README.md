@@ -3,13 +3,13 @@
 
 ## Installation de Node.js
 
-![Installation de Node.js](./installation_nodejs.png)
+![Installation de Node.js](./installation_nodejs.webp)
 
 ## Téléchargement du code slipWebDemo.zip
 
-[![Cliquer pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.png)](./slipWebDemo.zip) 
+[![Cliquer pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.webp)](./slipWebDemo.zip) 
 
-![Décompresser le code](./extraire_slipWebDemo.png) 
+![Décompresser le code](./extraire_slipWebDemo.webp) 
 
 ## Configuration et démarrage de «slipWebDemo
 
