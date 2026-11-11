@@ -6,7 +6,6 @@ Les principes **CRAP** (contraste, répétition, alignement et proximité), thé
 - [How to Use C.R.A.P. Design Principles For Better UX? | Wingify](https://wingify.com/blog/crap-design-principles/)
 - [Les principes CRAP — EduTech Wiki](https://edutechwiki.unige.ch/fr/Les_principes_CRAP)
 - [Clear and readable presentations](./crap_presentations.webp)
-- [PDF Lewis University Writing Center CRAP](./crap-resource-revised-pub.pdf)
 
 ![](./crap.webp)
 
