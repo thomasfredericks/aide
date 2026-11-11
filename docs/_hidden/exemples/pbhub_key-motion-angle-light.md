@@ -10,7 +10,7 @@
 
 Brancher les Units Angle, Motion, Light et Key au PbHub. Noter les canaux utilisés pour chaque module.
 
-![Des UNITS KEY, LIGHT, PIR et ANGLE connectés au PbHub v1.1](pbhub_key-motion-angle-light.jpg)
+![Des UNITS KEY, LIGHT, PIR et ANGLE connectés au PbHub v1.1](pbhub_key-motion-angle-light.webp)
 
 
 ## Le code préalable à intégrer

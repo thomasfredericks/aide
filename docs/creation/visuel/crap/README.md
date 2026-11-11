@@ -18,7 +18,7 @@ Lorsque des éléments sont alignés ou organisés de manière symétrique, le c
 
 À l’inverse, rompre la symétrie ou casser un alignement attire l’œil et peut servir à créer une tension, une hiérarchie ou un effet de surprise dans la composition.
 
-![Composition avec des lois de la Gestalt (Théorie et design dans l’Âge de la Nouvelle Objectivité, 2011). Par Akermariano — Travail personnel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=27561766](./Gestalt_Principles_Composition.jpg)
+![Composition avec des lois de la Gestalt (Théorie et design dans l’Âge de la Nouvelle Objectivité, 2011). Par Akermariano — Travail personnel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=27561766](./Gestalt_Principles_Composition.webp)
 
 
 ## C : Contraste

@@ -33,10 +33,10 @@ Le connecteur Grove peut être configuré pour utiliser ou pas des résistances 
 
 ## Soudure du connecteur Grove
 
-![Connecteur non soudé fixé avec du ruban](./terminals_grove_ruban.jpg)
+![Connecteur non soudé fixé avec du ruban](./terminals_grove_ruban.webp)
 
-![Connecteur non soudé](./terminals_grove_unsoldered.jpg)
+![Connecteur non soudé](./terminals_grove_unsoldered.webp)
 
-![Vue en dessous du connecteur soudé](./terminals_grove_soldereed.jpg)
+![Vue en dessous du connecteur soudé](./terminals_grove_soldereed.webp)
 
-![Vue du connecteur Grove soudé](./terminals_grove_done.jpg)
+![Vue du connecteur Grove soudé](./terminals_grove_done.webp)

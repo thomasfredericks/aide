@@ -6,7 +6,7 @@
 
 ![Schéma pour la mesure de la capacitance](./schematic.svg)
 
-![Première photo du circuit](./circuit_photo.jpg)
+![Première photo du circuit](./circuit_photo.webp)
 
 ![Deuxième photo du circuit](./photo_circuit.webp)
 

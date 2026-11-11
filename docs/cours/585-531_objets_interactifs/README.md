@@ -561,7 +561,7 @@ Les étudiantes et étudiants peuvent rencontrer le professeur pour discuter des
 
 ## Annexes
 
-[![](./metier_etudiant.jpg)](https://cmontmorency365.sharepoint.com/sites/ZoneMomo/SitePages/tes-etudes/metier-etudiant.aspx)
+[![](./metier_etudiant.webp)](https://cmontmorency365.sharepoint.com/sites/ZoneMomo/SitePages/tes-etudes/metier-etudiant.aspx)
 
 ![](./aide_memoire_connexions1.webp)
 

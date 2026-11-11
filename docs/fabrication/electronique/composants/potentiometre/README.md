@@ -103,4 +103,4 @@ Version plate sans pièces mécaniques mobiles. Avantages :
 - Étanche aux poussières
 - Intégré dans certains claviers et contrôles tactiles
 
-![Potentiomètre à membrane](./membrane.jpg)
+![Potentiomètre à membrane](./membrane.webp)

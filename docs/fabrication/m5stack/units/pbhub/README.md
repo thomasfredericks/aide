@@ -7,7 +7,7 @@ Le M5Stack PbHub v1.1 permet de brancher jusqu’à 6 capteurs numériques ou an
 
 ![](pbhub_front.webp)
 
-![](pbhub_back.jpg)
+![](pbhub_back.webp)
 
 > [!WARNING]
 > La version 1.1 du PbHub a un bogue majeur qui ne permet de contrôler qu’un seul pixel par canal (plutôt qu’un nombre arbitraire)

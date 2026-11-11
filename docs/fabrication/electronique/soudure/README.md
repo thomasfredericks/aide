@@ -2,19 +2,19 @@
 
 ## Équipement essentiel
 
-![Plusieurs modèles de fer à souder (JOEL_E_B, s. d.)](./soldering-iron.jpg)
+![Plusieurs modèles de fer à souder (JOEL_E_B, s. d.)](./soldering-iron.webp)
 
 ![Bobine de soudure 60/40 0.031" (ADAFRUIT)](./micro-soudure_bobine.webp)
 
-![Nettoyeur de pointe (JOEL_E_B, s. d.)](./brass_sponge.jpg)
+![Nettoyeur de pointe (JOEL_E_B, s. d.)](./brass_sponge.webp)
 
-![Pompe à dessouder (JOEL_E_B, s. d.)](./solder_vacuum.jpg)
+![Pompe à dessouder (JOEL_E_B, s. d.)](./solder_vacuum.webp)
 
 ![Pince à dénuder](./micro-soudure_pince_denuder.svg)
 
-![Pince à couper latérale de précision (flush cutters) (JOEL_E_B, s. d.)](./flush_cutters.jpg)
+![Pince à couper latérale de précision (flush cutters) (JOEL_E_B, s. d.)](./flush_cutters.webp)
 
-![Pince à long bec (JOEL_E_B, s. d.)](./needle_nose.jpg)
+![Pince à long bec (JOEL_E_B, s. d.)](./needle_nose.webp)
 
 ## Technique
 

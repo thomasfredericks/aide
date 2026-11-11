@@ -16,7 +16,7 @@ Les tableaux suivants présentent les numéros des broches et leurs fonctions.
 
 ### Connecteur HY2.0-4P Grove et son câble
 
-![](./grove_connector.jpg)
+![](./grove_connector.webp)
 
 | **ESP32-PICO-D4** | **I2C**  | **Analogique** | **Câble HY2.0-4P Grove** |
 |---------|-----|---------|--------------|

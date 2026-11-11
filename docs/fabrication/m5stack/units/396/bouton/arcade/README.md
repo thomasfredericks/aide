@@ -107,7 +107,7 @@ Pour le Unit 3.96 la logique de connexion générique correspond aux connexions 
 - Les deux GND sont branchés ensemble.
 - Une broche de l’interrupteur, le #1/blanc du 3.96 et une broche de la résistance sont branchés ensemble.
 
-![Connexion du bouton au Unit 3.96 avec une résistance](./unit_396_bouton_arcade_pull-up.jpg)
+![Connexion du bouton au Unit 3.96 avec une résistance](./unit_396_bouton_arcade_pull-up.webp)
 
 ### Code
 
