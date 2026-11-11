@@ -449,20 +449,20 @@ Savoirs essentiels et critères d’évaluation :
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
 | --- | --- | --- | --- | --- |
-| EVAL-3 | Présentation en classe | En équipe  | Séance 15 | 34 % |
+| EVAL-3 | Présentation en classe | En équipe de 2 à 3  | Séance 15 | 34 % |
 
-Concevoir et fabriquer un puzzle interactif pouvant être intégré à un *escape game*.  Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc.
+Concevoir et fabriquer un puzzle interactif qui pourrait faire partie d'un jeu d'évasion (*escape game* en anglais). Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc. Il doit avoir trois niveaux de difficulté, ou trois puzzles.
+Exemple : Le joueur doit identifier 4 symboles → les entre dans le bon ordre en appuyant sur des boutons → Arduino vérifie la combinaison → un servomoteur déverrouille la boîte → un nouvel indice apparaît.
 
-Savoirs essentiels et critères d’évaluation :
-
-- Intégrer plusieurs microcontrôleurs à un microordinateur (Raspberry PI) distant.
+Critères d’évaluation :
+<!-- - Intégrer plusieurs microcontrôleurs à un microordinateur (Raspberry PI) distant. -->
+- En équipe de 2 à 3 (idéalement 3).
 - Le puzzle doit comporter au moins 3 éléments électroniques **différents**.
-- Le joueur doit effectuer au moins deux étapes logiques pour résoudre le puzzle. Exemple : Le joueur trouve 4 symboles → les entre dans le bon ordre → Arduino vérifie la combinaison → un servo déverrouille une boîte → un nouvel indice apparaît.
-- Imprimer un objet 3D qui intègre les transducteurs.
-- Idéalement le projet ne dépend pas d’un écran et utilise des DEL ou un servomoteur pour indiquer l’état.
-- Un petit écran pourrait être **intégré** à l’objet 3D.
-- Il doit y avoir un aspect sonore.
-- Démontrer le contrôle de la panoramique et du volume du son.
+- Imprimer en 3D un objet 3D ou un panneau qui intègre les capteurs et lumières.
+- Utiliser les lumières DEL pour des indices ou indiquer l'état.
+- Il peut y avoir un aspect sonore et visuel (utiliser l'écran et les casques de l'ordinateur).
+
+Savoirs essentiels :
 - Valider la faisabilité technique d’un système électronique interactif : 50 %.
 - Adapter la programmation aux technologies électroniques interactives : 50 %.
 
