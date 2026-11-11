@@ -336,7 +336,7 @@ Activités en classe :
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode coordonnateur Wire/I2C.
 	- Tester avec le code de test [osc_slip_test](/logiciels/pd/osc/slip/osc_slip_test.pd)
 	- Intégrer l'encodeur avec le projet Unity [rouler_unity](https://github.com/thomasfredericks/rouler_unity).
-		- [Bind int vers argument float](/logiciels/unity/osc/extosc/bind/int_float/) de la rotation vers la méthode `AddTorque(float torque)` du script `Player`.
+		- [Bind int vers argument float](/logiciels/unity/osc/extosc/bind/int_float/) de la rotation vers la méthode `AddTorque(float torque)` du script `Player`. Configurer pour une entrée entre 0 et 1 et une sortie entre -40 et 40.
 		- [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) du bouton  vers la méthode `Jump()` du script `Player`.
 - Introduction à l’impression 3D avec :
 	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
