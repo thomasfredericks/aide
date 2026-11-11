@@ -334,6 +334,7 @@ Activités en classe :
 - `rouler_arduino` :
 	- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode coordonnateur Wire/I2C.
+	- Tester avec le code de test [osc_slip_test](/logiciels/pd/osc/slip/osc_slip_test.pd)
 	- Intégrer l'encodeur avec le projet Unity [rouler_unity](https://github.com/thomasfredericks/rouler_unity).
 		- [Bind int vers argument float](/logiciels/unity/osc/extosc/bind/int_float/) de la rotation vers la méthode `AddTorque(float torque)` du script `Player`.
 		- [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) du bouton  vers la méthode `Jump()` du script `Player`.
