@@ -340,7 +340,8 @@ Activités en classe :
 		- [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) du bouton  vers la méthode `Jump()` du script `Player`.
 - Introduction à l’impression 3D avec :
 	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
-	- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
+		- Tutoriels : [tinkercad.com/learn/designs](https://www.tinkercad.com/learn/designs)
+
 
 ## Semaine 12 : 18 novembre
 
@@ -350,9 +351,8 @@ Activités en classe :
 
 Activités en classe :
 
-- Introduction à l’impression 3D avec :
-	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
-	- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
+
+- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
