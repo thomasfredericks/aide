@@ -612,7 +612,7 @@ Savoirs essentiels et critères d’évaluation :
 ### Évaluation 4 : Hypothèse (intégration des apprentissages)
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | --- |
 | EVAL-4 | Exposé oral | Individuel au sein d’une équipe | Séance 15 | 28 % |
 
 Savoirs essentiels et critères d’évaluation :
