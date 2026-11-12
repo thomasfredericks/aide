@@ -443,12 +443,12 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 
 ### Sommaire des évaluations
 
-| Évaluation | Titre | Date | % |
-| --- | --- | --- | ---: |
+| Évaluation | Titre | Date | Pourcentage |
+| --- | --- | --- | --- |
 | EVAL-1 | Analyse de projet | Séance 3 | 24 % |
 | EVAL-2 | Jeu de carte | Séance 7 | 24 % |
 | EVAL-3 | Pitch | Séance 11 | 24 % |
-| EVAL-4 | Hypothèse * | Séance 15 | 28	 % |
+| EVAL-4 | Hypothèse * | Séance 15 | 28	% |
 | | **Total** | | **100 %** |
 
 * : intégration des apprentissages.
@@ -456,7 +456,7 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 ### Évaluation 1 : Analyse de projet
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | --- |
 | EVAL-1 | Exposé oral | Individuel | Semaine 3 | 24 % |
 
 Savoirs essentiels et critères d’évaluation :
@@ -517,7 +517,7 @@ l’émotion, le timbre, la structure, les références en utilisant la [banque 
 ### Évaluation 2 : Jeu de cartes
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | --- |
 | EVAL-2 | Document imprimé | Équipe | Semaine 7 | 24 % |
 
 Savoirs essentiels et critères d’évaluation :
@@ -541,7 +541,7 @@ Remise : 
 ### Évaluation 3 : Pitch
 
 | Identification | Forme | Individuel ou en équipe | Date de l’évaluation ou de la remise | % |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | --- | --- |
 | EVAL-3 | Exposé oral | Individuel | Séance 11 | 24 % |
 
 Description de l’évaluation : Présenter devant la classe un pitch de 4 à 5 minutes qui présente une expérience multimédia interactive pour un public cible d’interacteurs de type « tueurs », « accomplisseurs » ou « sociables ». 
@@ -562,7 +562,7 @@ Contexte de l’évaluation : Apprendre à présenter rapidement un concept est
 
 Critères **évalués** d’exécution du pitch :
 
-| Exécution | Détails  |
+| Exécution | Détails |
 | --- | --- |
 | Respect de la durée | 4 à 5 minutes.  |
 | Expression | Sur le plan de base et factuel, le pitch a-t-il réussi à exprimer le concept ? |

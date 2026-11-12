@@ -332,15 +332,15 @@ Activités en classe :
 
 
 - `rouler_arduino` :
-	- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
+	- [M5Stack Unit Encoder : Encodeur (capteur) de rotation](/fabrication/m5stack/units/encoder/) : Introduction à Wire/I2C.
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode coordonnateur Wire/I2C.
 	- Tester avec le code de test [osc_slip_test](/logiciels/pd/osc/slip/osc_slip_test.pd)
-	- Intégrer l'encodeur avec le projet Unity [rouler_unity](https://github.com/thomasfredericks/rouler_unity).
+	- Intégrer l’encodeur avec le projet Unity [rouler_unity](https://github.com/thomasfredericks/rouler_unity).
 		- [Bind int vers argument float](/logiciels/unity/osc/extosc/bind/int_float/) de la rotation vers la méthode `AddTorque(float torque)` du script `Player`. Configurer pour une entrée entre 0 et 1 et une sortie entre -40 et 40.
 		- [Bind int traité dans un if](/logiciels/unity/osc/extosc/bind/int_if/) du bouton  vers la méthode `Jump()` du script `Player`.
 - Introduction à l’impression 3D avec :
 	- Modélisation : [Tinker Cad](https://www.tinkercad.com/) 
-		- Tutoriels : [tinkercad.com/learn/designs](https://www.tinkercad.com/learn/designs)
+		- Tutoriels : [tinkercad.com/learn/designs](https://www.tinkercad.com/learn/designs)
 
 
 ## Semaine 12 : 18 novembre
@@ -356,7 +356,7 @@ Activités en classe :
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
-- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
+- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
 	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode direct.
 - I2C :
 	- TOF.
@@ -451,7 +451,7 @@ Savoirs essentiels et critères d’évaluation :
 | --- | --- | --- | --- | --- |
 | EVAL-3 | Présentation en classe | En équipe de 2 à 3  | Séance 15 | 34 % |
 
-Concevoir et fabriquer un puzzle interactif qui pourrait faire partie d'un jeu d'évasion (*escape game* en anglais). Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc. Il doit avoir trois niveaux de difficulté, ou trois puzzles.
+Concevoir et fabriquer un puzzle interactif qui pourrait faire partie d’un jeu d’évasion (*escape game* en anglais). Le joueur doit manipuler des objets, observer des indices et résoudre une énigme afin de déclencher une action : ouverture d’un mécanisme, allumage d’un voyant, affichage d’un code, déverrouillage d’une boîte, déclenchement d’un son, etc. Il doit avoir trois niveaux de difficulté, ou trois puzzles.
 Exemple : Le joueur doit identifier 4 symboles → les entre dans le bon ordre en appuyant sur des boutons → Arduino vérifie la combinaison → un servomoteur déverrouille la boîte → un nouvel indice apparaît.
 
 Critères d’évaluation :
@@ -459,8 +459,8 @@ Critères d’évaluation :
 - En équipe de 2 à 3 (idéalement 3).
 - Le puzzle doit comporter au moins 3 éléments électroniques **différents**.
 - Imprimer en 3D un objet 3D ou un panneau qui intègre les capteurs et lumières.
-- Utiliser les lumières DEL pour des indices ou indiquer l'état.
-- Il peut y avoir un aspect sonore et visuel (utiliser l'écran et les casques de l'ordinateur).
+- Utiliser les lumières DEL pour des indices ou indiquer l’état.
+- Il peut y avoir un aspect sonore et visuel (utiliser l’écran et les casques de l’ordinateur).
 
 Savoirs essentiels :
 - Valider la faisabilité technique d’un système électronique interactif : 50 %.
