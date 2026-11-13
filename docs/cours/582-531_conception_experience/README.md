@@ -14,7 +14,7 @@
 - Département de la professeure ou du professeur : Techniques d’intégration multimédia
 - Courriel : ThomasOuellet.Fredericks@cmontmorency.qc.ca
 - Bureau : C-1649
-- Plateforme(s) pédagogique(s) utilisée(s) :  Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
+- Plateforme(s) pédagogique(s) utilisée(s) : Teams, GitHub et [t-o-f.info/aide](https://t-o-f.info/aide/)
 - Coordination : Lora Boisvert
 - Contact de la coordination : lora.boisvert@cmontmorency.qc.ca (C-1651)
 
