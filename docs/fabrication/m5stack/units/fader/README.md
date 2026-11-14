@@ -49,6 +49,15 @@ lib_deps =
     FastLED
 ```
 
+Dans le fichier **platformio.ini** ajouter aussi les sections suivantes pour un **Arduino Nano R4** : 
+```
+lib_ignore = 
+    I2S
+    WiFiS3
+build_flags =
+    -DARDUINO_UNOR4_MINIMA
+```
+
 ## Initialisation
 
 ### Dans l’espace global
@@ -60,8 +69,8 @@ Ajouter la bibliothèque logicielle FastLED:
 
 Bien que cela ne soit pas absolument nécessaire, c’est une bonne idée d’utiliser des `#define` pour identifier les numéros de broches :
 ```cpp
-#define FADER_BROCHE_ANALOG A4
-#define FADER_BROCHE_PIXELS A5
+#define FADER_BROCHE_ANALOG SCL
+#define FADER_BROCHE_PIXELS SDA
 ```
 
 Ajouter une variable de type CRGB Array pour le pixel du **M5Stack Fader Unit** :
@@ -194,46 +203,98 @@ void applyPalette(int offset) {
 Exemple de décalage de la palette selon la position de la glissière :
 
 ```cpp    
+#
 #include <Arduino.h>
 // ...
 #include <FastLED.h>
-#define FADER_BROCHE_ANALOG A4
-#define FADER_BROCHE_PIXELS A5
+#define FADER_BROCHE_ANALOG SCL // SCL
+#define FADER_BROCHE_PIXELS SDA // SDA
 #define FADER_COMPTE_PIXELS 14
 CRGB faderTableauPixels[FADER_COMPTE_PIXELS];
-DEFINE_GRADIENT_PALETTE( gradient ) {
-    0,    0,  10,  40,   // deep blue
-   60,    0, 120,  90,   // teal-green
-  130,   40, 220, 120,   // green
-  190,  120, 200, 255,   // light cyan-blue
-  255,   30,  20, 120    // back to deep blue-violet
+// DEFINE_GRADIENT_PALETTE(gradient){
+//     0, 0, 10, 40,       // deep blue
+//     60, 0, 120, 90,     // teal-green
+//     130, 40, 220, 120,  // green
+//     190, 120, 200, 255, // light cyan-blue
+//     255, 30, 20, 120    // back to deep blue-violet
+// };
+DEFINE_GRADIENT_PALETTE(gradient){
+    0, 255, 0, 0,       // red
+
+    255,255,255,0       // yellow
 };
-CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
+CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 // ...
 
-void setup() {
+void setup()
+{
+    Serial.begin(115200);
+    delay(2000);
+    Serial.println(SDA);
+    Serial.println(SCL);
     // ...
-    FastLED.addLeds<WS2812, FADER_BROCHE_PIXELS, GRB>( faderTableauPixels , FADER_COMPTE_PIXELS);
-    pinMode( FADER_BROCHE_ANALOG , INPUT );
+    FastLED.addLeds<WS2812, FADER_BROCHE_PIXELS, GRB>(faderTableauPixels, FADER_COMPTE_PIXELS);
+    pinMode(FADER_BROCHE_ANALOG, INPUT);
     // ...
 }
 
-void applyPalette(int offset) {
-    for (int i = 0; i < FADER_COMPTE_PIXELS; i++) {
-        uint8_t indexPalette = map(i, 0, FADER_COMPTE_PIXELS - 1, 0, 255) + offset;
-        faderTableauPixels[i] = ColorFromPalette(palette, indexPalette, 255, LINEARBLEND);
+// Maps the palette gradient over `segmentPixelCount` pixels starting at
+// `segmentPixelStart`, but only writes pixels falling in [start .. start+count-1]
+// (indices relative to the segment). Pixels outside that window are left
+// untouched
+// pixels:             the pixel array
+// palette:            the CRGBPalette16 to draw from.
+// segmentPixelStart:  strip index of the first pixel of the segment.
+// segmentPixelCount:  length of the gradient mapping (from segmentPixelStart).
+// start:              first pixel (segment-relative) to write.
+// count:              how many pixels to write (0 = none).
+// offset:             palette rotation offset.
+// invert:             true for Z-folded
+void applyPalette(CRGB* pixels,const CRGBPalette16& palette,
+                  int segmentPixelStart, int segmentPixelCount,
+                  int start, int count,
+                  uint8_t offset = 0, bool invert = false)
+{
+    if (count < 1) return;
+    if (segmentPixelCount < 1) return;
+    if (start < 0) start = 0;
+    if (start + count > segmentPixelCount)
+        count = segmentPixelCount - start;      // clip to segment
+    if (count < 1) return;
+
+    for (int i = 0; i < count; i++)
+    {
+        int segPos = start + i;                 // position within the segment
+
+        // Written index: mirrored within the segment when inverted.
+        int writePos = invert ? segmentPixelCount - 1 - segPos : segPos;
+
+
+        int indexPalette = (segPos * 256) / (segmentPixelCount ) + offset;
+        uint8_t indexPalette8 = indexPalette % 256;
+        pixels[segmentPixelStart + writePos] =
+            ColorFromPalette(palette, indexPalette8, 255, LINEARBLEND);
     }
 }
 
-void loop() {
+void loop()
+{
     // ...
-    int positionDuFader = analogRead( FADER_BROCHE_ANALOG );
+    int positionDuFader = analogRead(FADER_BROCHE_ANALOG);
+    Serial.println(positionDuFader);
     // Calculer le décalage de la palette selon la position de la glissière
-    int decalageDePalette = map(positionDuFader, 0, 1023, 0, 255);
-    applyPalette(decalageDePalette);
+    int lightUpCount = map(positionDuFader, 0, 640, 7, 0);
+    lightUpCount = constrain(lightUpCount,0,7);
+    const int start = 0;
+    const int offset = 0;
+    FastLED.clear();
+    applyPalette(faderTableauPixels, palette,0,7,start,lightUpCount,offset,false); // pixels 0 à 6
+    applyPalette(faderTableauPixels, palette,7,7,start,lightUpCount,offset,true); // pixels 7 à 13 (inversés)
+    
     // ...
     FastLED.show();
     // ...
+    delay(20);
 }
 ```
 

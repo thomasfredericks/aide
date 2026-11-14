@@ -380,20 +380,23 @@ Activités en classe :
 Activités en classe :
 
 - **Évaluation**.
+- Former son équipe pour l’évaluation finale.
+- Détermination des qualités d’un bon collaborateur.
+- Rédaction de la mission d’équipe.
+- Cartes en ligne.
 
 ## Semaine 12 : 23 novembre / 19 novembre
 
 À préparer avant la classe :
 
-- Former son équipe pour l’évaluation finale.
+- Commencer le travail final.
 
 Activités en classe :
 
-- Détermination des qualités d’un bon collaborateur.
 - Activités formatives sur l’esthétique :
 	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
-- Rédaction de la mission d’équipe.
 - Rétroaction en interactivité.
+- Cartes en ligne.
 	
 ## Semaine 13 : 30 novembre / 26 novembre
 
