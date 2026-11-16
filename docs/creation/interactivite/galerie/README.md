@@ -183,6 +183,8 @@ Un **jeu vidéo** est un jeu dans lequel un système automatisé est responsable
 - [Samuel St-Aubin – Artiste En Nouveaux Médias](http://www.samuelstaubin.com/)
 - [Projets – Adrien M & Claire B](https://www.am-cb.net/projets)
 - [Andrée-Anne Roussel – arts numériques & cinéma](https://andreeanneroussel.com/)
+- [Bill Vorn Homepage](https://billvorn.concordia.ca/menuall.html)
+- [Home - Philomène Longpré](https://www.philox.net/)
 
 ## Artistes du numérique
 
