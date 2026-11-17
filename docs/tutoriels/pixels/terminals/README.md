@@ -223,6 +223,8 @@ void loop()
 ## Exemple de palette et position XY
 
 ```cpp
+
+
 #include <Arduino.h>
 #include <FastLED.h>
 #include <Chrono.h>
@@ -270,15 +272,17 @@ void loop()
     if (monChronoPixels.hasPassed(20))
     {
         monChronoPixels.restart();
-
-        compteur = compteur + 1; // overflow 0-255
+        uint8_t speed = 1;
+        compteur = compteur + speed; // overflow 0-255
  
         for (int i = 0; i < MES_PIXELS_LARGEUR ; i++)
         {
             uint8_t zoom = 18; // 0-255
             uint8_t paletteIndex = compteur + i*zoom;           // overflows 0-255
             CRGB color = ColorFromPalette(palette, paletteIndex, 255, LINEARBLEND);
-            mesPixels[XY(i,0)] = color ;
+            for ( int j = 0 ; j < MES_PIXELS_HAUTEUR; j ++ ) {
+                mesPixels[XY(i,j, true)] = color ;
+            }
         }
         FastLED.show();
     }
