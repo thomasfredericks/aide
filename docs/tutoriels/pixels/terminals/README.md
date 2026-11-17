@@ -223,8 +223,6 @@ void loop()
 ## Exemple de palette et position XY
 
 ```cpp
-
-
 #include <Arduino.h>
 #include <FastLED.h>
 #include <Chrono.h>
@@ -232,31 +230,35 @@ void loop()
 #define MES_PIXELS_BROCHE 3
 #define MES_PIXELS_LARGEUR 15
 #define MES_PIXELS_HAUTEUR 2
-#define MES_PIXELS_COMPTE MES_PIXELS_HAUTEUR * MES_PIXELS_LARGEUR
+#define MES_PIXELS_COMPTE MES_PIXELS_HAUTEUR *MES_PIXELS_LARGEUR
 CRGB mesPixels[MES_PIXELS_COMPTE];
 
 Chrono monChronoPixels;
 uint8_t compteur;
 
-DEFINE_GRADIENT_PALETTE( gradient ) {
-    0,    0,  255,  0,   //  green
-    127,    0,  0, 255,  // blue 
-    255,   255,  0, 0    // red
+DEFINE_GRADIENT_PALETTE(gradient){
+    0, 0, 255, 0,   //  green
+    127, 0, 0, 255, // blue
+    255, 255, 0, 0  // red
 };
 CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 
-
 // Convert X,Y to array index
-uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false) {
+uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
+{
     // Handle out of bounds
-    if (x >= MES_PIXELS_LARGEUR || y >= MES_PIXELS_HAUTEUR) {
+    if (x >= MES_PIXELS_LARGEUR || y >= MES_PIXELS_HAUTEUR)
+    {
         return 0;
     }
-    if (serpentine && y & 0x01) {
+    if (serpentine && y & 0x01)
+    {
         // If serptentine, ddd rows run backwards
         uint8_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
         return (y * MES_PIXELS_LARGEUR) + reverseX;
-    } else {
+    }
+    else
+    {
         // Even rows run forwards
         return (y * MES_PIXELS_LARGEUR) + x;
     }
@@ -274,14 +276,15 @@ void loop()
         monChronoPixels.restart();
         uint8_t speed = 1;
         compteur = compteur + speed; // overflow 0-255
- 
-        for (int i = 0; i < MES_PIXELS_LARGEUR ; i++)
+
+        for (int x = 0; x < MES_PIXELS_LARGEUR; x++)
         {
-            uint8_t zoom = 18; // 0-255
-            uint8_t paletteIndex = compteur + i*zoom;           // overflows 0-255
-            CRGB color = ColorFromPalette(palette, paletteIndex, 255, LINEARBLEND);
-            for ( int j = 0 ; j < MES_PIXELS_HAUTEUR; j ++ ) {
-                mesPixels[XY(i,j, true)] = color ;
+            for (int y = 0; y < MES_PIXELS_HAUTEUR; y++)
+            {
+                uint8_t zoom = 18;                          // 0-255
+                uint8_t paletteIndex = compteur + x * zoom; // overflows 0-255
+                CRGB color = ColorFromPalette(palette, paletteIndex, 255, LINEARBLEND);
+                mesPixels[XY(x, y, true)] = color;
             }
         }
         FastLED.show();
@@ -367,3 +370,80 @@ void loop() {
 
 ```
 -->
+
+## Exemple de feu
+
+```cpp
+#include <Arduino.h>
+#include <FastLED.h>
+#include <Chrono.h>
+
+#define MES_PIXELS_BROCHE 3
+#define MES_PIXELS_LARGEUR 7
+#define MES_PIXELS_HAUTEUR 2
+#define MES_PIXELS_COMPTE MES_PIXELS_HAUTEUR *MES_PIXELS_LARGEUR
+CRGB mesPixels[MES_PIXELS_COMPTE];
+
+Chrono monChronoPixels;
+
+
+DEFINE_GRADIENT_PALETTE(gradient){
+    0, 0, 0, 0,   //  black
+    100 ,0 , 0 , 0, // black
+    127, 255, 255, 0, // yellow
+    160, 255, 0, 0, // red
+    190, 255, 255, 0,
+    255, 255, 255, 0  // purple
+};
+CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
+
+// Convert X,Y to array index
+uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
+{
+    // Handle out of bounds
+    if (x >= MES_PIXELS_LARGEUR || y >= MES_PIXELS_HAUTEUR)
+    {
+        return 0;
+    }
+    if (serpentine && y & 0x01)
+    {
+        // If serptentine, ddd rows run backwards
+        uint8_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
+        return (y * MES_PIXELS_LARGEUR) + reverseX;
+    }
+    else
+    {
+        // Even rows run forwards
+        return (y * MES_PIXELS_LARGEUR) + x;
+    }
+}
+
+void setup()
+{
+    FastLED.addLeds<WS2812, MES_PIXELS_BROCHE, GRB>(mesPixels, MES_PIXELS_COMPTE);
+}
+
+void loop()
+{
+    if (monChronoPixels.hasPassed(20))
+    {
+        monChronoPixels.restart();
+
+        unsigned long time = millis() / 10;
+        
+        for (int x = 0; x < MES_PIXELS_LARGEUR; x++)
+        {
+            for (int y = 0; y < MES_PIXELS_HAUTEUR; y++)
+            {
+                int zoomX = 540;
+                int zoomY = 540;                
+                uint8_t paletteIndex = inoise8(x * zoomX, y * zoomY, time); // 0-255
+
+                CRGB color = ColorFromPalette(palette, paletteIndex, 255, LINEARBLEND);
+                mesPixels[XY(x, y, true)] = color;
+            }
+        }
+        FastLED.show();
+    }
+}
+```
