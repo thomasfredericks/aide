@@ -2164,6 +2164,19 @@
         ]
       },
       {
+        "title": "Pixels",
+        "path": "pixels",
+        "readme": false,
+        "children": [
+          {
+            "title": "Tutoriel : Bande de pixels avec un Arduino Terminals Nano R4",
+            "path": "terminals",
+            "readme": true,
+            "children": []
+          }
+        ]
+      },
+      {
         "title": "Platine",
         "path": "platine",
         "readme": false,

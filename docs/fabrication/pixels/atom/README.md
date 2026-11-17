@@ -29,14 +29,19 @@ Le câblage doit être :
 
 ```mermaid
 flowchart LR
-    A["+12V"] ->|+12V| LED["+12V"]
-    G["GND"] ->|GND| LEDG["GND"]
-    G ->|GND commun| ATG["GND"]
-    AT["GPIO26 / G26"] ->|DI| DI["DI"]
+    A["+12V"] -->|+12V| LED["+12V"]
+    G["GND"] -->|GND| LEDG["GND"]
+    G -->|GND commun| ATG["GND"]
+    AT["GPIO26 / G26"] -->|DI| DI["DI"]
 
 
-LEDG -- LED
-DI -- LED
+LEDG --> LED
+DI --> LED
+
+subgraph ATOM["Atom"]
+    AT
+    ATG
+end
 
 subgraph ALIM["Alimentation 12 V"]
     A
@@ -49,10 +54,7 @@ subgraph BANDE["Bande de DEL"]
     LEDG
 end
 
-subgraph ATOM["Atom"]
-    AT
-    ATG
-end
+
 ````
 
 Le `GND` de l’Atom et le `GND` de la bande LED doivent être **communs** afin que le signal de données ait la même référence électrique.

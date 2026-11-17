@@ -815,6 +815,11 @@
         "u": "#/tutoriels/platine/audio"
     },
     {
+        "t": "Tutoriel : Bande de pixels avec un Arduino Terminals Nano R4",
+        "l": "tutoriel  bande pixels arduino terminals nano r4",
+        "u": "#/tutoriels/pixels/terminals"
+    },
+    {
         "t": "Pure Data (Pd)",
         "l": "pure data pure data",
         "u": "#/logiciels/pd"

@@ -351,18 +351,18 @@ Activités en classe :
 
 Activités en classe :
 
-
-- *Slicer* : [OrcaSlicer](https://www.orcaslicer.com/)
+- *Slicer* : [UltiMaker CUra](https://ultimaker.com/software/ultimaker-cura/)
+	- [3D PRINTING setup on CURA Ultimaker slicer French TUTORIAL - Beginner tutorial - YouTube](https://www.youtube.com/watch?v=uHHW4FHefPQ)
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)
 		- [Creality Ender-3 V2 3D](https://www.creality.com/products/ender-3-v2-3d-printer-csco)
-- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
-	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode direct.
-- I2C :
-	- TOF.
-- Utilisation des transducteurs M5Stack :
-	- Key.
-
+- [Calendrier d’impression 3D](https://teamup.com/kssv241bbdtm1six7d)
+- [Bande de pixels](/fabrication/pixels/)
+	- [Tutoriel : Bande de pixels avec un Arduino Terminals Nano R4](/tutoriels/pixels/terminals/)
+	- [Overview | Polka Dot Electro-Swing Dress with NeoPixels | Adafruit Learning System](https://learn.adafruit.com/polka-dot-dress-with-neopixels)
+	- [Overview | Glowing Fireplace Insert with Edge-Lit Acrylic and WLED | Adafruit Learning System](https://learn.adafruit.com/glowing-fireplace-insert-with-edge-lit-acrylic-and-wled)
+	- [Overview | A NeoPixel Pomodoro Timer | Adafruit Learning System](https://learn.adafruit.com/a-neopixel-pomodoro-timer)
+	- [Overview | Wireless Control Button for WLED Projects | Adafruit Learning System](https://learn.adafruit.com/wireless-control-button-for-wled-projects?embeds=allow)
 
 ## Semaine 13 : 25 novembre
 
@@ -372,7 +372,13 @@ Activités en classe :
 
 Activités en classe :
 
-- Travail supervisé.
+- [M5Stack Unit Fader : Glissière](/fabrication/m5stack/units/fader/) : Introduction au contrôle de pixels par FastLED.
+	- Utiliser le [connecteur Grove du Arduino Terminals](/fabrication/arduino/terminals/grove/) en mode direct.
+- I2C :
+	- TOF.
+- Utilisation des transducteurs M5Stack :
+	- Key.
+
 
 ## Semaine 14 : 2 décembre
 

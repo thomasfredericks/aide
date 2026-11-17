@@ -223,7 +223,7 @@ DEFINE_GRADIENT_PALETTE(gradient){
 
     255,255,255,0       // yellow
 };
-CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
+CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 // ...
 
 void setup()
@@ -242,14 +242,14 @@ void setup()
 // `segmentPixelStart`, but only writes pixels falling in [start .. start+count-1]
 // (indices relative to the segment). Pixels outside that window are left
 // untouched
-// pixels:             the pixel array
-// palette:            the CRGBPalette16 to draw from.
-// segmentPixelStart:  strip index of the first pixel of the segment.
-// segmentPixelCount:  length of the gradient mapping (from segmentPixelStart).
-// start:              first pixel (segment-relative) to write.
-// count:              how many pixels to write (0 = none).
-// offset:             palette rotation offset.
-// invert:             true for Z-folded
+// pixels:             the pixel array
+// palette:            the CRGBPalette16 to draw from.
+// segmentPixelStart:  strip index of the first pixel of the segment.
+// segmentPixelCount:  length of the gradient mapping (from segmentPixelStart).
+// start:              first pixel (segment-relative) to write.
+// count:              how many pixels to write (0 = none).
+// offset:             palette rotation offset.
+// invert:             true for Z-folded
 void applyPalette(CRGB* pixels,const CRGBPalette16& palette,
                   int segmentPixelStart, int segmentPixelCount,
                   int start, int count,
@@ -266,8 +266,8 @@ void applyPalette(CRGB* pixels,const CRGBPalette16& palette,
     {
         int segPos = start + i;                 // position within the segment
 
-        // Written index: mirrored within the segment when inverted.
-        int writePos = invert ? segmentPixelCount - 1 - segPos : segPos;
+        // Written index: mirrored within the segment when inverted.
+        int writePos = invert ? segmentPixelCount - 1 - segPos : segPos;
 
 
         int indexPalette = (segPos * 256) / (segmentPixelCount ) + offset;

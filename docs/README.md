@@ -350,6 +350,8 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * Gml
     * [Tutoriel GML d’animation avec p5.js](/tutoriels/gml/animation/)
     * [Tutoriel GML seed avec p5.js](/tutoriels/gml/seed/)
+  * Pixels
+    * [Tutoriel : Bande de pixels avec un Arduino Terminals Nano R4](/tutoriels/pixels/terminals/)
   * Platine
     * [Tutoriel ASCII audio : Arduino, ASCII et audio dans Pd](/tutoriels/platine/audio/)
     * [Tutoriel clignotement : Arduino, platine, bouton, DEL, Chrono et Bounce2](/tutoriels/platine/clignotement/)
