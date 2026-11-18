@@ -244,7 +244,7 @@ DEFINE_GRADIENT_PALETTE(gradient){
 CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 
 // Convert X,Y to array index
-uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
+uint16_t XY(size_t x, size_t y, bool serpentine = false)
 {
     // Handle out of bounds
     if (x >= MES_PIXELS_LARGEUR || y >= MES_PIXELS_HAUTEUR)
@@ -254,7 +254,7 @@ uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
     if (serpentine && y & 0x01)
     {
         // If serptentine, ddd rows run backwards
-        uint8_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
+        size_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
         return (y * MES_PIXELS_LARGEUR) + reverseX;
     }
     else
@@ -398,7 +398,7 @@ DEFINE_GRADIENT_PALETTE(gradient){
 CRGBPalette16 palette = gradient; // Swap for any of the built-ins: PartyColors_p, HeatColors_p, OceanColors_p, ...
 
 // Convert X,Y to array index
-uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
+uint16_t XY(size_t x, size_t y, bool serpentine = false)
 {
     // Handle out of bounds
     if (x >= MES_PIXELS_LARGEUR || y >= MES_PIXELS_HAUTEUR)
@@ -408,7 +408,7 @@ uint16_t XY(uint8_t x, uint8_t y, bool serpentine = false)
     if (serpentine && y & 0x01)
     {
         // If serptentine, ddd rows run backwards
-        uint8_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
+        size_t reverseX = (MES_PIXELS_LARGEUR - 1) - x;
         return (y * MES_PIXELS_LARGEUR) + reverseX;
     }
     else
