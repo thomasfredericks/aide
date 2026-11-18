@@ -222,14 +222,18 @@ void loop()
 
 ## Exemple de palette et position XY
 
+Ici le code peut traiter les pixels sous forme d'une matrice à 2 dimensions : `MES_PIXELS_LARGEUR` pour la largeur et `MES_PIXELS_HAUTEUR` pour la hauteur. Le nombre total de pixels `MES_PIXELS_COMPTE` est calculé en multipliant `MES_PIXELS_LARGEUR` par `MES_PIXELS_HAUTEUR`.
+
+![Exemple de disposition en matrice](./matrix_wiring.webp)
+
 ```cpp
 #include <Arduino.h>
 #include <FastLED.h>
 #include <Chrono.h>
 
 #define MES_PIXELS_BROCHE 3
-#define MES_PIXELS_LARGEUR 15
-#define MES_PIXELS_HAUTEUR 2
+#define MES_PIXELS_LARGEUR 30
+#define MES_PIXELS_HAUTEUR 1
 #define MES_PIXELS_COMPTE MES_PIXELS_HAUTEUR *MES_PIXELS_LARGEUR
 CRGB mesPixels[MES_PIXELS_COMPTE];
 
@@ -371,7 +375,7 @@ void loop() {
 ```
 -->
 
-## Exemple de feu
+## Exemple d'effet de plasma avec palette et position XY
 
 ```cpp
 #include <Arduino.h>
@@ -379,8 +383,8 @@ void loop() {
 #include <Chrono.h>
 
 #define MES_PIXELS_BROCHE 3
-#define MES_PIXELS_LARGEUR 7
-#define MES_PIXELS_HAUTEUR 2
+#define MES_PIXELS_LARGEUR 30
+#define MES_PIXELS_HAUTEUR 1
 #define MES_PIXELS_COMPTE MES_PIXELS_HAUTEUR *MES_PIXELS_LARGEUR
 CRGB mesPixels[MES_PIXELS_COMPTE];
 
