@@ -1,10 +1,10 @@
-# Les bandes de pixels DEL
+# Bandes de pixels DEL / LED Strips
 
 <!-- toc -->
 
 ## Introduction
 
-Un ruban de pixels DEL regroupe plusieurs pixels pouvant être contrôlées à l’aide d’une ou deux broches. Chaque pixel est composé de plusieurs DEL, généralement une rouge, une verte et une bleue. Certains modèles intègrent également des DEL supplémentaires blanches, ambrées ou ultraviolettes. 
+Un ruban de pixels DEL, *LED Strips* en anglais, regroupe plusieurs pixels pouvant être contrôlées à l’aide d’une ou deux broches. Chaque pixel est composé de plusieurs DEL, généralement une rouge, une verte et une bleue. Certains modèles intègrent également des DEL supplémentaires blanches, ambrées ou ultraviolettes. 
 
 > [!NOTE]
 > Selon le modèle de ruban de pixels DEL, l’ordre des couleurs peut varier : RGB, GRB, BGR, etc.  
@@ -54,6 +54,10 @@ Dans l’exemple qui suit, nous utilisons un ruban DEL WS281X fonctionnant avec 
 ![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
 
 Par exemple : [connexion entre Atom et bande de pixel](./atom/).
+
+### Matrice
+
+![Disposition en matrice Z d'une bande de pixels](./matrix_wiring.webp)
 
 ### Bonnes pratiques
 
