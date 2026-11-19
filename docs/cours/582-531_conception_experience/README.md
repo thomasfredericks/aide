@@ -404,6 +404,9 @@ Activités en classe :
 			- des actions basiques disponibles pour les interacteurs ;
 			- des objets sur lesquels les actions peuvent agir ;
 			- des façons dont les interacteurs peuvent faire progresser l’expérience.
+	- [Scénarisation](/creation/interactivite/scenarisation/) 
+	- [Planification technique ](/creation/interactivite/planification/)
+	- [Démo de faisabilité](/creation/interactivite/faisabilite/)
 - Exemples :
 	- [mammouths](https://mammouths.github.io/projet/#/scenario/)
 	- [pythons-5](https://pythons-5.github.io/Terminal/#/concept/)
