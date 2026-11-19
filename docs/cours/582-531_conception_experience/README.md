@@ -393,9 +393,17 @@ Activités en classe :
 
 Activités en classe :
 
-- Activités formatives sur l’esthétique :
-	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
-- Rétroaction en interactivité.
+- Rappel du [processus de production](/creation/production/).
+- Critères du travail final.
+- Préparation :
+	- Recherche sur le thème - inspirations et références
+	- Qui sont les protagonistes ?
+	- Comment le projet progresse dans le temps ?
+	- Identification :
+	- des actions basiques disponibles pour les interacteurs ;
+	- des objets sur lesquels les actions peuvent agir ;
+	- des façons dont les interacteurs peuvent faire progresser l’expérience.
+- Identification des objectifs individuels.
 - Cartes en ligne.
 	
 ## Semaine 13 : 30 novembre / 26 novembre
@@ -407,7 +415,9 @@ Activités en classe :
 Activités en classe :
 
 - *Travail en classe*.
-- Normes esthétiques de l’équipe.
+- Activités formatives sur l’esthétique :
+	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
+- Rétroaction en interactivité.
 
 ## Semaine 14 : 6 décembre / 3 décembre
 
@@ -451,10 +461,9 @@ Des évaluations formatives sont prévues au calendrier. Elles sont sous la form
 | EVAL-1 | Analyse de projet | Séance 3 | 24 % |
 | EVAL-2 | Jeu de carte | Séance 7 | 24 % |
 | EVAL-3 | Pitch | Séance 11 | 24 % |
-| EVAL-4 | Hypothèse * | Séance 15 | 28	% |
+| EVAL-4 | Hypothèse (intégration des apprentissages) | Séance 15 | 28	% |
 | | **Total** | | **100 %** |
 
-* : intégration des apprentissages.
 
 ### Évaluation 1 : Analyse de projet
 
@@ -618,7 +627,32 @@ Savoirs essentiels et critères d’évaluation :
 | --- | --- | --- | --- | --- |
 | EVAL-4 | Exposé oral | Individuel au sein d’une équipe | Séance 15 | 28 % |
 
-Savoirs essentiels et critères d’évaluation :
+À remettre :
+
+- En groupe :
+	- [Scénarisation](/creation/interactivite/scenarisation/) 
+- Ensuite, tout le monde travaille séparément, sur le même projet :
+	- [Planification technique ](/creation/interactivite/planification/)
+	- [Démo de faisabilité](/creation/interactivite/faisabilite/)
+
+Notes : 
+
+- Technique
+	- Cacher le rectangle de la projection
+	- Rédiger la liste de l’équipement nécessaire
+	- Recherche d’exemples et de preuves techniques.
+	- Inventaire des médias 
+	- Tests des moyens techniques pour assurer la faisabilité du projet.
+- Esthétique
+	- Maquette (prototype ou *mockup* en anglais) d’une scène de jeu 
+	- Exemples de sons ponctuels
+	- Exemples d’effets
+	- Exemples d’apparition et de disparition
+	- Normes esthétiques de l’équipe
+- Programmation
+	- Utilisation d’assets temporaires (*placeholders* en anglais)
+
+Savoirs essentiels :
 
 - Correspondance aux qualités recherchées d’une création en multimédia.
 - Développer une approche pour l’équilibrage de l’expérience.
@@ -630,7 +664,6 @@ Savoirs essentiels et critères d’évaluation :
 - Adapter la conception aux contraintes de réalisation et de diffusion.
 - Documenter la faisabilité technique à l’aide d’exemples et de preuves techniques.
 - Objectif d’apprentissage : **Vérifier la faisabilité technique d’une expérience multimédia.**
-
 
 
 

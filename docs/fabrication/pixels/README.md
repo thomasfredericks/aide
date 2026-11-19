@@ -57,7 +57,7 @@ Par exemple : [connexion entre Atom et bande de pixel](./atom/).
 
 ### Matrice
 
-![Disposition en matrice Z d'une bande de pixels](./matrix_wiring.webp)
+![Disposition en matrice Z d’une bande de pixels](./matrix_wiring.webp)
 
 ### Bonnes pratiques
 

@@ -222,7 +222,7 @@ void loop()
 
 ## Exemple de palette et position XY
 
-Ici le code peut traiter les pixels sous forme d'une matrice à 2 dimensions : `MES_PIXELS_LARGEUR` pour la largeur et `MES_PIXELS_HAUTEUR` pour la hauteur. Le nombre total de pixels `MES_PIXELS_COMPTE` est calculé en multipliant `MES_PIXELS_LARGEUR` par `MES_PIXELS_HAUTEUR`.
+Ici le code peut traiter les pixels sous forme d’une matrice à 2 dimensions : `MES_PIXELS_LARGEUR` pour la largeur et `MES_PIXELS_HAUTEUR` pour la hauteur. Le nombre total de pixels `MES_PIXELS_COMPTE` est calculé en multipliant `MES_PIXELS_LARGEUR` par `MES_PIXELS_HAUTEUR`.
 
 ![Exemple de disposition en matrice](./matrix_wiring.webp)
 
@@ -375,7 +375,7 @@ void loop() {
 ```
 -->
 
-## Exemple d'effet de plasma avec palette et position XY
+## Exemple d’effet de plasma avec palette et position XY
 
 ```cpp
 #include <Arduino.h>

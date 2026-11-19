@@ -505,8 +505,8 @@
         "u": "#/fabrication/cpp/style"
     },
     {
-        "t": "Les bandes de pixels DEL",
-        "l": "bandes pixels del",
+        "t": "Bandes de pixels DEL / LED Strips",
+        "l": "bandes pixels del / led strips",
         "u": "#/fabrication/pixels"
     },
     {
@@ -630,6 +630,11 @@
         "u": "#/creation/interactivite/scenarisation"
     },
     {
+        "t": "Production > Maquettage > Technique",
+        "l": "production > maquettage > technique",
+        "u": "#/creation/interactivite/planification"
+    },
+    {
         "t": "Public cible d’interacteurs",
         "l": "public cible d’interacteurs",
         "u": "#/creation/interactivite/public"
@@ -643,6 +648,11 @@
         "t": "L’interactivité est une conversation",
         "l": "l’interactivite conversation",
         "u": "#/creation/interactivite/conversation"
+    },
+    {
+        "t": "Démo de faisabilité",
+        "l": "demo faisabilite",
+        "u": "#/creation/interactivite/faisabilite"
     },
     {
         "t": "Pecha Kucha",
@@ -673,21 +683,6 @@
         "t": "Production",
         "l": "production",
         "u": "#/creation/production"
-    },
-    {
-        "t": "Scénarisation",
-        "l": "scenarisation",
-        "u": "#/creation/production/scenarisation"
-    },
-    {
-        "t": "Production > Maquettage > Technique",
-        "l": "production > maquettage > technique",
-        "u": "#/creation/production/planification"
-    },
-    {
-        "t": "Démo de faisabilité",
-        "l": "demo faisabilite",
-        "u": "#/creation/production/faisabilite"
     },
     {
         "t": "Guide de normes graphiques",

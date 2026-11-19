@@ -352,7 +352,7 @@ Activités en classe :
 Activités en classe :
 
 - *Slicer* : [UltiMaker Cura](https://ultimaker.com/software/ultimaker-cura/)
-	- Version zip : [UltiMaker Cura Windows](https://cmontmorency365.sharepoint.com/:u:/s/TIM-TTP/IQCvVCS0kqJSQ6nQa58jUh0oAQDmnnaGMZysKN_iyR9PyHs?e=A6GyH2)
+	- Version zip : [UltiMaker Cura Windows](https://cmontmorency365.sharepoint.com/:u:/s/TIM-TTP/IQCvVCS0kqJSQ6nQa58jUh0oAQDmnnaGMZysKN_iyR9PyHs?e=A6GyH2)
 	- [3D PRINTING setup on CURA Ultimaker slicer French TUTORIAL - Beginner tutorial - YouTube](https://www.youtube.com/watch?v=uHHW4FHefPQ)
 	- Imprimantes 3D :
 		- [Anycubic Kobra Plus](https://store.anycubic.com/products/kobra-plus)

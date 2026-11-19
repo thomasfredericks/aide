@@ -21,9 +21,9 @@ timeline
     - Remue-méninges
     - Raffinement
 - Conception
-    - [Scénarisation](./scenarisation/)
-    - [Planification technique](./planification/)
-    - [Faisabilité](./faisabilite/)
+    - Scénarisation
+    - Planification technique
+    - Faisabilité
     - Maquettage
 - Réalisation
     - Création

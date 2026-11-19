@@ -209,6 +209,12 @@
             "children": []
           },
           {
+            "title": "Démo de faisabilité",
+            "path": "faisabilite",
+            "readme": true,
+            "children": []
+          },
+          {
             "title": "Interactivité : galerie",
             "path": "galerie",
             "readme": true,
@@ -217,6 +223,12 @@
           {
             "title": "Petite histoire de l’installation interactive​",
             "path": "histoire",
+            "readme": true,
+            "children": []
+          },
+          {
+            "title": "Production > Maquettage > Technique",
+            "path": "planification",
             "readme": true,
             "children": []
           },
@@ -256,26 +268,7 @@
         "title": "Production",
         "path": "production",
         "readme": true,
-        "children": [
-          {
-            "title": "Démo de faisabilité",
-            "path": "faisabilite",
-            "readme": true,
-            "children": []
-          },
-          {
-            "title": "Production > Maquettage > Technique",
-            "path": "planification",
-            "readme": true,
-            "children": []
-          },
-          {
-            "title": "Scénarisation",
-            "path": "scenarisation",
-            "readme": true,
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "title": "Visuel",
@@ -1109,7 +1102,7 @@
         "children": []
       },
       {
-        "title": "Les bandes de pixels DEL",
+        "title": "Bandes de pixels DEL / LED Strips",
         "path": "pixels",
         "readme": true,
         "children": [
