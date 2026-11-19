@@ -398,11 +398,16 @@ Activités en classe :
 - Préparation :
 	- Recherche sur le thème - inspirations et références
 	- Qui sont les protagonistes ?
-	- Comment le projet progresse dans le temps ?
-	- Identification :
-	- des actions basiques disponibles pour les interacteurs ;
-	- des objets sur lesquels les actions peuvent agir ;
-	- des façons dont les interacteurs peuvent faire progresser l’expérience.
+	- Penser à comment le projet progresse dans le temps ?
+	- Rédiger **le parcours de l'interacteur**
+		- Identification :
+			- des actions basiques disponibles pour les interacteurs ;
+			- des objets sur lesquels les actions peuvent agir ;
+			- des façons dont les interacteurs peuvent faire progresser l’expérience.
+- Exemples :
+	- [mammouths](https://mammouths.github.io/projet/#/scenario/)
+	- [pythons-5](https://pythons-5.github.io/Terminal/#/concept/)
+	- [deux-intelligence](https://deux-intelligence.github.io/deux-neurones/#/concept/)
 - Identification des objectifs individuels.
 - Cartes en ligne.
 	
@@ -634,6 +639,11 @@ Savoirs essentiels et critères d’évaluation :
 - Ensuite, tout le monde travaille séparément, sur le même projet :
 	- [Planification technique ](/creation/interactivite/planification/)
 	- [Démo de faisabilité](/creation/interactivite/faisabilite/)
+- La remise prend forme d'un site Web à partir d'un modèle :
+	- Pour l'esthétique, remettre des rendus et des captures. Une vidéo avec les éléments visuels et les sons.
+	- Pour la technique, des plans et des tableaux.
+	- Pour la programmation, une vidéo qui démontre le code.
+	- Les vidéos sont publiées sur YouTube (lien caché).
 
 Notes : 
 
