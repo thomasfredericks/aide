@@ -115,6 +115,49 @@
             "path": "doom",
             "readme": true,
             "children": []
+          },
+          {
+            "title": "Interface utilisateur",
+            "path": "iu",
+            "readme": true,
+            "children": [
+              {
+                "title": "IU : Couleur",
+                "path": "couleur",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Espacer les éléments",
+                "path": "espace",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Hiérarchie visuelle",
+                "path": "hierarchie",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Rétroaction (feedback)",
+                "path": "retroaction",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Signifiants de l’interface utilisateur",
+                "path": "signifiants",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "IU : Typographie",
+                "path": "typographie",
+                "readme": true,
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -314,49 +357,6 @@
               {
                 "title": "Exemple : Guide de normes graphiques pour cartes",
                 "path": "cartes",
-                "readme": true,
-                "children": []
-              }
-            ]
-          },
-          {
-            "title": "Iu",
-            "path": "iu",
-            "readme": false,
-            "children": [
-              {
-                "title": "IU : Couleur",
-                "path": "couleur",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "IU : Espacer les éléments",
-                "path": "espace",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "IU : Hiérarchie visuelle",
-                "path": "hierarchie",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "IU : Rétroaction (feedback)",
-                "path": "retroaction",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "IU : Signifiants de l’interface utilisateur",
-                "path": "signifiants",
-                "readme": true,
-                "children": []
-              },
-              {
-                "title": "IU : Typographie",
-                "path": "typographie",
                 "readme": true,
                 "children": []
               }

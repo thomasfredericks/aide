@@ -399,7 +399,7 @@ Activités en classe :
 	- Recherche sur le thème - inspirations et références
 	- Qui sont les protagonistes ?
 	- Penser à comment le projet progresse dans le temps ?
-	- Rédiger **le parcours de l'interacteur**
+	- Rédiger **le parcours de l’interacteur**
 		- Identification :
 			- des actions basiques disponibles pour les interacteurs ;
 			- des objets sur lesquels les actions peuvent agir ;
@@ -411,8 +411,11 @@ Activités en classe :
 	- [mammouths](https://mammouths.github.io/projet/#/scenario/)
 	- [pythons-5](https://pythons-5.github.io/Terminal/#/concept/)
 	- [deux-intelligence](https://deux-intelligence.github.io/deux-neurones/#/concept/)
-- Identification des objectifs individuels.
-- Cartes en ligne.
+- Studios :
+	- [Fiche technique des studios du département de techniques d’intégration multimédia à montmorency](https://github.com/tim-montmorency/studios)
+	- [Plan SketchUp du Studio](https://app.sketchup.com/share/tc/northAmerica/Rzhzfg6BbM4?source=web&stoken=LvDrsBw1jjo5UJUP_y-ALpNd4qTf9EniVGdpQkthgA8bOwSjjPed5eK8di_dhYBl)
+	- [cad-studios](https://github.com/tim-montmorency/cad-studios) 
+- Cartes en ligne : [theplayingcardfactory.com](https://shop.theplayingcardfactory.com/en/full-custom-deck-54-photos/)
 	
 ## Semaine 13 : 30 novembre / 26 novembre
 
@@ -422,7 +425,9 @@ Activités en classe :
 
 Activités en classe :
 
+- Identification des objectifs individuels.
 - *Travail en classe*.
+- [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)
 - Activités formatives sur l’esthétique :
 	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
 - Rétroaction en interactivité.
@@ -642,8 +647,8 @@ Savoirs essentiels et critères d’évaluation :
 - Ensuite, tout le monde travaille séparément, sur le même projet :
 	- [Planification technique ](/creation/interactivite/planification/)
 	- [Démo de faisabilité](/creation/interactivite/faisabilite/)
-- La remise prend forme d'un site Web à partir d'un modèle :
-	- Pour l'esthétique, remettre des rendus et des captures. Une vidéo avec les éléments visuels et les sons.
+- La remise prend forme d’un site Web à partir d’un modèle :
+	- Pour l’esthétique, remettre des rendus et des captures. Une vidéo avec les éléments visuels et les sons.
 	- Pour la technique, des plans et des tableaux.
 	- Pour la programmation, une vidéo qui démontre le code.
 	- Les vidéos sont publiées sur YouTube (lien caché).

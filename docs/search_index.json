@@ -530,6 +530,41 @@
         "u": "#/fabrication/meshtastic"
     },
     {
+        "t": "Interface utilisateur",
+        "l": "interface utilisateur",
+        "u": "#/creation/esthetique/iu"
+    },
+    {
+        "t": "IU : Signifiants de l’interface utilisateur",
+        "l": "interface utilisateur  signifiants l’interface utilisateur",
+        "u": "#/creation/esthetique/iu/signifiants"
+    },
+    {
+        "t": "IU : Hiérarchie visuelle",
+        "l": "interface utilisateur  hierarchie visuelle",
+        "u": "#/creation/esthetique/iu/hierarchie"
+    },
+    {
+        "t": "IU : Typographie",
+        "l": "interface utilisateur  typographie",
+        "u": "#/creation/esthetique/iu/typographie"
+    },
+    {
+        "t": "IU : Couleur",
+        "l": "interface utilisateur  couleur",
+        "u": "#/creation/esthetique/iu/couleur"
+    },
+    {
+        "t": "IU : Rétroaction (feedback)",
+        "l": "interface utilisateur  retroaction feedback",
+        "u": "#/creation/esthetique/iu/retroaction"
+    },
+    {
+        "t": "IU : Espacer les éléments",
+        "l": "interface utilisateur  espacer elements",
+        "u": "#/creation/esthetique/iu/espace"
+    },
+    {
         "t": "Esthétique et public cible de DOOM Eternal",
         "l": "esthetique public cible doom eternal",
         "u": "#/creation/esthetique/doom"
@@ -698,36 +733,6 @@
         "t": "CRAP : quatre (4) principes de design",
         "l": "crap  quatre 4 principes design",
         "u": "#/creation/visuel/crap"
-    },
-    {
-        "t": "IU : Signifiants de l’interface utilisateur",
-        "l": "interface utilisateur  signifiants l’interface utilisateur",
-        "u": "#/creation/visuel/iu/signifiants"
-    },
-    {
-        "t": "IU : Hiérarchie visuelle",
-        "l": "interface utilisateur  hierarchie visuelle",
-        "u": "#/creation/visuel/iu/hierarchie"
-    },
-    {
-        "t": "IU : Typographie",
-        "l": "interface utilisateur  typographie",
-        "u": "#/creation/visuel/iu/typographie"
-    },
-    {
-        "t": "IU : Couleur",
-        "l": "interface utilisateur  couleur",
-        "u": "#/creation/visuel/iu/couleur"
-    },
-    {
-        "t": "IU : Rétroaction (feedback)",
-        "l": "interface utilisateur  retroaction feedback",
-        "u": "#/creation/visuel/iu/retroaction"
-    },
-    {
-        "t": "IU : Espacer les éléments",
-        "l": "interface utilisateur  espacer elements",
-        "u": "#/creation/visuel/iu/espace"
     },
     {
         "t": "Marges",

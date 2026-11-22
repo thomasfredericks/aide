@@ -24,6 +24,13 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * Esthetique
     * [Banque de mots pour l’esthétique](/creation/esthetique/banque/)
     * [Esthétique et public cible de DOOM Eternal](/creation/esthetique/doom/)
+    * [Interface utilisateur](/creation/esthetique/iu/)
+      * [IU : Couleur](/creation/esthetique/iu/couleur/)
+      * [IU : Espacer les éléments](/creation/esthetique/iu/espace/)
+      * [IU : Hiérarchie visuelle](/creation/esthetique/iu/hierarchie/)
+      * [IU : Rétroaction (feedback)](/creation/esthetique/iu/retroaction/)
+      * [IU : Signifiants de l’interface utilisateur](/creation/esthetique/iu/signifiants/)
+      * [IU : Typographie](/creation/esthetique/iu/typographie/)
   * Interactivite
     * [Analyse d’une œuvre interactive](/creation/interactivite/analyse/)
     * Ateliers
@@ -57,13 +64,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
     * [CRAP : quatre (4) principes de design](/creation/visuel/crap/)
     * [Guide de normes graphiques](/creation/visuel/guide/)
       * [Exemple : Guide de normes graphiques pour cartes](/creation/visuel/guide/cartes/)
-    * Iu
-      * [IU : Couleur](/creation/visuel/iu/couleur/)
-      * [IU : Espacer les éléments](/creation/visuel/iu/espace/)
-      * [IU : Hiérarchie visuelle](/creation/visuel/iu/hierarchie/)
-      * [IU : Rétroaction (feedback)](/creation/visuel/iu/retroaction/)
-      * [IU : Signifiants de l’interface utilisateur](/creation/visuel/iu/signifiants/)
-      * [IU : Typographie](/creation/visuel/iu/typographie/)
     * [Marges](/creation/visuel/marges/)
 * Culture
   * [Activisme](/culture/activisme/)

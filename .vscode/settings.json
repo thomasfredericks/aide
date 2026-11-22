@@ -1,5 +1,6 @@
 {
     "liveServer.settings.port": 5501,
     "ltex.language": "fr",
-    "idf.pythonInstallPath": "/opt/homebrew/bin/python3"
+    "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+    "workbench.colorTheme": "Monokai"
 }
