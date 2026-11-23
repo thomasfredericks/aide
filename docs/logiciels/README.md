@@ -1,13 +1,15 @@
 # Logiciels
 
-- Visuel artistique :
+- Contrôle de source
+    - [Git](./git/)
+- Visuel artistique
     - [Affinity](https://www.affinity.studio/)
     - Adobe
-- Visuel corporatif :
+- Visuel corporatif
     - [Canva](https://www.canva.com/)
-- Design d’interface :
+- Design d’interface
     - [Figma](https://www.figma.com/)
-- 3D artistique :
+- 3D artistique
     - Maya
     - Blender
 - Audio
@@ -17,18 +19,18 @@
     - [Davinci Resolve](/logiciels/davinci_resolve)
 - Compression de médias
     - [ffmpeg](./ffmpeg/)
-- Reconnaissance de mouvement et d’image :
+- Reconnaissance de mouvement et d’image
     - [TouchDesigner](/logiciels/touchdesigner)
     - [MediaPipe](https://github.com/google-ai-edge/mediapipe)
     - [OSCMO-LIDAR](./oscmo-lidar/)
     - [kinect-ndi-cpp pour Kinect V1](./kinect-ndi-cpp/)
-- Traitement de l’image :
+- Traitement de l’image
     - [OBS](/logiciels/obs)
-- Plans 3D à l’échelle :
+- Plans 3D à l’échelle
     - [SketchUp](https://app.sketchup.com/)
 - Synoptique :
     - [draw.io](https://www.drawio.com/)
-- Interopérabilité :
+- Interopérabilité
     - [Pd](/logiciels/pd)
     - [Max](/logiciels/max)
 - Interactivité écran/canevas
@@ -36,6 +38,7 @@
     - Godot
     - [p5.js](/logiciels/p5js)
     - [three.js](/logiciels/threejs)
+    - [node.js](/logiciels/nodejs)
 - Capteurs et actionneurs
     - Carte compatible [Arduino](/fabrication/arduino)
     - [PlatformIO](/fabrication/platformio)
@@ -43,10 +46,16 @@
     - [Brave](/logiciels/brave)
 - Éclairage
     - [QLC+](https://www.qlcplus.org/)
+    - [Hyper HDR](/logiciels/hyperhdr/)
 - Contrôle à distance des projecteurs
-    - [gd-pjlink](./gd-pjlink/)
+    - [gd-pjlink](/logiciels/gd-pjlink/)
 - Contrôle à distance d'un ordinateur
-    - [VNC](./vnc/)
-    - [Gamestream](./gamestream/)
+    - [VNC](/logiciels/vnc/)
+    - [Gamestream](/logiciels/gamestream/)
 - Systèmes d'opération
-    - [Raspberry Pi](./rpi/)
+    - [Raspberry Pi](/logiciels/rpi/)
+    - [Windows](/logiciels/windows/)
+- Performances audiovisuelles
+    - [Live-coding](./live-coding/)
+- Téléphones intelligents en tant que contrôleurs
+    - [ngrok](/logiciels/ngrok/)
