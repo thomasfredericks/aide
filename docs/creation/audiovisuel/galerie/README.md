@@ -2,36 +2,42 @@
 
 <!-- toc -->
 
-## Synesthésie
+## Visuel sonore
 
-- [Watch Soviet Avant-Garde Composers Create Synthesized Music with Hand-Drawn Animations (1934)](https://www.openculture.com/2016/10/watch-soviet-avant-garde-composers-create-synthesizer-music-with-hand-drawn-animations-1934.html)
-- VASSILY KANDINSKY - [Sounds Like Kandinsky — Google Arts & Culture](https://artsandculture.google.com/project/kandinsky)
-- [Oscillon 40 | Laposky, Ben | V&A Explore The Collections](https://collections.vam.ac.uk/item/O187634/oscillon-40-photograph-laposky-ben/)
-- [An Optical Poem - Oskar Fischinger (1938) - YouTube](https://www.youtube.com/watch?v=wsM9wnrQvuQ)
-- [1930s Electronic Music With Animation 4K Restoration "Paper Sound" Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=Mmejo9WL2gY)
-- [1930"s Electronic Music - Prelude by Rachmaninov - YouTube](https://www.youtube.com/watch?v=yIR3pCgqb5o)
-- [John Whitney-Matrix III (1972) - YouTube](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
+- Avant-garde russe :
+    - [Watch Soviet Avant-Garde Composers Create Synthesized Music with Hand-Drawn Animations (1934)](https://www.openculture.com/2016/10/watch-soviet-avant-garde-composers-create-synthesizer-music-with-hand-drawn-animations-1934.html)
+     - [1930s Electronic Music With Animation 4K Restoration "Paper Sound" Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=Mmejo9WL2gY)
+    - [1930's Electronic Music - Rachmaninov - Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=yIR3pCgqb5o)
+     -  [Light Music Studio "Prometheus", Kazan, USSR, TV Documentary - YouTube](https://www.youtube.com/watch?v=Gl5RUmS3_do)
+- Synesthésie :
+    - VASSILY KANDINSKY - [Sounds Like Kandinsky — Google Arts & Culture](https://artsandculture.google.com/project/kandinsky)
+- Image synchronisée au son
+    - [An Optical Poem - Oskar Fischinger (1938) - YouTube](https://www.youtube.com/watch?v=wsM9wnrQvuQ)
+    - [John Whitney-Matrix III (1972) - YouTube](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
 - Norman McLaren
     - [Norman McLaren : musicien animé - ONF](https://www.onf.ca/film/norman_mclaren_musicien_anime/)
     - [À la pointe de la plume - ONF](https://www.onf.ca/film/a_la_pointe_de_la_plume/)
     - [Synchromie - ONF](https://www.onf.ca/film/synchromie/)
     - [Points - ONF](https://www.onf.ca/film/points/)
 - Oscilloscope Music
+     - [Oscillon 40 | Laposky, Ben | V&A Explore The Collections](https://collections.vam.ac.uk/item/O187634/oscillon-40-photograph-laposky-ben/)
     - [Laserwaves - Jellybean Fenderson](https://www.youtube.com/watch?v=xDcjye1wL60)
     - [This is Music On An Oscilloscope - (Drawing with Sound) - Smarter Every Day 224 - YouTube](https://www.youtube.com/watch?v=4gibcRfp4zA)
     - [Drawing with sound - Oscilloscopes (Part I) - YouTube](https://www.youtube.com/watch?v=OsOcpm7eEl4)
     - [Drawing with sound, Oscilloscope & Modular lecture by Bernhard Rasinger and Václav Peloušek - YouTube](https://www.youtube.com/watch?v=Atwzx9TRd3Y)
 - Conversion brute
+    - [Aphex Twin Spectogram](https://youtu.be/wSYAZnQmffg?t=306)
     - [pix_sig2pix~ jam - YouTube](https://www.youtube.com/watch?v=5uF_bL3AxH0)
     - [Alva Noto "Hadron Prototype" A L’ARME! Festival 2020 - YouTube](https://www.youtube.com/watch?v=PR8CRGI6oC4)
 - Glitch
     - [Datamosh Short Example - YouTube](https://www.youtube.com/watch?v=VEerMwhVAaQ)
     - [Comment ça se danse un glitch ? | Gymnastique, la culture en s’amusant | ARTE - YouTube](https://www.youtube.com/watch?v=tJtSvZPmu0w)
     - [home | glitch.cool](https://www.glitch.cool/)
--  [Light Music Studio "Prometheus", Kazan, USSR, TV Documentary - YouTube](https://www.youtube.com/watch?v=Gl5RUmS3_do)
+
 
 ## Live A/V
 
+   
 - [3D visuals arrive in Ableton Live, easy as synths, with Unreal-powered SenSei - CDM Create Digital Music](https://cdm.link/3d-visuals-ableton-live-unreal-powered-sensei/)
 - [(PDF) Principles of Visual Design for Computer Music](https://www.researchgate.net/publication/265162871_Principles_of_Visual_Design_for_Computer_Music)
 - [Live PHYSICAL Performance - YouTube](https://www.youtube.com/watch?v=MSN-TQGQSec)
