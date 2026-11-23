@@ -397,6 +397,7 @@ Activités en classe :
 - Critères du travail final.
 - Préparation :
 	- Recherche sur le thème - inspirations et références
+	- Rappel sur les [logiciels](/logiciels)
 	- Qui sont les protagonistes ?
 	- Penser à comment le projet progresse dans le temps ?
 	- Rédiger **le parcours de l’interacteur**
@@ -425,7 +426,10 @@ Activités en classe :
 
 Activités en classe :
 
-- Identification des objectifs individuels.
+- Le projet :
+	- Identification des objectifs individuels
+	- Comment le projet s’adapte de un à plusieurs interacteurs
+	- Rappel sur les [logiciels](/logiciels)
 - *Travail en classe*.
 - [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)
 - Activités formatives sur l’esthétique :

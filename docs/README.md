@@ -198,9 +198,9 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * Theorie_Des_Jeux
     * [Dilemme du prisonnier](/jeu/theorie_des_jeux/dilemne_prisonnier/)
   * [Jeu Wonder Wander](/jeu/wonder_wander/)
-* Logiciels
+* [Logiciels](/logiciels/)
   * [Brave](/logiciels/brave/)
-  * Davinci_Resolve
+  * [Davinci Resolve](/logiciels/davinci_resolve/)
     * [Effets dans Davinci Resolve](/logiciels/davinci_resolve/effets/)
   * [FFmpeg](/logiciels/ffmpeg/)
     * [Codec AV1 avec FFmpeg](/logiciels/ffmpeg/av1/)
@@ -215,7 +215,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * [Contrôleur de bandes de pixels HyperHDR](/logiciels/hyperhdr/)
   * [kinect-ndi-cpp pour Kinect V1](/logiciels/kinect-ndi-cpp/)
   * [Live-Coding](/logiciels/live-coding/)
-  * Max
+  * [Cycling ’74 Max](/logiciels/max/)
     * [Réception série ASCII dans Max](/logiciels/max/ascii/)
     * Osc
       * [Max : Relais OSC SLIP ⇄ UDP](/logiciels/max/osc/relais/)
@@ -223,7 +223,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * [Tunnel réseau ngrok](/logiciels/ngrok/)
   * Nodejs
     * [OSC SLIP : Node.js](/logiciels/nodejs/osc/)
-  * Obs
+  * [OBS](/logiciels/obs/)
     * [OBS : Mapping](/logiciels/obs/mapping/)
     * [Navigateur dans OBS](/logiciels/obs/source_web/)
     * [Spout dans OBS](/logiciels/obs/spout/)
@@ -243,6 +243,9 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Pd : OSC SLIP](/logiciels/pd/osc/slip/)
       * [Pd : OSC UDP](/logiciels/pd/osc/udp/)
     * [pdchoco](/logiciels/pd/pdchoco/)
+    * Plugdata
+      * [Copier-coller avec Pd](/logiciels/pd/plugdata/copier-coller/)
+      * [Introduction à plugdata](/logiciels/pd/plugdata/introduction/)
     * [Communication sérielle dans Pure Data](/logiciels/pd/serie/)
       * [Pd : ASCII sérielle](/logiciels/pd/serie/ascii/)
       * [Pd : comport](/logiciels/pd/serie/comport/)
@@ -255,11 +258,8 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Pd : Établir une relation proportionnelle](/logiciels/pd/traitement/proportion/)
       * [Attendre un certain temps avant d’activer](/logiciels/pd/traitement/retarder/)
     * [WebSockets dans Pd](/logiciels/pd/websocket/)
-  * Plugdata
-    * [Copier-coller avec Pd](/logiciels/plugdata/copier-coller/)
-    * [Introduction à plugdata](/logiciels/plugdata/introduction/)
   * [Contrôleur éclairage QLC+](/logiciels/qlc+/)
-  * Reaper
+  * [Reaper](/logiciels/reaper/)
     * Compression
       * [Compresseur et limiteur sur la piste Master](/logiciels/reaper/compression/limiteur/)
       * [Compression *sidechain* dans Reaper](/logiciels/reaper/compression/sidechain/)
@@ -277,9 +277,9 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Reaper : contrôle d’un plugiciel par OSC](/logiciels/reaper/plugiciel/osc/)
     * [Virtual MIDI Keyboard](/logiciels/reaper/virtual_midi_keyboard/)
   * [Raspberry Pi](/logiciels/rpi/)
-  * Threejs
+  * [Three.js](/logiciels/threejs/)
     * [Fond transparent avec Three.js](/logiciels/threejs/fond_transparent/)
-  * Touchdesigner
+  * [TouchDesigner](/logiciels/touchdesigner/)
     * [TouchDesigner : Aspect](/logiciels/touchdesigner/aspect/)
     * Audio
       * [TouchDesigner : Mixer de l’audio](/logiciels/touchdesigner/audio/mixer/)
@@ -325,7 +325,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
     * [Unity : Traitement de messages](/logiciels/unity/traitement/)
       * [Unity : Traitement d’un changement](/logiciels/unity/traitement/changement/)
       * [Unity : Traitement proportionnel](/logiciels/unity/traitement/proportion/)
-  * Vcv_Rack
+  * [VCV Rack](/logiciels/vcv_rack/)
     * [VCV Rack : OSC UDP](/logiciels/vcv_rack/osc/)
     * Patchs
       * [Baleines](/logiciels/vcv_rack/patchs/baleines/)

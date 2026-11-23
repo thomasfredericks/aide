@@ -1213,7 +1213,7 @@
   {
     "title": "Logiciels",
     "path": "logiciels",
-    "readme": false,
+    "readme": true,
     "children": [
       {
         "title": "Brave",
@@ -1224,7 +1224,7 @@
       {
         "title": "Davinci Resolve",
         "path": "davinci_resolve",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "Effets dans Davinci Resolve",
@@ -1317,9 +1317,9 @@
         "children": []
       },
       {
-        "title": "Max",
+        "title": "Cycling ’74 Max",
         "path": "max",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "Réception série ASCII dans Max",
@@ -1368,9 +1368,9 @@
         ]
       },
       {
-        "title": "Obs",
+        "title": "OBS",
         "path": "obs",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "OBS : Mapping",
@@ -1491,6 +1491,25 @@
             "children": []
           },
           {
+            "title": "Plugdata",
+            "path": "plugdata",
+            "readme": false,
+            "children": [
+              {
+                "title": "Copier-coller avec Pd",
+                "path": "copier-coller",
+                "readme": true,
+                "children": []
+              },
+              {
+                "title": "Introduction à plugdata",
+                "path": "introduction",
+                "readme": true,
+                "children": []
+              }
+            ]
+          },
+          {
             "title": "Communication sérielle dans Pure Data",
             "path": "serie",
             "readme": true,
@@ -1567,25 +1586,6 @@
         ]
       },
       {
-        "title": "Plugdata",
-        "path": "plugdata",
-        "readme": false,
-        "children": [
-          {
-            "title": "Copier-coller avec Pd",
-            "path": "copier-coller",
-            "readme": true,
-            "children": []
-          },
-          {
-            "title": "Introduction à plugdata",
-            "path": "introduction",
-            "readme": true,
-            "children": []
-          }
-        ]
-      },
-      {
         "title": "Contrôleur éclairage QLC+",
         "path": "qlc+",
         "readme": true,
@@ -1594,7 +1594,7 @@
       {
         "title": "Reaper",
         "path": "reaper",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "Compression",
@@ -1705,9 +1705,9 @@
         "children": []
       },
       {
-        "title": "Threejs",
+        "title": "Three.js",
         "path": "threejs",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "Fond transparent avec Three.js",
@@ -1718,9 +1718,9 @@
         ]
       },
       {
-        "title": "Touchdesigner",
+        "title": "TouchDesigner",
         "path": "touchdesigner",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "TouchDesigner : Aspect",
@@ -2005,9 +2005,9 @@
         ]
       },
       {
-        "title": "Vcv Rack",
+        "title": "VCV Rack",
         "path": "vcv_rack",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "VCV Rack : OSC UDP",

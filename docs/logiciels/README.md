@@ -1,0 +1,39 @@
+# Logiciels
+
+- Visuel artistique :
+    - [Affinitty](https://www.affinity.studio/)
+    - Adobe
+- Vsuel corporatif :
+    - [Canva](https://www.canva.com/)
+- Design d’interface :
+    - [Figma](https://www.figma.com/)
+- 3D artistique :
+    - Maya
+    - Blender
+- Audio
+    - [Reaper](/logiciels/reaper)
+    - [VCV Rack](/logiciels/vcv_rack)
+- Vidéo
+    - [Davinci Resolve](/logiciels/davinci_resolve)
+- Reconnaissance de mouvement et d’image :
+    - [TouchDesigner](/logiciels/touchdesigner)
+    - [MediaPipe](https://github.com/google-ai-edge/mediapipe)
+- Traitement de l’image :
+    - [OBS](/logiciels/obs)
+- Plans 3D à l’échelle :
+    - [SketchUp](https://app.sketchup.com/)
+- Synoptique :
+    - [draw.io](https://www.drawio.com/)
+- Interopérabilité :
+    - [Pd](/logiciels/pd)
+    - [Max](/logiciels/max)
+- Interactivité écran/canevas
+    - [Unity](/logiciels/unity)
+    - Godot
+    - [p5.js](/logiciels/p5js)
+    - [three.js](/logiciels/threejs)
+- Capteurs et actionneurs
+    - Carte compatible [Arduino](/fabrication/arduino)
+    - [PlatformIO](/fabrication/platformio)
+- Navigateur
+    - [Brave](/logiciels/brave)

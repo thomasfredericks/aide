@@ -820,6 +820,11 @@
         "u": "#/tutoriels/pixels/terminals"
     },
     {
+        "t": "Logiciels",
+        "l": "logiciels",
+        "u": "#/logiciels"
+    },
+    {
         "t": "Pure Data (Pd)",
         "l": "pure data pure data",
         "u": "#/logiciels/pd"
@@ -883,6 +888,16 @@
         "t": "Pd : Lecture de fichiers audio avec Pdchoco",
         "l": "pure data  lecture fichiers audio pdchoco",
         "u": "#/logiciels/pd/audio/fichiers"
+    },
+    {
+        "t": "Copier-coller avec Pd",
+        "l": "copier-coller pure data",
+        "u": "#/logiciels/pd/plugdata/copier-coller"
+    },
+    {
+        "t": "Introduction à plugdata",
+        "l": "introduction plugdata",
+        "u": "#/logiciels/pd/plugdata/introduction"
     },
     {
         "t": "Mesurer la durée",
@@ -1040,6 +1055,11 @@
         "u": "#/logiciels/oscmo-lidar"
     },
     {
+        "t": "VCV Rack",
+        "l": "vcv rack",
+        "u": "#/logiciels/vcv_rack"
+    },
+    {
         "t": "VCV Rack : OSC UDP",
         "l": "vcv rack  open sound control udp",
         "u": "#/logiciels/vcv_rack/osc"
@@ -1078,6 +1098,11 @@
         "t": "Brave",
         "l": "brave",
         "u": "#/logiciels/brave"
+    },
+    {
+        "t": "TouchDesigner",
+        "l": "touchdesigner",
+        "u": "#/logiciels/touchdesigner"
     },
     {
         "t": "Spout dans TouchDesigner",
@@ -1200,6 +1225,11 @@
         "u": "#/logiciels/touchdesigner/git"
     },
     {
+        "t": "Cycling ’74 Max",
+        "l": "cycling ’74 max",
+        "u": "#/logiciels/max"
+    },
+    {
         "t": "Réception série ASCII dans Max",
         "l": "reception serie ascii max",
         "u": "#/logiciels/max/ascii"
@@ -1213,6 +1243,11 @@
         "t": "Max : Relais OSC SLIP ⇄ UDP",
         "l": "max  relais open sound control slip ⇄ udp",
         "u": "#/logiciels/max/osc/relais"
+    },
+    {
+        "t": "OBS",
+        "l": "obs",
+        "u": "#/logiciels/obs"
     },
     {
         "t": "Navigateur dans OBS",
@@ -1240,14 +1275,9 @@
         "u": "#/logiciels/qlc+"
     },
     {
-        "t": "Copier-coller avec Pd",
-        "l": "copier-coller pure data",
-        "u": "#/logiciels/plugdata/copier-coller"
-    },
-    {
-        "t": "Introduction à plugdata",
-        "l": "introduction plugdata",
-        "u": "#/logiciels/plugdata/introduction"
+        "t": "Davinci Resolve",
+        "l": "davinci resolve",
+        "u": "#/logiciels/davinci_resolve"
     },
     {
         "t": "Effets dans Davinci Resolve",
@@ -1258,6 +1288,11 @@
         "t": "Manette de projecteurs : gd-pjlink",
         "l": "manette projecteurs  gd-pjlink",
         "u": "#/logiciels/gd-pjlink"
+    },
+    {
+        "t": "Reaper",
+        "l": "reaper",
+        "u": "#/logiciels/reaper"
     },
     {
         "t": "Reaper : Configuration",
@@ -1363,6 +1398,11 @@
         "t": "Ajout d’un projet à un dépôt Git",
         "l": "ajout d’un projet depot git",
         "u": "#/logiciels/git/ajout"
+    },
+    {
+        "t": "Three.js",
+        "l": "three.js",
+        "u": "#/logiciels/threejs"
     },
     {
         "t": "Fond transparent avec Three.js",
