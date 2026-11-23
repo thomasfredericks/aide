@@ -15,9 +15,13 @@
     - [VCV Rack](/logiciels/vcv_rack)
 - Vidéo
     - [Davinci Resolve](/logiciels/davinci_resolve)
+- Compression de médias
+    - [ffmpeg](./ffmpeg/)
 - Reconnaissance de mouvement et d’image :
     - [TouchDesigner](/logiciels/touchdesigner)
     - [MediaPipe](https://github.com/google-ai-edge/mediapipe)
+    - [OSCMO-LIDAR](./oscmo-lidar/)
+    - [kinect-ndi-cpp pour Kinect V1](./kinect-ndi-cpp/)
 - Traitement de l’image :
     - [OBS](/logiciels/obs)
 - Plans 3D à l’échelle :
@@ -39,3 +43,10 @@
     - [Brave](/logiciels/brave)
 - Éclairage
     - [QLC+](https://www.qlcplus.org/)
+- Contrôle à distance des projecteurs
+    - [gd-pjlink](./gd-pjlink/)
+- Contrôle à distance d'un ordinateur
+    - [VNC](./vnc/)
+    - [Gamestream](./gamestream/)
+- Systèmes d'opération
+    - [Raspberry Pi](./rpi/)
