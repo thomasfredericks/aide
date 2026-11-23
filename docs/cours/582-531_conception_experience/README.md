@@ -427,15 +427,26 @@ Activités en classe :
 Activités en classe :
 
 - Le projet :
-	- Identification des objectifs individuels
 	- Comment le projet s’adapte de un à plusieurs interacteurs ?
 	- Pourquoi est-ce que le projet est original ?
 	- Rappel sur les [logiciels](/logiciels)
+	- Identification des objectifs individuels
+	- Technique :
+		- Synoptique
+		- Plan
+		- Équipements et logiciels 
+		- Budget
+	- Esthétique :
+		- [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)
+		- [Concept art](https://conceptartworld.com/news/exclusive-look-at-concept-art-for-backrooms-2026-by-brett-macdonald/)
+		- Démonstration d'intégration
+		- *Soundboard* (ambiances et sons ponctuels)
+	- Programmation
 - *Travail en classe*.
-- [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)
-- Activités formatives sur l’esthétique :
+
+<!-- - Activités formatives sur l’esthétique :
 	- *Hues*, *Telestrations* et *A game about WEE WHIMSICAL CREATURES and trying to identify them after someone makes noises.*
-- Rétroaction en interactivité.
+- Rétroaction en interactivité. -->
 
 ## Semaine 14 : 6 décembre / 3 décembre
 
