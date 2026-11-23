@@ -1,4 +1,4 @@
-# MIDI et plugins
+# Reaper : Contrôle par MIDI d’un plugiciel
 
 ## MIDI Link : Lier un MIDI CC à un paramètre d’un plugiciel
 

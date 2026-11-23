@@ -4,31 +4,15 @@
 
 ```mermaid
 timeline
-    title Schéma des étapes de production
-    Idéation   : Remue-méninges
+    Idéation   : Pitch
+               : Remue-méninges
                : Raffinement
     Maquettage : Sénarisation
                : Planification technique
                : Faisabilité
-    Réalisation   : Création
+    Réalisation   : Réalisation des médias finaux
                   : Assemblage
                   : Démo / Prototype
     Opération  : Contrôle de la qualité
                : Diffusion
 ```
-
-- Idéation
-    - Remue-méninges
-    - Raffinement
-- Conception
-    - Scénarisation
-    - Planification technique
-    - Faisabilité
-    - Maquettage
-- Réalisation
-    - Création
-    - Assemblage
-    - Démo / Prototype
-- Opération
-    - Qualité
-    - Présentation

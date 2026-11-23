@@ -1,4 +1,4 @@
-# TouchDesigner : Mixer de l’audio
+# TouchDesigner :Mélanger (mixer) deux signaux audio
 
 `OP` utilisé :
 - `Math CHOP`

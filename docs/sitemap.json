@@ -1328,9 +1328,9 @@
             "children": []
           },
           {
-            "title": "Osc",
+            "title": "Max : OSC",
             "path": "osc",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Max : Relais OSC SLIP ⇄ UDP",
@@ -1597,9 +1597,9 @@
         "readme": true,
         "children": [
           {
-            "title": "Compression",
+            "title": "Reaper : Compression",
             "path": "compression",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Compresseur et limiteur sur la piste Master",
@@ -1628,9 +1628,9 @@
             "children": []
           },
           {
-            "title": "Osc",
+            "title": "Reaper : OSC",
             "path": "osc",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Activer l’OSC dans Reaper",
@@ -1644,12 +1644,6 @@
                 "readme": true,
                 "children": [
                   {
-                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
-                    "path": "VMK",
-                    "readme": true,
-                    "children": []
-                  },
-                  {
                     "title": "Reaper OSC default_pattern : général",
                     "path": "general",
                     "readme": true,
@@ -1660,30 +1654,30 @@
                     "path": "piste",
                     "readme": true,
                     "children": []
+                  },
+                  {
+                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
+                    "path": "VMK",
+                    "readme": true,
+                    "children": []
                   }
                 ]
-              },
-              {
-                "title": "Exemples",
-                "path": "exemples",
-                "readme": false,
-                "children": []
               }
             ]
           },
           {
-            "title": "Plugiciel",
+            "title": "Reaper : Plugiciels (plugins)",
             "path": "plugiciel",
-            "readme": false,
+            "readme": true,
             "children": [
               {
-                "title": "MIDI et plugins",
+                "title": "Reaper : Contrôle par MIDI d’un plugiciel",
                 "path": "midi",
                 "readme": true,
                 "children": []
               },
               {
-                "title": "Reaper : contrôle d’un plugiciel par OSC",
+                "title": "Reaper : Contrôle par OSC d’un plugiciel",
                 "path": "osc",
                 "readme": true,
                 "children": []
@@ -1729,12 +1723,12 @@
             "children": []
           },
           {
-            "title": "Audio",
+            "title": "TouchDesigner : Audio",
             "path": "audio",
-            "readme": false,
+            "readme": true,
             "children": [
               {
-                "title": "TouchDesigner : Mixer de l’audio",
+                "title": "TouchDesigner :Mélanger (mixer) deux signaux audio",
                 "path": "mixer",
                 "readme": true,
                 "children": []
@@ -1778,9 +1772,9 @@
             "children": []
           },
           {
-            "title": "Osc",
+            "title": "Reaper : OSC",
             "path": "osc",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "Envoi OSC dans TouchDesigner",
@@ -1803,9 +1797,9 @@
             "children": []
           },
           {
-            "title": "Python",
+            "title": "TD : Python",
             "path": "python",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "TD : Aide mémoire Python",
@@ -1883,9 +1877,9 @@
             ]
           },
           {
-            "title": "Video",
+            "title": "TD : Vidéo",
             "path": "video",
-            "readme": false,
+            "readme": true,
             "children": [
               {
                 "title": "TouchDesigner : Lecture d’une vidéo par index",

@@ -7,7 +7,7 @@
 - Avant-garde russe :
     - [Watch Soviet Avant-Garde Composers Create Synthesized Music with Hand-Drawn Animations (1934)](https://www.openculture.com/2016/10/watch-soviet-avant-garde-composers-create-synthesizer-music-with-hand-drawn-animations-1934.html)
      - [1930s Electronic Music With Animation 4K Restoration "Paper Sound" Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=Mmejo9WL2gY)
-    - [1930's Electronic Music - Rachmaninov - Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=yIR3pCgqb5o)
+    - [1930’s Electronic Music - Rachmaninov - Nikolai Voinov - YouTube](https://www.youtube.com/watch?v=yIR3pCgqb5o)
      -  [Light Music Studio "Prometheus", Kazan, USSR, TV Documentary - YouTube](https://www.youtube.com/watch?v=Gl5RUmS3_do)
 - Synesthésie :
     - VASSILY KANDINSKY - [Sounds Like Kandinsky — Google Arts & Culture](https://artsandculture.google.com/project/kandinsky)

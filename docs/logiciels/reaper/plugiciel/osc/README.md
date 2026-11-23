@@ -1,5 +1,5 @@
 
-# Reaper : contrôle d’un plugiciel par OSC
+# Reaper : Contrôle par OSC d’un plugiciel
 
 ## Préalable(s)
 
