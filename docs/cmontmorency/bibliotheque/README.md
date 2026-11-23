@@ -2,6 +2,14 @@
 
 Bibliographie sélective d’ouvrages disponibles à la bibliothèque du collège Montmorency.
 
+## Œuvres multimédias
+
+- [Deciban / chdh](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=275044)
+- [Les chaînes de Markov / Andrée-Anne Roussel](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=289058)
+- [La femme dans la chambre / Andrée-Anne Roussel](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=289059)
+- [Spin / Jean Piché](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=286165)
+- [Island / une expérience de réalité virtuelle signée Olivia Mc Gilchrist et David Corbett](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=289076)
+
 ## Audio
 
 - [Designing sound](https://cmontmorency.koha.collecto.ca/cgi-bin/koha/opac-detail.pl?biblionumber=302988&data=05)

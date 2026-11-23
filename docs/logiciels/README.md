@@ -1,9 +1,9 @@
 # Logiciels
 
 - Visuel artistique :
-    - [Affinitty](https://www.affinity.studio/)
+    - [Affinity](https://www.affinity.studio/)
     - Adobe
-- Vsuel corporatif :
+- Visuel corporatif :
     - [Canva](https://www.canva.com/)
 - Design d’interface :
     - [Figma](https://www.figma.com/)
@@ -37,3 +37,5 @@
     - [PlatformIO](/fabrication/platformio)
 - Navigateur
     - [Brave](/logiciels/brave)
+- Éclairage
+    - [QLC+](https://www.qlcplus.org/)
