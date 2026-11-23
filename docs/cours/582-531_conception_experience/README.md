@@ -428,7 +428,8 @@ Activités en classe :
 
 - Le projet :
 	- Identification des objectifs individuels
-	- Comment le projet s’adapte de un à plusieurs interacteurs
+	- Comment le projet s’adapte de un à plusieurs interacteurs ?
+	- Pourquoi est-ce que le projet est original ?
 	- Rappel sur les [logiciels](/logiciels)
 - *Travail en classe*.
 - [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)

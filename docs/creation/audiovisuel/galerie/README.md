@@ -4,6 +4,7 @@
 
 ## Synesthésie
 
+- [Watch Soviet Avant-Garde Composers Create Synthesized Music with Hand-Drawn Animations (1934)](https://www.openculture.com/2016/10/watch-soviet-avant-garde-composers-create-synthesizer-music-with-hand-drawn-animations-1934.html)
 - VASSILY KANDINSKY - [Sounds Like Kandinsky — Google Arts & Culture](https://artsandculture.google.com/project/kandinsky)
 - [Oscillon 40 | Laposky, Ben | V&A Explore The Collections](https://collections.vam.ac.uk/item/O187634/oscillon-40-photograph-laposky-ben/)
 - [An Optical Poem - Oskar Fischinger (1938) - YouTube](https://www.youtube.com/watch?v=wsM9wnrQvuQ)
