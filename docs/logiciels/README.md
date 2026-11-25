@@ -12,6 +12,10 @@
 - 3D artistique
     - Maya
     - Blender
+- 3D de solides (pour impression 3D)
+    - [TinkerCAD](https://www.tinkercad.com)
+    - [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/)
+    - [O]rcaSlicer](https://www.orcaslicer.com/)
 - Audio
     - [Reaper](/logiciels/reaper)
     - [VCV Rack](/logiciels/vcv_rack)
@@ -49,13 +53,13 @@
     - [Hyper HDR](/logiciels/hyperhdr/)
 - Contrôle à distance des projecteurs
     - [gd-pjlink](/logiciels/gd-pjlink/)
-- Contrôle à distance d'un ordinateur
+- Contrôle à distance d’un ordinateur
     - [VNC](/logiciels/vnc/)
     - [Gamestream](/logiciels/gamestream/)
-- Systèmes d'opération
+- Systèmes d’opération
     - [Raspberry Pi](/logiciels/rpi/)
     - [Windows](/logiciels/windows/)
-- Performances audiovisuelles
+- Performance audiovisuelle
     - [Live-coding](./live-coding/)
 - Téléphones intelligents en tant que contrôleurs
     - [ngrok](/logiciels/ngrok/)

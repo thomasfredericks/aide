@@ -1254,7 +1254,7 @@
         "children": []
       },
       {
-        "title": "Manette de projecteurs : gd-pjlink",
+        "title": "Télécommande à distance des projecteurs : gd-pjlink",
         "path": "gd-pjlink",
         "readme": true,
         "children": []
@@ -1355,9 +1355,9 @@
         "children": []
       },
       {
-        "title": "Nodejs",
+        "title": "Node.js",
         "path": "nodejs",
-        "readme": false,
+        "readme": true,
         "children": [
           {
             "title": "OSC SLIP : Node.js",
@@ -1586,12 +1586,6 @@
         ]
       },
       {
-        "title": "Contrôleur éclairage QLC+",
-        "path": "qlc+",
-        "readme": true,
-        "children": []
-      },
-      {
         "title": "Reaper",
         "path": "reaper",
         "readme": true,
@@ -1644,6 +1638,12 @@
                 "readme": true,
                 "children": [
                   {
+                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
+                    "path": "VMK",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
                     "title": "Reaper OSC default_pattern : général",
                     "path": "general",
                     "readme": true,
@@ -1654,14 +1654,14 @@
                     "path": "piste",
                     "readme": true,
                     "children": []
-                  },
-                  {
-                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
-                    "path": "VMK",
-                    "readme": true,
-                    "children": []
                   }
                 ]
+              },
+              {
+                "title": "Exemples",
+                "path": "exemples",
+                "readme": false,
+                "children": []
               }
             ]
           },
@@ -2045,20 +2045,13 @@
       {
         "title": "Windows",
         "path": "windows",
-        "readme": false,
+        "readme": true,
         "children": [
           {
-            "title": "Clavier",
-            "path": "clavier",
-            "readme": false,
-            "children": [
-              {
-                "title": "Clavier États-Unis international dans Windows",
-                "path": "us_international",
-                "readme": true,
-                "children": []
-              }
-            ]
+            "title": "Clavier États-Unis international dans Windows",
+            "path": "clavier_us_int",
+            "readme": true,
+            "children": []
           }
         ]
       }

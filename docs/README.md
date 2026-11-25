@@ -205,7 +205,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * [FFmpeg](/logiciels/ffmpeg/)
     * [Codec AV1 avec FFmpeg](/logiciels/ffmpeg/av1/)
   * [GameStream](/logiciels/gamestream/)
-  * [Manette de projecteurs : gd-pjlink](/logiciels/gd-pjlink/)
+  * [Télécommande à distance des projecteurs : gd-pjlink](/logiciels/gd-pjlink/)
   * [Git](/logiciels/git/)
     * [Ajout d’un projet à un dépôt Git](/logiciels/git/ajout/)
     * [Configuration de l’identité Git](/logiciels/git/configuration/)
@@ -221,7 +221,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Max : Relais OSC SLIP ⇄ UDP](/logiciels/max/osc/relais/)
       * [OSC UDP : Cycling "74 Max](/logiciels/max/osc/udp/)
   * [Tunnel réseau ngrok](/logiciels/ngrok/)
-  * Nodejs
+  * [Node.js](/logiciels/nodejs/)
     * [OSC SLIP : Node.js](/logiciels/nodejs/osc/)
   * [OBS](/logiciels/obs/)
     * [OBS : Mapping](/logiciels/obs/mapping/)
@@ -258,7 +258,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Pd : Établir une relation proportionnelle](/logiciels/pd/traitement/proportion/)
       * [Attendre un certain temps avant d’activer](/logiciels/pd/traitement/retarder/)
     * [WebSockets dans Pd](/logiciels/pd/websocket/)
-  * [Contrôleur éclairage QLC+](/logiciels/qlc+/)
   * [Reaper](/logiciels/reaper/)
     * [Reaper : Compression](/logiciels/reaper/compression/)
       * [Compresseur et limiteur sur la piste Master](/logiciels/reaper/compression/limiteur/)
@@ -271,6 +270,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * [Reaper : Plugiciels (plugins)](/logiciels/reaper/plugiciel/)
       * [Reaper : Contrôle par MIDI d’un plugiciel](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : Contrôle par OSC d’un plugiciel](/logiciels/reaper/plugiciel/osc/)
@@ -331,9 +331,8 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Bulles](/logiciels/vcv_rack/patchs/bulles/)
       * [«Tape Warble»](/logiciels/vcv_rack/patchs/tape_warble/)
   * [VNC](/logiciels/vnc/)
-  * Windows
-    * Clavier
-      * [Clavier États-Unis international dans Windows](/logiciels/windows/clavier/us_international/)
+  * [Windows](/logiciels/windows/)
+    * [Clavier États-Unis international dans Windows](/logiciels/windows/clavier_us_int/)
 * Materiel
   * [Haut-parleurs Genelec](/materiel/genelec/)
   * [Oak](/materiel/oak/)

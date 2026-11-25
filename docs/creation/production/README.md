@@ -9,8 +9,8 @@ timeline
                : Raffinement
     Maquettage : Sénarisation
                : Planification technique
-               : « Concept art »
-               : « Soundboard »
+               : « Concept art »
+               : « Soundboard »
                : Faisabilité 
     Réalisation   : Réalisation des médias finaux
                   : Assemblage

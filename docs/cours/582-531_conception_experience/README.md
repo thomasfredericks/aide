@@ -439,7 +439,7 @@ Activités en classe :
 	- Esthétique :
 		- [Interface utilisateur (IU ou *UI* en anglais)](/creation/esthetique/iu/)
 		- [Concept art](https://conceptartworld.com/news/exclusive-look-at-concept-art-for-backrooms-2026-by-brett-macdonald/)
-		- Démonstration d'intégration
+		- Démonstration d’intégration
 		- *Soundboard* (ambiances et sons ponctuels)
 	- Programmation
 - *Travail en classe*.
