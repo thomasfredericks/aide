@@ -11,7 +11,8 @@
 | [Grove Hub](./grove_hub/) | [Unit Hub](https://docs.m5stack.com/en/unit/hub) | Connecteur | Permet de relier 3 modules I2C (qui sont reconnaissables à leur connecteur rouge) à 1 connecteur d’un microcontrôleur M5Stack. **Utiliser uniquement pour des modules I2C**|
 | [Key](./key/) | [Unit Key](https://docs.m5stack.com/en/unit/key) | Capteur numérique + pixel | Fonctionne très bien |
 | [Light](./light/) | [Unit Light](https://docs.m5stack.com/en/unit/LIGHT) | Capteur analogique | Fonctionne très bien |
-| [Pb.Hub](./pbhub/) | [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1) | I2C | Permet de brancher jusqu’à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur noir). Fonctionne passablement. **Cependant**, ne permet pas d’activer le mode `INPUT_PULLUP` des broches. **Bogue majeur** : la version 1.1 du PbHub ne permet de contrôler plus qu’unun seul pixel par canal (plutôt qu’un nombre arbitraire). **Non recommandé** |
+| [Pb.Hub](./pbhub/) | [Unit PbHub v1.1](https://docs.m5stack.com/en/unit/pbhub_1.1) | I2C | Permet de brancher jusqu’à 6 capteurs numériques ou analogiques (reconnaissables par leur connecteur noir). Fonctionne passablement. **Cependant**, ne permet pas d’activer le mode `INPUT_PULLUP` des broches. **Bogue majeur** : la version 1.1 du PbHub ne permet de contrôler plus qu’un seul pixel par canal (plutôt qu’un nombre arbitraire). **Non recommandé** |
+| [Pa.Hub](./pahub/) | [Unit PaHub v2,0](https://docs.m5stack.com/en/unit/Unit_PaHub_v2.0) | I2C | Permet de brancher jusqu’à 6 capteurs I2C/Wire |
 | [TOF](./tof/) | [Unit ToF](https://docs.m5stack.com/en/unit/TOF) | I2C | Fonctionne mieux en mode continu (le mode non continu est lent) |
 | Gesture | [Unit Gesture](https://docs.m5stack.com/en/unit/Gesture) | I2C | Jamais réussi à faire fonctionner. **Non recommandé** |
 | QR Code | [Unit QRCode](https://docs.m5stack.com/en/unit/Unit-QRCode) | I2C | Fonctionne bien |
