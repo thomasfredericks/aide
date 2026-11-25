@@ -177,6 +177,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
       * [Grove Hub](/fabrication/m5stack/units/grove_hub/)
       * [M5Stack Key Unit](/fabrication/m5stack/units/key/)
       * [M5Stack Light Unit](/fabrication/m5stack/units/light/)
+      * [M5Stack PaHub Unit](/fabrication/m5stack/units/pahub/)
       * [M5Stack PbHub Unit](/fabrication/m5stack/units/pbhub/)
       * [M5Stack Unit TOF](/fabrication/m5stack/units/tof/)
   * [Meshtastic](/fabrication/meshtastic/)
@@ -270,7 +271,6 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
-      * Exemples
     * [Reaper : Plugiciels (plugins)](/logiciels/reaper/plugiciel/)
       * [Reaper : Contrôle par MIDI d’un plugiciel](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : Contrôle par OSC d’un plugiciel](/logiciels/reaper/plugiciel/osc/)
