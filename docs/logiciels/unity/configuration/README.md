@@ -5,6 +5,6 @@ Voici les modifications suggérées à la configuration de Unity :
 - [Unity : Bonnes pratiques Git](../git/)
 - [Unity : Exécution en arrière-plan](../execution_arriere-plan/)
 - [Unity : Configuration pour Visual Studio Code](./vscode/)
-- Arrêt du jeu lors de la compilation :
-![](./stop_on_complile.webp)
+- [Unity : Arrêt du jeu lors de la compilation](./stop)
+
 
