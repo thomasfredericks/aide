@@ -1365,6 +1365,11 @@
         "u": "#/logiciels/unity/configuration"
     },
     {
+        "t": "Unity : Configuration pour Visual Studio Code",
+        "l": "unity  configuration visual studio code",
+        "u": "#/logiciels/unity/configuration/vscode"
+    },
+    {
         "t": "Unity : Exécution en arrière-plan",
         "l": "unity  execution arriere-plan",
         "u": "#/logiciels/unity/execution_arriere-plan"

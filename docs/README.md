@@ -310,6 +310,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * [Unity](/logiciels/unity/)
     * [Unity : Colliders](/logiciels/unity/colliders/)
     * [Unity : Configuration](/logiciels/unity/configuration/)
+      * [Unity : Configuration pour Visual Studio Code](/logiciels/unity/configuration/vscode/)
     * [Unity : Exécution en arrière-plan](/logiciels/unity/execution_arriere-plan/)
     * [Unity : Bonnes pratiques Git](/logiciels/unity/git/)
     * [Unity : OSC](/logiciels/unity/osc/)

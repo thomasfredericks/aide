@@ -1906,7 +1906,14 @@
             "title": "Unity : Configuration",
             "path": "configuration",
             "readme": true,
-            "children": []
+            "children": [
+              {
+                "title": "Unity : Configuration pour Visual Studio Code",
+                "path": "vscode",
+                "readme": true,
+                "children": []
+              }
+            ]
           },
           {
             "title": "Unity : Exécution en arrière-plan",
