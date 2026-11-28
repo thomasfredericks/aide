@@ -49,6 +49,11 @@ Le 15 août 2025, Sam Altman (PDG d’OpenAI) a reconnu que nous traversons actu
   - [Boffins probe commercial AI models, find Harry Potter • The Register](https://www.theregister.com/2026/01/09/boffins_probe_commercial_ai_models/)
   - [How AI Jailbreaks Expose LLMs Reciting Harry Potter and the Limits of Fair Use | by Coby Mendoza | Jan, 2026 | Artificial Intelligence in Plain English](https://ai.plainenglish.io/how-ai-jailbreaks-expose-llms-reciting-harry-potter-and-the-limits-of-fair-use-dddb31d8fab9)
 
+## Disparition des artistes
+
+![BD de Pan Cooke https://substack.com/@pancooke/note/c-395539528](./stealing_artists_from_us.webp)
+
+
 ## Communauté
 
 - [Vibe Coding Is Killing Open Source Software, Researchers Argue](https://www.404media.co/vibe-coding-is-killing-open-source-software-researchers-argue/)

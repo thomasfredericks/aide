@@ -1644,6 +1644,12 @@
                 "readme": true,
                 "children": [
                   {
+                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
+                    "path": "VMK",
+                    "readme": true,
+                    "children": []
+                  },
+                  {
                     "title": "Reaper OSC default_pattern : général",
                     "path": "general",
                     "readme": true,
@@ -1654,14 +1660,14 @@
                     "path": "piste",
                     "readme": true,
                     "children": []
-                  },
-                  {
-                    "title": "Reaper OSC default_pattern : Virtual MIDI Keyboard",
-                    "path": "VMK",
-                    "readme": true,
-                    "children": []
                   }
                 ]
+              },
+              {
+                "title": "Exemples",
+                "path": "exemples",
+                "readme": false,
+                "children": []
               }
             ]
           },
@@ -1907,6 +1913,12 @@
             "path": "configuration",
             "readme": true,
             "children": [
+              {
+                "title": "Unity : Arrêt du jeu lors de la compilation",
+                "path": "stop",
+                "readme": true,
+                "children": []
+              },
               {
                 "title": "Unity : Configuration pour Visual Studio Code",
                 "path": "vscode",

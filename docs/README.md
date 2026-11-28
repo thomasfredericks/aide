@@ -271,6 +271,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
         * [Reaper OSC default_pattern : général](/logiciels/reaper/osc/defaut/general/)
         * [Reaper OSC default_pattern : piste](/logiciels/reaper/osc/defaut/piste/)
         * [Reaper OSC default_pattern : Virtual MIDI Keyboard](/logiciels/reaper/osc/defaut/VMK/)
+      * Exemples
     * [Reaper : Plugiciels (plugins)](/logiciels/reaper/plugiciel/)
       * [Reaper : Contrôle par MIDI d’un plugiciel](/logiciels/reaper/plugiciel/midi/)
       * [Reaper : Contrôle par OSC d’un plugiciel](/logiciels/reaper/plugiciel/osc/)
@@ -310,6 +311,7 @@ Ce site de documentation a été réalisé par Thomas O Fredericks. Vous pouvez 
   * [Unity](/logiciels/unity/)
     * [Unity : Colliders](/logiciels/unity/colliders/)
     * [Unity : Configuration](/logiciels/unity/configuration/)
+      * [Unity : Arrêt du jeu lors de la compilation](/logiciels/unity/configuration/stop/)
       * [Unity : Configuration pour Visual Studio Code](/logiciels/unity/configuration/vscode/)
     * [Unity : Exécution en arrière-plan](/logiciels/unity/execution_arriere-plan/)
     * [Unity : Bonnes pratiques Git](/logiciels/unity/git/)
